@@ -1,0 +1,27 @@
+{
+  "id": "Docusaurus/create-a-page",
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/Docusaurus/create-a-page.md",
+  "sourceDirName": "Docusaurus",
+  "slug": "/Docusaurus/create-a-page",
+  "permalink": "/docs/Docusaurus/create-a-page",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Docusaurus/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus",
+    "permalink": "/docs/category/docusaurus"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/Docusaurus/create-a-document"
+  }
+}

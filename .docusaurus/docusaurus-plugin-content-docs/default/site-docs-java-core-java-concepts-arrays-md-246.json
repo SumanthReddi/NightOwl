@@ -1,0 +1,27 @@
+{
+  "id": "Java/Core Java Concepts/Arrays",
+  "title": "Arrays",
+  "description": "",
+  "source": "@site/docs/Java/Core Java Concepts/Arrays.md",
+  "sourceDirName": "Java/Core Java Concepts",
+  "slug": "/Java/Core Java Concepts/Arrays",
+  "permalink": "/docs/Java/Core Java Concepts/Arrays",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/Arrays.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Control-Flow",
+    "permalink": "/docs/Java/Core Java Concepts/Control-Flow"
+  },
+  "next": {
+    "title": "Strings",
+    "permalink": "/docs/Java/Core Java Concepts/Strings"
+  }
+}

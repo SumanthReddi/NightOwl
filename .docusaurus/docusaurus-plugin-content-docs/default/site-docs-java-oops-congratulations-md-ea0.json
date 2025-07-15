@@ -1,0 +1,27 @@
+{
+  "id": "Java/oops/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Java/oops/congratulations.md",
+  "sourceDirName": "Java/oops",
+  "slug": "/Java/oops/congratulations",
+  "permalink": "/docs/Java/oops/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/oops/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - OOPS",
+    "permalink": "/docs/category/tutorial---oops"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/Java/create-a-blog-post"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Java/Exception Handling/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Java/Exception Handling/congratulations.md",
+  "sourceDirName": "Java/Exception Handling",
+  "slug": "/Java/Exception Handling/congratulations",
+  "permalink": "/docs/Java/Exception Handling/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Exception Handling/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exception Handling",
+    "permalink": "/docs/category/exception-handling"
+  },
+  "next": {
+    "title": "Multithreading",
+    "permalink": "/docs/category/multithreading"
+  }
+}

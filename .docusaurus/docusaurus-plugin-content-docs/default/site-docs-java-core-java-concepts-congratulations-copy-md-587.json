@@ -1,0 +1,27 @@
+{
+  "id": "Java/Core Java Concepts/congratulations copy",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Java/Core Java Concepts/congratulations copy.md",
+  "sourceDirName": "Java/Core Java Concepts",
+  "slug": "/Java/Core Java Concepts/congratulations copy",
+  "permalink": "/docs/Java/Core Java Concepts/congratulations copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/congratulations copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Java Concepts",
+    "permalink": "/docs/category/core-java-concepts"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/Java/Core Java Concepts/congratulations"
+  }
+}

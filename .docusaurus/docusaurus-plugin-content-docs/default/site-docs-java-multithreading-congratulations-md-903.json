@@ -1,0 +1,27 @@
+{
+  "id": "Java/Multithreading/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Java/Multithreading/congratulations.md",
+  "sourceDirName": "Java/Multithreading",
+  "slug": "/Java/Multithreading/congratulations",
+  "permalink": "/docs/Java/Multithreading/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Multithreading/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multithreading",
+    "permalink": "/docs/category/multithreading"
+  },
+  "next": {
+    "title": "Miscellaneous Concepts",
+    "permalink": "/docs/category/miscellaneous-concepts"
+  }
+}

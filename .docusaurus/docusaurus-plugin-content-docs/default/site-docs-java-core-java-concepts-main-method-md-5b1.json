@@ -1,0 +1,27 @@
+{
+  "id": "Java/Core Java Concepts/Main-Method",
+  "title": "Main-Method",
+  "description": "",
+  "source": "@site/docs/Java/Core Java Concepts/Main-Method.md",
+  "sourceDirName": "Java/Core Java Concepts",
+  "slug": "/Java/Core Java Concepts/Main-Method",
+  "permalink": "/docs/Java/Core Java Concepts/Main-Method",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/Main-Method.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Packages",
+    "permalink": "/docs/Java/Core Java Concepts/Packages"
+  },
+  "next": {
+    "title": "Operators",
+    "permalink": "/docs/Java/Core Java Concepts/Operators"
+  }
+}

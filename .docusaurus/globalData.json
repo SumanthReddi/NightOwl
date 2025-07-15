@@ -1,0 +1,228 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "Docusaurus/congratulations",
+              "path": "/docs/Docusaurus/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus/create-a-blog-post",
+              "path": "/docs/Docusaurus/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus/create-a-document",
+              "path": "/docs/Docusaurus/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus/create-a-page",
+              "path": "/docs/Docusaurus/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus/create-oops",
+              "path": "/docs/Docusaurus/create-oops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus/deploy-your-site",
+              "path": "/docs/Docusaurus/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus/markdown-features",
+              "path": "/docs/Docusaurus/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/congratulations",
+              "path": "/docs/Git/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Collections Framework/congratulations",
+              "path": "/docs/Java/Collections Framework/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Arrays",
+              "path": "/docs/Java/Core Java Concepts/Arrays",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/congratulations",
+              "path": "/docs/Java/Core Java Concepts/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Control-Flow",
+              "path": "/docs/Java/Core Java Concepts/Control-Flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Data-Types",
+              "path": "/docs/Java/Core Java Concepts/Data-Types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Introduction",
+              "path": "/docs/Java/Core Java Concepts/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Main-Method",
+              "path": "/docs/Java/Core Java Concepts/Main-Method",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Operators",
+              "path": "/docs/Java/Core Java Concepts/Operators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Packages",
+              "path": "/docs/Java/Core Java Concepts/Packages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Strings",
+              "path": "/docs/Java/Core Java Concepts/Strings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Core Java Concepts/Variables",
+              "path": "/docs/Java/Core Java Concepts/Variables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Exception Handling/congratulations",
+              "path": "/docs/Java/Exception Handling/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Miscellaneous Concepts/congratulations",
+              "path": "/docs/Java/Miscellaneous Concepts/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Multithreading/congratulations",
+              "path": "/docs/Java/Multithreading/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Object-Oriented Programming (OOP)/congratulations",
+              "path": "/docs/Java/Object-Oriented Programming (OOP)/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium Grid/congratulations",
+              "path": "/docs/Selenium Grid/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/manage-docs-versions",
+              "path": "/docs/Selenium/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/translate-your-site",
+              "path": "/docs/Selenium/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/congratulations",
+              "path": "/docs/TestNG/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/java",
+              "path": "/docs/category/java",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/core-java-concepts",
+              "path": "/docs/category/core-java-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/object-oriented-programming-oop",
+              "path": "/docs/category/object-oriented-programming-oop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/collections-framework",
+              "path": "/docs/category/collections-framework",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/exception-handling",
+              "path": "/docs/category/exception-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/multithreading",
+              "path": "/docs/category/multithreading",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/miscellaneous-concepts",
+              "path": "/docs/category/miscellaneous-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/selenium",
+              "path": "/docs/category/selenium",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/testng",
+              "path": "/docs/category/testng",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/git",
+              "path": "/docs/category/git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/selenium-grid",
+              "path": "/docs/category/selenium-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docusaurus",
+              "path": "/docs/category/docusaurus",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

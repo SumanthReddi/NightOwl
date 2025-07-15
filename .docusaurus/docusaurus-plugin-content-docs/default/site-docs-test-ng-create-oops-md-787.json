@@ -1,0 +1,20 @@
+{
+  "id": "TestNG/create-oops",
+  "title": "create-oops",
+  "description": "",
+  "source": "@site/docs/TestNG/create-oops.md",
+  "sourceDirName": "TestNG",
+  "slug": "/TestNG/create-oops",
+  "permalink": "/docs/TestNG/create-oops",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/TestNG/create-oops.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/TestNG/congratulations"
+  }
+}

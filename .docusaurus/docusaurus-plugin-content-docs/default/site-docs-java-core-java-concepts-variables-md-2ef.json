@@ -1,0 +1,27 @@
+{
+  "id": "Java/Core Java Concepts/Variables",
+  "title": "Variables",
+  "description": "",
+  "source": "@site/docs/Java/Core Java Concepts/Variables.md",
+  "sourceDirName": "Java/Core Java Concepts",
+  "slug": "/Java/Core Java Concepts/Variables",
+  "permalink": "/docs/Java/Core Java Concepts/Variables",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/Variables.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data-Types",
+    "permalink": "/docs/Java/Core Java Concepts/Data-Types"
+  },
+  "next": {
+    "title": "Control-Flow",
+    "permalink": "/docs/Java/Core Java Concepts/Control-Flow"
+  }
+}
