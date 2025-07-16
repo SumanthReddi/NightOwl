@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/Java/Core Java Concepts/congratulations"
+    "title": "Strings",
+    "permalink": "/docs/Java/Core Java Concepts/Strings"
   },
   "next": {
     "title": "Main-Method",

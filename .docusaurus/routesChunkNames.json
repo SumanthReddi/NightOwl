@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-73e": {
+  "/docs-c59": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-74a": {
+  "/docs-b92": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-b8c": {
+  "/docs-eeb": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/collections-framework-ac7": {
@@ -353,10 +353,6 @@
   "/docs/Java/Core Java Concepts/Arrays-b90": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-core-java-concepts-arrays-246-30d"
-  },
-  "/docs/Java/Core Java Concepts/congratulations-16f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-congratulations-6-c-7-57e"
   },
   "/docs/Java/Core Java Concepts/Control-Flow-3b9": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -1,7 +1,7 @@
 {
   "id": "Java/Core Java Concepts/Strings",
   "title": "Strings",
-  "description": "",
+  "description": "📌 What is a String in Java?",
   "source": "@site/docs/Java/Core Java Concepts/Strings.md",
   "sourceDirName": "Java/Core Java Concepts",
   "slug": "/Java/Core Java Concepts/Strings",
@@ -21,7 +21,7 @@
     "permalink": "/docs/Java/Core Java Concepts/Arrays"
   },
   "next": {
-    "title": "Congratulations!",
-    "permalink": "/docs/Java/Core Java Concepts/congratulations"
+    "title": "Packages",
+    "permalink": "/docs/Java/Core Java Concepts/Packages"
   }
 }

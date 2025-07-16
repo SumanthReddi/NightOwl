@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '73e'),
+    component: ComponentCreator('/docs', 'c59'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '74a'),
+        component: ComponentCreator('/docs', 'b92'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'b8c'),
+            component: ComponentCreator('/docs', 'eeb'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -259,12 +259,6 @@ export default [
               {
                 path: '/docs/Java/Core Java Concepts/Arrays',
                 component: ComponentCreator('/docs/Java/Core Java Concepts/Arrays', 'b90'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Core Java Concepts/congratulations',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/congratulations', '16f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

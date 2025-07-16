@@ -66,11 +66,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/congratulations",
-              "path": "/docs/Java/Core Java Concepts/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Java/Core Java Concepts/Control-Flow",
               "path": "/docs/Java/Core Java Concepts/Control-Flow",
               "sidebar": "tutorialSidebar"
