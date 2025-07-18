@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Automation Testing Notes",
+  "tagline": "Automate Everything !",
   "favicon": "img/favicon.ico",
   "future": {
     "v4": {
@@ -73,7 +73,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Home",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -84,11 +84,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Tutorial"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -136,7 +131,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Sumanth Reddy , Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
