@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c59'),
+    component: ComponentCreator('/docs', 'fda'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b92'),
+        component: ComponentCreator('/docs', '9b4'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'eeb'),
+            component: ComponentCreator('/docs', '590'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -175,6 +175,12 @@ export default [
               {
                 path: '/docs/category/object-oriented-programming-oop',
                 component: ComponentCreator('/docs/category/object-oriented-programming-oop', '1ac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/python',
+                component: ComponentCreator('/docs/category/python', '493'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -331,6 +337,78 @@ export default [
               {
                 path: '/docs/Java/Object-Oriented Programming (OOP)/congratulations',
                 component: ComponentCreator('/docs/Java/Object-Oriented Programming (OOP)/congratulations', '57d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Control Flow',
+                component: ComponentCreator('/docs/Python/Control Flow', '146'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Data Structures',
+                component: ComponentCreator('/docs/Python/Data Structures', '63e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Error Handling',
+                component: ComponentCreator('/docs/Python/Error Handling', '4da'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/File Handling',
+                component: ComponentCreator('/docs/Python/File Handling', '4f0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Functions and Scopes',
+                component: ComponentCreator('/docs/Python/Functions and Scopes', '608'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Intermediate Python Concepts',
+                component: ComponentCreator('/docs/Python/Intermediate Python Concepts', '9d4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Modules and Packages',
+                component: ComponentCreator('/docs/Python/Modules and Packages', 'd80'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Object-Oriented Programming',
+                component: ComponentCreator('/docs/Python/Object-Oriented Programming', '982'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Operators and Expressions',
+                component: ComponentCreator('/docs/Python/Operators and Expressions', '30d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Python Basics',
+                component: ComponentCreator('/docs/Python/Python Basics', '482'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Pythonic Features and Best Practices',
+                component: ComponentCreator('/docs/Python/Pythonic Features and Best Practices', '52a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Python/Web & API Basics',
+                component: ComponentCreator('/docs/Python/Web & API Basics', '77f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

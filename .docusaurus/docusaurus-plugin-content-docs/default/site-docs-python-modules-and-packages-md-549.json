@@ -1,0 +1,27 @@
+{
+  "id": "Python/Modules and Packages",
+  "title": "Modules and Packages",
+  "description": "1. What is a Module?",
+  "source": "@site/docs/Python/Modules and Packages.md",
+  "sourceDirName": "Python",
+  "slug": "/Python/Modules and Packages",
+  "permalink": "/docs/Python/Modules and Packages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Python/Modules and Packages.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Python Concepts",
+    "permalink": "/docs/Python/Intermediate Python Concepts"
+  },
+  "next": {
+    "title": "Web & API Basics",
+    "permalink": "/docs/Python/Web & API Basics"
+  }
+}

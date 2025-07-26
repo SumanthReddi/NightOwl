@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-c59": {
+  "/docs-fda": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-b92": {
+  "/docs-9b4": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-eeb": {
+  "/docs-590": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/collections-framework-ac7": {
@@ -297,6 +297,10 @@
   "/docs/category/object-oriented-programming-oop-1ac": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-object-oriented-programming-oop-7-c-2-6c8"
+  },
+  "/docs/category/python-493": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-python-48-f-c2d"
   },
   "/docs/category/selenium-321": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -401,6 +405,54 @@
   "/docs/Java/Object-Oriented Programming (OOP)/congratulations-57d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-object-oriented-programming-oop-congratulations-9-f-9-9c8"
+  },
+  "/docs/Python/Control Flow-146": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-control-flow-1-c-2-025"
+  },
+  "/docs/Python/Data Structures-63e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-data-structurese-4-b-06b"
+  },
+  "/docs/Python/Error Handling-4da": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-error-handlinge-6-d-08f"
+  },
+  "/docs/Python/File Handling-4f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-file-handling-887-42e"
+  },
+  "/docs/Python/Functions and Scopes-608": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-functions-and-scopes-08-d-620"
+  },
+  "/docs/Python/Intermediate Python Concepts-9d4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-intermediate-python-conceptse-19-3bd"
+  },
+  "/docs/Python/Modules and Packages-d80": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-modules-and-packages-549-1ef"
+  },
+  "/docs/Python/Object-Oriented Programming-982": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-object-oriented-programming-804-3ee"
+  },
+  "/docs/Python/Operators and Expressions-30d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-operators-and-expressions-888-1e7"
+  },
+  "/docs/Python/Python Basics-482": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-python-basicsb-0-a-741"
+  },
+  "/docs/Python/Pythonic Features and Best Practices-52a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-pythonic-features-and-best-practices-876-223"
+  },
+  "/docs/Python/Web & API Basics-77f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-web-api-basicscfa-744"
   },
   "/docs/Selenium Grid/congratulations-608": {
     "__comp": "__comp---theme-doc-item-178-a40",

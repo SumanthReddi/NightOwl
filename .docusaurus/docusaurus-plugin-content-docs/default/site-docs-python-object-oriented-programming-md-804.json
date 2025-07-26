@@ -1,0 +1,27 @@
+{
+  "id": "Python/Object-Oriented Programming",
+  "title": "Object-Oriented Programming",
+  "description": "1. Introduction to OOP",
+  "source": "@site/docs/Python/Object-Oriented Programming.md",
+  "sourceDirName": "Python",
+  "slug": "/Python/Object-Oriented Programming",
+  "permalink": "/docs/Python/Object-Oriented Programming",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Python/Object-Oriented Programming.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error Handling",
+    "permalink": "/docs/Python/Error Handling"
+  },
+  "next": {
+    "title": "Intermediate Python Concepts",
+    "permalink": "/docs/Python/Intermediate Python Concepts"
+  }
+}

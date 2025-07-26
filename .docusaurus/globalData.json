@@ -126,6 +126,66 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Python/Control Flow",
+              "path": "/docs/Python/Control Flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Data Structures",
+              "path": "/docs/Python/Data Structures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Error Handling",
+              "path": "/docs/Python/Error Handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/File Handling",
+              "path": "/docs/Python/File Handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Functions and Scopes",
+              "path": "/docs/Python/Functions and Scopes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Intermediate Python Concepts",
+              "path": "/docs/Python/Intermediate Python Concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Modules and Packages",
+              "path": "/docs/Python/Modules and Packages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Object-Oriented Programming",
+              "path": "/docs/Python/Object-Oriented Programming",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Operators and Expressions",
+              "path": "/docs/Python/Operators and Expressions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Python Basics",
+              "path": "/docs/Python/Python Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Pythonic Features and Best Practices",
+              "path": "/docs/Python/Pythonic Features and Best Practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Python/Web & API Basics",
+              "path": "/docs/Python/Web & API Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium Grid/congratulations",
               "path": "/docs/Selenium Grid/congratulations",
               "sidebar": "tutorialSidebar"
@@ -193,6 +253,11 @@
             {
               "id": "/category/git",
               "path": "/docs/category/git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/python",
+              "path": "/docs/category/python",
               "sidebar": "tutorialSidebar"
             },
             {

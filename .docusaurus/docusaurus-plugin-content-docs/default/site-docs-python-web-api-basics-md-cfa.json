@@ -1,0 +1,27 @@
+{
+  "id": "Python/Web & API Basics",
+  "title": "Web & API Basics",
+  "description": "1. What is an API?",
+  "source": "@site/docs/Python/Web & API Basics.md",
+  "sourceDirName": "Python",
+  "slug": "/Python/Web & API Basics",
+  "permalink": "/docs/Python/Web & API Basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Python/Web & API Basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modules and Packages",
+    "permalink": "/docs/Python/Modules and Packages"
+  },
+  "next": {
+    "title": "Pythonic Features and Best Practices",
+    "permalink": "/docs/Python/Pythonic Features and Best Practices"
+  }
+}

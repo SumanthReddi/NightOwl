@@ -1,0 +1,27 @@
+{
+  "id": "Python/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Python/congratulations.md",
+  "sourceDirName": "Python",
+  "slug": "/Python/congratulations",
+  "permalink": "/docs/Python/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Python/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "File Handling and Exceptions",
+    "permalink": "/docs/Python/File Handling and Exceptions"
+  },
+  "next": {
+    "title": "Error Handling",
+    "permalink": "/docs/Python/Error Handling"
+  }
+}

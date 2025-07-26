@@ -1,0 +1,27 @@
+{
+  "id": "Python/Error Handling",
+  "title": "Error Handling",
+  "description": "1. Why Handle Errors?",
+  "source": "@site/docs/Python/Error Handling.md",
+  "sourceDirName": "Python",
+  "slug": "/Python/Error Handling",
+  "permalink": "/docs/Python/Error Handling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Python/Error Handling.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "File Handling",
+    "permalink": "/docs/Python/File Handling"
+  },
+  "next": {
+    "title": "Object-Oriented Programming",
+    "permalink": "/docs/Python/Object-Oriented Programming"
+  }
+}

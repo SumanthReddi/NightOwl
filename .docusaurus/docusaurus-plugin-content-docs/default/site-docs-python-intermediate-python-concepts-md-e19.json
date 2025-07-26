@@ -1,0 +1,27 @@
+{
+  "id": "Python/Intermediate Python Concepts",
+  "title": "Intermediate Python Concepts",
+  "description": "1. Lambda Functions",
+  "source": "@site/docs/Python/Intermediate Python Concepts.md",
+  "sourceDirName": "Python",
+  "slug": "/Python/Intermediate Python Concepts",
+  "permalink": "/docs/Python/Intermediate Python Concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Python/Intermediate Python Concepts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Object-Oriented Programming",
+    "permalink": "/docs/Python/Object-Oriented Programming"
+  },
+  "next": {
+    "title": "Modules and Packages",
+    "permalink": "/docs/Python/Modules and Packages"
+  }
+}

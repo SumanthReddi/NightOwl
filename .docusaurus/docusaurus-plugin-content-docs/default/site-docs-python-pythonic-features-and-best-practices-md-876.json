@@ -1,0 +1,27 @@
+{
+  "id": "Python/Pythonic Features and Best Practices",
+  "title": "Pythonic Features and Best Practices",
+  "description": "1. List Comprehensions",
+  "source": "@site/docs/Python/Pythonic Features and Best Practices.md",
+  "sourceDirName": "Python",
+  "slug": "/Python/Pythonic Features and Best Practices",
+  "permalink": "/docs/Python/Pythonic Features and Best Practices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Python/Pythonic Features and Best Practices.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web & API Basics",
+    "permalink": "/docs/Python/Web & API Basics"
+  },
+  "next": {
+    "title": "Selenium Grid",
+    "permalink": "/docs/category/selenium-grid"
+  }
+}
