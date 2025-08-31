@@ -351,10 +351,3 @@ If you need dynamic size, prefer `ArrayList`.
 - They offer fast access but have size limitations.
 - Understanding arrays builds foundation for mastering **collections**, **data structures**, and **algorithms**.
 
----
-
-## 📘 See Also
-
-- `java.util.ArrayList`
-- `System.arraycopy()`
-- `java.util.Arrays` class
