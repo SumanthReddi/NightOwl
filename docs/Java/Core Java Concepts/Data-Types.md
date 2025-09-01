@@ -5,13 +5,13 @@ sidebar_position: 2
 
 <!-- # add everything in markdown -->
 
-Here is an **all-inclusive explanation of Java data types**. The details cover primitive and non-primitive (reference) types with tables, notes, and code samples.
+<!-- Here is an **all-inclusive explanation of Java data types**. The details cover primitive and non-primitive (reference) types with tables, notes, and code samples.
 
 ***
 
 <!-- # Java Data Types -->
 
-## Overview
+<!-- ## Overview -->
 
 Java supports **two categories** of data types:
 

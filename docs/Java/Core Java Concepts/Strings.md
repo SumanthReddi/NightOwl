@@ -4,7 +4,7 @@ sidebar_position: 6
 
 <!-- # 📘 Java Strings - Complete Notes -->
 
-## 📌 What is a String in Java?
+<!-- ## 📌 What is a String in Java? -->
 
 In Java, a **String** is a **sequence of characters**. Strings are **immutable** objects, meaning once created, their values cannot be changed.
 

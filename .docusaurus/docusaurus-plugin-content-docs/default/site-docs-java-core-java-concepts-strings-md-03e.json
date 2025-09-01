@@ -1,7 +1,7 @@
 {
   "id": "Java/Core Java Concepts/Strings",
   "title": "Strings",
-  "description": "📌 What is a String in Java?",
+  "description": "In Java, a String is a sequence of characters. Strings are immutable objects, meaning once created, their values cannot be changed.",
   "source": "@site/docs/Java/Core Java Concepts/Strings.md",
   "sourceDirName": "Java/Core Java Concepts",
   "slug": "/Java/Core Java Concepts/Strings",

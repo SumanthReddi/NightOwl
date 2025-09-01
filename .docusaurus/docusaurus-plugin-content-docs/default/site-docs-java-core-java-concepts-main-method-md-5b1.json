@@ -1,7 +1,7 @@
 {
   "id": "Java/Core Java Concepts/Main-Method",
   "title": "Main-Method",
-  "description": "",
+  "description": "The main method is the entry point of any standalone Java application. When you run a Java program, the Java Virtual Machine (JVM) looks for the main method and starts executing your program from there.",
   "source": "@site/docs/Java/Core Java Concepts/Main-Method.md",
   "sourceDirName": "Java/Core Java Concepts",
   "slug": "/Java/Core Java Concepts/Main-Method",
