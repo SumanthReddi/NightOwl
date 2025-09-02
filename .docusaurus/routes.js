@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'fda'),
+    component: ComponentCreator('/docs', '3ea'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '9b4'),
+        component: ComponentCreator('/docs', 'bc6'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '590'),
+            component: ComponentCreator('/docs', 'c41'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -173,8 +173,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/object-oriented-programming-oop',
-                component: ComponentCreator('/docs/category/object-oriented-programming-oop', '1ac'),
+                path: '/docs/category/oops',
+                component: ComponentCreator('/docs/category/oops', '86c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -335,8 +335,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Object-Oriented Programming (OOP)/congratulations',
-                component: ComponentCreator('/docs/Java/Object-Oriented Programming (OOP)/congratulations', '57d'),
+                path: '/docs/Java/OOPS/congratulations',
+                component: ComponentCreator('/docs/Java/OOPS/congratulations', '109'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/OOPS/Interface',
+                component: ComponentCreator('/docs/Java/OOPS/Interface', 'db3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/OOPS/Introduction',
+                component: ComponentCreator('/docs/Java/OOPS/Introduction', 'bae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

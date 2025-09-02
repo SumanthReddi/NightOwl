@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-fda": {
+  "/docs-3ea": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-9b4": {
+  "/docs-bc6": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-590": {
+  "/docs-c41": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/collections-framework-ac7": {
@@ -294,9 +294,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-multithreadinge-39-c23"
   },
-  "/docs/category/object-oriented-programming-oop-1ac": {
+  "/docs/category/oops-86c": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-object-oriented-programming-oop-7-c-2-6c8"
+    "__props": "__props---docs-category-oops-4-f-9-864"
   },
   "/docs/category/python-493": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -402,9 +402,17 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-multithreading-congratulations-903-e3f"
   },
-  "/docs/Java/Object-Oriented Programming (OOP)/congratulations-57d": {
+  "/docs/Java/OOPS/congratulations-109": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-object-oriented-programming-oop-congratulations-9-f-9-9c8"
+    "content": "content---docs-java-oops-congratulations-52-b-995"
+  },
+  "/docs/Java/OOPS/Interface-db3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-interfacee-14-92c"
+  },
+  "/docs/Java/OOPS/Introduction-bae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-introduction-4-b-3-85a"
   },
   "/docs/Python/Control Flow-146": {
     "__comp": "__comp---theme-doc-item-178-a40",

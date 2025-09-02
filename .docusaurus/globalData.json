@@ -121,8 +121,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Object-Oriented Programming (OOP)/congratulations",
-              "path": "/docs/Java/Object-Oriented Programming (OOP)/congratulations",
+              "id": "Java/OOPS/congratulations",
+              "path": "/docs/Java/OOPS/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/OOPS/Interface",
+              "path": "/docs/Java/OOPS/Interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/OOPS/Introduction",
+              "path": "/docs/Java/OOPS/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -216,8 +226,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/object-oriented-programming-oop",
-              "path": "/docs/category/object-oriented-programming-oop",
+              "id": "/category/oops",
+              "path": "/docs/category/oops",
               "sidebar": "tutorialSidebar"
             },
             {

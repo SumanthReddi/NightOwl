@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Object-Oriented Programming (OOP)",
-    "permalink": "/docs/category/object-oriented-programming-oop"
+    "title": "Interface",
+    "permalink": "/docs/Java/Object-Oriented Programming (OOP)/Interface"
   },
   "next": {
     "title": "Collections Framework",
