@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-3ea": {
+  "/docs-b59": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-bc6": {
+  "/docs-03a": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-c41": {
+  "/docs-3c1": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/collections-framework-ac7": {
@@ -402,6 +402,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-multithreading-congratulations-903-e3f"
   },
+  "/docs/Java/OOPS/Abstract-227": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-abstractdb-3-bac"
+  },
   "/docs/Java/OOPS/congratulations-109": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-oops-congratulations-52-b-995"
@@ -409,10 +413,6 @@
   "/docs/Java/OOPS/Interface-db3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-oops-interfacee-14-92c"
-  },
-  "/docs/Java/OOPS/Introduction-bae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-introduction-4-b-3-85a"
   },
   "/docs/Python/Control Flow-146": {
     "__comp": "__comp---theme-doc-item-178-a40",

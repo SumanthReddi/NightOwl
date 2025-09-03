@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '3ea'),
+    component: ComponentCreator('/docs', 'b59'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'bc6'),
+        component: ComponentCreator('/docs', '03a'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c41'),
+            component: ComponentCreator('/docs', '3c1'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -335,6 +335,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Java/OOPS/Abstract',
+                component: ComponentCreator('/docs/Java/OOPS/Abstract', '227'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Java/OOPS/congratulations',
                 component: ComponentCreator('/docs/Java/OOPS/congratulations', '109'),
                 exact: true,
@@ -343,12 +349,6 @@ export default [
               {
                 path: '/docs/Java/OOPS/Interface',
                 component: ComponentCreator('/docs/Java/OOPS/Interface', 'db3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Introduction',
-                component: ComponentCreator('/docs/Java/OOPS/Introduction', 'bae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

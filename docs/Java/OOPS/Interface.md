@@ -16,7 +16,7 @@ An **interface** in Java is a blueprint for a class, specifying a set of **metho
 
 ## Syntax: Declaring an Interface
 
-To declare an interface, use the `interface` keyword:[^4][^1][^3]
+To declare an interface, use the `interface` keyword.
 
 ```java
 public interface MyInterface {
@@ -40,13 +40,13 @@ public interface MyInterface {
 
 - All fields are by default `public static final`.
 - Abstract methods must be implemented by the implementing class.
-- `default` and `static` methods can have bodies in the interface.[^1][^3]
+- `default` and `static` methods can have bodies in the interface.
 
 ***
 
 ## Implementing an Interface
 
-Use the `implements` keyword in a class to implement an interface:[^2][^3][^4][^1]
+Use the `implements` keyword in a class to implement an interface:
 
 ```java
 class MyClass implements MyInterface {
@@ -79,10 +79,10 @@ public class Main {
 
 ## Key Properties of Interfaces
 
-- **No objects** can be created for an interface directly.[^4][^2]
-- Interfaces enable **multiple inheritance** (Classes can implement more than one interface).[^3][^2]
-- Methods are always **public abstract** and attributes **public static final** by default.[^2][^3]
-- Interfaces cannot have constructors, instance fields, or method bodies for abstract methods.[^3][^2]
+- **No objects** can be created for an interface directly.
+- Interfaces enable **multiple inheritance** (Classes can implement more than one interface).
+- Methods are always **public abstract** and attributes **public static final** by default.
+- Interfaces cannot have constructors, instance fields, or method bodies for abstract methods.
 
 ***
 
@@ -104,13 +104,13 @@ class Demo implements InterfaceA, InterfaceB {
 }
 ```
 
-- This provides flexibility and solves the **multiple inheritance** problem in Java.[^1][^3]
+- This provides flexibility and solves the **multiple inheritance** problem in Java.
 
 ***
 
 ## Extending Interfaces
 
-Interfaces can **extend** other interfaces:[^6][^3]
+Interfaces can **extend** other interfaces:
 
 ```java
 interface BaseInterface {
@@ -131,10 +131,10 @@ class MyClass implements ExtendedInterface {
 
 ## Why and When To Use Interfaces?
 
-- To **achieve abstraction**: Hide implementation details and expose functionality.[^5][^2]
-- To enable **polymorphism**: Classes with different implementations can be used interchangeably via an interface type.[^5]
-- To allow **loose coupling**: Classes depend on behavior, not on specific implementations.[^1]
-- To emulate **multiple inheritance**: Java classes can implement multiple interfaces to inherit multiple sets of behaviors.[^2][^3]
+- To **achieve abstraction**: Hide implementation details and expose functionality.
+- To enable **polymorphism**: Classes with different implementations can be used interchangeably via an interface type.
+- To allow **loose coupling**: Classes depend on behavior, not on specific implementations.
+- To emulate **multiple inheritance**: Java classes can implement multiple interfaces to inherit multiple sets of behaviors.
 
 ***
 
@@ -142,19 +142,19 @@ class MyClass implements ExtendedInterface {
 
 - Interfaces are widely used in frameworks, libraries, and large-scale Java applications.
 - Popular Java APIs (like Java Collections) use interfaces (`List`, `Set`, `Map`) for flexibility.
-- Use interfaces to design clean, maintainable, and scalable code.[^5][^3][^1]
+- Use interfaces to design clean, maintainable, and scalable code.
 
 ***
 
 ## Quick Comparison: Interface vs Abstract Class
 
-| Feature | Interface [^1][^3] | Abstract Class [^1] |
+| Feature | Interface  | Abstract Class  |
 | :-- | :-- | :-- |
-| Instantiation | Not possible [^2] | Not possible [^2] |
-| Multiple Inheritance | Possible [^3] | Not possible [^3] |
-| Methods | Only abstract, static, default [^3] | Concrete + abstract |
-| Fields | public static final only [^2] | Any modifier |
-| Constructors | Not allowed [^2] | Allowed |
+| Instantiation | Not possible  | Not possible  |
+| Multiple Inheritance | Possible  | Not possible  |
+| Methods | Only abstract, static, default  | Concrete + abstract |
+| Fields | public static final only  | Any modifier |
+| Constructors | Not allowed  | Allowed |
 
 
 ***
