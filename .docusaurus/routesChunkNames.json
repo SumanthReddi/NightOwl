@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-b59": {
+  "/docs-9bf": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-03a": {
+  "/docs-3d7": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-3c1": {
+  "/docs-9bc": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/collections-framework-ac7": {
@@ -365,6 +365,10 @@
   "/docs/Java/Core Java Concepts/Data-Types-2a6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-core-java-concepts-data-typesa-01-de7"
+  },
+  "/docs/Java/Core Java Concepts/Features of Java-448": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-core-java-concepts-features-of-java-81-c-b7a"
   },
   "/docs/Java/Core Java Concepts/Introduction-334": {
     "__comp": "__comp---theme-doc-item-178-a40",

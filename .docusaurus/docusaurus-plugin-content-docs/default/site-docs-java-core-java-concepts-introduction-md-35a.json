@@ -1,7 +1,7 @@
 {
   "id": "Java/Core Java Concepts/Introduction",
   "title": "Introduction",
-  "description": "Java Features and Program Execution",
+  "description": "Why Programming Languages?",
   "source": "@site/docs/Java/Core Java Concepts/Introduction.md",
   "sourceDirName": "Java/Core Java Concepts",
   "slug": "/Java/Core Java Concepts/Introduction",
@@ -21,7 +21,7 @@
     "permalink": "/docs/category/core-java-concepts"
   },
   "next": {
-    "title": "Data-Types",
-    "permalink": "/docs/Java/Core Java Concepts/Data-Types"
+    "title": "Features of Java",
+    "permalink": "/docs/Java/Core Java Concepts/Features of Java"
   }
 }

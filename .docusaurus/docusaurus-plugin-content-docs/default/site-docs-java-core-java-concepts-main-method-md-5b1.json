@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/Main-Method.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 8,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 8
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Packages",
-    "permalink": "/docs/Java/Core Java Concepts/Packages"
+    "title": "Features of Java",
+    "permalink": "/docs/Java/Core Java Concepts/Features of Java"
   },
   "next": {
-    "title": "Operators",
-    "permalink": "/docs/Java/Core Java Concepts/Operators"
+    "title": "Data-Types",
+    "permalink": "/docs/Java/Core Java Concepts/Data-Types"
   }
 }

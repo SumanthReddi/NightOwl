@@ -76,6 +76,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Java/Core Java Concepts/Features of Java",
+              "path": "/docs/Java/Core Java Concepts/Features of Java",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Java/Core Java Concepts/Introduction",
               "path": "/docs/Java/Core Java Concepts/Introduction",
               "sidebar": "tutorialSidebar"

@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b59'),
+    component: ComponentCreator('/docs', '9bf'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '03a'),
+        component: ComponentCreator('/docs', '3d7'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '3c1'),
+            component: ComponentCreator('/docs', '9bc'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -277,6 +277,12 @@ export default [
               {
                 path: '/docs/Java/Core Java Concepts/Data-Types',
                 component: ComponentCreator('/docs/Java/Core Java Concepts/Data-Types', '2a6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Core Java Concepts/Features of Java',
+                component: ComponentCreator('/docs/Java/Core Java Concepts/Features of Java', '448'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

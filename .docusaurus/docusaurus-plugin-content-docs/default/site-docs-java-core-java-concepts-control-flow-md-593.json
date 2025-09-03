@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/Control-Flow.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 7
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Variables",
-    "permalink": "/docs/Java/Core Java Concepts/Variables"
+    "title": "Operators",
+    "permalink": "/docs/Java/Core Java Concepts/Operators"
   },
   "next": {
     "title": "Arrays",

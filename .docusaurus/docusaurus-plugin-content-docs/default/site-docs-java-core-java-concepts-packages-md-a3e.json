@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/Packages.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 10,
   "frontMatter": {
-    "sidebar_position": 7
+    "sidebar_position": 10
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/docs/Java/Core Java Concepts/Strings"
   },
   "next": {
-    "title": "Main-Method",
-    "permalink": "/docs/Java/Core Java Concepts/Main-Method"
+    "title": "OOPS",
+    "permalink": "/docs/category/oops"
   }
 }
