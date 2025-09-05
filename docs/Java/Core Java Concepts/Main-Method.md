@@ -17,11 +17,11 @@ public static void main(String[] args) {
 
 ### Explanation of each part:
 
-- `public`: The method is accessible from anywhere. This is required because the JVM needs to invoke it from outside your class.
-- `static`: The JVM can call this method without creating an instance of the class.
-- `void`: This method does not return any value.
+- `public`: The method is accessible from anywhere. This is required because the JVM needs to invoke it from outside your class.so JVM can access the method/class from anywhere.
+- `static`: Allows JVM to call `main` without creating an object of the class.
+- `void`: Means the main method does not return anything.
 - `main`: This is the name of the method that the JVM looks for.
-- `String[] args`: An array of `String` objects. It lets your program accept command-line arguments passed as strings when you run the program.
+- `String[] args`: An array of `String` objects. It lets your program accept command-line arguments passed as strings when you run the program.Used for command-line arguments.
 
 ## How the main method works
 

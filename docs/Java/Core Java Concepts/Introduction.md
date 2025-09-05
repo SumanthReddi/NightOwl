@@ -13,12 +13,12 @@ sidebar_position: 1
 1. **Write Source Code (.java file)**
     - Code is human-readable and saved with a `.java` extension.
 2. **Compilation (.class file / Bytecode)**
-    - Java Compiler (`javac`) converts `.java` file to `.class` file containing **bytecode**.[^4][^6][^1]
-    - Bytecode is **platform-independent** (can run on any OS).[^6][^1]
+    - Java Compiler (`javac`) converts `.java` file to `.class` file containing **bytecode**.
+    - Bytecode is **platform-independent** (can run on any OS).
 3. **Class Loader \& JVM Execution**
     - The Java Virtual Machine (**JVM**) loads `.class` files.
     - **JVM** interprets (and may just-in-time compile) bytecode to machine code for the specific OS.
-    - The **main()** method is required as program entry point.[^5][^4]
+    - The **main()** method is required as program entry point.
 
 ***
 
@@ -41,7 +41,7 @@ sidebar_position: 1
 ![alt text](../../Images/JRE.png)
 - **JVM (Java Virtual Machine):**
     - Runs bytecode, handles memory, security, garbage collection.
-    - Platform-dependent component, but runs platform-independent bytecode.[^3][^5]
+    - Platform-dependent component, but runs platform-independent bytecode.
 
 ***
 
@@ -49,7 +49,7 @@ sidebar_position: 1
 
 - **Compile Time:** The process when source code is converted to bytecode; errors are caught here.
 - **Runtime:** When the program runs on JVM; runtime errors may occur.
-- **Class Loader:** Loads classes into JVM memory during execution.[^6][^1][^5]
+- **Class Loader:** Loads classes into JVM memory during execution.
 
 ***
 
@@ -58,7 +58,7 @@ sidebar_position: 1
 1. **Class Loading:** Finds and loads required `.class` files.
 2. **Bytecode Verification:** Checks code safety and validity.
 3. **Execution:** Uses an interpreter and Just-In-Time (JIT) compiler for optimal speed.
-4. **Memory Management:** Handles allocation, deallocation, garbage collection.[^5]
+4. **Memory Management:** Handles allocation, deallocation, garbage collection.
 
 ***
 
@@ -76,7 +76,7 @@ sidebar_position: 1
 
 - **JDK download:** https://www.oracle.com/java/technologies/javase-downloads.html
 - **IDE suggestion:** IntelliJ IDEA (for coding).
-- **Replit:** Online option for quick Java programming ().[^1]
+- **Replit:** Online option for quick Java programming ().
 
 ***
 
@@ -96,4 +96,6 @@ sidebar_position: 1
 - Java’s **architecture** separates writing, compiling, and running code.
 - Platform independence comes from compiling to bytecode and running on JVM.
 - JDK is required for development; JRE for running Java apps.
-- JVM handles execution and abstraction from specific hardware/platforms.[^3][^1][^5]
+- JVM handles execution and abstraction from specific hardware/platforms.
+
+Watch it in YouTube here : https://www.youtube.com/watch?v=4EP8YzcN0hQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=7

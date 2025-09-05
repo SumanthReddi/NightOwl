@@ -22,7 +22,7 @@ Java supports **two categories** of data types:
 
 ## Primitive Data Types
 
-Primitive data types are predefined by Java and named by a reserved keyword.
+Primitive data types are predefined by Java and named by a reserved keyword and it can't devide more further.
 
 
 | Type | Size (bits) | Default Value | Range | Description | Example |
@@ -60,7 +60,7 @@ Primitive data types are predefined by Java and named by a reserved keyword.
 
 ## Non-Primitive (Reference) Data Types
 
-Non-primitives, also called reference types, point to objects created by the programmer or provided by Java.
+Non-primitives, also called reference types, point to objects created by the programmer or provided by Java.It can divide more further.
 
 
 | Type | Description | Example |

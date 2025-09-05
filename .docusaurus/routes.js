@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '9bf'),
+    component: ComponentCreator('/docs', '569'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3d7'),
+        component: ComponentCreator('/docs', 'b17'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '9bc'),
+            component: ComponentCreator('/docs', 'c50'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -313,6 +313,12 @@ export default [
               {
                 path: '/docs/Java/Core Java Concepts/Strings',
                 component: ComponentCreator('/docs/Java/Core Java Concepts/Strings', '04f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Core Java Concepts/Type Casting',
+                component: ComponentCreator('/docs/Java/Core Java Concepts/Type Casting', '60e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
