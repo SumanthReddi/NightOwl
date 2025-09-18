@@ -1,7 +1,7 @@
 {
   "id": "Java/Core Java Concepts/Control-Flow",
   "title": "Control-Flow",
-  "description": "*",
+  "description": "In Java, control flow means the order in which your program runs instructions. By default, it runs from top to bottom, one line after another. But sometimes, you want your program to make choices, repeat actions, or skip certain things. This is where control flow statements come in—they help your program decide what to do and when.",
   "source": "@site/docs/Java/Core Java Concepts/Control-Flow.md",
   "sourceDirName": "Java/Core Java Concepts",
   "slug": "/Java/Core Java Concepts/Control-Flow",

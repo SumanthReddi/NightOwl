@@ -1,9 +1,6 @@
 ---
 sidebar_position: 7
 ---
-***
-
-<!-- ## Simple Explanation of Java Control Flow for Beginners -->
 
 In Java, **control flow** means the order in which your program runs instructions. By default, it runs from top to bottom, one line after another. But sometimes, you want your program to make choices, repeat actions, or skip certain things. This is where **control flow statements** come in—they help your program decide what to do and when.
 

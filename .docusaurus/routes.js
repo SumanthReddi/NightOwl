@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '569'),
+    component: ComponentCreator('/docs', 'e8d'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b17'),
+        component: ComponentCreator('/docs', '328'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c50'),
+            component: ComponentCreator('/docs', 'e46'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -299,6 +299,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Java/Core Java Concepts/Object and Classes',
+                component: ComponentCreator('/docs/Java/Core Java Concepts/Object and Classes', 'dff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Java/Core Java Concepts/Operators',
                 component: ComponentCreator('/docs/Java/Core Java Concepts/Operators', '06b'),
                 exact: true,
@@ -355,6 +361,12 @@ export default [
               {
                 path: '/docs/Java/OOPS/congratulations',
                 component: ComponentCreator('/docs/Java/OOPS/congratulations', '109'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/OOPS/Constructor',
+                component: ComponentCreator('/docs/Java/OOPS/Constructor', '2a3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

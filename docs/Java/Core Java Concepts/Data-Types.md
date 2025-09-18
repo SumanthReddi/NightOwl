@@ -1,17 +1,6 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
-<!-- <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/> -->
-
-<!-- # add everything in markdown -->
-
-<!-- Here is an **all-inclusive explanation of Java data types**. The details cover primitive and non-primitive (reference) types with tables, notes, and code samples.
-
-***
-
-<!-- # Java Data Types -->
-
-<!-- ## Overview -->
 
 Java supports **two categories** of data types:
 

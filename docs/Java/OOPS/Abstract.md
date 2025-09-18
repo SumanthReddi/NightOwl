@@ -1,7 +1,6 @@
 ---
 sidebar_position: 2
 ---
-***
 
 ## What Is an Abstract Class?
 

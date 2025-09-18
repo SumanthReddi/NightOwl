@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-***
-
 # What Is an Interface?
 
 An **interface** in Java is a blueprint for a class, specifying a set of **method signatures** that the implementing classes must provide.

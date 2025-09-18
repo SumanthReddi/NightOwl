@@ -1,7 +1,7 @@
 {
   "id": "Java/Core Java Concepts/Data-Types",
   "title": "Data-Types",
-  "description": "-->",
+  "description": "Java supports two categories of data types:",
   "source": "@site/docs/Java/Core Java Concepts/Data-Types.md",
   "sourceDirName": "Java/Core Java Concepts",
   "slug": "/Java/Core Java Concepts/Data-Types",
@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Java/Core Java Concepts/Data-Types.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Main-Method",
-    "permalink": "/docs/Java/Core Java Concepts/Main-Method"
+    "title": "Object and Classes",
+    "permalink": "/docs/Java/Core Java Concepts/Object and Classes"
   },
   "next": {
     "title": "Variables",
