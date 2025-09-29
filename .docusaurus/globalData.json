@@ -126,6 +126,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Java/Fastrack/OOP1",
+              "path": "/docs/Java/Fastrack/OOP1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Fastrack/OOP2",
+              "path": "/docs/Java/Fastrack/OOP2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Fastrack/OOP3",
+              "path": "/docs/Java/Fastrack/OOP3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Keywords/abstract",
+              "path": "/docs/Java/Keywords/abstract",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Keywords/congratulations",
+              "path": "/docs/Java/Keywords/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/Keywords/Static",
+              "path": "/docs/Java/Keywords/Static",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Java/Miscellaneous Concepts/congratulations",
               "path": "/docs/Java/Miscellaneous Concepts/congratulations",
               "sidebar": "tutorialSidebar"
@@ -136,13 +166,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/OOPS/Abstract",
-              "path": "/docs/Java/OOPS/Abstract",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/congratulations",
-              "path": "/docs/Java/OOPS/congratulations",
+              "id": "Java/OOPS/Abstraction",
+              "path": "/docs/Java/OOPS/Abstraction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -151,8 +176,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Java/OOPS/Encapsulation",
+              "path": "/docs/Java/OOPS/Encapsulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/OOPS/Final , Static Usage",
+              "path": "/docs/Java/OOPS/Final , Static Usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/OOPS/Inheritance",
+              "path": "/docs/Java/OOPS/Inheritance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Java/OOPS/Interface",
               "path": "/docs/Java/OOPS/Interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Java/OOPS/Polymorphism",
+              "path": "/docs/Java/OOPS/Polymorphism",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -248,6 +293,11 @@
             {
               "id": "/category/oops",
               "path": "/docs/category/oops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/keywords",
+              "path": "/docs/category/keywords",
               "sidebar": "tutorialSidebar"
             },
             {

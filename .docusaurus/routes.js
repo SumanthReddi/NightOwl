@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e8d'),
+    component: ComponentCreator('/docs', 'b0b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '328'),
+        component: ComponentCreator('/docs', '904'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'e46'),
+            component: ComponentCreator('/docs', 'f67'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -157,6 +157,12 @@ export default [
               {
                 path: '/docs/category/java',
                 component: ComponentCreator('/docs/category/java', '901'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/keywords',
+                component: ComponentCreator('/docs/category/keywords', '677'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -341,6 +347,42 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Java/Fastrack/OOP1',
+                component: ComponentCreator('/docs/Java/Fastrack/OOP1', '946'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Fastrack/OOP2',
+                component: ComponentCreator('/docs/Java/Fastrack/OOP2', 'c08'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Fastrack/OOP3',
+                component: ComponentCreator('/docs/Java/Fastrack/OOP3', '557'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Keywords/abstract',
+                component: ComponentCreator('/docs/Java/Keywords/abstract', 'f1a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Keywords/congratulations',
+                component: ComponentCreator('/docs/Java/Keywords/congratulations', 'c4e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Keywords/Static',
+                component: ComponentCreator('/docs/Java/Keywords/Static', 'a51'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Java/Miscellaneous Concepts/congratulations',
                 component: ComponentCreator('/docs/Java/Miscellaneous Concepts/congratulations', '597'),
                 exact: true,
@@ -353,14 +395,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/OOPS/Abstract',
-                component: ComponentCreator('/docs/Java/OOPS/Abstract', '227'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/congratulations',
-                component: ComponentCreator('/docs/Java/OOPS/congratulations', '109'),
+                path: '/docs/Java/OOPS/Abstraction',
+                component: ComponentCreator('/docs/Java/OOPS/Abstraction', '44c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -371,8 +407,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Java/OOPS/Encapsulation',
+                component: ComponentCreator('/docs/Java/OOPS/Encapsulation', '321'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/OOPS/Final , Static Usage',
+                component: ComponentCreator('/docs/Java/OOPS/Final , Static Usage', '1df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/OOPS/Inheritance',
+                component: ComponentCreator('/docs/Java/OOPS/Inheritance', 'e20'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Java/OOPS/Interface',
                 component: ComponentCreator('/docs/Java/OOPS/Interface', 'db3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/OOPS/Polymorphism',
+                component: ComponentCreator('/docs/Java/OOPS/Polymorphism', '56d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

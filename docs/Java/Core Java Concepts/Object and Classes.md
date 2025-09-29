@@ -11,6 +11,7 @@ An **object** is a fundamental building block in Java representing an entity tha
 - **Identity:** A unique identifier used internally by the JVM to distinguish objects.
 
 Objects can represent **real-world tangible things** like a chair, bike, or pen, or **logical concepts** like a banking system or customer account.
+An object is an instance of a class. If the class is the recipe, the object is the actual cake.
 
 ### Example
 
@@ -66,7 +67,7 @@ class Student {
 - You can create multiple objects from one class, each with its own state.
 
 
-## In-depth Explanation (Combined with Video Insights)
+## In-depth Explanation
 
 - When you declare a class, no memory is allocated for fields or methods.
 - Memory is allocated *only when an object* is instantiated using the `new` keyword.

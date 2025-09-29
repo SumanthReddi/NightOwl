@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# What Is an Interface?
+## What Is an Interface?
 
 An **interface** in Java is a blueprint for a class, specifying a set of **method signatures** that the implementing classes must provide.
 
@@ -162,6 +162,4 @@ class MyClass implements ExtendedInterface {
 - An **interface** defines a contract that implementing classes must follow.
 - Use interfaces to achieve abstraction, loose coupling, and multiple inheritance in Java.
 - Implement all abstract methods, use default/static methods if needed, and remember no constructor or instance fields allowed in interfaces.
-
-***
 

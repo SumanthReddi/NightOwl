@@ -1,14 +1,20 @@
 ---
 sidebar_position: 2
 ---
+In Java, the **abstract keyword** is used to define classes and methods that are incomplete and meant to be implemented later by subclasses. It represents the concept of *abstraction*, where we hide implementation details and only expose necessary functionality. 
 
 ## What Is an Abstract Class?
+
+- Abstraction is the process of **hiding complex implementation details** and showing only the **essential features** to the user.
+- It focuses on **what an object does** instead of **how it does it**.
+- Achieved in Java using either **abstract classes** or **interfaces**.
 
 An **abstract class** in Java is a class that **cannot be instantiated** directly. It is intended to be a **base class** for other classes.
 
 - Declared with the `abstract` keyword.
-- Can contain both **abstract methods** (no body) and **concrete methods** (with body).
+- It may contain **abstract methods** (methods without a body) and **concrete methods** (methods with implementation). 
 - Defines a **common template** for subclasses, but some behavior is left for subclasses to implement.
+- Abstract classes are usually extended by other classes which provide the missing implementations.
 
 ***
 
@@ -18,6 +24,12 @@ An **abstract class** in Java is a class that **cannot be instantiated** directl
 - To **enforce subclasses** to complete the missing (abstract) methods.
 - To promote **code reuse** (shared fields, methods).
 - To create a **common interface** with flexibility in implementation.
+
+### Why Use Abstraction?
+
+- To reduce **complexity** of code for the user.
+- To separate **interface** from **implementation**.
+- To enable **modular and maintainable** programming.
 
 ***
 
@@ -156,15 +168,22 @@ public class Main {
 
 ***
 
-## Key Points
-
-- Cannot instantiate an **abstract class**.
-- Can have **abstract and non-abstract methods**, constructors, and member variables.
-- Subclasses **must override all abstract methods** to be concrete.
+### Key Rules of Abstract Classes
+- You **cannot instantiate** an abstract class directly.  
+- An abstract class can have both **abstract** and **non-abstract** methods.  
+- A subclass using `extends` must **override all abstract methods**, unless it is also declared abstract.  
+- You can have **constructors in abstract classes**, which run when a subclass object is created.  
+- Abstract classes can have **variables, static methods, and final methods** too.  
 - Supports **partial abstraction**.
 - Provides **code reuse** and a common parent type.
 
-***
+### When to Use Abstract Classes
+- When you want to provide a **common template** for other classes but leave some methods undefined.  
+- When multiple subclasses are expected to share structure but implement specifics differently.  
+
+For example:
+- `Shape` can be an abstract class with an abstract `draw()` method.  
+- Subclasses like `Circle`, `Square`, or `Triangle` implement `draw()` differently.  
 
 ## Abstract Class vs Interface (Quick Comparison)
 
