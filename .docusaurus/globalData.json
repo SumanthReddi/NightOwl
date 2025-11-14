@@ -266,6 +266,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Selenium/DropDown/UsingSelectClass",
+              "path": "/docs/Selenium/DropDown/UsingSelectClass",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium/manage-docs-versions",
               "path": "/docs/Selenium/manage-docs-versions",
               "sidebar": "tutorialSidebar"
@@ -323,6 +328,11 @@
             {
               "id": "/category/selenium",
               "path": "/docs/category/selenium",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/dropdown",
+              "path": "/docs/category/dropdown",
               "sidebar": "tutorialSidebar"
             },
             {

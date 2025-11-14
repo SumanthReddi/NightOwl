@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-b0b": {
+  "/docs-b70": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-904": {
+  "/docs-e67": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-f67": {
+  "/docs-4ae": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/collections-framework-ac7": {
@@ -273,6 +273,10 @@
   "/docs/category/docusaurus-90b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-docusaurusd-74-e07"
+  },
+  "/docs/category/dropdown-cb0": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-dropdown-5-ad-52d"
   },
   "/docs/category/exception-handling-960": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -521,6 +525,10 @@
   "/docs/Selenium Grid/congratulations-608": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-grid-congratulationse-0-c-0f2"
+  },
+  "/docs/Selenium/DropDown/UsingSelectClass-2ac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-drop-down-using-select-class-7-b-2-27c"
   },
   "/docs/Selenium/manage-docs-versions-738": {
     "__comp": "__comp---theme-doc-item-178-a40",

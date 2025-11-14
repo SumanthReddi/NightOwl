@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b0b'),
+    component: ComponentCreator('/docs', 'b70'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '904'),
+        component: ComponentCreator('/docs', 'e67'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f67'),
+            component: ComponentCreator('/docs', '4ae'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -139,6 +139,12 @@ export default [
               {
                 path: '/docs/category/docusaurus',
                 component: ComponentCreator('/docs/category/docusaurus', '90b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/dropdown',
+                component: ComponentCreator('/docs/category/dropdown', 'cb0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -511,6 +517,12 @@ export default [
               {
                 path: '/docs/Selenium Grid/congratulations',
                 component: ComponentCreator('/docs/Selenium Grid/congratulations', '608'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/DropDown/UsingSelectClass',
+                component: ComponentCreator('/docs/Selenium/DropDown/UsingSelectClass', '2ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
