@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-b70": {
+  "/docs-b0b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-e67": {
+  "/docs-904": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-4ae": {
+  "/docs-f67": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/collections-framework-ac7": {
@@ -289,6 +289,10 @@
   "/docs/category/java-901": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-java-3-e-6-f53"
+  },
+  "/docs/category/keywords-677": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-keywords-9-eb-55d"
   },
   "/docs/category/keywords-677": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -438,6 +442,30 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-keywords-static-10-e-bca"
   },
+  "/docs/Java/Fastrack/OOP1-946": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-fastrack-oop-16-a-5-149"
+  },
+  "/docs/Java/Fastrack/OOP2-c08": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-fastrack-oop-2-d-2-f-6a0"
+  },
+  "/docs/Java/Fastrack/OOP3-557": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-fastrack-oop-39-a-2-8a9"
+  },
+  "/docs/Java/Keywords/abstract-f1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-keywords-abstractacc-15c"
+  },
+  "/docs/Java/Keywords/congratulations-c4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-keywords-congratulationsbad-84c"
+  },
+  "/docs/Java/Keywords/Static-a51": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-keywords-static-10-e-bca"
+  },
   "/docs/Java/Miscellaneous Concepts/congratulations-597": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-miscellaneous-concepts-congratulations-3-b-6-187"
@@ -447,7 +475,9 @@
     "content": "content---docs-java-multithreading-congratulations-903-e3f"
   },
   "/docs/Java/OOPS/Abstraction-44c": {
+  "/docs/Java/OOPS/Abstraction-44c": {
     "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-abstraction-5-f-9-e3f"
     "content": "content---docs-java-oops-abstraction-5-f-9-e3f"
   },
   "/docs/Java/OOPS/Constructor-2a3": {
@@ -466,9 +496,25 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-oops-inheritance-8-a-8-a59"
   },
+  "/docs/Java/OOPS/Encapsulation-321": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-encapsulation-425-f02"
+  },
+  "/docs/Java/OOPS/Final , Static Usage-1df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-final-static-usage-859-af0"
+  },
+  "/docs/Java/OOPS/Inheritance-e20": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-inheritance-8-a-8-a59"
+  },
   "/docs/Java/OOPS/Interface-db3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-oops-interfacee-14-92c"
+  },
+  "/docs/Java/OOPS/Polymorphism-56d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-oops-polymorphisme-47-27c"
   },
   "/docs/Java/OOPS/Polymorphism-56d": {
     "__comp": "__comp---theme-doc-item-178-a40",
