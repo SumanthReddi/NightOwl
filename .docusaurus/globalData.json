@@ -266,8 +266,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/DropDown/UsingSelectClass",
-              "path": "/docs/Selenium/DropDown/UsingSelectClass",
+              "id": "Selenium/Locators/Advanced Locators",
+              "path": "/docs/Selenium/Locators/Advanced Locators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/Common Locators",
+              "path": "/docs/Selenium/Locators/Common Locators",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -278,6 +283,96 @@
             {
               "id": "Selenium/translate-your-site",
               "path": "/docs/Selenium/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Alerts and Popups",
+              "path": "/docs/Selenium/Web Elements/Alerts and Popups",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Auto Suggestive Drop Down",
+              "path": "/docs/Selenium/Web Elements/Auto Suggestive Drop Down",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Button",
+              "path": "/docs/Selenium/Web Elements/Button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Check Boxes",
+              "path": "/docs/Selenium/Web Elements/Check Boxes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/File Upload",
+              "path": "/docs/Selenium/Web Elements/File Upload",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/File Upload using Auto IT",
+              "path": "/docs/Selenium/Web Elements/File Upload using Auto IT",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/iFrames",
+              "path": "/docs/Selenium/Web Elements/iFrames",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Images",
+              "path": "/docs/Selenium/Web Elements/Images",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Links",
+              "path": "/docs/Selenium/Web Elements/Links",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Multi Select Drop Down",
+              "path": "/docs/Selenium/Web Elements/Multi Select Drop Down",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Progress Bar",
+              "path": "/docs/Selenium/Web Elements/Progress Bar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Radio Button",
+              "path": "/docs/Selenium/Web Elements/Radio Button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Sliders",
+              "path": "/docs/Selenium/Web Elements/Sliders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Static DropDown",
+              "path": "/docs/Selenium/Web Elements/Static DropDown",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Tables",
+              "path": "/docs/Selenium/Web Elements/Tables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Text Box",
+              "path": "/docs/Selenium/Web Elements/Text Box",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Toggle Switch",
+              "path": "/docs/Selenium/Web Elements/Toggle Switch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/Tool Tips",
+              "path": "/docs/Selenium/Web Elements/Tool Tips",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -331,8 +426,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/dropdown",
-              "path": "/docs/category/dropdown",
+              "id": "/category/locators",
+              "path": "/docs/category/locators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/web-elements",
+              "path": "/docs/category/web-elements",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 ---
 The Selenium Select class in Java is used to automate interactions with dropdown elements (both single-select and multi-select) on web pages. Below are practical examples covering the most common operations with Select class in Selenium WebDriver.
 
