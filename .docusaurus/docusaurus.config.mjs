@@ -33,7 +33,6 @@ export default {
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "warn",
-  "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -378,6 +377,7 @@ export default {
   "markdown": {
     "format": "mdx",
     "mermaid": false,
+    "emoji": true,
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
@@ -385,6 +385,10 @@ export default {
     },
     "anchors": {
       "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
     }
   }
 };

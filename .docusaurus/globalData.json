@@ -261,11 +261,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium Grid/congratulations",
-              "path": "/docs/Selenium Grid/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Selenium/Locators/Advanced Locators",
               "path": "/docs/Selenium/Locators/Advanced Locators",
               "sidebar": "tutorialSidebar"
@@ -278,6 +273,31 @@
             {
               "id": "Selenium/manage-docs-versions",
               "path": "/docs/Selenium/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/congratulations",
+              "path": "/docs/Selenium/Selenium Grid/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Synchronization/Explicit Wait",
+              "path": "/docs/Selenium/Synchronization/Explicit Wait",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Synchronization/Fluent Wait",
+              "path": "/docs/Selenium/Synchronization/Fluent Wait",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Synchronization/Implicit Wait",
+              "path": "/docs/Selenium/Synchronization/Implicit Wait",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Synchronization/Intoduction",
+              "path": "/docs/Selenium/Synchronization/Intoduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -436,6 +456,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/synchronization",
+              "path": "/docs/category/synchronization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/selenium-grid",
+              "path": "/docs/category/selenium-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/testng",
               "path": "/docs/category/testng",
               "sidebar": "tutorialSidebar"
@@ -448,11 +478,6 @@
             {
               "id": "/category/python",
               "path": "/docs/category/python",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/selenium-grid",
-              "path": "/docs/category/selenium-grid",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '69f'),
+    component: ComponentCreator('/docs', 'ec7'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'f82'),
+        component: ComponentCreator('/docs', '4b4'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'dd7'),
+            component: ComponentCreator('/docs', 'e1a'),
             routes: [
               {
                 path: '/docs/category/collections-framework',
@@ -205,6 +205,12 @@ export default [
               {
                 path: '/docs/category/selenium-grid',
                 component: ComponentCreator('/docs/category/selenium-grid', 'ca5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/synchronization',
+                component: ComponentCreator('/docs/category/synchronization', 'e07'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -521,12 +527,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium Grid/congratulations',
-                component: ComponentCreator('/docs/Selenium Grid/congratulations', '608'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Selenium/Locators/Advanced Locators',
                 component: ComponentCreator('/docs/Selenium/Locators/Advanced Locators', '0dc'),
                 exact: true,
@@ -541,6 +541,36 @@ export default [
               {
                 path: '/docs/Selenium/manage-docs-versions',
                 component: ComponentCreator('/docs/Selenium/manage-docs-versions', '738'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/congratulations',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/congratulations', '7cf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Synchronization/Explicit Wait',
+                component: ComponentCreator('/docs/Selenium/Synchronization/Explicit Wait', '430'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Synchronization/Fluent Wait',
+                component: ComponentCreator('/docs/Selenium/Synchronization/Fluent Wait', '369'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Synchronization/Implicit Wait',
+                component: ComponentCreator('/docs/Selenium/Synchronization/Implicit Wait', '469'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Synchronization/Intoduction',
+                component: ComponentCreator('/docs/Selenium/Synchronization/Intoduction', 'bd3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
