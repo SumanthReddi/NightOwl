@@ -114,16 +114,34 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ec7'),
+    component: ComponentCreator('/docs', 'd4b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '4b4'),
+        component: ComponentCreator('/docs', '3dc'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'e1a'),
+            component: ComponentCreator('/docs', 'f17'),
             routes: [
+              {
+                path: '/docs/Apache POI ⏸️/congratulations',
+                component: ComponentCreator('/docs/Apache POI ⏸️/congratulations', '519'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/advanced-concepts',
+                component: ComponentCreator('/docs/category/advanced-concepts', 'be2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/apache-poi-️',
+                component: ComponentCreator('/docs/category/apache-poi-️', 'a05'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/category/collections-framework',
                 component: ComponentCreator('/docs/category/collections-framework', 'ac7'),
@@ -137,8 +155,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/docusaurus',
-                component: ComponentCreator('/docs/category/docusaurus', '90b'),
+                path: '/docs/category/cucumber-️',
+                component: ComponentCreator('/docs/category/cucumber-️', '317'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/docusaurus-',
+                component: ComponentCreator('/docs/category/docusaurus-', '99a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -149,14 +173,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/git',
-                component: ComponentCreator('/docs/category/git', 'f78'),
+                path: '/docs/category/git-',
+                component: ComponentCreator('/docs/category/git-', 'aa7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/java',
-                component: ComponentCreator('/docs/category/java', '901'),
+                path: '/docs/category/introduction',
+                component: ComponentCreator('/docs/category/introduction', 'f51'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/java-',
+                component: ComponentCreator('/docs/category/java-', 'dca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -169,6 +199,18 @@ export default [
               {
                 path: '/docs/category/locators',
                 component: ComponentCreator('/docs/category/locators', '68e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/manual-testing-️',
+                component: ComponentCreator('/docs/category/manual-testing-️', 'cc3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/maven-️',
+                component: ComponentCreator('/docs/category/maven-️', 'e99'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -191,14 +233,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/python',
-                component: ComponentCreator('/docs/category/python', '493'),
+                path: '/docs/category/python-',
+                component: ComponentCreator('/docs/category/python-', '04b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/selenium',
-                component: ComponentCreator('/docs/category/selenium', '321'),
+                path: '/docs/category/realtime-practical-exercises',
+                component: ComponentCreator('/docs/category/realtime-practical-exercises', 'aa2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/robot-framework-️',
+                component: ComponentCreator('/docs/category/robot-framework-️', '20b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/selenium-',
+                component: ComponentCreator('/docs/category/selenium-', 'f2d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -215,14 +269,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/testng',
-                component: ComponentCreator('/docs/category/testng', '97c'),
+                path: '/docs/category/testng-',
+                component: ComponentCreator('/docs/category/testng-', '732'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/category/web-elements',
                 component: ComponentCreator('/docs/category/web-elements', '4a8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/congratulations',
+                component: ComponentCreator('/docs/congratulations', '966'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/congratulations',
+                component: ComponentCreator('/docs/Cucumber/congratulations', 'cbb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -269,14 +335,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Git/congratulations',
-                component: ComponentCreator('/docs/Git/congratulations', '2f3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/docs/Git/',
+                component: ComponentCreator('/docs/Git/', '865'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -455,6 +515,18 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Manual Testing/congratulations',
+                component: ComponentCreator('/docs/Manual Testing/congratulations', '9de'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/congratulations',
+                component: ComponentCreator('/docs/Maven/congratulations', 'ef5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Python/Control Flow',
                 component: ComponentCreator('/docs/Python/Control Flow', '146'),
                 exact: true,
@@ -527,6 +599,72 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Robot Framework/congratulations',
+                component: ComponentCreator('/docs/Robot Framework/congratulations', '9b4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Action Class',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Action Class', '042'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Cookies',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Cookies', 'f01'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Driver Options',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Driver Options', '0f8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement', '1b8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Frames',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Frames', '087'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Java Script Executor',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Java Script Executor', '44b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Multiple Window Handles',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Multiple Window Handles', '724'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Screenshots',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Screenshots', '124'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Advanced Concepts/Window Handle',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Window Handle', 'bbd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Introduction/',
+                component: ComponentCreator('/docs/Selenium/Introduction/', '06d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Selenium/Locators/Advanced Locators',
                 component: ComponentCreator('/docs/Selenium/Locators/Advanced Locators', '0dc'),
                 exact: true,
@@ -539,8 +677,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/manage-docs-versions',
-                component: ComponentCreator('/docs/Selenium/manage-docs-versions', '738'),
+                path: '/docs/Selenium/Locators/Relative Locators',
+                component: ComponentCreator('/docs/Selenium/Locators/Relative Locators', 'f0a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Realtime Practical Exercises/Broken Links',
+                component: ComponentCreator('/docs/Selenium/Realtime Practical Exercises/Broken Links', '0fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Realtime Practical Exercises/Links',
+                component: ComponentCreator('/docs/Selenium/Realtime Practical Exercises/Links', '6cd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -571,12 +721,6 @@ export default [
               {
                 path: '/docs/Selenium/Synchronization/Intoduction',
                 component: ComponentCreator('/docs/Selenium/Synchronization/Intoduction', 'bd3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Selenium/translate-your-site',
-                component: ComponentCreator('/docs/Selenium/translate-your-site', '5d3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -689,8 +833,68 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/TestNG/Annotations Flow',
+                component: ComponentCreator('/docs/TestNG/Annotations Flow', 'f55'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/TestNG/congratulations',
                 component: ComponentCreator('/docs/TestNG/congratulations', '6f3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Data Provider',
+                component: ComponentCreator('/docs/TestNG/Data Provider', '94a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Dependencies',
+                component: ComponentCreator('/docs/TestNG/Dependencies', '5e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Groups',
+                component: ComponentCreator('/docs/TestNG/Groups', '9e9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Introduction',
+                component: ComponentCreator('/docs/TestNG/Introduction', 'c13'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Listerners',
+                component: ComponentCreator('/docs/TestNG/Listerners', '7da'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Parallel Exection',
+                component: ComponentCreator('/docs/TestNG/Parallel Exection', '876'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Priority',
+                component: ComponentCreator('/docs/TestNG/Priority', '23f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Testng XML',
+                component: ComponentCreator('/docs/TestNG/Testng XML', '9a8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/Why TestNG',
+                component: ComponentCreator('/docs/TestNG/Why TestNG', '1d1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

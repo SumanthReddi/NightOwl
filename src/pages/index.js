@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Practical automation testing notes on Selenium, Robot Framework, CI/CD, APIs, and real-world test engineering/>">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Manage Docs Versions",
-    "permalink": "/docs/Selenium/manage-docs-versions"
+    "title": "Advanced Locators",
+    "permalink": "/docs/Selenium/Locators/Advanced Locators"
   },
   "next": {
-    "title": "Locators",
-    "permalink": "/docs/category/locators"
+    "title": "Web Elements",
+    "permalink": "/docs/category/web-elements"
   }
 }

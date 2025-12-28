@@ -249,18 +249,30 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-ec7": {
+  "/docs-d4b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-4b4": {
+  "/docs-3dc": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-e1a": {
+  "/docs-f17": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/Apache POI ⏸️/congratulations-519": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-apache-poi-⏸️-congratulations-6-bd-155"
+  },
+  "/docs/category/advanced-concepts-be2": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-advanced-concepts-9-ab-2f8"
+  },
+  "/docs/category/apache-poi-️-a05": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-apache-poi-️-8-ce-ba6"
   },
   "/docs/category/collections-framework-ac7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -270,21 +282,29 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-core-java-concepts-417-0c7"
   },
-  "/docs/category/docusaurus-90b": {
+  "/docs/category/cucumber-️-317": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-docusaurusd-74-e07"
+    "__props": "__props---docs-category-cucumber-️-3-c-0-819"
+  },
+  "/docs/category/docusaurus--99a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-docusaurus-02-d-a68"
   },
   "/docs/category/exception-handling-960": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-exception-handling-7-a-1-5db"
   },
-  "/docs/category/git-f78": {
+  "/docs/category/git--aa7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-git-258-1cc"
+    "__props": "__props---docs-category-git-309-e3e"
   },
-  "/docs/category/java-901": {
+  "/docs/category/introduction-f51": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-java-3-e-6-f53"
+    "__props": "__props---docs-category-introduction-73-c-74a"
+  },
+  "/docs/category/java--dca": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-java-7-ab-a8c"
   },
   "/docs/category/keywords-677": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -293,6 +313,14 @@
   "/docs/category/locators-68e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-locatorse-8-f-f5a"
+  },
+  "/docs/category/manual-testing-️-cc3": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-manual-testing-️-5-f-9-b49"
+  },
+  "/docs/category/maven-️-e99": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-maven-️-70-a-303"
   },
   "/docs/category/miscellaneous-concepts-1fd": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -306,13 +334,21 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-oops-4-f-9-864"
   },
-  "/docs/category/python-493": {
+  "/docs/category/python--04b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-python-48-f-c2d"
+    "__props": "__props---docs-category-python-430-25a"
   },
-  "/docs/category/selenium-321": {
+  "/docs/category/realtime-practical-exercises-aa2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-selenium-4-b-6-879"
+    "__props": "__props---docs-category-realtime-practical-exercisesd-65-e73"
+  },
+  "/docs/category/robot-framework-️-20b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-robot-framework-️-2-fc-10d"
+  },
+  "/docs/category/selenium--f2d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-selenium-75-f-c9d"
   },
   "/docs/category/selenium-grid-ca5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -322,13 +358,21 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-synchronizationdaf-6fb"
   },
-  "/docs/category/testng-97c": {
+  "/docs/category/testng--732": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-testngb-09-4b2"
+    "__props": "__props---docs-category-testng-fcb-e03"
   },
   "/docs/category/web-elements-4a8": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-web-elements-8-af-e42"
+  },
+  "/docs/congratulations-966": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-congratulations-3-ad-b1a"
+  },
+  "/docs/Cucumber/congratulations-cbb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-cucumber-congratulations-988-3b8"
   },
   "/docs/Docusaurus/congratulations-332": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -358,13 +402,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docusaurus-markdown-features-1-bf-5fc"
   },
-  "/docs/Git/congratulations-2f3": {
+  "/docs/Git/-865": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-git-congratulationse-20-73a"
-  },
-  "/docs/intro-61d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "content": "content---docs-git-d-0-f-619"
   },
   "/docs/Java/Collections Framework/congratulations-dae": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -482,6 +522,14 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-oops-polymorphisme-47-27c"
   },
+  "/docs/Manual Testing/congratulations-9de": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-manual-testing-congratulations-3-b-6-c97"
+  },
+  "/docs/Maven/congratulations-ef5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-congratulations-6-c-7-a1e"
+  },
   "/docs/Python/Control Flow-146": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-python-control-flow-1-c-2-025"
@@ -530,6 +578,50 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-python-web-api-basicscfa-744"
   },
+  "/docs/Robot Framework/congratulations-9b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-congratulations-54-f-5d9"
+  },
+  "/docs/Selenium/Advanced Concepts/Action Class-042": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-action-class-200-67a"
+  },
+  "/docs/Selenium/Advanced Concepts/Cookies-f01": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-cookiesc-50-23a"
+  },
+  "/docs/Selenium/Advanced Concepts/Driver Options-0f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-driver-options-754-a0e"
+  },
+  "/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement-1b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-fetch-dimensions-of-web-element-2-af-943"
+  },
+  "/docs/Selenium/Advanced Concepts/Frames-087": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-framesa-63-b7f"
+  },
+  "/docs/Selenium/Advanced Concepts/Java Script Executor-44b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-java-script-executor-06-a-670"
+  },
+  "/docs/Selenium/Advanced Concepts/Multiple Window Handles-724": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-multiple-window-handlesacc-39d"
+  },
+  "/docs/Selenium/Advanced Concepts/Screenshots-124": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-screenshots-1-e-7-7f7"
+  },
+  "/docs/Selenium/Advanced Concepts/Window Handle-bbd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-window-handle-110-4f9"
+  },
+  "/docs/Selenium/Introduction/-06d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-introduction-d-63-4c1"
+  },
   "/docs/Selenium/Locators/Advanced Locators-0dc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-locators-advanced-locatorsbe-0-403"
@@ -538,9 +630,17 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-locators-common-locators-154-e74"
   },
-  "/docs/Selenium/manage-docs-versions-738": {
+  "/docs/Selenium/Locators/Relative Locators-f0a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-manage-docs-versionsaa-3-379"
+    "content": "content---docs-selenium-locators-relative-locators-8-fe-3b3"
+  },
+  "/docs/Selenium/Realtime Practical Exercises/Broken Links-0fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-realtime-practical-exercises-broken-links-1-e-4-756"
+  },
+  "/docs/Selenium/Realtime Practical Exercises/Links-6cd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-realtime-practical-exercises-linksfc-9-51b"
   },
   "/docs/Selenium/Selenium Grid/congratulations-7cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -561,10 +661,6 @@
   "/docs/Selenium/Synchronization/Intoduction-bd3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-synchronization-intoduction-36-b-403"
-  },
-  "/docs/Selenium/translate-your-site-5d3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-translate-your-sited-03-17e"
   },
   "/docs/Selenium/Web Elements/Alerts and Popups-b46": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -638,9 +734,49 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-web-elements-tool-tips-7-f-6-f96"
   },
+  "/docs/TestNG/Annotations Flow-f55": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-annotations-flow-456-8a2"
+  },
   "/docs/TestNG/congratulations-6f3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-test-ng-congratulationsbda-30f"
+  },
+  "/docs/TestNG/Data Provider-94a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-data-providera-11-ffa"
+  },
+  "/docs/TestNG/Dependencies-5e0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-dependenciesbae-f7b"
+  },
+  "/docs/TestNG/Groups-9e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-groups-166-133"
+  },
+  "/docs/TestNG/Introduction-c13": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-introduction-827-18a"
+  },
+  "/docs/TestNG/Listerners-7da": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-listerners-698-fb9"
+  },
+  "/docs/TestNG/Parallel Exection-876": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-parallel-exection-524-44b"
+  },
+  "/docs/TestNG/Priority-23f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-priorityb-4-e-297"
+  },
+  "/docs/TestNG/Testng XML-9a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-testng-xml-3-c-7-49b"
+  },
+  "/docs/TestNG/Why TestNG-1d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-why-test-ng-052-abd"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

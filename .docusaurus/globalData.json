@@ -8,8 +8,23 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "congratulations",
           "docs": [
+            {
+              "id": "Apache POI ⏸️/congratulations",
+              "path": "/docs/Apache POI ⏸️/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "congratulations",
+              "path": "/docs/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/congratulations",
+              "path": "/docs/Cucumber/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "Docusaurus/congratulations",
               "path": "/docs/Docusaurus/congratulations",
@@ -46,13 +61,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Git/congratulations",
-              "path": "/docs/Git/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "Git/Git",
+              "path": "/docs/Git/",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -201,6 +211,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Manual Testing/congratulations",
+              "path": "/docs/Manual Testing/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/congratulations",
+              "path": "/docs/Maven/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Python/Control Flow",
               "path": "/docs/Python/Control Flow",
               "sidebar": "tutorialSidebar"
@@ -261,6 +281,61 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Robot Framework/congratulations",
+              "path": "/docs/Robot Framework/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Action Class",
+              "path": "/docs/Selenium/Advanced Concepts/Action Class",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Cookies",
+              "path": "/docs/Selenium/Advanced Concepts/Cookies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Driver Options",
+              "path": "/docs/Selenium/Advanced Concepts/Driver Options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Fetch Dimensions of WebElement",
+              "path": "/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Frames",
+              "path": "/docs/Selenium/Advanced Concepts/Frames",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Java Script Executor",
+              "path": "/docs/Selenium/Advanced Concepts/Java Script Executor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Multiple Window Handles",
+              "path": "/docs/Selenium/Advanced Concepts/Multiple Window Handles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Screenshots",
+              "path": "/docs/Selenium/Advanced Concepts/Screenshots",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Advanced Concepts/Window Handle",
+              "path": "/docs/Selenium/Advanced Concepts/Window Handle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Introduction/Introduction",
+              "path": "/docs/Selenium/Introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium/Locators/Advanced Locators",
               "path": "/docs/Selenium/Locators/Advanced Locators",
               "sidebar": "tutorialSidebar"
@@ -271,8 +346,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/manage-docs-versions",
-              "path": "/docs/Selenium/manage-docs-versions",
+              "id": "Selenium/Locators/Relative Locators",
+              "path": "/docs/Selenium/Locators/Relative Locators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Realtime Practical Exercises/Broken Links",
+              "path": "/docs/Selenium/Realtime Practical Exercises/Broken Links",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Realtime Practical Exercises/Links",
+              "path": "/docs/Selenium/Realtime Practical Exercises/Links",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -298,11 +383,6 @@
             {
               "id": "Selenium/Synchronization/Intoduction",
               "path": "/docs/Selenium/Synchronization/Intoduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Selenium/translate-your-site",
-              "path": "/docs/Selenium/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -396,13 +476,68 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "TestNG/Annotations Flow",
+              "path": "/docs/TestNG/Annotations Flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "TestNG/congratulations",
               "path": "/docs/TestNG/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/java",
-              "path": "/docs/category/java",
+              "id": "TestNG/Data Provider",
+              "path": "/docs/TestNG/Data Provider",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Dependencies",
+              "path": "/docs/TestNG/Dependencies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Groups",
+              "path": "/docs/TestNG/Groups",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Introduction",
+              "path": "/docs/TestNG/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Listerners",
+              "path": "/docs/TestNG/Listerners",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Parallel Exection",
+              "path": "/docs/TestNG/Parallel Exection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Priority",
+              "path": "/docs/TestNG/Priority",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Testng XML",
+              "path": "/docs/TestNG/Testng XML",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/Why TestNG",
+              "path": "/docs/TestNG/Why TestNG",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/manual-testing-️",
+              "path": "/docs/category/manual-testing-️",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/java-",
+              "path": "/docs/category/java-",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -441,8 +576,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/selenium",
-              "path": "/docs/category/selenium",
+              "id": "/category/maven-️",
+              "path": "/docs/category/maven-️",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/selenium-",
+              "path": "/docs/category/selenium-",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/introduction",
+              "path": "/docs/category/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -456,8 +601,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/advanced-concepts",
+              "path": "/docs/category/advanced-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/synchronization",
               "path": "/docs/category/synchronization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/realtime-practical-exercises",
+              "path": "/docs/category/realtime-practical-exercises",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -466,23 +621,38 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/testng",
-              "path": "/docs/category/testng",
+              "id": "/category/testng-",
+              "path": "/docs/category/testng-",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/git",
-              "path": "/docs/category/git",
+              "id": "/category/cucumber-️",
+              "path": "/docs/category/cucumber-️",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/python",
-              "path": "/docs/category/python",
+              "id": "/category/apache-poi-️",
+              "path": "/docs/category/apache-poi-️",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/docusaurus",
-              "path": "/docs/category/docusaurus",
+              "id": "/category/git-",
+              "path": "/docs/category/git-",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/python-",
+              "path": "/docs/category/python-",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/robot-framework-️",
+              "path": "/docs/category/robot-framework-️",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docusaurus-",
+              "path": "/docs/category/docusaurus-",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -490,8 +660,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/congratulations",
+                "label": "congratulations"
               }
             }
           }

@@ -1,7 +1,7 @@
 {
   "id": "TestNG/congratulations",
-  "title": "Congratulations!",
-  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "title": "congratulations",
+  "description": "",
   "source": "@site/docs/TestNG/congratulations.md",
   "sourceDirName": "TestNG",
   "slug": "/TestNG/congratulations",
@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/TestNG/congratulations.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 10,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 10
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "TestNG",
-    "permalink": "/docs/category/testng"
+    "title": "Why TestNG",
+    "permalink": "/docs/TestNG/Why TestNG"
   },
   "next": {
-    "title": "Git",
-    "permalink": "/docs/category/git"
+    "title": "Cucumber ⏸️",
+    "permalink": "/docs/category/cucumber-️"
   }
 }
