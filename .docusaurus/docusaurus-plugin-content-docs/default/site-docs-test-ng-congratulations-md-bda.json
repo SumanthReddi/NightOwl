@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Why TestNG",
-    "permalink": "/docs/TestNG/Why TestNG"
+    "title": "TestNG XML",
+    "permalink": "/docs/TestNG/TestNG XML"
   },
   "next": {
     "title": "Cucumber ⏸️",

@@ -11,8 +11,88 @@
           "mainDocId": "congratulations",
           "docs": [
             {
-              "id": "Apache POI ⏸️/congratulations",
-              "path": "/docs/Apache POI ⏸️/congratulations",
+              "id": "Apache POI/congratulations",
+              "path": "/docs/Apache POI/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Architecture Basics",
+              "path": "/docs/API/API Architecture Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Authentication and Authorization",
+              "path": "/docs/API/API Authentication and Authorization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Automation Using RestAssured",
+              "path": "/docs/API/API Automation Using RestAssured",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Database Validation",
+              "path": "/docs/API/API Database Validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Interview Questions and Scenarios",
+              "path": "/docs/API/API Interview Questions and Scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Introduction",
+              "path": "/docs/API/API Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Request Components",
+              "path": "/docs/API/API Request Components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Testing in CI CD Pipelines",
+              "path": "/docs/API/API Testing in CI CD Pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/API Testing With Postman",
+              "path": "/docs/API/API Testing With Postman",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Common API Automation Mistakes and Anti Patterns",
+              "path": "/docs/API/Common API Automation Mistakes and Anti Patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/HTTP Methods GET POST",
+              "path": "/docs/API/HTTP Methods GET POST",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/HTTP Methods HEAD OPTIONS",
+              "path": "/docs/API/HTTP Methods HEAD OPTIONS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/HTTP Methods PUT PATCH DELETE",
+              "path": "/docs/API/HTTP Methods PUT PATCH DELETE",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/HTTP Status Codes",
+              "path": "/docs/API/HTTP Status Codes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/JSON_Fundamentals_For_API_Testing",
+              "path": "/docs/API/JSON_Fundamentals_For_API_Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/REST API Fundamentals",
+              "path": "/docs/API/REST API Fundamentals",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -23,6 +103,126 @@
             {
               "id": "Cucumber/congratulations",
               "path": "/docs/Cucumber/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Aggregations",
+              "path": "/docs/Database/Aggregations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Database Constraints",
+              "path": "/docs/Database/Database Constraints",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Database Normalization",
+              "path": "/docs/Database/Database Normalization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Database Schemas",
+              "path": "/docs/Database/Database Schemas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Database Stored Procedures",
+              "path": "/docs/Database/Database Stored Procedures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Database Views",
+              "path": "/docs/Database/Database Views",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Database vs DBMS",
+              "path": "/docs/Database/Database vs DBMS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Date and Timestamp",
+              "path": "/docs/Database/Date and Timestamp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Db Common Errors and Debugging",
+              "path": "/docs/Database/Db Common Errors and Debugging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Interview Readiness",
+              "path": "/docs/Database/Interview Readiness",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Introduction",
+              "path": "/docs/Database/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Joins",
+              "path": "/docs/Database/Joins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Locks and Concurrency",
+              "path": "/docs/Database/Locks and Concurrency",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/NULL Handling",
+              "path": "/docs/Database/NULL Handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Primary and Foreign Key",
+              "path": "/docs/Database/Primary and Foreign Key",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/SELECT Basics",
+              "path": "/docs/Database/SELECT Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/SQL Command Types",
+              "path": "/docs/Database/SQL Command Types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/SQL DML",
+              "path": "/docs/Database/SQL DML",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/SQL Indexes and Performance",
+              "path": "/docs/Database/SQL Indexes and Performance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/SQL Introduction",
+              "path": "/docs/Database/SQL Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/SQL Subqueries",
+              "path": "/docs/Database/SQL Subqueries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/SQL Transactions",
+              "path": "/docs/Database/SQL Transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Tables Rows Columns",
+              "path": "/docs/Database/Tables Rows Columns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Database/Types of Databases",
+              "path": "/docs/Database/Types of Databases",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -216,8 +416,63 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/congratulations",
-              "path": "/docs/Maven/congratulations",
+              "id": "Maven/Cheat Sheet",
+              "path": "/docs/Maven/Cheat Sheet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Common Errors & Fixes",
+              "path": "/docs/Maven/Common Errors & Fixes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Dependencies Management",
+              "path": "/docs/Maven/Dependencies Management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Introduction to Maven",
+              "path": "/docs/Maven/Introduction to Maven",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Maven + CICD",
+              "path": "/docs/Maven/Maven + CICD",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Maven Lifecycle & Phases",
+              "path": "/docs/Maven/Maven Lifecycle & Phases",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Maven Project Structure",
+              "path": "/docs/Maven/Maven Project Structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Plugins",
+              "path": "/docs/Maven/Plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/pom.xml",
+              "path": "/docs/Maven/pom.xml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Profiles",
+              "path": "/docs/Maven/Profiles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Running TestNG with Maven",
+              "path": "/docs/Maven/Running TestNG with Maven",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Maven/Why Maven",
+              "path": "/docs/Maven/Why Maven",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -361,8 +616,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Selenium Grid/congratulations",
-              "path": "/docs/Selenium/Selenium Grid/congratulations",
+              "id": "Selenium/Selenium Grid/Grid in CICD",
+              "path": "/docs/Selenium/Selenium Grid/Grid in CICD",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/Grid with Docker",
+              "path": "/docs/Selenium/Selenium Grid/Grid with Docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/Introduction",
+              "path": "/docs/Selenium/Selenium Grid/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/Setup Guide",
+              "path": "/docs/Selenium/Selenium Grid/Setup Guide",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -476,13 +746,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Annotations Flow",
-              "path": "/docs/TestNG/Annotations Flow",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "TestNG/congratulations",
-              "path": "/docs/TestNG/congratulations",
+              "id": "TestNG/Annotations & Execution Flow",
+              "path": "/docs/TestNG/Annotations & Execution Flow",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -501,13 +766,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "TestNG/Helper Attributes",
+              "path": "/docs/TestNG/Helper Attributes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "TestNG/Introduction",
               "path": "/docs/TestNG/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Listerners",
-              "path": "/docs/TestNG/Listerners",
+              "id": "TestNG/Listeners and RetryAnalyzer",
+              "path": "/docs/TestNG/Listeners and RetryAnalyzer",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -521,8 +791,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Testng XML",
-              "path": "/docs/TestNG/Testng XML",
+              "id": "TestNG/TestNG Assertions",
+              "path": "/docs/TestNG/TestNG Assertions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/TestNG Factory",
+              "path": "/docs/TestNG/TestNG Factory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/TestNG Parameters",
+              "path": "/docs/TestNG/TestNG Parameters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "TestNG/TestNG XML",
+              "path": "/docs/TestNG/TestNG XML",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -533,6 +818,11 @@
             {
               "id": "/category/manual-testing-️",
               "path": "/docs/category/manual-testing-️",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/database-",
+              "path": "/docs/category/database-",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -576,8 +866,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/maven-️",
-              "path": "/docs/category/maven-️",
+              "id": "/category/maven-",
+              "path": "/docs/category/maven-",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -626,18 +916,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/cucumber-️",
-              "path": "/docs/category/cucumber-️",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/apache-poi-️",
               "path": "/docs/category/apache-poi-️",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/api-",
+              "path": "/docs/category/api-",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/git-",
               "path": "/docs/category/git-",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/cucumber-️",
+              "path": "/docs/category/cucumber-️",
               "sidebar": "tutorialSidebar"
             },
             {

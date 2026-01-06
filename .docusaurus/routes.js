@@ -114,19 +114,115 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd4b'),
+    component: ComponentCreator('/docs', '95a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3dc'),
+        component: ComponentCreator('/docs', 'c4d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f17'),
+            component: ComponentCreator('/docs', '076'),
             routes: [
               {
-                path: '/docs/Apache POI ⏸️/congratulations',
-                component: ComponentCreator('/docs/Apache POI ⏸️/congratulations', '519'),
+                path: '/docs/Apache POI/congratulations',
+                component: ComponentCreator('/docs/Apache POI/congratulations', 'a03'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Architecture Basics',
+                component: ComponentCreator('/docs/API/API Architecture Basics', '0fa'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Authentication and Authorization',
+                component: ComponentCreator('/docs/API/API Authentication and Authorization', 'd30'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Automation Using RestAssured',
+                component: ComponentCreator('/docs/API/API Automation Using RestAssured', 'fcc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Database Validation',
+                component: ComponentCreator('/docs/API/API Database Validation', 'f54'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Interview Questions and Scenarios',
+                component: ComponentCreator('/docs/API/API Interview Questions and Scenarios', '3a0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Introduction',
+                component: ComponentCreator('/docs/API/API Introduction', 'b73'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Request Components',
+                component: ComponentCreator('/docs/API/API Request Components', 'bc1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Testing in CI CD Pipelines',
+                component: ComponentCreator('/docs/API/API Testing in CI CD Pipelines', '841'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/API Testing With Postman',
+                component: ComponentCreator('/docs/API/API Testing With Postman', 'b75'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Common API Automation Mistakes and Anti Patterns',
+                component: ComponentCreator('/docs/API/Common API Automation Mistakes and Anti Patterns', 'ae2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/HTTP Methods GET POST',
+                component: ComponentCreator('/docs/API/HTTP Methods GET POST', '521'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/HTTP Methods HEAD OPTIONS',
+                component: ComponentCreator('/docs/API/HTTP Methods HEAD OPTIONS', '1f3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/HTTP Methods PUT PATCH DELETE',
+                component: ComponentCreator('/docs/API/HTTP Methods PUT PATCH DELETE', '65c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/HTTP Status Codes',
+                component: ComponentCreator('/docs/API/HTTP Status Codes', 'f26'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/JSON_Fundamentals_For_API_Testing',
+                component: ComponentCreator('/docs/API/JSON_Fundamentals_For_API_Testing', 'e1e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/REST API Fundamentals',
+                component: ComponentCreator('/docs/API/REST API Fundamentals', '467'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -139,6 +235,12 @@ export default [
               {
                 path: '/docs/category/apache-poi-️',
                 component: ComponentCreator('/docs/category/apache-poi-️', 'a05'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/api-',
+                component: ComponentCreator('/docs/category/api-', '167'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -157,6 +259,12 @@ export default [
               {
                 path: '/docs/category/cucumber-️',
                 component: ComponentCreator('/docs/category/cucumber-️', '317'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/database-',
+                component: ComponentCreator('/docs/category/database-', 'a91'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -209,8 +317,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/maven-️',
-                component: ComponentCreator('/docs/category/maven-️', 'e99'),
+                path: '/docs/category/maven-',
+                component: ComponentCreator('/docs/category/maven-', '770'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -289,6 +397,150 @@ export default [
               {
                 path: '/docs/Cucumber/congratulations',
                 component: ComponentCreator('/docs/Cucumber/congratulations', 'cbb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Aggregations',
+                component: ComponentCreator('/docs/Database/Aggregations', 'bbd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Database Constraints',
+                component: ComponentCreator('/docs/Database/Database Constraints', '611'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Database Normalization',
+                component: ComponentCreator('/docs/Database/Database Normalization', '89a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Database Schemas',
+                component: ComponentCreator('/docs/Database/Database Schemas', '5c7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Database Stored Procedures',
+                component: ComponentCreator('/docs/Database/Database Stored Procedures', '45a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Database Views',
+                component: ComponentCreator('/docs/Database/Database Views', 'eb5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Database vs DBMS',
+                component: ComponentCreator('/docs/Database/Database vs DBMS', '32a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Date and Timestamp',
+                component: ComponentCreator('/docs/Database/Date and Timestamp', '690'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Db Common Errors and Debugging',
+                component: ComponentCreator('/docs/Database/Db Common Errors and Debugging', '097'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Interview Readiness',
+                component: ComponentCreator('/docs/Database/Interview Readiness', '3b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Introduction',
+                component: ComponentCreator('/docs/Database/Introduction', '1c4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Joins',
+                component: ComponentCreator('/docs/Database/Joins', '523'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Locks and Concurrency',
+                component: ComponentCreator('/docs/Database/Locks and Concurrency', '0bb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/NULL Handling',
+                component: ComponentCreator('/docs/Database/NULL Handling', 'fa1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Primary and Foreign Key',
+                component: ComponentCreator('/docs/Database/Primary and Foreign Key', '7a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/SELECT Basics',
+                component: ComponentCreator('/docs/Database/SELECT Basics', '1d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/SQL Command Types',
+                component: ComponentCreator('/docs/Database/SQL Command Types', 'aa6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/SQL DML',
+                component: ComponentCreator('/docs/Database/SQL DML', 'd0f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/SQL Indexes and Performance',
+                component: ComponentCreator('/docs/Database/SQL Indexes and Performance', 'a88'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/SQL Introduction',
+                component: ComponentCreator('/docs/Database/SQL Introduction', 'a84'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/SQL Subqueries',
+                component: ComponentCreator('/docs/Database/SQL Subqueries', 'c0e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/SQL Transactions',
+                component: ComponentCreator('/docs/Database/SQL Transactions', 'd68'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Tables Rows Columns',
+                component: ComponentCreator('/docs/Database/Tables Rows Columns', '608'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Database/Types of Databases',
+                component: ComponentCreator('/docs/Database/Types of Databases', '7c8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -521,8 +773,74 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/congratulations',
-                component: ComponentCreator('/docs/Maven/congratulations', 'ef5'),
+                path: '/docs/Maven/Cheat Sheet',
+                component: ComponentCreator('/docs/Maven/Cheat Sheet', 'cd8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Common Errors & Fixes',
+                component: ComponentCreator('/docs/Maven/Common Errors & Fixes', 'b36'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Dependencies Management',
+                component: ComponentCreator('/docs/Maven/Dependencies Management', 'dc0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Introduction to Maven',
+                component: ComponentCreator('/docs/Maven/Introduction to Maven', 'eac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Maven + CICD',
+                component: ComponentCreator('/docs/Maven/Maven + CICD', '19f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Maven Lifecycle & Phases',
+                component: ComponentCreator('/docs/Maven/Maven Lifecycle & Phases', '5d5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Maven Project Structure',
+                component: ComponentCreator('/docs/Maven/Maven Project Structure', '30c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Plugins',
+                component: ComponentCreator('/docs/Maven/Plugins', 'bbc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/pom.xml',
+                component: ComponentCreator('/docs/Maven/pom.xml', 'fd1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Profiles',
+                component: ComponentCreator('/docs/Maven/Profiles', '6e9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Running TestNG with Maven',
+                component: ComponentCreator('/docs/Maven/Running TestNG with Maven', 'a63'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Maven/Why Maven',
+                component: ComponentCreator('/docs/Maven/Why Maven', 'a7b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -695,8 +1013,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Selenium Grid/congratulations',
-                component: ComponentCreator('/docs/Selenium/Selenium Grid/congratulations', '7cf'),
+                path: '/docs/Selenium/Selenium Grid/Grid in CICD',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/Grid in CICD', '52d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/Grid with Docker',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/Grid with Docker', '631'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/Introduction',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/Introduction', '8fe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/Setup Guide',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/Setup Guide', '6d8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -833,14 +1169,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Annotations Flow',
-                component: ComponentCreator('/docs/TestNG/Annotations Flow', 'f55'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/TestNG/congratulations',
-                component: ComponentCreator('/docs/TestNG/congratulations', '6f3'),
+                path: '/docs/TestNG/Annotations & Execution Flow',
+                component: ComponentCreator('/docs/TestNG/Annotations & Execution Flow', 'd86'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -863,14 +1193,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/TestNG/Helper Attributes',
+                component: ComponentCreator('/docs/TestNG/Helper Attributes', 'bb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/TestNG/Introduction',
                 component: ComponentCreator('/docs/TestNG/Introduction', 'c13'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Listerners',
-                component: ComponentCreator('/docs/TestNG/Listerners', '7da'),
+                path: '/docs/TestNG/Listeners and RetryAnalyzer',
+                component: ComponentCreator('/docs/TestNG/Listeners and RetryAnalyzer', '1ba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -887,8 +1223,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Testng XML',
-                component: ComponentCreator('/docs/TestNG/Testng XML', '9a8'),
+                path: '/docs/TestNG/TestNG Assertions',
+                component: ComponentCreator('/docs/TestNG/TestNG Assertions', '8df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/TestNG Factory',
+                component: ComponentCreator('/docs/TestNG/TestNG Factory', 'f81'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/TestNG Parameters',
+                component: ComponentCreator('/docs/TestNG/TestNG Parameters', 'df9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/TestNG/TestNG XML',
+                component: ComponentCreator('/docs/TestNG/TestNG XML', 'f10'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

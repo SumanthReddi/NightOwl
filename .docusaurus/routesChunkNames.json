@@ -249,22 +249,86 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-d4b": {
+  "/docs-95a": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-3dc": {
+  "/docs-c4d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-f17": {
+  "/docs-076": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/Apache POI ⏸️/congratulations-519": {
+  "/docs/Apache POI/congratulations-a03": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-⏸️-congratulations-6-bd-155"
+    "content": "content---docs-apache-poi-congratulationse-65-eb9"
+  },
+  "/docs/API/API Architecture Basics-0fa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-architecture-basics-654-ff7"
+  },
+  "/docs/API/API Authentication and Authorization-d30": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-authentication-and-authorization-45-e-a9e"
+  },
+  "/docs/API/API Automation Using RestAssured-fcc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-automation-using-rest-assured-934-7cb"
+  },
+  "/docs/API/API Database Validation-f54": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-database-validationf-99-01c"
+  },
+  "/docs/API/API Interview Questions and Scenarios-3a0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-interview-questions-and-scenarios-1-d-7-37e"
+  },
+  "/docs/API/API Introduction-b73": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-introductiona-5-a-828"
+  },
+  "/docs/API/API Request Components-bc1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-request-components-6-d-4-aa5"
+  },
+  "/docs/API/API Testing in CI CD Pipelines-841": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-testing-in-ci-cd-pipelines-48-a-8f6"
+  },
+  "/docs/API/API Testing With Postman-b75": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-testing-with-postman-4-c-8-011"
+  },
+  "/docs/API/Common API Automation Mistakes and Anti Patterns-ae2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-common-api-automation-mistakes-and-anti-patterns-2-e-4-302"
+  },
+  "/docs/API/HTTP Methods GET POST-521": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-http-methods-get-post-479-905"
+  },
+  "/docs/API/HTTP Methods HEAD OPTIONS-1f3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-http-methods-head-options-383-129"
+  },
+  "/docs/API/HTTP Methods PUT PATCH DELETE-65c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-http-methods-put-patch-delet-eeef-61c"
+  },
+  "/docs/API/HTTP Status Codes-f26": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-http-status-codes-2-c-8-6dd"
+  },
+  "/docs/API/JSON_Fundamentals_For_API_Testing-e1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-json-fundamentals-for-api-testing-2-f-1-002"
+  },
+  "/docs/API/REST API Fundamentals-467": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-rest-api-fundamentals-79-a-80b"
   },
   "/docs/category/advanced-concepts-be2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -273,6 +337,10 @@
   "/docs/category/apache-poi-️-a05": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-apache-poi-️-8-ce-ba6"
+  },
+  "/docs/category/api--167": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-api-233-d11"
   },
   "/docs/category/collections-framework-ac7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -285,6 +353,10 @@
   "/docs/category/cucumber-️-317": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-cucumber-️-3-c-0-819"
+  },
+  "/docs/category/database--a91": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-database-7-f-6-118"
   },
   "/docs/category/docusaurus--99a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -318,9 +390,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-manual-testing-️-5-f-9-b49"
   },
-  "/docs/category/maven-️-e99": {
+  "/docs/category/maven--770": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-maven-️-70-a-303"
+    "__props": "__props---docs-category-maven-e-0-f-dc2"
   },
   "/docs/category/miscellaneous-concepts-1fd": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -373,6 +445,102 @@
   "/docs/Cucumber/congratulations-cbb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-cucumber-congratulations-988-3b8"
+  },
+  "/docs/Database/Aggregations-bbd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-aggregations-814-e6d"
+  },
+  "/docs/Database/Database Constraints-611": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-database-constraints-344-ed9"
+  },
+  "/docs/Database/Database Normalization-89a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-database-normalization-1-c-5-61f"
+  },
+  "/docs/Database/Database Schemas-5c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-database-schemas-0-ac-bf2"
+  },
+  "/docs/Database/Database Stored Procedures-45a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-database-stored-procedures-947-d39"
+  },
+  "/docs/Database/Database Views-eb5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-database-viewsf-35-d55"
+  },
+  "/docs/Database/Database vs DBMS-32a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-database-vs-dbms-1-a-5-436"
+  },
+  "/docs/Database/Date and Timestamp-690": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-date-and-timestampd-2-c-d95"
+  },
+  "/docs/Database/Db Common Errors and Debugging-097": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-db-common-errors-and-debugging-6-ee-8a7"
+  },
+  "/docs/Database/Interview Readiness-3b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-interview-readiness-934-d5b"
+  },
+  "/docs/Database/Introduction-1c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-introduction-598-3bd"
+  },
+  "/docs/Database/Joins-523": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-joins-42-f-d10"
+  },
+  "/docs/Database/Locks and Concurrency-0bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-locks-and-concurrency-90-f-117"
+  },
+  "/docs/Database/NULL Handling-fa1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-null-handling-0-dd-ecf"
+  },
+  "/docs/Database/Primary and Foreign Key-7a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-primary-and-foreign-keyba-6-ef4"
+  },
+  "/docs/Database/SELECT Basics-1d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-select-basics-3-f-7-72b"
+  },
+  "/docs/Database/SQL Command Types-aa6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-sql-command-typesd-3-a-1a8"
+  },
+  "/docs/Database/SQL DML-d0f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-sql-dml-42-f-aa1"
+  },
+  "/docs/Database/SQL Indexes and Performance-a88": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-sql-indexes-and-performance-88-b-83c"
+  },
+  "/docs/Database/SQL Introduction-a84": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-sql-introductiona-62-806"
+  },
+  "/docs/Database/SQL Subqueries-c0e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-sql-subqueries-1-ea-24e"
+  },
+  "/docs/Database/SQL Transactions-d68": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-sql-transactionsc-86-aec"
+  },
+  "/docs/Database/Tables Rows Columns-608": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-tables-rows-columnsd-71-51b"
+  },
+  "/docs/Database/Types of Databases-7c8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-types-of-databases-527-542"
   },
   "/docs/Docusaurus/congratulations-332": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -526,9 +694,53 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-manual-testing-congratulations-3-b-6-c97"
   },
-  "/docs/Maven/congratulations-ef5": {
+  "/docs/Maven/Cheat Sheet-cd8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-congratulations-6-c-7-a1e"
+    "content": "content---docs-maven-cheat-sheet-06-c-b11"
+  },
+  "/docs/Maven/Common Errors & Fixes-b36": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-common-errors-fixes-906-9a4"
+  },
+  "/docs/Maven/Dependencies Management-dc0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-dependencies-managementb-84-d57"
+  },
+  "/docs/Maven/Introduction to Maven-eac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-introduction-to-maven-7-a-3-265"
+  },
+  "/docs/Maven/Maven + CICD-19f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-maven-cic-dc-5-d-45a"
+  },
+  "/docs/Maven/Maven Lifecycle & Phases-5d5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-maven-lifecycle-phasesc-3-d-e68"
+  },
+  "/docs/Maven/Maven Project Structure-30c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-maven-project-structure-60-c-c1c"
+  },
+  "/docs/Maven/Plugins-bbc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-pluginsbc-3-f1f"
+  },
+  "/docs/Maven/pom.xml-fd1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-pom-xml-9-a-8-883"
+  },
+  "/docs/Maven/Profiles-6e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-profiles-4-d-7-3a7"
+  },
+  "/docs/Maven/Running TestNG with Maven-a63": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-running-test-ng-with-maven-718-e03"
+  },
+  "/docs/Maven/Why Maven-a7b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-maven-why-maven-397-72d"
   },
   "/docs/Python/Control Flow-146": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -642,9 +854,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-realtime-practical-exercises-linksfc-9-51b"
   },
-  "/docs/Selenium/Selenium Grid/congratulations-7cf": {
+  "/docs/Selenium/Selenium Grid/Grid in CICD-52d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-selenium-grid-congratulations-5-d-1-ef0"
+    "content": "content---docs-selenium-selenium-grid-grid-in-cicd-782-d59"
+  },
+  "/docs/Selenium/Selenium Grid/Grid with Docker-631": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-grid-with-dockerf-1-c-7a4"
+  },
+  "/docs/Selenium/Selenium Grid/Introduction-8fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-introduction-09-d-05d"
+  },
+  "/docs/Selenium/Selenium Grid/Setup Guide-6d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-setup-guideaa-6-e8f"
   },
   "/docs/Selenium/Synchronization/Explicit Wait-430": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -734,13 +958,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-web-elements-tool-tips-7-f-6-f96"
   },
-  "/docs/TestNG/Annotations Flow-f55": {
+  "/docs/TestNG/Annotations & Execution Flow-d86": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-annotations-flow-456-8a2"
-  },
-  "/docs/TestNG/congratulations-6f3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-congratulationsbda-30f"
+    "content": "content---docs-test-ng-annotations-execution-flowc-01-0d7"
   },
   "/docs/TestNG/Data Provider-94a": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -754,13 +974,17 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-test-ng-groups-166-133"
   },
+  "/docs/TestNG/Helper Attributes-bb3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-helper-attributescc-7-03d"
+  },
   "/docs/TestNG/Introduction-c13": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-test-ng-introduction-827-18a"
   },
-  "/docs/TestNG/Listerners-7da": {
+  "/docs/TestNG/Listeners and RetryAnalyzer-1ba": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-listerners-698-fb9"
+    "content": "content---docs-test-ng-listeners-and-retry-analyzeraa-4-3a7"
   },
   "/docs/TestNG/Parallel Exection-876": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -770,9 +994,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-test-ng-priorityb-4-e-297"
   },
-  "/docs/TestNG/Testng XML-9a8": {
+  "/docs/TestNG/TestNG Assertions-8df": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-testng-xml-3-c-7-49b"
+    "content": "content---docs-test-ng-test-ng-assertions-4-d-2-9bc"
+  },
+  "/docs/TestNG/TestNG Factory-f81": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-test-ng-factory-5-e-7-8ea"
+  },
+  "/docs/TestNG/TestNG Parameters-df9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-test-ng-parameters-1-cb-b32"
+  },
+  "/docs/TestNG/TestNG XML-f10": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-ng-test-ng-xml-6-f-2-273"
   },
   "/docs/TestNG/Why TestNG-1d1": {
     "__comp": "__comp---theme-doc-item-178-a40",
