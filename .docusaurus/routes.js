@@ -114,19 +114,115 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '95a'),
+    component: ComponentCreator('/docs', '5d7'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c4d'),
+        component: ComponentCreator('/docs', '69d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '076'),
+            component: ComponentCreator('/docs', '64d'),
             routes: [
               {
-                path: '/docs/Apache POI/congratulations',
-                component: ComponentCreator('/docs/Apache POI/congratulations', 'a03'),
+                path: '/docs/Apache POI/Apache POI and TestNG DataProvider',
+                component: ComponentCreator('/docs/Apache POI/Apache POI and TestNG DataProvider', '6c6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Apache POI in CI CD Pipelines',
+                component: ComponentCreator('/docs/Apache POI/Apache POI in CI CD Pipelines', '7c2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Apache POI Interview Questions',
+                component: ComponentCreator('/docs/Apache POI/Apache POI Interview Questions', '38b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Apache POI Object Hierarchy',
+                component: ComponentCreator('/docs/Apache POI/Apache POI Object Hierarchy', '2cb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Apache POI Performance Considerations',
+                component: ComponentCreator('/docs/Apache POI/Apache POI Performance Considerations', '0ba'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Apache POI Utility Class Design',
+                component: ComponentCreator('/docs/Apache POI/Apache POI Utility Class Design', 'ee4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Cell Data Types',
+                component: ComponentCreator('/docs/Apache POI/Cell Data Types', 'b4a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Common Apache POI Errors and Fixes',
+                component: ComponentCreator('/docs/Apache POI/Common Apache POI Errors and Fixes', '1d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Data Driven Testing Using Apache POI',
+                component: ComponentCreator('/docs/Apache POI/Data Driven Testing Using Apache POI', '8c4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Excel Basics for Automation Testing',
+                component: ComponentCreator('/docs/Apache POI/Excel Basics for Automation Testing', '4cc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Excel File Formats',
+                component: ComponentCreator('/docs/Apache POI/Excel File Formats', '24c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Excel Structure Design',
+                component: ComponentCreator('/docs/Apache POI/Excel Structure Design', 'e0f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/File Handling Basics',
+                component: ComponentCreator('/docs/Apache POI/File Handling Basics', '8f9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Introduction to Apache POI',
+                component: ComponentCreator('/docs/Apache POI/Introduction to Apache POI', '120'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Reading Excel Data',
+                component: ComponentCreator('/docs/Apache POI/Reading Excel Data', 'eaa'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Updating Existing Excel Files',
+                component: ComponentCreator('/docs/Apache POI/Updating Existing Excel Files', 'dba'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Apache POI/Writing Data to Excel',
+                component: ComponentCreator('/docs/Apache POI/Writing Data to Excel', '249'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -233,14 +329,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/apache-poi-️',
-                component: ComponentCreator('/docs/category/apache-poi-️', 'a05'),
+                path: '/docs/category/apache-poi',
+                component: ComponentCreator('/docs/category/apache-poi', '312'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/api-',
-                component: ComponentCreator('/docs/category/api-', '167'),
+                path: '/docs/category/api',
+                component: ComponentCreator('/docs/category/api', '5ff'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -257,14 +353,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/cucumber-️',
-                component: ComponentCreator('/docs/category/cucumber-️', '317'),
+                path: '/docs/category/cucumber',
+                component: ComponentCreator('/docs/category/cucumber', '491'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/database-',
-                component: ComponentCreator('/docs/category/database-', 'a91'),
+                path: '/docs/category/database',
+                component: ComponentCreator('/docs/category/database', 'dd4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -281,8 +377,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/git-',
-                component: ComponentCreator('/docs/category/git-', 'aa7'),
+                path: '/docs/category/git',
+                component: ComponentCreator('/docs/category/git', 'f78'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -293,8 +389,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/java-',
-                component: ComponentCreator('/docs/category/java-', 'dca'),
+                path: '/docs/category/java',
+                component: ComponentCreator('/docs/category/java', '901'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -311,14 +407,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/manual-testing-️',
-                component: ComponentCreator('/docs/category/manual-testing-️', 'cc3'),
+                path: '/docs/category/manual-testing',
+                component: ComponentCreator('/docs/category/manual-testing', 'b24'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/maven-',
-                component: ComponentCreator('/docs/category/maven-', '770'),
+                path: '/docs/category/maven',
+                component: ComponentCreator('/docs/category/maven', '1cc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -341,8 +437,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/python-',
-                component: ComponentCreator('/docs/category/python-', '04b'),
+                path: '/docs/category/python',
+                component: ComponentCreator('/docs/category/python', '493'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -353,14 +449,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/robot-framework-️',
-                component: ComponentCreator('/docs/category/robot-framework-️', '20b'),
+                path: '/docs/category/robot-framework',
+                component: ComponentCreator('/docs/category/robot-framework', '4d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/selenium-',
-                component: ComponentCreator('/docs/category/selenium-', 'f2d'),
+                path: '/docs/category/selenium',
+                component: ComponentCreator('/docs/category/selenium', '321'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -377,8 +473,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/testng-',
-                component: ComponentCreator('/docs/category/testng-', '732'),
+                path: '/docs/category/testng',
+                component: ComponentCreator('/docs/category/testng', '97c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -395,8 +491,164 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/congratulations',
-                component: ComponentCreator('/docs/Cucumber/congratulations', 'cbb'),
+                path: '/docs/Cucumber/Background Keyword',
+                component: ComponentCreator('/docs/Cucumber/Background Keyword', '3e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Common Cucumber Framework Anti Patterns',
+                component: ComponentCreator('/docs/Cucumber/Common Cucumber Framework Anti Patterns', '370'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber 01 Introduction',
+                component: ComponentCreator('/docs/Cucumber/Cucumber 01 Introduction', '1dc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber Architecture Overview',
+                component: ComponentCreator('/docs/Cucumber/Cucumber Architecture Overview', '225'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber Expressions vs Regular Expressions',
+                component: ComponentCreator('/docs/Cucumber/Cucumber Expressions vs Regular Expressions', 'a9a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber in CI CD Pipelines',
+                component: ComponentCreator('/docs/Cucumber/Cucumber in CI CD Pipelines', 'd8c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber Interview Questions and Scenarios',
+                component: ComponentCreator('/docs/Cucumber/Cucumber Interview Questions and Scenarios', '380'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns',
+                component: ComponentCreator('/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns', 'bb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber with Selenium UI Automation Patterns',
+                component: ComponentCreator('/docs/Cucumber/Cucumber with Selenium UI Automation Patterns', 'a57'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Cucumber with TestNG Integration',
+                component: ComponentCreator('/docs/Cucumber/Cucumber with TestNG Integration', '0de'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Data Tables and Examples',
+                component: ComponentCreator('/docs/Cucumber/Data Tables and Examples', '0e2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Dry Run and Undefined Steps',
+                component: ComponentCreator('/docs/Cucumber/Dry Run and Undefined Steps', 'c3b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Error Handling Retries and Flaky Test Control',
+                component: ComponentCreator('/docs/Cucumber/Error Handling Retries and Flaky Test Control', '241'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Feature File Design from User Stories',
+                component: ComponentCreator('/docs/Cucumber/Feature File Design from User Stories', '767'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Gherkin Language Basics',
+                component: ComponentCreator('/docs/Cucumber/Gherkin Language Basics', '9ff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Glue Code and Package Structure',
+                component: ComponentCreator('/docs/Cucumber/Glue Code and Package Structure', '0e9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Hooks Before After and Best Practices',
+                component: ComponentCreator('/docs/Cucumber/Hooks Before After and Best Practices', '560'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Parallel Execution in Cucumber',
+                component: ComponentCreator('/docs/Cucumber/Parallel Execution in Cucumber', '1cd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Parameterization and Data Mapping in Step Definitions',
+                component: ComponentCreator('/docs/Cucumber/Parameterization and Data Mapping in Step Definitions', '4b6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Reporting and Plugins',
+                component: ComponentCreator('/docs/Cucumber/Reporting and Plugins', '787'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Runner Class and Cucumber Options',
+                component: ComponentCreator('/docs/Cucumber/Runner Class and Cucumber Options', '72a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Scenario vs Scenario Outline',
+                component: ComponentCreator('/docs/Cucumber/Scenario vs Scenario Outline', '18e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Shared State and Scenario Context',
+                component: ComponentCreator('/docs/Cucumber/Shared State and Scenario Context', '7f1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Step Definition Basics',
+                component: ComponentCreator('/docs/Cucumber/Step Definition Basics', '67c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Tags and Tag Expressions',
+                component: ComponentCreator('/docs/Cucumber/Tags and Tag Expressions', 'e20'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/What is BDD',
+                component: ComponentCreator('/docs/Cucumber/What is BDD', '72b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Writing Good Gherkin Scenarios',
+                component: ComponentCreator('/docs/Cucumber/Writing Good Gherkin Scenarios', '24c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -767,8 +1019,128 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/congratulations',
-                component: ComponentCreator('/docs/Manual Testing/congratulations', '9de'),
+                path: '/docs/Manual Testing/Agile Testing Basics',
+                component: ComponentCreator('/docs/Manual Testing/Agile Testing Basics', 'd45'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Defect Life Cycle',
+                component: ComponentCreator('/docs/Manual Testing/Defect Life Cycle', '74c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Functional Testing Types',
+                component: ComponentCreator('/docs/Manual Testing/Functional Testing Types', 'e24'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Introduction to Software Testing',
+                component: ComponentCreator('/docs/Manual Testing/Introduction to Software Testing', '6e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Levels of Testing',
+                component: ComponentCreator('/docs/Manual Testing/Levels of Testing', 'c23'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Manual Testing in Real Projects',
+                component: ComponentCreator('/docs/Manual Testing/Manual Testing in Real Projects', '1e8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Manual Testing Interview Questions',
+                component: ComponentCreator('/docs/Manual Testing/Manual Testing Interview Questions', '347'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Manual Testing vs Automation Testing',
+                component: ComponentCreator('/docs/Manual Testing/Manual Testing vs Automation Testing', '968'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Non Functional Testing',
+                component: ComponentCreator('/docs/Manual Testing/Non Functional Testing', '946'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Requirement Analysis for Testers',
+                component: ComponentCreator('/docs/Manual Testing/Requirement Analysis for Testers', 'd8c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Risk Based Testing',
+                component: ComponentCreator('/docs/Manual Testing/Risk Based Testing', 'c2a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/SDLC Software Development Life Cycle',
+                component: ComponentCreator('/docs/Manual Testing/SDLC Software Development Life Cycle', 'de7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Severity vs Priority',
+                component: ComponentCreator('/docs/Manual Testing/Severity vs Priority', '5c7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/STLC Software Testing Life Cycle',
+                component: ComponentCreator('/docs/Manual Testing/STLC Software Testing Life Cycle', 'e79'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Test Case Design Techniques',
+                component: ComponentCreator('/docs/Manual Testing/Test Case Design Techniques', 'c36'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Test Data and Test Environment',
+                component: ComponentCreator('/docs/Manual Testing/Test Data and Test Environment', '99a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Test Execution and Reporting',
+                component: ComponentCreator('/docs/Manual Testing/Test Execution and Reporting', 'a3f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Test Scenarios',
+                component: ComponentCreator('/docs/Manual Testing/Test Scenarios', '1d6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Test Strategy vs Test Plan',
+                component: ComponentCreator('/docs/Manual Testing/Test Strategy vs Test Plan', 'b07'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/Types of Testing',
+                component: ComponentCreator('/docs/Manual Testing/Types of Testing', '359'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Manual Testing/UAT and Production Testing',
+                component: ComponentCreator('/docs/Manual Testing/UAT and Production Testing', 'f69'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -917,8 +1289,122 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/congratulations',
-                component: ComponentCreator('/docs/Robot Framework/congratulations', '9b4'),
+                path: '/docs/Robot Framework/API Automation with RequestsLibrary',
+                component: ComponentCreator('/docs/Robot Framework/API Automation with RequestsLibrary', 'a9d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Architecture',
+                component: ComponentCreator('/docs/Robot Framework/Architecture', '629'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Assertions and Validation',
+                component: ComponentCreator('/docs/Robot Framework/Assertions and Validation', '880'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Built-in Libraries',
+                component: ComponentCreator('/docs/Robot Framework/Built-in Libraries', 'f9a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Control Flow and Error Handling',
+                component: ComponentCreator('/docs/Robot Framework/Control Flow and Error Handling', 'ff2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Data Driven Testing',
+                component: ComponentCreator('/docs/Robot Framework/Data Driven Testing', '0dc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Database Testing',
+                component: ComponentCreator('/docs/Robot Framework/Database Testing', '08e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Debugging and Best Practices',
+                component: ComponentCreator('/docs/Robot Framework/Debugging and Best Practices', 'fe1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Execution Reports and CI CD',
+                component: ComponentCreator('/docs/Robot Framework/Execution Reports and CI CD', '7a5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Installation and Setup',
+                component: ComponentCreator('/docs/Robot Framework/Installation and Setup', 'ebb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Introduction',
+                component: ComponentCreator('/docs/Robot Framework/Introduction', '593'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Keywords Concept',
+                component: ComponentCreator('/docs/Robot Framework/Keywords Concept', 'efc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Parallel Execution with Pabot',
+                component: ComponentCreator('/docs/Robot Framework/Parallel Execution with Pabot', '73a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Resource Files and Custom Libraries',
+                component: ComponentCreator('/docs/Robot Framework/Resource Files and Custom Libraries', 'ba7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Robot Framework Interview Questions',
+                component: ComponentCreator('/docs/Robot Framework/Robot Framework Interview Questions', 'f1d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/SeleniumLibrary UI Automation',
+                component: ComponentCreator('/docs/Robot Framework/SeleniumLibrary UI Automation', '6e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Settings Section',
+                component: ComponentCreator('/docs/Robot Framework/Settings Section', '21a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Tags Setup and Teardown',
+                component: ComponentCreator('/docs/Robot Framework/Tags Setup and Teardown', '91c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Test Suite and Test Case Structure',
+                component: ComponentCreator('/docs/Robot Framework/Test Suite and Test Case Structure', 'b7c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Variables in Robot Framework',
+                component: ComponentCreator('/docs/Robot Framework/Variables in Robot Framework', '5dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

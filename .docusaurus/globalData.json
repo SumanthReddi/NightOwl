@@ -11,8 +11,88 @@
           "mainDocId": "congratulations",
           "docs": [
             {
-              "id": "Apache POI/congratulations",
-              "path": "/docs/Apache POI/congratulations",
+              "id": "Apache POI/Apache POI and TestNG DataProvider",
+              "path": "/docs/Apache POI/Apache POI and TestNG DataProvider",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Apache POI in CI CD Pipelines",
+              "path": "/docs/Apache POI/Apache POI in CI CD Pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Apache POI Interview Questions",
+              "path": "/docs/Apache POI/Apache POI Interview Questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Apache POI Object Hierarchy",
+              "path": "/docs/Apache POI/Apache POI Object Hierarchy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Apache POI Performance Considerations",
+              "path": "/docs/Apache POI/Apache POI Performance Considerations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Apache POI Utility Class Design",
+              "path": "/docs/Apache POI/Apache POI Utility Class Design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Cell Data Types",
+              "path": "/docs/Apache POI/Cell Data Types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Common Apache POI Errors and Fixes",
+              "path": "/docs/Apache POI/Common Apache POI Errors and Fixes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Data Driven Testing Using Apache POI",
+              "path": "/docs/Apache POI/Data Driven Testing Using Apache POI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Excel Basics for Automation Testing",
+              "path": "/docs/Apache POI/Excel Basics for Automation Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Excel File Formats",
+              "path": "/docs/Apache POI/Excel File Formats",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Excel Structure Design",
+              "path": "/docs/Apache POI/Excel Structure Design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/File Handling Basics",
+              "path": "/docs/Apache POI/File Handling Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Introduction to Apache POI",
+              "path": "/docs/Apache POI/Introduction to Apache POI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Reading Excel Data",
+              "path": "/docs/Apache POI/Reading Excel Data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Updating Existing Excel Files",
+              "path": "/docs/Apache POI/Updating Existing Excel Files",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Apache POI/Writing Data to Excel",
+              "path": "/docs/Apache POI/Writing Data to Excel",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -101,8 +181,138 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/congratulations",
-              "path": "/docs/Cucumber/congratulations",
+              "id": "Cucumber/Background Keyword",
+              "path": "/docs/Cucumber/Background Keyword",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Common Cucumber Framework Anti Patterns",
+              "path": "/docs/Cucumber/Common Cucumber Framework Anti Patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber 01 Introduction",
+              "path": "/docs/Cucumber/Cucumber 01 Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber Architecture Overview",
+              "path": "/docs/Cucumber/Cucumber Architecture Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber Expressions vs Regular Expressions",
+              "path": "/docs/Cucumber/Cucumber Expressions vs Regular Expressions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber in CI CD Pipelines",
+              "path": "/docs/Cucumber/Cucumber in CI CD Pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber Interview Questions and Scenarios",
+              "path": "/docs/Cucumber/Cucumber Interview Questions and Scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber with API Automation Rest Assured Patterns",
+              "path": "/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber with Selenium UI Automation Patterns",
+              "path": "/docs/Cucumber/Cucumber with Selenium UI Automation Patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Cucumber with TestNG Integration",
+              "path": "/docs/Cucumber/Cucumber with TestNG Integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Data Tables and Examples",
+              "path": "/docs/Cucumber/Data Tables and Examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Dry Run and Undefined Steps",
+              "path": "/docs/Cucumber/Dry Run and Undefined Steps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Error Handling Retries and Flaky Test Control",
+              "path": "/docs/Cucumber/Error Handling Retries and Flaky Test Control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Feature File Design from User Stories",
+              "path": "/docs/Cucumber/Feature File Design from User Stories",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Gherkin Language Basics",
+              "path": "/docs/Cucumber/Gherkin Language Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Glue Code and Package Structure",
+              "path": "/docs/Cucumber/Glue Code and Package Structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Hooks Before After and Best Practices",
+              "path": "/docs/Cucumber/Hooks Before After and Best Practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Parallel Execution in Cucumber",
+              "path": "/docs/Cucumber/Parallel Execution in Cucumber",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Parameterization and Data Mapping in Step Definitions",
+              "path": "/docs/Cucumber/Parameterization and Data Mapping in Step Definitions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Reporting and Plugins",
+              "path": "/docs/Cucumber/Reporting and Plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Runner Class and Cucumber Options",
+              "path": "/docs/Cucumber/Runner Class and Cucumber Options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Scenario vs Scenario Outline",
+              "path": "/docs/Cucumber/Scenario vs Scenario Outline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Shared State and Scenario Context",
+              "path": "/docs/Cucumber/Shared State and Scenario Context",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Step Definition Basics",
+              "path": "/docs/Cucumber/Step Definition Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Tags and Tag Expressions",
+              "path": "/docs/Cucumber/Tags and Tag Expressions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/What is BDD",
+              "path": "/docs/Cucumber/What is BDD",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Writing Good Gherkin Scenarios",
+              "path": "/docs/Cucumber/Writing Good Gherkin Scenarios",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -411,8 +621,108 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/congratulations",
-              "path": "/docs/Manual Testing/congratulations",
+              "id": "Manual Testing/Agile Testing Basics",
+              "path": "/docs/Manual Testing/Agile Testing Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Defect Life Cycle",
+              "path": "/docs/Manual Testing/Defect Life Cycle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Functional Testing Types",
+              "path": "/docs/Manual Testing/Functional Testing Types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Introduction to Software Testing",
+              "path": "/docs/Manual Testing/Introduction to Software Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Levels of Testing",
+              "path": "/docs/Manual Testing/Levels of Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Manual Testing in Real Projects",
+              "path": "/docs/Manual Testing/Manual Testing in Real Projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Manual Testing Interview Questions",
+              "path": "/docs/Manual Testing/Manual Testing Interview Questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Manual Testing vs Automation Testing",
+              "path": "/docs/Manual Testing/Manual Testing vs Automation Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Non Functional Testing",
+              "path": "/docs/Manual Testing/Non Functional Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Requirement Analysis for Testers",
+              "path": "/docs/Manual Testing/Requirement Analysis for Testers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Risk Based Testing",
+              "path": "/docs/Manual Testing/Risk Based Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/SDLC Software Development Life Cycle",
+              "path": "/docs/Manual Testing/SDLC Software Development Life Cycle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Severity vs Priority",
+              "path": "/docs/Manual Testing/Severity vs Priority",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/STLC Software Testing Life Cycle",
+              "path": "/docs/Manual Testing/STLC Software Testing Life Cycle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Test Case Design Techniques",
+              "path": "/docs/Manual Testing/Test Case Design Techniques",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Test Data and Test Environment",
+              "path": "/docs/Manual Testing/Test Data and Test Environment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Test Execution and Reporting",
+              "path": "/docs/Manual Testing/Test Execution and Reporting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Test Scenarios",
+              "path": "/docs/Manual Testing/Test Scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Test Strategy vs Test Plan",
+              "path": "/docs/Manual Testing/Test Strategy vs Test Plan",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/Types of Testing",
+              "path": "/docs/Manual Testing/Types of Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Manual Testing/UAT and Production Testing",
+              "path": "/docs/Manual Testing/UAT and Production Testing",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -536,8 +846,103 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/congratulations",
-              "path": "/docs/Robot Framework/congratulations",
+              "id": "Robot Framework/API Automation with RequestsLibrary",
+              "path": "/docs/Robot Framework/API Automation with RequestsLibrary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Architecture",
+              "path": "/docs/Robot Framework/Architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Assertions and Validation",
+              "path": "/docs/Robot Framework/Assertions and Validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Built-in Libraries",
+              "path": "/docs/Robot Framework/Built-in Libraries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Control Flow and Error Handling",
+              "path": "/docs/Robot Framework/Control Flow and Error Handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Data Driven Testing",
+              "path": "/docs/Robot Framework/Data Driven Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Database Testing",
+              "path": "/docs/Robot Framework/Database Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Debugging and Best Practices",
+              "path": "/docs/Robot Framework/Debugging and Best Practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Execution Reports and CI CD",
+              "path": "/docs/Robot Framework/Execution Reports and CI CD",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Installation and Setup",
+              "path": "/docs/Robot Framework/Installation and Setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Introduction",
+              "path": "/docs/Robot Framework/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Keywords Concept",
+              "path": "/docs/Robot Framework/Keywords Concept",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Parallel Execution with Pabot",
+              "path": "/docs/Robot Framework/Parallel Execution with Pabot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Resource Files and Custom Libraries",
+              "path": "/docs/Robot Framework/Resource Files and Custom Libraries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Robot Framework Interview Questions",
+              "path": "/docs/Robot Framework/Robot Framework Interview Questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/SeleniumLibrary UI Automation",
+              "path": "/docs/Robot Framework/SeleniumLibrary UI Automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Settings Section",
+              "path": "/docs/Robot Framework/Settings Section",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Tags Setup and Teardown",
+              "path": "/docs/Robot Framework/Tags Setup and Teardown",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Test Suite and Test Case Structure",
+              "path": "/docs/Robot Framework/Test Suite and Test Case Structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Variables in Robot Framework",
+              "path": "/docs/Robot Framework/Variables in Robot Framework",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -816,18 +1221,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/manual-testing-️",
-              "path": "/docs/category/manual-testing-️",
+              "id": "/category/manual-testing",
+              "path": "/docs/category/manual-testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/database-",
-              "path": "/docs/category/database-",
+              "id": "/category/database",
+              "path": "/docs/category/database",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/java-",
-              "path": "/docs/category/java-",
+              "id": "/category/java",
+              "path": "/docs/category/java",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -866,13 +1271,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/maven-",
-              "path": "/docs/category/maven-",
+              "id": "/category/maven",
+              "path": "/docs/category/maven",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/selenium-",
-              "path": "/docs/category/selenium-",
+              "id": "/category/selenium",
+              "path": "/docs/category/selenium",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -911,38 +1316,38 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/testng-",
-              "path": "/docs/category/testng-",
+              "id": "/category/testng",
+              "path": "/docs/category/testng",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/apache-poi-️",
-              "path": "/docs/category/apache-poi-️",
+              "id": "/category/apache-poi",
+              "path": "/docs/category/apache-poi",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/api-",
-              "path": "/docs/category/api-",
+              "id": "/category/api",
+              "path": "/docs/category/api",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/git-",
-              "path": "/docs/category/git-",
+              "id": "/category/git",
+              "path": "/docs/category/git",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/cucumber-️",
-              "path": "/docs/category/cucumber-️",
+              "id": "/category/cucumber",
+              "path": "/docs/category/cucumber",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/python-",
-              "path": "/docs/category/python-",
+              "id": "/category/python",
+              "path": "/docs/category/python",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/robot-framework-️",
-              "path": "/docs/category/robot-framework-️",
+              "id": "/category/robot-framework",
+              "path": "/docs/category/robot-framework",
               "sidebar": "tutorialSidebar"
             },
             {
