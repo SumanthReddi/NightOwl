@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5d7'),
+    component: ComponentCreator('/docs', '53a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '69d'),
+        component: ComponentCreator('/docs', '2a3'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '64d'),
+            component: ComponentCreator('/docs', 'aac'),
             routes: [
               {
                 path: '/docs/Apache POI/Apache POI and TestNG DataProvider',
@@ -377,8 +377,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/foundationaladvanced-concepts',
+                component: ComponentCreator('/docs/category/foundationaladvanced-concepts', 'a0f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/framework-design',
+                component: ComponentCreator('/docs/category/framework-design', '170'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/git',
                 component: ComponentCreator('/docs/category/git', 'f78'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/interview-questions',
+                component: ComponentCreator('/docs/category/interview-questions', 'abe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1409,56 +1427,152 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Action Class',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Action Class', '042'),
+                path: '/docs/Selenium/Advanced Concepts/authentication_popups',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/authentication_popups', 'c3d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Cookies',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Cookies', 'f01'),
+                path: '/docs/Selenium/Advanced Concepts/browser_options_capabilities',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/browser_options_capabilities', 'f94'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Driver Options',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Driver Options', '0f8'),
+                path: '/docs/Selenium/Advanced Concepts/common_selenium_exceptions',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/common_selenium_exceptions', '1bf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement', '1b8'),
+                path: '/docs/Selenium/Advanced Concepts/debugging_selenium_tests',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/debugging_selenium_tests', '1d3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Frames',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Frames', '087'),
+                path: '/docs/Selenium/Advanced Concepts/flaky_test_root_causes',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/flaky_test_root_causes', '449'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Java Script Executor',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Java Script Executor', '44b'),
+                path: '/docs/Selenium/Advanced Concepts/handling_dynamic_elements',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/handling_dynamic_elements', 'e1a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Multiple Window Handles',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Multiple Window Handles', '724'),
+                path: '/docs/Selenium/Advanced Concepts/selenium_4_new_features',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/selenium_4_new_features', 'c2f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Screenshots',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Screenshots', '124'),
+                path: '/docs/Selenium/Advanced Concepts/shadow_dom',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/shadow_dom', '882'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Advanced Concepts/Window Handle',
-                component: ComponentCreator('/docs/Selenium/Advanced Concepts/Window Handle', 'bbd'),
+                path: '/docs/Selenium/Advanced Concepts/stale_element_reference_exception',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/stale_element_reference_exception', 'fbf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Action Class',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Action Class', '6b8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Cookies',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Cookies', '56b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Driver Options',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Driver Options', '531'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Fetch Dimensions of WebElement',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Fetch Dimensions of WebElement', '2b1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Frames',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Frames', '5a7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Java Script Executor',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Java Script Executor', '449'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Multiple Window Handles',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Multiple Window Handles', '9d7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Screenshots',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Screenshots', '4e1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Foundational Advanced Concepts/Window Handle',
+                component: ComponentCreator('/docs/Selenium/Foundational Advanced Concepts/Window Handle', 'eb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Framework Design/framework_best_practices',
+                component: ComponentCreator('/docs/Selenium/Framework Design/framework_best_practices', '69f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Framework Design/page_factory',
+                component: ComponentCreator('/docs/Selenium/Framework Design/page_factory', '763'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Framework Design/page_object_model_pom',
+                component: ComponentCreator('/docs/Selenium/Framework Design/page_object_model_pom', 'e79'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Framework Design/page_vs_test_responsibility',
+                component: ComponentCreator('/docs/Selenium/Framework Design/page_vs_test_responsibility', 'bf2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Interview Questions/framework_ci_cd_questions',
+                component: ComponentCreator('/docs/Selenium/Interview Questions/framework_ci_cd_questions', 'a2b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Interview Questions/real_project_scenarios',
+                component: ComponentCreator('/docs/Selenium/Interview Questions/real_project_scenarios', 'acf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Interview Questions/selenium_interview_questions',
+                component: ComponentCreator('/docs/Selenium/Interview Questions/selenium_interview_questions', '802'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1469,14 +1583,62 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Locators/Advanced Locators',
-                component: ComponentCreator('/docs/Selenium/Locators/Advanced Locators', '0dc'),
+                path: '/docs/Selenium/Introduction/Launching Browsers in Selenium',
+                component: ComponentCreator('/docs/Selenium/Introduction/Launching Browsers in Selenium', 'f76'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Locators/Common Locators',
-                component: ComponentCreator('/docs/Selenium/Locators/Common Locators', '21f'),
+                path: '/docs/Selenium/Introduction/Navigation Commands',
+                component: ComponentCreator('/docs/Selenium/Introduction/Navigation Commands', '1f6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Introduction/Selenium Architecture',
+                component: ComponentCreator('/docs/Selenium/Introduction/Selenium Architecture', '0c6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Introduction/Selenium Components',
+                component: ComponentCreator('/docs/Selenium/Introduction/Selenium Components', '3c5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Introduction/Setting Up Selenium Project',
+                component: ComponentCreator('/docs/Selenium/Introduction/Setting Up Selenium Project', '6e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/Advanced XPath',
+                component: ComponentCreator('/docs/Selenium/Locators/Advanced XPath', '242'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/CSS Selectors',
+                component: ComponentCreator('/docs/Selenium/Locators/CSS Selectors', '5e6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/ID Name and Class Locators',
+                component: ComponentCreator('/docs/Selenium/Locators/ID Name and Class Locators', '897'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/LinkText and PartialLinkText Locators',
+                component: ComponentCreator('/docs/Selenium/Locators/LinkText and PartialLinkText Locators', 'a25'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/Locators Overview',
+                component: ComponentCreator('/docs/Selenium/Locators/Locators Overview', '3fb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1487,8 +1649,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Selenium/Locators/Selenium 4 Relative Locators',
+                component: ComponentCreator('/docs/Selenium/Locators/Selenium 4 Relative Locators', 'd5c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/XPath Basics',
+                component: ComponentCreator('/docs/Selenium/Locators/XPath Basics', 'ab8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/XPath vs CSS Selectors',
+                component: ComponentCreator('/docs/Selenium/Locators/XPath vs CSS Selectors', '7e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Selenium/Realtime Practical Exercises/Broken Links',
                 component: ComponentCreator('/docs/Selenium/Realtime Practical Exercises/Broken Links', '0fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Realtime Practical Exercises/end_to_end_checkout_flow',
+                component: ComponentCreator('/docs/Selenium/Realtime Practical Exercises/end_to_end_checkout_flow', 'e8b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1499,20 +1685,50 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Selenium Grid/Grid in CICD',
-                component: ComponentCreator('/docs/Selenium/Selenium Grid/Grid in CICD', '52d'),
+                path: '/docs/Selenium/Realtime Practical Exercises/login_flow_automation',
+                component: ComponentCreator('/docs/Selenium/Realtime Practical Exercises/login_flow_automation', 'c44'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Selenium Grid/Grid with Docker',
-                component: ComponentCreator('/docs/Selenium/Selenium Grid/Grid with Docker', '631'),
+                path: '/docs/Selenium/Realtime Practical Exercises/real_interview_ui_scenarios',
+                component: ComponentCreator('/docs/Selenium/Realtime Practical Exercises/real_interview_ui_scenarios', '3e6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Selenium Grid/Introduction',
-                component: ComponentCreator('/docs/Selenium/Selenium Grid/Introduction', '8fe'),
+                path: '/docs/Selenium/Realtime Practical Exercises/wait_related_failure_fix',
+                component: ComponentCreator('/docs/Selenium/Realtime Practical Exercises/wait_related_failure_fix', '99a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/grid_architecture',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/grid_architecture', '828'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/grid_vs_cloud',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/grid_vs_cloud', '428'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/grid_with_docker_awareness',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/grid_with_docker_awareness', '087'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/hub_and_node',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/hub_and_node', '2e5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Selenium Grid/selenium_grid_introduction',
+                component: ComponentCreator('/docs/Selenium/Selenium Grid/selenium_grid_introduction', '21f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1523,134 +1739,146 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Synchronization/Explicit Wait',
-                component: ComponentCreator('/docs/Selenium/Synchronization/Explicit Wait', '430'),
+                path: '/docs/Selenium/Synchronization/explicit_wait',
+                component: ComponentCreator('/docs/Selenium/Synchronization/explicit_wait', 'c0f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Synchronization/Fluent Wait',
-                component: ComponentCreator('/docs/Selenium/Synchronization/Fluent Wait', '369'),
+                path: '/docs/Selenium/Synchronization/fluent_wait',
+                component: ComponentCreator('/docs/Selenium/Synchronization/fluent_wait', '358'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Synchronization/Implicit Wait',
-                component: ComponentCreator('/docs/Selenium/Synchronization/Implicit Wait', '469'),
+                path: '/docs/Selenium/Synchronization/implicit_wait',
+                component: ComponentCreator('/docs/Selenium/Synchronization/implicit_wait', 'eab'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Synchronization/Intoduction',
-                component: ComponentCreator('/docs/Selenium/Synchronization/Intoduction', 'bd3'),
+                path: '/docs/Selenium/Synchronization/thread',
+                component: ComponentCreator('/docs/Selenium/Synchronization/thread', 'd6b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Alerts and Popups',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Alerts and Popups', 'b46'),
+                path: '/docs/Selenium/Synchronization/why_waits_are_needed',
+                component: ComponentCreator('/docs/Selenium/Synchronization/why_waits_are_needed', '926'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Auto Suggestive Drop Down',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Auto Suggestive Drop Down', '413'),
+                path: '/docs/Selenium/Web Elements/alerts_and_popups',
+                component: ComponentCreator('/docs/Selenium/Web Elements/alerts_and_popups', 'cca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Button',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Button', 'f9b'),
+                path: '/docs/Selenium/Web Elements/auto_it_awareness_only',
+                component: ComponentCreator('/docs/Selenium/Web Elements/auto_it_awareness_only', '9f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Check Boxes',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Check Boxes', '3d5'),
+                path: '/docs/Selenium/Web Elements/button copy',
+                component: ComponentCreator('/docs/Selenium/Web Elements/button copy', 'a26'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/File Upload',
-                component: ComponentCreator('/docs/Selenium/Web Elements/File Upload', 'fc0'),
+                path: '/docs/Selenium/Web Elements/checkboxes',
+                component: ComponentCreator('/docs/Selenium/Web Elements/checkboxes', '224'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/File Upload using Auto IT',
-                component: ComponentCreator('/docs/Selenium/Web Elements/File Upload using Auto IT', '50b'),
+                path: '/docs/Selenium/Web Elements/file_upload',
+                component: ComponentCreator('/docs/Selenium/Web Elements/file_upload', '431'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/iFrames',
-                component: ComponentCreator('/docs/Selenium/Web Elements/iFrames', 'cab'),
+                path: '/docs/Selenium/Web Elements/iframes copy',
+                component: ComponentCreator('/docs/Selenium/Web Elements/iframes copy', '038'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Images',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Images', 'd0c'),
+                path: '/docs/Selenium/Web Elements/images copy',
+                component: ComponentCreator('/docs/Selenium/Web Elements/images copy', '747'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Links',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Links', '217'),
+                path: '/docs/Selenium/Web Elements/links copy',
+                component: ComponentCreator('/docs/Selenium/Web Elements/links copy', '04d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Multi Select Drop Down',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Multi Select Drop Down', 'f98'),
+                path: '/docs/Selenium/Web Elements/multi_select_dropdown',
+                component: ComponentCreator('/docs/Selenium/Web Elements/multi_select_dropdown', '078'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Progress Bar',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Progress Bar', '9b2'),
+                path: '/docs/Selenium/Web Elements/progress_bar',
+                component: ComponentCreator('/docs/Selenium/Web Elements/progress_bar', '28a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Radio Button',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Radio Button', 'fea'),
+                path: '/docs/Selenium/Web Elements/radio_button',
+                component: ComponentCreator('/docs/Selenium/Web Elements/radio_button', 'f49'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Sliders',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Sliders', '429'),
+                path: '/docs/Selenium/Web Elements/sliders copy',
+                component: ComponentCreator('/docs/Selenium/Web Elements/sliders copy', 'e33'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Static DropDown',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Static DropDown', 'f3b'),
+                path: '/docs/Selenium/Web Elements/static_dropdown',
+                component: ComponentCreator('/docs/Selenium/Web Elements/static_dropdown', 'cf3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Tables',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Tables', '091'),
+                path: '/docs/Selenium/Web Elements/suggestive_auto_suggest_dropdown',
+                component: ComponentCreator('/docs/Selenium/Web Elements/suggestive_auto_suggest_dropdown', '515'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Text Box',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Text Box', 'e58'),
+                path: '/docs/Selenium/Web Elements/tables copy',
+                component: ComponentCreator('/docs/Selenium/Web Elements/tables copy', '6c5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Toggle Switch',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Toggle Switch', 'bec'),
+                path: '/docs/Selenium/Web Elements/text-boxes',
+                component: ComponentCreator('/docs/Selenium/Web Elements/text-boxes', 'eff'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Selenium/Web Elements/Tool Tips',
-                component: ComponentCreator('/docs/Selenium/Web Elements/Tool Tips', 'eb1'),
+                path: '/docs/Selenium/Web Elements/toggle_switch',
+                component: ComponentCreator('/docs/Selenium/Web Elements/toggle_switch', '160'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Web Elements/tool_tips',
+                component: ComponentCreator('/docs/Selenium/Web Elements/tool_tips', '2e1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Web Elements/WebElement Methods',
+                component: ComponentCreator('/docs/Selenium/Web Elements/WebElement Methods', '09b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 8
 ---
 
 Relative locators in Selenium 4 let you find an element based on its **position** relative to another element: above, below, toLeftOf, toRightOf, or near.

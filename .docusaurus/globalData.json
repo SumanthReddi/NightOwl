@@ -946,48 +946,128 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Action Class",
-              "path": "/docs/Selenium/Advanced Concepts/Action Class",
+              "id": "Selenium/Advanced Concepts/authentication_popups",
+              "path": "/docs/Selenium/Advanced Concepts/authentication_popups",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Cookies",
-              "path": "/docs/Selenium/Advanced Concepts/Cookies",
+              "id": "Selenium/Advanced Concepts/browser_options_capabilities",
+              "path": "/docs/Selenium/Advanced Concepts/browser_options_capabilities",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Driver Options",
-              "path": "/docs/Selenium/Advanced Concepts/Driver Options",
+              "id": "Selenium/Advanced Concepts/common_selenium_exceptions",
+              "path": "/docs/Selenium/Advanced Concepts/common_selenium_exceptions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Fetch Dimensions of WebElement",
-              "path": "/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement",
+              "id": "Selenium/Advanced Concepts/debugging_selenium_tests",
+              "path": "/docs/Selenium/Advanced Concepts/debugging_selenium_tests",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Frames",
-              "path": "/docs/Selenium/Advanced Concepts/Frames",
+              "id": "Selenium/Advanced Concepts/flaky_test_root_causes",
+              "path": "/docs/Selenium/Advanced Concepts/flaky_test_root_causes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Java Script Executor",
-              "path": "/docs/Selenium/Advanced Concepts/Java Script Executor",
+              "id": "Selenium/Advanced Concepts/handling_dynamic_elements",
+              "path": "/docs/Selenium/Advanced Concepts/handling_dynamic_elements",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Multiple Window Handles",
-              "path": "/docs/Selenium/Advanced Concepts/Multiple Window Handles",
+              "id": "Selenium/Advanced Concepts/selenium_4_new_features",
+              "path": "/docs/Selenium/Advanced Concepts/selenium_4_new_features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Screenshots",
-              "path": "/docs/Selenium/Advanced Concepts/Screenshots",
+              "id": "Selenium/Advanced Concepts/shadow_dom",
+              "path": "/docs/Selenium/Advanced Concepts/shadow_dom",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Advanced Concepts/Window Handle",
-              "path": "/docs/Selenium/Advanced Concepts/Window Handle",
+              "id": "Selenium/Advanced Concepts/stale_element_reference_exception",
+              "path": "/docs/Selenium/Advanced Concepts/stale_element_reference_exception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Action Class",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Action Class",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Cookies",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Cookies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Driver Options",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Driver Options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Fetch Dimensions of WebElement",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Fetch Dimensions of WebElement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Frames",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Frames",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Java Script Executor",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Java Script Executor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Multiple Window Handles",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Multiple Window Handles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Screenshots",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Screenshots",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Foundational Advanced Concepts/Window Handle",
+              "path": "/docs/Selenium/Foundational Advanced Concepts/Window Handle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Framework Design/framework_best_practices",
+              "path": "/docs/Selenium/Framework Design/framework_best_practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Framework Design/page_factory",
+              "path": "/docs/Selenium/Framework Design/page_factory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Framework Design/page_object_model_pom",
+              "path": "/docs/Selenium/Framework Design/page_object_model_pom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Framework Design/page_vs_test_responsibility",
+              "path": "/docs/Selenium/Framework Design/page_vs_test_responsibility",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Interview Questions/framework_ci_cd_questions",
+              "path": "/docs/Selenium/Interview Questions/framework_ci_cd_questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Interview Questions/real_project_scenarios",
+              "path": "/docs/Selenium/Interview Questions/real_project_scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Interview Questions/selenium_interview_questions",
+              "path": "/docs/Selenium/Interview Questions/selenium_interview_questions",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -996,13 +1076,53 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Locators/Advanced Locators",
-              "path": "/docs/Selenium/Locators/Advanced Locators",
+              "id": "Selenium/Introduction/Launching Browsers in Selenium",
+              "path": "/docs/Selenium/Introduction/Launching Browsers in Selenium",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Locators/Common Locators",
-              "path": "/docs/Selenium/Locators/Common Locators",
+              "id": "Selenium/Introduction/Navigation Commands",
+              "path": "/docs/Selenium/Introduction/Navigation Commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Introduction/Selenium Architecture",
+              "path": "/docs/Selenium/Introduction/Selenium Architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Introduction/Selenium Components",
+              "path": "/docs/Selenium/Introduction/Selenium Components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Introduction/Setting Up Selenium Project",
+              "path": "/docs/Selenium/Introduction/Setting Up Selenium Project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/Advanced XPath",
+              "path": "/docs/Selenium/Locators/Advanced XPath",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/CSS Selectors",
+              "path": "/docs/Selenium/Locators/CSS Selectors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/ID Name and Class Locators",
+              "path": "/docs/Selenium/Locators/ID Name and Class Locators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/LinkText and PartialLinkText Locators",
+              "path": "/docs/Selenium/Locators/LinkText and PartialLinkText Locators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/Locators Overview",
+              "path": "/docs/Selenium/Locators/Locators Overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1011,8 +1131,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Selenium/Locators/Selenium 4 Relative Locators",
+              "path": "/docs/Selenium/Locators/Selenium 4 Relative Locators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/XPath Basics",
+              "path": "/docs/Selenium/Locators/XPath Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/XPath vs CSS Selectors",
+              "path": "/docs/Selenium/Locators/XPath vs CSS Selectors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium/Realtime Practical Exercises/Broken Links",
               "path": "/docs/Selenium/Realtime Practical Exercises/Broken Links",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Realtime Practical Exercises/end_to_end_checkout_flow",
+              "path": "/docs/Selenium/Realtime Practical Exercises/end_to_end_checkout_flow",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1021,18 +1161,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Selenium Grid/Grid in CICD",
-              "path": "/docs/Selenium/Selenium Grid/Grid in CICD",
+              "id": "Selenium/Realtime Practical Exercises/login_flow_automation",
+              "path": "/docs/Selenium/Realtime Practical Exercises/login_flow_automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Selenium Grid/Grid with Docker",
-              "path": "/docs/Selenium/Selenium Grid/Grid with Docker",
+              "id": "Selenium/Realtime Practical Exercises/real_interview_ui_scenarios",
+              "path": "/docs/Selenium/Realtime Practical Exercises/real_interview_ui_scenarios",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Selenium Grid/Introduction",
-              "path": "/docs/Selenium/Selenium Grid/Introduction",
+              "id": "Selenium/Realtime Practical Exercises/wait_related_failure_fix",
+              "path": "/docs/Selenium/Realtime Practical Exercises/wait_related_failure_fix",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/grid_architecture",
+              "path": "/docs/Selenium/Selenium Grid/grid_architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/grid_vs_cloud",
+              "path": "/docs/Selenium/Selenium Grid/grid_vs_cloud",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/grid_with_docker_awareness",
+              "path": "/docs/Selenium/Selenium Grid/grid_with_docker_awareness",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/hub_and_node",
+              "path": "/docs/Selenium/Selenium Grid/hub_and_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Selenium Grid/selenium_grid_introduction",
+              "path": "/docs/Selenium/Selenium Grid/selenium_grid_introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1041,113 +1206,123 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Synchronization/Explicit Wait",
-              "path": "/docs/Selenium/Synchronization/Explicit Wait",
+              "id": "Selenium/Synchronization/explicit_wait",
+              "path": "/docs/Selenium/Synchronization/explicit_wait",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Synchronization/Fluent Wait",
-              "path": "/docs/Selenium/Synchronization/Fluent Wait",
+              "id": "Selenium/Synchronization/fluent_wait",
+              "path": "/docs/Selenium/Synchronization/fluent_wait",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Synchronization/Implicit Wait",
-              "path": "/docs/Selenium/Synchronization/Implicit Wait",
+              "id": "Selenium/Synchronization/implicit_wait",
+              "path": "/docs/Selenium/Synchronization/implicit_wait",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Synchronization/Intoduction",
-              "path": "/docs/Selenium/Synchronization/Intoduction",
+              "id": "Selenium/Synchronization/thread",
+              "path": "/docs/Selenium/Synchronization/thread",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Alerts and Popups",
-              "path": "/docs/Selenium/Web Elements/Alerts and Popups",
+              "id": "Selenium/Synchronization/why_waits_are_needed",
+              "path": "/docs/Selenium/Synchronization/why_waits_are_needed",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Auto Suggestive Drop Down",
-              "path": "/docs/Selenium/Web Elements/Auto Suggestive Drop Down",
+              "id": "Selenium/Web Elements/alerts_and_popups",
+              "path": "/docs/Selenium/Web Elements/alerts_and_popups",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Button",
-              "path": "/docs/Selenium/Web Elements/Button",
+              "id": "Selenium/Web Elements/auto_it_awareness_only",
+              "path": "/docs/Selenium/Web Elements/auto_it_awareness_only",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Check Boxes",
-              "path": "/docs/Selenium/Web Elements/Check Boxes",
+              "id": "Selenium/Web Elements/button copy",
+              "path": "/docs/Selenium/Web Elements/button copy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/File Upload",
-              "path": "/docs/Selenium/Web Elements/File Upload",
+              "id": "Selenium/Web Elements/checkboxes",
+              "path": "/docs/Selenium/Web Elements/checkboxes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/File Upload using Auto IT",
-              "path": "/docs/Selenium/Web Elements/File Upload using Auto IT",
+              "id": "Selenium/Web Elements/file_upload",
+              "path": "/docs/Selenium/Web Elements/file_upload",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/iFrames",
-              "path": "/docs/Selenium/Web Elements/iFrames",
+              "id": "Selenium/Web Elements/iframes copy",
+              "path": "/docs/Selenium/Web Elements/iframes copy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Images",
-              "path": "/docs/Selenium/Web Elements/Images",
+              "id": "Selenium/Web Elements/images copy",
+              "path": "/docs/Selenium/Web Elements/images copy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Links",
-              "path": "/docs/Selenium/Web Elements/Links",
+              "id": "Selenium/Web Elements/links copy",
+              "path": "/docs/Selenium/Web Elements/links copy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Multi Select Drop Down",
-              "path": "/docs/Selenium/Web Elements/Multi Select Drop Down",
+              "id": "Selenium/Web Elements/multi_select_dropdown",
+              "path": "/docs/Selenium/Web Elements/multi_select_dropdown",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Progress Bar",
-              "path": "/docs/Selenium/Web Elements/Progress Bar",
+              "id": "Selenium/Web Elements/progress_bar",
+              "path": "/docs/Selenium/Web Elements/progress_bar",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Radio Button",
-              "path": "/docs/Selenium/Web Elements/Radio Button",
+              "id": "Selenium/Web Elements/radio_button",
+              "path": "/docs/Selenium/Web Elements/radio_button",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Sliders",
-              "path": "/docs/Selenium/Web Elements/Sliders",
+              "id": "Selenium/Web Elements/sliders copy",
+              "path": "/docs/Selenium/Web Elements/sliders copy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Static DropDown",
-              "path": "/docs/Selenium/Web Elements/Static DropDown",
+              "id": "Selenium/Web Elements/static_dropdown",
+              "path": "/docs/Selenium/Web Elements/static_dropdown",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Tables",
-              "path": "/docs/Selenium/Web Elements/Tables",
+              "id": "Selenium/Web Elements/suggestive_auto_suggest_dropdown",
+              "path": "/docs/Selenium/Web Elements/suggestive_auto_suggest_dropdown",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Text Box",
-              "path": "/docs/Selenium/Web Elements/Text Box",
+              "id": "Selenium/Web Elements/tables copy",
+              "path": "/docs/Selenium/Web Elements/tables copy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Toggle Switch",
-              "path": "/docs/Selenium/Web Elements/Toggle Switch",
+              "id": "Selenium/Web Elements/text-boxes",
+              "path": "/docs/Selenium/Web Elements/text-boxes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Web Elements/Tool Tips",
-              "path": "/docs/Selenium/Web Elements/Tool Tips",
+              "id": "Selenium/Web Elements/toggle_switch",
+              "path": "/docs/Selenium/Web Elements/toggle_switch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/tool_tips",
+              "path": "/docs/Selenium/Web Elements/tool_tips",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Web Elements/WebElement Methods",
+              "path": "/docs/Selenium/Web Elements/WebElement Methods",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1296,13 +1471,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/synchronization",
+              "path": "/docs/category/synchronization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/foundationaladvanced-concepts",
+              "path": "/docs/category/foundationaladvanced-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/advanced-concepts",
               "path": "/docs/category/advanced-concepts",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/synchronization",
-              "path": "/docs/category/synchronization",
+              "id": "/category/framework-design",
+              "path": "/docs/category/framework-design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/selenium-grid",
+              "path": "/docs/category/selenium-grid",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1311,8 +1501,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/selenium-grid",
-              "path": "/docs/category/selenium-grid",
+              "id": "/category/interview-questions",
+              "path": "/docs/category/interview-questions",
               "sidebar": "tutorialSidebar"
             },
             {

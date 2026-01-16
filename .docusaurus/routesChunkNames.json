@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-5d7": {
+  "/docs-53a": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-69d": {
+  "/docs-2a3": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-64d": {
+  "/docs-aac": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Apache POI/Apache POI and TestNG DataProvider-6c6": {
@@ -430,9 +430,21 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-exception-handling-7-a-1-5db"
   },
+  "/docs/category/foundationaladvanced-concepts-a0f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-foundationaladvanced-concepts-682-8d2"
+  },
+  "/docs/category/framework-design-170": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-framework-designf-59-8c9"
+  },
   "/docs/category/git-f78": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-git-258-1cc"
+  },
+  "/docs/category/interview-questions-abe": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-interview-questions-0-b-0-562"
   },
   "/docs/category/introduction-f51": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1118,169 +1130,309 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-robot-framework-variables-in-robot-frameworke-66-b70"
   },
-  "/docs/Selenium/Advanced Concepts/Action Class-042": {
+  "/docs/Selenium/Advanced Concepts/authentication_popups-c3d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-action-class-200-67a"
+    "content": "content---docs-selenium-advanced-concepts-authentication-popups-169-3ec"
   },
-  "/docs/Selenium/Advanced Concepts/Cookies-f01": {
+  "/docs/Selenium/Advanced Concepts/browser_options_capabilities-f94": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-cookiesc-50-23a"
+    "content": "content---docs-selenium-advanced-concepts-browser-options-capabilitiesd-15-936"
   },
-  "/docs/Selenium/Advanced Concepts/Driver Options-0f8": {
+  "/docs/Selenium/Advanced Concepts/common_selenium_exceptions-1bf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-driver-options-754-a0e"
+    "content": "content---docs-selenium-advanced-concepts-common-selenium-exceptionscb-9-54b"
   },
-  "/docs/Selenium/Advanced Concepts/Fetch Dimensions of WebElement-1b8": {
+  "/docs/Selenium/Advanced Concepts/debugging_selenium_tests-1d3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-fetch-dimensions-of-web-element-2-af-943"
+    "content": "content---docs-selenium-advanced-concepts-debugging-selenium-tests-16-c-a22"
   },
-  "/docs/Selenium/Advanced Concepts/Frames-087": {
+  "/docs/Selenium/Advanced Concepts/flaky_test_root_causes-449": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-framesa-63-b7f"
+    "content": "content---docs-selenium-advanced-concepts-flaky-test-root-causes-06-f-6c0"
   },
-  "/docs/Selenium/Advanced Concepts/Java Script Executor-44b": {
+  "/docs/Selenium/Advanced Concepts/handling_dynamic_elements-e1a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-java-script-executor-06-a-670"
+    "content": "content---docs-selenium-advanced-concepts-handling-dynamic-elements-504-9a5"
   },
-  "/docs/Selenium/Advanced Concepts/Multiple Window Handles-724": {
+  "/docs/Selenium/Advanced Concepts/selenium_4_new_features-c2f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-multiple-window-handlesacc-39d"
+    "content": "content---docs-selenium-advanced-concepts-selenium-4-new-features-591-033"
   },
-  "/docs/Selenium/Advanced Concepts/Screenshots-124": {
+  "/docs/Selenium/Advanced Concepts/shadow_dom-882": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-screenshots-1-e-7-7f7"
+    "content": "content---docs-selenium-advanced-concepts-shadow-dom-63-b-983"
   },
-  "/docs/Selenium/Advanced Concepts/Window Handle-bbd": {
+  "/docs/Selenium/Advanced Concepts/stale_element_reference_exception-fbf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-advanced-concepts-window-handle-110-4f9"
+    "content": "content---docs-selenium-advanced-concepts-stale-element-reference-exception-87-f-a65"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Action Class-6b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-action-class-588-252"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Cookies-56b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-cookies-3-cb-611"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Driver Options-531": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-driver-optionsae-0-e20"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Fetch Dimensions of WebElement-2b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-fetch-dimensions-of-web-elementcff-b6a"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Frames-5a7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-frames-491-b74"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Java Script Executor-449": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-java-script-executor-8-ec-334"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Multiple Window Handles-9d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-multiple-window-handlesc-8-c-e68"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Screenshots-4e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-screenshotsff-8-bac"
+  },
+  "/docs/Selenium/Foundational Advanced Concepts/Window Handle-eb3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-foundational-advanced-concepts-window-handle-7-aa-13f"
+  },
+  "/docs/Selenium/Framework Design/framework_best_practices-69f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-framework-design-framework-best-practicesb-8-b-e20"
+  },
+  "/docs/Selenium/Framework Design/page_factory-763": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-framework-design-page-factory-4-e-6-b66"
+  },
+  "/docs/Selenium/Framework Design/page_object_model_pom-e79": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-framework-design-page-object-model-pom-13-d-ec5"
+  },
+  "/docs/Selenium/Framework Design/page_vs_test_responsibility-bf2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-framework-design-page-vs-test-responsibility-026-a33"
+  },
+  "/docs/Selenium/Interview Questions/framework_ci_cd_questions-a2b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-interview-questions-framework-ci-cd-questionsdb-1-fa1"
+  },
+  "/docs/Selenium/Interview Questions/real_project_scenarios-acf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-interview-questions-real-project-scenariosdfd-649"
+  },
+  "/docs/Selenium/Interview Questions/selenium_interview_questions-802": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-interview-questions-selenium-interview-questions-9-db-7d5"
   },
   "/docs/Selenium/Introduction/-06d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-introduction-d-63-4c1"
   },
-  "/docs/Selenium/Locators/Advanced Locators-0dc": {
+  "/docs/Selenium/Introduction/Launching Browsers in Selenium-f76": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-locators-advanced-locatorsbe-0-403"
+    "content": "content---docs-selenium-introduction-launching-browsers-in-selenium-374-a81"
   },
-  "/docs/Selenium/Locators/Common Locators-21f": {
+  "/docs/Selenium/Introduction/Navigation Commands-1f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-locators-common-locators-154-e74"
+    "content": "content---docs-selenium-introduction-navigation-commandsadf-dc8"
+  },
+  "/docs/Selenium/Introduction/Selenium Architecture-0c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-introduction-selenium-architecture-054-e14"
+  },
+  "/docs/Selenium/Introduction/Selenium Components-3c5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-introduction-selenium-components-4-c-6-07e"
+  },
+  "/docs/Selenium/Introduction/Setting Up Selenium Project-6e3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-introduction-setting-up-selenium-project-73-d-7a4"
+  },
+  "/docs/Selenium/Locators/Advanced XPath-242": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-advanced-x-path-69-b-44b"
+  },
+  "/docs/Selenium/Locators/CSS Selectors-5e6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-css-selectorsa-9-b-559"
+  },
+  "/docs/Selenium/Locators/ID Name and Class Locators-897": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-id-name-and-class-locatorsaad-edd"
+  },
+  "/docs/Selenium/Locators/LinkText and PartialLinkText Locators-a25": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-link-text-and-partial-link-text-locators-084-919"
+  },
+  "/docs/Selenium/Locators/Locators Overview-3fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-locators-overviewee-8-310"
   },
   "/docs/Selenium/Locators/Relative Locators-f0a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-locators-relative-locators-8-fe-3b3"
   },
+  "/docs/Selenium/Locators/Selenium 4 Relative Locators-d5c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-selenium-4-relative-locators-60-b-dfc"
+  },
+  "/docs/Selenium/Locators/XPath Basics-ab8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-x-path-basics-748-b9f"
+  },
+  "/docs/Selenium/Locators/XPath vs CSS Selectors-7e0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-x-path-vs-css-selectors-655-84a"
+  },
   "/docs/Selenium/Realtime Practical Exercises/Broken Links-0fd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-realtime-practical-exercises-broken-links-1-e-4-756"
+  },
+  "/docs/Selenium/Realtime Practical Exercises/end_to_end_checkout_flow-e8b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-realtime-practical-exercises-end-to-end-checkout-flow-6-fe-a29"
   },
   "/docs/Selenium/Realtime Practical Exercises/Links-6cd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-realtime-practical-exercises-linksfc-9-51b"
   },
-  "/docs/Selenium/Selenium Grid/Grid in CICD-52d": {
+  "/docs/Selenium/Realtime Practical Exercises/login_flow_automation-c44": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-selenium-grid-grid-in-cicd-782-d59"
+    "content": "content---docs-selenium-realtime-practical-exercises-login-flow-automation-988-e1d"
   },
-  "/docs/Selenium/Selenium Grid/Grid with Docker-631": {
+  "/docs/Selenium/Realtime Practical Exercises/real_interview_ui_scenarios-3e6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-selenium-grid-grid-with-dockerf-1-c-7a4"
+    "content": "content---docs-selenium-realtime-practical-exercises-real-interview-ui-scenarios-6-fc-9a7"
   },
-  "/docs/Selenium/Selenium Grid/Introduction-8fe": {
+  "/docs/Selenium/Realtime Practical Exercises/wait_related_failure_fix-99a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-selenium-grid-introduction-09-d-05d"
+    "content": "content---docs-selenium-realtime-practical-exercises-wait-related-failure-fix-439-823"
+  },
+  "/docs/Selenium/Selenium Grid/grid_architecture-828": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-grid-architectureb-28-92c"
+  },
+  "/docs/Selenium/Selenium Grid/grid_vs_cloud-428": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-grid-vs-cloudf-55-841"
+  },
+  "/docs/Selenium/Selenium Grid/grid_with_docker_awareness-087": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-grid-with-docker-awareness-737-a5f"
+  },
+  "/docs/Selenium/Selenium Grid/hub_and_node-2e5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-hub-and-node-4-af-412"
+  },
+  "/docs/Selenium/Selenium Grid/selenium_grid_introduction-21f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-selenium-grid-selenium-grid-introduction-1-c-3-462"
   },
   "/docs/Selenium/Selenium Grid/Setup Guide-6d8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-selenium-grid-setup-guideaa-6-e8f"
   },
-  "/docs/Selenium/Synchronization/Explicit Wait-430": {
+  "/docs/Selenium/Synchronization/explicit_wait-c0f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-synchronization-explicit-wait-9-e-9-f59"
+    "content": "content---docs-selenium-synchronization-explicit-wait-0-c-2-03b"
   },
-  "/docs/Selenium/Synchronization/Fluent Wait-369": {
+  "/docs/Selenium/Synchronization/fluent_wait-358": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-synchronization-fluent-wait-778-daa"
+    "content": "content---docs-selenium-synchronization-fluent-waita-02-612"
   },
-  "/docs/Selenium/Synchronization/Implicit Wait-469": {
+  "/docs/Selenium/Synchronization/implicit_wait-eab": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-synchronization-implicit-waitb-41-a31"
+    "content": "content---docs-selenium-synchronization-implicit-wait-559-3a7"
   },
-  "/docs/Selenium/Synchronization/Intoduction-bd3": {
+  "/docs/Selenium/Synchronization/thread-d6b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-synchronization-intoduction-36-b-403"
+    "content": "content---docs-selenium-synchronization-thread-117-d05"
   },
-  "/docs/Selenium/Web Elements/Alerts and Popups-b46": {
+  "/docs/Selenium/Synchronization/why_waits_are_needed-926": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-alerts-and-popups-5-a-8-44f"
+    "content": "content---docs-selenium-synchronization-why-waits-are-needed-818-acb"
   },
-  "/docs/Selenium/Web Elements/Auto Suggestive Drop Down-413": {
+  "/docs/Selenium/Web Elements/alerts_and_popups-cca": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-auto-suggestive-drop-down-22-e-99f"
+    "content": "content---docs-selenium-web-elements-alerts-and-popups-39-b-550"
   },
-  "/docs/Selenium/Web Elements/Button-f9b": {
+  "/docs/Selenium/Web Elements/auto_it_awareness_only-9f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-button-91-c-47a"
+    "content": "content---docs-selenium-web-elements-auto-it-awareness-onlye-06-2c3"
   },
-  "/docs/Selenium/Web Elements/Check Boxes-3d5": {
+  "/docs/Selenium/Web Elements/button copy-a26": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-check-boxes-0-dc-65b"
+    "content": "content---docs-selenium-web-elements-button-copyc-72-64e"
   },
-  "/docs/Selenium/Web Elements/File Upload-fc0": {
+  "/docs/Selenium/Web Elements/checkboxes-224": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-file-upload-268-913"
+    "content": "content---docs-selenium-web-elements-checkboxes-7-e-4-976"
   },
-  "/docs/Selenium/Web Elements/File Upload using Auto IT-50b": {
+  "/docs/Selenium/Web Elements/file_upload-431": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-file-upload-using-auto-i-taea-d6a"
+    "content": "content---docs-selenium-web-elements-file-upload-788-380"
   },
-  "/docs/Selenium/Web Elements/iFrames-cab": {
+  "/docs/Selenium/Web Elements/iframes copy-038": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-i-frames-053-8c8"
+    "content": "content---docs-selenium-web-elements-iframes-copy-26-a-7c6"
   },
-  "/docs/Selenium/Web Elements/Images-d0c": {
+  "/docs/Selenium/Web Elements/images copy-747": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-imageseca-76b"
+    "content": "content---docs-selenium-web-elements-images-copy-097-68e"
   },
-  "/docs/Selenium/Web Elements/Links-217": {
+  "/docs/Selenium/Web Elements/links copy-04d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-links-706-396"
+    "content": "content---docs-selenium-web-elements-links-copyef-3-8bd"
   },
-  "/docs/Selenium/Web Elements/Multi Select Drop Down-f98": {
+  "/docs/Selenium/Web Elements/multi_select_dropdown-078": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-multi-select-drop-downbdc-e60"
+    "content": "content---docs-selenium-web-elements-multi-select-dropdownbd-5-f71"
   },
-  "/docs/Selenium/Web Elements/Progress Bar-9b2": {
+  "/docs/Selenium/Web Elements/progress_bar-28a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-progress-bar-6-b-9-592"
+    "content": "content---docs-selenium-web-elements-progress-bar-728-462"
   },
-  "/docs/Selenium/Web Elements/Radio Button-fea": {
+  "/docs/Selenium/Web Elements/radio_button-f49": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-radio-button-55-f-80a"
+    "content": "content---docs-selenium-web-elements-radio-button-2-ca-3a5"
   },
-  "/docs/Selenium/Web Elements/Sliders-429": {
+  "/docs/Selenium/Web Elements/sliders copy-e33": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-slidersb-22-cdd"
+    "content": "content---docs-selenium-web-elements-sliders-copyb-95-03f"
   },
-  "/docs/Selenium/Web Elements/Static DropDown-f3b": {
+  "/docs/Selenium/Web Elements/static_dropdown-cf3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-static-drop-downc-21-15e"
+    "content": "content---docs-selenium-web-elements-static-dropdown-89-e-732"
   },
-  "/docs/Selenium/Web Elements/Tables-091": {
+  "/docs/Selenium/Web Elements/suggestive_auto_suggest_dropdown-515": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-tables-5-aa-9aa"
+    "content": "content---docs-selenium-web-elements-suggestive-auto-suggest-dropdownd-3-f-26e"
   },
-  "/docs/Selenium/Web Elements/Text Box-e58": {
+  "/docs/Selenium/Web Elements/tables copy-6c5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-text-boxb-73-785"
+    "content": "content---docs-selenium-web-elements-tables-copyed-0-b84"
   },
-  "/docs/Selenium/Web Elements/Toggle Switch-bec": {
+  "/docs/Selenium/Web Elements/text-boxes-eff": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-toggle-switch-4-d-5-cf7"
+    "content": "content---docs-selenium-web-elements-text-boxesfef-581"
   },
-  "/docs/Selenium/Web Elements/Tool Tips-eb1": {
+  "/docs/Selenium/Web Elements/toggle_switch-160": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-web-elements-tool-tips-7-f-6-f96"
+    "content": "content---docs-selenium-web-elements-toggle-switchccc-15b"
+  },
+  "/docs/Selenium/Web Elements/tool_tips-2e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-web-elements-tool-tips-523-403"
+  },
+  "/docs/Selenium/Web Elements/WebElement Methods-09b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-web-elements-web-element-methods-570-631"
   },
   "/docs/TestNG/Annotations & Execution Flow-d86": {
     "__comp": "__comp---theme-doc-item-178-a40",
