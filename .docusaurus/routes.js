@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '53a'),
+    component: ComponentCreator('/docs', 'f03'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '2a3'),
+        component: ComponentCreator('/docs', 'f83'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'aac'),
+            component: ComponentCreator('/docs', '180'),
             routes: [
               {
                 path: '/docs/Apache POI/Apache POI and TestNG DataProvider',
@@ -377,8 +377,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/foundationaladvanced-concepts',
-                component: ComponentCreator('/docs/category/foundationaladvanced-concepts', 'a0f'),
+                path: '/docs/category/foundational-advanced-concepts',
+                component: ComponentCreator('/docs/category/foundational-advanced-concepts', '325'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -407,8 +407,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/java',
-                component: ComponentCreator('/docs/category/java', '901'),
+                path: '/docs/category/java-for-automation-testers',
+                component: ComponentCreator('/docs/category/java-for-automation-testers', 'f92'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -481,6 +481,12 @@ export default [
               {
                 path: '/docs/category/selenium-grid',
                 component: ComponentCreator('/docs/category/selenium-grid', 'ca5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/standalone-java',
+                component: ComponentCreator('/docs/category/standalone-java', '175'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -863,176 +869,92 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Collections Framework/congratulations',
-                component: ComponentCreator('/docs/Java/Collections Framework/congratulations', 'dae'),
+                path: '/docs/Java For Automation Testers/build-tools-and-logging-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/build-tools-and-logging-for-automation', 'fde'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Arrays',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Arrays', 'b90'),
+                path: '/docs/Java For Automation Testers/collections-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/collections-for-automation', '607'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Control-Flow',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Control-Flow', '3b9'),
+                path: '/docs/Java For Automation Testers/concurrency-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/concurrency-for-automation', '409'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Data-Types',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Data-Types', '2a6'),
+                path: '/docs/Java For Automation Testers/core-apis-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/core-apis-for-automation', '5aa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Features of Java',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Features of Java', '448'),
+                path: '/docs/Java For Automation Testers/design-patterns-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/design-patterns-for-automation', '18a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Introduction',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Introduction', '334'),
+                path: '/docs/Java For Automation Testers/exception-handling-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/exception-handling-for-automation', 'b45'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Main-Method',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Main-Method', '7ec'),
+                path: '/docs/Java For Automation Testers/file-io-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/file-io-for-automation', '97f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Object and Classes',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Object and Classes', 'dff'),
+                path: '/docs/Java For Automation Testers/generics-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/generics-for-automation', '330'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Operators',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Operators', '06b'),
+                path: '/docs/Java For Automation Testers/java-basics-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/java-basics-for-automation', 'd51'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Packages',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Packages', '3a2'),
+                path: '/docs/Java For Automation Testers/java8-features-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/java8-features-for-automation', 'cc8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Strings',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Strings', '04f'),
+                path: '/docs/Java For Automation Testers/jdbc-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/jdbc-for-automation', 'a0b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Type Casting',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Type Casting', '60e'),
+                path: '/docs/Java For Automation Testers/jvm-basics-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/jvm-basics-for-automation', 'dc9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Core Java Concepts/Variables',
-                component: ComponentCreator('/docs/Java/Core Java Concepts/Variables', 'c09'),
+                path: '/docs/Java For Automation Testers/oop-for-automation-testing',
+                component: ComponentCreator('/docs/Java For Automation Testers/oop-for-automation-testing', '9df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Exception Handling/congratulations',
-                component: ComponentCreator('/docs/Java/Exception Handling/congratulations', '714'),
+                path: '/docs/Java For Automation Testers/reflection-and-annotations-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/reflection-and-annotations-for-automation', 'c05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Java/Fastrack/OOP1',
-                component: ComponentCreator('/docs/Java/Fastrack/OOP1', '946'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Fastrack/OOP2',
-                component: ComponentCreator('/docs/Java/Fastrack/OOP2', 'c08'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Fastrack/OOP3',
-                component: ComponentCreator('/docs/Java/Fastrack/OOP3', '557'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Keywords/abstract',
-                component: ComponentCreator('/docs/Java/Keywords/abstract', 'f1a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Keywords/congratulations',
-                component: ComponentCreator('/docs/Java/Keywords/congratulations', 'c4e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Keywords/Static',
-                component: ComponentCreator('/docs/Java/Keywords/Static', 'a51'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Miscellaneous Concepts/congratulations',
-                component: ComponentCreator('/docs/Java/Miscellaneous Concepts/congratulations', '597'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/Multithreading/congratulations',
-                component: ComponentCreator('/docs/Java/Multithreading/congratulations', '99e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Abstraction',
-                component: ComponentCreator('/docs/Java/OOPS/Abstraction', '44c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Constructor',
-                component: ComponentCreator('/docs/Java/OOPS/Constructor', '2a3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Encapsulation',
-                component: ComponentCreator('/docs/Java/OOPS/Encapsulation', '321'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Final , Static Usage',
-                component: ComponentCreator('/docs/Java/OOPS/Final , Static Usage', '1df'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Inheritance',
-                component: ComponentCreator('/docs/Java/OOPS/Inheritance', 'e20'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Interface',
-                component: ComponentCreator('/docs/Java/OOPS/Interface', 'db3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Java/OOPS/Polymorphism',
-                component: ComponentCreator('/docs/Java/OOPS/Polymorphism', '56d'),
+                path: '/docs/Java For Automation Testers/testing-framework-internals-for-automation',
+                component: ComponentCreator('/docs/Java For Automation Testers/testing-framework-internals-for-automation', '690'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1879,6 +1801,180 @@ export default [
               {
                 path: '/docs/Selenium/Web Elements/WebElement Methods',
                 component: ComponentCreator('/docs/Selenium/Web Elements/WebElement Methods', '09b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/congratulations', 'fc8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Arrays',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Arrays', 'f12'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Control-Flow',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Control-Flow', '704'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Data-Types',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Data-Types', '8ba'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Features of Java',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Features of Java', '6b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Introduction',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Introduction', 'c38'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Main-Method',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Main-Method', '169'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Object and Classes',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Object and Classes', 'c64'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Operators',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Operators', '0f6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Packages',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Packages', '3b1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Strings',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Strings', '5dc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Type Casting',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Type Casting', '840'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Core Java Concepts/Variables',
+                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Variables', '9d6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/congratulations', 'f95'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Fastrack/OOP1',
+                component: ComponentCreator('/docs/Standalone Java/Fastrack/OOP1', 'c0c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Fastrack/OOP2',
+                component: ComponentCreator('/docs/Standalone Java/Fastrack/OOP2', 'cb0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Fastrack/OOP3',
+                component: ComponentCreator('/docs/Standalone Java/Fastrack/OOP3', '24b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Keywords/abstract',
+                component: ComponentCreator('/docs/Standalone Java/Keywords/abstract', '85d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Keywords/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Keywords/congratulations', '852'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Keywords/Static',
+                component: ComponentCreator('/docs/Standalone Java/Keywords/Static', '8a8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Miscellaneous Concepts/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Miscellaneous Concepts/congratulations', '3ad'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/congratulations', '41f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/Abstraction',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Abstraction', '281'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/Constructor',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Constructor', '9e6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/Encapsulation',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Encapsulation', '6fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/Final , Static Usage',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Final , Static Usage', 'bb8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/Inheritance',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Inheritance', '698'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/Interface',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Interface', 'd84'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/Polymorphism',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Polymorphism', 'dc2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

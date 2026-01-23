@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-53a": {
+  "/docs-f03": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-2a3": {
+  "/docs-f83": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-aac": {
+  "/docs-180": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Apache POI/Apache POI and TestNG DataProvider-6c6": {
@@ -430,9 +430,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-exception-handling-7-a-1-5db"
   },
-  "/docs/category/foundationaladvanced-concepts-a0f": {
+  "/docs/category/foundational-advanced-concepts-325": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-foundationaladvanced-concepts-682-8d2"
+    "__props": "__props---docs-category-foundational-advanced-concepts-31-e-8d2"
   },
   "/docs/category/framework-design-170": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -450,9 +450,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-introduction-73-c-74a"
   },
-  "/docs/category/java-901": {
+  "/docs/category/java-for-automation-testers-f92": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-java-3-e-6-f53"
+    "__props": "__props---docs-category-java-for-automation-testers-96-b-bed"
   },
   "/docs/category/keywords-677": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -501,6 +501,10 @@
   "/docs/category/selenium-grid-ca5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-selenium-gridcd-7-e74"
+  },
+  "/docs/category/standalone-java-175": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-standalone-java-8-f-2-b9a"
   },
   "/docs/category/synchronization-e07": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -754,121 +758,65 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-git-d-0-f-619"
   },
-  "/docs/Java/Collections Framework/congratulations-dae": {
+  "/docs/Java For Automation Testers/build-tools-and-logging-for-automation-fde": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-collections-framework-congratulationsa-43-52c"
+    "content": "content---docs-java-for-automation-testers-build-tools-and-logging-for-automation-845-146"
   },
-  "/docs/Java/Core Java Concepts/Arrays-b90": {
+  "/docs/Java For Automation Testers/collections-for-automation-607": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-arrays-246-30d"
+    "content": "content---docs-java-for-automation-testers-collections-for-automationc-25-c5d"
   },
-  "/docs/Java/Core Java Concepts/Control-Flow-3b9": {
+  "/docs/Java For Automation Testers/concurrency-for-automation-409": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-control-flow-593-da5"
+    "content": "content---docs-java-for-automation-testers-concurrency-for-automationec-5-e14"
   },
-  "/docs/Java/Core Java Concepts/Data-Types-2a6": {
+  "/docs/Java For Automation Testers/core-apis-for-automation-5aa": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-data-typesa-01-de7"
+    "content": "content---docs-java-for-automation-testers-core-apis-for-automation-557-f93"
   },
-  "/docs/Java/Core Java Concepts/Features of Java-448": {
+  "/docs/Java For Automation Testers/design-patterns-for-automation-18a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-features-of-java-81-c-b7a"
+    "content": "content---docs-java-for-automation-testers-design-patterns-for-automationc-4-d-ba7"
   },
-  "/docs/Java/Core Java Concepts/Introduction-334": {
+  "/docs/Java For Automation Testers/exception-handling-for-automation-b45": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-introduction-35-a-e58"
+    "content": "content---docs-java-for-automation-testers-exception-handling-for-automation-988-250"
   },
-  "/docs/Java/Core Java Concepts/Main-Method-7ec": {
+  "/docs/Java For Automation Testers/file-io-for-automation-97f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-main-method-5-b-1-ce3"
+    "content": "content---docs-java-for-automation-testers-file-io-for-automation-8-c-1-534"
   },
-  "/docs/Java/Core Java Concepts/Object and Classes-dff": {
+  "/docs/Java For Automation Testers/generics-for-automation-330": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-object-and-classes-29-b-f1b"
+    "content": "content---docs-java-for-automation-testers-generics-for-automation-4-da-973"
   },
-  "/docs/Java/Core Java Concepts/Operators-06b": {
+  "/docs/Java For Automation Testers/java-basics-for-automation-d51": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-operators-979-63b"
+    "content": "content---docs-java-for-automation-testers-java-basics-for-automation-075-d76"
   },
-  "/docs/Java/Core Java Concepts/Packages-3a2": {
+  "/docs/Java For Automation Testers/java8-features-for-automation-cc8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-packagesa-3-e-9c5"
+    "content": "content---docs-java-for-automation-testers-java-8-features-for-automation-14-a-af2"
   },
-  "/docs/Java/Core Java Concepts/Strings-04f": {
+  "/docs/Java For Automation Testers/jdbc-for-automation-a0b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-strings-03-e-bda"
+    "content": "content---docs-java-for-automation-testers-jdbc-for-automationa-03-571"
   },
-  "/docs/Java/Core Java Concepts/Type Casting-60e": {
+  "/docs/Java For Automation Testers/jvm-basics-for-automation-dc9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-type-casting-5-c-5-d35"
+    "content": "content---docs-java-for-automation-testers-jvm-basics-for-automation-683-f8b"
   },
-  "/docs/Java/Core Java Concepts/Variables-c09": {
+  "/docs/Java For Automation Testers/oop-for-automation-testing-9df": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-core-java-concepts-variables-2-ef-08a"
+    "content": "content---docs-java-for-automation-testers-oop-for-automation-testing-111-efd"
   },
-  "/docs/Java/Exception Handling/congratulations-714": {
+  "/docs/Java For Automation Testers/reflection-and-annotations-for-automation-c05": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-exception-handling-congratulations-35-f-614"
+    "content": "content---docs-java-for-automation-testers-reflection-and-annotations-for-automation-1-dd-d11"
   },
-  "/docs/Java/Fastrack/OOP1-946": {
+  "/docs/Java For Automation Testers/testing-framework-internals-for-automation-690": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-fastrack-oop-16-a-5-149"
-  },
-  "/docs/Java/Fastrack/OOP2-c08": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-fastrack-oop-2-d-2-f-6a0"
-  },
-  "/docs/Java/Fastrack/OOP3-557": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-fastrack-oop-39-a-2-8a9"
-  },
-  "/docs/Java/Keywords/abstract-f1a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-keywords-abstractacc-15c"
-  },
-  "/docs/Java/Keywords/congratulations-c4e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-keywords-congratulationsbad-84c"
-  },
-  "/docs/Java/Keywords/Static-a51": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-keywords-static-10-e-bca"
-  },
-  "/docs/Java/Miscellaneous Concepts/congratulations-597": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-miscellaneous-concepts-congratulations-3-b-6-187"
-  },
-  "/docs/Java/Multithreading/congratulations-99e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-multithreading-congratulations-903-e3f"
-  },
-  "/docs/Java/OOPS/Abstraction-44c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-abstraction-5-f-9-e3f"
-  },
-  "/docs/Java/OOPS/Constructor-2a3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-constructorb-80-fd4"
-  },
-  "/docs/Java/OOPS/Encapsulation-321": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-encapsulation-425-f02"
-  },
-  "/docs/Java/OOPS/Final , Static Usage-1df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-final-static-usage-859-af0"
-  },
-  "/docs/Java/OOPS/Inheritance-e20": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-inheritance-8-a-8-a59"
-  },
-  "/docs/Java/OOPS/Interface-db3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-interfacee-14-92c"
-  },
-  "/docs/Java/OOPS/Polymorphism-56d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-oops-polymorphisme-47-27c"
+    "content": "content---docs-java-for-automation-testers-testing-framework-internals-for-automationc-9-a-567"
   },
   "/docs/Manual Testing/Agile Testing Basics-d45": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1433,6 +1381,122 @@
   "/docs/Selenium/Web Elements/WebElement Methods-09b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-web-elements-web-element-methods-570-631"
+  },
+  "/docs/Standalone Java/Collections Framework/congratulations-fc8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-collections-framework-congratulationsf-10-aec"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Arrays-f12": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-arrays-57-d-215"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Control-Flow-704": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-control-flow-126-19d"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Data-Types-8ba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-data-types-6-e-7-879"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Features of Java-6b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-features-of-java-9-ed-09c"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Introduction-c38": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-introduction-36-a-ff8"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Main-Method-169": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-main-methoda-9-b-ecb"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Object and Classes-c64": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-object-and-classes-9-e-0-fc4"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Operators-0f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-operators-524-c1b"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Packages-3b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-packages-973-e40"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Strings-5dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-strings-8-b-9-289"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Type Casting-840": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-type-casting-9-c-5-70a"
+  },
+  "/docs/Standalone Java/Core Java Concepts/Variables-9d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-core-java-concepts-variables-195-71e"
+  },
+  "/docs/Standalone Java/Exception Handling/congratulations-f95": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-congratulationsc-50-c5a"
+  },
+  "/docs/Standalone Java/Fastrack/OOP1-c0c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-fastrack-oop-19-db-345"
+  },
+  "/docs/Standalone Java/Fastrack/OOP2-cb0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-fastrack-oop-2-e-89-18f"
+  },
+  "/docs/Standalone Java/Fastrack/OOP3-24b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-fastrack-oop-3886-fa7"
+  },
+  "/docs/Standalone Java/Keywords/abstract-85d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-keywords-abstract-584-5ea"
+  },
+  "/docs/Standalone Java/Keywords/congratulations-852": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-keywords-congratulations-1-e-0-b9a"
+  },
+  "/docs/Standalone Java/Keywords/Static-8a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-keywords-staticfe-2-892"
+  },
+  "/docs/Standalone Java/Miscellaneous Concepts/congratulations-3ad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-miscellaneous-concepts-congratulations-6-a-2-93e"
+  },
+  "/docs/Standalone Java/Multithreading/congratulations-41f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-congratulationsf-27-0ea"
+  },
+  "/docs/Standalone Java/OOPS/Abstraction-281": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-abstractiond-37-528"
+  },
+  "/docs/Standalone Java/OOPS/Constructor-9e6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-constructor-486-6aa"
+  },
+  "/docs/Standalone Java/OOPS/Encapsulation-6fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-encapsulation-868-e3e"
+  },
+  "/docs/Standalone Java/OOPS/Final , Static Usage-bb8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-final-static-usage-347-371"
+  },
+  "/docs/Standalone Java/OOPS/Inheritance-698": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-inheritance-227-1c1"
+  },
+  "/docs/Standalone Java/OOPS/Interface-d84": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-interface-702-ec5"
+  },
+  "/docs/Standalone Java/OOPS/Polymorphism-dc2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-polymorphism-4-f-4-d33"
   },
   "/docs/TestNG/Annotations & Execution Flow-d86": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -476,148 +476,78 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Collections Framework/congratulations",
-              "path": "/docs/Java/Collections Framework/congratulations",
+              "id": "Java For Automation Testers/build-tools-and-logging-for-automation",
+              "path": "/docs/Java For Automation Testers/build-tools-and-logging-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Arrays",
-              "path": "/docs/Java/Core Java Concepts/Arrays",
+              "id": "Java For Automation Testers/collections-for-automation",
+              "path": "/docs/Java For Automation Testers/collections-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Control-Flow",
-              "path": "/docs/Java/Core Java Concepts/Control-Flow",
+              "id": "Java For Automation Testers/concurrency-for-automation",
+              "path": "/docs/Java For Automation Testers/concurrency-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Data-Types",
-              "path": "/docs/Java/Core Java Concepts/Data-Types",
+              "id": "Java For Automation Testers/core-apis-for-automation",
+              "path": "/docs/Java For Automation Testers/core-apis-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Features of Java",
-              "path": "/docs/Java/Core Java Concepts/Features of Java",
+              "id": "Java For Automation Testers/design-patterns-for-automation",
+              "path": "/docs/Java For Automation Testers/design-patterns-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Introduction",
-              "path": "/docs/Java/Core Java Concepts/Introduction",
+              "id": "Java For Automation Testers/exception-handling-for-automation",
+              "path": "/docs/Java For Automation Testers/exception-handling-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Main-Method",
-              "path": "/docs/Java/Core Java Concepts/Main-Method",
+              "id": "Java For Automation Testers/file-io-for-automation",
+              "path": "/docs/Java For Automation Testers/file-io-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Object and Classes",
-              "path": "/docs/Java/Core Java Concepts/Object and Classes",
+              "id": "Java For Automation Testers/generics-for-automation",
+              "path": "/docs/Java For Automation Testers/generics-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Operators",
-              "path": "/docs/Java/Core Java Concepts/Operators",
+              "id": "Java For Automation Testers/java-basics-for-automation",
+              "path": "/docs/Java For Automation Testers/java-basics-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Packages",
-              "path": "/docs/Java/Core Java Concepts/Packages",
+              "id": "Java For Automation Testers/java8-features-for-automation",
+              "path": "/docs/Java For Automation Testers/java8-features-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Strings",
-              "path": "/docs/Java/Core Java Concepts/Strings",
+              "id": "Java For Automation Testers/jdbc-for-automation",
+              "path": "/docs/Java For Automation Testers/jdbc-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Type Casting",
-              "path": "/docs/Java/Core Java Concepts/Type Casting",
+              "id": "Java For Automation Testers/jvm-basics-for-automation",
+              "path": "/docs/Java For Automation Testers/jvm-basics-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Core Java Concepts/Variables",
-              "path": "/docs/Java/Core Java Concepts/Variables",
+              "id": "Java For Automation Testers/oop-for-automation-testing",
+              "path": "/docs/Java For Automation Testers/oop-for-automation-testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Exception Handling/congratulations",
-              "path": "/docs/Java/Exception Handling/congratulations",
+              "id": "Java For Automation Testers/reflection-and-annotations-for-automation",
+              "path": "/docs/Java For Automation Testers/reflection-and-annotations-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Java/Fastrack/OOP1",
-              "path": "/docs/Java/Fastrack/OOP1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/Fastrack/OOP2",
-              "path": "/docs/Java/Fastrack/OOP2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/Fastrack/OOP3",
-              "path": "/docs/Java/Fastrack/OOP3",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/Keywords/abstract",
-              "path": "/docs/Java/Keywords/abstract",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/Keywords/congratulations",
-              "path": "/docs/Java/Keywords/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/Keywords/Static",
-              "path": "/docs/Java/Keywords/Static",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/Miscellaneous Concepts/congratulations",
-              "path": "/docs/Java/Miscellaneous Concepts/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/Multithreading/congratulations",
-              "path": "/docs/Java/Multithreading/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/Abstraction",
-              "path": "/docs/Java/OOPS/Abstraction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/Constructor",
-              "path": "/docs/Java/OOPS/Constructor",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/Encapsulation",
-              "path": "/docs/Java/OOPS/Encapsulation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/Final , Static Usage",
-              "path": "/docs/Java/OOPS/Final , Static Usage",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/Inheritance",
-              "path": "/docs/Java/OOPS/Inheritance",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/Interface",
-              "path": "/docs/Java/OOPS/Interface",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Java/OOPS/Polymorphism",
-              "path": "/docs/Java/OOPS/Polymorphism",
+              "id": "Java For Automation Testers/testing-framework-internals-for-automation",
+              "path": "/docs/Java For Automation Testers/testing-framework-internals-for-automation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1326,6 +1256,151 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Standalone Java/Collections Framework/congratulations",
+              "path": "/docs/Standalone Java/Collections Framework/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Arrays",
+              "path": "/docs/Standalone Java/Core Java Concepts/Arrays",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Control-Flow",
+              "path": "/docs/Standalone Java/Core Java Concepts/Control-Flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Data-Types",
+              "path": "/docs/Standalone Java/Core Java Concepts/Data-Types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Features of Java",
+              "path": "/docs/Standalone Java/Core Java Concepts/Features of Java",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Introduction",
+              "path": "/docs/Standalone Java/Core Java Concepts/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Main-Method",
+              "path": "/docs/Standalone Java/Core Java Concepts/Main-Method",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Object and Classes",
+              "path": "/docs/Standalone Java/Core Java Concepts/Object and Classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Operators",
+              "path": "/docs/Standalone Java/Core Java Concepts/Operators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Packages",
+              "path": "/docs/Standalone Java/Core Java Concepts/Packages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Strings",
+              "path": "/docs/Standalone Java/Core Java Concepts/Strings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Type Casting",
+              "path": "/docs/Standalone Java/Core Java Concepts/Type Casting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Core Java Concepts/Variables",
+              "path": "/docs/Standalone Java/Core Java Concepts/Variables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/congratulations",
+              "path": "/docs/Standalone Java/Exception Handling/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Fastrack/OOP1",
+              "path": "/docs/Standalone Java/Fastrack/OOP1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Fastrack/OOP2",
+              "path": "/docs/Standalone Java/Fastrack/OOP2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Fastrack/OOP3",
+              "path": "/docs/Standalone Java/Fastrack/OOP3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Keywords/abstract",
+              "path": "/docs/Standalone Java/Keywords/abstract",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Keywords/congratulations",
+              "path": "/docs/Standalone Java/Keywords/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Keywords/Static",
+              "path": "/docs/Standalone Java/Keywords/Static",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Miscellaneous Concepts/congratulations",
+              "path": "/docs/Standalone Java/Miscellaneous Concepts/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/congratulations",
+              "path": "/docs/Standalone Java/Multithreading/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/Abstraction",
+              "path": "/docs/Standalone Java/OOPS/Abstraction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/Constructor",
+              "path": "/docs/Standalone Java/OOPS/Constructor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/Encapsulation",
+              "path": "/docs/Standalone Java/OOPS/Encapsulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/Final , Static Usage",
+              "path": "/docs/Standalone Java/OOPS/Final , Static Usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/Inheritance",
+              "path": "/docs/Standalone Java/OOPS/Inheritance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/Interface",
+              "path": "/docs/Standalone Java/OOPS/Interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/Polymorphism",
+              "path": "/docs/Standalone Java/OOPS/Polymorphism",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "TestNG/Annotations & Execution Flow",
               "path": "/docs/TestNG/Annotations & Execution Flow",
               "sidebar": "tutorialSidebar"
@@ -1406,8 +1481,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/java",
-              "path": "/docs/category/java",
+              "id": "/category/standalone-java",
+              "path": "/docs/category/standalone-java",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1446,6 +1521,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/java-for-automation-testers",
+              "path": "/docs/category/java-for-automation-testers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/maven",
               "path": "/docs/category/maven",
               "sidebar": "tutorialSidebar"
@@ -1476,8 +1556,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/foundationaladvanced-concepts",
-              "path": "/docs/category/foundationaladvanced-concepts",
+              "id": "/category/foundational-advanced-concepts",
+              "path": "/docs/category/foundational-advanced-concepts",
               "sidebar": "tutorialSidebar"
             },
             {
