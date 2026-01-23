@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
 ---
-
-# OOP for Automation Testing (Why Selenium Needs Structure)
+# OOP
+## OOP for Automation Testing (Why Selenium Needs Structure)
 
 <!-- ## Priority
 AUTOMATION_CORE -->

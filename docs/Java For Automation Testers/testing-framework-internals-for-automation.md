@@ -1,11 +1,11 @@
 ---
 sidebar_position: 8
 ---
+# Testing Framework
+## Testing Framework Internals for Automation (TestNG / JUnit)
 
-# Testing Framework Internals for Automation (TestNG / JUnit)
-
-## Priority
-AUTOMATION_CORE
+<!-- ## Priority
+AUTOMATION_CORE -->
 
 ---
 

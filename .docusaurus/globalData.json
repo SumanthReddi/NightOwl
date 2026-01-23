@@ -551,6 +551,471 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Jenkins/Agents & Scaling/agents-scaling-overview",
+              "path": "/docs/Jenkins/Agents & Scaling/agents-scaling-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Agents & Scaling/docker-agents",
+              "path": "/docs/Jenkins/Agents & Scaling/docker-agents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Agents & Scaling/ephemeral-cloud-agents",
+              "path": "/docs/Jenkins/Agents & Scaling/ephemeral-cloud-agents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Agents & Scaling/executors-deep-dive",
+              "path": "/docs/Jenkins/Agents & Scaling/executors-deep-dive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Agents & Scaling/kubernetes-agents",
+              "path": "/docs/Jenkins/Agents & Scaling/kubernetes-agents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Agents & Scaling/scaling-strategies-cost-control",
+              "path": "/docs/Jenkins/Agents & Scaling/scaling-strategies-cost-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Agents & Scaling/static-agents-and-labels",
+              "path": "/docs/Jenkins/Agents & Scaling/static-agents-and-labels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Architecture/agent",
+              "path": "/docs/Jenkins/Architecture/agent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Architecture/controller",
+              "path": "/docs/Jenkins/Architecture/controller",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Architecture/execution-flow",
+              "path": "/docs/Jenkins/Architecture/execution-flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Architecture/executors",
+              "path": "/docs/Jenkins/Architecture/executors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Architecture/master-slave-architecture",
+              "path": "/docs/Jenkins/Architecture/master-slave-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Architecture/overview",
+              "path": "/docs/Jenkins/Architecture/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Architecture/workspace-and-queue",
+              "path": "/docs/Jenkins/Architecture/workspace-and-queue",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Artifacts & Workspace/archive-artifacts",
+              "path": "/docs/Jenkins/Artifacts & Workspace/archive-artifacts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Artifacts & Workspace/artifacts-overview",
+              "path": "/docs/Jenkins/Artifacts & Workspace/artifacts-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Artifacts & Workspace/copy-artifacts",
+              "path": "/docs/Jenkins/Artifacts & Workspace/copy-artifacts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Artifacts & Workspace/fingerprints",
+              "path": "/docs/Jenkins/Artifacts & Workspace/fingerprints",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Artifacts & Workspace/stash-unstash",
+              "path": "/docs/Jenkins/Artifacts & Workspace/stash-unstash",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/backup-strategy",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/backup-strategy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/controller-ops-overview",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/controller-ops-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/controller-performance-tuning",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/controller-performance-tuning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/controller-upgrade-strategy",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/controller-upgrade-strategy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/disaster-recovery",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/disaster-recovery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/plugin-upgrade-management",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/plugin-upgrade-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/restore-procedures",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/restore-procedures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Controller Operations & Maintenance/stability-capacity-planning",
+              "path": "/docs/Jenkins/Controller Operations & Maintenance/stability-capacity-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Credentials & Secrets Management/common-mistakes",
+              "path": "/docs/Jenkins/Credentials & Secrets Management/common-mistakes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Credentials & Secrets Management/credentials-binding",
+              "path": "/docs/Jenkins/Credentials & Secrets Management/credentials-binding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Credentials & Secrets Management/credentials-overview",
+              "path": "/docs/Jenkins/Credentials & Secrets Management/credentials-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Credentials & Secrets Management/credentials-types",
+              "path": "/docs/Jenkins/Credentials & Secrets Management/credentials-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Credentials & Secrets Management/withcredentials",
+              "path": "/docs/Jenkins/Credentials & Secrets Management/withcredentials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Installation & Setup/docker-installation",
+              "path": "/docs/Jenkins/Installation & Setup/docker-installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Installation & Setup/initial-setup",
+              "path": "/docs/Jenkins/Installation & Setup/initial-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Installation & Setup/installation-overview",
+              "path": "/docs/Jenkins/Installation & Setup/installation-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Installation & Setup/local-installation",
+              "path": "/docs/Jenkins/Installation & Setup/local-installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Installation & Setup/plugin-strategy",
+              "path": "/docs/Jenkins/Installation & Setup/plugin-strategy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Interview & Real-World Scenarios/architecture-decision-discussions",
+              "path": "/docs/Jenkins/Interview & Real-World Scenarios/architecture-decision-discussions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Interview & Real-World Scenarios/interview-overview",
+              "path": "/docs/Jenkins/Interview & Real-World Scenarios/interview-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Interview & Real-World Scenarios/jenkins-outage-scenarios",
+              "path": "/docs/Jenkins/Interview & Real-World Scenarios/jenkins-outage-scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Interview & Real-World Scenarios/migration-case-studies",
+              "path": "/docs/Jenkins/Interview & Real-World Scenarios/migration-case-studies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Interview & Real-World Scenarios/scaling-failure-scenarios",
+              "path": "/docs/Jenkins/Interview & Real-World Scenarios/scaling-failure-scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Interview & Real-World Scenarios/security-incident-scenarios",
+              "path": "/docs/Jenkins/Interview & Real-World Scenarios/security-incident-scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Interview & Real-World Scenarios/upgrade-failure-scenarios",
+              "path": "/docs/Jenkins/Interview & Real-World Scenarios/upgrade-failure-scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins at Enterprise Scale/ci-cd-standardization",
+              "path": "/docs/Jenkins/Jenkins at Enterprise Scale/ci-cd-standardization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins at Enterprise Scale/common-enterprise-anti-patterns",
+              "path": "/docs/Jenkins/Jenkins at Enterprise Scale/common-enterprise-anti-patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins at Enterprise Scale/enterprise-overview",
+              "path": "/docs/Jenkins/Jenkins at Enterprise Scale/enterprise-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins at Enterprise Scale/governance-models",
+              "path": "/docs/Jenkins/Jenkins at Enterprise Scale/governance-models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins at Enterprise Scale/multi-controller-architecture",
+              "path": "/docs/Jenkins/Jenkins at Enterprise Scale/multi-controller-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins at Enterprise Scale/shared-vs-dedicated-controllers",
+              "path": "/docs/Jenkins/Jenkins at Enterprise Scale/shared-vs-dedicated-controllers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins at Enterprise Scale/team-isolation-strategies",
+              "path": "/docs/Jenkins/Jenkins at Enterprise Scale/team-isolation-strategies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/agent-security-isolation",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/agent-security-isolation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/auditing-monitoring",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/auditing-monitoring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/authentication-authorization",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/authentication-authorization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/controller-hardening",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/controller-hardening",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/network-ingress-security",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/network-ingress-security",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/plugin-security",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/plugin-security",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/rbac",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/rbac",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jenkins Security Hardening/security-hardening-overview",
+              "path": "/docs/Jenkins/Jenkins Security Hardening/security-hardening-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jobs & Pipelines/configuration-layers",
+              "path": "/docs/Jenkins/Jobs & Pipelines/configuration-layers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jobs & Pipelines/freestyle-job",
+              "path": "/docs/Jenkins/Jobs & Pipelines/freestyle-job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jobs & Pipelines/jobs-overview",
+              "path": "/docs/Jenkins/Jobs & Pipelines/jobs-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jobs & Pipelines/multibranch-pipeline",
+              "path": "/docs/Jenkins/Jobs & Pipelines/multibranch-pipeline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Jobs & Pipelines/pipeline-job",
+              "path": "/docs/Jenkins/Jobs & Pipelines/pipeline-job",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Observability/alerts-thresholds",
+              "path": "/docs/Jenkins/Observability/alerts-thresholds",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Observability/build-performance-analysis",
+              "path": "/docs/Jenkins/Observability/build-performance-analysis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Observability/capacity-planning-with-metrics",
+              "path": "/docs/Jenkins/Observability/capacity-planning-with-metrics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Observability/logging-strategy",
+              "path": "/docs/Jenkins/Observability/logging-strategy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Observability/metrics-monitoring",
+              "path": "/docs/Jenkins/Observability/metrics-monitoring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Observability/observability-overview",
+              "path": "/docs/Jenkins/Observability/observability-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/agent-directive",
+              "path": "/docs/Jenkins/Pipeline Internals/agent-directive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/declarative-vs-scripted",
+              "path": "/docs/Jenkins/Pipeline Internals/declarative-vs-scripted",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/environment-and-tools",
+              "path": "/docs/Jenkins/Pipeline Internals/environment-and-tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/Flow Control/flow-control-overview",
+              "path": "/docs/Jenkins/Pipeline Internals/Flow Control/flow-control-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/Flow Control/input-step",
+              "path": "/docs/Jenkins/Pipeline Internals/Flow Control/input-step",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/Flow Control/options-directive",
+              "path": "/docs/Jenkins/Pipeline Internals/Flow Control/options-directive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/Flow Control/parameters",
+              "path": "/docs/Jenkins/Pipeline Internals/Flow Control/parameters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/Flow Control/timeouts-and-retries",
+              "path": "/docs/Jenkins/Pipeline Internals/Flow Control/timeouts-and-retries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/Flow Control/when-conditions",
+              "path": "/docs/Jenkins/Pipeline Internals/Flow Control/when-conditions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/jenkinsfile-structure",
+              "path": "/docs/Jenkins/Pipeline Internals/jenkinsfile-structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/pipeline-overview",
+              "path": "/docs/Jenkins/Pipeline Internals/pipeline-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Pipeline Internals/stages-and-steps",
+              "path": "/docs/Jenkins/Pipeline Internals/stages-and-steps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/SCM Integration/branch-filtering-pr-discovery",
+              "path": "/docs/Jenkins/SCM Integration/branch-filtering-pr-discovery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/SCM Integration/git-credentials",
+              "path": "/docs/Jenkins/SCM Integration/git-credentials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/SCM Integration/multibranch-scm-behavior",
+              "path": "/docs/Jenkins/SCM Integration/multibranch-scm-behavior",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/SCM Integration/polling-and-scan-schedules",
+              "path": "/docs/Jenkins/SCM Integration/polling-and-scan-schedules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/SCM Integration/scm-overview",
+              "path": "/docs/Jenkins/SCM Integration/scm-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/SCM Integration/webhooks-and-triggers",
+              "path": "/docs/Jenkins/SCM Integration/webhooks-and-triggers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Shared Libraries/shared-libraries-overview",
+              "path": "/docs/Jenkins/Shared Libraries/shared-libraries-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Shared Libraries/shared-library-structure",
+              "path": "/docs/Jenkins/Shared Libraries/shared-library-structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Shared Libraries/shared-library-versioning-governance",
+              "path": "/docs/Jenkins/Shared Libraries/shared-library-versioning-governance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Shared Libraries/src-groovy-classes",
+              "path": "/docs/Jenkins/Shared Libraries/src-groovy-classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Jenkins/Shared Libraries/vars-reusable-steps",
+              "path": "/docs/Jenkins/Shared Libraries/vars-reusable-steps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Manual Testing/Agile Testing Basics",
               "path": "/docs/Manual Testing/Agile Testing Basics",
               "sidebar": "tutorialSidebar"
@@ -1341,6 +1806,56 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Standalone Java/Foundations/control-flow",
+              "path": "/docs/Standalone Java/Foundations/control-flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/data-types-and-memory",
+              "path": "/docs/Standalone Java/Foundations/data-types-and-memory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/methods-and-overloading",
+              "path": "/docs/Standalone Java/Foundations/methods-and-overloading",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/operators",
+              "path": "/docs/Standalone Java/Foundations/operators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/pass-by-value",
+              "path": "/docs/Standalone Java/Foundations/pass-by-value",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/variables-and-scope",
+              "path": "/docs/Standalone Java/Foundations/variables-and-scope",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Introduction/java-program-execution-flow",
+              "path": "/docs/Standalone Java/Introduction/java-program-execution-flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Introduction/java-what-and-why",
+              "path": "/docs/Standalone Java/Introduction/java-what-and-why",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Introduction/jdk-jre-jvm",
+              "path": "/docs/Standalone Java/Introduction/jdk-jre-jvm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Introduction/platform-independence",
+              "path": "/docs/Standalone Java/Introduction/platform-independence",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Standalone Java/Keywords/abstract",
               "path": "/docs/Standalone Java/Keywords/abstract",
               "sidebar": "tutorialSidebar"
@@ -1371,6 +1886,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Standalone Java/OOPS/abstraction-and-interfaces",
+              "path": "/docs/Standalone Java/OOPS/abstraction-and-interfaces",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/classes-and-objects",
+              "path": "/docs/Standalone Java/OOPS/classes-and-objects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/composition-vs-inheritance",
+              "path": "/docs/Standalone Java/OOPS/composition-vs-inheritance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Standalone Java/OOPS/Constructor",
               "path": "/docs/Standalone Java/OOPS/Constructor",
               "sidebar": "tutorialSidebar"
@@ -1378,6 +1908,11 @@
             {
               "id": "Standalone Java/OOPS/Encapsulation",
               "path": "/docs/Standalone Java/OOPS/Encapsulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/encapsulation copy",
+              "path": "/docs/Standalone Java/OOPS/encapsulation copy",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1391,6 +1926,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Standalone Java/OOPS/inheritance copy",
+              "path": "/docs/Standalone Java/OOPS/inheritance copy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Standalone Java/OOPS/Interface",
               "path": "/docs/Standalone Java/OOPS/Interface",
               "sidebar": "tutorialSidebar"
@@ -1398,6 +1938,16 @@
             {
               "id": "Standalone Java/OOPS/Polymorphism",
               "path": "/docs/Standalone Java/OOPS/Polymorphism",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/polymorphism copy",
+              "path": "/docs/Standalone Java/OOPS/polymorphism copy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/OOPS/solid-principles",
+              "path": "/docs/Standalone Java/OOPS/solid-principles",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1491,6 +2041,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/introduction",
+              "path": "/docs/category/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/foundations",
+              "path": "/docs/category/foundations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/oops",
               "path": "/docs/category/oops",
               "sidebar": "tutorialSidebar"
@@ -1536,8 +2096,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/introduction",
-              "path": "/docs/category/introduction",
+              "id": "/category/introduction-1",
+              "path": "/docs/category/introduction-1",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1618,6 +2178,86 @@
             {
               "id": "/category/robot-framework",
               "path": "/docs/category/robot-framework",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/jenkins",
+              "path": "/docs/category/jenkins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/architecture",
+              "path": "/docs/category/architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/installation--setup",
+              "path": "/docs/category/installation--setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/jobs--pipelines",
+              "path": "/docs/category/jobs--pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/pipeline-internals",
+              "path": "/docs/category/pipeline-internals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/flow-control",
+              "path": "/docs/category/flow-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/artifacts--workspace",
+              "path": "/docs/category/artifacts--workspace",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/credentials--secrets-management",
+              "path": "/docs/category/credentials--secrets-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/scm-integration",
+              "path": "/docs/category/scm-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/shared-libraries",
+              "path": "/docs/category/shared-libraries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/agents--scaling",
+              "path": "/docs/category/agents--scaling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/jenkins-security-hardening",
+              "path": "/docs/category/jenkins-security-hardening",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/controller-operations--maintenance",
+              "path": "/docs/category/controller-operations--maintenance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/observability",
+              "path": "/docs/category/observability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/jenkins-at-enterprise-scale",
+              "path": "/docs/category/jenkins-at-enterprise-scale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/interview--real-world-scenarios",
+              "path": "/docs/category/interview--real-world-scenarios",
               "sidebar": "tutorialSidebar"
             },
             {

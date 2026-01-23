@@ -1,11 +1,11 @@
 ---
 sidebar_position: 11
 ---
+# JDBC
+## JDBC for Automation Testing (Backend & Database Validation)
 
-# JDBC for Automation Testing (Backend & Database Validation)
-
-## Priority
-FRAMEWORK_CORE
+<!-- ## Priority
+FRAMEWORK_CORE -->
 
 ---
 

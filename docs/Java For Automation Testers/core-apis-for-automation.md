@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
 ---
+# Core Java API
+## Core Java APIs for Automation Testing (Strings, Arrays, Wrappers)
 
-# Core Java APIs for Automation Testing (Strings, Arrays, Wrappers)
-
-## Priority
-AUTOMATION_CORE
+<!-- ## Priority
+AUTOMATION_CORE -->
 
 ---
 

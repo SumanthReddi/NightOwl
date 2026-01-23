@@ -1,11 +1,11 @@
 ---
 sidebar_position: 12
 ---
+# Design Patterns
+## Design Patterns for Automation Frameworks (Making Frameworks Scalable)
 
-# Design Patterns for Automation Frameworks (Making Frameworks Scalable)
-
-## Priority
-FRAMEWORK_CORE
+<!-- ## Priority
+FRAMEWORK_CORE -->
 
 ---
 

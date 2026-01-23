@@ -2,10 +2,11 @@
 sidebar_position: 7
 ---
 
-# Java 8+ Features for Automation Testing (Cleaner, Safer Code)
+# Java 8+ Features 
+## Java 8+ Features for Automation Testing (Cleaner, Safer Code)
 
-## Priority
-AUTOMATION_CORE
+<!-- ## Priority
+AUTOMATION_CORE -->
 
 ---
 

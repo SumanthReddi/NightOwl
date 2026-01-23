@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f03'),
+    component: ComponentCreator('/docs', 'e15'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'f83'),
+        component: ComponentCreator('/docs', '5ad'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '180'),
+            component: ComponentCreator('/docs', '763'),
             routes: [
               {
                 path: '/docs/Apache POI/Apache POI and TestNG DataProvider',
@@ -329,6 +329,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/agents--scaling',
+                component: ComponentCreator('/docs/category/agents--scaling', 'c63'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/apache-poi',
                 component: ComponentCreator('/docs/category/apache-poi', '312'),
                 exact: true,
@@ -341,14 +347,38 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/architecture',
+                component: ComponentCreator('/docs/category/architecture', '6d1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/artifacts--workspace',
+                component: ComponentCreator('/docs/category/artifacts--workspace', '365'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/collections-framework',
                 component: ComponentCreator('/docs/category/collections-framework', 'ac7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/controller-operations--maintenance',
+                component: ComponentCreator('/docs/category/controller-operations--maintenance', '9e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/core-java-concepts',
                 component: ComponentCreator('/docs/category/core-java-concepts', 'ba5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/credentials--secrets-management',
+                component: ComponentCreator('/docs/category/credentials--secrets-management', 'cc2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -377,8 +407,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/flow-control',
+                component: ComponentCreator('/docs/category/flow-control', 'ee3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/foundational-advanced-concepts',
                 component: ComponentCreator('/docs/category/foundational-advanced-concepts', '325'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/foundations',
+                component: ComponentCreator('/docs/category/foundations', 'e2e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -395,6 +437,18 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/installation--setup',
+                component: ComponentCreator('/docs/category/installation--setup', '163'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/interview--real-world-scenarios',
+                component: ComponentCreator('/docs/category/interview--real-world-scenarios', 'e4a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/interview-questions',
                 component: ComponentCreator('/docs/category/interview-questions', 'abe'),
                 exact: true,
@@ -407,8 +461,38 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/introduction-1',
+                component: ComponentCreator('/docs/category/introduction-1', 'd27'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/java-for-automation-testers',
                 component: ComponentCreator('/docs/category/java-for-automation-testers', 'f92'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/jenkins',
+                component: ComponentCreator('/docs/category/jenkins', '294'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/jenkins-at-enterprise-scale',
+                component: ComponentCreator('/docs/category/jenkins-at-enterprise-scale', '890'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/jenkins-security-hardening',
+                component: ComponentCreator('/docs/category/jenkins-security-hardening', '544'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/jobs--pipelines',
+                component: ComponentCreator('/docs/category/jobs--pipelines', '920'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -449,8 +533,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/observability',
+                component: ComponentCreator('/docs/category/observability', '567'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/oops',
                 component: ComponentCreator('/docs/category/oops', '86c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/pipeline-internals',
+                component: ComponentCreator('/docs/category/pipeline-internals', 'd72'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -473,6 +569,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/scm-integration',
+                component: ComponentCreator('/docs/category/scm-integration', 'eb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/selenium',
                 component: ComponentCreator('/docs/category/selenium', '321'),
                 exact: true,
@@ -481,6 +583,12 @@ export default [
               {
                 path: '/docs/category/selenium-grid',
                 component: ComponentCreator('/docs/category/selenium-grid', 'ca5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/shared-libraries',
+                component: ComponentCreator('/docs/category/shared-libraries', '13b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -955,6 +1063,564 @@ export default [
               {
                 path: '/docs/Java For Automation Testers/testing-framework-internals-for-automation',
                 component: ComponentCreator('/docs/Java For Automation Testers/testing-framework-internals-for-automation', '690'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Agents & Scaling/agents-scaling-overview',
+                component: ComponentCreator('/docs/Jenkins/Agents & Scaling/agents-scaling-overview', '7c1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Agents & Scaling/docker-agents',
+                component: ComponentCreator('/docs/Jenkins/Agents & Scaling/docker-agents', 'dcd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Agents & Scaling/ephemeral-cloud-agents',
+                component: ComponentCreator('/docs/Jenkins/Agents & Scaling/ephemeral-cloud-agents', '458'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Agents & Scaling/executors-deep-dive',
+                component: ComponentCreator('/docs/Jenkins/Agents & Scaling/executors-deep-dive', '876'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Agents & Scaling/kubernetes-agents',
+                component: ComponentCreator('/docs/Jenkins/Agents & Scaling/kubernetes-agents', 'cf7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Agents & Scaling/scaling-strategies-cost-control',
+                component: ComponentCreator('/docs/Jenkins/Agents & Scaling/scaling-strategies-cost-control', 'b4d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Agents & Scaling/static-agents-and-labels',
+                component: ComponentCreator('/docs/Jenkins/Agents & Scaling/static-agents-and-labels', '68f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Architecture/agent',
+                component: ComponentCreator('/docs/Jenkins/Architecture/agent', 'fc4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Architecture/controller',
+                component: ComponentCreator('/docs/Jenkins/Architecture/controller', '3c3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Architecture/execution-flow',
+                component: ComponentCreator('/docs/Jenkins/Architecture/execution-flow', 'd62'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Architecture/executors',
+                component: ComponentCreator('/docs/Jenkins/Architecture/executors', '777'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Architecture/master-slave-architecture',
+                component: ComponentCreator('/docs/Jenkins/Architecture/master-slave-architecture', 'd85'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Architecture/overview',
+                component: ComponentCreator('/docs/Jenkins/Architecture/overview', '38e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Architecture/workspace-and-queue',
+                component: ComponentCreator('/docs/Jenkins/Architecture/workspace-and-queue', '10b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Artifacts & Workspace/archive-artifacts',
+                component: ComponentCreator('/docs/Jenkins/Artifacts & Workspace/archive-artifacts', 'a29'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Artifacts & Workspace/artifacts-overview',
+                component: ComponentCreator('/docs/Jenkins/Artifacts & Workspace/artifacts-overview', '899'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Artifacts & Workspace/copy-artifacts',
+                component: ComponentCreator('/docs/Jenkins/Artifacts & Workspace/copy-artifacts', 'ece'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Artifacts & Workspace/fingerprints',
+                component: ComponentCreator('/docs/Jenkins/Artifacts & Workspace/fingerprints', 'c9c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Artifacts & Workspace/stash-unstash',
+                component: ComponentCreator('/docs/Jenkins/Artifacts & Workspace/stash-unstash', '055'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/backup-strategy',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/backup-strategy', 'f60'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/controller-ops-overview',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/controller-ops-overview', 'bf7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/controller-performance-tuning',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/controller-performance-tuning', 'd67'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/controller-upgrade-strategy',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/controller-upgrade-strategy', 'f58'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/disaster-recovery',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/disaster-recovery', 'e50'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/plugin-upgrade-management',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/plugin-upgrade-management', '8d0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/restore-procedures',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/restore-procedures', 'e69'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Controller Operations & Maintenance/stability-capacity-planning',
+                component: ComponentCreator('/docs/Jenkins/Controller Operations & Maintenance/stability-capacity-planning', '183'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Credentials & Secrets Management/common-mistakes',
+                component: ComponentCreator('/docs/Jenkins/Credentials & Secrets Management/common-mistakes', '2dd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Credentials & Secrets Management/credentials-binding',
+                component: ComponentCreator('/docs/Jenkins/Credentials & Secrets Management/credentials-binding', 'f58'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Credentials & Secrets Management/credentials-overview',
+                component: ComponentCreator('/docs/Jenkins/Credentials & Secrets Management/credentials-overview', 'fb4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Credentials & Secrets Management/credentials-types',
+                component: ComponentCreator('/docs/Jenkins/Credentials & Secrets Management/credentials-types', 'b11'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Credentials & Secrets Management/withcredentials',
+                component: ComponentCreator('/docs/Jenkins/Credentials & Secrets Management/withcredentials', '746'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Installation & Setup/docker-installation',
+                component: ComponentCreator('/docs/Jenkins/Installation & Setup/docker-installation', '1ca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Installation & Setup/initial-setup',
+                component: ComponentCreator('/docs/Jenkins/Installation & Setup/initial-setup', 'c1e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Installation & Setup/installation-overview',
+                component: ComponentCreator('/docs/Jenkins/Installation & Setup/installation-overview', 'ea3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Installation & Setup/local-installation',
+                component: ComponentCreator('/docs/Jenkins/Installation & Setup/local-installation', '5d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Installation & Setup/plugin-strategy',
+                component: ComponentCreator('/docs/Jenkins/Installation & Setup/plugin-strategy', 'fb8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Interview & Real-World Scenarios/architecture-decision-discussions',
+                component: ComponentCreator('/docs/Jenkins/Interview & Real-World Scenarios/architecture-decision-discussions', 'd7c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Interview & Real-World Scenarios/interview-overview',
+                component: ComponentCreator('/docs/Jenkins/Interview & Real-World Scenarios/interview-overview', '5d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Interview & Real-World Scenarios/jenkins-outage-scenarios',
+                component: ComponentCreator('/docs/Jenkins/Interview & Real-World Scenarios/jenkins-outage-scenarios', '6ac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Interview & Real-World Scenarios/migration-case-studies',
+                component: ComponentCreator('/docs/Jenkins/Interview & Real-World Scenarios/migration-case-studies', '8de'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Interview & Real-World Scenarios/scaling-failure-scenarios',
+                component: ComponentCreator('/docs/Jenkins/Interview & Real-World Scenarios/scaling-failure-scenarios', 'b08'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Interview & Real-World Scenarios/security-incident-scenarios',
+                component: ComponentCreator('/docs/Jenkins/Interview & Real-World Scenarios/security-incident-scenarios', '2be'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Interview & Real-World Scenarios/upgrade-failure-scenarios',
+                component: ComponentCreator('/docs/Jenkins/Interview & Real-World Scenarios/upgrade-failure-scenarios', 'c49'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins at Enterprise Scale/ci-cd-standardization',
+                component: ComponentCreator('/docs/Jenkins/Jenkins at Enterprise Scale/ci-cd-standardization', '7ba'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins at Enterprise Scale/common-enterprise-anti-patterns',
+                component: ComponentCreator('/docs/Jenkins/Jenkins at Enterprise Scale/common-enterprise-anti-patterns', '6fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins at Enterprise Scale/enterprise-overview',
+                component: ComponentCreator('/docs/Jenkins/Jenkins at Enterprise Scale/enterprise-overview', '2cd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins at Enterprise Scale/governance-models',
+                component: ComponentCreator('/docs/Jenkins/Jenkins at Enterprise Scale/governance-models', '23c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins at Enterprise Scale/multi-controller-architecture',
+                component: ComponentCreator('/docs/Jenkins/Jenkins at Enterprise Scale/multi-controller-architecture', 'a2f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins at Enterprise Scale/shared-vs-dedicated-controllers',
+                component: ComponentCreator('/docs/Jenkins/Jenkins at Enterprise Scale/shared-vs-dedicated-controllers', '8ee'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins at Enterprise Scale/team-isolation-strategies',
+                component: ComponentCreator('/docs/Jenkins/Jenkins at Enterprise Scale/team-isolation-strategies', '0a1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/agent-security-isolation',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/agent-security-isolation', 'be2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/auditing-monitoring',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/auditing-monitoring', '23a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/authentication-authorization',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/authentication-authorization', '7d1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/controller-hardening',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/controller-hardening', 'e27'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/network-ingress-security',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/network-ingress-security', '73c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/plugin-security',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/plugin-security', 'a6d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/rbac',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/rbac', 'bb5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jenkins Security Hardening/security-hardening-overview',
+                component: ComponentCreator('/docs/Jenkins/Jenkins Security Hardening/security-hardening-overview', '899'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jobs & Pipelines/configuration-layers',
+                component: ComponentCreator('/docs/Jenkins/Jobs & Pipelines/configuration-layers', 'da5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jobs & Pipelines/freestyle-job',
+                component: ComponentCreator('/docs/Jenkins/Jobs & Pipelines/freestyle-job', '824'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jobs & Pipelines/jobs-overview',
+                component: ComponentCreator('/docs/Jenkins/Jobs & Pipelines/jobs-overview', '75d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jobs & Pipelines/multibranch-pipeline',
+                component: ComponentCreator('/docs/Jenkins/Jobs & Pipelines/multibranch-pipeline', 'f29'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Jobs & Pipelines/pipeline-job',
+                component: ComponentCreator('/docs/Jenkins/Jobs & Pipelines/pipeline-job', '9f5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Observability/alerts-thresholds',
+                component: ComponentCreator('/docs/Jenkins/Observability/alerts-thresholds', '5bc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Observability/build-performance-analysis',
+                component: ComponentCreator('/docs/Jenkins/Observability/build-performance-analysis', '7c0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Observability/capacity-planning-with-metrics',
+                component: ComponentCreator('/docs/Jenkins/Observability/capacity-planning-with-metrics', 'e9b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Observability/logging-strategy',
+                component: ComponentCreator('/docs/Jenkins/Observability/logging-strategy', '6d3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Observability/metrics-monitoring',
+                component: ComponentCreator('/docs/Jenkins/Observability/metrics-monitoring', '32e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Observability/observability-overview',
+                component: ComponentCreator('/docs/Jenkins/Observability/observability-overview', '0be'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/agent-directive',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/agent-directive', 'fc2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/declarative-vs-scripted',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/declarative-vs-scripted', '919'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/environment-and-tools',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/environment-and-tools', 'ef8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/Flow Control/flow-control-overview',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/Flow Control/flow-control-overview', 'fbd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/Flow Control/input-step',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/Flow Control/input-step', '080'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/Flow Control/options-directive',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/Flow Control/options-directive', 'a1e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/Flow Control/parameters',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/Flow Control/parameters', 'e2c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/Flow Control/timeouts-and-retries',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/Flow Control/timeouts-and-retries', '94e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/Flow Control/when-conditions',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/Flow Control/when-conditions', 'a92'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/jenkinsfile-structure',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/jenkinsfile-structure', 'cb7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/pipeline-overview',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/pipeline-overview', '8c2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Pipeline Internals/stages-and-steps',
+                component: ComponentCreator('/docs/Jenkins/Pipeline Internals/stages-and-steps', '071'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/SCM Integration/branch-filtering-pr-discovery',
+                component: ComponentCreator('/docs/Jenkins/SCM Integration/branch-filtering-pr-discovery', '249'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/SCM Integration/git-credentials',
+                component: ComponentCreator('/docs/Jenkins/SCM Integration/git-credentials', '7dc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/SCM Integration/multibranch-scm-behavior',
+                component: ComponentCreator('/docs/Jenkins/SCM Integration/multibranch-scm-behavior', 'c53'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/SCM Integration/polling-and-scan-schedules',
+                component: ComponentCreator('/docs/Jenkins/SCM Integration/polling-and-scan-schedules', 'cb5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/SCM Integration/scm-overview',
+                component: ComponentCreator('/docs/Jenkins/SCM Integration/scm-overview', 'e8e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/SCM Integration/webhooks-and-triggers',
+                component: ComponentCreator('/docs/Jenkins/SCM Integration/webhooks-and-triggers', '65c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Shared Libraries/shared-libraries-overview',
+                component: ComponentCreator('/docs/Jenkins/Shared Libraries/shared-libraries-overview', '5b3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Shared Libraries/shared-library-structure',
+                component: ComponentCreator('/docs/Jenkins/Shared Libraries/shared-library-structure', 'f3e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Shared Libraries/shared-library-versioning-governance',
+                component: ComponentCreator('/docs/Jenkins/Shared Libraries/shared-library-versioning-governance', 'fcf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Shared Libraries/src-groovy-classes',
+                component: ComponentCreator('/docs/Jenkins/Shared Libraries/src-groovy-classes', '63f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Jenkins/Shared Libraries/vars-reusable-steps',
+                component: ComponentCreator('/docs/Jenkins/Shared Libraries/vars-reusable-steps', '5bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1907,6 +2573,66 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Standalone Java/Foundations/control-flow',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/control-flow', 'fa2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/data-types-and-memory',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/data-types-and-memory', '56e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/methods-and-overloading',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/methods-and-overloading', '0df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/operators',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/operators', 'c5b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/pass-by-value',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/pass-by-value', 'f6c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/variables-and-scope',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/variables-and-scope', 'c4e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Introduction/java-program-execution-flow',
+                component: ComponentCreator('/docs/Standalone Java/Introduction/java-program-execution-flow', 'ed0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Introduction/java-what-and-why',
+                component: ComponentCreator('/docs/Standalone Java/Introduction/java-what-and-why', '630'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Introduction/jdk-jre-jvm',
+                component: ComponentCreator('/docs/Standalone Java/Introduction/jdk-jre-jvm', '796'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Introduction/platform-independence',
+                component: ComponentCreator('/docs/Standalone Java/Introduction/platform-independence', '88e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Standalone Java/Keywords/abstract',
                 component: ComponentCreator('/docs/Standalone Java/Keywords/abstract', '85d'),
                 exact: true,
@@ -1943,6 +2669,24 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Standalone Java/OOPS/abstraction-and-interfaces',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/abstraction-and-interfaces', '9ce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/classes-and-objects',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/classes-and-objects', '40a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/composition-vs-inheritance',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/composition-vs-inheritance', '165'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Standalone Java/OOPS/Constructor',
                 component: ComponentCreator('/docs/Standalone Java/OOPS/Constructor', '9e6'),
                 exact: true,
@@ -1951,6 +2695,12 @@ export default [
               {
                 path: '/docs/Standalone Java/OOPS/Encapsulation',
                 component: ComponentCreator('/docs/Standalone Java/OOPS/Encapsulation', '6fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/encapsulation copy',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/encapsulation copy', 'd76'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1967,6 +2717,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Standalone Java/OOPS/inheritance copy',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/inheritance copy', '85a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Standalone Java/OOPS/Interface',
                 component: ComponentCreator('/docs/Standalone Java/OOPS/Interface', 'd84'),
                 exact: true,
@@ -1975,6 +2731,18 @@ export default [
               {
                 path: '/docs/Standalone Java/OOPS/Polymorphism',
                 component: ComponentCreator('/docs/Standalone Java/OOPS/Polymorphism', 'dc2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/polymorphism copy',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/polymorphism copy', 'ecb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/OOPS/solid-principles',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/solid-principles', 'ce9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

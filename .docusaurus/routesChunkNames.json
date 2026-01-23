@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-f03": {
+  "/docs-e15": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-f83": {
+  "/docs-5ad": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-180": {
+  "/docs-763": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Apache POI/Apache POI and TestNG DataProvider-6c6": {
@@ -398,6 +398,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-advanced-concepts-9-ab-2f8"
   },
+  "/docs/category/agents--scaling-c63": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-agents-scalinga-49-7fa"
+  },
   "/docs/category/apache-poi-312": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-apache-poi-7-a-5-b4c"
@@ -406,13 +410,29 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-api-7-fe-27f"
   },
+  "/docs/category/architecture-6d1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-architecturea-29-4ab"
+  },
+  "/docs/category/artifacts--workspace-365": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-artifacts-workspaceaf-1-124"
+  },
   "/docs/category/collections-framework-ac7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-collections-frameworkb-3-f-927"
   },
+  "/docs/category/controller-operations--maintenance-9e3": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-controller-operations-maintenance-1-c-8-30f"
+  },
   "/docs/category/core-java-concepts-ba5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-core-java-concepts-417-0c7"
+  },
+  "/docs/category/credentials--secrets-management-cc2": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-credentials-secrets-management-640-f47"
   },
   "/docs/category/cucumber-491": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -430,9 +450,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-exception-handling-7-a-1-5db"
   },
+  "/docs/category/flow-control-ee3": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-flow-control-28-e-ff8"
+  },
   "/docs/category/foundational-advanced-concepts-325": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-foundational-advanced-concepts-31-e-8d2"
+  },
+  "/docs/category/foundations-e2e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-foundationsd-46-18c"
   },
   "/docs/category/framework-design-170": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -442,6 +470,14 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-git-258-1cc"
   },
+  "/docs/category/installation--setup-163": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-installation-setup-369-4d1"
+  },
+  "/docs/category/interview--real-world-scenarios-e4a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-interview-real-world-scenariosa-0-b-2f0"
+  },
   "/docs/category/interview-questions-abe": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-interview-questions-0-b-0-562"
@@ -450,9 +486,29 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-introduction-73-c-74a"
   },
+  "/docs/category/introduction-1-d27": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-introduction-1-ad-6-bf1"
+  },
   "/docs/category/java-for-automation-testers-f92": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-java-for-automation-testers-96-b-bed"
+  },
+  "/docs/category/jenkins-294": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-jenkins-12-a-125"
+  },
+  "/docs/category/jenkins-at-enterprise-scale-890": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-jenkins-at-enterprise-scale-281-289"
+  },
+  "/docs/category/jenkins-security-hardening-544": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-jenkins-security-hardeningde-5-798"
+  },
+  "/docs/category/jobs--pipelines-920": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-jobs-pipelines-5-c-0-669"
   },
   "/docs/category/keywords-677": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -478,9 +534,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-multithreadinge-39-c23"
   },
+  "/docs/category/observability-567": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-observability-162-71b"
+  },
   "/docs/category/oops-86c": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-oops-4-f-9-864"
+  },
+  "/docs/category/pipeline-internals-d72": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-pipeline-internalsba-3-376"
   },
   "/docs/category/python-493": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -494,6 +558,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-robot-framework-237-3e9"
   },
+  "/docs/category/scm-integration-eb3": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-scm-integration-5-dd-de2"
+  },
   "/docs/category/selenium-321": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-selenium-4-b-6-879"
@@ -501,6 +569,10 @@
   "/docs/category/selenium-grid-ca5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-selenium-gridcd-7-e74"
+  },
+  "/docs/category/shared-libraries-13b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-shared-libraries-605-e6b"
   },
   "/docs/category/standalone-java-175": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -817,6 +889,378 @@
   "/docs/Java For Automation Testers/testing-framework-internals-for-automation-690": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-for-automation-testers-testing-framework-internals-for-automationc-9-a-567"
+  },
+  "/docs/Jenkins/Agents & Scaling/agents-scaling-overview-7c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-agents-scaling-agents-scaling-overview-193-6fd"
+  },
+  "/docs/Jenkins/Agents & Scaling/docker-agents-dcd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-agents-scaling-docker-agents-38-d-c0e"
+  },
+  "/docs/Jenkins/Agents & Scaling/ephemeral-cloud-agents-458": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-agents-scaling-ephemeral-cloud-agentsb-63-4f5"
+  },
+  "/docs/Jenkins/Agents & Scaling/executors-deep-dive-876": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-agents-scaling-executors-deep-dive-6-ab-9a5"
+  },
+  "/docs/Jenkins/Agents & Scaling/kubernetes-agents-cf7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-agents-scaling-kubernetes-agents-26-e-52e"
+  },
+  "/docs/Jenkins/Agents & Scaling/scaling-strategies-cost-control-b4d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-agents-scaling-scaling-strategies-cost-control-5-ce-ed0"
+  },
+  "/docs/Jenkins/Agents & Scaling/static-agents-and-labels-68f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-agents-scaling-static-agents-and-labels-012-690"
+  },
+  "/docs/Jenkins/Architecture/agent-fc4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-architecture-agent-868-ce6"
+  },
+  "/docs/Jenkins/Architecture/controller-3c3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-architecture-controller-2-f-4-45f"
+  },
+  "/docs/Jenkins/Architecture/execution-flow-d62": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-architecture-execution-flowe-81-e56"
+  },
+  "/docs/Jenkins/Architecture/executors-777": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-architecture-executorsaf-2-0b1"
+  },
+  "/docs/Jenkins/Architecture/master-slave-architecture-d85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-architecture-master-slave-architectured-1-a-132"
+  },
+  "/docs/Jenkins/Architecture/overview-38e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-architecture-overviewa-31-9be"
+  },
+  "/docs/Jenkins/Architecture/workspace-and-queue-10b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-architecture-workspace-and-queue-4-e-1-d94"
+  },
+  "/docs/Jenkins/Artifacts & Workspace/archive-artifacts-a29": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-artifacts-workspace-archive-artifacts-22-e-c7f"
+  },
+  "/docs/Jenkins/Artifacts & Workspace/artifacts-overview-899": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-artifacts-workspace-artifacts-overview-690-a9a"
+  },
+  "/docs/Jenkins/Artifacts & Workspace/copy-artifacts-ece": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-artifacts-workspace-copy-artifacts-22-c-6d8"
+  },
+  "/docs/Jenkins/Artifacts & Workspace/fingerprints-c9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-artifacts-workspace-fingerprints-73-e-3e3"
+  },
+  "/docs/Jenkins/Artifacts & Workspace/stash-unstash-055": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-artifacts-workspace-stash-unstashea-0-a04"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/backup-strategy-f60": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-backup-strategy-6-ef-f34"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/controller-ops-overview-bf7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-controller-ops-overview-131-3c8"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/controller-performance-tuning-d67": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-controller-performance-tuning-7-f-4-0ad"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/controller-upgrade-strategy-f58": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-controller-upgrade-strategy-36-f-443"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/disaster-recovery-e50": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-disaster-recovery-08-c-97b"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/plugin-upgrade-management-8d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-plugin-upgrade-management-6-ac-f8a"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/restore-procedures-e69": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-restore-procedures-608-a5e"
+  },
+  "/docs/Jenkins/Controller Operations & Maintenance/stability-capacity-planning-183": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-controller-operations-maintenance-stability-capacity-planning-846-a0e"
+  },
+  "/docs/Jenkins/Credentials & Secrets Management/common-mistakes-2dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-credentials-secrets-management-common-mistakes-8-bc-2e3"
+  },
+  "/docs/Jenkins/Credentials & Secrets Management/credentials-binding-f58": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-credentials-secrets-management-credentials-bindingc-18-33f"
+  },
+  "/docs/Jenkins/Credentials & Secrets Management/credentials-overview-fb4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-credentials-secrets-management-credentials-overviewaed-b20"
+  },
+  "/docs/Jenkins/Credentials & Secrets Management/credentials-types-b11": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-credentials-secrets-management-credentials-types-147-aca"
+  },
+  "/docs/Jenkins/Credentials & Secrets Management/withcredentials-746": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-credentials-secrets-management-withcredentials-751-687"
+  },
+  "/docs/Jenkins/Installation & Setup/docker-installation-1ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-installation-setup-docker-installation-4-ef-a64"
+  },
+  "/docs/Jenkins/Installation & Setup/initial-setup-c1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-installation-setup-initial-setupa-30-5fc"
+  },
+  "/docs/Jenkins/Installation & Setup/installation-overview-ea3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-installation-setup-installation-overview-156-c43"
+  },
+  "/docs/Jenkins/Installation & Setup/local-installation-5d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-installation-setup-local-installatione-50-142"
+  },
+  "/docs/Jenkins/Installation & Setup/plugin-strategy-fb8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-installation-setup-plugin-strategy-5-b-4-af7"
+  },
+  "/docs/Jenkins/Interview & Real-World Scenarios/architecture-decision-discussions-d7c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-interview-real-world-scenarios-architecture-decision-discussionsa-78-84d"
+  },
+  "/docs/Jenkins/Interview & Real-World Scenarios/interview-overview-5d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-interview-real-world-scenarios-interview-overviewf-7-b-af5"
+  },
+  "/docs/Jenkins/Interview & Real-World Scenarios/jenkins-outage-scenarios-6ac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-interview-real-world-scenarios-jenkins-outage-scenariosd-25-c5c"
+  },
+  "/docs/Jenkins/Interview & Real-World Scenarios/migration-case-studies-8de": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-interview-real-world-scenarios-migration-case-studiesb-01-c63"
+  },
+  "/docs/Jenkins/Interview & Real-World Scenarios/scaling-failure-scenarios-b08": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-interview-real-world-scenarios-scaling-failure-scenarios-558-d87"
+  },
+  "/docs/Jenkins/Interview & Real-World Scenarios/security-incident-scenarios-2be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-interview-real-world-scenarios-security-incident-scenariosd-29-617"
+  },
+  "/docs/Jenkins/Interview & Real-World Scenarios/upgrade-failure-scenarios-c49": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-interview-real-world-scenarios-upgrade-failure-scenarios-026-3b0"
+  },
+  "/docs/Jenkins/Jenkins at Enterprise Scale/ci-cd-standardization-7ba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-at-enterprise-scale-ci-cd-standardizationc-9-e-329"
+  },
+  "/docs/Jenkins/Jenkins at Enterprise Scale/common-enterprise-anti-patterns-6fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-at-enterprise-scale-common-enterprise-anti-patterns-6-b-0-b32"
+  },
+  "/docs/Jenkins/Jenkins at Enterprise Scale/enterprise-overview-2cd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-at-enterprise-scale-enterprise-overview-0-c-5-2e1"
+  },
+  "/docs/Jenkins/Jenkins at Enterprise Scale/governance-models-23c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-at-enterprise-scale-governance-modelse-41-942"
+  },
+  "/docs/Jenkins/Jenkins at Enterprise Scale/multi-controller-architecture-a2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-at-enterprise-scale-multi-controller-architectured-3-c-198"
+  },
+  "/docs/Jenkins/Jenkins at Enterprise Scale/shared-vs-dedicated-controllers-8ee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-at-enterprise-scale-shared-vs-dedicated-controllers-8-b-8-80f"
+  },
+  "/docs/Jenkins/Jenkins at Enterprise Scale/team-isolation-strategies-0a1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-at-enterprise-scale-team-isolation-strategiesac-4-a3d"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/agent-security-isolation-be2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-agent-security-isolationf-46-374"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/auditing-monitoring-23a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-auditing-monitoringff-8-7df"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/authentication-authorization-7d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-authentication-authorizationebb-4f6"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/controller-hardening-e27": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-controller-hardening-273-d3b"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/network-ingress-security-73c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-network-ingress-securityeeb-e28"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/plugin-security-a6d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-plugin-security-8-a-4-d17"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/rbac-bb5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-rbace-20-043"
+  },
+  "/docs/Jenkins/Jenkins Security Hardening/security-hardening-overview-899": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jenkins-security-hardening-security-hardening-overview-68-a-95a"
+  },
+  "/docs/Jenkins/Jobs & Pipelines/configuration-layers-da5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jobs-pipelines-configuration-layers-90-d-dd9"
+  },
+  "/docs/Jenkins/Jobs & Pipelines/freestyle-job-824": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jobs-pipelines-freestyle-jobbc-1-68e"
+  },
+  "/docs/Jenkins/Jobs & Pipelines/jobs-overview-75d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jobs-pipelines-jobs-overview-16-e-920"
+  },
+  "/docs/Jenkins/Jobs & Pipelines/multibranch-pipeline-f29": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jobs-pipelines-multibranch-pipeline-248-099"
+  },
+  "/docs/Jenkins/Jobs & Pipelines/pipeline-job-9f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-jobs-pipelines-pipeline-jobb-1-e-0c4"
+  },
+  "/docs/Jenkins/Observability/alerts-thresholds-5bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-observability-alerts-thresholds-8-d-4-677"
+  },
+  "/docs/Jenkins/Observability/build-performance-analysis-7c0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-observability-build-performance-analysis-6-cd-a0c"
+  },
+  "/docs/Jenkins/Observability/capacity-planning-with-metrics-e9b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-observability-capacity-planning-with-metrics-44-c-4b3"
+  },
+  "/docs/Jenkins/Observability/logging-strategy-6d3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-observability-logging-strategy-543-cf6"
+  },
+  "/docs/Jenkins/Observability/metrics-monitoring-32e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-observability-metrics-monitoring-14-d-9c9"
+  },
+  "/docs/Jenkins/Observability/observability-overview-0be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-observability-observability-overviewc-2-e-c2d"
+  },
+  "/docs/Jenkins/Pipeline Internals/agent-directive-fc2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-agent-directive-65-f-41b"
+  },
+  "/docs/Jenkins/Pipeline Internals/declarative-vs-scripted-919": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-declarative-vs-scripted-4-f-2-d45"
+  },
+  "/docs/Jenkins/Pipeline Internals/environment-and-tools-ef8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-environment-and-toolsb-5-b-620"
+  },
+  "/docs/Jenkins/Pipeline Internals/Flow Control/flow-control-overview-fbd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-flow-control-flow-control-overview-254-873"
+  },
+  "/docs/Jenkins/Pipeline Internals/Flow Control/input-step-080": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-flow-control-input-stepcc-7-6de"
+  },
+  "/docs/Jenkins/Pipeline Internals/Flow Control/options-directive-a1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-flow-control-options-directive-17-d-caa"
+  },
+  "/docs/Jenkins/Pipeline Internals/Flow Control/parameters-e2c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-flow-control-parameters-897-be5"
+  },
+  "/docs/Jenkins/Pipeline Internals/Flow Control/timeouts-and-retries-94e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-flow-control-timeouts-and-retries-725-c4b"
+  },
+  "/docs/Jenkins/Pipeline Internals/Flow Control/when-conditions-a92": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-flow-control-when-conditionsf-76-4fc"
+  },
+  "/docs/Jenkins/Pipeline Internals/jenkinsfile-structure-cb7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-jenkinsfile-structurecce-c89"
+  },
+  "/docs/Jenkins/Pipeline Internals/pipeline-overview-8c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-pipeline-overviewf-7-c-c92"
+  },
+  "/docs/Jenkins/Pipeline Internals/stages-and-steps-071": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-pipeline-internals-stages-and-stepsaee-314"
+  },
+  "/docs/Jenkins/SCM Integration/branch-filtering-pr-discovery-249": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-scm-integration-branch-filtering-pr-discovery-8-ed-0e6"
+  },
+  "/docs/Jenkins/SCM Integration/git-credentials-7dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-scm-integration-git-credentials-346-6b2"
+  },
+  "/docs/Jenkins/SCM Integration/multibranch-scm-behavior-c53": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-scm-integration-multibranch-scm-behavior-108-708"
+  },
+  "/docs/Jenkins/SCM Integration/polling-and-scan-schedules-cb5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-scm-integration-polling-and-scan-schedules-6-e-5-b21"
+  },
+  "/docs/Jenkins/SCM Integration/scm-overview-e8e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-scm-integration-scm-overviewd-3-a-738"
+  },
+  "/docs/Jenkins/SCM Integration/webhooks-and-triggers-65c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-scm-integration-webhooks-and-triggers-825-baa"
+  },
+  "/docs/Jenkins/Shared Libraries/shared-libraries-overview-5b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-shared-libraries-shared-libraries-overview-68-a-20b"
+  },
+  "/docs/Jenkins/Shared Libraries/shared-library-structure-f3e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-shared-libraries-shared-library-structure-028-469"
+  },
+  "/docs/Jenkins/Shared Libraries/shared-library-versioning-governance-fcf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-shared-libraries-shared-library-versioning-governance-56-d-aa8"
+  },
+  "/docs/Jenkins/Shared Libraries/src-groovy-classes-63f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-shared-libraries-src-groovy-classes-20-f-d52"
+  },
+  "/docs/Jenkins/Shared Libraries/vars-reusable-steps-5bd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-jenkins-shared-libraries-vars-reusable-stepsb-66-bcc"
   },
   "/docs/Manual Testing/Agile Testing Basics-d45": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1450,6 +1894,46 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-fastrack-oop-3886-fa7"
   },
+  "/docs/Standalone Java/Foundations/control-flow-fa2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-foundations-control-flow-964-533"
+  },
+  "/docs/Standalone Java/Foundations/data-types-and-memory-56e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-foundations-data-types-and-memory-585-562"
+  },
+  "/docs/Standalone Java/Foundations/methods-and-overloading-0df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-foundations-methods-and-overloading-5-f-6-c8c"
+  },
+  "/docs/Standalone Java/Foundations/operators-c5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-foundations-operatorsb-69-85b"
+  },
+  "/docs/Standalone Java/Foundations/pass-by-value-f6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-foundations-pass-by-value-2-cb-451"
+  },
+  "/docs/Standalone Java/Foundations/variables-and-scope-c4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-foundations-variables-and-scope-4-be-c3c"
+  },
+  "/docs/Standalone Java/Introduction/java-program-execution-flow-ed0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-introduction-java-program-execution-flow-048-b12"
+  },
+  "/docs/Standalone Java/Introduction/java-what-and-why-630": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-introduction-java-what-and-whyfab-e5a"
+  },
+  "/docs/Standalone Java/Introduction/jdk-jre-jvm-796": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-introduction-jdk-jre-jvmcdb-200"
+  },
+  "/docs/Standalone Java/Introduction/platform-independence-88e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-introduction-platform-independence-8-ea-29e"
+  },
   "/docs/Standalone Java/Keywords/abstract-85d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-keywords-abstract-584-5ea"
@@ -1474,6 +1958,18 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-abstractiond-37-528"
   },
+  "/docs/Standalone Java/OOPS/abstraction-and-interfaces-9ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-abstraction-and-interfaces-6-cf-a37"
+  },
+  "/docs/Standalone Java/OOPS/classes-and-objects-40a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-classes-and-objectsfd-6-4e9"
+  },
+  "/docs/Standalone Java/OOPS/composition-vs-inheritance-165": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-composition-vs-inheritance-433-b72"
+  },
   "/docs/Standalone Java/OOPS/Constructor-9e6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-constructor-486-6aa"
@@ -1481,6 +1977,10 @@
   "/docs/Standalone Java/OOPS/Encapsulation-6fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-encapsulation-868-e3e"
+  },
+  "/docs/Standalone Java/OOPS/encapsulation copy-d76": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-encapsulation-copy-935-668"
   },
   "/docs/Standalone Java/OOPS/Final , Static Usage-bb8": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1490,6 +1990,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-inheritance-227-1c1"
   },
+  "/docs/Standalone Java/OOPS/inheritance copy-85a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-inheritance-copy-7-a-7-a8a"
+  },
   "/docs/Standalone Java/OOPS/Interface-d84": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-interface-702-ec5"
@@ -1497,6 +2001,14 @@
   "/docs/Standalone Java/OOPS/Polymorphism-dc2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-polymorphism-4-f-4-d33"
+  },
+  "/docs/Standalone Java/OOPS/polymorphism copy-ecb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-polymorphism-copy-812-b7f"
+  },
+  "/docs/Standalone Java/OOPS/solid-principles-ce9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-solid-principlesa-70-7fa"
   },
   "/docs/TestNG/Annotations & Execution Flow-d86": {
     "__comp": "__comp---theme-doc-item-178-a40",
