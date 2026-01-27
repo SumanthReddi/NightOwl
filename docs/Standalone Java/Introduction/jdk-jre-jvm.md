@@ -194,3 +194,16 @@ This is why you mostly install **only JDK today**.
 - JDK provides development tools
 
 Together, they make Java usable.
+
+## Final Takeaway
+
+If Java ever feels confusing, ask:
+
+> “Am I trying to **write** code or **run** code?”
+
+- Writing → **JDK**
+- Running → **JRE**
+- Executing → **JVM**
+
+Once you see the roles,
+the confusion disappears.

@@ -140,9 +140,3 @@ This is commonly used in CI/CD pipelines.
 - Three types: scalar, list, dictionary
 - Scope control is critical
 - Variable files improve maintainability
-
----
-
-## What’s Next?
-
-👉 **Settings Section**

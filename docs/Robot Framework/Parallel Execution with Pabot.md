@@ -111,9 +111,3 @@ Avoid Pabot when:
 - Improves execution speed
 - Requires careful test design
 - Essential for large test suites
-
----
-
-## What’s Next?
-
-👉 **Debugging and Best Practices**

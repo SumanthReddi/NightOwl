@@ -120,9 +120,3 @@ Common use cases:
 - Session-based execution is recommended
 - Clean validations improve reliability
 - API tests are CI-friendly
-
----
-
-## What’s Next?
-
-👉 **Database Testing**

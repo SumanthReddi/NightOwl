@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e15'),
+    component: ComponentCreator('/docs', '03f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '5ad'),
+        component: ComponentCreator('/docs', '4cd'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '763'),
+            component: ComponentCreator('/docs', '3f9'),
             routes: [
               {
                 path: '/docs/Apache POI/Apache POI and TestNG DataProvider',
@@ -403,6 +403,12 @@ export default [
               {
                 path: '/docs/category/exception-handling',
                 component: ComponentCreator('/docs/category/exception-handling', '960'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/extent-report',
+                component: ComponentCreator('/docs/category/extent-report', 'a5b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -967,6 +973,78 @@ export default [
               {
                 path: '/docs/Docusaurus/markdown-features',
                 component: ComponentCreator('/docs/Docusaurus/markdown-features', 'ef3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_advanced_configuration_and_customization',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_advanced_configuration_and_customization', 'abe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_ci_cd_integration',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_ci_cd_integration', 'b38'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns', '4db'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_cucumber_bdd_integration',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_cucumber_bdd_integration', '57b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_framework_level_integration',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_framework_level_integration', '987'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_fundamentals_and_architecture',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_fundamentals_and_architecture', 'b2d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_logging_and_status_handling',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_logging_and_status_handling', '896'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_roadmap_overview',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_roadmap_overview', '812'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_screenshots_and_media_handling',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_screenshots_and_media_handling', '396'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_setup_and_basic_configuration',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_setup_and_basic_configuration', 'd64'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_test_ng_listener_integration',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_test_ng_listener_integration', '325'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution',
+                component: ComponentCreator('/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution', '171'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-e15": {
+  "/docs-03f": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-5ad": {
+  "/docs-4cd": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-763": {
+  "/docs-3f9": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Apache POI/Apache POI and TestNG DataProvider-6c6": {
@@ -449,6 +449,10 @@
   "/docs/category/exception-handling-960": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-exception-handling-7-a-1-5db"
+  },
+  "/docs/category/extent-report-a5b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-extent-report-4-d-2-f5d"
   },
   "/docs/category/flow-control-ee3": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -825,6 +829,54 @@
   "/docs/Docusaurus/markdown-features-ef3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docusaurus-markdown-features-1-bf-5fc"
+  },
+  "/docs/Extent Report/extent_reports_advanced_configuration_and_customization-abe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-advanced-configuration-and-customization-1-d-0-bf9"
+  },
+  "/docs/Extent Report/extent_reports_ci_cd_integration-b38": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-ci-cd-integration-766-b11"
+  },
+  "/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns-4db": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-common-mistakes-and-anti-patternsf-00-7e1"
+  },
+  "/docs/Extent Report/extent_reports_cucumber_bdd_integration-57b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-cucumber-bdd-integration-1-f-1-6c8"
+  },
+  "/docs/Extent Report/extent_reports_framework_level_integration-987": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-framework-level-integrationaf-9-b62"
+  },
+  "/docs/Extent Report/extent_reports_fundamentals_and_architecture-b2d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-fundamentals-and-architectureb-77-360"
+  },
+  "/docs/Extent Report/extent_reports_logging_and_status_handling-896": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-logging-and-status-handling-6-f-9-39d"
+  },
+  "/docs/Extent Report/extent_reports_roadmap_overview-812": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-roadmap-overview-037-0b3"
+  },
+  "/docs/Extent Report/extent_reports_screenshots_and_media_handling-396": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-screenshots-and-media-handling-83-f-543"
+  },
+  "/docs/Extent Report/extent_reports_setup_and_basic_configuration-d64": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-setup-and-basic-configuration-986-8cc"
+  },
+  "/docs/Extent Report/extent_reports_test_ng_listener_integration-325": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-test-ng-listener-integration-627-193"
+  },
+  "/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution-171": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-extent-report-extent-reports-thread-safety-and-parallel-execution-4-df-1b9"
   },
   "/docs/Git/-865": {
     "__comp": "__comp---theme-doc-item-178-a40",

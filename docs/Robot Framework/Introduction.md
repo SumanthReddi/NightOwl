@@ -103,9 +103,3 @@ Robot Framework is a **framework**, not a tool replacement.
 - It supports UI, API, and DB automation
 - Designed for maintainable test frameworks
 - Widely used in real-world CI/CD pipelines
-
----
-
-## What’s Next?
-
-👉 **Robot Framework Architecture**

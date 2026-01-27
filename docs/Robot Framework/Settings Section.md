@@ -141,9 +141,3 @@ Understanding this order prevents unexpected failures.
 - Libraries and resources extend functionality
 - Setup/Teardown manage lifecycle
 - Proper use improves stability and reuse
-
----
-
-## What’s Next?
-
-👉 **Built-in Libraries**

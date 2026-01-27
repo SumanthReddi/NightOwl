@@ -112,9 +112,3 @@ Should Not Be Empty    ${result}
 - DatabaseLibrary enables SQL execution
 - Use DB checks responsibly
 - Combine with API/UI tests
-
----
-
-## What’s Next?
-
-👉 **Data Driven Testing**

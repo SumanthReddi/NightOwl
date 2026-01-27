@@ -118,9 +118,3 @@ Open Browser    ${URL}    chrome    options=add_argument(--headless)
 - Reports provide visibility
 - CI/CD integration is mandatory
 - Robot Framework is pipeline-friendly
-
----
-
-## What’s Next?
-
-👉 **Parallel Execution with Pabot**

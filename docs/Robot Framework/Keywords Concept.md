@@ -142,9 +142,3 @@ Avoid creating keywords for:
 - Three types: built-in, library, user-defined
 - User-defined keywords improve reuse
 - Clean keyword design is essential
-
----
-
-## What’s Next?
-
-👉 **Variables in Robot Framework**

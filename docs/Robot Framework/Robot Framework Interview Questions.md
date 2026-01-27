@@ -131,7 +131,3 @@ A: When keyword-driven or readable tests are not required.
 - Real project scenarios matter
 - Clean framework knowledge stands out
 - Stability and CI awareness are critical
-
----
-
-## 🎉 End of Robot Framework Section

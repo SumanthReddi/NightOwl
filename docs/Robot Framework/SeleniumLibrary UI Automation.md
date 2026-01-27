@@ -148,9 +148,3 @@ Recommended approach:
 - Keywords abstract Selenium complexity
 - Proper waits prevent flakiness
 - Clean structure scales well
-
----
-
-## What’s Next?
-
-👉 **API Automation with RequestsLibrary**

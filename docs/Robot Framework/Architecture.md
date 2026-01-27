@@ -124,9 +124,3 @@ This is why Robot Framework scales well in large automation suites.
 - Libraries perform actual automation
 - Resource files improve reuse
 - Proper architecture enables scalability
-
----
-
-## What’s Next?
-
-👉 **Installation and Setup**

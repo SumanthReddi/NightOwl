@@ -120,9 +120,3 @@ Used for:
 - Test Templates are preferred
 - FOR loops handle complex cases
 - Clean separation improves maintainability
-
----
-
-## What’s Next?
-
-👉 **Resource Files and Custom Libraries**

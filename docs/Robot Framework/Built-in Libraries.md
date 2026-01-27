@@ -142,9 +142,3 @@ Used in:
 - Built-in libraries are powerful and stable
 - They cover most common automation needs
 - Essential for clean framework design
-
----
-
-## What’s Next?
-
-👉 **Control Flow and Error Handling**

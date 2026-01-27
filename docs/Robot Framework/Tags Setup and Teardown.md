@@ -134,9 +134,3 @@ Suite Teardown
 - Setup/teardown manage lifecycle
 - Essential for scalable frameworks
 - Critical for CI/CD pipelines
-
----
-
-## What’s Next?
-
-👉 **SeleniumLibrary UI Automation**

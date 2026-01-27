@@ -471,6 +471,66 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Extent Report/extent_reports_advanced_configuration_and_customization",
+              "path": "/docs/Extent Report/extent_reports_advanced_configuration_and_customization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_ci_cd_integration",
+              "path": "/docs/Extent Report/extent_reports_ci_cd_integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_common_mistakes_and_anti_patterns",
+              "path": "/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_cucumber_bdd_integration",
+              "path": "/docs/Extent Report/extent_reports_cucumber_bdd_integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_framework_level_integration",
+              "path": "/docs/Extent Report/extent_reports_framework_level_integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_fundamentals_and_architecture",
+              "path": "/docs/Extent Report/extent_reports_fundamentals_and_architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_logging_and_status_handling",
+              "path": "/docs/Extent Report/extent_reports_logging_and_status_handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_roadmap_overview",
+              "path": "/docs/Extent Report/extent_reports_roadmap_overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_screenshots_and_media_handling",
+              "path": "/docs/Extent Report/extent_reports_screenshots_and_media_handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_setup_and_basic_configuration",
+              "path": "/docs/Extent Report/extent_reports_setup_and_basic_configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_test_ng_listener_integration",
+              "path": "/docs/Extent Report/extent_reports_test_ng_listener_integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Extent Report/extent_reports_thread_safety_and_parallel_execution",
+              "path": "/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Git/Git",
               "path": "/docs/Git/",
               "sidebar": "tutorialSidebar"
@@ -2158,6 +2218,11 @@
             {
               "id": "/category/api",
               "path": "/docs/category/api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/extent-report",
+              "path": "/docs/category/extent-report",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -115,9 +115,3 @@ Used when:
 - Many built-in validation keywords exist
 - Hard and soft validation patterns are supported
 - Proper validation improves trust in automation
-
----
-
-## What’s Next?
-
-👉 **Tags, Setup and Teardown**

@@ -115,9 +115,3 @@ Solutions:
 - Good practices prevent flaky tests
 - Clean frameworks scale better
 - Stability builds trust
-
----
-
-## What’s Next?
-
-👉 **Robot Framework Interview Questions**

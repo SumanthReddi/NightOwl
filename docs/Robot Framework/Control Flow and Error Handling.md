@@ -129,9 +129,3 @@ Used for:
 - Error handling improves stability
 - Robot supports modern constructs
 - Clean design prevents flaky tests
-
----
-
-## What’s Next?
-
-👉 **Assertions and Validation**

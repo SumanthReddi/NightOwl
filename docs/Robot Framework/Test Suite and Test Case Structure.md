@@ -123,9 +123,3 @@ These apply to all test cases in the suite.
 - Test cases describe behavior
 - Structure enforces clarity
 - Proper organization improves scalability
-
----
-
-## What’s Next?
-
-👉 **Keywords Concept**
