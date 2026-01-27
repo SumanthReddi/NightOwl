@@ -165,9 +165,3 @@ A: Validates step definitions without executing tests.
 - Correct glue is critical
 - Tags enable selective runs
 - Dry run saves setup time
-
----
-
-## What’s Next?
-
-👉 **Tags & Tag Expressions**

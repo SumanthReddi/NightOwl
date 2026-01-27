@@ -161,9 +161,3 @@ A: Yes, using AND / OR / NOT expressions.
 - Tag expressions enable flexibility
 - Essential for CI/CD
 - Do not misuse tags for logic
-
----
-
-## What’s Next?
-
-👉 **Hooks (Before, After, Order, Best Practices)**

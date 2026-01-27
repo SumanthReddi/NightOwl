@@ -152,9 +152,3 @@ A: To find defects and provide confidence about the system quality.
 - Verification and validation are different
 - Testing cannot be exhaustive
 - Tester mindset is critical
-
----
-
-## What’s Next?
-
-👉 **Requirement Analysis for Testers**

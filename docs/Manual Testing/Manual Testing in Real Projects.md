@@ -149,9 +149,3 @@ A: Impact analysis, prioritize risk, and communicate clearly.
 - Communication is as important as testing
 - Risk-based thinking is essential
 - Manual testing builds automation foundation
-
----
-
-## What’s Next?
-
-👉 **Manual Testing vs Automation Testing**

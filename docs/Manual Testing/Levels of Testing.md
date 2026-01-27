@@ -168,9 +168,3 @@ A: Developers.
 - System testing is QA’s primary focus
 - UAT ensures business confidence
 - All levels together ensure quality
-
----
-
-## What’s Next?
-
-👉 **Functional Testing Types (Smoke, Sanity, Regression, Re-testing, Exploratory)**

@@ -122,8 +122,3 @@ A: When business collaboration or behavior clarity is not required.
 ---
 
 ## End of Cucumber Section 🎉
-
-Next recommended sections:
-- Selenium Deep Dive
-- API Automation Advanced
-- Framework Design Patterns

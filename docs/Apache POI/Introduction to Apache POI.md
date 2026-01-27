@@ -133,9 +133,3 @@ A: Hardcoding reduces maintainability and scalability.
 - It improves framework scalability
 - It separates test logic from test data
 - Essential skill for automation testers
-
----
-
-## What’s Next?
-
-👉 **Excel Basics for Automation Testing**

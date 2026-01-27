@@ -135,9 +135,3 @@ A: Cucumber Expressions, unless advanced matching is required.
 - Regex is powerful but risky
 - Prefer simplicity
 - Maintainability matters more than cleverness
-
----
-
-## What’s Next?
-
-👉 **Parameterization & Data Mapping in Step Definitions**

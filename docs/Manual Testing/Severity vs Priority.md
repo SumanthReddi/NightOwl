@@ -109,9 +109,3 @@ A: Severity by QA; priority by business.
 - They are independent
 - Business context matters
 - Clear understanding avoids conflicts
-
----
-
-## What’s Next?
-
-👉 **Test Strategy vs Test Plan**

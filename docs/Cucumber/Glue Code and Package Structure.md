@@ -145,9 +145,3 @@ A: Steps remain undefined.
 - Only steps and hooks belong in glue
 - Clean package structure prevents errors
 - Most undefined-step issues are glue-related
-
----
-
-## What’s Next?
-
-👉 **Shared State & Scenario Context**

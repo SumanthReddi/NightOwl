@@ -129,9 +129,3 @@ A: Only limited smoke testing post-deployment.
 - Production testing is minimal
 - Post-release checks are critical
 - Final quality gate before real users
-
----
-
-## What’s Next?
-
-👉 **Manual Testing in Real Projects**

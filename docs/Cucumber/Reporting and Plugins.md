@@ -174,9 +174,3 @@ A: JSON or JUnit XML.
 - JSON/XML for CI, HTML for humans
 - Multiple plugins can be used together
 - Reports drive visibility and decisions
-
----
-
-## What’s Next?
-
-👉 **Cucumber with TestNG Integration**

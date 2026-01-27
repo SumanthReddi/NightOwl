@@ -161,9 +161,3 @@ A: No, it is a way of executing tests.
 - Non-functional testing validates quality attributes
 - Manual and automation coexist
 - Static testing helps catch issues early
-
----
-
-## What’s Next?
-
-👉 **Levels of Testing**

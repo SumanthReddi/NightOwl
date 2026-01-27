@@ -125,9 +125,3 @@ A: TDD focuses on code; BDD focuses on behavior.
 - Uses examples as specifications
 - Testers play a central role
 - Cucumber enables BDD, but BDD is broader
-
----
-
-## What’s Next?
-
-👉 **Cucumber Architecture Overview**

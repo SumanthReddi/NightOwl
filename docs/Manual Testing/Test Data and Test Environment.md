@@ -174,9 +174,3 @@ A: No, except limited smoke checks post-deployment.
 - Both must be validated before execution
 - Dynamic data is preferred for automation
 - Environment awareness prevents false failures
-
----
-
-## What’s Next?
-
-👉 **Test Execution and Reporting**

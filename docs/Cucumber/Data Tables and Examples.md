@@ -98,9 +98,3 @@ A: Yes, but only when it improves readability.
 - Examples = data-driven execution
 - Choose based on intent, not convenience
 - Readability is the priority in BDD
-
----
-
-## What’s Next?
-
-👉 **Feature File Design from User Stories**

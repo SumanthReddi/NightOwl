@@ -139,9 +139,3 @@ A: No, CI should treat test data as read-only.
 - Excel is not thread-safe
 - Read-only input, separate output
 - CI-safe design prevents flaky builds
-
----
-
-## What’s Next?
-
-👉 **Apache POI Interview Questions**

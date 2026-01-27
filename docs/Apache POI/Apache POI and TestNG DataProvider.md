@@ -164,9 +164,3 @@ A: No, it should be handled by DataProvider utilities.
 - One row equals one execution
 - Clean separation is critical
 - Avoid parallel Excel writes
-
----
-
-## What’s Next?
-
-👉 **Apache POI Utility Class Design**

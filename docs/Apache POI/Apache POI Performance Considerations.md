@@ -147,9 +147,3 @@ A: Read once, cache data, minimize writes.
 - Avoid parallel writes
 - Be CI/CD aware
 - Choose the right data source
-
----
-
-## What’s Next?
-
-👉 **Common Apache POI Errors and Fixes**

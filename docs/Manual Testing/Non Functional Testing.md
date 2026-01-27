@@ -154,9 +154,3 @@ A: Yes, through observation and early escalation.
 - Performance, security, usability matter
 - Early detection saves cost
 - Good testers think beyond functionality
-
----
-
-## What’s Next?
-
-👉 **Test Scenarios**

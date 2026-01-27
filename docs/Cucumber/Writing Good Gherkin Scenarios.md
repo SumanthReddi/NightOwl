@@ -168,9 +168,3 @@ A: No, Gherkin should describe behavior only.
 - Avoid UI & technical language
 - Consistency improves reuse
 - Good Gherkin reduces maintenance
-
----
-
-## What’s Next?
-
-👉 **Background Keyword**

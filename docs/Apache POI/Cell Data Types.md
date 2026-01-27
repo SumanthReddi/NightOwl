@@ -169,9 +169,3 @@ A: By checking cell existence before reading.
 - Type checking prevents runtime errors
 - Consistent Excel design simplifies automation
 - Safe extraction is critical for stable frameworks
-
----
-
-## What’s Next?
-
-👉 **Writing Data to Excel (Concepts)**

@@ -165,9 +165,3 @@ A: Outline controls execution count; parameters pass values.
 - Data Tables handle structured input
 - Keep steps simple and readable
 - Avoid over-engineering
-
----
-
-## What’s Next?
-
-👉 **Glue Code & Package Structure**

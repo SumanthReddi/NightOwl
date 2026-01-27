@@ -114,9 +114,3 @@ A: Strategy is high-level and long-term; plan is detailed and project-specific.
 - Both are important
 - Strategy guides automation
 - Plan controls releases
-
----
-
-## What’s Next?
-
-👉 **Risk-Based Testing**

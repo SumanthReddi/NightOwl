@@ -150,9 +150,3 @@ A: Yes, but with limited execution control.
 - Runner class is the bridge
 - Parallel execution requires careful design
 - Integration is standard in industry frameworks
-
----
-
-## What’s Next?
-
-👉 **Parallel Execution in Cucumber**

@@ -180,9 +180,3 @@ A: No, you must traverse through workbook, sheet, and row.
 - Cell is the lowest-level object
 - Correct traversal prevents failures
 - Hierarchy understanding is critical before coding
-
----
-
-## What’s Next?
-
-👉 **File Handling Basics (FileInputStream & FileOutputStream)**

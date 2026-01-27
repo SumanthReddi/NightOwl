@@ -147,9 +147,3 @@ A: Shared state and lack of isolation.
 - Thread safety is mandatory
 - Avoid step-level parallelism
 - Design determines stability
-
----
-
-## What’s Next?
-
-👉 **Cucumber with Selenium (UI Automation Patterns)**

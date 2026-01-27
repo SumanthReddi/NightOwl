@@ -146,9 +146,3 @@ A: They break scenario isolation and parallel execution.
 - Separation of concerns is critical
 - Fix design issues early
 - Clean frameworks scale better
-
----
-
-## What’s Next?
-
-👉 **Cucumber Interview Questions & Scenarios**

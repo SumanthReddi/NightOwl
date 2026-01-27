@@ -146,9 +146,3 @@ A: No, Excel is not thread-safe.
 - Avoid parallel writes
 - Save workbook only once
 - Safe updates prevent data corruption
-
----
-
-## What’s Next?
-
-👉 **Data-Driven Testing Using Apache POI (Concepts)**

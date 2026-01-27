@@ -188,9 +188,3 @@ A: Severity is impact; priority is urgency.
 - Retesting is mandatory
 - Severity and priority are different
 - Strong defect handling builds credibility
-
----
-
-## What’s Next?
-
-👉 **Severity vs Priority (Deep Dive)**

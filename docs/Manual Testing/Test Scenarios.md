@@ -143,9 +143,3 @@ A: They ensure coverage and guide detailed testing.
 - Scenarios ensure coverage
 - Strong scenarios lead to stable automation
 - Scenario thinking is a senior tester skill
-
----
-
-## What’s Next?
-
-👉 **Test Case Design Techniques**

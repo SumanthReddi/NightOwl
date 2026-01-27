@@ -140,9 +140,3 @@ A: No, they should describe behavior only.
 - One behavior per scenario
 - Avoid technical language
 - Good design improves collaboration
-
----
-
-## What’s Next?
-
-👉 **Step Definition Basics**

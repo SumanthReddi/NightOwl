@@ -163,9 +163,3 @@ A: Data is lost.
 - Rows and cells must exist before writing
 - Careless writing leads to data loss
 - Safe design avoids overwriting input data
-
----
-
-## What’s Next?
-
-👉 **Updating Existing Excel Files**

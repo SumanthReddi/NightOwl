@@ -163,9 +163,3 @@ A: To improve reuse and maintainability.
 - Keep step definitions thin
 - Manage driver via hooks
 - Avoid UI details in Gherkin
-
----
-
-## What’s Next?
-
-👉 **Cucumber with API Automation (Rest Assured Patterns)**

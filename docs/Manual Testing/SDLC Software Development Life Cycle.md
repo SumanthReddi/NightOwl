@@ -194,9 +194,3 @@ A: From the requirement analysis phase.
 - Early testing reduces cost and defects
 - Testing is continuous, not a single step
 - SDLC understanding improves tester effectiveness
-
----
-
-## What’s Next?
-
-👉 **STLC – Software Testing Life Cycle**

@@ -157,9 +157,3 @@ A: To control scope and reduce pipeline time.
 - Separate smoke, API, and UI stages
 - Reports and artifacts are essential
 - Stability matters more than speed
-
----
-
-## What’s Next?
-
-👉 **Common Cucumber Framework Anti-Patterns**

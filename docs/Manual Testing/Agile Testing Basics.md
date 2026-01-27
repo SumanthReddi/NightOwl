@@ -160,8 +160,3 @@ A: Conditions that must be met for a story to be accepted.
 - Acceptance criteria drive testing
 - Collaboration is key
 
----
-
-## What’s Next?
-
-👉 **UAT and Production Testing**

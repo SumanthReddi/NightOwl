@@ -178,9 +178,3 @@ A: It simplifies data-driven execution.
 - One row equals one test case
 - Header row must be skipped
 - Clean Excel design prevents failures
-
----
-
-## What’s Next?
-
-👉 **Excel File Formats (.xls vs .xlsx)**

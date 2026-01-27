@@ -129,9 +129,3 @@ A: No, it should be used only when it improves readability.
 - Examples table drives execution
 - Readability matters more than line reduction
 - Misuse leads to poor BDD design
-
----
-
-## What’s Next?
-
-👉 **Data Tables & Examples**

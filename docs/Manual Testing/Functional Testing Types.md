@@ -179,9 +179,3 @@ A: Regression testing.
 - Regression protects existing features
 - Re-testing validates fixes
 - Exploratory testing finds hidden issues
-
----
-
-## What’s Next?
-
-👉 **Non-Functional Testing (Awareness)**

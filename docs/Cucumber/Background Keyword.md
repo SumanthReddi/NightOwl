@@ -126,9 +126,3 @@ A: No, it should only set up preconditions.
 - Keep it short and simple
 - Do not hide behavior in Background
 - Misuse leads to poor readability
-
----
-
-## What’s Next?
-
-👉 **Scenario vs Scenario Outline**

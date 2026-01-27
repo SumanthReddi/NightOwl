@@ -165,9 +165,3 @@ A: Hooks handle technical setup; Background handles business context.
 - Order matters when multiple hooks exist
 - Prefer hooks for technical setup
 - Overusing hooks leads to complexity
-
----
-
-## What’s Next?
-
-👉 **Dry Run & Undefined Steps**

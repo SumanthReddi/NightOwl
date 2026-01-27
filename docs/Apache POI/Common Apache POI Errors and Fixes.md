@@ -147,9 +147,3 @@ A: By checking cell type before reading.
 - Safe checks prevent crashes
 - Correct API usage matters
 - Good design reduces debugging time
-
----
-
-## What’s Next?
-
-👉 **Apache POI in CI/CD Pipelines**

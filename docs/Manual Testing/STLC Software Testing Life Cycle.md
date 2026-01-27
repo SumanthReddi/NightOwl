@@ -200,9 +200,3 @@ A: It ensures quality, traceability, and controlled testing.
 - Entry & exit criteria control quality
 - Strong STLC leads to predictable testing
 - Essential for real projects and interviews
-
----
-
-## What’s Next?
-
-👉 **Types of Testing**

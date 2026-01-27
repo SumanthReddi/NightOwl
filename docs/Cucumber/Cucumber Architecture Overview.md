@@ -157,9 +157,3 @@ A: No, Selenium code runs inside step definitions.
 - Runner controls execution
 - Hooks manage setup and teardown
 - Automation tools do the real work
-
----
-
-## What’s Next?
-
-👉 **Gherkin Language Basics**

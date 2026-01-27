@@ -176,9 +176,3 @@ A: It contains metadata, not test data.
 - Always check row and cell existence
 - Conceptual clarity prevents runtime errors
 - Safe reading is more important than fast reading
-
----
-
-## What’s Next?
-
-👉 **Cell Data Types and Safe Value Extraction**

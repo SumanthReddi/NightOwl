@@ -156,9 +156,3 @@ A: Only test logic and assertions.
 - Separation of concerns is essential
 - Good design scales frameworks
 - Senior engineers focus on architecture
-
----
-
-## What’s Next?
-
-👉 **Excel Structure Design for Automation Frameworks**

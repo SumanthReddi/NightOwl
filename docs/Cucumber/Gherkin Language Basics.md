@@ -150,9 +150,3 @@ A: To structure scenarios clearly into setup, action, and validation.
 - Given-When-Then defines flow
 - Simplicity is key
 - Avoid technical noise
-
----
-
-## What’s Next?
-
-👉 **Writing Good Gherkin Scenarios**

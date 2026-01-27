@@ -138,9 +138,3 @@ A: To write format-independent code.
 - Workbook interface is preferred
 - Format mismatch causes runtime errors
 - Correct format choice improves stability
-
----
-
-## What’s Next?
-
-👉 **Apache POI Object Hierarchy**

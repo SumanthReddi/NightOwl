@@ -156,9 +156,3 @@ A: A report summarizing testing activities and release readiness.
 - Reporting builds stakeholder confidence
 - Metrics support decisions
 - Clear communication is a tester’s responsibility
-
----
-
-## What’s Next?
-
-👉 **Defect Life Cycle**

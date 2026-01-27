@@ -152,9 +152,3 @@ A: They break scenario isolation.
 - Context objects improve stability
 - Isolation is mandatory
 - Proper design prevents flakiness
-
----
-
-## What’s Next?
-
-👉 **Runner Class & Cucumber Options**

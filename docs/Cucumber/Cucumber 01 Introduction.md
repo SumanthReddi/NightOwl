@@ -136,9 +136,3 @@ A: No, it works on top of Selenium.
 - Improves communication
 - Not a replacement for automation tools
 - Best used with clear requirements
-
----
-
-## What’s Next?
-
-👉 **What is BDD (BDD vs TDD vs ATDD)**  

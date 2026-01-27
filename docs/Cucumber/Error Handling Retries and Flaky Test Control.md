@@ -133,9 +133,3 @@ A: Only for transient, non-deterministic failures.
 - Design for isolation and determinism
 - CI visibility is essential
 - Stable tests build trust
-
----
-
-## What’s Next?
-
-👉 **Cucumber in CI/CD Pipelines**

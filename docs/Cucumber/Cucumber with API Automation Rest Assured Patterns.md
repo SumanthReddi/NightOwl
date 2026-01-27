@@ -171,9 +171,3 @@ A: No, feature files should describe behavior.
 - Centralize API logic
 - Validate outcomes, not internals
 - Design for reuse and CI speed
-
----
-
-## What’s Next?
-
-👉 **Error Handling, Retries & Flaky Test Control**

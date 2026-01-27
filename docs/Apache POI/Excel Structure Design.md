@@ -167,9 +167,3 @@ A: Separate sheets or environment columns.
 - Stable headers and columns are critical
 - Separate input and output data
 - Clean structure reduces maintenance
-
----
-
-## What’s Next?
-
-👉 **Apache POI Performance Considerations**

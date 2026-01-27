@@ -149,9 +149,3 @@ A: To externalize test data in Excel.
 - One row equals one execution
 - Apache POI enables Excel-based data
 - Clean data design is critical
-
----
-
-## What’s Next?
-
-👉 **Apache POI + TestNG DataProvider (Concepts)**

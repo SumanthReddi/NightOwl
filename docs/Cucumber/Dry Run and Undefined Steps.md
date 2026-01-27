@@ -125,9 +125,3 @@ A: No, it only checks step mappings.
 - Helps detect glue issues early
 - Should not be used in CI runs
 - Undefined steps must be fixed immediately
-
----
-
-## What’s Next?
-
-👉 **Reporting & Plugins**

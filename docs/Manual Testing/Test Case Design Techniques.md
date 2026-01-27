@@ -176,9 +176,3 @@ A: Boundary Value Analysis.
 - Decision tables handle complex logic
 - State transitions test behavior over time
 - Strong test cases lead to stable automation
-
----
-
-## What’s Next?
-
-👉 **Test Data and Test Environment**

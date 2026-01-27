@@ -180,9 +180,3 @@ A: Ask questions, discuss with stakeholders, and document assumptions.
 - Early involvement reduces defects
 - Strong analysis leads to strong automation
 - Tools cannot compensate for weak understanding
-
----
-
-## What’s Next?
-
-👉 **SDLC (Software Development Life Cycle)**

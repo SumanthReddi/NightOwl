@@ -143,9 +143,3 @@ A: High-risk, repetitive regression tests.
 - Manual testing builds automation foundation
 - Smart selection matters
 - Balanced strategy ensures quality
-
----
-
-## What’s Next?
-
-👉 **Manual Testing Interview Questions**

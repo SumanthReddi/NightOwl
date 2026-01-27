@@ -151,9 +151,3 @@ A: It ensures critical areas are tested first under limited time.
 - Business impact matters
 - Guides automation decisions
 - Essential for real projects
-
----
-
-## What’s Next?
-
-👉 **Agile Testing Basics**

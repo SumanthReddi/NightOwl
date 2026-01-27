@@ -146,9 +146,3 @@ A: Yes, but they should remain minimal and focused.
 - One action per step
 - Avoid duplication
 - Clean steps lead to maintainable frameworks
-
----
-
-## What’s Next?
-
-👉 **Cucumber Expressions vs Regular Expressions**
