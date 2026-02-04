@@ -114,115 +114,103 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '03f'),
+    component: ComponentCreator('/docs', '5a5'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '4cd'),
+        component: ComponentCreator('/docs', '3f8'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '3f9'),
+            component: ComponentCreator('/docs', 'c5b'),
             routes: [
               {
-                path: '/docs/Apache POI/Apache POI and TestNG DataProvider',
-                component: ComponentCreator('/docs/Apache POI/Apache POI and TestNG DataProvider', '6c6'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook', 'beb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Apache POI in CI CD Pipelines',
-                component: ComponentCreator('/docs/Apache POI/Apache POI in CI CD Pipelines', '7c2'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet', '8fa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Apache POI Interview Questions',
-                component: ComponentCreator('/docs/Apache POI/Apache POI Interview Questions', '38b'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_03_Row',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_03_Row', '52a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Apache POI Object Hierarchy',
-                component: ComponentCreator('/docs/Apache POI/Apache POI Object Hierarchy', '2cb'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_04_Cell',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_04_Cell', '8d0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Apache POI Performance Considerations',
-                component: ComponentCreator('/docs/Apache POI/Apache POI Performance Considerations', '0ba'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing', 'c51'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Apache POI Utility Class Design',
-                component: ComponentCreator('/docs/Apache POI/Apache POI Utility Class Design', 'ee4'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy', 'a61'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Cell Data Types',
-                component: ComponentCreator('/docs/Apache POI/Cell Data Types', 'b4a'),
+                path: '/docs/Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated',
+                component: ComponentCreator('/docs/Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated', 'e61'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Common Apache POI Errors and Fixes',
-                component: ComponentCreator('/docs/Apache POI/Common Apache POI Errors and Fixes', '1d9'),
+                path: '/docs/Apache POI/Phase_10_Performance_Large_Files_and_SXSSF',
+                component: ComponentCreator('/docs/Apache POI/Phase_10_Performance_Large_Files_and_SXSSF', '1b9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Data Driven Testing Using Apache POI',
-                component: ComponentCreator('/docs/Apache POI/Data Driven Testing Using Apache POI', '8c4'),
+                path: '/docs/Apache POI/Phase_3_Project_Setup_and_Maven_POI',
+                component: ComponentCreator('/docs/Apache POI/Phase_3_Project_Setup_and_Maven_POI', 'd56'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Excel Basics for Automation Testing',
-                component: ComponentCreator('/docs/Apache POI/Excel Basics for Automation Testing', '4cc'),
+                path: '/docs/Apache POI/Phase_4_Reading_Excel_for_Selenium',
+                component: ComponentCreator('/docs/Apache POI/Phase_4_Reading_Excel_for_Selenium', '56b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Excel File Formats',
-                component: ComponentCreator('/docs/Apache POI/Excel File Formats', '24c'),
+                path: '/docs/Apache POI/Phase_5_Cell_Types_and_Data_Stability',
+                component: ComponentCreator('/docs/Apache POI/Phase_5_Cell_Types_and_Data_Stability', '63c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Excel Structure Design',
-                component: ComponentCreator('/docs/Apache POI/Excel Structure Design', 'e0f'),
+                path: '/docs/Apache POI/Phase_6_Data_Driven_Automation_Patterns',
+                component: ComponentCreator('/docs/Apache POI/Phase_6_Data_Driven_Automation_Patterns', '022'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/File Handling Basics',
-                component: ComponentCreator('/docs/Apache POI/File Handling Basics', '8f9'),
+                path: '/docs/Apache POI/Phase_7_Writing_Results_Back_to_Excel',
+                component: ComponentCreator('/docs/Apache POI/Phase_7_Writing_Results_Back_to_Excel', '305'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Introduction to Apache POI',
-                component: ComponentCreator('/docs/Apache POI/Introduction to Apache POI', '120'),
+                path: '/docs/Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control',
+                component: ComponentCreator('/docs/Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control', '324'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Reading Excel Data',
-                component: ComponentCreator('/docs/Apache POI/Reading Excel Data', 'eaa'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Apache POI/Updating Existing Excel Files',
-                component: ComponentCreator('/docs/Apache POI/Updating Existing Excel Files', 'dba'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Apache POI/Writing Data to Excel',
-                component: ComponentCreator('/docs/Apache POI/Writing Data to Excel', '249'),
+                path: '/docs/Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting',
+                component: ComponentCreator('/docs/Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting', '03e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -367,6 +355,12 @@ export default [
               {
                 path: '/docs/category/controller-operations--maintenance',
                 component: ComponentCreator('/docs/category/controller-operations--maintenance', '9e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/core-apache-poi-object-model',
+                component: ComponentCreator('/docs/category/core-apache-poi-object-model', '441'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1883,8 +1877,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Profiles',
-                component: ComponentCreator('/docs/Maven/Profiles', '6e9'),
+                path: '/docs/Maven/profiles',
+                component: ComponentCreator('/docs/Maven/profiles', 'e8b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

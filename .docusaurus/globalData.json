@@ -11,88 +11,78 @@
           "mainDocId": "congratulations",
           "docs": [
             {
-              "id": "Apache POI/Apache POI and TestNG DataProvider",
-              "path": "/docs/Apache POI/Apache POI and TestNG DataProvider",
+              "id": "Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Apache POI in CI CD Pipelines",
-              "path": "/docs/Apache POI/Apache POI in CI CD Pipelines",
+              "id": "Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Apache POI Interview Questions",
-              "path": "/docs/Apache POI/Apache POI Interview Questions",
+              "id": "Apache POI/Core Apache POI Object Model/Phase_2_03_Row",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_03_Row",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Apache POI Object Hierarchy",
-              "path": "/docs/Apache POI/Apache POI Object Hierarchy",
+              "id": "Apache POI/Core Apache POI Object Model/Phase_2_04_Cell",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_04_Cell",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Apache POI Performance Considerations",
-              "path": "/docs/Apache POI/Apache POI Performance Considerations",
+              "id": "Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Apache POI Utility Class Design",
-              "path": "/docs/Apache POI/Apache POI Utility Class Design",
+              "id": "Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Cell Data Types",
-              "path": "/docs/Apache POI/Cell Data Types",
+              "id": "Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated",
+              "path": "/docs/Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Common Apache POI Errors and Fixes",
-              "path": "/docs/Apache POI/Common Apache POI Errors and Fixes",
+              "id": "Apache POI/Phase_10_Performance_Large_Files_and_SXSSF",
+              "path": "/docs/Apache POI/Phase_10_Performance_Large_Files_and_SXSSF",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Data Driven Testing Using Apache POI",
-              "path": "/docs/Apache POI/Data Driven Testing Using Apache POI",
+              "id": "Apache POI/Phase_3_Project_Setup_and_Maven_POI",
+              "path": "/docs/Apache POI/Phase_3_Project_Setup_and_Maven_POI",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Excel Basics for Automation Testing",
-              "path": "/docs/Apache POI/Excel Basics for Automation Testing",
+              "id": "Apache POI/Phase_4_Reading_Excel_for_Selenium",
+              "path": "/docs/Apache POI/Phase_4_Reading_Excel_for_Selenium",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Excel File Formats",
-              "path": "/docs/Apache POI/Excel File Formats",
+              "id": "Apache POI/Phase_5_Cell_Types_and_Data_Stability",
+              "path": "/docs/Apache POI/Phase_5_Cell_Types_and_Data_Stability",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Excel Structure Design",
-              "path": "/docs/Apache POI/Excel Structure Design",
+              "id": "Apache POI/Phase_6_Data_Driven_Automation_Patterns",
+              "path": "/docs/Apache POI/Phase_6_Data_Driven_Automation_Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/File Handling Basics",
-              "path": "/docs/Apache POI/File Handling Basics",
+              "id": "Apache POI/Phase_7_Writing_Results_Back_to_Excel",
+              "path": "/docs/Apache POI/Phase_7_Writing_Results_Back_to_Excel",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Introduction to Apache POI",
-              "path": "/docs/Apache POI/Introduction to Apache POI",
+              "id": "Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control",
+              "path": "/docs/Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Reading Excel Data",
-              "path": "/docs/Apache POI/Reading Excel Data",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Apache POI/Updating Existing Excel Files",
-              "path": "/docs/Apache POI/Updating Existing Excel Files",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Apache POI/Writing Data to Excel",
-              "path": "/docs/Apache POI/Writing Data to Excel",
+              "id": "Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting",
+              "path": "/docs/Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1226,8 +1216,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Profiles",
-              "path": "/docs/Maven/Profiles",
+              "id": "Maven/profiles",
+              "path": "/docs/Maven/profiles",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2213,6 +2203,11 @@
             {
               "id": "/category/apache-poi",
               "path": "/docs/category/apache-poi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/core-apache-poi-object-model",
+              "path": "/docs/category/core-apache-poi-object-model",
               "sidebar": "tutorialSidebar"
             },
             {

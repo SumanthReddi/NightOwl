@@ -2,55 +2,48 @@
 sidebar_position: 9
 ---
 
-## Maven Profiles – Deep Dive (Environment‑Based Execution)
-
-In real automation projects, tests must run against **multiple environments**  
-(dev, uat, staging, prod) **without changing code**.
-
-**Maven Profiles** solve this problem cleanly.
-
-For automation testing engineers, profiles are the **bridge between code and environments**, especially in CI/CD pipelines.
-
----
+# Maven Profiles
 
 ## What is a Maven Profile?
 
 A **Maven profile** is a named configuration that:
 - Activates conditionally
 - Overrides properties, dependencies, or plugins
-- Changes build behavior per environment
+- Alters build behavior **without changing code**
 
-Think of a profile as an **environment switch**.
+Profiles act as **build‑time switches**.
 
 ---
 
-## Why Profiles Are Critical in Automation
+## Why Profiles Are Critical (Automation Perspective)
+
+Profiles are the **bridge between test code and CI pipelines**.
 
 Without profiles:
-- URLs are hardcoded
-- Environment logic leaks into test code
-- CI pipelines become messy
-- Mistakes happen in prod runs
+- URLs get hardcoded
+- Pipelines contain logic
+- Environment mistakes happen
+- Builds become fragile
 
 With profiles:
 - Same codebase
-- Different environments
-- Clean separation of concerns
+- Environment isolation
+- Execution intent is explicit
+- CI runs are predictable
 
 ---
 
-## Common Automation Use Cases for Profiles
+# PART 1: Environment‑Based Profiles
 
-Profiles are commonly used to control:
-- Environment URLs (dev / uat / prod)
-- Browser type
-- Execution flags
-- Reporting behavior
-- Feature toggles
+## Typical Environments
+- dev
+- uat
+- staging
+- prod
 
 ---
 
-## Basic Profile Definition
+## Basic Environment Profile
 
 ```xml
 <profiles>
@@ -64,14 +57,14 @@ Profiles are commonly used to control:
 </profiles>
 ```
 
-Activate with:
+Run:
 ```bash
 mvn test -Puat
 ```
 
 ---
 
-## Multiple Environment Profiles (Real Project)
+## Multiple Environment Profiles (Real Setup)
 
 ```xml
 <profiles>
@@ -105,28 +98,16 @@ mvn test -Puat
 
 ---
 
-## Accessing Profile Properties in Tests
-
-### Via TestNG Parameters
+## Accessing Profile Properties in Code
 
 ```java
-@Parameters("env")
-public void setup(String env) {
-    System.out.println(env);
-}
-```
-
-### Via System Properties
-
-```java
+String env = System.getProperty("env");
 String baseUrl = System.getProperty("base.url");
 ```
 
-Maven automatically exposes profile properties as **system properties**.
-
 ---
 
-## Profiles + Surefire Plugin
+## Profiles + Surefire Plugin (Mandatory Wiring)
 
 ```xml
 <plugin>
@@ -141,13 +122,9 @@ Maven automatically exposes profile properties as **system properties**.
 </plugin>
 ```
 
-This ensures:
-- Profile values reach TestNG
-- No hardcoding in code
-
 ---
 
-## Default Profile
+## Default Profile (activeByDefault)
 
 ```xml
 <profile>
@@ -161,82 +138,191 @@ This ensures:
 </profile>
 ```
 
-Used when **no `-P` is specified**.
+### Important Notes
+- Applied only when **no `-P` is specified**
+- Dangerous in CI if misused
+- Acceptable only for local dev
 
 ---
 
-## Profile Activation Methods
+# PART 2: Execution‑Based Profiles (Smoke / Regression / Sanity)
 
-| Method | Example |
-|-----|-------|
-| Command line | `mvn test -Puat` |
-| Default | `activeByDefault=true` |
-| Property | Activate if property exists |
-| OS | Activate per OS |
-
-Command line activation is **most common in CI**.
+Execution profiles define **WHAT tests run**, not **WHERE they run**.
 
 ---
 
-## Profiles in CI/CD Pipelines
+## Why Execution Profiles Matter
 
-### Jenkins Example
+Without them:
+- Pipelines grow complex
+- Test intent is unclear
+- Execution becomes inconsistent
+
+With them:
+- One command = one intent
+- CI jobs stay clean
+- Builds are self‑documenting
+
+---
+
+## TestNG Group‑Based Execution
+
+```java
+@Test(groups = {"smoke"})
+public void loginSmokeTest() {}
+
+@Test(groups = {"regression"})
+public void checkoutRegressionTest() {}
+```
+
+---
+
+## Execution Profiles Definition
+
+```xml
+<profiles>
+
+    <profile>
+        <id>smoke</id>
+        <properties>
+            <groups>smoke</groups>
+        </properties>
+    </profile>
+
+    <profile>
+        <id>regression</id>
+        <properties>
+            <groups>regression</groups>
+        </properties>
+    </profile>
+
+    <profile>
+        <id>sanity</id>
+        <properties>
+            <groups>sanity</groups>
+        </properties>
+    </profile>
+
+</profiles>
+```
+
+---
+
+## Surefire Binding
+
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <configuration>
+        <groups>${groups}</groups>
+    </configuration>
+</plugin>
+```
+
+---
+
+## Run Commands
 
 ```bash
-mvn clean test -Puat
+mvn test -Psmoke
+mvn test -Pregression
+mvn test -Psanity
 ```
-
-### GitLab CI Example
-
-```yaml
-script:
-  - mvn clean test -Puat
-```
-
-Profiles make pipelines:
-- Predictable
-- Safe
-- Environment‑aware
 
 ---
 
-## Profiles vs TestNG XML Parameters
+## Combine Environment + Execution Profiles (Enterprise Pattern)
 
-| Profiles | TestNG XML |
-|-------|-----------|
-| Environment config | Test execution config |
-| Maven‑level | Test‑level |
-| CI‑friendly | Test‑focused |
-| Recommended for env | Not recommended for env |
+```bash
+mvn clean test -Puat,smoke
+```
 
-➡️ **Use profiles for environments, XML for execution logic**
+Meaning:
+- `uat` → environment
+- `smoke` → execution intent
+
+---
+
+# PART 3: Profile Activation Methods (COMPLETE)
+
+## 1. Command Line (Most Common)
+
+```bash
+mvn test -Puat
+```
+
+## 2. Default Activation
+
+```xml
+<activeByDefault>true</activeByDefault>
+```
+
+## 3. Property‑Based Activation
+
+```xml
+<activation>
+    <property>
+        <name>env</name>
+    </property>
+</activation>
+```
+
+Activated when:
+```bash
+mvn test -Denv=uat
+```
+
+## 4. OS‑Based Activation
+
+```xml
+<activation>
+    <os>
+        <family>Windows</family>
+    </os>
+</activation>
+```
+
+Rare but supported.
+
+---
+
+# PART 4: Profiles vs TestNG XML (Clear Separation)
+
+| Aspect | Maven Profiles | TestNG XML |
+|-----|-----|-----|
+| Environment config | Yes | No |
+| Execution intent | Yes | Partial |
+| CI friendly | High | Medium |
+| Recommended usage | Build level | Test structure |
+
+➡ **Profiles = build intent**  
+➡ **XML = test organization**
 
 ---
 
 ## Common Mistakes
 
-- Hardcoding URLs in code
-- Too many profiles with same logic
-- Mixing environment logic in TestNG XML
-- Forgetting default profile
-- Overusing profiles for simple flags
+- Mixing env + execution in same profile
+- Hardcoding groups in Surefire
+- Overusing default profile
+- Encoding logic inside pipelines
 
 ---
 
-## Best Practices
+## Best Practices (Industry‑Grade)
 
-- Use profiles only for environment differences
-- Keep property names consistent
-- Combine profiles with TestNG XML cleanly
-- Use one profile per environment
-- Always document profiles
+- One profile per environment
+- One profile per execution type
+- Use semantic names
+- Combine profiles via CLI
+- Always document profile behavior
 
 ---
 
 ## Key Takeaways
 
-- Maven profiles enable environment‑based execution
-- Same code, multiple environments
+- Profiles are not just for environments
+- They are execution switches
 - Essential for CI/CD automation
-- Profiles + Surefire = clean design
-- Mandatory skill for automation engineers
+- Mandatory Maven skill for test engineers
