@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+title: JSON Fundamentals for API Testing
 ---
 
 ## JSON Fundamentals for API Testing

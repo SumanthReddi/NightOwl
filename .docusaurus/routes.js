@@ -114,16 +114,22 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5a5'),
+    component: ComponentCreator('/docs', 'c7c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3f8'),
+        component: ComponentCreator('/docs', '8cc'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c5b'),
+            component: ComponentCreator('/docs', 'd85'),
             routes: [
+              {
+                path: '/docs/Agile/',
+                component: ComponentCreator('/docs/Agile/', 'fc0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook',
                 component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook', 'beb'),
@@ -319,6 +325,12 @@ export default [
               {
                 path: '/docs/category/agents--scaling',
                 component: ComponentCreator('/docs/category/agents--scaling', 'c63'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/agile',
+                component: ComponentCreator('/docs/category/agile', '1ba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

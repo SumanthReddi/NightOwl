@@ -11,6 +11,11 @@
           "mainDocId": "congratulations",
           "docs": [
             {
+              "id": "Agile/Agile",
+              "path": "/docs/Agile/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook",
               "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook",
               "sidebar": "tutorialSidebar"
@@ -2238,6 +2243,11 @@
             {
               "id": "/category/robot-framework",
               "path": "/docs/category/robot-framework",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/agile",
+              "path": "/docs/category/agile",
               "sidebar": "tutorialSidebar"
             },
             {
