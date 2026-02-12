@@ -16,5 +16,9 @@
   "previous": {
     "title": "Congratulations!",
     "permalink": "/docs/Docusaurus/congratulations"
+  },
+  "next": {
+    "title": "Vercel",
+    "permalink": "/docs/category/vercel"
   }
 }

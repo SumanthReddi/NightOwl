@@ -1221,8 +1221,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/profiles",
-              "path": "/docs/Maven/profiles",
+              "id": "Maven/Profiles",
+              "path": "/docs/Maven/Profiles",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2066,13 +2066,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/TestNG XML",
-              "path": "/docs/TestNG/TestNG XML",
+              "id": "TestNG/Testng XML",
+              "path": "/docs/TestNG/Testng XML",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "TestNG/Why TestNG",
               "path": "/docs/TestNG/Why TestNG",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vercel/web-analytics-getting-started",
+              "path": "/docs/Vercel/web-analytics-getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2333,6 +2338,11 @@
             {
               "id": "/category/docusaurus-",
               "path": "/docs/category/docusaurus-",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/vercel",
+              "path": "/docs/category/vercel",
               "sidebar": "tutorialSidebar"
             }
           ],
