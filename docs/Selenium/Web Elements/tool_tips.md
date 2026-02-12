@@ -152,5 +152,5 @@ Tooltips are often missed in automation but frequently tested in accessibility a
 - Explicit waits improve stability
 - Content validation is essential
 
-Selenium 4 compliant • Real-project ready • Interview safe
+ 
 

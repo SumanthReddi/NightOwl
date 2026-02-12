@@ -183,6 +183,3 @@ Always assert application state **after** alert handling — alerts often trigge
 - Switch context before interacting
 - Explicit waits are mandatory
 - OS popups require alternative strategies
-
-Selenium 4 compliant • Production safe • Interview ready
-

@@ -171,6 +171,3 @@ If your test classes are long and complex, responsibilities are likely not separ
 - Tests handle validation
 - Clear separation improves scalability
 - Mandatory for enterprise frameworks
-
-Selenium 4 compliant • Enterprise-grade • Interview ready
-

@@ -142,5 +142,3 @@ Most flaky tests are fixed **not by changing locators**, but by applying the cor
 - Selenium is fast
 - Waits bridge the gap
 - Correct waits = stable automation
-
-Selenium 4 compliant • Real-project focused • Interview ready

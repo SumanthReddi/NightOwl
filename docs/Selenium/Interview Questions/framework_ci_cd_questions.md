@@ -143,5 +143,3 @@ By analyzing consistency, logs, screenshots, and manual reproduction.
 - Selenium must be CI-aware
 - Parallel execution exposes weaknesses
 - Mature answers focus on design, not hacks
-
-Selenium 4 compliant • CI/CD ready • Interview safe

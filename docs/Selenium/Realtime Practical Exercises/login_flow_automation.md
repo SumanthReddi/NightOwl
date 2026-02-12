@@ -171,5 +171,5 @@ If login fails, fail fast — do not let downstream tests run.
 - POM design is mandatory
 - Both success and failure paths must be tested
 
-Selenium 4 compliant • Real-project ready • Interview safe
+ 
 

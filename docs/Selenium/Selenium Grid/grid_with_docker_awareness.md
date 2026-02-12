@@ -127,5 +127,3 @@ If your team spends more time maintaining Docker than writing tests, Docker is b
 - Best suited for CI/CD
 - Awareness-level knowledge is sufficient
 - Test quality still matters most
-
-Selenium 4 compliant • CI-aware • Interview safe

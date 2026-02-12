@@ -183,5 +183,3 @@ If a flaky test is ignored long enough, it becomes a **permanent blind spot** in
 - Most causes are preventable
 - Fix design, not symptoms
 - Stable tests come from disciplined practices
-
-Selenium 4 compliant • CI-aware • Interview ready

@@ -131,5 +131,3 @@ If authentication popups exist, it’s usually a **design issue**, not an automa
 - URL-based authentication is the safest workaround
 - Avoid OS-level automation tools
 - Design apps to be automation-friendly
-
-Selenium 4 compliant • Enterprise-aware • Interview ready

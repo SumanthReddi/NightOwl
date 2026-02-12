@@ -135,5 +135,3 @@ Focus is on **UI automation**, not API, DB, TestNG, or framework tools.
 - Selenium 4 knowledge is expected
 - UI stability and waits are critical
 - Clear explanations matter
-
-Selenium 4 compliant • Interview ready • Real-project focused

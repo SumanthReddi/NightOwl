@@ -164,5 +164,3 @@ If adding a new test feels hard, your framework design likely needs refactoring.
 - Explicit waits are mandatory
 - Simplicity beats cleverness
 - Best practices prevent flaky automation
-
-Selenium 4 compliant • Enterprise-grade • Interview ready

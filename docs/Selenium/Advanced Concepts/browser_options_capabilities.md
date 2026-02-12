@@ -169,4 +169,3 @@ Most CI failures are solved by fixing **browser options**, not test logic.
 
 - Options control browser behavior
 - Selenium 4 unifies Options & Capabilities
-- He

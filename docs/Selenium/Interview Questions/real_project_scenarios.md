@@ -166,6 +166,3 @@ All scenarios are Selenium **4+**, UI-only, and framework-agnostic.
 - Selenium failures are usually predictable
 - Correct thinking prevents flaky automation
 - Interviews test problem-solving ability
-
-Selenium 4 compliant • Enterprise-ready • Interview focused
-

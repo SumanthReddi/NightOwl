@@ -148,6 +148,3 @@ If UI changes break **many tests**, your POM is likely not implemented correctly
 - Improves maintainability and scalability
 - Mandatory for enterprise frameworks
 - Interview-critical concept
-
-Selenium 4 compliant • Enterprise standard • Interview ready
-

@@ -159,6 +159,3 @@ If tests hang at session creation, check **capabilities mismatch** or **node ava
 - Requests flow through internal services
 - Nodes execute browser sessions
 - Architecture knowledge aids debugging
-
-Selenium 4 compliant • CI-ready • Interview safe
-

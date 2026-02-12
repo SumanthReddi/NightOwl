@@ -141,6 +141,3 @@ If stale exceptions occur frequently, your UI is re-rendering aggressively — a
 - Caused by DOM replacement
 - Re-locate elements correctly
 - Avoid static waits and caching
-
-Selenium 4 compliant • SPA-aware • Interview ready
-

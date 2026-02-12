@@ -156,6 +156,3 @@ If tests fail only on Grid, the issue is usually **test design or environment as
 - Improves scalability, not test logic
 - Essential for CI/CD
 - Requires stable, parallel-safe tests
-
-Selenium 4 compliant • CI-ready • Interview safe
-

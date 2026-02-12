@@ -156,6 +156,3 @@ If a fix is not explainable, it’s probably wrong.
 - Understand failure type first
 - Fix root cause, not symptoms
 - Strong debugging skills reduce flaky tests
-
-Selenium 4 compliant • Enterprise-ready • Interview safe
-

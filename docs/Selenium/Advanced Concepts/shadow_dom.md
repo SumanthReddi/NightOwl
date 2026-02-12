@@ -160,6 +160,3 @@ If Shadow DOM is used heavily, automation strategy must be discussed **during UI
 - Selenium 4 supports open shadow roots
 - Closed Shadow DOM is not automatable
 - Proper handling prevents flaky failures
-
-Selenium 4 compliant • Modern UI aware • Interview ready
-

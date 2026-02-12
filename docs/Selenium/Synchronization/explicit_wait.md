@@ -168,5 +168,3 @@ Most flaky tests stabilize immediately when the **correct explicit wait conditio
 - Use correct ExpectedCondition
 - Avoid mixing with implicit waits
 - Essential for stable automation
-
-Selenium 4 compliant • Enterprise standard • Interview r

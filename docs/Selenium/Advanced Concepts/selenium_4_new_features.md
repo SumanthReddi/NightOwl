@@ -180,5 +180,3 @@ Selenium 4 improves stability—but only if your **framework design and waits ar
 - Adds powerful UI-focused features
 - Removes legacy APIs
 - Essential for enterprise automation
-
-Selenium 4 compliant • Modern UI ready • Interview safe

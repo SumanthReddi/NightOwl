@@ -160,5 +160,3 @@ If Grid failures spike under load, reduce parallelism before blaming Selenium.
 - Nodes execute browser sessions
 - Capability matching is key
 - Proper limits prevent Grid instability
-
-Selenium 4 compliant • Grid-ready • Interview safe

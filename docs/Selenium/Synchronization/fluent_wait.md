@@ -144,5 +144,3 @@ If Fluent wait is required frequently, it usually indicates **UI instability or 
 - Supports polling & exception handling
 - Use only when necessary
 - Powerful but easy to misuse
-
-Selenium 4 compliant • Advanced usage • Interview ready

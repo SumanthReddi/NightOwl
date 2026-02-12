@@ -146,5 +146,3 @@ Most teams enforce **code review rules** to block `Thread.sleep()` usage in auto
 - Causes flaky and slow tests
 - Always replace with waits
 - Zero tolerance in production frameworks
-
-Selenium 4 compliant • Enterprise rule • Interview ready

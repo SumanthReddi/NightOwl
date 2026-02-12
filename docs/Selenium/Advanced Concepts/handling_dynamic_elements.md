@@ -165,6 +165,3 @@ If a test fails only in CI and not locally, it’s almost always a **dynamic tim
 - Correct waits solve most issues
 - Element re-location is critical
 - Avoid static waits
-
-Selenium 4 compliant • Real-project focused • Interview ready
-

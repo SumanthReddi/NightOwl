@@ -88,6 +88,3 @@ If AutoIt is present in your project:
 - Not part of modern Selenium
 - Avoid in new frameworks
 - Mention only in interviews or legacy contexts
-
-Selenium 4 aligned • Enterprise guidance • Interview-safe
-

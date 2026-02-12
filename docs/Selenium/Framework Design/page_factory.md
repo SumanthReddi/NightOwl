@@ -170,5 +170,3 @@ Many mature frameworks **start with PageFactory and later migrate back to classi
 - Does not handle waits
 - Optional in modern frameworks
 - Use based on project needs
-
-Selenium 4 compliant • Enterprise-aware • Interview ready

@@ -176,6 +176,3 @@ If your framework suppresses exceptions, you will never fix flaky tests.
 - Each exception has a specific fix
 - Sleeps and retries are not solutions
 - Understanding exceptions improves stability
-
-Selenium 4 compliant • Real-project focused • Interview ready
-

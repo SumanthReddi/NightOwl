@@ -172,6 +172,3 @@ Most teams **start with Cloud and later add Grid** only if required.
 - Cloud = speed + convenience
 - Choice depends on context
 - Test stability matters more than platform
-
-Selenium 4 compliant • CI-aware • Interview ready
-

@@ -140,5 +140,3 @@ Most modern frameworks **avoid implicit waits completely** and rely only on expl
 - Waits only for presence
 - Not suitable for dynamic apps
 - Explicit waits are safer
-
-Selenium 4 compliant • Enterprise-aware • Interview ready
