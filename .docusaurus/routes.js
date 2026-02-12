@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'b2f'),
     exact: true
@@ -114,15 +79,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c7c'),
+    component: ComponentCreator('/docs', '5ea'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '8cc'),
+        component: ComponentCreator('/docs', '9a9'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'd85'),
+            component: ComponentCreator('/docs', '0f8'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -619,6 +584,12 @@ export default [
               {
                 path: '/docs/category/testng',
                 component: ComponentCreator('/docs/category/testng', '97c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/vercel',
+                component: ComponentCreator('/docs/category/vercel', '9df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1889,8 +1860,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/profiles',
-                component: ComponentCreator('/docs/Maven/profiles', 'e8b'),
+                path: '/docs/Maven/Profiles',
+                component: ComponentCreator('/docs/Maven/Profiles', '6e9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2903,14 +2874,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/TestNG XML',
-                component: ComponentCreator('/docs/TestNG/TestNG XML', 'f10'),
+                path: '/docs/TestNG/Testng XML',
+                component: ComponentCreator('/docs/TestNG/Testng XML', '9a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/TestNG/Why TestNG',
                 component: ComponentCreator('/docs/TestNG/Why TestNG', '1d1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Vercel/web-analytics-getting-started',
+                component: ComponentCreator('/docs/Vercel/web-analytics-getting-started', '45f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
