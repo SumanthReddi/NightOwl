@@ -3,7 +3,7 @@ sidebar_position: 9
 title: String Performance in Loops
 ---
 
-# String Performance in Loops -- Deep Performance Analysis
+## String Performance in Loops -- Deep Performance Analysis
 
 This document explains:
 
@@ -299,7 +299,3 @@ You should now clearly understand:
 ✓ JVM optimization limits\
 ✓ Real-world consequences\
 ✓ Automation best practices
-
-Next file:
-
-compile-vs-runtime-concatenation.md

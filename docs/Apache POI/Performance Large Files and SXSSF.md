@@ -182,4 +182,4 @@ After completing this phase, you should:
 - design Excel usage that scales safely
 - avoid CI failures caused by Excel misuse
 
-This completes the **core Apache POI roadmap for Selenium automation**.
+This completes the **core Apache POI for Selenium automation**.

@@ -3,7 +3,7 @@ sidebar_position: 4
 title: equals() vs == in String 
 ---
 
-# equals() vs == in String -- Complete Deep Dive
+## equals() vs == in String -- Complete Deep Dive
 
 This topic is one of the most frequently asked interview questions.
 
@@ -247,7 +247,3 @@ You should now clearly understand:
 ✓ Null-safe comparison pattern\
 ✓ Performance impact\
 ✓ Automation implications
-
-Next file:
-
-string-methods.md

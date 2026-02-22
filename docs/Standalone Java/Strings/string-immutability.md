@@ -3,7 +3,7 @@ sidebar_position: 2
 title: String Immutability 
 ---
 
-# String Immutability -- Complete Deep Dive
+## String Immutability -- Complete Deep Dive
 
 Immutability is the most important property of String.
 
@@ -327,7 +327,3 @@ You should now understand:
 ✓ Security reasoning\
 ✓ Performance impact\
 ✓ How to design immutable class
-
-Next file:
-
-string-pool.md

@@ -1,13 +1,9 @@
 ---
 sidebar_position: 7
+title: Composition vs Inheritance
 ---
 
-# Composition vs Inheritance in Java (HAS-A vs IS-A)
-
-## Priority
-CORE_JAVA_OOP
-
----
+## Composition vs Inheritance in Java (HAS-A vs IS-A)
 
 ## Why This File Exists
 Inheritance is often overused when **composition is the better choice**.

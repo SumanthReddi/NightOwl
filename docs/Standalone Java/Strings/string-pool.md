@@ -3,7 +3,7 @@ sidebar_position: 3
 title: String Constant Pool
 ---
 
-# String Constant Pool -- Complete Architect-Level Deep Dive
+## String Constant Pool -- Complete Architect-Level Deep Dive
 
 This document explains:
 
@@ -118,6 +118,7 @@ Two separate objects.
 ------------------------------------------------------------------------
 
 # 7️⃣ intern() Deep Mechanics
+It is used to take a copy of a string present in Non Contant Pool & shift it to Constant Pool.
 
 Example:
 
@@ -266,7 +267,3 @@ You should understand:
 ✓ GC behavior of pool\
 ✓ Compile-time optimization\
 ✓ Performance implications
-
-Next file:
-
-equals-vs-double-equals.md

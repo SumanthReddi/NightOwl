@@ -203,7 +203,3 @@ After completing this phase, you should:
 - handle reruns and retries cleanly
 - avoid corrupting shared test data
 - design predictable execution control
-
-You are now ready for:
-
-**Phase 9: Excel-Based Reporting & Formatting**

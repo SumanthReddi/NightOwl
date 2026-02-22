@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '02c'),
+    component: ComponentCreator('/docs', 'ee4'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '938'),
+        component: ComponentCreator('/docs', '3e6'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f64'),
+            component: ComponentCreator('/docs', 'f5a'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -365,8 +365,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/best_practices',
-                component: ComponentCreator('/docs/category/best_practices', '4e4'),
+                path: '/docs/category/best-practices',
+                component: ComponentCreator('/docs/category/best-practices', '1ba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -497,12 +497,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/interview_questions',
-                component: ComponentCreator('/docs/category/interview_questions', '171'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/interview--real-world-scenarios',
                 component: ComponentCreator('/docs/category/interview--real-world-scenarios', 'e4a'),
                 exact: true,
@@ -511,6 +505,12 @@ export default [
               {
                 path: '/docs/category/interview-questions',
                 component: ComponentCreator('/docs/category/interview-questions', 'abe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/interview-questions-1',
+                component: ComponentCreator('/docs/category/interview-questions-1', '17e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -563,8 +563,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/jvm_internals',
-                component: ComponentCreator('/docs/category/jvm_internals', '73e'),
+                path: '/docs/category/jvm-internals',
+                component: ComponentCreator('/docs/category/jvm-internals', '646'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -743,12 +743,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Cucumber 01 Introduction',
-                component: ComponentCreator('/docs/Cucumber/Cucumber 01 Introduction', '1dc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Cucumber/Cucumber Architecture Overview',
                 component: ComponentCreator('/docs/Cucumber/Cucumber Architecture Overview', '225'),
                 exact: true,
@@ -763,12 +757,6 @@ export default [
               {
                 path: '/docs/Cucumber/Cucumber in CI CD Pipelines',
                 component: ComponentCreator('/docs/Cucumber/Cucumber in CI CD Pipelines', 'd8c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Cucumber/Cucumber Interview Questions and Scenarios',
-                component: ComponentCreator('/docs/Cucumber/Cucumber Interview Questions and Scenarios', '380'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -829,6 +817,18 @@ export default [
               {
                 path: '/docs/Cucumber/Hooks Before After and Best Practices',
                 component: ComponentCreator('/docs/Cucumber/Hooks Before After and Best Practices', '560'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Interview Questions and Scenarios',
+                component: ComponentCreator('/docs/Cucumber/Interview Questions and Scenarios', 'c48'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Cucumber/Introduction',
+                component: ComponentCreator('/docs/Cucumber/Introduction', '7a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1079,74 +1079,74 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_advanced_configuration_and_customization',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_advanced_configuration_and_customization', 'abe'),
+                path: '/docs/Extent Report/advanced_configuration_and_customization',
+                component: ComponentCreator('/docs/Extent Report/advanced_configuration_and_customization', 'ea3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_ci_cd_integration',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_ci_cd_integration', 'b38'),
+                path: '/docs/Extent Report/ci_cd_integration',
+                component: ComponentCreator('/docs/Extent Report/ci_cd_integration', '001'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns', '4db'),
+                path: '/docs/Extent Report/common_mistakes_and_anti_patterns',
+                component: ComponentCreator('/docs/Extent Report/common_mistakes_and_anti_patterns', 'b5a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_cucumber_bdd_integration',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_cucumber_bdd_integration', '57b'),
+                path: '/docs/Extent Report/creenshots_and_media_handling',
+                component: ComponentCreator('/docs/Extent Report/creenshots_and_media_handling', 'adc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_framework_level_integration',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_framework_level_integration', '987'),
+                path: '/docs/Extent Report/cucumber_bdd_integration',
+                component: ComponentCreator('/docs/Extent Report/cucumber_bdd_integration', '61c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_fundamentals_and_architecture',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_fundamentals_and_architecture', 'b2d'),
+                path: '/docs/Extent Report/framework_level_integration',
+                component: ComponentCreator('/docs/Extent Report/framework_level_integration', '85f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_logging_and_status_handling',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_logging_and_status_handling', '896'),
+                path: '/docs/Extent Report/fundamentals_and_architecture',
+                component: ComponentCreator('/docs/Extent Report/fundamentals_and_architecture', '637'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_roadmap_overview',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_roadmap_overview', '812'),
+                path: '/docs/Extent Report/logging_and_status_handling',
+                component: ComponentCreator('/docs/Extent Report/logging_and_status_handling', '889'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_screenshots_and_media_handling',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_screenshots_and_media_handling', '396'),
+                path: '/docs/Extent Report/roadmap_overview',
+                component: ComponentCreator('/docs/Extent Report/roadmap_overview', 'bc2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_setup_and_basic_configuration',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_setup_and_basic_configuration', 'd64'),
+                path: '/docs/Extent Report/setup_and_basic_configuration',
+                component: ComponentCreator('/docs/Extent Report/setup_and_basic_configuration', 'ad1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_test_ng_listener_integration',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_test_ng_listener_integration', '325'),
+                path: '/docs/Extent Report/test_ng_listener_integration',
+                component: ComponentCreator('/docs/Extent Report/test_ng_listener_integration', '32f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution',
-                component: ComponentCreator('/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution', '171'),
+                path: '/docs/Extent Report/thread_safety_and_parallel_execution',
+                component: ComponentCreator('/docs/Extent Report/thread_safety_and_parallel_execution', 'a01'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2999,8 +2999,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Interview_Questions/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Interview_Questions/congratulations', '627'),
+                path: '/docs/Standalone Java/Interview Questions/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Interview Questions/congratulations', '85b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3041,8 +3041,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/JVM_Internals/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/JVM_Internals/congratulations', '1c0'),
+                path: '/docs/Standalone Java/JVM Internals/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/JVM Internals/congratulations', '4e2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3143,62 +3143,62 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Standalone Java/Strings/equals-vs-double-equals',
+                component: ComponentCreator('/docs/Standalone Java/Strings/equals-vs-double-equals', '9cc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/string-hashcode-caching',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-hashcode-caching', '8ce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/string-immutability',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-immutability', 'df8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/string-methods',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-methods', '9d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Standalone Java/Strings/string-overview-creation',
                 component: ComponentCreator('/docs/Standalone Java/Strings/string-overview-creation', '334'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Strings/Strings_equals-vs-double-equals',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_equals-vs-double-equals', 'a6c'),
+                path: '/docs/Standalone Java/Strings/string-performance-in-loops',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-performance-in-loops', '04e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Strings/Strings_string-hashcode-caching',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-hashcode-caching', '705'),
+                path: '/docs/Standalone Java/Strings/string-pool',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-pool', '6ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Strings/Strings_string-immutability',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-immutability', '260'),
+                path: '/docs/Standalone Java/Strings/stringbuffer',
+                component: ComponentCreator('/docs/Standalone Java/Strings/stringbuffer', 'f9d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Strings/Strings_string-methods',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-methods', '8e0'),
+                path: '/docs/Standalone Java/Strings/Stringbuilder',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Stringbuilder', 'd61'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Strings/Strings_string-performance-in-loops',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-performance-in-loops', 'c63'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Strings/Strings_string-pool',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-pool', '4cb'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Strings/Strings_stringbuffer',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_stringbuffer', 'ff9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Strings/Strings_stringbuilder',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_stringbuilder', 'f60'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer',
-                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer', '9d3'),
+                path: '/docs/Standalone Java/Strings/Stringbuilder-vs-stringbuffer',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Stringbuilder-vs-stringbuffer', '0a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

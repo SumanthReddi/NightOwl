@@ -1,13 +1,10 @@
 ---
 sidebar_position: 3
+title: Java Program Execution Flow 
 ---
 
-# Java Program Execution Flow (What Happens When You Run Java Code)
+## Java Program Execution Flow (What Happens When You Run Java Code)
 
-## Priority
-CORE_JAVA_FOUNDATION
-
----
 
 ## Why This File Exists
 Most people write Java code but **don’t really know what happens when they run it**.

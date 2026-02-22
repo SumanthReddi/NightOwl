@@ -1,8 +1,9 @@
 ---
 sidebar_position: 11
+title: SOLID Principles 
 ---
 
-# SOLID Principles in Java (Design Rules That Prevent Pain)
+## SOLID Principles in Java (Design Rules That Prevent Pain)
 
 ## Why This File Exists
 SOLID is often memorized, rarely understood.

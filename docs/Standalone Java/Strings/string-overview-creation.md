@@ -3,7 +3,7 @@ sidebar_position: 1
 title: String Overview & Creation
 ---
 
-# String Overview & Creation -- Architect Level Understanding
+## String Overview & Creation -- Architect Level Understanding
 
 This document is not surface-level.\
 It explains Strings from:
@@ -337,5 +337,3 @@ You must clearly understand:
 ✓ JVM optimization reasoning
 
 If you understand this deeply, you are no longer beginner in Strings.
-
-Next file: string-immutability.md

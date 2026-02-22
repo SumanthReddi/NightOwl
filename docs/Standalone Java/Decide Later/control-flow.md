@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
+title: Control Flow Statements
 ---
 
-# Control Flow Statements in Java (Directing Program Execution)
+## Control Flow Statements in Java (Directing Program Execution)
 
 ## Why This File Exists
 Control flow decides **which code runs, when, and how often**.

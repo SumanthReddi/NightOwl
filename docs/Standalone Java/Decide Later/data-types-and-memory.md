@@ -1,15 +1,11 @@
 ---
 sidebar_position: 1
+title: Data Types and Memory
 ---
 
-# Data Types and Memory in Java (How Java Stores Data)
+## Data Types and Memory in Java (How Java Stores Data)
 
-## Priority
-CORE_JAVA_FUNDAMENTALS
-
----
-
-## Why This File Exists
+### Why This File Exists
 Many Java confusions come from **not knowing where data lives**.
 
 This file explains:

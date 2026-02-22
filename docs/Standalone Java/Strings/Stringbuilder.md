@@ -3,7 +3,7 @@ sidebar_position: 6
 title: StringBuilder
 ---
 
-# StringBuilder -- Complete Deep Dive
+## StringBuilder -- Complete Deep Dive
 
 This document covers:
 
@@ -332,7 +332,3 @@ You should now understand:
 ✓ JVM concatenation optimization\
 ✓ Thread-safety behavior\
 ✓ Automation usage
-
-Next file:
-
-stringbuffer.md

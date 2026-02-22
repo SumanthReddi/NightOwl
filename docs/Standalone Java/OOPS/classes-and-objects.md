@@ -2,12 +2,7 @@
 sidebar_position: 1
 ---
 
-# Classes and Objects in Java (Foundation of OOP)
-
-## Priority
-CORE_JAVA_OOP
-
----
+# Classes and Objects
 
 ## Why This File Exists
 Object-Oriented Programming starts with **classes and objects**.

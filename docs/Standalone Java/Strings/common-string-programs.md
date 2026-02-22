@@ -3,7 +3,7 @@ sidebar_position: 12
 title: Common String Programs
 ---
 
-# Common String Programs -- Interview Deep Practice
+## Common String Programs -- Interview Deep Practice
 
 This document includes:
 
@@ -310,7 +310,3 @@ You should now confidently solve:
 ✓ Word count
 
 With time complexity explanation.
-
-Next Section:
-
-05_Collections_Framework

@@ -3,7 +3,7 @@ sidebar_position: 7
 title: StringBuffer
 ---
 
-# StringBuffer -- Complete Deep Dive
+## StringBuffer -- Complete Deep Dive
 
 This document covers:
 
@@ -279,7 +279,3 @@ You should understand:
 ✓ Thread-safety limitations\
 ✓ When to use vs avoid\
 ✓ Automation implications
-
-Next file:
-
-stringbuilder-vs-stringbuffer.md

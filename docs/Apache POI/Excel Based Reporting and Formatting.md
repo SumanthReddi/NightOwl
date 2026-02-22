@@ -183,7 +183,3 @@ After completing this phase, you should:
 - design clean and readable Excel reports
 - avoid over-engineering reporting logic
 - integrate reporting safely with Selenium automation
-
-You are now ready for:
-
-**Phase 10: Performance, Large Files, and SXSSF**

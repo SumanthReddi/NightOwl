@@ -194,7 +194,3 @@ After completing this phase, you should be able to:
 - convert rows into reusable Java data
 - feed Selenium tests clean inputs
 - avoid common Excel-related flakiness
-
-You are now ready for:
-
-**Phase 5: Handling Cell Types & Data Stability**

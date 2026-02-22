@@ -25,7 +25,7 @@ sidebar_position: 1
 ## Why Java is Platform Independent?
 ![alt text](../../Images/Platform%20Independance.png)
 - Bytecode runs on any system with a suitable JVM installed.
-- The JVM is implemented for each OS, making Java programs ‘write once, run anywhere’.[^5][^1]
+- The JVM is implemented for each OS, making Java programs ‘write once, run anywhere’.
 
 ***
 

@@ -1,15 +1,11 @@
 ---
 sidebar_position: 2
+title: Variables and Scope
 ---
 
-# Variables and Scope in Java (Lifetime, Visibility, and Behavior)
+## Variables and Scope in Java (Lifetime, Visibility, and Behavior)
 
-## Priority
-CORE_JAVA_FUNDAMENTALS
-
----
-
-## Why This File Exists
+### Why This File Exists
 Many Java bugs happen not because of logic, but because of **wrong assumptions about variable scope and lifetime**.
 
 This file explains:

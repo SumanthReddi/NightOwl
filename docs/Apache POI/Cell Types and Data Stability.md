@@ -197,7 +197,3 @@ After completing this phase, you should:
 - handle all common cell types safely
 - read Excel data exactly as users see it
 - eliminate most POI-related runtime errors
-
-You are now ready for:
-
-**Phase 6: Data-Driven Automation Patterns**

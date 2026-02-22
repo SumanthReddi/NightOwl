@@ -1,13 +1,9 @@
 ---
 sidebar_position: 9
+title: Abstraction and Interfaces
 ---
 
-# Abstraction and Interfaces in Java (Designing Contracts, Not Implementations)
-
-## Priority
-CORE_JAVA_OOP
-
----
+## Abstraction and Interfaces in Java (Designing Contracts, Not Implementations)
 
 ## Why This File Exists
 Abstraction is often confused with encapsulation and inheritance.

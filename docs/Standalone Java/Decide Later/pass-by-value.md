@@ -1,13 +1,9 @@
 ---
 sidebar_position: 3
+title: Pass-by-Value
 ---
 
-# Pass-by-Value in Java (Why Java Is NOT Pass-by-Reference)
-
-## Priority
-CORE_JAVA_FUNDAMENTALS
-
----
+## Pass-by-Value in Java (Why Java Is NOT Pass-by-Reference)
 
 ## Why This File Exists
 “Java is pass-by-reference” is one of the **most common incorrect statements** about Java.

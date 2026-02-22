@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Compile-Time vs Runtime Concatenation
 ---
 
-# Compile-Time vs Runtime Concatenation -- Deep JVM-Level Analysis
+## Compile-Time vs Runtime Concatenation -- Deep JVM-Level Analysis
 
 This document explains:
 
@@ -275,7 +275,3 @@ You should now understand:
 ✓ Memory differences\
 ✓ Interview edge cases\
 ✓ Automation usage context
-
-Next file:
-
-string-hashcode-caching.md

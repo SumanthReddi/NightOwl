@@ -1,13 +1,9 @@
 ---
 sidebar_position: 3
+title: JDK vs JRE vs JVM
 ---
 
-# JDK vs JRE vs JVM (What You Actually Need and Why)
-
-## Priority
-CORE_JAVA_FOUNDATION
-
----
+## JDK vs JRE vs JVM (What You Actually Need and Why)
 
 ## Why This File Exists
 JDK, JRE, and JVM are often used interchangeably — incorrectly.

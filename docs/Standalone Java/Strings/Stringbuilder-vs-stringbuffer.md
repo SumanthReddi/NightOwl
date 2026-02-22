@@ -3,7 +3,7 @@ sidebar_position: 8
 title: StringBuilder vs StringBuffer 
 ---
 
-# StringBuilder vs StringBuffer -- Complete Architectural Comparison
+## StringBuilder vs StringBuffer -- Complete Architectural Comparison
 
 This document provides:
 
@@ -256,7 +256,3 @@ If unsure → use StringBuilder.
 
 Only use StringBuffer when: • Shared mutable object\
 • Multi-threaded mutation required
-
-Next file:
-
-string-performance-in-loops.md

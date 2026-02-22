@@ -230,13 +230,3 @@ These rules define **production-grade automation**.
 - large dataset performance
 
 Those are covered in the next phases.
-
----
-
-## Phase 6 Outcome
-
-After completing this phase, you should be able to:
-- design data-driven Selenium tests cleanly
-- map Excel data to Java structures
-- control execution using Excel
-- scale test data without breaking tests

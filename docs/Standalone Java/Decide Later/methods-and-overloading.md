@@ -1,15 +1,12 @@
 ---
 sidebar_position: 6
+title: Method and Method Overloading
 ---
 
-# Methods and Method Overloading in Java (How Behavior Is Defined)
+## Method and Method Overloading in Java (How Behavior Is Defined)
 
-## Priority
-CORE_JAVA_FUNDAMENTALS
 
----
-
-## Why This File Exists
+### Why This File Exists
 Methods define **what a program does**.
 
 Many Java confusions come from:

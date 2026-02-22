@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-02c": {
+  "/docs-ee4": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-938": {
+  "/docs-3e6": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-f64": {
+  "/docs-f5a": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -422,9 +422,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-artifacts-workspaceaf-1-124"
   },
-  "/docs/category/best_practices-4e4": {
+  "/docs/category/best-practices-1ba": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-best-practices-2-a-0-96a"
+    "__props": "__props---docs-category-best-practices-636-4cf"
   },
   "/docs/category/collections-framework-ac7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -510,10 +510,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-installation-setup-369-4d1"
   },
-  "/docs/category/interview_questions-171": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-interview-questions-0-f-7-bc7"
-  },
   "/docs/category/interview--real-world-scenarios-e4a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-interview-real-world-scenariosa-0-b-2f0"
@@ -521,6 +517,10 @@
   "/docs/category/interview-questions-abe": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-interview-questions-0-b-0-562"
+  },
+  "/docs/category/interview-questions-1-17e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-interview-questions-1-f-12-85e"
   },
   "/docs/category/introduction-f51": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -554,9 +554,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-jobs-pipelines-5-c-0-669"
   },
-  "/docs/category/jvm_internals-73e": {
+  "/docs/category/jvm-internals-646": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-jvm-internals-264-4d8"
+    "__props": "__props---docs-category-jvm-internals-73-e-132"
   },
   "/docs/category/keywords-677": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -674,10 +674,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-cucumber-common-cucumber-framework-anti-patterns-9-cd-e14"
   },
-  "/docs/Cucumber/Cucumber 01 Introduction-1dc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-01-introductionea-5-275"
-  },
   "/docs/Cucumber/Cucumber Architecture Overview-225": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-cucumber-cucumber-architecture-overview-12-b-1aa"
@@ -689,10 +685,6 @@
   "/docs/Cucumber/Cucumber in CI CD Pipelines-d8c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-cucumber-cucumber-in-ci-cd-pipelines-0-b-9-5ad"
-  },
-  "/docs/Cucumber/Cucumber Interview Questions and Scenarios-380": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-interview-questions-and-scenariosf-2-e-b09"
   },
   "/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns-bb3": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -733,6 +725,14 @@
   "/docs/Cucumber/Hooks Before After and Best Practices-560": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-cucumber-hooks-before-after-and-best-practices-783-30c"
+  },
+  "/docs/Cucumber/Interview Questions and Scenarios-c48": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-cucumber-interview-questions-and-scenariosf-2-d-424"
+  },
+  "/docs/Cucumber/Introduction-7a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-cucumber-introduction-66-a-cf0"
   },
   "/docs/Cucumber/Parallel Execution in Cucumber-1cd": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -898,53 +898,53 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docusaurus-markdown-features-1-bf-5fc"
   },
-  "/docs/Extent Report/extent_reports_advanced_configuration_and_customization-abe": {
+  "/docs/Extent Report/advanced_configuration_and_customization-ea3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-advanced-configuration-and-customization-1-d-0-bf9"
+    "content": "content---docs-extent-report-advanced-configuration-and-customization-3-c-4-6ec"
   },
-  "/docs/Extent Report/extent_reports_ci_cd_integration-b38": {
+  "/docs/Extent Report/ci_cd_integration-001": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-ci-cd-integration-766-b11"
+    "content": "content---docs-extent-report-ci-cd-integrationa-07-f2e"
   },
-  "/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns-4db": {
+  "/docs/Extent Report/common_mistakes_and_anti_patterns-b5a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-common-mistakes-and-anti-patternsf-00-7e1"
+    "content": "content---docs-extent-report-common-mistakes-and-anti-patterns-56-f-ba8"
   },
-  "/docs/Extent Report/extent_reports_cucumber_bdd_integration-57b": {
+  "/docs/Extent Report/creenshots_and_media_handling-adc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-cucumber-bdd-integration-1-f-1-6c8"
+    "content": "content---docs-extent-report-creenshots-and-media-handlingfc-7-a06"
   },
-  "/docs/Extent Report/extent_reports_framework_level_integration-987": {
+  "/docs/Extent Report/cucumber_bdd_integration-61c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-framework-level-integrationaf-9-b62"
+    "content": "content---docs-extent-report-cucumber-bdd-integration-626-51d"
   },
-  "/docs/Extent Report/extent_reports_fundamentals_and_architecture-b2d": {
+  "/docs/Extent Report/framework_level_integration-85f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-fundamentals-and-architectureb-77-360"
+    "content": "content---docs-extent-report-framework-level-integrationb-1-d-e03"
   },
-  "/docs/Extent Report/extent_reports_logging_and_status_handling-896": {
+  "/docs/Extent Report/fundamentals_and_architecture-637": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-logging-and-status-handling-6-f-9-39d"
+    "content": "content---docs-extent-report-fundamentals-and-architecture-265-36e"
   },
-  "/docs/Extent Report/extent_reports_roadmap_overview-812": {
+  "/docs/Extent Report/logging_and_status_handling-889": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-roadmap-overview-037-0b3"
+    "content": "content---docs-extent-report-logging-and-status-handlingdd-9-86c"
   },
-  "/docs/Extent Report/extent_reports_screenshots_and_media_handling-396": {
+  "/docs/Extent Report/roadmap_overview-bc2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-screenshots-and-media-handling-83-f-543"
+    "content": "content---docs-extent-report-roadmap-overview-530-5ec"
   },
-  "/docs/Extent Report/extent_reports_setup_and_basic_configuration-d64": {
+  "/docs/Extent Report/setup_and_basic_configuration-ad1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-setup-and-basic-configuration-986-8cc"
+    "content": "content---docs-extent-report-setup-and-basic-configuration-516-a7b"
   },
-  "/docs/Extent Report/extent_reports_test_ng_listener_integration-325": {
+  "/docs/Extent Report/test_ng_listener_integration-32f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-test-ng-listener-integration-627-193"
+    "content": "content---docs-extent-report-test-ng-listener-integration-618-5ca"
   },
-  "/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution-171": {
+  "/docs/Extent Report/thread_safety_and_parallel_execution-a01": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-extent-report-extent-reports-thread-safety-and-parallel-execution-4-df-1b9"
+    "content": "content---docs-extent-report-thread-safety-and-parallel-execution-965-2e3"
   },
   "/docs/Git/-865": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2178,9 +2178,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-inner-classes-congratulations-905-850"
   },
-  "/docs/Standalone Java/Interview_Questions/congratulations-627": {
+  "/docs/Standalone Java/Interview Questions/congratulations-85b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-interview-questions-congratulations-811-8b8"
+    "content": "content---docs-standalone-java-interview-questions-congratulationsd-5-d-0b7"
   },
   "/docs/Standalone Java/Introduction/-8f9": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2206,9 +2206,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-java-8-features-congratulations-941-b10"
   },
-  "/docs/Standalone Java/JVM_Internals/congratulations-1c0": {
+  "/docs/Standalone Java/JVM Internals/congratulations-4e2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-jvm-internals-congratulations-531-6c9"
+    "content": "content---docs-standalone-java-jvm-internals-congratulations-310-181"
   },
   "/docs/Standalone Java/Keywords/Static-8a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2274,45 +2274,45 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-strings-compile-vs-runtime-concatenation-5-b-3-7db"
   },
+  "/docs/Standalone Java/Strings/equals-vs-double-equals-9cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-strings-equals-vs-double-equals-188-403"
+  },
+  "/docs/Standalone Java/Strings/string-hashcode-caching-8ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-strings-string-hashcode-cachinge-03-a26"
+  },
+  "/docs/Standalone Java/Strings/string-immutability-df8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-strings-string-immutability-50-a-b36"
+  },
+  "/docs/Standalone Java/Strings/string-methods-9d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-strings-string-methodsa-8-a-95c"
+  },
   "/docs/Standalone Java/Strings/string-overview-creation-334": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-strings-string-overview-creation-760-a5d"
   },
-  "/docs/Standalone Java/Strings/Strings_equals-vs-double-equals-a6c": {
+  "/docs/Standalone Java/Strings/string-performance-in-loops-04e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-equals-vs-double-equals-229-2de"
+    "content": "content---docs-standalone-java-strings-string-performance-in-loops-209-1ea"
   },
-  "/docs/Standalone Java/Strings/Strings_string-hashcode-caching-705": {
+  "/docs/Standalone Java/Strings/string-pool-6ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-string-hashcode-caching-8-e-3-a93"
+    "content": "content---docs-standalone-java-strings-string-pool-4-ec-bcc"
   },
-  "/docs/Standalone Java/Strings/Strings_string-immutability-260": {
+  "/docs/Standalone Java/Strings/stringbuffer-f9d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-string-immutabilitye-9-d-70d"
+    "content": "content---docs-standalone-java-strings-stringbufferb-92-97c"
   },
-  "/docs/Standalone Java/Strings/Strings_string-methods-8e0": {
+  "/docs/Standalone Java/Strings/Stringbuilder-d61": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-string-methodscdf-d49"
+    "content": "content---docs-standalone-java-strings-stringbuilderda-6-c1d"
   },
-  "/docs/Standalone Java/Strings/Strings_string-performance-in-loops-c63": {
+  "/docs/Standalone Java/Strings/Stringbuilder-vs-stringbuffer-0a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-string-performance-in-loopsa-00-7d2"
-  },
-  "/docs/Standalone Java/Strings/Strings_string-pool-4cb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-string-poolc-96-d81"
-  },
-  "/docs/Standalone Java/Strings/Strings_stringbuffer-ff9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-stringbuffer-109-cef"
-  },
-  "/docs/Standalone Java/Strings/Strings_stringbuilder-f60": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-stringbuilder-0-a-9-ee4"
-  },
-  "/docs/Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer-9d3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-strings-stringbuilder-vs-stringbuffer-192-69f"
+    "content": "content---docs-standalone-java-strings-stringbuilder-vs-stringbuffer-81-d-5fd"
   },
   "/docs/TestNG/Annotations & Execution Flow-d86": {
     "__comp": "__comp---theme-doc-item-178-a40",

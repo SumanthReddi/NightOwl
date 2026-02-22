@@ -186,11 +186,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Cucumber 01 Introduction",
-              "path": "/docs/Cucumber/Cucumber 01 Introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Cucumber/Cucumber Architecture Overview",
               "path": "/docs/Cucumber/Cucumber Architecture Overview",
               "sidebar": "tutorialSidebar"
@@ -203,11 +198,6 @@
             {
               "id": "Cucumber/Cucumber in CI CD Pipelines",
               "path": "/docs/Cucumber/Cucumber in CI CD Pipelines",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Cucumber/Cucumber Interview Questions and Scenarios",
-              "path": "/docs/Cucumber/Cucumber Interview Questions and Scenarios",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -258,6 +248,16 @@
             {
               "id": "Cucumber/Hooks Before After and Best Practices",
               "path": "/docs/Cucumber/Hooks Before After and Best Practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Interview Questions and Scenarios",
+              "path": "/docs/Cucumber/Interview Questions and Scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Cucumber/Introduction",
+              "path": "/docs/Cucumber/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -466,63 +466,63 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_advanced_configuration_and_customization",
-              "path": "/docs/Extent Report/extent_reports_advanced_configuration_and_customization",
+              "id": "Extent Report/advanced_configuration_and_customization",
+              "path": "/docs/Extent Report/advanced_configuration_and_customization",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_ci_cd_integration",
-              "path": "/docs/Extent Report/extent_reports_ci_cd_integration",
+              "id": "Extent Report/ci_cd_integration",
+              "path": "/docs/Extent Report/ci_cd_integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_common_mistakes_and_anti_patterns",
-              "path": "/docs/Extent Report/extent_reports_common_mistakes_and_anti_patterns",
+              "id": "Extent Report/common_mistakes_and_anti_patterns",
+              "path": "/docs/Extent Report/common_mistakes_and_anti_patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_cucumber_bdd_integration",
-              "path": "/docs/Extent Report/extent_reports_cucumber_bdd_integration",
+              "id": "Extent Report/creenshots_and_media_handling",
+              "path": "/docs/Extent Report/creenshots_and_media_handling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_framework_level_integration",
-              "path": "/docs/Extent Report/extent_reports_framework_level_integration",
+              "id": "Extent Report/cucumber_bdd_integration",
+              "path": "/docs/Extent Report/cucumber_bdd_integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_fundamentals_and_architecture",
-              "path": "/docs/Extent Report/extent_reports_fundamentals_and_architecture",
+              "id": "Extent Report/framework_level_integration",
+              "path": "/docs/Extent Report/framework_level_integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_logging_and_status_handling",
-              "path": "/docs/Extent Report/extent_reports_logging_and_status_handling",
+              "id": "Extent Report/fundamentals_and_architecture",
+              "path": "/docs/Extent Report/fundamentals_and_architecture",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_roadmap_overview",
-              "path": "/docs/Extent Report/extent_reports_roadmap_overview",
+              "id": "Extent Report/logging_and_status_handling",
+              "path": "/docs/Extent Report/logging_and_status_handling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_screenshots_and_media_handling",
-              "path": "/docs/Extent Report/extent_reports_screenshots_and_media_handling",
+              "id": "Extent Report/roadmap_overview",
+              "path": "/docs/Extent Report/roadmap_overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_setup_and_basic_configuration",
-              "path": "/docs/Extent Report/extent_reports_setup_and_basic_configuration",
+              "id": "Extent Report/setup_and_basic_configuration",
+              "path": "/docs/Extent Report/setup_and_basic_configuration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_test_ng_listener_integration",
-              "path": "/docs/Extent Report/extent_reports_test_ng_listener_integration",
+              "id": "Extent Report/test_ng_listener_integration",
+              "path": "/docs/Extent Report/test_ng_listener_integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Extent Report/extent_reports_thread_safety_and_parallel_execution",
-              "path": "/docs/Extent Report/extent_reports_thread_safety_and_parallel_execution",
+              "id": "Extent Report/thread_safety_and_parallel_execution",
+              "path": "/docs/Extent Report/thread_safety_and_parallel_execution",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2066,8 +2066,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Interview_Questions/congratulations",
-              "path": "/docs/Standalone Java/Interview_Questions/congratulations",
+              "id": "Standalone Java/Interview Questions/congratulations",
+              "path": "/docs/Standalone Java/Interview Questions/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2101,8 +2101,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/JVM_Internals/congratulations",
-              "path": "/docs/Standalone Java/JVM_Internals/congratulations",
+              "id": "Standalone Java/JVM Internals/congratulations",
+              "path": "/docs/Standalone Java/JVM Internals/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2186,53 +2186,53 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Standalone Java/Strings/equals-vs-double-equals",
+              "path": "/docs/Standalone Java/Strings/equals-vs-double-equals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/string-hashcode-caching",
+              "path": "/docs/Standalone Java/Strings/string-hashcode-caching",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/string-immutability",
+              "path": "/docs/Standalone Java/Strings/string-immutability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/string-methods",
+              "path": "/docs/Standalone Java/Strings/string-methods",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Standalone Java/Strings/string-overview-creation",
               "path": "/docs/Standalone Java/Strings/string-overview-creation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Strings/Strings_equals-vs-double-equals",
-              "path": "/docs/Standalone Java/Strings/Strings_equals-vs-double-equals",
+              "id": "Standalone Java/Strings/string-performance-in-loops",
+              "path": "/docs/Standalone Java/Strings/string-performance-in-loops",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Strings/Strings_string-hashcode-caching",
-              "path": "/docs/Standalone Java/Strings/Strings_string-hashcode-caching",
+              "id": "Standalone Java/Strings/string-pool",
+              "path": "/docs/Standalone Java/Strings/string-pool",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Strings/Strings_string-immutability",
-              "path": "/docs/Standalone Java/Strings/Strings_string-immutability",
+              "id": "Standalone Java/Strings/stringbuffer",
+              "path": "/docs/Standalone Java/Strings/stringbuffer",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Strings/Strings_string-methods",
-              "path": "/docs/Standalone Java/Strings/Strings_string-methods",
+              "id": "Standalone Java/Strings/Stringbuilder",
+              "path": "/docs/Standalone Java/Strings/Stringbuilder",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Strings/Strings_string-performance-in-loops",
-              "path": "/docs/Standalone Java/Strings/Strings_string-performance-in-loops",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Strings/Strings_string-pool",
-              "path": "/docs/Standalone Java/Strings/Strings_string-pool",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Strings/Strings_stringbuffer",
-              "path": "/docs/Standalone Java/Strings/Strings_stringbuffer",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Strings/Strings_stringbuilder",
-              "path": "/docs/Standalone Java/Strings/Strings_stringbuilder",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer",
-              "path": "/docs/Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer",
+              "id": "Standalone Java/Strings/Stringbuilder-vs-stringbuffer",
+              "path": "/docs/Standalone Java/Strings/Stringbuilder-vs-stringbuffer",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2421,8 +2421,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/jvm_internals",
-              "path": "/docs/category/jvm_internals",
+              "id": "/category/jvm-internals",
+              "path": "/docs/category/jvm-internals",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2436,13 +2436,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/best_practices",
-              "path": "/docs/category/best_practices",
+              "id": "/category/best-practices",
+              "path": "/docs/category/best-practices",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/interview_questions",
-              "path": "/docs/category/interview_questions",
+              "id": "/category/interview-questions",
+              "path": "/docs/category/interview-questions",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2506,8 +2506,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/interview-questions",
-              "path": "/docs/category/interview-questions",
+              "id": "/category/interview-questions-1",
+              "path": "/docs/category/interview-questions-1",
               "sidebar": "tutorialSidebar"
             },
             {

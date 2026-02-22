@@ -1,13 +1,9 @@
 ---
 sidebar_position: 4
+title: Operators
 ---
 
-# Operators in Java (How Expressions Really Work)
-
-## Priority
-CORE_JAVA_FUNDAMENTALS
-
----
+## Operators in Java (How Expressions Really Work)
 
 ## Why This File Exists
 Operators look simple, but many **logic bugs** come from misunderstanding how Java evaluates expressions.

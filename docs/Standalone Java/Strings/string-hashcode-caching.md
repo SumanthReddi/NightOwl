@@ -3,7 +3,7 @@ sidebar_position: 11
 title: String HashCode Caching
 ---
 
-# String hashCode Caching -- Deep Internal Analysis
+## String hashCode Caching -- Deep Internal Analysis
 
 This document explains:
 
@@ -286,7 +286,3 @@ You should now understand:
 ✓ HashMap internal impact\
 ✓ Collision handling\
 ✓ Interview-level reasoning
-
-Next file:
-
-common-string-programs.md

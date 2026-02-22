@@ -3,7 +3,7 @@ sidebar_position: 5
 title: String Methods
 ---
 
-# String Methods -- Complete Deep Dive
+## String Methods -- Complete Deep Dive
 
 This document covers:
 
@@ -183,6 +183,7 @@ Time Complexity: O(n)
 ------------------------------------------------------------------------
 
 # 1️⃣2️⃣ compareTo()
+compareTo() will compare char by char means it will compare unicode values of both strings.
 
 Lexicographical comparison.
 
@@ -192,6 +193,7 @@ String b = "Banana";
 
 System.out.println(a.compareTo(b));  // negative value
 ```
+If both are same strings then "0" will be the output. 
 
 Used in sorting.
 
@@ -317,7 +319,3 @@ You should now understand:
 ✓ Performance implications\
 ✓ Edge cases\
 ✓ Automation usage
-
-Next file:
-
-stringbuilder.md
