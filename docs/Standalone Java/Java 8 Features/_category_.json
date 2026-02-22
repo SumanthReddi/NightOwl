@@ -1,0 +1,9 @@
+  {
+    "label": "Java8 Features",
+    "position": 10,
+    "link": {
+      "type": "generated-index",
+      "description": "Practical standalone Java concepts covering syntax and core programming basics."
+    }
+  }
+

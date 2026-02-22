@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'b2f'),
     exact: true
@@ -79,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5ea'),
+    component: ComponentCreator('/docs', '0bc'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '9a9'),
+        component: ComponentCreator('/docs', '43e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '0f8'),
+            component: ComponentCreator('/docs', '9c6'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -300,6 +335,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/annotations',
+                component: ComponentCreator('/docs/category/annotations', '4e8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/apache-poi',
                 component: ComponentCreator('/docs/category/apache-poi', '312'),
                 exact: true,
@@ -324,6 +365,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/best_practices',
+                component: ComponentCreator('/docs/category/best_practices', '4e4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/collections-framework',
                 component: ComponentCreator('/docs/category/collections-framework', 'ac7'),
                 exact: true,
@@ -338,12 +385,6 @@ export default [
               {
                 path: '/docs/category/core-apache-poi-object-model',
                 component: ComponentCreator('/docs/category/core-apache-poi-object-model', '441'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/core-java-concepts',
-                component: ComponentCreator('/docs/category/core-java-concepts', 'ba5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -366,8 +407,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/decide-later',
+                component: ComponentCreator('/docs/category/decide-later', 'b68'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/docusaurus-',
                 component: ComponentCreator('/docs/category/docusaurus-', '99a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/enums',
+                component: ComponentCreator('/docs/category/enums', 'b00'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -380,6 +433,12 @@ export default [
               {
                 path: '/docs/category/extent-report',
                 component: ComponentCreator('/docs/category/extent-report', 'a5b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/file-handling',
+                component: ComponentCreator('/docs/category/file-handling', 'c53'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -414,8 +473,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/inner-classes',
+                component: ComponentCreator('/docs/category/inner-classes', '833'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/installation--setup',
                 component: ComponentCreator('/docs/category/installation--setup', '163'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/interview_questions',
+                component: ComponentCreator('/docs/category/interview_questions', '171'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -450,6 +521,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/java8-features',
+                component: ComponentCreator('/docs/category/java8-features', 'edf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/jenkins',
                 component: ComponentCreator('/docs/category/jenkins', '294'),
                 exact: true,
@@ -470,6 +547,12 @@ export default [
               {
                 path: '/docs/category/jobs--pipelines',
                 component: ComponentCreator('/docs/category/jobs--pipelines', '920'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/jvm_internals',
+                component: ComponentCreator('/docs/category/jvm_internals', '73e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -572,6 +655,12 @@ export default [
               {
                 path: '/docs/category/standalone-java',
                 component: ComponentCreator('/docs/category/standalone-java', '175'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/strings',
+                component: ComponentCreator('/docs/category/strings', '7a6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1860,8 +1949,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Profiles',
-                component: ComponentCreator('/docs/Maven/Profiles', '6e9'),
+                path: '/docs/Maven/profiles',
+                component: ComponentCreator('/docs/Maven/profiles', 'e8b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2106,6 +2195,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Selenium/Advanced Concepts/JDBC_Connectivity',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/JDBC_Connectivity', '49d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Selenium/Advanced Concepts/selenium_4_new_features',
                 component: ComponentCreator('/docs/Selenium/Advanced Concepts/selenium_4_new_features', 'c2f'),
                 exact: true,
@@ -2198,6 +2293,12 @@ export default [
               {
                 path: '/docs/Selenium/Framework Design/page_vs_test_responsibility',
                 component: ComponentCreator('/docs/Selenium/Framework Design/page_vs_test_responsibility', 'bf2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Framework Design/selenium-by-vs-findby',
+                component: ComponentCreator('/docs/Selenium/Framework Design/selenium-by-vs-findby', 'ef2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2526,80 +2627,224 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/congratulations', 'fc8'),
+                path: '/docs/Standalone Java/Annotations/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Annotations/congratulations', '0a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Arrays',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Arrays', 'f12'),
+                path: '/docs/Standalone Java/Best Practices/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Best Practices/congratulations', 'fbf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Control-Flow',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Control-Flow', '704'),
+                path: '/docs/Standalone Java/Collections Framework/arraylist-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/arraylist-internal', '194'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Data-Types',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Data-Types', '8ba'),
+                path: '/docs/Standalone Java/Collections Framework/collection-hierarchy',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/collection-hierarchy', '4a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Features of Java',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Features of Java', '6b0'),
+                path: '/docs/Standalone Java/Collections Framework/collection-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/collection-interface', '2d0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Introduction',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Introduction', 'c38'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal', 'd7d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Main-Method',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Main-Method', '169'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class', 'cd2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Object and Classes',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Object and Classes', 'c64'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview', '9ff'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Operators',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Operators', '0f6'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_collections-utility-class',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_collections-utility-class', '4ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Packages',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Packages', '3b1'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator', '83c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Strings',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Strings', '5dc'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap', '7e0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Type Casting',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Type Casting', '840'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_deque-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_deque-interface', 'ee0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Core Java Concepts/Variables',
-                component: ComponentCreator('/docs/Standalone Java/Core Java Concepts/Variables', '9d6'),
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe', '67c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_hashset-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_hashset-internal', '40f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_hashtable',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_hashtable', '14b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9', 'fa4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashmap',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashmap', 'cda'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashset',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashset', '261'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_map-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_map-interface', 'ea7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal', '19c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_queue-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_queue-interface', 'a05'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_set-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_set-interface', '92d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_stack-class',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_stack-class', '4ca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_synchronized-collections',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_synchronized-collections', '310'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_treemap',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_treemap', '991'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_treeset',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_treeset', '771'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/inkedlist-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/inkedlist-internal', '806'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Iterable-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Iterable-interface', '536'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/list-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/list-interface', 'd92'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Vector',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Vector', '40b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Decide Later/control-flow',
+                component: ComponentCreator('/docs/Standalone Java/Decide Later/control-flow', 'c60'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Decide Later/data-types-and-memory',
+                component: ComponentCreator('/docs/Standalone Java/Decide Later/data-types-and-memory', 'f7e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Decide Later/methods-and-overloading',
+                component: ComponentCreator('/docs/Standalone Java/Decide Later/methods-and-overloading', '709'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Decide Later/operators',
+                component: ComponentCreator('/docs/Standalone Java/Decide Later/operators', '192'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Decide Later/pass-by-value',
+                component: ComponentCreator('/docs/Standalone Java/Decide Later/pass-by-value', '1fe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Decide Later/variables-and-scope',
+                component: ComponentCreator('/docs/Standalone Java/Decide Later/variables-and-scope', '682'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Enums/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Enums/congratulations', '6ea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2628,50 +2873,98 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Foundations/control-flow',
-                component: ComponentCreator('/docs/Standalone Java/Foundations/control-flow', 'fa2'),
+                path: '/docs/Standalone Java/File Handling/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/congratulations', '9cd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Foundations/data-types-and-memory',
-                component: ComponentCreator('/docs/Standalone Java/Foundations/data-types-and-memory', '56e'),
+                path: '/docs/Standalone Java/Foundations/Arrays',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Arrays', '875'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Foundations/methods-and-overloading',
-                component: ComponentCreator('/docs/Standalone Java/Foundations/methods-and-overloading', '0df'),
+                path: '/docs/Standalone Java/Foundations/Control-Flow',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Control-Flow', '028'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Foundations/operators',
-                component: ComponentCreator('/docs/Standalone Java/Foundations/operators', 'c5b'),
+                path: '/docs/Standalone Java/Foundations/Data-Types',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Data-Types', 'ebd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Foundations/pass-by-value',
-                component: ComponentCreator('/docs/Standalone Java/Foundations/pass-by-value', 'f6c'),
+                path: '/docs/Standalone Java/Foundations/Main-Method',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Main-Method', '555'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Foundations/variables-and-scope',
-                component: ComponentCreator('/docs/Standalone Java/Foundations/variables-and-scope', 'c4e'),
+                path: '/docs/Standalone Java/Foundations/Object and Classes',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Object and Classes', 'fbe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/Operators',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Operators', '254'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/Packages',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Packages', '775'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/Strings',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Strings', '004'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/Type Casting',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Type Casting', '5dd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Foundations/Variables',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/Variables', '1e1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Inner Classes/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Inner Classes/congratulations', 'd8d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Interview_Questions/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Interview_Questions/congratulations', '627'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Introduction/',
+                component: ComponentCreator('/docs/Standalone Java/Introduction/', '8f9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Introduction/Features of Java',
+                component: ComponentCreator('/docs/Standalone Java/Introduction/Features of Java', '32e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/Standalone Java/Introduction/java-program-execution-flow',
                 component: ComponentCreator('/docs/Standalone Java/Introduction/java-program-execution-flow', 'ed0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Introduction/java-what-and-why',
-                component: ComponentCreator('/docs/Standalone Java/Introduction/java-what-and-why', '630'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2688,14 +2981,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Keywords/abstract',
-                component: ComponentCreator('/docs/Standalone Java/Keywords/abstract', '85d'),
+                path: '/docs/Standalone Java/Java 8 Features/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/congratulations', '418'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Keywords/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Keywords/congratulations', '852'),
+                path: '/docs/Standalone Java/JVM_Internals/congratulations',
+                component: ComponentCreator('/docs/Standalone Java/JVM_Internals/congratulations', '1c0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2754,12 +3047,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/OOPS/encapsulation copy',
-                component: ComponentCreator('/docs/Standalone Java/OOPS/encapsulation copy', 'd76'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Standalone Java/OOPS/Final , Static Usage',
                 component: ComponentCreator('/docs/Standalone Java/OOPS/Final , Static Usage', 'bb8'),
                 exact: true,
@@ -2768,12 +3055,6 @@ export default [
               {
                 path: '/docs/Standalone Java/OOPS/Inheritance',
                 component: ComponentCreator('/docs/Standalone Java/OOPS/Inheritance', '698'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/OOPS/inheritance copy',
-                component: ComponentCreator('/docs/Standalone Java/OOPS/inheritance copy', '85a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2790,14 +3071,80 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/OOPS/polymorphism copy',
-                component: ComponentCreator('/docs/Standalone Java/OOPS/polymorphism copy', 'ecb'),
+                path: '/docs/Standalone Java/OOPS/solid-principles',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/solid-principles', 'ce9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/OOPS/solid-principles',
-                component: ComponentCreator('/docs/Standalone Java/OOPS/solid-principles', 'ce9'),
+                path: '/docs/Standalone Java/Strings/common-string-programs',
+                component: ComponentCreator('/docs/Standalone Java/Strings/common-string-programs', '178'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/compile-vs-runtime-concatenation',
+                component: ComponentCreator('/docs/Standalone Java/Strings/compile-vs-runtime-concatenation', 'ca7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/string-overview-creation',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-overview-creation', '334'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_equals-vs-double-equals',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_equals-vs-double-equals', 'a6c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_string-hashcode-caching',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-hashcode-caching', '705'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_string-immutability',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-immutability', '260'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_string-methods',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-methods', '8e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_string-performance-in-loops',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-performance-in-loops', 'c63'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_string-pool',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_string-pool', '4cb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_stringbuffer',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_stringbuffer', 'ff9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_stringbuilder',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_stringbuilder', 'f60'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer',
+                component: ComponentCreator('/docs/Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer', '9d3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2874,8 +3221,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Testng XML',
-                component: ComponentCreator('/docs/TestNG/Testng XML', '9a8'),
+                path: '/docs/TestNG/TestNG XML',
+                component: ComponentCreator('/docs/TestNG/TestNG XML', 'f10'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

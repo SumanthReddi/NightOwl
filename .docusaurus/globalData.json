@@ -1221,8 +1221,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Profiles",
-              "path": "/docs/Maven/Profiles",
+              "id": "Maven/profiles",
+              "path": "/docs/Maven/profiles",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1426,6 +1426,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Selenium/Advanced Concepts/JDBC_Connectivity",
+              "path": "/docs/Selenium/Advanced Concepts/JDBC_Connectivity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium/Advanced Concepts/selenium_4_new_features",
               "path": "/docs/Selenium/Advanced Concepts/selenium_4_new_features",
               "sidebar": "tutorialSidebar"
@@ -1503,6 +1508,11 @@
             {
               "id": "Selenium/Framework Design/page_vs_test_responsibility",
               "path": "/docs/Selenium/Framework Design/page_vs_test_responsibility",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Framework Design/selenium-by-vs-findby",
+              "path": "/docs/Selenium/Framework Design/selenium-by-vs-findby",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1776,68 +1786,188 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/congratulations",
-              "path": "/docs/Standalone Java/Collections Framework/congratulations",
+              "id": "Standalone Java/Annotations/congratulations",
+              "path": "/docs/Standalone Java/Annotations/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Arrays",
-              "path": "/docs/Standalone Java/Core Java Concepts/Arrays",
+              "id": "Standalone Java/Best Practices/congratulations",
+              "path": "/docs/Standalone Java/Best Practices/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Control-Flow",
-              "path": "/docs/Standalone Java/Core Java Concepts/Control-Flow",
+              "id": "Standalone Java/Collections Framework/arraylist-internal",
+              "path": "/docs/Standalone Java/Collections Framework/arraylist-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Data-Types",
-              "path": "/docs/Standalone Java/Core Java Concepts/Data-Types",
+              "id": "Standalone Java/Collections Framework/collection-hierarchy",
+              "path": "/docs/Standalone Java/Collections Framework/collection-hierarchy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Features of Java",
-              "path": "/docs/Standalone Java/Core Java Concepts/Features of Java",
+              "id": "Standalone Java/Collections Framework/collection-interface",
+              "path": "/docs/Standalone Java/Collections Framework/collection-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Introduction",
-              "path": "/docs/Standalone Java/Core Java Concepts/Introduction",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Main-Method",
-              "path": "/docs/Standalone Java/Core Java Concepts/Main-Method",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Object and Classes",
-              "path": "/docs/Standalone Java/Core Java Concepts/Object and Classes",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Operators",
-              "path": "/docs/Standalone Java/Core Java Concepts/Operators",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_collections-utility-class",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_collections-utility-class",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Packages",
-              "path": "/docs/Standalone Java/Core Java Concepts/Packages",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Strings",
-              "path": "/docs/Standalone Java/Core Java Concepts/Strings",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Type Casting",
-              "path": "/docs/Standalone Java/Core Java Concepts/Type Casting",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_deque-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_deque-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Core Java Concepts/Variables",
-              "path": "/docs/Standalone Java/Core Java Concepts/Variables",
+              "id": "Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_hashset-internal",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_hashset-internal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_hashtable",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_hashtable",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_linkedhashmap",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashmap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_linkedhashset",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_map-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_map-interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_queue-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_queue-interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_set-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_set-interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_stack-class",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_stack-class",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_synchronized-collections",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_synchronized-collections",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_treemap",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_treemap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Collections_Framework_treeset",
+              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_treeset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/inkedlist-internal",
+              "path": "/docs/Standalone Java/Collections Framework/inkedlist-internal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Iterable-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Iterable-interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/list-interface",
+              "path": "/docs/Standalone Java/Collections Framework/list-interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Vector",
+              "path": "/docs/Standalone Java/Collections Framework/Vector",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Decide Later/control-flow",
+              "path": "/docs/Standalone Java/Decide Later/control-flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Decide Later/data-types-and-memory",
+              "path": "/docs/Standalone Java/Decide Later/data-types-and-memory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Decide Later/methods-and-overloading",
+              "path": "/docs/Standalone Java/Decide Later/methods-and-overloading",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Decide Later/operators",
+              "path": "/docs/Standalone Java/Decide Later/operators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Decide Later/pass-by-value",
+              "path": "/docs/Standalone Java/Decide Later/pass-by-value",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Decide Later/variables-and-scope",
+              "path": "/docs/Standalone Java/Decide Later/variables-and-scope",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Enums/congratulations",
+              "path": "/docs/Standalone Java/Enums/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1861,43 +1991,83 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Foundations/control-flow",
-              "path": "/docs/Standalone Java/Foundations/control-flow",
+              "id": "Standalone Java/File Handling/congratulations",
+              "path": "/docs/Standalone Java/File Handling/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Foundations/data-types-and-memory",
-              "path": "/docs/Standalone Java/Foundations/data-types-and-memory",
+              "id": "Standalone Java/Foundations/Arrays",
+              "path": "/docs/Standalone Java/Foundations/Arrays",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Foundations/methods-and-overloading",
-              "path": "/docs/Standalone Java/Foundations/methods-and-overloading",
+              "id": "Standalone Java/Foundations/Control-Flow",
+              "path": "/docs/Standalone Java/Foundations/Control-Flow",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Foundations/operators",
-              "path": "/docs/Standalone Java/Foundations/operators",
+              "id": "Standalone Java/Foundations/Data-Types",
+              "path": "/docs/Standalone Java/Foundations/Data-Types",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Foundations/pass-by-value",
-              "path": "/docs/Standalone Java/Foundations/pass-by-value",
+              "id": "Standalone Java/Foundations/Main-Method",
+              "path": "/docs/Standalone Java/Foundations/Main-Method",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Foundations/variables-and-scope",
-              "path": "/docs/Standalone Java/Foundations/variables-and-scope",
+              "id": "Standalone Java/Foundations/Object and Classes",
+              "path": "/docs/Standalone Java/Foundations/Object and Classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/Operators",
+              "path": "/docs/Standalone Java/Foundations/Operators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/Packages",
+              "path": "/docs/Standalone Java/Foundations/Packages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/Strings",
+              "path": "/docs/Standalone Java/Foundations/Strings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/Type Casting",
+              "path": "/docs/Standalone Java/Foundations/Type Casting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Foundations/Variables",
+              "path": "/docs/Standalone Java/Foundations/Variables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Inner Classes/congratulations",
+              "path": "/docs/Standalone Java/Inner Classes/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Interview_Questions/congratulations",
+              "path": "/docs/Standalone Java/Interview_Questions/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Introduction/Features of Java",
+              "path": "/docs/Standalone Java/Introduction/Features of Java",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Introduction/Introduction",
+              "path": "/docs/Standalone Java/Introduction/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Standalone Java/Introduction/java-program-execution-flow",
               "path": "/docs/Standalone Java/Introduction/java-program-execution-flow",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Introduction/java-what-and-why",
-              "path": "/docs/Standalone Java/Introduction/java-what-and-why",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1911,13 +2081,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Keywords/abstract",
-              "path": "/docs/Standalone Java/Keywords/abstract",
+              "id": "Standalone Java/Java 8 Features/congratulations",
+              "path": "/docs/Standalone Java/Java 8 Features/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Keywords/congratulations",
-              "path": "/docs/Standalone Java/Keywords/congratulations",
+              "id": "Standalone Java/JVM_Internals/congratulations",
+              "path": "/docs/Standalone Java/JVM_Internals/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1966,11 +2136,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/OOPS/encapsulation copy",
-              "path": "/docs/Standalone Java/OOPS/encapsulation copy",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Standalone Java/OOPS/Final , Static Usage",
               "path": "/docs/Standalone Java/OOPS/Final , Static Usage",
               "sidebar": "tutorialSidebar"
@@ -1978,11 +2143,6 @@
             {
               "id": "Standalone Java/OOPS/Inheritance",
               "path": "/docs/Standalone Java/OOPS/Inheritance",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/OOPS/inheritance copy",
-              "path": "/docs/Standalone Java/OOPS/inheritance copy",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1996,13 +2156,68 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/OOPS/polymorphism copy",
-              "path": "/docs/Standalone Java/OOPS/polymorphism copy",
+              "id": "Standalone Java/OOPS/solid-principles",
+              "path": "/docs/Standalone Java/OOPS/solid-principles",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/OOPS/solid-principles",
-              "path": "/docs/Standalone Java/OOPS/solid-principles",
+              "id": "Standalone Java/Strings/common-string-programs",
+              "path": "/docs/Standalone Java/Strings/common-string-programs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/compile-vs-runtime-concatenation",
+              "path": "/docs/Standalone Java/Strings/compile-vs-runtime-concatenation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/string-overview-creation",
+              "path": "/docs/Standalone Java/Strings/string-overview-creation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_equals-vs-double-equals",
+              "path": "/docs/Standalone Java/Strings/Strings_equals-vs-double-equals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_string-hashcode-caching",
+              "path": "/docs/Standalone Java/Strings/Strings_string-hashcode-caching",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_string-immutability",
+              "path": "/docs/Standalone Java/Strings/Strings_string-immutability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_string-methods",
+              "path": "/docs/Standalone Java/Strings/Strings_string-methods",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_string-performance-in-loops",
+              "path": "/docs/Standalone Java/Strings/Strings_string-performance-in-loops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_string-pool",
+              "path": "/docs/Standalone Java/Strings/Strings_string-pool",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_stringbuffer",
+              "path": "/docs/Standalone Java/Strings/Strings_stringbuffer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_stringbuilder",
+              "path": "/docs/Standalone Java/Strings/Strings_stringbuilder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer",
+              "path": "/docs/Standalone Java/Strings/Strings_stringbuilder-vs-stringbuffer",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2066,8 +2281,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Testng XML",
-              "path": "/docs/TestNG/Testng XML",
+              "id": "TestNG/TestNG XML",
+              "path": "/docs/TestNG/TestNG XML",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2096,13 +2311,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/core-java-concepts",
-              "path": "/docs/category/core-java-concepts",
+              "id": "/category/introduction",
+              "path": "/docs/category/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/introduction",
-              "path": "/docs/category/introduction",
+              "id": "/category/decide-later",
+              "path": "/docs/category/decide-later",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2111,13 +2326,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/keywords",
+              "path": "/docs/category/keywords",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/oops",
               "path": "/docs/category/oops",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/keywords",
-              "path": "/docs/category/keywords",
+              "id": "/category/strings",
+              "path": "/docs/category/strings",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2131,13 +2351,53 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/file-handling",
+              "path": "/docs/category/file-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/multithreading",
               "path": "/docs/category/multithreading",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/annotations",
+              "path": "/docs/category/annotations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/miscellaneous-concepts",
               "path": "/docs/category/miscellaneous-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/java8-features",
+              "path": "/docs/category/java8-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/jvm_internals",
+              "path": "/docs/category/jvm_internals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/inner-classes",
+              "path": "/docs/category/inner-classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/enums",
+              "path": "/docs/category/enums",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/best_practices",
+              "path": "/docs/category/best_practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/interview_questions",
+              "path": "/docs/category/interview_questions",
               "sidebar": "tutorialSidebar"
             },
             {

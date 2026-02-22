@@ -41,13 +41,6 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
-  "scripts": [
-    {
-      "src": "https://cloud.umami.is/script.js",
-      "defer": true,
-      "data-website-id": "52090e33-7a00-4eaa-a634-d4cdde051689"
-    }
-  ],
   "presets": [
     [
       "classic",
@@ -375,6 +368,7 @@ export default {
   "customFields": {},
   "plugins": [],
   "themes": [],
+  "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],

@@ -1,13 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 11
 ---
 
 # SOLID Principles in Java (Design Rules That Prevent Pain)
-
-## Priority
-CORE_JAVA_OOP
-
----
 
 ## Why This File Exists
 SOLID is often memorized, rarely understood.

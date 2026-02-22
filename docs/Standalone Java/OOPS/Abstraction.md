@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 In Java, the **abstract keyword** is used to define classes and methods that are incomplete and meant to be implemented later by subclasses. It represents the concept of *abstraction*, where we hide implementation details and only expose necessary functionality. 
 

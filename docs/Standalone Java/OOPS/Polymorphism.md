@@ -1,10 +1,19 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 **Polymorphism** means "many forms"—it is the ability of a single entity (method, object) to take multiple forms and behave differently in different situations in Java.
 
 ***
+## What Is Polymorphism (Correct Meaning)
+
+Polymorphism means:
+> The same method call can behave differently based on the object type.
+
+It allows Java code to:
+- be flexible
+- be extensible
+- depend on abstractions, not implementations
 
 ## Key Idea
 
@@ -15,7 +24,14 @@ In Java polymorphism allows:
 
 ***
 
-## Types of Polymorphism in Java
+## Two Types of Polymorphism in Java
+
+Java supports:
+
+1. **Compile-time polymorphism** (method overloading)  
+2. **Runtime polymorphism** (method overriding)
+
+They are completely different mechanisms.
 
 ### 1. Compile-Time Polymorphism (Static Binding)
 

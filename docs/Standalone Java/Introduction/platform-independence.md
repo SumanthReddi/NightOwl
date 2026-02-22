@@ -1,15 +1,12 @@
 ---
 sidebar_position: 4
+title: Java Platform Independence 
 ---
 
 # Java Platform Independence (What Write Once, Run Anywhere Really Means)
 
-## Priority
-CORE_JAVA_FOUNDATION
-
 ---
 
-## Why This File Exists
 “Write Once, Run Anywhere” (WORA) is one of the most quoted — and most misunderstood — Java concepts.
 
 This file explains:

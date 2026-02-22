@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Composition vs Inheritance in Java (HAS-A vs IS-A)
