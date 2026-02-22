@@ -249,82 +249,82 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-0bc": {
+  "/docs-02c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-43e": {
+  "/docs-938": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-9c6": {
+  "/docs-f64": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-agile-501-f99"
   },
-  "/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook-beb": {
+  "/docs/Apache POI/Apache POI Fundamentals-343": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-core-apache-poi-object-model-phase-2-01-workbookfdd-4e0"
+    "content": "content---docs-apache-poi-apache-poi-fundamentalsd-71-ee8"
   },
-  "/docs/Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet-8fa": {
+  "/docs/Apache POI/Cell Types and Data Stability-2be": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-core-apache-poi-object-model-phase-2-02-sheet-5-dd-dc7"
+    "content": "content---docs-apache-poi-cell-types-and-data-stability-0-c-1-85f"
   },
-  "/docs/Apache POI/Core Apache POI Object Model/Phase_2_03_Row-52a": {
+  "/docs/Apache POI/Core Apache POI Object Model/Cell-ec8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-core-apache-poi-object-model-phase-2-03-row-138-1e2"
+    "content": "content---docs-apache-poi-core-apache-poi-object-model-cell-411-76e"
   },
-  "/docs/Apache POI/Core Apache POI Object Model/Phase_2_04_Cell-8d0": {
+  "/docs/Apache POI/Core Apache POI Object Model/Null Handling Strategy-0db": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-core-apache-poi-object-model-phase-2-04-cell-44-a-1c1"
+    "content": "content---docs-apache-poi-core-apache-poi-object-model-null-handling-strategyae-8-636"
   },
-  "/docs/Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing-c51": {
+  "/docs/Apache POI/Core Apache POI Object Model/Object Model and Indexing-94b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-core-apache-poi-object-model-phase-2-05-object-model-and-indexingfa-7-0cd"
+    "content": "content---docs-apache-poi-core-apache-poi-object-model-object-model-and-indexing-828-7dc"
   },
-  "/docs/Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy-a61": {
+  "/docs/Apache POI/Core Apache POI Object Model/Row-537": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-core-apache-poi-object-model-phase-2-06-null-handling-strategyb-16-99a"
+    "content": "content---docs-apache-poi-core-apache-poi-object-model-row-0-a-2-357"
   },
-  "/docs/Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated-e61": {
+  "/docs/Apache POI/Core Apache POI Object Model/Sheet-896": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-1-apache-poi-fundamentals-consolidateddac-e91"
+    "content": "content---docs-apache-poi-core-apache-poi-object-model-sheet-03-d-433"
   },
-  "/docs/Apache POI/Phase_10_Performance_Large_Files_and_SXSSF-1b9": {
+  "/docs/Apache POI/Core Apache POI Object Model/Workbook-c1a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-10-performance-large-files-and-sxss-ff-93-acd"
+    "content": "content---docs-apache-poi-core-apache-poi-object-model-workbookfd-1-4fa"
   },
-  "/docs/Apache POI/Phase_3_Project_Setup_and_Maven_POI-d56": {
+  "/docs/Apache POI/Data Driven Automation Patterns-5e7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-3-project-setup-and-maven-poi-372-bde"
+    "content": "content---docs-apache-poi-data-driven-automation-patterns-838-3e1"
   },
-  "/docs/Apache POI/Phase_4_Reading_Excel_for_Selenium-56b": {
+  "/docs/Apache POI/Excel Based Reporting and Formatting-4ed": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-4-reading-excel-for-seleniuma-62-661"
+    "content": "content---docs-apache-poi-excel-based-reporting-and-formattinga-6-c-b54"
   },
-  "/docs/Apache POI/Phase_5_Cell_Types_and_Data_Stability-63c": {
+  "/docs/Apache POI/Performance Large Files and SXSSF-21d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-5-cell-types-and-data-stabilityb-23-6c1"
+    "content": "content---docs-apache-poi-performance-large-files-and-sxssf-031-d8b"
   },
-  "/docs/Apache POI/Phase_6_Data_Driven_Automation_Patterns-022": {
+  "/docs/Apache POI/Project Setup and Maven POI-8d6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-6-data-driven-automation-patterns-646-7b1"
+    "content": "content---docs-apache-poi-project-setup-and-maven-po-idb-1-799"
   },
-  "/docs/Apache POI/Phase_7_Writing_Results_Back_to_Excel-305": {
+  "/docs/Apache POI/Reading Excel for Selenium-9aa": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-7-writing-results-back-to-exceld-87-597"
+    "content": "content---docs-apache-poi-reading-excel-for-selenium-2-dc-089"
   },
-  "/docs/Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control-324": {
+  "/docs/Apache POI/Updating Existing Excel and Execution Control-eca": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-8-updating-existing-excel-and-execution-controla-89-0dc"
+    "content": "content---docs-apache-poi-updating-existing-excel-and-execution-controldfe-c09"
   },
-  "/docs/Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting-03e": {
+  "/docs/Apache POI/Writing Results Back to Excel-68f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apache-poi-phase-9-excel-based-reporting-and-formattingdf-0-8f8"
+    "content": "content---docs-apache-poi-writing-results-back-to-excelae-4-68b"
   },
   "/docs/API/API Architecture Basics-0fa": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -430,9 +430,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-collections-frameworkb-3-f-927"
   },
+  "/docs/category/concurrency-2c4": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-concurrency-2-eb-f4a"
+  },
   "/docs/category/controller-operations--maintenance-9e3": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-controller-operations-maintenance-1-c-8-30f"
+  },
+  "/docs/category/core-e3f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-core-7-ba-cb8"
   },
   "/docs/category/core-apache-poi-object-model-441": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -554,6 +562,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-keywords-9-eb-55d"
   },
+  "/docs/category/list-fd4": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-lista-0-a-12c"
+  },
   "/docs/category/locators-68e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-locatorse-8-f-f5a"
@@ -561,6 +573,10 @@
   "/docs/category/manual-testing-b24": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-manual-testing-2-ba-e81"
+  },
+  "/docs/category/map-5f8": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-map-627-972"
   },
   "/docs/category/maven-1cc": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -590,6 +606,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-python-48-f-c2d"
   },
+  "/docs/category/queue-566": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-queuebb-5-bd2"
+  },
   "/docs/category/realtime-practical-exercises-aa2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-realtime-practical-exercisesd-65-e73"
@@ -609,6 +629,10 @@
   "/docs/category/selenium-grid-ca5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-selenium-gridcd-7-e74"
+  },
+  "/docs/category/set-63b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-set-134-04e"
   },
   "/docs/category/shared-libraries-13b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -630,9 +654,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-testngb-09-4b2"
   },
-  "/docs/category/vercel-9df": {
+  "/docs/category/utilities-4fb": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-vercel-92-e-b14"
+    "__props": "__props---docs-category-utilities-72-f-aea"
   },
   "/docs/category/web-elements-4a8": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1646,6 +1670,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-advanced-concepts-jdbc-connectivity-3-ca-bee"
   },
+  "/docs/Selenium/Advanced Concepts/JSON_Wire_vs_W3C-f99": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-advanced-concepts-json-wire-vs-w-3-c-0-b-1-fcf"
+  },
   "/docs/Selenium/Advanced Concepts/selenium_4_new_features-c2f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-advanced-concepts-selenium-4-new-features-591-033"
@@ -1938,117 +1966,125 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-best-practices-congratulations-5-e-4-5e4"
   },
-  "/docs/Standalone Java/Collections Framework/arraylist-internal-194": {
+  "/docs/Standalone Java/Collections Framework/Concurrency/blockingqueue-overview-aae": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-arraylist-internald-34-bc0"
+    "content": "content---docs-standalone-java-collections-framework-concurrency-blockingqueue-overview-316-c7d"
   },
-  "/docs/Standalone Java/Collections Framework/collection-hierarchy-4a8": {
+  "/docs/Standalone Java/Collections Framework/Concurrency/concurrenthashmap-787": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collection-hierarchy-3-aa-b56"
+    "content": "content---docs-standalone-java-collections-framework-concurrency-concurrenthashmapa-39-800"
   },
-  "/docs/Standalone Java/Collections Framework/collection-interface-2d0": {
+  "/docs/Standalone Java/Collections Framework/Concurrency/synchronized-collections-43f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collection-interface-8-e-8-6e1"
+    "content": "content---docs-standalone-java-collections-framework-concurrency-synchronized-collectionscbd-6d1"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal-d7d": {
+  "/docs/Standalone Java/Collections Framework/Core/collection-hierarchy-ceb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-arraydeque-internala-0-f-7f2"
+    "content": "content---docs-standalone-java-collections-framework-core-collection-hierarchy-0-a-4-d3b"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class-cd2": {
+  "/docs/Standalone Java/Collections Framework/Core/collection-interface-71f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-arrays-utility-class-6-ed-628"
+    "content": "content---docs-standalone-java-collections-framework-core-collection-interface-8-bf-5a0"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview-9ff": {
+  "/docs/Standalone Java/Collections Framework/Core/fail-fast-vs-fail-safe-37f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-blockingqueue-overview-24-e-69e"
+    "content": "content---docs-standalone-java-collections-framework-core-fail-fast-vs-fail-safe-587-2b7"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_collections-utility-class-4ef": {
+  "/docs/Standalone Java/Collections Framework/Core/Iterable-interface-82b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-collections-utility-classeca-b66"
+    "content": "content---docs-standalone-java-collections-framework-core-iterable-interfacebcd-ff6"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator-83c": {
+  "/docs/Standalone Java/Collections Framework/Core/list-interface-fe1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-comparable-vs-comparatore-58-66d"
+    "content": "content---docs-standalone-java-collections-framework-core-list-interface-35-f-f41"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap-7e0": {
+  "/docs/Standalone Java/Collections Framework/Core/map-interface-cc1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-concurrenthashmapeaf-b56"
+    "content": "content---docs-standalone-java-collections-framework-core-map-interfacec-8-c-acf"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_deque-interface-ee0": {
+  "/docs/Standalone Java/Collections Framework/Core/set-interface-0af": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-deque-interface-4-fd-cb9"
+    "content": "content---docs-standalone-java-collections-framework-core-set-interface-9-ec-bf1"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe-67c": {
+  "/docs/Standalone Java/Collections Framework/List/arraylist-internal-54b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-fail-fast-vs-fail-safed-45-bc3"
+    "content": "content---docs-standalone-java-collections-framework-list-arraylist-internalc-57-08c"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_hashset-internal-40f": {
+  "/docs/Standalone Java/Collections Framework/List/inkedlist-internal-716": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-hashset-internal-364-ae0"
+    "content": "content---docs-standalone-java-collections-framework-list-inkedlist-internal-871-aba"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_hashtable-14b": {
+  "/docs/Standalone Java/Collections Framework/List/stack-class-99b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-hashtable-779-a93"
+    "content": "content---docs-standalone-java-collections-framework-list-stack-class-05-f-07d"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9-fa4": {
+  "/docs/Standalone Java/Collections Framework/List/Vector-578": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-immutable-collections-java-947-f-82e"
+    "content": "content---docs-standalone-java-collections-framework-list-vector-71-b-47e"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashmap-cda": {
+  "/docs/Standalone Java/Collections Framework/Map/hashmap-internal-792": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-linkedhashmapb-07-2a5"
+    "content": "content---docs-standalone-java-collections-framework-map-hashmap-internal-6-a-9-948"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashset-261": {
+  "/docs/Standalone Java/Collections Framework/Map/hashtable-70f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-linkedhashset-93-c-7f8"
+    "content": "content---docs-standalone-java-collections-framework-map-hashtablefb-8-6f7"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_map-interface-ea7": {
+  "/docs/Standalone Java/Collections Framework/Map/linkedhashmap-a55": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-map-interface-584-963"
+    "content": "content---docs-standalone-java-collections-framework-map-linkedhashmap-110-d57"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal-19c": {
+  "/docs/Standalone Java/Collections Framework/Map/treemap-067": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-priorityqueue-internal-4-a-3-11b"
+    "content": "content---docs-standalone-java-collections-framework-map-treemap-116-f97"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_queue-interface-a05": {
+  "/docs/Standalone Java/Collections Framework/Queue/arraydeque-internal-602": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-queue-interface-66-f-723"
+    "content": "content---docs-standalone-java-collections-framework-queue-arraydeque-internal-061-796"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_set-interface-92d": {
+  "/docs/Standalone Java/Collections Framework/Queue/deque-interface-d75": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-set-interface-1-f-7-6dc"
+    "content": "content---docs-standalone-java-collections-framework-queue-deque-interface-2-c-2-b84"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_stack-class-4ca": {
+  "/docs/Standalone Java/Collections Framework/Queue/priorityqueue-internal-911": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-stack-classe-67-08a"
+    "content": "content---docs-standalone-java-collections-framework-queue-priorityqueue-internal-14-c-b5a"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_synchronized-collections-310": {
+  "/docs/Standalone Java/Collections Framework/Queue/queue-interface-ef1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-synchronized-collectionsab-3-03c"
+    "content": "content---docs-standalone-java-collections-framework-queue-queue-interfacefe-0-95e"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_treemap-991": {
+  "/docs/Standalone Java/Collections Framework/Set/hashset-internal-819": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-treemap-505-400"
+    "content": "content---docs-standalone-java-collections-framework-set-hashset-internalad-1-d3d"
   },
-  "/docs/Standalone Java/Collections Framework/Collections_Framework_treeset-771": {
+  "/docs/Standalone Java/Collections Framework/Set/linkedhashset-2c3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-collections-framework-treeset-403-251"
+    "content": "content---docs-standalone-java-collections-framework-set-linkedhashset-084-eb1"
   },
-  "/docs/Standalone Java/Collections Framework/inkedlist-internal-806": {
+  "/docs/Standalone Java/Collections Framework/Set/treeset-bb7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-inkedlist-internal-673-dcd"
+    "content": "content---docs-standalone-java-collections-framework-set-treeset-758-10d"
   },
-  "/docs/Standalone Java/Collections Framework/Iterable-interface-536": {
+  "/docs/Standalone Java/Collections Framework/Utilities/arrays-utility-class-5dc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-iterable-interface-6-fe-2db"
+    "content": "content---docs-standalone-java-collections-framework-utilities-arrays-utility-class-551-0bd"
   },
-  "/docs/Standalone Java/Collections Framework/list-interface-d92": {
+  "/docs/Standalone Java/Collections Framework/Utilities/cheatsheet-350": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-list-interface-054-abe"
+    "content": "content---docs-standalone-java-collections-framework-utilities-cheatsheetace-bb0"
   },
-  "/docs/Standalone Java/Collections Framework/Vector-40b": {
+  "/docs/Standalone Java/Collections Framework/Utilities/collections-utility-class-bc3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-collections-framework-vectora-50-1e2"
+    "content": "content---docs-standalone-java-collections-framework-utilities-collections-utility-class-92-c-bc9"
+  },
+  "/docs/Standalone Java/Collections Framework/Utilities/comparable-vs-comparator-a38": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-collections-framework-utilities-comparable-vs-comparatorf-3-c-c9a"
+  },
+  "/docs/Standalone Java/Collections Framework/Utilities/immutable-collections-java9-1de": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-collections-framework-utilities-immutable-collections-java-9-f-58-584"
   },
   "/docs/Standalone Java/Decide Later/control-flow-c60": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2333,10 +2369,6 @@
   "/docs/TestNG/Why TestNG-1d1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-test-ng-why-test-ng-052-abd"
-  },
-  "/docs/Vercel/web-analytics-getting-started-45f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-vercel-web-analytics-getting-started-157-f29"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

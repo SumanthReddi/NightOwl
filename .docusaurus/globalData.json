@@ -16,78 +16,78 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook",
-              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook",
+              "id": "Apache POI/Apache POI Fundamentals",
+              "path": "/docs/Apache POI/Apache POI Fundamentals",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet",
-              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet",
+              "id": "Apache POI/Cell Types and Data Stability",
+              "path": "/docs/Apache POI/Cell Types and Data Stability",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Core Apache POI Object Model/Phase_2_03_Row",
-              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_03_Row",
+              "id": "Apache POI/Core Apache POI Object Model/Cell",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Cell",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Core Apache POI Object Model/Phase_2_04_Cell",
-              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_04_Cell",
+              "id": "Apache POI/Core Apache POI Object Model/Null Handling Strategy",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Null Handling Strategy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing",
-              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing",
+              "id": "Apache POI/Core Apache POI Object Model/Object Model and Indexing",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Object Model and Indexing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy",
-              "path": "/docs/Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy",
+              "id": "Apache POI/Core Apache POI Object Model/Row",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Row",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated",
-              "path": "/docs/Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated",
+              "id": "Apache POI/Core Apache POI Object Model/Sheet",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Sheet",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_10_Performance_Large_Files_and_SXSSF",
-              "path": "/docs/Apache POI/Phase_10_Performance_Large_Files_and_SXSSF",
+              "id": "Apache POI/Core Apache POI Object Model/Workbook",
+              "path": "/docs/Apache POI/Core Apache POI Object Model/Workbook",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_3_Project_Setup_and_Maven_POI",
-              "path": "/docs/Apache POI/Phase_3_Project_Setup_and_Maven_POI",
+              "id": "Apache POI/Data Driven Automation Patterns",
+              "path": "/docs/Apache POI/Data Driven Automation Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_4_Reading_Excel_for_Selenium",
-              "path": "/docs/Apache POI/Phase_4_Reading_Excel_for_Selenium",
+              "id": "Apache POI/Excel Based Reporting and Formatting",
+              "path": "/docs/Apache POI/Excel Based Reporting and Formatting",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_5_Cell_Types_and_Data_Stability",
-              "path": "/docs/Apache POI/Phase_5_Cell_Types_and_Data_Stability",
+              "id": "Apache POI/Performance Large Files and SXSSF",
+              "path": "/docs/Apache POI/Performance Large Files and SXSSF",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_6_Data_Driven_Automation_Patterns",
-              "path": "/docs/Apache POI/Phase_6_Data_Driven_Automation_Patterns",
+              "id": "Apache POI/Project Setup and Maven POI",
+              "path": "/docs/Apache POI/Project Setup and Maven POI",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_7_Writing_Results_Back_to_Excel",
-              "path": "/docs/Apache POI/Phase_7_Writing_Results_Back_to_Excel",
+              "id": "Apache POI/Reading Excel for Selenium",
+              "path": "/docs/Apache POI/Reading Excel for Selenium",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control",
-              "path": "/docs/Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control",
+              "id": "Apache POI/Updating Existing Excel and Execution Control",
+              "path": "/docs/Apache POI/Updating Existing Excel and Execution Control",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting",
-              "path": "/docs/Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting",
+              "id": "Apache POI/Writing Results Back to Excel",
+              "path": "/docs/Apache POI/Writing Results Back to Excel",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1431,6 +1431,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Selenium/Advanced Concepts/JSON_Wire_vs_W3C",
+              "path": "/docs/Selenium/Advanced Concepts/JSON_Wire_vs_W3C",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium/Advanced Concepts/selenium_4_new_features",
               "path": "/docs/Selenium/Advanced Concepts/selenium_4_new_features",
               "sidebar": "tutorialSidebar"
@@ -1796,143 +1801,153 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/arraylist-internal",
-              "path": "/docs/Standalone Java/Collections Framework/arraylist-internal",
+              "id": "Standalone Java/Collections Framework/Concurrency/blockingqueue-overview",
+              "path": "/docs/Standalone Java/Collections Framework/Concurrency/blockingqueue-overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/collection-hierarchy",
-              "path": "/docs/Standalone Java/Collections Framework/collection-hierarchy",
+              "id": "Standalone Java/Collections Framework/Concurrency/concurrenthashmap",
+              "path": "/docs/Standalone Java/Collections Framework/Concurrency/concurrenthashmap",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/collection-interface",
-              "path": "/docs/Standalone Java/Collections Framework/collection-interface",
+              "id": "Standalone Java/Collections Framework/Concurrency/synchronized-collections",
+              "path": "/docs/Standalone Java/Collections Framework/Concurrency/synchronized-collections",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal",
+              "id": "Standalone Java/Collections Framework/Core/collection-hierarchy",
+              "path": "/docs/Standalone Java/Collections Framework/Core/collection-hierarchy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class",
+              "id": "Standalone Java/Collections Framework/Core/collection-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Core/collection-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview",
+              "id": "Standalone Java/Collections Framework/Core/fail-fast-vs-fail-safe",
+              "path": "/docs/Standalone Java/Collections Framework/Core/fail-fast-vs-fail-safe",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_collections-utility-class",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_collections-utility-class",
+              "id": "Standalone Java/Collections Framework/Core/Iterable-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Core/Iterable-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator",
+              "id": "Standalone Java/Collections Framework/Core/list-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Core/list-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap",
+              "id": "Standalone Java/Collections Framework/Core/map-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Core/map-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_deque-interface",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_deque-interface",
+              "id": "Standalone Java/Collections Framework/Core/set-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Core/set-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe",
+              "id": "Standalone Java/Collections Framework/List/arraylist-internal",
+              "path": "/docs/Standalone Java/Collections Framework/List/arraylist-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_hashset-internal",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_hashset-internal",
+              "id": "Standalone Java/Collections Framework/List/inkedlist-internal",
+              "path": "/docs/Standalone Java/Collections Framework/List/inkedlist-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_hashtable",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_hashtable",
+              "id": "Standalone Java/Collections Framework/List/stack-class",
+              "path": "/docs/Standalone Java/Collections Framework/List/stack-class",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9",
+              "id": "Standalone Java/Collections Framework/List/Vector",
+              "path": "/docs/Standalone Java/Collections Framework/List/Vector",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_linkedhashmap",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashmap",
+              "id": "Standalone Java/Collections Framework/Map/hashmap-internal",
+              "path": "/docs/Standalone Java/Collections Framework/Map/hashmap-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_linkedhashset",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashset",
+              "id": "Standalone Java/Collections Framework/Map/hashtable",
+              "path": "/docs/Standalone Java/Collections Framework/Map/hashtable",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_map-interface",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_map-interface",
+              "id": "Standalone Java/Collections Framework/Map/linkedhashmap",
+              "path": "/docs/Standalone Java/Collections Framework/Map/linkedhashmap",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal",
+              "id": "Standalone Java/Collections Framework/Map/treemap",
+              "path": "/docs/Standalone Java/Collections Framework/Map/treemap",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_queue-interface",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_queue-interface",
+              "id": "Standalone Java/Collections Framework/Queue/arraydeque-internal",
+              "path": "/docs/Standalone Java/Collections Framework/Queue/arraydeque-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_set-interface",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_set-interface",
+              "id": "Standalone Java/Collections Framework/Queue/deque-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Queue/deque-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_stack-class",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_stack-class",
+              "id": "Standalone Java/Collections Framework/Queue/priorityqueue-internal",
+              "path": "/docs/Standalone Java/Collections Framework/Queue/priorityqueue-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_synchronized-collections",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_synchronized-collections",
+              "id": "Standalone Java/Collections Framework/Queue/queue-interface",
+              "path": "/docs/Standalone Java/Collections Framework/Queue/queue-interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_treemap",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_treemap",
+              "id": "Standalone Java/Collections Framework/Set/hashset-internal",
+              "path": "/docs/Standalone Java/Collections Framework/Set/hashset-internal",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Collections_Framework_treeset",
-              "path": "/docs/Standalone Java/Collections Framework/Collections_Framework_treeset",
+              "id": "Standalone Java/Collections Framework/Set/linkedhashset",
+              "path": "/docs/Standalone Java/Collections Framework/Set/linkedhashset",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/inkedlist-internal",
-              "path": "/docs/Standalone Java/Collections Framework/inkedlist-internal",
+              "id": "Standalone Java/Collections Framework/Set/treeset",
+              "path": "/docs/Standalone Java/Collections Framework/Set/treeset",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Iterable-interface",
-              "path": "/docs/Standalone Java/Collections Framework/Iterable-interface",
+              "id": "Standalone Java/Collections Framework/Utilities/arrays-utility-class",
+              "path": "/docs/Standalone Java/Collections Framework/Utilities/arrays-utility-class",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/list-interface",
-              "path": "/docs/Standalone Java/Collections Framework/list-interface",
+              "id": "Standalone Java/Collections Framework/Utilities/cheatsheet",
+              "path": "/docs/Standalone Java/Collections Framework/Utilities/cheatsheet",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Collections Framework/Vector",
-              "path": "/docs/Standalone Java/Collections Framework/Vector",
+              "id": "Standalone Java/Collections Framework/Utilities/collections-utility-class",
+              "path": "/docs/Standalone Java/Collections Framework/Utilities/collections-utility-class",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Utilities/comparable-vs-comparator",
+              "path": "/docs/Standalone Java/Collections Framework/Utilities/comparable-vs-comparator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Collections Framework/Utilities/immutable-collections-java9",
+              "path": "/docs/Standalone Java/Collections Framework/Utilities/immutable-collections-java9",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2291,11 +2306,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Vercel/web-analytics-getting-started",
-              "path": "/docs/Vercel/web-analytics-getting-started",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/manual-testing",
               "path": "/docs/category/manual-testing",
               "sidebar": "tutorialSidebar"
@@ -2343,6 +2353,41 @@
             {
               "id": "/category/collections-framework",
               "path": "/docs/category/collections-framework",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/core",
+              "path": "/docs/category/core",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/list",
+              "path": "/docs/category/list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/set",
+              "path": "/docs/category/set",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/map",
+              "path": "/docs/category/map",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/queue",
+              "path": "/docs/category/queue",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/utilities",
+              "path": "/docs/category/utilities",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/concurrency",
+              "path": "/docs/category/concurrency",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2598,11 +2643,6 @@
             {
               "id": "/category/docusaurus-",
               "path": "/docs/category/docusaurus-",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/vercel",
-              "path": "/docs/category/vercel",
               "sidebar": "tutorialSidebar"
             }
           ],

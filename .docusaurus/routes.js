@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0bc'),
+    component: ComponentCreator('/docs', '02c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '43e'),
+        component: ComponentCreator('/docs', '938'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '9c6'),
+            component: ComponentCreator('/docs', 'f64'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -131,92 +131,92 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook',
-                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_01_Workbook', 'beb'),
+                path: '/docs/Apache POI/Apache POI Fundamentals',
+                component: ComponentCreator('/docs/Apache POI/Apache POI Fundamentals', '343'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet',
-                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_02_Sheet', '8fa'),
+                path: '/docs/Apache POI/Cell Types and Data Stability',
+                component: ComponentCreator('/docs/Apache POI/Cell Types and Data Stability', '2be'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_03_Row',
-                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_03_Row', '52a'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Cell',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Cell', 'ec8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_04_Cell',
-                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_04_Cell', '8d0'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Null Handling Strategy',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Null Handling Strategy', '0db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing',
-                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_05_Object_Model_and_Indexing', 'c51'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Object Model and Indexing',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Object Model and Indexing', '94b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy',
-                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Phase_2_06_Null_Handling_Strategy', 'a61'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Row',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Row', '537'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated',
-                component: ComponentCreator('/docs/Apache POI/Phase_1_Apache_POI_Fundamentals_Consolidated', 'e61'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Sheet',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Sheet', '896'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_10_Performance_Large_Files_and_SXSSF',
-                component: ComponentCreator('/docs/Apache POI/Phase_10_Performance_Large_Files_and_SXSSF', '1b9'),
+                path: '/docs/Apache POI/Core Apache POI Object Model/Workbook',
+                component: ComponentCreator('/docs/Apache POI/Core Apache POI Object Model/Workbook', 'c1a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_3_Project_Setup_and_Maven_POI',
-                component: ComponentCreator('/docs/Apache POI/Phase_3_Project_Setup_and_Maven_POI', 'd56'),
+                path: '/docs/Apache POI/Data Driven Automation Patterns',
+                component: ComponentCreator('/docs/Apache POI/Data Driven Automation Patterns', '5e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_4_Reading_Excel_for_Selenium',
-                component: ComponentCreator('/docs/Apache POI/Phase_4_Reading_Excel_for_Selenium', '56b'),
+                path: '/docs/Apache POI/Excel Based Reporting and Formatting',
+                component: ComponentCreator('/docs/Apache POI/Excel Based Reporting and Formatting', '4ed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_5_Cell_Types_and_Data_Stability',
-                component: ComponentCreator('/docs/Apache POI/Phase_5_Cell_Types_and_Data_Stability', '63c'),
+                path: '/docs/Apache POI/Performance Large Files and SXSSF',
+                component: ComponentCreator('/docs/Apache POI/Performance Large Files and SXSSF', '21d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_6_Data_Driven_Automation_Patterns',
-                component: ComponentCreator('/docs/Apache POI/Phase_6_Data_Driven_Automation_Patterns', '022'),
+                path: '/docs/Apache POI/Project Setup and Maven POI',
+                component: ComponentCreator('/docs/Apache POI/Project Setup and Maven POI', '8d6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_7_Writing_Results_Back_to_Excel',
-                component: ComponentCreator('/docs/Apache POI/Phase_7_Writing_Results_Back_to_Excel', '305'),
+                path: '/docs/Apache POI/Reading Excel for Selenium',
+                component: ComponentCreator('/docs/Apache POI/Reading Excel for Selenium', '9aa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control',
-                component: ComponentCreator('/docs/Apache POI/Phase_8_Updating_Existing_Excel_and_Execution_Control', '324'),
+                path: '/docs/Apache POI/Updating Existing Excel and Execution Control',
+                component: ComponentCreator('/docs/Apache POI/Updating Existing Excel and Execution Control', 'eca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting',
-                component: ComponentCreator('/docs/Apache POI/Phase_9_Excel_Based_Reporting_and_Formatting', '03e'),
+                path: '/docs/Apache POI/Writing Results Back to Excel',
+                component: ComponentCreator('/docs/Apache POI/Writing Results Back to Excel', '68f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -377,8 +377,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/concurrency',
+                component: ComponentCreator('/docs/category/concurrency', '2c4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/controller-operations--maintenance',
                 component: ComponentCreator('/docs/category/controller-operations--maintenance', '9e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/core',
+                component: ComponentCreator('/docs/category/core', 'e3f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -563,6 +575,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/list',
+                component: ComponentCreator('/docs/category/list', 'fd4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/locators',
                 component: ComponentCreator('/docs/category/locators', '68e'),
                 exact: true,
@@ -571,6 +589,12 @@ export default [
               {
                 path: '/docs/category/manual-testing',
                 component: ComponentCreator('/docs/category/manual-testing', 'b24'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/map',
+                component: ComponentCreator('/docs/category/map', '5f8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -617,6 +641,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/queue',
+                component: ComponentCreator('/docs/category/queue', '566'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/realtime-practical-exercises',
                 component: ComponentCreator('/docs/category/realtime-practical-exercises', 'aa2'),
                 exact: true,
@@ -643,6 +673,12 @@ export default [
               {
                 path: '/docs/category/selenium-grid',
                 component: ComponentCreator('/docs/category/selenium-grid', 'ca5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/set',
+                component: ComponentCreator('/docs/category/set', '63b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -677,8 +713,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/vercel',
-                component: ComponentCreator('/docs/category/vercel', '9df'),
+                path: '/docs/category/utilities',
+                component: ComponentCreator('/docs/category/utilities', '4fb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2201,6 +2237,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Selenium/Advanced Concepts/JSON_Wire_vs_W3C',
+                component: ComponentCreator('/docs/Selenium/Advanced Concepts/JSON_Wire_vs_W3C', 'f99'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Selenium/Advanced Concepts/selenium_4_new_features',
                 component: ComponentCreator('/docs/Selenium/Advanced Concepts/selenium_4_new_features', 'c2f'),
                 exact: true,
@@ -2639,170 +2681,182 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/arraylist-internal',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/arraylist-internal', '194'),
+                path: '/docs/Standalone Java/Collections Framework/Concurrency/blockingqueue-overview',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Concurrency/blockingqueue-overview', 'aae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/collection-hierarchy',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/collection-hierarchy', '4a8'),
+                path: '/docs/Standalone Java/Collections Framework/Concurrency/concurrenthashmap',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Concurrency/concurrenthashmap', '787'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/collection-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/collection-interface', '2d0'),
+                path: '/docs/Standalone Java/Collections Framework/Concurrency/synchronized-collections',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Concurrency/synchronized-collections', '43f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_arraydeque-internal', 'd7d'),
+                path: '/docs/Standalone Java/Collections Framework/Core/collection-hierarchy',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/collection-hierarchy', 'ceb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_arrays-utility-class', 'cd2'),
+                path: '/docs/Standalone Java/Collections Framework/Core/collection-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/collection-interface', '71f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_blockingqueue-overview', '9ff'),
+                path: '/docs/Standalone Java/Collections Framework/Core/fail-fast-vs-fail-safe',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/fail-fast-vs-fail-safe', '37f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_collections-utility-class',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_collections-utility-class', '4ef'),
+                path: '/docs/Standalone Java/Collections Framework/Core/Iterable-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/Iterable-interface', '82b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_comparable-vs-comparator', '83c'),
+                path: '/docs/Standalone Java/Collections Framework/Core/list-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/list-interface', 'fe1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_concurrenthashmap', '7e0'),
+                path: '/docs/Standalone Java/Collections Framework/Core/map-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/map-interface', 'cc1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_deque-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_deque-interface', 'ee0'),
+                path: '/docs/Standalone Java/Collections Framework/Core/set-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/set-interface', '0af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_fail-fast-vs-fail-safe', '67c'),
+                path: '/docs/Standalone Java/Collections Framework/List/arraylist-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/List/arraylist-internal', '54b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_hashset-internal',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_hashset-internal', '40f'),
+                path: '/docs/Standalone Java/Collections Framework/List/inkedlist-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/List/inkedlist-internal', '716'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_hashtable',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_hashtable', '14b'),
+                path: '/docs/Standalone Java/Collections Framework/List/stack-class',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/List/stack-class', '99b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_immutable-collections-java9', 'fa4'),
+                path: '/docs/Standalone Java/Collections Framework/List/Vector',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/List/Vector', '578'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashmap',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashmap', 'cda'),
+                path: '/docs/Standalone Java/Collections Framework/Map/hashmap-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Map/hashmap-internal', '792'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashset',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_linkedhashset', '261'),
+                path: '/docs/Standalone Java/Collections Framework/Map/hashtable',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Map/hashtable', '70f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_map-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_map-interface', 'ea7'),
+                path: '/docs/Standalone Java/Collections Framework/Map/linkedhashmap',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Map/linkedhashmap', 'a55'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_priorityqueue-internal', '19c'),
+                path: '/docs/Standalone Java/Collections Framework/Map/treemap',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Map/treemap', '067'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_queue-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_queue-interface', 'a05'),
+                path: '/docs/Standalone Java/Collections Framework/Queue/arraydeque-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Queue/arraydeque-internal', '602'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_set-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_set-interface', '92d'),
+                path: '/docs/Standalone Java/Collections Framework/Queue/deque-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Queue/deque-interface', 'd75'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_stack-class',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_stack-class', '4ca'),
+                path: '/docs/Standalone Java/Collections Framework/Queue/priorityqueue-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Queue/priorityqueue-internal', '911'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_synchronized-collections',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_synchronized-collections', '310'),
+                path: '/docs/Standalone Java/Collections Framework/Queue/queue-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Queue/queue-interface', 'ef1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_treemap',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_treemap', '991'),
+                path: '/docs/Standalone Java/Collections Framework/Set/hashset-internal',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Set/hashset-internal', '819'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Collections_Framework_treeset',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Collections_Framework_treeset', '771'),
+                path: '/docs/Standalone Java/Collections Framework/Set/linkedhashset',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Set/linkedhashset', '2c3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/inkedlist-internal',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/inkedlist-internal', '806'),
+                path: '/docs/Standalone Java/Collections Framework/Set/treeset',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Set/treeset', 'bb7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Iterable-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Iterable-interface', '536'),
+                path: '/docs/Standalone Java/Collections Framework/Utilities/arrays-utility-class',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Utilities/arrays-utility-class', '5dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/list-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/list-interface', 'd92'),
+                path: '/docs/Standalone Java/Collections Framework/Utilities/cheatsheet',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Utilities/cheatsheet', '350'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Vector',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Vector', '40b'),
+                path: '/docs/Standalone Java/Collections Framework/Utilities/collections-utility-class',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Utilities/collections-utility-class', 'bc3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Utilities/comparable-vs-comparator',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Utilities/comparable-vs-comparator', 'a38'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Utilities/immutable-collections-java9',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Utilities/immutable-collections-java9', '1de'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3229,12 +3283,6 @@ export default [
               {
                 path: '/docs/TestNG/Why TestNG',
                 component: ComponentCreator('/docs/TestNG/Why TestNG', '1d1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Vercel/web-analytics-getting-started',
-                component: ComponentCreator('/docs/Vercel/web-analytics-getting-started', '45f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
