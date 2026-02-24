@@ -1,66 +1,110 @@
 ---
 sidebar_position: 7
 ---
+# Strings
 
-<!-- # 📘 Java Strings - Complete Notes -->
-
-<!-- ## 📌 What is a String in Java? -->
+## 1. What is a String in Java?
 
 In Java, a **String** is a **sequence of characters**. Strings are **immutable** objects, meaning once created, their values cannot be changed.
 
 Strings are represented by the `java.lang.String` class.
 
----
+### Key Characteristics
 
-## ✅ Key Features
+-   Immutable (cannot be changed after creation)
+-   Stored in String Constant Pool (for literals)
+-   Final class (cannot be extended)
+-   Thread-safe due to immutability
+-   Implements Serializable, Comparable, CharSequence
 
-- Strings are **immutable**
-- Stored in **String pool** (a special memory area inside the heap)
-- Can be created using **literals** or **`new` keyword**
-- Java provides rich **methods** for String manipulation
-
----
-
-## 🛠️ Creating Strings
-
-### Using String Literals
-```java
-String str = "Hello";
+``` java
+String s = "Hello World";
 ```
 
-### Using `new` Keyword
-```java
-String str = new String("Hello");
+------------------------------------------------------------------------
+
+## 2. Why String is Immutable
+
+Once created, the internal value cannot change.
+
+### Reasons
+
+✔ Security (URLs, file paths, credentials)\
+✔ Thread safety\
+✔ HashCode caching (important for HashMap)\
+✔ String Pool optimization
+
+### Example
+
+``` java
+String s = "Hello";
+s.concat(" Java");
+
+System.out.println(s); // Hello
 ```
 
----
+Correct:
 
-## 🔁 Immutability
-
-Once a String object is created, it cannot be changed. Any operation on a String returns a **new String object**.
-
-```java
-String str = "Java";
-str.concat(" World"); // Returns a new String
-System.out.println(str); // Prints "Java"
+``` java
+s = s.concat(" Java");
 ```
 
----
+------------------------------------------------------------------------
 
-## 🧠 Memory: String Constant Pool
+## 3. String Constant Pool (SCP)
 
+A special memory area inside heap where unique string literals are
+stored.
 - Java maintains a **String Pool** to store unique string literals.
 - Helps in saving memory by avoiding duplicate String objects.
 
-```java
-String a = "hello";
-String b = "hello";
+### Benefits
+
+-   Memory efficiency
+-   Faster comparisons
+-   Reuse of objects
+
+### Example
+
+``` java
+String a = "Test";
+String b = "Test";
+
 System.out.println(a == b); // true (same reference)
 ```
 
----
+Using new:
 
-## 🔍 Common String Methods
+``` java
+String a = new String("Test");
+String b = new String("Test");
+
+System.out.println(a == b); // false
+```
+
+------------------------------------------------------------------------
+
+## 4. Creating Strings
+
+### 4.1 Literal (Recommended)
+
+``` java
+String s = "Java";
+```
+
+Stored in SCP.
+
+### 4.2 Using new
+
+``` java
+String s = new String("Java");
+```
+
+Creates new object in heap.
+
+------------------------------------------------------------------------
+
+## 5. Important String Methods
 
 | Method                      | Description                            |
 |----------------------------|----------------------------------------|
@@ -80,117 +124,353 @@ System.out.println(a == b); // true (same reference)
 | `startsWith(prefix)`      | Checks start of the string             |
 | `endsWith(suffix)`        | Checks end of the string               |
 
----
+Examples:
 
-## 🆚 `==` vs `.equals()`
+### length()
 
-- `==` checks **reference equality**
-- `.equals()` checks **value equality**
+Returns number of characters.
 
-```java
-String a = "Hello";
-String b = new String("Hello");
-System.out.println(a == b);        // false
-System.out.println(a.equals(b));   // true
+``` java
+String s = "Automation";
+System.out.println(s.length()); // 10
 ```
 
----
+### charAt()
 
-## 🔄 String Comparison
+Returns character at index.
+
+``` java
+System.out.println(s.charAt(2)); // t
+```
+
+### substring()
+
+Extracts part of string.
+
+``` java
+System.out.println(s.substring(3));    // omation
+System.out.println(s.substring(3, 6)); // oma
+```
+
+### equals() vs ==
+
+-   `==` → reference comparison
+-   `equals()` → content comparison
+
+``` java
+String x = "Java";
+String y = new String("Java");
+
+System.out.println(x == y);      // false
+System.out.println(x.equals(y)); // true
+```
+
+### compareTo()
+
+Lexicographical comparison means it will compare char by char. It will compare unicode values of both strings.
 
 ```java
 String a = "Java";
 String b = "java";
-
-a.equals(b);            // false
-a.equalsIgnoreCase(b);  // true
 a.compareTo(b);         // -32
 ```
 
----
+### contains()
 
-## 🔃 Converting Between Strings and Other Types
+Checks if substring exists.
 
-### To char array
-```java
-char[] chars = str.toCharArray();
+``` java
+System.out.println("Hello Java".contains("Java")); // true
 ```
 
-### To int
-```java
-int num = Integer.parseInt("123");
+### replace()
+Replaces characters or words.
+
+``` java
+System.out.println("banana".replace('a', 'o')); // bonono
 ```
 
-### From int
-```java
-String s = String.valueOf(123);
+### split()
+
+Splits string using regex delimiter.
+
+``` java
+String data = "A,B,C";
+String[] arr = data.split(",");
 ```
 
----
+### trim()
 
-## 🧵 StringBuilder and StringBuffer
+Removes leading/trailing spaces.
 
-| Feature          | String           | StringBuilder     | StringBuffer     |
-|------------------|------------------|-------------------|------------------|
-| Mutability       | Immutable        | Mutable           | Mutable          |
-| Thread-Safe      | Yes              | No                | Yes              |
-| Performance      | Slow             | Fast (single thread) | Slow (multi-threaded) |
+``` java
+String s = "   Java   ";
+System.out.println(s.trim()); // "Java"
+```
 
-```java
+### Case Conversion
+
+``` java
+"Java".toUpperCase();
+"JAVA".toLowerCase();
+```
+
+------------------------------------------------------------------------
+
+## 6. String Concatenation and Performance
+
+Using `+` repeatedly creates many temporary objects.
+
+``` java
+String result = "";
+
+for (int i = 0; i < 5; i++) {
+    result += i;
+}
+```
+
+Better approach → StringBuilder.
+
+------------------------------------------------------------------------
+
+## 7. StringBuilder (Mutable, Not Thread-Safe)
+
+### What is StringBuilder?
+
+A mutable sequence of characters introduced in Java 5.
+
+### Characteristics
+
+-   Mutable (can modify without creating new object)
+-   Not synchronized → not thread-safe
+-   High performance
+-   Ideal for single-thread scenarios
+
+``` java
 StringBuilder sb = new StringBuilder("Hello");
+sb.append(" Java");
+```
+
+### Important Methods
+
+#### append()
+
+Adds data at end.
+
+``` java
 sb.append(" World");
-System.out.println(sb); // Hello World
 ```
 
----
+#### insert()
 
-## 🔄 String Concatenation
+Adds data at specific index.
 
-### Using `+` Operator
-```java
-String full = "Java" + " Developer";
+``` java
+sb.insert(5, " Amazing");
 ```
 
-### Using `concat()`
-```java
-String result = "Java".concat(" Rocks");
+#### delete()
+
+Removes characters between indices.
+
+``` java
+sb.delete(5, 13);
 ```
 
-### Using `StringBuilder` (best performance)
-```java
-StringBuilder sb = new StringBuilder();
-sb.append("Java");
-sb.append(" is awesome");
-String result = sb.toString();
+#### replace()
+
+Replaces characters in range.
+
+``` java
+sb.replace(0, 5, "Hi");
 ```
 
----
+#### reverse()
 
-## 🔐 String Interning
+Reverses sequence.
+
+``` java
+sb.reverse();
+```
+
+#### capacity()
+
+Returns current capacity.
+
+``` java
+System.out.println(sb.capacity());
+```
+
+#### ensureCapacity()
+
+Ensures minimum capacity.
+
+``` java
+sb.ensureCapacity(100);
+```
+
+### Complete Example
+
+``` java
+public class BuilderDemo {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Java");
+
+        sb.append(" Programming");
+        sb.insert(4, " Language");
+        sb.replace(0, 4, "Core");
+        sb.delete(4, 13);
+        sb.reverse();
+
+        System.out.println(sb);
+    }
+}
+```
+
+------------------------------------------------------------------------
+
+## 8. StringBuffer (Mutable, Thread-Safe)
+
+### What is StringBuffer?
+
+A mutable sequence of characters similar to StringBuilder but
+synchronized.
+
+### Characteristics
+
+-   Mutable
+-   Thread-safe (synchronized)
+-   Slower than StringBuilder
+-   Used in multi-threaded environments
+
+``` java
+StringBuffer sb = new StringBuffer("Hello");
+sb.append(" Java");
+```
+
+### Methods
+
+Same as StringBuilder:
+
+-   append()
+-   insert()
+-   delete()
+-   replace()
+-   reverse()
+-   capacity()
+-   ensureCapacity()
+
+### Example
+
+``` java
+public class BufferDemo {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("Multi");
+
+        sb.append(" Thread");
+        sb.insert(5, " Safe");
+        sb.delete(5, 10);
+        sb.reverse();
+
+        System.out.println(sb);
+    }
+}
+```
+
+------------------------------------------------------------------------
+
+## 9. String vs StringBuilder vs StringBuffer
+
+
+| Feature       | String | StringBuilder | StringBuffer |
+|--------------|--------|---------------|--------------|
+| Mutable       | No     | Yes           | Yes          |
+| Thread-safe   | Yes    | No            | Yes          |
+| Performance   | Slow   | Fast          | Medium       |
+
+------------------------------------------------------------------------
+
+## 10. String Interning
 
 Interning ensures that **all identical strings** point to the **same memory location** in the pool.
 
 ```java
 String a = new String("Test");
 String b = a.intern(); // refers to "Test" in the pool
+System.out.println(s2 == "Test"); // true
 ```
 
----
+------------------------------------------------------------------------
 
-## 📘 Sample Program
+## 11. Conversions
 
-```java
-public class StringDemo {
-    public static void main(String[] args) {
-        String s = "Java Programming";
+### String → int
 
-        System.out.println("Length: " + s.length());
-        System.out.println("Upper: " + s.toUpperCase());
-        System.out.println("Contains 'Java': " + s.contains("Java"));
-        System.out.println("Substring: " + s.substring(5));
-    }
+``` java
+int num = Integer.parseInt("123");
+```
+
+### int → String
+
+``` java
+String s = String.valueOf(123);
+```
+
+### String → char\[\]
+
+``` java
+char[] arr = str.toCharArray();
+```
+
+------------------------------------------------------------------------
+
+## 12. Practical Programs
+
+### Reverse String
+
+``` java
+String input = "Automation";
+String rev = new StringBuilder(input).reverse().toString();
+```
+
+### Palindrome Check
+
+``` java
+String s = "madam";
+boolean isPal = s.equals(
+    new StringBuilder(s).reverse().toString()
+);
+```
+
+### Count Vowels
+
+``` java
+String s = "Automation";
+int count = 0;
+
+for (char c : s.toLowerCase().toCharArray()) {
+    if ("aeiou".indexOf(c) != -1) count++;
 }
 ```
+
+------------------------------------------------------------------------
+
+## 13. When to Use What
+
+Use String when:
+
+-   Data is constant
+-   Few modifications
+
+Use StringBuilder when:
+
+-   Frequent modifications
+-   Single-threaded programs
+
+Use StringBuffer when:
+
+-   Multi-threaded modifications
+-   Need synchronization
 
 ---
 
@@ -208,14 +488,4 @@ public class StringDemo {
 - Practice questions on `substring`, `replace`, `split`
 - Know differences between `String`, `StringBuilder`, and `StringBuffer`
 
----
-
-## 📚 Related Classes
-
-- `StringBuilder`
-- `StringBuffer`
-- `Pattern` & `Matcher` (for regex)
-- `StringTokenizer` (legacy)
-
----
-
+---------------------------------------------------------------------

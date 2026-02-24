@@ -16,9 +16,9 @@ There are **two main types** of type casting in Java:
 
 ### 1. Widening (Implicit) Casting
 
-- Also called **automatic type casting** or **upcasting**.
+- Also called **automatic type casting** or **upcasting** or **type promotion** or **numeric promotion**.
 - Converts a smaller data type to a larger data type (less to more bytes).
-- **No data loss** occurs.
+- The advantage with this is **No data loss** occurs.
 - Java does this **automatically**.
 
 
@@ -32,7 +32,7 @@ System.out.println(myInt);      // 9
 System.out.println(myDouble);   // 9.0
 ```
 
-- Other widening casts: `byte → short → char → int → long → float → double`
+- Other widening casts: `byte(1b) → short(2b) → char(2b) → int(4b) → long(8b) → float(4b) → double(8b)`
 
 ***
 
@@ -40,7 +40,7 @@ System.out.println(myDouble);   // 9.0
 
 - Also called **manual type casting** or **downcasting**.
 - Converts a larger data type to a smaller data type (more to fewer bytes).
-- **Potential data loss** (e.g., fraction truncated, overflow).
+- The dis-advantage with this is **Potential data loss** (e.g., fraction truncated, overflow).
 - You must tell Java to do it **explicitly** with a cast operator.
 
 

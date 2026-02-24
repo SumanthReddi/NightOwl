@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: Control Flow Statements
 ---
 
 In Java, **control flow** means the order in which your program runs instructions. By default, it runs from top to bottom, one line after another. But sometimes, you want your program to make choices, repeat actions, or skip certain things. This is where **control flow statements** come in—they help your program decide what to do and when.
@@ -58,11 +59,20 @@ if (accountActive) {
 switch (dayOfWeek) {
     case 1: System.out.println("Monday"); break;
     case 2: System.out.println("Tuesday"); break;
-    default: System.out.println("Invalid day");
+    default: System.out.println("Unknown");
 }
 ```
+⚠️ `break` is mandatory to prevent fall-through.
 
+- **Modern switch Statement (Java 14+)** 
 
+```java
+String dayName = switch (day) {
+    case 1 -> "Monday";
+    case 2 -> "Tuesday";
+    default -> "Unknown";
+};
+```
 ***
 
 ### Looping Statements
@@ -227,6 +237,3 @@ for (int i = 0, len = arr.length; i < len; i++) {
     // loop body
 }
 ```
-
-
-***

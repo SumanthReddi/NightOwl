@@ -7,6 +7,21 @@ sidebar_position: 6
 ## 📌 What is an Array?
 An **array** is a **collection of elements of the same data type**, stored in contiguous memory locations.
 
+In simple **Array** in Java is a **data structure** that allows you to store multiple values of the same data type in a single variable, instead of declaring separate variables for each value.
+
+### Example:
+Instead of:
+```java
+int mark1 = 90;
+int mark2 = 85;
+int mark3 = 76;
+```
+
+You can write:
+```java
+int[] marks = {90, 85, 76};
+```
+
 ### ✅ Key Points
 - Arrays in Java are **objects**.
 - Arrays can be of **primitive types** or **objects**.
@@ -34,6 +49,27 @@ int[] marks = {90, 85, 76, 92, 88}; // Static initialization
 
 ---
 
+## 🏗️ Memory Representation
+
+Arrays are stored in **contiguous memory locations**, which allows efficient indexed access.
+
+```
+Index:   0     1     2     3     4
+Data :  90    85    76    92    88
+```
+---
+
+## 🔎 Array Object in Java
+
+When you create an array, Java internally does:
+
+```java
+int[] arr = new int[5];
+```
+
+Java creates an object of type `int[]` with default values set to 0.
+
+---
 ## 🧠 Default Values
 | Data Type | Default Value |
 |-----------|----------------|
@@ -41,6 +77,22 @@ int[] marks = {90, 85, 76, 92, 88}; // Static initialization
 | double    | 0.0            |
 | boolean   | false          |
 | Object    | null           |
+
+---
+
+## 📚 Characteristics of Arrays in Java
+
+1. **Fixed Size:** Once created, its size cannot be changed.
+2. **Homogeneous Elements:** All elements must be of the same type.
+3. **Indexed Access:** First index is 0, last index is (length - 1).
+4. **Stored in Heap Memory:** Arrays are objects in Java and allocated in heap.
+
+---
+## 🎯 Why Use Arrays?
+
+- **Efficient Data Management:** Store multiple elements without multiple variables.
+- **Indexed Access:** Quickly access any element using its index.
+- **Improves Code Readability and Maintenance**
 
 ---
 
@@ -78,14 +130,18 @@ int len = arr.length; // No parenthesis (it's a field, not method)
 
 ---
 
-## 📊 Types of Arrays
+## 🧾 Types of Arrays
 
 ### 1. **Single Dimensional Array**
+
+A simple linear structure:
 ```java
-int[] nums = new int[3];
+int[] arr = {1, 2, 3};
 ```
 
 ### 2. **Multi-Dimensional Array**
+
+Used to represent tables, matrices:
 ```java
 int[][] matrix = new int[3][3];
 matrix[0][1] = 5;
@@ -105,10 +161,9 @@ int[][] matrix = {
 An array of arrays where inner arrays can have different lengths.
 
 ```java
-int[][] jagged = new int[3][];
-jagged[0] = new int[2];
-jagged[1] = new int[3];
-jagged[2] = new int[1];
+int[][] jagged = new int[2][];
+jagged[0] = new int[3]; // Row 0 has 3 columns
+jagged[1] = new int[2]; // Row 1 has 2 columns
 ```
 
 ---
@@ -179,9 +234,10 @@ System.out.println(arr[5]); // Throws exception
 - Efficient in memory for fixed-size data
 
 ### ❌ Limitations:
-- Fixed size
+- Arrays are Fixed in size , once created it can;t be modified.
 - No built-in dynamic resizing
-- Can’t mix data types
+- Arrays expect contiguos memory location in the memory for creation. It can;t make ise of disperse memory location.
+- Can store only homogeneous type of data , can’t mix of data types
 
 ---
 
@@ -190,10 +246,11 @@ System.out.println(arr[5]); // Throws exception
 | Feature        | Array                  | ArrayList                |
 |----------------|------------------------|--------------------------|
 | Size           | Fixed                  | Dynamic                  |
-| Type           | Primitives/Objects     | Objects only             |
+| Type Support   | Primitives/Objects     | Objects only             |
 | Performance    | Faster (less overhead) | Slower (more overhead)   |
 | Utilities      | Basic                  | Rich (add/remove/search) |
 | Syntax         | Native                 | Uses methods             |
+| Methods        | Few                    | Rich API Support             |
 
 ---
 
@@ -223,107 +280,6 @@ public class ArrayExample {
     }
 }
 ```
-
-# 📘 Java Arrays - Complete Theoretical + Practical Notes
-
-## 🧠 What is an Array?
-
-An **Array** in Java is a **data structure** that allows you to store multiple values of the same data type in a single variable, instead of declaring separate variables for each value.
-
-### Example:
-Instead of:
-```java
-int mark1 = 90;
-int mark2 = 85;
-int mark3 = 76;
-```
-
-You can write:
-```java
-int[] marks = {90, 85, 76};
-```
-
----
-
-## 🎯 Why Use Arrays?
-
-- **Efficient Data Management:** Store multiple elements without multiple variables.
-- **Indexed Access:** Quickly access any element using its index.
-- **Improves Code Readability and Maintenance**
-
----
-
-## 🏗️ Memory Representation
-
-Arrays are stored in **contiguous memory locations**, which allows efficient indexed access.
-
-```
-Index:   0     1     2     3     4
-Data :  10    20    30    40    50
-```
-
----
-
-## 📚 Characteristics of Arrays in Java
-
-1. **Fixed Size:** Once created, its size cannot be changed.
-2. **Homogeneous Elements:** All elements must be of the same type.
-3. **Indexed Access:** First index is 0, last index is (length - 1).
-4. **Stored in Heap Memory:** Arrays are objects in Java and allocated in heap.
-
----
-
-## 🔎 Array Object in Java
-
-When you create an array, Java internally does:
-
-```java
-int[] arr = new int[5];
-```
-
-Java creates an object of type `int[]` with default values set to 0.
-
----
-
-## 🧾 Types of Arrays
-
-### Single Dimensional Array
-
-A simple linear structure:
-```java
-int[] arr = {1, 2, 3};
-```
-
-### Multi-Dimensional Array
-
-Used to represent tables, matrices:
-```java
-int[][] matrix = {
-    {1, 2},
-    {3, 4}
-};
-```
-
-### Jagged Array
-
-Array of arrays with different column sizes:
-```java
-int[][] jagged = new int[2][];
-jagged[0] = new int[3]; // Row 0 has 3 columns
-jagged[1] = new int[2]; // Row 1 has 2 columns
-```
-
----
-
-## 🧮 Array vs Collections
-
-| Feature        | Array        | Collection (ArrayList, etc.) |
-|----------------|--------------|-------------------------------|
-| Size           | Fixed        | Dynamic                      |
-| Performance    | Fast         | Slower (more overhead)       |
-| Type Support   | Primitives   | Only Objects                 |
-| Methods        | Few          | Rich API Support             |
-
 ---
 
 ## 🧪 Internal Working

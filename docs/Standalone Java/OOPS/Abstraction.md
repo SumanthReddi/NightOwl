@@ -7,11 +7,14 @@ In Java, the **abstract keyword** is used to define classes and methods that are
 
 - Abstraction is the process of **hiding complex implementation details** and showing only the **essential features** to the user.
 - It focuses on **what an object does** instead of **how it does it**.
+- If a class contains one or more abstract methods, the class itself must be declared abstract.
 - Achieved in Java using either **abstract classes** or **interfaces**.
+    - abstraction classes achives partial abstraction.
+    - interfaces achives 100% of abstraction.
 
-An **abstract class** in Java is a class that **cannot be instantiated** directly. It is intended to be a **base class** for other classes.
+An **abstract class** in Java is a class that **cannot be instantiated** directly (no objects can be created from it). It is intended to be a **base class** for other classes.
 
-- Declared with the `abstract` keyword.
+- Declared with the `abstract` keyword before the `class` keyword.
 - It may contain **abstract methods** (methods without a body) and **concrete methods** (methods with implementation). 
 - Defines a **common template** for subclasses, but some behavior is left for subclasses to implement.
 - Abstract classes are usually extended by other classes which provide the missing implementations.
