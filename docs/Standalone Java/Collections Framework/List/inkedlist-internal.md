@@ -1,306 +1,176 @@
 ---
 sidebar_position: 2
-title: LinkedList Internal Working
+title: LinkedList
 ---
+<!-- # 02-linkedlist -->
 
-# LinkedList
+## The `LinkedList` Class in Java
 
-This document explains:
-
--   Internal data structure of LinkedList
--   Node class structure
--   first / last references
--   Add / Remove internal mechanics
--   Traversal logic
--   Time complexity breakdown
--   Memory overhead vs ArrayList
--   Queue & Deque behavior
--   Fail-fast mechanism
--   Automation relevance
--   Interview-level traps
+The `LinkedList` class is another implementation of the `List` interface
+in the Java Collection Framework. Unlike `ArrayList`, which uses a
+dynamic array, `LinkedList` is based on a **doubly-linked list**. This
+makes it particularly efficient for scenarios involving frequent
+insertions and deletions.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is LinkedList?
+## Key Characteristics of `LinkedList`
 
-LinkedList is a doubly-linked list implementation of:
-
-• List\
-• Deque\
-• Queue
-
-Definition:
-
-``` java
-public class LinkedList<E>
-    extends AbstractSequentialList<E>
-    implements List<E>, Deque<E>, Cloneable, Serializable
-```
-
-Important:
-
-• Not backed by array\
-• Uses nodes\
-• Allows duplicates\
-• Maintains insertion order\
-• Not thread-safe
+-   **Doubly Linked Structure** (previous + next node)
+-   **Efficient insertions and deletions**
+-   **Slower random access**
+-   Implements **List + Deque**
+-   **Not thread-safe**
 
 ------------------------------------------------------------------------
 
-# 2️⃣ Internal Data Structure
+## Common Use Cases
 
-Core fields:
+-   Frequent **insertions and deletions**
+-   Implementing **queues**
+-   Implementing **stacks**
+-   Implementing **deques**
+
+------------------------------------------------------------------------
+
+## Important Methods
+
+| Method              | Description                         |
+|---------------------|-------------------------------------|
+| `addFirst(E e)`     | Inserts element at beginning        |
+| `addLast(E e)`      | Inserts element at end              |
+| `getFirst()`        | Retrieves first element             |
+| `getLast()`         | Retrieves last element              |
+| `removeFirst()`     | Removes first element               |
+| `removeLast()`      | Removes last element                |
+| `offerFirst(E e)`   | Adds element to front               |
+| `offerLast(E e)`    | Adds element to end                 |
+| `pollFirst()`       | Retrieves & removes first element   |
+| `pollLast()`        | Retrieves & removes last element    |
+
+------------------------------------------------------------------------
+
+## Example 1: Basic List Operations
 
 ``` java
-transient int size = 0;
-transient Node<E> first;
-transient Node<E> last;
-```
+import java.util.LinkedList;
+import java.util.List;
 
-Node structure:
+public class LinkedListExample {
 
-``` java
-private static class Node<E> {
-    E item;
-    Node<E> next;
-    Node<E> prev;
+    public static void main(String[] args) {
+
+        List<String> fruits = new LinkedList<>();
+
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
+
+        System.out.println("Fruits: " + fruits);
+
+        System.out.println("First fruit: " + fruits.get(0));
+
+        fruits.set(1, "Mango");
+
+        System.out.println("After replacement: " + fruits);
+
+        fruits.remove("Cherry");
+
+        System.out.println("After removal: " + fruits);
+    }
 }
 ```
 
-It is a **doubly linked list**.
-
-Each node has:
-
-• Data\
-• Reference to next\
-• Reference to previous
-
 ------------------------------------------------------------------------
 
-# 3️⃣ Visual Structure
-
-Example:
-
-List: \[A, B, C\]
-
-Structure:
-
-null ← A ↔ B ↔ C → null
-
-first → A\
-last → C
-
-------------------------------------------------------------------------
-
-# 4️⃣ add(E e) -- Internal Flow
-
-Adding at end:
-
-1.  Create new node
-2.  last.next → newNode
-3.  newNode.prev → oldLast
-4.  Update last reference
-5.  size++
-
-Time Complexity: O(1)
-
-------------------------------------------------------------------------
-
-# 5️⃣ add(int index, E element)
-
-Steps:
-
-1.  Locate node at index (traversal required)
-2.  Adjust next/prev pointers
-3.  Insert new node
-
-Time Complexity:
-
-Traversal → O(n)\
-Insertion → O(1)
-
-Overall → O(n)
-
-------------------------------------------------------------------------
-
-# 6️⃣ get(int index)
-
-LinkedList must traverse from:
-
-• start if index \< size/2\
-• end if index \> size/2
-
-Time Complexity: O(n)
-
-This is why LinkedList is slow for random access.
-
-------------------------------------------------------------------------
-
-# 7️⃣ remove(int index)
-
-Steps:
-
-1.  Locate node
-2.  Adjust prev.next and next.prev
-3.  Clear node references
-4.  size--
-
-Time Complexity: O(n) due to traversal
-
-------------------------------------------------------------------------
-
-# 8️⃣ Difference from ArrayList
-
-  Feature               ArrayList       LinkedList
-  --------------------- --------------- ---------------------
-  Backing structure     Dynamic array   Doubly linked nodes
-  Random access         O(1)            O(n)
-  Insert at beginning   O(n)            O(1)
-  Memory usage          Low             High
-  Cache friendly        Yes             No
-
-------------------------------------------------------------------------
-
-# 9️⃣ Memory Overhead
-
-Each node stores:
-
-• Object reference (item) • next reference • prev reference
-
-So per element, extra memory cost.
-
-LinkedList uses significantly more memory than ArrayList.
-
-------------------------------------------------------------------------
-
-# 🔟 Deque & Queue Behavior
-
-LinkedList implements Deque.
-
-So it supports:
+## Example 2: LinkedList as Deque
 
 ``` java
-addFirst()
-addLast()
-removeFirst()
-removeLast()
-peekFirst()
-peekLast()
-```
+import java.util.LinkedList;
 
-Example:
+public class LinkedListAsDequeExample {
 
-``` java
-LinkedList<String> list = new LinkedList<>();
-list.addFirst("A");
-list.addLast("B");
-```
+    public static void main(String[] args) {
 
-Efficient for queue operations.
+        LinkedList<String> tasks = new LinkedList<>();
 
-------------------------------------------------------------------------
+        tasks.addFirst("Task 1");
+        tasks.addLast("Task 2");
+        tasks.addFirst("Task 0");
 
-# 1️⃣1️⃣ modCount & Fail-Fast
+        System.out.println(tasks);
 
-LinkedList extends AbstractList → uses modCount.
+        System.out.println("First Task: " + tasks.peekFirst());
+        System.out.println("Last Task: " + tasks.peekLast());
 
-Any structural modification:
+        System.out.println("Removed First: " + tasks.pollFirst());
+        System.out.println("Removed Last: " + tasks.pollLast());
 
-modCount++
-
-Iterator compares expectedModCount.
-
-Fail-fast behavior similar to ArrayList.
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Time Complexity Summary
-
-  Operation     Complexity
-  ------------- ------------
-  add() end     O(1)
-  add(i)        O(n)
-  get(i)        O(n)
-  remove(i)     O(n)
-  addFirst      O(1)
-  removeFirst   O(1)
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ When to Use LinkedList
-
-Good for:
-
-✓ Frequent insertions at beginning\
-✓ Frequent removals at beginning\
-✓ Queue / Deque operations
-
-Not good for:
-
-✗ Frequent random access\
-✗ Memory-sensitive systems
-
-------------------------------------------------------------------------
-
-# 1️⃣4️⃣ Automation Framework Relevance
-
-Rarely preferred over ArrayList.
-
-But useful when:
-
-• Implementing queue for processing tasks\
-• BFS-like operations\
-• Managing ordered test execution pipelines
-
-Example:
-
-``` java
-Queue<String> queue = new LinkedList<>();
-queue.offer("Task1");
-queue.poll();
+        System.out.println("Remaining Tasks: " + tasks);
+    }
+}
 ```
 
 ------------------------------------------------------------------------
 
-# 1️⃣5️⃣ Interview Questions
+## Example 3: LinkedList as Stack
 
-Q: Why is LinkedList slow for get()?\
-A: Requires traversal.
+``` java
+import java.util.LinkedList;
 
-Q: Which is better -- ArrayList or LinkedList? A: Depends on use-case.
+public class LinkedListAsStackExample {
 
-Q: Does LinkedList use array internally? A: No, it uses nodes.
+    public static void main(String[] args) {
 
-Q: Why is memory overhead high? A: Each node stores two extra
-references.
+        LinkedList<Integer> stack = new LinkedList<>();
+
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+
+        System.out.println("Stack: " + stack);
+
+        System.out.println("Popped: " + stack.pop());
+        System.out.println("Popped: " + stack.pop());
+
+        System.out.println("Remaining Stack: " + stack);
+    }
+}
+```
 
 ------------------------------------------------------------------------
 
-# 1️⃣6️⃣ Advanced Insight
+## Performance Characteristics
 
-Although insertion is O(1) after locating node, locating node itself
-costs O(n).
-
-Therefore LinkedList is not always faster for insertions.
-
-Many developers incorrectly assume LinkedList is always better for
-insertions.
+| Operation       | Complexity |
+|-----------------|------------|
+| get(index)      | O(n)       |
+| addFirst()      | O(1)       |
+| addLast()       | O(1)       |
+| removeFirst()   | O(1)       |
+| removeLast()    | O(1)       |
 
 ------------------------------------------------------------------------
 
-# Final Mastery Checklist
+## When to Use LinkedList
 
-You must understand:
+Use **LinkedList** when:
 
-✓ Node-based structure\
-✓ first / last references\
-✓ Traversal cost\
-✓ Memory overhead\
-✓ Queue behavior\
-✓ Fail-fast mechanism\
-✓ Real-world trade-offs\
-✓ Interview-level clarity
+-   Many **insertions/deletions**
+-   Implementing **Deque**
+-   Implementing **Stack / Queue**
 
-Next file:
+Avoid when:
 
-vector.md
+-   **Random access** is required frequently.
+
+------------------------------------------------------------------------
+
+## LinkedList vs ArrayList
+
+| Feature                | LinkedList           | ArrayList        |
+|------------------------|----------------------|------------------|
+| Structure              | Doubly Linked List   | Dynamic Array    |
+| Random Access          | Slow O(n)            | Fast O(1)        |
+| Insert/Delete Middle   | Faster               | Slower           |
+| Memory                 | Higher               | Lower            |

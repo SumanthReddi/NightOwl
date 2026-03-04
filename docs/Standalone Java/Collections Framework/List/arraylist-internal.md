@@ -2,330 +2,182 @@
 sidebar_position: 1
 title: ArrayList
 ---
+<!-- # 01-arraylist -->
 
-# ArrayList
+## The `ArrayList` Class in Java
 
-This document explains:
-
--   Internal data structure of ArrayList
--   elementData\[\] array mechanics
--   Default capacity behavior
--   Capacity growth formula
--   ensureCapacity() logic
--   Resizing cost analysis
--   Add / Remove internal behavior
--   modCount & fail-fast mechanism
--   Memory footprint discussion
--   Performance complexity breakdown
--   Automation framework relevance
--   Interview-level edge cases
+The `ArrayList` class is one of the most commonly used implementations
+of the `List` interface in the Java Collection Framework. It represents
+a **resizable array** that dynamically grows or shrinks as elements are
+added or removed. Unlike arrays in Java, which have a fixed size,
+`ArrayList` provides flexibility and convenience for managing
+collections of objects.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is ArrayList?
+## Key Characteristics of `ArrayList`
 
-ArrayList is a resizable array implementation of List.
+-   **Dynamic Resizing**: Automatically resizes when elements are added
+    or removed.
+-   **Random Access**: Fast index-based access (`O(1)` for `get()` and
+    `set()`).
+-   **Duplicates Allowed**
+-   **Maintains Insertion Order**
+-   **Not Thread-Safe**
 
-Definition:
+For thread safety you can use:
+
+-   `Collections.synchronizedList()`
+-   `CopyOnWriteArrayList`
+
+------------------------------------------------------------------------
+
+## Common Use Cases
+
+-   Maintaining ordered collections
+-   Frequent **index-based access**
+-   Dynamically changing list sizes
+
+------------------------------------------------------------------------
+
+## Important Methods
+
+| Method                             | Description                   |
+|------------------------------------|-------------------------------|
+| `boolean add(E e)`                 | Adds element at end           |
+| `void add(int index, E element)`   | Adds element at index         |
+| `E get(int index)`                 | Returns element               |
+| `E set(int index, E element)`      | Replaces element              |
+| `E remove(int index)`              | Removes element               |
+| `boolean remove(Object o)`         | Removes first occurrence      |
+| `int size()`                       | Returns size                  |
+| `boolean isEmpty()`                | Checks if empty               |
+| `boolean contains(Object o)`       | Checks presence               |
+| `Object[] toArray()`               | Converts to array             |
+
+------------------------------------------------------------------------
+
+## Example 1: Basic Operations
 
 ``` java
-public class ArrayList<E> 
-        extends AbstractList<E>
-        implements List<E>, RandomAccess, Cloneable, Serializable
-```
+import java.util.ArrayList;
+import java.util.List;
 
-Important:
+public class ArrayListExample {
 
-• Backed by dynamic array\
-• Allows duplicates\
-• Maintains insertion order\
-• Not thread-safe\
-• Fast random access
+    public static void main(String[] args) {
 
-------------------------------------------------------------------------
+        List<String> fruits = new ArrayList<>();
 
-# 2️⃣ Internal Data Structure
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
 
-Core field inside ArrayList:
+        System.out.println("Fruits: " + fruits);
 
-``` java
-transient Object[] elementData;
-private int size;
-```
+        System.out.println("First fruit: " + fruits.get(0));
 
-elementData → underlying array\
-size → number of elements currently stored
+        fruits.set(1, "Mango");
 
-Capacity ≠ Size
+        System.out.println("After replacement: " + fruits);
 
-Capacity = array length\
-Size = actual elements stored
+        fruits.remove("Cherry");
 
-------------------------------------------------------------------------
+        System.out.println("After removal: " + fruits);
 
-# 3️⃣ Default Capacity Behavior
-
-In Java 8+:
-
-When created using:
-
-``` java
-ArrayList<String> list = new ArrayList<>();
-```
-
-Initial capacity is 0.
-
-But first element addition triggers resize to 10.
-
-So default capacity = 10 (after first add).
-
-------------------------------------------------------------------------
-
-# 4️⃣ Capacity Growth Formula
-
-When array becomes full:
-
-New capacity calculated as:
-
-    newCapacity = oldCapacity + (oldCapacity >> 1)
-
-Which equals:
-
-1.5 × oldCapacity
-
-Example:
-
-Old: 10\
-New: 15\
-Next: 22\
-Next: 33
-
-This balances memory usage & performance.
-
-------------------------------------------------------------------------
-
-# 5️⃣ ensureCapacity()
-
-You can manually set capacity:
-
-``` java
-list.ensureCapacity(100);
-```
-
-Useful when expected size known.
-
-Avoids multiple resizing operations.
-
-------------------------------------------------------------------------
-
-# 6️⃣ add(E e) -- Internal Flow
-
-``` java
-public boolean add(E e) {
-    ensureCapacityInternal(size + 1);
-    elementData[size++] = e;
-    return true;
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+    }
 }
 ```
 
-Steps:
-
-1.  Ensure capacity
-2.  Insert element
-3.  Increase size
-
-Time Complexity:
-
-O(1) amortized
-
 ------------------------------------------------------------------------
 
-# 7️⃣ Resizing Cost
-
-When capacity exceeded:
-
-1.  New larger array created
-2.  Old elements copied
-3.  Old array discarded
-
-Copy operation cost = O(n)
-
-But resizing doesn't happen every time. Hence amortized O(1).
-
-------------------------------------------------------------------------
-
-# 8️⃣ get(int index)
+## Example 2: Dynamic Resizing
 
 ``` java
-return (E) elementData[index];
+import java.util.ArrayList;
+import java.util.List;
+
+public class DynamicResizingExample {
+
+    public static void main(String[] args) {
+
+        List<Integer> numbers = new ArrayList<>();
+
+        for (int i = 1; i <= 10; i++) {
+            numbers.add(i);
+        }
+
+        System.out.println(numbers);
+
+        numbers.removeIf(n -> n % 2 == 0);
+
+        System.out.println("After removing evens: " + numbers);
+    }
+}
 ```
 
-Time Complexity: O(1)
-
-Reason: Direct index access.
-
-This is why ArrayList is fast for random access.
-
 ------------------------------------------------------------------------
 
-# 9️⃣ add(int index, E element)
-
-Inserts at specific position.
-
-Steps:
-
-1.  Shift elements to right
-2.  Insert element
-
-Time Complexity: O(n)
-
-Because shifting required.
-
-------------------------------------------------------------------------
-
-# 🔟 remove(int index)
+## Example 3: Converting to Array
 
 ``` java
-System.arraycopy(elementData, index+1,
-                 elementData, index,
-                 size-index-1);
-size--;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListToArrayExample {
+
+    public static void main(String[] args) {
+
+        List<String> colors = new ArrayList<>();
+
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+
+        String[] colorArray = colors.toArray(new String[0]);
+
+        System.out.println(String.join(", ", colorArray));
+    }
+}
 ```
 
-Shifts elements left.
+------------------------------------------------------------------------
 
-Time Complexity: O(n)
+## Performance Characteristics
+
+| Operation           | Complexity        |
+|---------------------|-------------------|
+| get()               | O(1)              |
+| set()               | O(1)              |
+| add() (end)         | O(1) amortized    |
+| add() (middle)      | O(n)              |
+| remove() (middle)   | O(n)              |
 
 ------------------------------------------------------------------------
 
-# 1️⃣1️⃣ modCount Mechanism
+## When to Use ArrayList
 
-ArrayList extends AbstractList.
+Use **ArrayList** when:
 
-AbstractList maintains:
+-   Random access is frequent
+-   Insertions mostly happen at the **end**
+-   You need **ordered collections**
 
-``` java
-protected transient int modCount = 0;
-```
+Avoid when:
 
-Whenever structural modification happens:
-
-modCount++
-
-Iterator stores expectedModCount.
-
-If mismatch → ConcurrentModificationException.
-
-Fail-fast behavior implemented here.
+-   Many insertions/deletions occur in the **middle of the list**
+-   Prefer `LinkedList` in those cases.
 
 ------------------------------------------------------------------------
 
-# 1️⃣2️⃣ Memory Footprint
+## ArrayList vs LinkedList
 
-Each ArrayList object contains:
-
-• Object header\
-• elementData reference\
-• size\
-• modCount
-
-Underlying array stores references (not objects).
-
-So memory depends on:
-
-Number of elements + unused capacity.
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Time Complexity Summary
-
-  Operation   Complexity
-  ----------- ----------------
-  add() end   O(1) amortized
-  add(i)      O(n)
-  remove(i)   O(n)
-  get(i)      O(1)
-  contains    O(n)
-
-------------------------------------------------------------------------
-
-# 1️⃣4️⃣ When to Use ArrayList
-
-Best for:
-
-✓ Frequent reads\
-✓ Random access\
-✓ Iteration\
-✓ Appending elements
-
-Not ideal for:
-
-✗ Frequent middle insertions\
-✗ Frequent removals from beginning
-
-------------------------------------------------------------------------
-
-# 1️⃣5️⃣ Automation Framework Relevance
-
-ArrayList commonly used for:
-
-• Storing WebElements\
-• Maintaining execution steps\
-• Capturing logs\
-• Test data storage\
-• Collecting API responses
-
-Example:
-
-``` java
-List<WebElement> elements = driver.findElements(By.tagName("a"));
-```
-
-Random access useful when validating specific index elements.
-
-------------------------------------------------------------------------
-
-# 1️⃣6️⃣ Interview Questions
-
-Q: Default capacity of ArrayList? A: 10 (after first element added).
-
-Q: Growth factor? A: 1.5 times old capacity.
-
-Q: Why is get() O(1)? A: Backed by array.
-
-Q: Why is remove slow? A: Requires shifting elements.
-
-Q: Is ArrayList thread-safe? A: No.
-
-------------------------------------------------------------------------
-
-# 1️⃣7️⃣ Advanced Edge Case
-
-Creating with capacity:
-
-``` java
-new ArrayList<>(1000);
-```
-
-Allocates array of size 1000 immediately.
-
-Better when expected size known.
-
-------------------------------------------------------------------------
-
-# Final Mastery Checklist
-
-You must understand:
-
-✓ Internal elementData\[\]\
-✓ Capacity vs size\
-✓ Growth formula\
-✓ Resizing cost\
-✓ modCount fail-fast logic\
-✓ Performance trade-offs\
-✓ Automation usage\
-✓ Interview-level clarity
-
-Next file:
-
-linkedlist-internal.md
+| Feature                | ArrayList        | LinkedList           |
+|------------------------|------------------|----------------------|
+| Structure              | Dynamic Array    | Doubly Linked List   |
+| Random Access          | Fast O(1)        | Slow O(n)            |
+| Insert/Delete Middle   | Slow             | Faster               |
+| Memory                 | Lower            | Higher               |

@@ -2,263 +2,154 @@
 sidebar_position: 3
 title: Deque Interface 
 ---
+<!-- # 04-deque-in-queues -->
 
-# Deque Interface
+## The Role of `Deque` in Queue Implementations
 
-This document explains:
+The `Deque` (Double-Ended Queue) interface plays a dual role in the Java
+Collections Framework.\
+It can behave both as a **queue (FIFO)** and a **stack (LIFO)**, making
+it one of the most versatile interfaces in the Java Collections
+Framework.
 
--   What Deque represents
--   How it differs from Queue
--   All insertion/removal methods (both ends)
--   Stack behavior using Deque
--   Internal expectations
--   Common implementations
--   Performance characteristics
--   Interview traps
--   Automation relevance
--   Code examples
+While the `Queue` interface primarily supports **single-ended
+operations**, `Deque` allows operations at **both the front and the
+back**.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is Deque?
+## Key Characteristics of `Deque`
 
-Deque stands for:
+-   Supports **double-ended operations**
+-   Can function as both **FIFO (queue)** and **LIFO (stack)**
+-   Implementations like `ArrayDeque` are **high performance**
+-   Most implementations are **not thread-safe**
+-   Thread-safe alternative: `ConcurrentLinkedDeque`
 
-Double Ended Queue
+------------------------------------------------------------------------
 
-Definition:
+## Deque vs Queue
+| Feature                 | Deque                       | Queue                         |
+|-------------------------|-----------------------------|-------------------------------|
+| Ordering                | FIFO and LIFO               | Primarily FIFO                |
+| Ends of Operation       | Both front and rear         | Mostly rear insertion, front removal |
+| Typical Methods         | `addFirst`, `addLast`, `removeFirst`, `removeLast` | `offer`, `poll`, `peek` |
+| Flexibility             | High                        | Moderate                      |
+------------------------------------------------------------------------
+
+## Using Deque as a Queue (FIFO)
 
 ``` java
-public interface Deque<E> extends Queue<E>
-```
+import java.util.ArrayDeque;
+import java.util.Deque;
 
-It allows:
+public class DequeAsQueueExample {
 
-• Insertion at front\
-• Insertion at rear\
-• Removal from front\
-• Removal from rear
+    public static void main(String[] args) {
 
-------------------------------------------------------------------------
+        Deque<String> queue = new ArrayDeque<>();
 
-# 2️⃣ Why Deque Exists
+        queue.offer("Alice");
+        queue.offer("Bob");
 
-Normal Queue → FIFO only\
-Deque → More flexible
+        System.out.println("Queue: " + queue);
 
-It can act as:
+        System.out.println("Poll: " + queue.poll());
 
-✓ Queue\
-✓ Stack\
-✓ Sliding window structure\
-✓ Double-ended buffer
-
-------------------------------------------------------------------------
-
-# 3️⃣ Core Deque Methods
-
-  Operation       Throws Exception   Returns Special Value
-  --------------- ------------------ -----------------------
-  Insert Front    addFirst(e)        offerFirst(e)
-  Insert Last     addLast(e)         offerLast(e)
-  Remove Front    removeFirst()      pollFirst()
-  Remove Last     removeLast()       pollLast()
-  Examine Front   getFirst()         peekFirst()
-  Examine Last    getLast()          peekLast()
-
-------------------------------------------------------------------------
-
-# 4️⃣ Example -- Basic Usage
-
-``` java
-import java.util.*;
-
-Deque<String> deque = new ArrayDeque<>();
-
-deque.addFirst("B");
-deque.addLast("C");
-deque.addFirst("A");
-
-System.out.println(deque);  // [A, B, C]
-```
-
-------------------------------------------------------------------------
-
-# 5️⃣ Remove Operations
-
-``` java
-System.out.println(deque.removeFirst()); // A
-System.out.println(deque.removeLast());  // C
-System.out.println(deque);              // [B]
-```
-
-------------------------------------------------------------------------
-
-# 6️⃣ Using Deque as Stack (Recommended)
-
-Instead of Stack class:
-
-``` java
-Deque<Integer> stack = new ArrayDeque<>();
-
-stack.push(10);
-stack.push(20);
-
-System.out.println(stack.pop()); // 20
-```
-
-push() = addFirst()\
-pop() = removeFirst()
-
-ArrayDeque is preferred over Stack.
-
-------------------------------------------------------------------------
-
-# 7️⃣ Using Deque as Queue
-
-``` java
-Deque<Integer> queue = new ArrayDeque<>();
-
-queue.offerLast(1);
-queue.offerLast(2);
-
-System.out.println(queue.pollFirst()); // 1
-```
-
-------------------------------------------------------------------------
-
-# 8️⃣ Common Implementations
-
-• ArrayDeque\
-• LinkedList
-
-ArrayDeque → Better performance\
-LinkedList → Node-based structure
-
-------------------------------------------------------------------------
-
-# 9️⃣ Performance Overview
-
-  Implementation   add/remove   memory
-  ---------------- ------------ ---------------------
-  ArrayDeque       O(1)         Less overhead
-  LinkedList       O(1)         More memory (nodes)
-
-ArrayDeque uses circular array internally.
-
-------------------------------------------------------------------------
-
-# 🔟 ArrayDeque Internal Concept (Preview)
-
-ArrayDeque uses:
-
-Circular array
-
-Head & tail pointers move dynamically.
-
-No shifting required like ArrayList.
-
-Time Complexity:
-
-add/remove → O(1) amortized
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Null Handling
-
-ArrayDeque does NOT allow null.
-
-``` java
-deque.add(null);  // NullPointerException
-```
-
-LinkedList allows null (but not recommended in Deque usage).
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Thread Safety
-
-Deque implementations:
-
-ArrayDeque → Not thread-safe\
-LinkedList → Not thread-safe
-
-For concurrent use:
-
-ConcurrentLinkedDeque
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Example -- Palindrome Check
-
-``` java
-public static boolean isPalindrome(String str) {
-    Deque<Character> deque = new ArrayDeque<>();
-
-    for(char c : str.toCharArray()) {
-        deque.addLast(c);
+        System.out.println("Remaining: " + queue);
     }
-
-    while(deque.size() > 1) {
-        if(deque.removeFirst() != deque.removeLast()) {
-            return false;
-        }
-    }
-    return true;
 }
 ```
 
 ------------------------------------------------------------------------
 
-# 1️⃣4️⃣ Interview Questions
-
-Q: Difference between Queue and Deque? A: Deque allows operations at
-both ends.
-
-Q: Why ArrayDeque preferred over Stack? A: Better performance, no
-synchronization overhead.
-
-Q: Does Deque allow null? A: Depends on implementation (ArrayDeque does
-not).
-
-------------------------------------------------------------------------
-
-# 1️⃣5️⃣ Automation Framework Relevance
-
-Useful for:
-
-• Implementing stack-based parsing\
-• Sliding window problems\
-• Backtracking algorithms\
-• Managing undo/redo operations\
-• Retry logic with both ends control
-
-Example:
+## Using Deque as a Stack (LIFO)
 
 ``` java
-Deque<String> testHistory = new ArrayDeque<>();
+import java.util.ArrayDeque;
+import java.util.Deque;
 
-testHistory.push("Login");
-testHistory.push("Submit");
-testHistory.pop();
+public class DequeAsStackExample {
+
+    public static void main(String[] args) {
+
+        Deque<Integer> stack = new ArrayDeque<>();
+
+        stack.push(10);
+        stack.push(20);
+
+        System.out.println("Stack: " + stack);
+
+        System.out.println("Pop: " + stack.pop());
+
+        System.out.println("Remaining: " + stack);
+    }
+}
 ```
 
 ------------------------------------------------------------------------
 
-# Final Mastery Checklist
+## Important Deque Methods
+| Method            | Description                          |
+|-------------------|--------------------------------------|
+| `addFirst()`      | Inserts element at the front         |
+| `addLast()`       | Inserts element at the rear          |
+| `offerFirst()`    | Inserts element at front safely      |
+| `offerLast()`     | Inserts element at rear safely       |
+| `removeFirst()`   | Removes first element                |
+| `removeLast()`    | Removes last element                 |
+| `peekFirst()`     | Retrieves first element              |
+| `peekLast()`      | Retrieves last element               |
+| `push()`          | Stack push operation                 |
+| `pop()`           | Stack pop operation                  |
+------------------------------------------------------------------------
 
-You must understand:
+## When to Use Deque
 
-✓ Double-ended nature\
-✓ addFirst/addLast difference\
-✓ removeFirst/removeLast\
-✓ Stack usage via Deque\
-✓ ArrayDeque advantages\
-✓ O(1) performance\
-✓ Null & thread-safety rules\
-✓ Automation use cases\
-✓ Interview clarity
+Use `Deque` when:
 
-Next file:
+-   You need **both queue and stack behavior**
+-   Elements must be added/removed from **both ends**
+-   You want a **fast stack implementation (`ArrayDeque`)**
+-   You want a **flexible data structure for algorithms**
 
-arraydeque-internal.md
+------------------------------------------------------------------------
+
+## Best Implementation Choice
+
+Prefer **ArrayDeque** in most cases.
+
+Reasons:
+
+-   Faster than `LinkedList`
+-   Better memory locality
+-   No node allocation overhead
+
+------------------------------------------------------------------------
+
+## When NOT to Use Deque
+
+Avoid using `Deque` when:
+
+-   You strictly require **priority-based ordering** → use
+    `PriorityQueue`
+-   You require **blocking behavior for threads** → use `BlockingQueue`
+-   You need **thread-safe deque operations** → use
+    `ConcurrentLinkedDeque`
+
+------------------------------------------------------------------------
+
+## Summary
+
+`Deque` is one of the most flexible interfaces in Java collections.
+
+It allows:
+
+1.  Queue behavior (FIFO)
+2.  Stack behavior (LIFO)
+3.  Double-ended operations
+4.  Efficient implementations like `ArrayDeque`
+
+Because of this versatility, `Deque` is often the **preferred
+replacement for the legacy `Stack` class** and a powerful alternative to
+standard queues.

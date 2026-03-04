@@ -1,294 +1,157 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 title: Stack Class
 ---
+<!-- # 04-stack -->
 
-# Stack Class 
+## The `Stack` Class in Java
 
-This document covers:
-
--   What Stack is
--   Why it extends Vector
--   LIFO behavior
--   Core methods with examples
--   Internal working
--   Performance characteristics
--   Why Stack is considered legacy
--   Modern alternative (Deque / ArrayDeque)
--   Real interview problems using Stack
--   Automation relevance
+The `Stack` class is a legacy implementation of a **Last-In-First-Out
+(LIFO)** stack in Java. It extends the `Vector` class and provides
+additional methods for stack-specific operations such as `push`, `pop`,
+and `peek`. While it is still part of the Java API, its usage is
+generally discouraged in favor of modern alternatives like `Deque`
+implementations (e.g., `ArrayDeque`).
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is Stack?
+## Key Characteristics of `Stack`
 
-Stack follows:
-
-Last In → First Out (LIFO)
-
-Definition:
-
-``` java
-public class Stack<E> extends Vector<E>
-```
-
-Important:
-
-• Backed by Vector\
-• Synchronized\
-• Legacy class\
-• Maintains insertion order
+-   **LIFO Behavior**: Last element inserted is the first one removed.
+-   **Legacy Implementation**: Introduced in Java 1.0.
+-   **Thread Safety**: Inherits synchronization from `Vector`.
+-   **Limited Versatility** compared to modern collections.
 
 ------------------------------------------------------------------------
 
-# 2️⃣ Basic Stack Operations
+## Common Use Cases
 
-## push()
-
-Adds element to top.
-
-``` java
-Stack<Integer> stack = new Stack<>();
-stack.push(10);
-stack.push(20);
-stack.push(30);
-
-System.out.println(stack);  // [10, 20, 30]
-```
+-   Expression parsing
+-   Backtracking algorithms
+-   Undo/redo functionality
+-   Legacy systems using `Stack`
 
 ------------------------------------------------------------------------
 
-## pop()
+## Important Methods
 
-Removes top element.
-
-``` java
-System.out.println(stack.pop());  // 30
-System.out.println(stack);        // [10, 20]
-```
-
-Time Complexity: O(1)
-
-------------------------------------------------------------------------
-
-## peek()
-
-Returns top element without removing.
-
-``` java
-System.out.println(stack.peek());  // 20
-```
+  Method                   Description
+  ------------------------ -----------------------------
+  `E push(E item)`         Push element to top
+  `E pop()`                Remove and return top
+  `E peek()`               View top element
+  `boolean empty()`        Check if stack empty
+  `int search(Object o)`   Returns position of element
 
 ------------------------------------------------------------------------
 
-## empty()
-
-``` java
-System.out.println(stack.empty());  // false
-```
-
-------------------------------------------------------------------------
-
-## search(Object o)
-
-Returns 1-based position from top.
-
-``` java
-System.out.println(stack.search(10));  // 2
-```
-
-------------------------------------------------------------------------
-
-# 3️⃣ Internal Working
-
-Since Stack extends Vector:
-
-• Uses dynamic array internally\
-• Synchronized methods\
-• elementData\[\] array\
-• Doubling growth strategy
-
-push() internally calls:
-
-``` java
-addElement(item);
-```
-
-pop() internally:
-
-``` java
-removeElementAt(size() - 1);
-```
-
-------------------------------------------------------------------------
-
-# 4️⃣ Performance Characteristics
-
-  Operation   Complexity
-  ----------- ----------------
-  push        O(1) amortized
-  pop         O(1)
-  peek        O(1)
-  search      O(n)
-
-Because backed by array.
-
-------------------------------------------------------------------------
-
-# 5️⃣ Example -- Reverse String Using Stack
-
-``` java
-String str = "Java";
-Stack<Character> stack = new Stack<>();
-
-for(char c : str.toCharArray()) {
-    stack.push(c);
-}
-
-StringBuilder reversed = new StringBuilder();
-
-while(!stack.empty()) {
-    reversed.append(stack.pop());
-}
-
-System.out.println(reversed.toString());
-```
-
-------------------------------------------------------------------------
-
-# 6️⃣ Example -- Balanced Parentheses (Interview Classic)
+## Example 1: Basic Stack Operations
 
 ``` java
 import java.util.Stack;
 
-public class BalancedParentheses {
-
-    public static boolean isBalanced(String str) {
-        Stack<Character> stack = new Stack<>();
-
-        for(char c : str.toCharArray()) {
-            if(c == '(' || c == '{' || c == '[') {
-                stack.push(c);
-            } else if(c == ')' || c == '}' || c == ']') {
-                if(stack.isEmpty()) return false;
-
-                char top = stack.pop();
-
-                if((c == ')' && top != '(') ||
-                   (c == '}' && top != '{') ||
-                   (c == ']' && top != '[')) {
-                    return false;
-                }
-            }
-        }
-        return stack.isEmpty();
-    }
+public class StackExample {
 
     public static void main(String[] args) {
-        System.out.println(isBalanced("{[()]}"));  // true
+
+        Stack<String> stack = new Stack<>();
+
+        stack.push("Apple");
+        stack.push("Banana");
+        stack.push("Cherry");
+
+        System.out.println("Stack: " + stack);
+
+        System.out.println("Top element: " + stack.peek());
+
+        System.out.println("Popped: " + stack.pop());
+        System.out.println("Popped: " + stack.pop());
+
+        System.out.println("Remaining Stack: " + stack);
     }
 }
 ```
 
-Time Complexity: O(n)
-
 ------------------------------------------------------------------------
 
-# 7️⃣ Why Stack is Considered Legacy
-
-Reasons:
-
-• Extends Vector (old design) • All methods synchronized • Poor design
-compared to modern Deque • Not recommended in new code
-
-------------------------------------------------------------------------
-
-# 8️⃣ Modern Alternative -- ArrayDeque
-
-Better approach:
+## Example 2: Searching an Element
 
 ``` java
-Deque<Integer> stack = new ArrayDeque<>();
+import java.util.Stack;
 
-stack.push(10);
-stack.push(20);
-System.out.println(stack.pop());
-```
+public class StackSearchExample {
 
-Advantages:
+    public static void main(String[] args) {
 
-• Faster • Not synchronized • Better design • No legacy overhead
+        Stack<String> stack = new Stack<>();
 
-------------------------------------------------------------------------
+        stack.push("Apple");
+        stack.push("Banana");
+        stack.push("Cherry");
 
-# 9️⃣ Stack vs ArrayDeque Comparison
+        int position = stack.search("Apple");
 
-  Feature       Stack    ArrayDeque
-  ------------- -------- ------------
-  Legacy        Yes      No
-  Thread-safe   Yes      No
-  Performance   Slower   Faster
-  Recommended   No       Yes
-
-------------------------------------------------------------------------
-
-# 🔟 Automation Framework Relevance
-
-Stack rarely used directly.
-
-But concept used in:
-
-• Parsing expressions • Validation logic • Nested structure validation •
-Undo operations
-
-Balanced parenthesis logic used in:
-
-• XML/JSON validation • Expression parsing
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Interview Questions
-
-Q: Why is Stack not recommended? A: Legacy + synchronization overhead.
-
-Q: What should we use instead of Stack? A: Deque (ArrayDeque).
-
-Q: What is LIFO? A: Last In First Out.
-
-Q: Is Stack thread-safe? A: Yes (because extends Vector).
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Advanced Insight
-
-Even though Stack is synchronized:
-
-Compound operations still require external synchronization.
-
-Example:
-
-``` java
-if(!stack.empty()) {
-    stack.pop();
+        System.out.println("Position of Apple: " + position);
+    }
 }
 ```
 
-Not atomic in multi-threaded scenario.
+------------------------------------------------------------------------
+
+## Example 3: Checking if Stack is Empty
+
+``` java
+import java.util.Stack;
+
+public class StackEmptyExample {
+
+    public static void main(String[] args) {
+
+        Stack<String> stack = new Stack<>();
+
+        System.out.println("Is stack empty? " + stack.empty());
+
+        stack.push("Apple");
+
+        System.out.println("Is stack empty? " + stack.empty());
+    }
+}
+```
 
 ------------------------------------------------------------------------
 
-# Final Mastery Checklist
+## Performance Characteristics
 
-You must understand:
+| Operation   | Complexity |
+|-------------|------------|
+| push()      | O(1)       |
+| pop()       | O(1)       |
+| peek()      | O(1)       |
+| search()    | O(n)       |
 
-✓ LIFO behavior\
-✓ push / pop / peek\
-✓ Internal Vector dependency\
-✓ Performance characteristics\
-✓ Why considered legacy\
-✓ Modern replacement\
-✓ Interview-level usage examples
+Synchronization overhead can make it slower than modern alternatives.
 
-Next file:
+------------------------------------------------------------------------
 
-set-interface.md
+## When to Use Stack
+
+Use `Stack` when:
+
+-   Maintaining legacy systems
+-   Explicit synchronized stack behavior required
+
+Prefer modern alternatives:
+
+-   `ArrayDeque`
+-   `Deque` interface
+
+------------------------------------------------------------------------
+
+## Stack vs ArrayDeque
+
+| Feature          | Stack                | ArrayDeque              |
+|------------------|----------------------|-------------------------|
+| Data Structure   | Vector-based array   | Resizable deque         |
+| Thread Safety    | Synchronized         | Not synchronized        |
+| Performance      | Slower               | Faster                  |
+| Versatility      | Stack only           | Stack + Queue + Deque   |

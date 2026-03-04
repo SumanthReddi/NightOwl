@@ -1,262 +1,164 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 title: Hashtable
 ---
+<!-- # 02-hashtable -->
 
-# Hashtable 
+## The `Hashtable` Class in Java
 
-This document explains:
+The `Hashtable` class is one of the earliest implementations of the
+**Map** interface in Java.\
+It stores data as **key-value pairs**, similar to `HashMap`, but it is
+**synchronized**, which makes it thread-safe.
 
--   What Hashtable is
--   Historical background
--   Internal structure
--   Synchronization mechanism
--   Null restrictions
--   Difference between HashMap and Hashtable
--   Performance implications
--   Concurrency limitations
--   Automation relevance
--   Interview traps
--   Code examples
+However, `Hashtable` is considered a **legacy class** and is generally
+replaced by:
+
+-   `HashMap` (for non-threaded use)
+-   `ConcurrentHashMap` (for multi-threaded use)
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is Hashtable?
+## Key Characteristics
 
-Hashtable is a legacy Map implementation introduced in Java 1.0.
-
-Definition:
-
-``` java
-public class Hashtable<K,V>
-    extends Dictionary<K,V>
-    implements Map<K,V>, Cloneable, Serializable
-```
-
-Important:
-
-• Thread-safe (synchronized methods)\
-• Does NOT allow null key\
-• Does NOT allow null value\
-• Legacy class\
-• Not recommended in modern code
+-   **Unique Keys** -- Duplicate keys overwrite the previous value
+-   **No Guaranteed Order** -- Iteration order is unpredictable
+-   **No Null Allowed** -- Neither keys nor values can be `null`
+-   **Thread Safe** -- All methods are synchronized
+-   **Legacy Class** -- Introduced before Java Collections Framework
+    (Java 1.0)
 
 ------------------------------------------------------------------------
 
-# 2️⃣ Historical Context
+## Common Use Cases
 
-Before Java 1.2 (Collections Framework):
-
-• Hashtable was primary key-value structure\
-• Vector used for dynamic arrays
-
-After Java 1.2:
-
-• HashMap introduced\
-• Hashtable retained for backward compatibility
+-   Legacy applications that require thread safety
+-   Older APIs that depend on `Hashtable`
+-   Rare cases where full method-level synchronization is required
 
 ------------------------------------------------------------------------
 
-# 3️⃣ Internal Structure
+## Important Methods
+| Method                          | Description                         |
+|---------------------------------|-------------------------------------|
+| `put(K key, V value)`           | Inserts key-value pair              |
+| `get(Object key)`               | Retrieves value by key              |
+| `remove(Object key)`            | Removes entry                       |
+| `containsKey(Object key)`       | Checks key existence                |
+| `containsValue(Object value)`   | Checks value existence              |
+| `keySet()`                      | Returns set of keys                 |
+| `values()`                      | Returns collection of values        |
+| `entrySet()`                    | Returns key-value entries           |
+------------------------------------------------------------------------
 
-Similar to pre-Java 8 HashMap.
-
-Uses:
+## Example 1: Basic Operations
 
 ``` java
-Entry<K,V>[] table;
-```
+import java.util.Hashtable;
+import java.util.Map;
 
-Entry structure:
+public class HashtableExample {
 
-``` java
-private static class Entry<K,V> {
-    final int hash;
-    final K key;
-    V value;
-    Entry<K,V> next;
+    public static void main(String[] args) {
+
+        Map<String,Integer> fruitCounts = new Hashtable<>();
+
+        fruitCounts.put("Apple",3);
+        fruitCounts.put("Banana",5);
+        fruitCounts.put("Cherry",7);
+
+        System.out.println(fruitCounts);
+
+        System.out.println(fruitCounts.get("Apple"));
+
+        System.out.println(fruitCounts.containsKey("Banana"));
+
+        fruitCounts.remove("Cherry");
+
+        System.out.println(fruitCounts);
+    }
 }
 ```
 
-Collision handling → Linked List
-
-Hashtable does NOT use Red-Black Tree (even in modern Java).
-
 ------------------------------------------------------------------------
 
-# 4️⃣ Synchronization Mechanism
-
-All major methods are synchronized.
-
-Example:
+## Example 2: Null Values Not Allowed
 
 ``` java
-public synchronized V put(K key, V value)
-```
+import java.util.Hashtable;
 
-This means:
+public class HashtableNullExample {
 
-• Entire method locked\
-• Only one thread at a time\
-• Performance overhead
+    public static void main(String[] args) {
 
-------------------------------------------------------------------------
+        Hashtable<String,String> map = new Hashtable<>();
 
-# 5️⃣ Null Restrictions
+        // map.put(null,"Unknown");  // Throws NullPointerException
+        // map.put("Blue",null);     // Throws NullPointerException
 
-Hashtable does NOT allow:
-
-• Null key\
-• Null value
-
-Example:
-
-``` java
-Hashtable<String, String> table = new Hashtable<>();
-table.put(null, "Test");   // NullPointerException
-table.put("A", null);      // NullPointerException
-```
-
-Reason:
-
-Avoid ambiguity in multi-threaded environments.
-
-------------------------------------------------------------------------
-
-# 6️⃣ Example -- Basic Usage
-
-``` java
-Hashtable<String, Integer> table = new Hashtable<>();
-
-table.put("A", 1);
-table.put("B", 2);
-
-System.out.println(table);
-```
-
-------------------------------------------------------------------------
-
-# 7️⃣ Difference: HashMap vs Hashtable
-
-  Feature         HashMap         Hashtable
-  --------------- --------------- ----------------
-  Thread-safe     ❌ No           ✅ Yes
-  Null key        One allowed     ❌ Not allowed
-  Null value      Allowed         ❌ Not allowed
-  Performance     Faster          Slower
-  Treeification   Yes (Java 8+)   ❌ No
-
-------------------------------------------------------------------------
-
-# 8️⃣ Performance Implications
-
-Because of synchronization:
-
-• Slower than HashMap\
-• Lock contention in multi-threading\
-• Reduced scalability
-
-Modern alternative:
-
-• ConcurrentHashMap
-
-------------------------------------------------------------------------
-
-# 9️⃣ Compound Operation Issue
-
-Even though methods synchronized:
-
-Compound operations not atomic.
-
-Example:
-
-``` java
-if(table.containsKey("A")) {
-    table.remove("A");
+    }
 }
 ```
 
-Still vulnerable to race condition.
-
 ------------------------------------------------------------------------
 
-# 🔟 Iteration Example
+## Example 3: Iteration
 
 ``` java
-for(Map.Entry<String, Integer> entry : table.entrySet()) {
-    System.out.println(entry.getKey() + " " + entry.getValue());
+import java.util.Hashtable;
+import java.util.Map;
+
+public class HashtableIterationExample {
+
+    public static void main(String[] args) {
+
+        Map<String,Integer> scores = new Hashtable<>();
+
+        scores.put("Alice",95);
+        scores.put("Bob",87);
+
+        for(Map.Entry<String,Integer> entry : scores.entrySet()){
+            System.out.println(entry.getKey()+" : "+entry.getValue());
+        }
+
+    }
 }
 ```
 
-Iteration is also synchronized internally.
+------------------------------------------------------------------------
+
+## Performance Characteristics
+| Operation   | Complexity |
+|-------------|------------|
+| put()       | O(1)       |
+| get()       | O(1)       |
+| remove()    | O(1)       |
+| iteration   | O(n)       |
+
+Because methods are synchronized, performance is **slower than
+HashMap**.
 
 ------------------------------------------------------------------------
 
-# 1️⃣1️⃣ When to Use Hashtable?
+## When to Use Hashtable
 
-Practically:
+Use `Hashtable` only when:
 
-Almost never in new applications.
+-   Maintaining **legacy systems**
+-   Full **method-level synchronization** is required
 
-Only used for:
+Avoid when:
 
-• Legacy system compatibility\
-• Old APIs requiring Hashtable
-
-Prefer:
-
-• HashMap (single-threaded) • ConcurrentHashMap (multi-threaded)
+-   High-performance concurrent systems → use `ConcurrentHashMap`
+-   Single-threaded applications → use `HashMap`
 
 ------------------------------------------------------------------------
 
-# 1️⃣2️⃣ Automation Framework Relevance
-
-Rarely used in automation.
-
-Modern automation frameworks use:
-
-• HashMap for config & payload • ConcurrentHashMap for parallel test
-execution
-
-Hashtable adds unnecessary locking overhead.
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Interview Questions
-
-Q: Is Hashtable thread-safe? A: Yes (method-level synchronization).
-
-Q: Why null not allowed in Hashtable? A: To avoid ambiguity in
-concurrent environment.
-
-Q: Difference between HashMap and Hashtable? A: Synchronization + null
-handling.
-
-Q: Does Hashtable use Red-Black Tree? A: No.
-
-------------------------------------------------------------------------
-
-# 1️⃣4️⃣ Advanced Insight
-
-Hashtable synchronizes entire method.
-
-ConcurrentHashMap synchronizes segments (better scalability).
-
-Thus Hashtable does not scale well in high concurrency.
-
-------------------------------------------------------------------------
-
-# Final Mastery Checklist
-
-You must understand:
-
-✓ Legacy design\
-✓ Synchronization behavior\
-✓ Null restriction\
-✓ Performance trade-offs\
-✓ Why modern code avoids it\
-✓ Interview-level clarity
-
-Next file:
-
-concurrenthashmap.md
+## Comparison: Hashtable vs HashMap vs ConcurrentHashMap
+| Feature         | Hashtable            | HashMap       | ConcurrentHashMap                    |
+|-----------------|----------------------|---------------|---------------------------------------|
+| Thread Safety   | Yes (synchronized)   | No            | Yes                                   |
+| Performance     | Slower               | Fast          | Very fast in concurrent systems       |
+| Null Keys       | Not allowed          | Allowed (1)   | Not allowed                           |
+| Null Values     | Not allowed          | Allowed       | Not allowed                           |
+| Era             | Legacy               | Modern        | Modern                                |

@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ee4'),
+    component: ComponentCreator('/docs', '6f0'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3e6'),
+        component: ComponentCreator('/docs', 'e32'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f5a'),
+            component: ComponentCreator('/docs', '2e0'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -323,6 +323,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/advanced-topics',
+                component: ComponentCreator('/docs/category/advanced-topics', '898'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/agents--scaling',
                 component: ComponentCreator('/docs/category/agents--scaling', 'c63'),
                 exact: true,
@@ -377,26 +383,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/concurrency',
-                component: ComponentCreator('/docs/category/concurrency', '2c4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/controller-operations--maintenance',
                 component: ComponentCreator('/docs/category/controller-operations--maintenance', '9e3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/core',
-                component: ComponentCreator('/docs/category/core', 'e3f'),
+                path: '/docs/category/core-apache-poi-object-model',
+                component: ComponentCreator('/docs/category/core-apache-poi-object-model', '441'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/core-apache-poi-object-model',
-                component: ComponentCreator('/docs/category/core-apache-poi-object-model', '441'),
+                path: '/docs/category/core-interfaces',
+                component: ComponentCreator('/docs/category/core-interfaces', '622'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -527,6 +527,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/introduction-2',
+                component: ComponentCreator('/docs/category/introduction-2', 'a98'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/java-for-automation-testers',
                 component: ComponentCreator('/docs/category/java-for-automation-testers', 'f92'),
                 exact: true,
@@ -575,8 +581,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/list',
-                component: ComponentCreator('/docs/category/list', 'fd4'),
+                path: '/docs/category/list-implementations',
+                component: ComponentCreator('/docs/category/list-implementations', 'd1f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -593,8 +599,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/map',
-                component: ComponentCreator('/docs/category/map', '5f8'),
+                path: '/docs/category/map-implementations',
+                component: ComponentCreator('/docs/category/map-implementations', 'bfe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -607,6 +613,12 @@ export default [
               {
                 path: '/docs/category/miscellaneous-concepts',
                 component: ComponentCreator('/docs/category/miscellaneous-concepts', '1fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/miscellaneous-topics',
+                component: ComponentCreator('/docs/category/miscellaneous-topics', '83b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -641,8 +653,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/queue',
-                component: ComponentCreator('/docs/category/queue', '566'),
+                path: '/docs/category/queue-implementations',
+                component: ComponentCreator('/docs/category/queue-implementations', '87e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -677,8 +689,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/set',
-                component: ComponentCreator('/docs/category/set', '63b'),
+                path: '/docs/category/set-implementations',
+                component: ComponentCreator('/docs/category/set-implementations', '037'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2681,62 +2693,80 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Concurrency/blockingqueue-overview',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Concurrency/blockingqueue-overview', 'aae'),
+                path: '/docs/Standalone Java/Collections Framework/Advanced Topics/custom-collections',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Advanced Topics/custom-collections', '7a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Concurrency/concurrenthashmap',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Concurrency/concurrenthashmap', '787'),
+                path: '/docs/Standalone Java/Collections Framework/Advanced Topics/functional-programming-with-collections',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Advanced Topics/functional-programming-with-collections', '1df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Concurrency/synchronized-collections',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Concurrency/synchronized-collections', '43f'),
+                path: '/docs/Standalone Java/Collections Framework/Advanced Topics/memory-management',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Advanced Topics/memory-management', '01a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Core/collection-hierarchy',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/collection-hierarchy', 'ceb'),
+                path: '/docs/Standalone Java/Collections Framework/Advanced Topics/third-party-libraries',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Advanced Topics/third-party-libraries', '235'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Core/collection-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/collection-interface', '71f'),
+                path: '/docs/Standalone Java/Collections Framework/Core Interfaces/deque-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core Interfaces/deque-interface', '332'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Core/fail-fast-vs-fail-safe',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/fail-fast-vs-fail-safe', '37f'),
+                path: '/docs/Standalone Java/Collections Framework/Core Interfaces/list-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core Interfaces/list-interface', 'dd0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Core/Iterable-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/Iterable-interface', '82b'),
+                path: '/docs/Standalone Java/Collections Framework/Core Interfaces/map-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core Interfaces/map-interface', 'd56'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Core/list-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/list-interface', 'fe1'),
+                path: '/docs/Standalone Java/Collections Framework/Core Interfaces/queue-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core Interfaces/queue-interface', '699'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Core/map-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/map-interface', 'cc1'),
+                path: '/docs/Standalone Java/Collections Framework/Core Interfaces/set-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core Interfaces/set-interface', 'aa9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Core/set-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Core/set-interface', '0af'),
+                path: '/docs/Standalone Java/Collections Framework/Introduction/collection-hierarchy',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Introduction/collection-hierarchy', 'e07'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Introduction/collection-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Introduction/collection-interface', 'f8e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Introduction/fail-fast-vs-fail-safe',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Introduction/fail-fast-vs-fail-safe', 'f42'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Introduction/Iterable-interface',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Introduction/Iterable-interface', '2ea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2753,6 +2783,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Standalone Java/Collections Framework/List/list-best-practices',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/List/list-best-practices', '44a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Standalone Java/Collections Framework/List/stack-class',
                 component: ComponentCreator('/docs/Standalone Java/Collections Framework/List/stack-class', '99b'),
                 exact: true,
@@ -2761,6 +2797,12 @@ export default [
               {
                 path: '/docs/Standalone Java/Collections Framework/List/Vector',
                 component: ComponentCreator('/docs/Standalone Java/Collections Framework/List/Vector', '578'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Map/concurrenthashmap',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Map/concurrenthashmap', '195'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2783,8 +2825,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Standalone Java/Collections Framework/Map/map-best-practices',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Map/map-best-practices', '044'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Standalone Java/Collections Framework/Map/treemap',
                 component: ComponentCreator('/docs/Standalone Java/Collections Framework/Map/treemap', '067'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Miscellaneous Topics/concurrent-collections',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Miscellaneous Topics/concurrent-collections', 'f71'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Miscellaneous Topics/immutable-collections',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Miscellaneous Topics/immutable-collections', '37e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Miscellaneous Topics/streams-and-collections',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Miscellaneous Topics/streams-and-collections', 'e3c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2807,8 +2873,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Collections Framework/Queue/queue-interface',
-                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Queue/queue-interface', 'ef1'),
+                path: '/docs/Standalone Java/Collections Framework/Queue/queue-best-practices',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Queue/queue-best-practices', '783'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2821,6 +2887,12 @@ export default [
               {
                 path: '/docs/Standalone Java/Collections Framework/Set/linkedhashset',
                 component: ComponentCreator('/docs/Standalone Java/Collections Framework/Set/linkedhashset', '2c3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Set/set-best-practices',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Set/set-best-practices', 'fa0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2851,6 +2923,12 @@ export default [
               {
                 path: '/docs/Standalone Java/Collections Framework/Utilities/comparable-vs-comparator',
                 component: ComponentCreator('/docs/Standalone Java/Collections Framework/Utilities/comparable-vs-comparator', 'a38'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Collections Framework/Utilities/faq',
+                component: ComponentCreator('/docs/Standalone Java/Collections Framework/Utilities/faq', 'a78'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

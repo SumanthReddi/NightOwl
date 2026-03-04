@@ -282,7 +282,3 @@ You must understand:
 ✓ Common pitfalls\
 ✓ Automation use cases\
 ✓ Interview clarity
-
-Next file:
-
-arrays-utility-class.md

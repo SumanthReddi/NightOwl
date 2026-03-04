@@ -1,144 +1,182 @@
 ---
 sidebar_position: 1
-title: HashMap Internal Working
+title: HashMap
 ---
+<!-- # 01-hashmap -->
 
-# HashMap
+## The `HashMap` Class in Java
 
-## 1. Internal Structure
+`HashMap` is one of the most widely used implementations of the **Map**
+interface in the Java Collection Framework.
 
-HashMap stores data inside:
-```java
-    Node<K,V>[] table
-```
-Each bucket contains either: - Linked List (before Java 8 behavior) -
-Red-Black Tree (Java 8+ after threshold)
+It stores data in **key--value pairs**, where:
 
-Node structure:
+-   Keys must be **unique**
+-   Values can be **duplicated**
+
+Internally, `HashMap` uses a **hash table** to store entries, which
+enables very fast operations.
+
+------------------------------------------------------------------------
+
+## Key Characteristics
+
+-   **Unique Keys** -- Duplicate keys overwrite existing values
+-   **No Order Guarantee** -- Iteration order is unpredictable
+-   **Null Support** -- Allows **one null key** and **multiple null
+    values**
+-   **High Performance** -- Average **O(1)** time complexity
+
+------------------------------------------------------------------------
+
+## Common Use Cases
+
+-   Caching systems
+-   Lookup tables
+-   Mapping IDs to objects
+-   Counting frequencies
+-   Configuration storage
+
+------------------------------------------------------------------------
+
+## Important Methods
+| Method                          | Description                         |
+|---------------------------------|-------------------------------------|
+| `put(K key, V value)`           | Inserts or updates a key-value pair |
+| `get(Object key)`               | Retrieves value by key              |
+| `remove(Object key)`            | Removes entry                       |
+| `containsKey(Object key)`       | Checks key existence                |
+| `containsValue(Object value)`   | Checks value existence              |
+| `keySet()`                      | Returns set of keys                 |
+| `values()`                      | Returns collection of values        |
+| `entrySet()`                    | Returns key-value entries           |
+------------------------------------------------------------------------
+
+## Example 1: Basic Operations
+
 ``` java
-    static class Node<K,V> {
-        final int hash;
-        final K key;
-        V value;
-        Node<K,V> next;
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapExample {
+
+    public static void main(String[] args) {
+
+        Map<String,Integer> fruitCounts = new HashMap<>();
+
+        fruitCounts.put("Apple",3);
+        fruitCounts.put("Banana",5);
+        fruitCounts.put("Cherry",7);
+
+        System.out.println(fruitCounts);
+
+        System.out.println(fruitCounts.get("Apple"));
+
+        System.out.println(fruitCounts.containsKey("Banana"));
+
+        fruitCounts.remove("Cherry");
+
+        System.out.println(fruitCounts);
+
+        for(Map.Entry<String,Integer> entry : fruitCounts.entrySet()){
+
+            System.out.println(entry.getKey()+" : "+entry.getValue());
+
+        }
     }
+}
 ```
-------------------------------------------------------------------------
-
-## 2. Hash Calculation
-
-Steps during put():
-
-1.  Call key.hashCode()
-
-2.  Apply hash spreading:
-```
-        hash = h ^ (h >>> 16)
-```
-3.  Calculate bucket index:
-```
-        index = (n - 1) & hash
-```
-Where n is table length (power of 2).
 
 ------------------------------------------------------------------------
 
-## 3. Why Capacity Is Power of 2
+## Example 2: Null Keys and Values
 
-Using:
-
-    (n - 1) & hash
-
-is faster than modulo (%) and distributes better.
-
-------------------------------------------------------------------------
-
-## 4. Load Factor & Threshold
-
-Default values:
-
--   Initial capacity: 16
--   Load factor: 0.75
-
-Threshold = capacity × loadFactor
-
-Resize happens when:
-
-    size > threshold
-
-------------------------------------------------------------------------
-
-## 5. Resize Mechanism
-
-1.  Capacity doubled
-2.  New table created
-3.  Existing entries rehashed
-4.  Buckets redistributed
-
-Cost: O(n)
-
-------------------------------------------------------------------------
-
-## 6. Collision Handling
-
-Before Java 8: - Linked List
-
-After Java 8: - If bucket size \>= 8 AND table size \>= 64 → Convert to
-Red-Black Tree
-
-Worst case improves from O(n) to O(log n)
-
-------------------------------------------------------------------------
-
-## 7. Time Complexity
-
-Operation Average Worst put() O(1) O(n) get() O(1) O(n) remove() O(1)
-O(n)
-
-------------------------------------------------------------------------
-
-## 8. equals() & hashCode() Contract
-
-If equals() and hashCode() not overridden properly, duplicate logical
-keys may appear.
-
-Correct contract: - Equal objects must have equal hashCodes.
-
-------------------------------------------------------------------------
-
-## 9. Null Handling
-
-HashMap allows: - One null key - Multiple null values
-
-Null key stored in bucket index 0.
-
-------------------------------------------------------------------------
-
-## 10. Concurrency Risk
-
-HashMap is NOT thread-safe.
-
-Issues in multithreading: - Data corruption - Infinite loop during
-resize (older Java versions)
-
-Use ConcurrentHashMap instead.
-
-------------------------------------------------------------------------
-
-## 11. Automation Relevance
-
-Used in: - JSON mapping - API payload construction - Test data storage -
-Config management
-
-Example:
 ``` java
-    Map<String, String> payload = new HashMap<>();
-    payload.put("username", "admin");
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapNullExample {
+
+    public static void main(String[] args) {
+
+        Map<String,String> colors = new HashMap<>();
+
+        colors.put("Red","Primary");
+        colors.put(null,"Unknown");
+        colors.put("Blue",null);
+
+        System.out.println(colors);
+    }
+}
 ```
+
 ------------------------------------------------------------------------
 
-## Mastery Checklist
+## Example 3: Iterating HashMap
 
-Understand: - Node\[\] structure - Hash spreading - Bucket indexing -
-Load factor logic - Resize behavior - Treeification rule -
-equals/hashCode contract
+``` java
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapIterationExample {
+
+    public static void main(String[] args) {
+
+        Map<String,Integer> scores = new HashMap<>();
+
+        scores.put("Alice",95);
+        scores.put("Bob",87);
+        scores.put("Charlie",92);
+
+        for(String key : scores.keySet()){
+            System.out.println(key);
+        }
+
+        for(Integer value : scores.values()){
+            System.out.println(value);
+        }
+
+        for(Map.Entry<String,Integer> entry : scores.entrySet()){
+            System.out.println(entry.getKey()+" : "+entry.getValue());
+        }
+
+    }
+}
+```
+
+------------------------------------------------------------------------
+
+## Performance Characteristics
+| Operation   | Complexity |
+|-------------|------------|
+| put()       | O(1)       |
+| get()       | O(1)       |
+| remove()    | O(1)       |
+| iteration   | O(n)       |
+
+Performance depends heavily on **good hashCode() implementation**.
+
+------------------------------------------------------------------------
+
+## When to Use HashMap
+
+Use HashMap when:
+
+-   You need **fast key-based lookup**
+-   Ordering **does not matter**
+-   You need **high performance**
+
+Avoid when:
+
+-   Order matters → use `LinkedHashMap`
+-   Sorted keys required → use `TreeMap`
+
+------------------------------------------------------------------------
+
+## Comparison: HashMap vs LinkedHashMap vs TreeMap
+| Feature      | HashMap      | LinkedHashMap              | TreeMap        |
+|--------------|--------------|----------------------------|----------------|
+| Order        | No order     | Insertion order            | Sorted         |
+| Complexity   | O(1)         | O(1)                       | O(log n)       |
+| Null Key     | Allowed      | Allowed                    | Not allowed    |
+| Structure    | Hash table   | Hash table + linked list   | Red-Black Tree |

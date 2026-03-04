@@ -2,296 +2,176 @@
 sidebar_position: 3
 title: TreeSet 
 ---
+<!-- # 03-treeset -->
 
-# TreeSet
+## The `TreeSet` Class in Java
 
-This document explains:
+`TreeSet` is an implementation of the **Set** interface that stores
+elements in **sorted order**. Internally it uses a **Red-Black Tree**,
+which guarantees elements remain sorted according to:
 
--   What TreeSet is
--   Internal Red-Black Tree structure
--   Natural ordering
--   Comparable vs Comparator
--   Null restrictions
--   Performance complexity
--   Internal balancing logic
--   When to use TreeSet
--   Automation relevance
--   Interview traps
--   Code examples
+-   Natural ordering (Comparable)
+-   A custom Comparator
+
+Unlike `HashSet` and `LinkedHashSet`, `TreeSet` guarantees **sorted
+iteration**.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is TreeSet?
+## Key Characteristics
 
-TreeSet is a SortedSet implementation.
+-   **Sorted Elements** -- Natural order or custom comparator
+-   **No Duplicates** -- Same behavior as any `Set`
+-   **Time Complexity** -- `O(log n)` for add, remove, contains
+-   **Null Not Allowed** -- Adding null throws `NullPointerException`
+-   **NavigableSet Features** -- Supports navigation methods like
+    `ceiling`, `floor`, `higher`, `lower`
 
-Definition:
+------------------------------------------------------------------------
+
+## Common Use Cases
+
+-   Maintaining **sorted unique data**
+-   Performing **range queries**
+-   Finding **nearest values**
+-   Leaderboards or ranking systems
+-   Ordered datasets
+
+------------------------------------------------------------------------
+
+## Important Methods
+| Method               | Description                      |
+|----------------------|----------------------------------|
+| `add(E e)`           | Adds element                     |
+| `remove(Object o)`   | Removes element                  |
+| `first()`            | Returns smallest element         |
+| `last()`             | Returns largest element          |
+| `ceiling(E e)`       | Smallest element ≥ given         |
+| `floor(E e)`         | Largest element ≤ given          |
+| `higher(E e)`        | Next greater element             |
+| `lower(E e)`         | Next smaller element             |
+------------------------------------------------------------------------
+
+## Example 1: Basic TreeSet
 
 ``` java
-public class TreeSet<E>
-    extends AbstractSet<E>
-    implements NavigableSet<E>, Cloneable, Serializable
-```
+import java.util.TreeSet;
+import java.util.Set;
 
-Important:
+public class TreeSetExample {
 
-• Maintains sorted order\
-• Does not allow duplicates\
-• Does NOT allow null (in natural ordering)\
-• Not thread-safe\
-• Backed internally by TreeMap
+    public static void main(String[] args) {
 
-------------------------------------------------------------------------
+        Set<Integer> numbers = new TreeSet<>();
 
-# 2️⃣ Internal Structure
+        numbers.add(5);
+        numbers.add(3);
+        numbers.add(8);
+        numbers.add(1);
 
-TreeSet internally uses:
+        System.out.println(numbers);
 
-``` java
-private transient NavigableMap<E,Object> m;
-```
+        System.out.println(numbers.contains(5));
 
-And TreeMap uses:
+        numbers.remove(3);
 
-Red-Black Tree
+        System.out.println(numbers);
 
-So:
-
-TreeSet = Red-Black Tree (self-balancing BST)
-
-------------------------------------------------------------------------
-
-# 3️⃣ What is Red-Black Tree?
-
-A Red-Black Tree is:
-
-• Self-balancing Binary Search Tree\
-• Ensures height ≈ log(n)\
-• Maintains balance using coloring rules
-
-Guarantees:
-
-Search → O(log n)\
-Insert → O(log n)\
-Delete → O(log n)
-
-------------------------------------------------------------------------
-
-# 4️⃣ Natural Ordering
-
-TreeSet sorts elements using:
-
-1️⃣ Comparable (natural ordering) OR 2️⃣ Comparator (custom ordering)
-
-Example -- Natural Ordering:
-
-``` java
-TreeSet<Integer> set = new TreeSet<>();
-
-set.add(30);
-set.add(10);
-set.add(20);
-
-System.out.println(set);  // [10, 20, 30]
-```
-
-Automatically sorted.
-
-------------------------------------------------------------------------
-
-# 5️⃣ Comparable Example
-
-``` java
-class Student implements Comparable<Student> {
-    int id;
-
-    Student(int id) {
-        this.id = id;
-    }
-
-    @Override
-    public int compareTo(Student s) {
-        return this.id - s.id;
-    }
-
-    @Override
-    public String toString() {
-        return String.valueOf(id);
+        for(Integer n : numbers){
+            System.out.println(n);
+        }
     }
 }
-
-TreeSet<Student> set = new TreeSet<>();
-set.add(new Student(3));
-set.add(new Student(1));
-set.add(new Student(2));
-
-System.out.println(set);  // [1, 2, 3]
 ```
 
 ------------------------------------------------------------------------
 
-# 6️⃣ Comparator Example
+## Example 2: Custom Sorting (Descending)
 
 ``` java
-TreeSet<String> set = new TreeSet<>(
-    (a, b) -> b.compareTo(a)   // reverse order
-);
+import java.util.Comparator;
+import java.util.TreeSet;
 
-set.add("A");
-set.add("C");
-set.add("B");
+public class CustomSortingExample {
 
-System.out.println(set);  // [C, B, A]
+    public static void main(String[] args) {
+
+        TreeSet<Integer> numbers =
+            new TreeSet<>(Comparator.reverseOrder());
+
+        numbers.add(5);
+        numbers.add(3);
+        numbers.add(8);
+        numbers.add(1);
+
+        System.out.println(numbers);
+    }
+}
 ```
 
 ------------------------------------------------------------------------
 
-# 7️⃣ Null Handling
-
-TreeSet does NOT allow null when using natural ordering.
-
-Example:
+## Example 3: Navigable Methods
 
 ``` java
-TreeSet<String> set = new TreeSet<>();
-set.add(null);  // NullPointerException
-```
+import java.util.TreeSet;
 
-Because null cannot be compared.
+public class NavigableMethodsExample {
 
-------------------------------------------------------------------------
+    public static void main(String[] args) {
 
-# 8️⃣ Duplicate Handling
+        TreeSet<Integer> numbers = new TreeSet<>();
 
-Duplicate determined using compareTo() or Comparator.
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
 
-If compareTo returns 0 → treated as duplicate.
+        System.out.println("First: " + numbers.first());
+        System.out.println("Last: " + numbers.last());
 
-Important:
+        System.out.println("Ceiling 25: " + numbers.ceiling(25));
+        System.out.println("Floor 25: " + numbers.floor(25));
 
-Even if equals() returns false, if compareTo() returns 0 → element
-considered duplicate.
-
-------------------------------------------------------------------------
-
-# 9️⃣ Performance Comparison
-
-  Structure   Complexity
-  ----------- --------------
-  HashSet     O(1) average
-  TreeSet     O(log n)
-
-TreeSet slower but sorted.
-
-------------------------------------------------------------------------
-
-# 🔟 NavigableSet Features
-
-TreeSet implements NavigableSet.
-
-Additional methods:
-
-``` java
-set.first();
-set.last();
-set.higher(10);
-set.lower(10);
-set.ceiling(10);
-set.floor(10);
-```
-
-Example:
-
-``` java
-TreeSet<Integer> numbers = new TreeSet<>();
-numbers.add(10);
-numbers.add(20);
-numbers.add(30);
-
-System.out.println(numbers.higher(10));  // 20
+        System.out.println("Higher 20: " + numbers.higher(20));
+        System.out.println("Lower 20: " + numbers.lower(20));
+    }
+}
 ```
 
 ------------------------------------------------------------------------
 
-# 1️⃣1️⃣ When to Use TreeSet
+## Performance Characteristics
+| Operation    | Complexity     |
+|--------------|----------------|
+| add()        | O(log n)       |
+| remove()     | O(log n)       |
+| contains()   | O(log n)       |
+| iteration    | O(n) sorted    |
 
-Use when:
+TreeSet is slower than `HashSet` because of tree balancing.
 
-✓ Need sorted data\
-✓ Need range queries\
-✓ Need navigation (higher/lower)
+------------------------------------------------------------------------
+
+## When to Use TreeSet
+
+Use TreeSet when:
+
+-   You need **sorted elements**
+-   You need **range operations**
+-   You need **navigation queries**
 
 Avoid when:
 
-✗ Order not required\
-✗ Need maximum performance\
-✗ Frequent hash-based lookup needed
+-   Order does not matter → use `HashSet`
+-   You only need insertion order → use `LinkedHashSet`
 
 ------------------------------------------------------------------------
 
-# 1️⃣2️⃣ Automation Framework Relevance
-
-Useful for:
-
-• Sorting API responses\
-• Validating sorted UI lists\
-• Maintaining ordered unique test data\
-• Range validations
-
-Example:
-
-``` java
-TreeSet<Integer> scores = new TreeSet<>(apiScores);
-
-if(scores.first() < 0) {
-    System.out.println("Invalid score");
-}
-```
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Interview Questions
-
-Q: What is internal structure of TreeSet? A: Red-Black Tree (via
-TreeMap).
-
-Q: Why null not allowed? A: Because elements must be comparable.
-
-Q: Difference between HashSet and TreeSet? A: HashSet → hash-based,
-O(1). TreeSet → sorted, O(log n).
-
-Q: What happens if compareTo inconsistent with equals? A: Set behavior
-becomes unpredictable.
-
-------------------------------------------------------------------------
-
-# 1️⃣4️⃣ Advanced Insight
-
-If compareTo() is inconsistent with equals():
-
-Set may behave incorrectly (violate Set contract).
-
-Example:
-
-compareTo returns 0 but equals false → element considered duplicate.
-
-So Comparable implementation must be consistent with equals.
-
-------------------------------------------------------------------------
-
-# Final Mastery Checklist
-
-You must understand:
-
-✓ Red-Black Tree concept\
-✓ Natural ordering\
-✓ Comparable vs Comparator\
-✓ Null restriction\
-✓ O(log n) performance\
-✓ NavigableSet features\
-✓ Automation usage\
-✓ Interview-level clarity
-
-Next file:
-
-map-interface.md
+## Comparison: TreeSet vs HashSet vs LinkedHashSet
+| Feature        | TreeSet          | HashSet      | LinkedHashSet              |
+|----------------|------------------|--------------|----------------------------|
+| Order          | Sorted           | No order     | Insertion order            |
+| Complexity     | O(log n)         | O(1)         | O(1)                       |
+| Null Support   | Not allowed      | One null     | One null                   |
+| Structure      | Red‑Black Tree   | Hash table   | Hash table + linked list   |

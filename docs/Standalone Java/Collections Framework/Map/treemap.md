@@ -2,307 +2,213 @@
 sidebar_position: 3
 title: TreeMap 
 ---
+<!-- # 04-treemap -->
 
-# TreeMap
+## The `TreeMap` Class in Java
 
-This document explains:
+`TreeMap` is an implementation of the **Map interface** that stores
+entries in **sorted order** based on the **natural ordering of keys** or
+a **custom comparator**.
 
--   What TreeMap is
--   Internal Red-Black Tree structure
--   Natural ordering of keys
--   Comparable vs Comparator in TreeMap
--   Null key restrictions
--   NavigableMap features
--   Performance complexity
--   When to use TreeMap
--   Automation relevance
--   Interview traps
--   Code examples
+Internally, `TreeMap` is implemented using a **Red-Black Tree**, which
+guarantees that the map remains sorted and balanced.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is TreeMap?
+## Key Characteristics
 
-TreeMap is a SortedMap implementation.
+-   **Sorted Keys** -- Entries are automatically sorted by key
+-   **Unique Keys** -- Duplicate keys overwrite previous values
+-   **No Null Keys** -- Adding a null key throws `NullPointerException`
+-   **Allows Null Values** -- Multiple null values allowed
+-   **Logarithmic Performance** -- Most operations are `O(log n)`
 
-Definition:
+------------------------------------------------------------------------
+
+## Common Use Cases
+
+-   When **sorted key ordering** is required
+-   Implementing **range queries**
+-   Navigating keys using **floor/ceiling/higher/lower**
+-   Data structures needing **ordered maps**
+
+------------------------------------------------------------------------
+
+## Important Methods
+| Method                  | Description                     |
+|-------------------------|---------------------------------|
+| `put(K key, V value)`   | Inserts key-value pair          |
+| `get(Object key)`       | Retrieves value                 |
+| `remove(Object key)`    | Removes entry                   |
+| `firstKey()`            | Returns smallest key            |
+| `lastKey()`             | Returns largest key             |
+| `ceilingEntry(K key)`   | Entry ≥ given key               |
+| `floorEntry(K key)`     | Entry ≤ given key               |
+| `higherEntry(K key)`    | Entry strictly greater          |
+| `lowerEntry(K key)`     | Entry strictly smaller          |
+------------------------------------------------------------------------
+
+## Example 1: Basic Usage
 
 ``` java
-public class TreeMap<K,V>
-    extends AbstractMap<K,V>
-    implements NavigableMap<K,V>, Cloneable, Serializable
-```
+import java.util.Map;
+import java.util.TreeMap;
 
-Important:
+public class TreeMapExample {
 
-• Maintains sorted order of keys\
-• Does NOT allow null key (natural ordering)\
-• Allows multiple null values\
-• Not thread-safe\
-• Backed internally by Red-Black Tree
+    public static void main(String[] args) {
 
-------------------------------------------------------------------------
+        Map<Integer,String> numbers = new TreeMap<>();
 
-# 2️⃣ Internal Structure
+        numbers.put(5,"Five");
+        numbers.put(3,"Three");
+        numbers.put(8,"Eight");
+        numbers.put(1,"One");
 
-TreeMap uses:
+        System.out.println(numbers);
 
-Red-Black Tree (self-balancing Binary Search Tree)
+        System.out.println(numbers.get(5));
 
-Each node contains:
+        numbers.remove(3);
 
--   key
--   value
--   left
--   right
--   parent
--   color (RED or BLACK)
+        System.out.println(numbers);
 
-Balancing ensures height ≈ log(n)
-
-------------------------------------------------------------------------
-
-# 3️⃣ Time Complexity
-
-  Operation   Complexity
-  ----------- ------------
-  put         O(log n)
-  get         O(log n)
-  remove      O(log n)
-
-Because operations depend on tree height.
-
-------------------------------------------------------------------------
-
-# 4️⃣ Natural Ordering (Comparable)
-
-Keys must implement Comparable.
-
-Example:
-
-``` java
-TreeMap<Integer, String> map = new TreeMap<>();
-
-map.put(30, "C");
-map.put(10, "A");
-map.put(20, "B");
-
-System.out.println(map);  // {10=A, 20=B, 30=C}
-```
-
-Sorted automatically by key.
-
-------------------------------------------------------------------------
-
-# 5️⃣ Custom Ordering (Comparator)
-
-``` java
-TreeMap<String, Integer> map =
-    new TreeMap<>((a, b) -> b.compareTo(a));
-
-map.put("A", 1);
-map.put("C", 3);
-map.put("B", 2);
-
-System.out.println(map);  // {C=3, B=2, A=1}
-```
-
-Sorted in reverse order.
-
-------------------------------------------------------------------------
-
-# 6️⃣ Null Key Restriction
-
-``` java
-TreeMap<String, Integer> map = new TreeMap<>();
-map.put(null, 1);  // NullPointerException
-```
-
-Reason:
-
-Keys must be comparable.
-
-------------------------------------------------------------------------
-
-# 7️⃣ Duplicate Keys
-
-Duplicate determined using:
-
-compareTo() or Comparator
-
-If comparison returns 0 → value replaced.
-
-Example:
-
-``` java
-map.put(10, "A");
-map.put(10, "B");
-
-System.out.println(map);  // {10=B}
-```
-
-------------------------------------------------------------------------
-
-# 8️⃣ NavigableMap Features
-
-TreeMap implements NavigableMap.
-
-Useful methods:
-
-``` java
-map.firstKey();
-map.lastKey();
-map.higherKey(10);
-map.lowerKey(10);
-map.ceilingKey(10);
-map.floorKey(10);
-```
-
-Example:
-
-``` java
-TreeMap<Integer, String> map = new TreeMap<>();
-map.put(10, "A");
-map.put(20, "B");
-map.put(30, "C");
-
-System.out.println(map.higherKey(20));  // 30
-System.out.println(map.lowerKey(20));   // 10
-```
-
-------------------------------------------------------------------------
-
-# 9️⃣ SubMap / Range View
-
-``` java
-SortedMap<Integer, String> sub =
-    map.subMap(10, 30);
-
-System.out.println(sub);  // keys between 10 and 30
-```
-
-Useful for range queries.
-
-------------------------------------------------------------------------
-
-# 🔟 TreeMap vs HashMap
-
-  Feature            HashMap      TreeMap
-  ------------------ ------------ ----------------
-  Structure          Hash table   Red-Black Tree
-  Order maintained   ❌           ✅ (sorted)
-  Time complexity    O(1) avg     O(log n)
-  Null key allowed   One          ❌
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Custom Object as Key
-
-``` java
-class Student implements Comparable<Student> {
-    int id;
-
-    Student(int id) {
-        this.id = id;
-    }
-
-    @Override
-    public int compareTo(Student s) {
-        return this.id - s.id;
-    }
-
-    @Override
-    public String toString() {
-        return String.valueOf(id);
     }
 }
-
-TreeMap<Student, String> map = new TreeMap<>();
-map.put(new Student(2), "B");
-map.put(new Student(1), "A");
-
-System.out.println(map);
 ```
 
-Sorted by id.
+Output
+```
+    {1=One, 3=Three, 5=Five, 8=Eight}
+```
+------------------------------------------------------------------------
+
+## Example 2: Custom Sorting with Comparator
+
+``` java
+import java.util.Comparator;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class CustomSortingExample {
+
+    public static void main(String[] args) {
+
+        Map<Integer,String> numbers = new TreeMap<>(Comparator.reverseOrder());
+
+        numbers.put(5,"Five");
+        numbers.put(3,"Three");
+        numbers.put(8,"Eight");
+        numbers.put(1,"One");
+
+        System.out.println(numbers);
+
+    }
+}
+```
+```
+Output
+
+    {8=Eight, 5=Five, 3=Three, 1=One}
+```
+------------------------------------------------------------------------
+
+## Example 3: Navigable Methods
+
+``` java
+import java.util.Map;
+import java.util.TreeMap;
+
+public class NavigableExample {
+
+    public static void main(String[] args) {
+
+        TreeMap<Integer,String> numbers = new TreeMap<>();
+
+        numbers.put(10,"Ten");
+        numbers.put(20,"Twenty");
+        numbers.put(30,"Thirty");
+        numbers.put(40,"Forty");
+
+        System.out.println(numbers.firstKey());
+        System.out.println(numbers.lastKey());
+
+        System.out.println(numbers.ceilingEntry(25));
+        System.out.println(numbers.floorEntry(25));
+
+        System.out.println(numbers.higherEntry(20));
+        System.out.println(numbers.lowerEntry(20));
+
+    }
+}
+```
 
 ------------------------------------------------------------------------
 
-# 1️⃣2️⃣ Important Contract Rule
+## Example 4: Range Queries
 
-compareTo() must be consistent with equals().
+``` java
+import java.util.Map;
+import java.util.TreeMap;
 
-If not:
+public class RangeExample {
 
-Map may behave unpredictably.
+    public static void main(String[] args) {
 
-If compareTo returns 0 → treated as duplicate key.
+        TreeMap<Integer,String> numbers = new TreeMap<>();
+
+        numbers.put(10,"Ten");
+        numbers.put(20,"Twenty");
+        numbers.put(30,"Thirty");
+        numbers.put(40,"Forty");
+
+        Map<Integer,String> sub = numbers.subMap(15,35);
+        System.out.println(sub);
+
+        Map<Integer,String> head = numbers.headMap(25);
+        System.out.println(head);
+
+        Map<Integer,String> tail = numbers.tailMap(25);
+        System.out.println(tail);
+
+    }
+}
+```
 
 ------------------------------------------------------------------------
 
-# 1️⃣3️⃣ When to Use TreeMap
+## Performance Characteristics
+| Operation   | Complexity |
+|-------------|------------|
+| put()       | O(log n)   |
+| get()       | O(log n)   |
+| remove()    | O(log n)   |
+| iteration   | O(n)       |
+
+Because of tree balancing, operations are slower than `HashMap` but
+maintain sorted order.
+
+------------------------------------------------------------------------
+
+## When to Use TreeMap
 
 Use when:
 
-✓ Need sorted keys\
-✓ Need range queries\
-✓ Need navigation methods\
-✓ Need consistent ordering
+-   Keys must be **sorted**
+-   You need **range queries**
+-   Navigation operations like **floor/ceiling** are required
 
 Avoid when:
 
-✗ Order not required\
-✗ Need fastest lookup\
-✗ Key not naturally comparable
+-   Order is not required → use `HashMap`
+-   You need insertion order → use `LinkedHashMap`
 
 ------------------------------------------------------------------------
 
-# 1️⃣4️⃣ Automation Framework Relevance
-
-TreeMap useful for:
-
-• Sorting API response data\
-• Generating ordered reports\
-• Range validations\
-• Maintaining sorted test metrics
-
-Example:
-
-``` java
-TreeMap<Integer, String> scores = new TreeMap<>(apiScores);
-
-System.out.println(scores.firstEntry());
-System.out.println(scores.lastEntry());
-```
-
-------------------------------------------------------------------------
-
-# 1️⃣5️⃣ Interview Questions
-
-Q: Internal structure of TreeMap? A: Red-Black Tree.
-
-Q: Why null key not allowed? A: Because keys must be comparable.
-
-Q: Time complexity of get()? A: O(log n).
-
-Q: Difference between TreeMap and LinkedHashMap? A: TreeMap sorts keys;
-LinkedHashMap maintains insertion/access order.
-
-------------------------------------------------------------------------
-
-# Final Mastery Checklist
-
-You must understand:
-
-✓ Red-Black Tree backing\
-✓ Sorted key behavior\
-✓ Comparable vs Comparator\
-✓ Null restriction\
-✓ O(log n) operations\
-✓ NavigableMap features\
-✓ Automation usage\
-✓ Interview-level clarity
-
-Next file:
-
-hashtable.md
+## Comparison: TreeMap vs HashMap vs LinkedHashMap
+| Feature       | TreeMap       | HashMap     | LinkedHashMap   |
+|---------------|---------------|-------------|-----------------|
+| Ordering      | Sorted        | None        | Insertion       |
+| Performance   | O(log n)      | O(1)        | O(1)            |
+| Null Keys     | Not allowed   | 1 allowed   | 1 allowed       |
+| Null Values   | Allowed       | Allowed     | Allowed         |

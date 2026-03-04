@@ -1,248 +1,178 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: LinkedHashMap 
 ---
+<!-- # 03-linkedhashmap -->
 
-# LinkedHashMap 
+## The `LinkedHashMap` Class in Java
 
-This document explains:
+`LinkedHashMap` is a `Map` implementation that combines a **hash table**
+with a **doubly‑linked list**. It provides the fast lookup of `HashMap`
+while also **maintaining a predictable order of entries**.
 
--   What LinkedHashMap is
--   How it differs from HashMap
--   Internal structure (Hash table + Doubly Linked List)
--   Insertion-order vs Access-order modes
--   LRU cache mechanism
--   Performance characteristics
--   Memory overhead
--   When to use LinkedHashMap
--   Automation relevance
--   Interview-level clarity
+By default, it preserves **insertion order**, but it can optionally
+maintain **access order** (useful for LRU caches).
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is LinkedHashMap?
+## Key Characteristics
 
-LinkedHashMap is an ordered version of HashMap.
-
-Definition:
-
-``` java
-public class LinkedHashMap<K,V>
-    extends HashMap<K,V>
-    implements Map<K,V>
-```
-
-Important:
-
-• Maintains predictable iteration order\
-• Allows one null key\
-• Allows multiple null values\
-• Not thread-safe\
-• Slightly slower than HashMap
+-   **Unique Keys** -- Duplicate keys replace existing values
+-   **Maintains Order** -- Preserves insertion order
+-   **Optional Access Order** -- Can track recently accessed entries
+-   **Allows Nulls** -- One `null` key and multiple `null` values
+-   **Fast Operations** -- `O(1)` average for put/get/remove
 
 ------------------------------------------------------------------------
 
-# 2️⃣ Internal Structure
+## Common Use Cases
 
-LinkedHashMap extends HashMap.
-
-But in addition to bucket structure, it maintains:
-
-A doubly linked list of entries.
-
-Each node contains:
-
--   hash
--   key
--   value
--   next (bucket chain)
--   before (linked list)
--   after (linked list)
-
-So structure =
-
-Hash table (for O(1) lookup) + Doubly linked list (for order
-maintenance)
+-   When **iteration order must match insertion order**
+-   Implementing **LRU caches**
+-   Applications requiring **predictable map traversal**
+-   Systems maintaining **history of inserted entries**
 
 ------------------------------------------------------------------------
 
-# 3️⃣ Insertion-Order Mode (Default)
-
-``` java
-LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
-
-map.put("C", 3);
-map.put("A", 1);
-map.put("B", 2);
-
-System.out.println(map);  // {C=3, A=1, B=2}
-```
-
-Order maintained as inserted.
-
+## Important Methods
+| Method                          | Description                  |
+|---------------------------------|------------------------------|
+| `put(K key, V value)`           | Inserts key-value pair       |
+| `get(Object key)`               | Retrieves value              |
+| `remove(Object key)`            | Removes entry                |
+| `containsKey(Object key)`       | Checks if key exists         |
+| `containsValue(Object value)`   | Checks if value exists       |
+| `keySet()`                      | Returns keys                 |
+| `values()`                      | Returns values               |
+| `entrySet()`                    | Returns entries              |
 ------------------------------------------------------------------------
 
-# 4️⃣ Access-Order Mode
-
-Special constructor:
+## Example 1: Basic Usage
 
 ``` java
-LinkedHashMap<String, Integer> map =
-    new LinkedHashMap<>(16, 0.75f, true);
-```
+import java.util.LinkedHashMap;
+import java.util.Map;
 
-Third parameter = accessOrder
+public class LinkedHashMapExample {
 
-When true:
+    public static void main(String[] args) {
 
-Entries reordered when accessed.
+        Map<String,Integer> fruitCounts = new LinkedHashMap<>();
 
-Example:
+        fruitCounts.put("Apple",3);
+        fruitCounts.put("Banana",5);
+        fruitCounts.put("Cherry",7);
 
-``` java
-map.put("A", 1);
-map.put("B", 2);
-map.get("A");
+        System.out.println(fruitCounts);
 
-System.out.println(map);
-```
+        System.out.println(fruitCounts.get("Apple"));
 
-Now "A" moves to end.
+        fruitCounts.remove("Cherry");
 
-Used for LRU cache.
-
-------------------------------------------------------------------------
-
-# 5️⃣ LRU Cache Example
-
-Override removeEldestEntry():
-
-``` java
-LinkedHashMap<String, Integer> cache =
-    new LinkedHashMap<>(3, 0.75f, true) {
-
-    protected boolean removeEldestEntry(Map.Entry eldest) {
-        return size() > 3;
+        System.out.println(fruitCounts);
     }
-};
-
-cache.put("A", 1);
-cache.put("B", 2);
-cache.put("C", 3);
-cache.put("D", 4);
-
-System.out.println(cache);  // Oldest removed
+}
 ```
 
-Automatically removes least recently used entry.
+------------------------------------------------------------------------
+
+## Example 2: Maintaining Insertion Order
+
+``` java
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class InsertionOrderExample {
+
+    public static void main(String[] args) {
+
+        Map<Integer,String> numbers = new LinkedHashMap<>();
+
+        numbers.put(3,"Three");
+        numbers.put(1,"One");
+        numbers.put(2,"Two");
+
+        System.out.println(numbers);
+
+    }
+}
+```
+```
+Output:
+
+    {3=Three, 1=One, 2=Two}
+```
+------------------------------------------------------------------------
+
+## Example 3: Implementing an LRU Cache
+
+``` java
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class LRUCacheExample {
+
+    public static void main(String[] args) {
+
+        Map<String,String> cache = new LinkedHashMap<>(16,0.75f,true){
+
+            protected boolean removeEldestEntry(Map.Entry<String,String> eldest){
+                return size() > 3;
+            }
+
+        };
+
+        cache.put("A","Apple");
+        cache.put("B","Banana");
+        cache.put("C","Cherry");
+        cache.put("D","Date");
+
+        System.out.println(cache);
+
+        cache.get("B");
+
+        cache.put("E","Elderberry");
+
+        System.out.println(cache);
+
+    }
+}
+```
 
 ------------------------------------------------------------------------
 
-# 6️⃣ Difference: HashMap vs LinkedHashMap
+## Performance Characteristics
+| Operation   | Complexity |
+|-------------|------------|
+| put()       | O(1)       |
+| get()       | O(1)       |
+| remove()    | O(1)       |
+| iteration   | O(n)       |
 
-  Feature             HashMap   LinkedHashMap
-  ------------------- --------- -----------------
-  Order maintained    ❌ No     ✅ Yes
-  Access-order mode   ❌        ✅ Yes
-  Memory usage        Lower     Higher
-  Performance         Faster    Slightly slower
-
-------------------------------------------------------------------------
-
-# 7️⃣ Performance Characteristics
-
-  Operation   Complexity
-  ----------- ------------
-  put         O(1) avg
-  get         O(1) avg
-  remove      O(1) avg
-
-Slight overhead for maintaining linked list.
+Because it maintains a linked list internally, memory usage is slightly
+higher than `HashMap`.
 
 ------------------------------------------------------------------------
 
-# 8️⃣ Memory Overhead
-
-Each entry stores:
-
--   before reference
--   after reference
-
-So more memory than HashMap.
-
-------------------------------------------------------------------------
-
-# 9️⃣ When to Use LinkedHashMap
+## When to Use LinkedHashMap
 
 Use when:
 
-✓ Need predictable iteration order\
-✓ Need LRU cache behavior\
-✓ Need consistent output order
+-   Order of entries matters
+-   You need **deterministic iteration**
+-   Implementing **LRU caches**
 
 Avoid when:
 
-✗ Order does not matter\
-✗ Memory-sensitive system
+-   Order does not matter → `HashMap`
+-   Sorted keys required → `TreeMap`
 
 ------------------------------------------------------------------------
 
-# 🔟 Automation Framework Relevance
-
-LinkedHashMap useful for:
-
-• Maintaining ordered API request payloads\
-• Preserving JSON field order\
-• Logging ordered test steps\
-• Implementing LRU-based caching in test frameworks
-
-Example:
-
-``` java
-Map<String, String> headers = new LinkedHashMap<>();
-headers.put("Authorization", "Bearer token");
-headers.put("Content-Type", "application/json");
-```
-
-Maintains header order.
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Interview Questions
-
-Q: Difference between HashMap and LinkedHashMap? A: LinkedHashMap
-maintains order via linked list.
-
-Q: What is access-order mode? A: Reorders entries based on access.
-
-Q: How to implement LRU cache? A: Override removeEldestEntry().
-
-Q: Is LinkedHashMap thread-safe? A: No.
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Advanced Insight
-
-LinkedHashMap still uses HashMap's hashing mechanism.
-
-Order maintenance does not affect bucket indexing.
-
-Treeification (Java 8+) still applies for heavy collisions.
-
-------------------------------------------------------------------------
-
-# Final Mastery Checklist
-
-You must understand:
-
-✓ Hash table + linked list hybrid structure\
-✓ Insertion-order vs access-order\
-✓ LRU cache implementation\
-✓ Performance trade-offs\
-✓ Memory overhead\
-✓ Automation usage\
-✓ Interview-level clarity
-
-Next file:
-
-treemap.md
+## Comparison: LinkedHashMap vs HashMap vs TreeMap
+| Feature       | LinkedHashMap              | HashMap     | TreeMap        |
+|---------------|----------------------------|-------------|----------------|
+| Ordering      | Insertion / Access order   | None        | Sorted         |
+| Performance   | O(1)                       | O(1)        | O(log n)       |
+| Null Keys     | 1 allowed                  | 1 allowed   | Not allowed    |
+| Null Values   | Allowed                    | Allowed     | Not allowed    |

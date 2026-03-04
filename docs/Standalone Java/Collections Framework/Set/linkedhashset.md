@@ -2,227 +2,165 @@
 sidebar_position: 2
 title: LinkedHashSet
 ---
+<!-- # 02-linkedhashset -->
 
-# LinkedHashSet 
+## The `LinkedHashSet` Class in Java
 
-This document explains:
-
--   What LinkedHashSet is
--   How it differs from HashSet
--   Internal structure (LinkedHashMap backing)
--   Order maintenance mechanism
--   Performance characteristics
--   Memory overhead
--   When to use LinkedHashSet
--   Automation relevance
--   Interview-level clarity
-
-------------------------------------------------------------------------
-
-# 1️⃣ What is LinkedHashSet?
-
-LinkedHashSet is an ordered version of HashSet.
-
-Definition:
-
-``` java
-public class LinkedHashSet<E>
-    extends HashSet<E>
-    implements Set<E>, Cloneable, Serializable
-```
-
-Important:
-
-• Maintains insertion order\
-• Does not allow duplicates\
-• Allows one null\
-• Not thread-safe\
-• Backed by LinkedHashMap
-
-------------------------------------------------------------------------
-
-# 2️⃣ Internal Working
-
-LinkedHashSet extends HashSet.
-
-But internally, HashSet uses HashMap.
-
-LinkedHashSet instead uses LinkedHashMap.
-
-LinkedHashMap maintains a doubly-linked list of entries to preserve
+The `LinkedHashSet` class is an implementation of the `Set` interface
+that combines the features of a **hash table** and a **linked list**. It
+maintains the **insertion order** of elements, making it ideal for
+scenarios where you need both uniqueness and predictable iteration
 order.
 
-So LinkedHashSet = Hash table + Linked list for order.
+------------------------------------------------------------------------
+
+## Key Characteristics of `LinkedHashSet`
+
+-   **Uniqueness**: Duplicate elements are not allowed.
+-   **Insertion Order**: Maintains the order elements were added.
+-   **Performance**: Basic operations like `add`, `remove`, and
+    `contains` are typically **O(1)**.
+-   **Null Handling**: Allows **one null element**.
+-   **Memory Overhead**: Slightly higher than `HashSet` because it
+    maintains a linked list.
 
 ------------------------------------------------------------------------
 
-# 3️⃣ Internal Structure Concept
+## Common Use Cases
 
-Each entry stores:
-
-• Key (actual element) • Hash value • Next (for bucket chaining) •
-Before & After references (for order maintenance)
-
-Structure:
-
-Hash bucket structure + doubly linked list across entries.
+-   Maintaining **unique elements with insertion order**
+-   Removing duplicates while preserving order
+-   Scenarios where predictable iteration order is required
+-   Lightweight caching scenarios
 
 ------------------------------------------------------------------------
 
-# 4️⃣ Order Preservation Example
+## Important Methods
+| Method                         | Description                            |
+|--------------------------------|----------------------------------------|
+| `boolean add(E e)`             | Adds element if not already present    |
+| `boolean remove(Object o)`     | Removes element                        |
+| `boolean contains(Object o)`   | Checks existence                       |
+| `int size()`                   | Returns number of elements             |
+| `boolean isEmpty()`            | Checks if set is empty                 |
+| `void clear()`                 | Removes all elements                   |
+------------------------------------------------------------------------
+
+## Example 1: Basic Operations
 
 ``` java
-Set<String> set = new LinkedHashSet<>();
+import java.util.LinkedHashSet;
+import java.util.Set;
 
-set.add("C");
-set.add("A");
-set.add("B");
+public class LinkedHashSetExample {
 
-System.out.println(set);  // [C, A, B]
-```
+    public static void main(String[] args) {
 
-Insertion order maintained.
+        Set<String> colors = new LinkedHashSet<>();
 
-------------------------------------------------------------------------
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        colors.add("Red");
 
-# 5️⃣ Difference: HashSet vs LinkedHashSet
+        System.out.println(colors);
 
-  Feature            HashSet           LinkedHashSet
-  ------------------ ----------------- -----------------
-  Order maintained   ❌ No             ✅ Yes
-  Backed by          HashMap           LinkedHashMap
-  Memory usage       Lower             Higher
-  Performance        Slightly faster   Slightly slower
+        System.out.println(colors.contains("Green"));
 
-------------------------------------------------------------------------
+        colors.remove("Blue");
 
-# 6️⃣ Performance Characteristics
+        System.out.println(colors);
 
-  Operation   Complexity
-  ----------- --------------
-  add         O(1) average
-  remove      O(1) average
-  contains    O(1) average
-
-Same as HashSet (slight overhead for maintaining linked list).
-
-------------------------------------------------------------------------
-
-# 7️⃣ Memory Overhead
-
-LinkedHashSet stores additional references for:
-
-• before pointer • after pointer
-
-So memory usage \> HashSet.
-
-------------------------------------------------------------------------
-
-# 8️⃣ Example -- Remove Duplicates but Keep Order
-
-``` java
-List<String> list = Arrays.asList("A", "B", "A", "C");
-
-Set<String> set = new LinkedHashSet<>(list);
-
-System.out.println(set);  // [A, B, C]
-```
-
-Useful when order matters.
-
-------------------------------------------------------------------------
-
-# 9️⃣ Example -- Iteration Order
-
-``` java
-LinkedHashSet<Integer> numbers = new LinkedHashSet<>();
-
-numbers.add(10);
-numbers.add(20);
-numbers.add(30);
-
-for(Integer n : numbers) {
-    System.out.println(n);
+        for(String color : colors){
+            System.out.println(color);
+        }
+    }
 }
 ```
 
-Output order same as insertion.
-
 ------------------------------------------------------------------------
 
-# 🔟 When to Use LinkedHashSet
-
-Use when:
-
-✓ Need uniqueness\
-✓ Need predictable iteration order\
-✓ Moderate performance acceptable
-
-Avoid when:
-
-✗ Memory sensitive application\
-✗ Order does not matter (use HashSet)
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Automation Framework Relevance
-
-LinkedHashSet useful for:
-
-• Removing duplicate test steps while preserving order\
-• Deduplicating API response list but keeping original order\
-• Validating UI elements appear in specific order
-
-Example:
+## Example 2: Maintaining Insertion Order
 
 ``` java
-List<String> response = Arrays.asList("ADMIN", "USER", "ADMIN");
+import java.util.LinkedHashSet;
+import java.util.Set;
 
-Set<String> uniqueOrdered = new LinkedHashSet<>(response);
+public class InsertionOrderExample {
 
-System.out.println(uniqueOrdered);  // [ADMIN, USER]
+    public static void main(String[] args) {
+
+        Set<Integer> numbers = new LinkedHashSet<>();
+
+        numbers.add(3);
+        numbers.add(1);
+        numbers.add(2);
+
+        System.out.println(numbers);
+    }
+}
 ```
 
 ------------------------------------------------------------------------
 
-# 1️⃣2️⃣ Interview Questions
+## Example 3: Removing Duplicates While Preserving Order
 
-Q: Difference between HashSet and LinkedHashSet? A: Order maintenance
-via linked list.
+``` java
+import java.util.*;
 
-Q: Is performance same as HashSet? A: Almost same; slight overhead.
+public class RemoveDuplicatesWithOrderExample {
 
-Q: Does LinkedHashSet allow null? A: Yes, one null.
+    public static void main(String[] args) {
 
-Q: Is it thread-safe? A: No.
+        List<String> fruits = new ArrayList<>();
+
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Apple");
+        fruits.add("Cherry");
+
+        System.out.println("Original List: " + fruits);
+
+        Set<String> uniqueFruits = new LinkedHashSet<>(fruits);
+
+        System.out.println("Unique Fruits: " + uniqueFruits);
+    }
+}
+```
 
 ------------------------------------------------------------------------
 
-# 1️⃣3️⃣ Advanced Insight
+## Performance Characteristics
+| Operation    | Complexity |
+|--------------|------------|
+| add()        | O(1)       |
+| remove()     | O(1)       |
+| contains()   | O(1)       |
+| iteration    | O(n)       |
 
-LinkedHashSet preserves insertion order, NOT sorting.
-
-For sorting behavior → use TreeSet.
-
-Internally relies on LinkedHashMap access-order vs insertion-order
-modes.
-
-Default mode = insertion order.
+Slightly slower than `HashSet` due to maintaining a linked structure.
 
 ------------------------------------------------------------------------
 
-# Final Mastery Checklist
+## When to Use LinkedHashSet
 
-You must understand:
+Use `LinkedHashSet` when:
 
-✓ LinkedHashMap backing\
-✓ Order maintenance mechanism\
-✓ Performance trade-offs\
-✓ Memory overhead\
-✓ When to choose LinkedHashSet\
-✓ Automation usage\
-✓ Interview-level clarity
+-   You need **unique elements**
+-   You need **insertion order preserved**
+-   Iteration order must be predictable
 
-Next file:
+Avoid when:
 
-treeset.md
+-   Order does not matter → use `HashSet`
+-   Sorted order required → use `TreeSet`
+
+------------------------------------------------------------------------
+
+## Comparison: LinkedHashSet vs HashSet vs TreeSet
+| Feature        | LinkedHashSet              | HashSet      | TreeSet        |
+|----------------|----------------------------|--------------|----------------|
+| Order          | Insertion order            | No order     | Sorted         |
+| Performance    | O(1)                       | O(1)         | O(log n)       |
+| Null Support   | One null                   | One null     | No null        |
+| Structure      | Hash table + linked list   | Hash table   | Red‑Black tree |

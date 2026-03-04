@@ -1,327 +1,170 @@
 ---
 sidebar_position: 1
-title: HashSet Internal Working
+title: HashSet 
 ---
+<!-- # 01-hashset -->
 
-# HashSet
+## The `HashSet` Class in Java
 
-This document explains:
-
--   How HashSet is implemented internally
--   Relationship between HashSet and HashMap
--   Hashing mechanism
--   Bucket structure
--   Collision handling
--   Load factor & resizing
--   Performance degradation scenarios
--   equals() & hashCode() contract importance
--   Automation relevance
--   Interview-level clarity
--   Code examples
+The `HashSet` class is one of the most commonly used implementations of
+the `Set` interface in the Java Collection Framework. It represents a
+collection that **does not allow duplicate elements** and provides
+constant-time performance for basic operations like `add`, `remove`, and
+`contains`. Internally, `HashSet` is backed by a **hash table**, which
+ensures fast lookups and insertions.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is HashSet?
+## Key Characteristics of `HashSet`
 
-HashSet is the most commonly used implementation of Set.
+-   **Uniqueness**: Does not allow duplicate elements. If a duplicate is
+    added, `add()` returns `false`.
+-   **No Guaranteed Order**: Iteration order is not guaranteed.
+-   **Null Handling**: Allows **one `null` element**.
+-   **Performance**: Basic operations are typically **O(1)** assuming
+    good hash distribution.
 
-Definition:
+------------------------------------------------------------------------
+
+## Common Use Cases
+
+-   Storing unique elements.
+-   Fast lookup operations.
+-   Removing duplicates from collections.
+-   Membership checking (`contains`).
+
+------------------------------------------------------------------------
+
+## Important Methods
+
+| Method                         | Description                      |
+|--------------------------------|----------------------------------|
+| `boolean add(E e)`             | Adds element if not present      |
+| `boolean remove(Object o)`     | Removes element                  |
+| `boolean contains(Object o)`   | Checks existence                 |
+| `int size()`                   | Returns number of elements       |
+| `boolean isEmpty()`            | Checks if set is empty           |
+| `void clear()`                 | Removes all elements             |
+
+------------------------------------------------------------------------
+
+## Example 1: Basic Operations
 
 ``` java
-public class HashSet<E>
-    extends AbstractSet<E>
-    implements Set<E>, Cloneable, Serializable
-```
+import java.util.HashSet;
+import java.util.Set;
 
-Important:
+public class HashSetExample {
 
-• Does NOT maintain insertion order\
-• Does NOT allow duplicates\
-• Allows one null\
-• Not thread-safe\
-• Backed internally by HashMap
+    public static void main(String[] args) {
 
-------------------------------------------------------------------------
+        Set<String> fruits = new HashSet<>();
 
-# 2️⃣ HashSet is Backed by HashMap
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
+        fruits.add("Apple");
 
-Internally, HashSet uses a HashMap.
+        System.out.println("Fruits: " + fruits);
 
-Core field inside HashSet:
+        System.out.println("Contains Banana? " + fruits.contains("Banana"));
 
-``` java
-private transient HashMap<E,Object> map;
-private static final Object PRESENT = new Object();
-```
+        fruits.remove("Cherry");
 
-When you do:
+        System.out.println("After removal: " + fruits);
 
-``` java
-set.add("Java");
-```
-
-Internally it does:
-
-``` java
-map.put("Java", PRESENT);
-```
-
-So:
-
-Element → Key\
-Dummy Object → Value
-
-This is why uniqueness depends on HashMap logic.
-
-------------------------------------------------------------------------
-
-# 3️⃣ Internal Data Structure
-
-HashMap internally uses:
-
-Array of buckets:
-```
-    Node<K,V>[] table;
-```
-Each bucket may contain:
-
-• Single node\
-• Linked list (if collision)\
-• Red-Black Tree (Java 8+, if heavy collision)
-
-HashSet inherits this behavior.
-
-------------------------------------------------------------------------
-
-# 4️⃣ Hashing Mechanism
-
-When you add element:
-
-1.  Compute hashCode()
-
-2.  Apply hash spreading function
-
-3.  Determine bucket index:
-
-    index = (n - 1) & hash
-
-4.  If bucket empty → insert
-
-5.  If not → check equals()
-
-6.  If duplicate → ignore
-
-------------------------------------------------------------------------
-
-# 5️⃣ Collision Handling
-
-If two elements have same bucket index:
-
-Before Java 8: → Stored as linked list
-
-After Java 8: If list length \> 8 → converted to Red-Black Tree
-
-This improves worst-case performance.
-
-------------------------------------------------------------------------
-
-# 6️⃣ Load Factor & Resizing
-
-Default values:
-
-Initial capacity: 16\
-Load factor: 0.75
-
-Threshold = capacity × load factor
-
-Example:
-
-16 × 0.75 = 12
-
-When size exceeds 12 → resize occurs.
-
-Resizing steps:
-
-1.  Double capacity
-2.  Rehash all elements
-3.  Redistribute into new buckets
-
-Resize cost: O(n)
-
-------------------------------------------------------------------------
-
-# 7️⃣ Time Complexity
-
-  Operation   Average   Worst Case
-  ----------- --------- ------------
-  add         O(1)      O(n)
-  remove      O(1)      O(n)
-  contains    O(1)      O(n)
-
-Worst case occurs with heavy hash collisions.
-
-------------------------------------------------------------------------
-
-# 8️⃣ Example -- Basic Usage
-
-``` java
-Set<String> set = new HashSet<>();
-
-set.add("A");
-set.add("B");
-set.add("A");
-
-System.out.println(set);  // [A, B]
-```
-
-Duplicate ignored.
-
-------------------------------------------------------------------------
-
-# 9️⃣ Example -- Custom Object Without equals/hashCode
-
-``` java
-class User {
-    int id;
-    User(int id) { this.id = id; }
-}
-
-Set<User> users = new HashSet<>();
-users.add(new User(1));
-users.add(new User(1));
-
-System.out.println(users.size());  // 2 (unexpected)
-```
-
-Because default equals compares memory address.
-
-------------------------------------------------------------------------
-
-# 🔟 Correct Custom Object Implementation
-
-``` java
-class User {
-    int id;
-
-    User(int id) {
-        this.id = id;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if(this == o) return true;
-        if(!(o instanceof User)) return false;
-        User u = (User) o;
-        return this.id == u.id;
-    }
-
-    @Override
-    public int hashCode() {
-        return Integer.hashCode(id);
+        for(String fruit : fruits){
+            System.out.println(fruit);
+        }
     }
 }
 ```
 
-Now duplicates prevented correctly.
-
 ------------------------------------------------------------------------
 
-# 1️⃣1️⃣ Performance Degradation Scenario
-
-If many objects have same hashCode:
+## Example 2: Removing Duplicates from List
 
 ``` java
-@Override
-public int hashCode() {
-    return 1;  // bad practice
-}
-```
+import java.util.*;
 
-All elements go into same bucket.
+public class RemoveDuplicatesExample {
 
-Performance degrades to O(n).
+    public static void main(String[] args) {
 
-------------------------------------------------------------------------
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Apple");
+        fruits.add("Cherry");
 
-# 1️⃣2️⃣ Null Handling
+        System.out.println("Original List: " + fruits);
 
-HashSet allows only one null.
+        Set<String> unique = new HashSet<>(fruits);
 
-Because:
-
-hashCode() of null handled specially in HashMap.
-
-Example:
-
-``` java
-set.add(null);
-set.add(null);
-
-System.out.println(set.size());  // 1
-```
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Automation Framework Relevance
-
-HashSet useful for:
-
-• Removing duplicate test data\
-• Checking uniqueness in API responses\
-• Comparing expected vs actual results\
-• Fast membership checking
-
-Example:
-
-``` java
-Set<String> expected = new HashSet<>(Arrays.asList("ADMIN", "USER"));
-Set<String> actual = new HashSet<>(responseRoles);
-
-if(expected.equals(actual)) {
-    System.out.println("Roles match");
+        System.out.println("Unique Fruits: " + unique);
+    }
 }
 ```
 
 ------------------------------------------------------------------------
 
-# 1️⃣4️⃣ Interview Questions
+## Example 3: Handling Null Values
 
-Q: How does HashSet ensure uniqueness? A: Uses hashCode() and equals().
+``` java
+import java.util.HashSet;
+import java.util.Set;
 
-Q: What is default load factor? A: 0.75
+public class HashSetNullExample {
 
-Q: What happens during resize? A: Capacity doubles and elements
-rehashed.
+    public static void main(String[] args) {
 
-Q: Is HashSet ordered? A: No.
+        Set<String> colors = new HashSet<>();
 
-Q: Can HashSet contain null? A: Yes, one null.
+        colors.add("Red");
+        colors.add(null);
+        colors.add("Blue");
+        colors.add(null);
+
+        System.out.println(colors);
+    }
+}
+```
 
 ------------------------------------------------------------------------
 
-# 1️⃣5️⃣ Advanced Insight
+## Performance Characteristics
 
-HashSet performance heavily depends on good hashCode implementation.
+| Operation    | Complexity |
+|--------------|------------|
+| add()        | O(1)       |
+| remove()     | O(1)       |
+| contains()   | O(1)       |
+| iteration    | O(n)       |
 
-Poor hash distribution → performance degradation.
-
-Java 8 treeification improves worst-case from O(n) to O(log n).
+Performance depends on good `hashCode()` implementation.
 
 ------------------------------------------------------------------------
 
-# Final Mastery Checklist
+## When to Use HashSet
 
-You must understand:
+Use `HashSet` when:
 
-✓ HashMap backing mechanism\
-✓ Bucket structure\
-✓ Collision handling\
-✓ Load factor & resize\
-✓ equals/hashCode importance\
-✓ Performance trade-offs\
-✓ Automation usage\
-✓ Interview-level reasoning
+-   You need **unique elements**
+-   **Ordering does not matter**
+-   **Fast lookups** are required
 
-Next file:
+Avoid when:
 
-linkedhashset.md
+-   Ordering matters → use `LinkedHashSet`
+-   Sorting required → use `TreeSet`
+
+------------------------------------------------------------------------
+
+## Comparison: HashSet vs LinkedHashSet vs TreeSet
+
+| Feature        | HashSet      | LinkedHashSet              | TreeSet        |
+|----------------|--------------|----------------------------|----------------|
+| Order          | No order     | Insertion order            | Sorted         |
+| Performance    | O(1)         | O(1) slightly slower       | O(log n)       |
+| Null Support   | One null     | One null                   | No null        |
+| Structure      | Hash table   | Hash table + linked list   | Red‑Black tree |

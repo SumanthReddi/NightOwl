@@ -299,7 +299,3 @@ You must understand:
 ✓ Stream integration\
 ✓ Automation use cases\
 ✓ Interview clarity
-
-Next file:
-
-fail-fast-vs-fail-safe.md
