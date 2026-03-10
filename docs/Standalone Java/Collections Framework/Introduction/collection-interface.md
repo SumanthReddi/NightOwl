@@ -53,24 +53,26 @@ public class CollectionExample {
     public static void main(String[] args) {
 
         Collection<String> fruits = new ArrayList<>();
-
+        // Add elements
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
 
-        System.out.println("Fruits: " + fruits);
+        System.out.println("Fruits: " + fruits);    // → [Apple, Banana, Cherry]
 
-        System.out.println("Size: " + fruits.size());
+        // Check size
+        System.out.println("Size: " + fruits.size());   // → 3
 
-        System.out.println("Contains Banana? " + fruits.contains("Banana"));
+        // Check if an element exists
+        System.out.println("Contains Banana? " + fruits.contains("Banana"));    // → true
 
+        // Remove an element
         fruits.remove("Cherry");
+        System.out.println("After removal: " + fruits);     // → [Apple, Banana]
 
-        System.out.println("After removal: " + fruits);
-
+        // Convert to array
         Object[] fruitArray = fruits.toArray();
-
-        System.out.println(Arrays.toString(fruitArray));
+        System.out.println(Arrays.toString(fruitArray));    // → [Apple, Banana]
     }
 }
 ```
@@ -94,15 +96,15 @@ public class BulkOperationsExample {
 
         Collection<String> toRemove = Arrays.asList("Banana", "Cherry");
 
+        // Remove all matching elements
         fruits.removeAll(toRemove);
 
-        System.out.println("After removeAll: " + fruits);
+        System.out.println("After removeAll: " + fruits);   // → [Apple]
 
+        // Retain only matching elements
         fruits.addAll(Arrays.asList("Apple", "Orange"));
-
         fruits.retainAll(Collections.singleton("Apple"));
-
-        System.out.println("After retainAll: " + fruits);
+        System.out.println("After retainAll: " + fruits);       // → [Apple]
     }
 }
 ```

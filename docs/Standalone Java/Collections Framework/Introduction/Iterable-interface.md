@@ -44,7 +44,7 @@ public class IterableExample {
     public static void main(String[] args) {
 
         List<String> fruits = Arrays.asList("Apple", "Banana", "Cherry");
-
+        // Enhanced for-loop
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
@@ -62,9 +62,9 @@ import java.util.*;
 public class ForEachExample {
 
     public static void main(String[] args) {
-
         List<String> fruits = Arrays.asList("Apple", "Banana", "Cherry");
 
+        // Using forEach with a lambda expression
         fruits.forEach(fruit -> System.out.println(fruit));
     }
 }
@@ -110,6 +110,7 @@ class Countdown implements Iterable<Integer> {
     }
 }
 
+// Usage:
 public class CustomIterableExample {
 
     public static void main(String[] args) {

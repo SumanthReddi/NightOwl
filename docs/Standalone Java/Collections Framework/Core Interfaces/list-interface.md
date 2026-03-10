@@ -73,29 +73,32 @@ import java.util.List;
 public class ListExample {
 
     public static void main(String[] args) {
-
+        // Create an ArrayList
         List<String> fruits = new ArrayList<>();
 
+        // Add elements
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
 
+        // Access elements by index
         System.out.println("First fruit: " + fruits.get(0));
 
+        // Iterate through the list
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
 
+        // Remove an element
         fruits.remove("Banana");
-
         System.out.println("After removal: " + fruits);
 
+        // Replace an element
         fruits.set(1, "Mango");
-
         System.out.println("After replacement: " + fruits);
 
+        // Get the index of an element
         int index = fruits.indexOf("Mango");
-
         System.out.println("Index of Mango: " + index);
     }
 }
@@ -121,14 +124,13 @@ public class SubListExample {
         numbers.add(40);
         numbers.add(50);
 
-        List<Integer> subList = numbers.subList(1, 4);
-
+        // Extract a sublist
+        List<Integer> subList = numbers.subList(1, 4);      // [20, 30, 40]
         System.out.println("Sublist: " + subList);
 
+        // Modify the sublist (affects the original list)
         subList.set(0, 25);
-
         System.out.println("Modified sublist: " + subList);
-
         System.out.println("Original list after modification: " + numbers);
     }
 }

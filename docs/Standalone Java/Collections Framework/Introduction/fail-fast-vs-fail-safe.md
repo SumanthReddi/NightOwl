@@ -48,7 +48,7 @@ public class FailFastExample {
             String fruit = it.next();
 
             if (fruit.equals("Banana")) {
-                fruits.remove(fruit); // ConcurrentModificationException
+                fruits.remove(fruit);   // Throws ConcurrentModificationException
             }
         }
     }
@@ -80,25 +80,20 @@ import java.util.Iterator;
 public class FailSafeExample {
 
     public static void main(String[] args) {
-
         CopyOnWriteArrayList<String> fruits = new CopyOnWriteArrayList<>();
-
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
 
         Iterator<String> it = fruits.iterator();
-
         while (it.hasNext()) {
-
             String fruit = it.next();
-
             if (fruit.equals("Banana")) {
                 fruits.remove("Cherry"); // No exception
             }
         }
-
-        System.out.println(fruits);
+        
+        System.out.println(fruits);     // → [Apple, Banana]
     }
 }
 ```

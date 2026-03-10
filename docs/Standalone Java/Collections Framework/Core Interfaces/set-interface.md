@@ -54,8 +54,9 @@ list, or performing mathematical set operations.
 | `boolean isEmpty()`            | Checks if set is empty         |
 | `Iterator<E> iterator()`       | Returns iterator               |
 ------------------------------------------------------------------------
+## Code Examples: Using the Set Interface
 
-## Example 1: HashSet
+## Example 1: Basic Operations with HashSet
 
 ``` java
 import java.util.HashSet;
@@ -64,20 +65,25 @@ import java.util.Set;
 public class HashSetExample {
 
     public static void main(String[] args) {
-
+        // Create a HashSet
         Set<String> fruits = new HashSet<>();
 
+        // Add elements
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
-        fruits.add("Apple");
+        fruits.add("Apple");        // Duplicate element (ignored)
 
-        System.out.println("Fruits: " + fruits);
+        System.out.println("Fruits: " + fruits);        // → [Apple, Banana, Cherry]
 
-        System.out.println("Contains Banana? " + fruits.contains("Banana"));
+         // Check if an element exists
+        System.out.println("Contains Banana? " + fruits.contains("Banana"));    // → true
 
+        // Remove an element
         fruits.remove("Cherry");
+        System.out.println("After removal: " + fruits); // → [Apple, Banana]
 
+        // Iterate through the set
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
@@ -87,7 +93,7 @@ public class HashSetExample {
 
 ------------------------------------------------------------------------
 
-## Example 2: LinkedHashSet
+## Example 2: Maintaining Insertion Order with LinkedHashSet
 
 ``` java
 import java.util.LinkedHashSet;
@@ -96,21 +102,22 @@ import java.util.Set;
 public class LinkedHashSetExample {
 
     public static void main(String[] args) {
-
+        // Create a LinkedHashSet
         Set<String> colors = new LinkedHashSet<>();
 
+        // Add elements
         colors.add("Red");
         colors.add("Green");
         colors.add("Blue");
 
-        System.out.println("Colors: " + colors);
+        System.out.println("Colors: " + colors);    // → [Red, Green, Blue]
     }
 }
 ```
 
 ------------------------------------------------------------------------
 
-## Example 3: TreeSet
+## Example 3: Sorting Elements with TreeSet
 
 ``` java
 import java.util.TreeSet;
@@ -119,15 +126,16 @@ import java.util.Set;
 public class TreeSetExample {
 
     public static void main(String[] args) {
-
+        // Create a TreeSet
         Set<Integer> numbers = new TreeSet<>();
 
+        // Add elements
         numbers.add(50);
         numbers.add(20);
         numbers.add(30);
         numbers.add(10);
 
-        System.out.println("Numbers: " + numbers);
+        System.out.println("Numbers: " + numbers);      // → [10, 20, 30, 50]
     }
 }
 ```
@@ -138,15 +146,17 @@ public class TreeSetExample {
 
 | Feature      | Set               | List      | Map                |
 |--------------|-------------------|-----------|--------------------|
-| Order        | Usually unordered | Ordered   | Key‑value pairs    |
-| Duplicates   | Not allowed       | Allowed   | Keys unique        |
+| Order        | Usually unordered | Ordered (insertion order)   | Key‑value pairs    |
+| Duplicates   | Not allowed       | Allowed   | Keys must be unique, values can duplicate       |
 | Index Access | No                | Yes       | No                 |
 
 ------------------------------------------------------------------------
 
 ## Mathematical Set Operations
 
-### Example
+The Set interface supports common mathematical set operations, such as union, intersection, and difference. These operations can be implemented using methods like **addAll(), retainAll(), and removeAll().**
+
+### Example: Union, Intersection, and Difference
 
 ``` java
 import java.util.HashSet;
@@ -155,7 +165,7 @@ import java.util.Set;
 public class SetOperations {
 
     public static void main(String[] args) {
-
+        // Create two sets
         Set<Integer> set1 = new HashSet<>();
         set1.add(1);
         set1.add(2);
@@ -166,18 +176,20 @@ public class SetOperations {
         set2.add(4);
         set2.add(5);
 
+        // Union
         Set<Integer> union = new HashSet<>(set1);
         union.addAll(set2);
+        System.out.println("Union: " + union); // → [1, 2, 3, 4, 5]
 
+        // Intersection
         Set<Integer> intersection = new HashSet<>(set1);
         intersection.retainAll(set2);
+        System.out.println("Intersection: " + intersection); // → [3]
 
+        // Difference
         Set<Integer> difference = new HashSet<>(set1);
         difference.removeAll(set2);
-
-        System.out.println("Union: " + union);
-        System.out.println("Intersection: " + intersection);
-        System.out.println("Difference: " + difference);
+        System.out.println("Difference: " + difference);    // → [1, 2]
     }
 }
 ```

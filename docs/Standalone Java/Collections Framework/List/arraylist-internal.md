@@ -66,15 +66,17 @@ import java.util.List;
 public class ArrayListExample {
 
     public static void main(String[] args) {
-
+        // Create an ArrayList
         List<String> fruits = new ArrayList<>();
 
+        // Add elements
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
 
         System.out.println("Fruits: " + fruits);
-
+        
+        // Access elements by index
         System.out.println("First fruit: " + fruits.get(0));
 
         fruits.set(1, "Mango");

@@ -37,29 +37,29 @@ Here's the full class/interface hierarchy in ASCII form (you can
 visualize this as a tree):
 ```
     java.lang.Object
-    └── java.util.Collection<E>
-        ├── java.util.List<E>
+    └── java.util.Collection<E>             ← Root interface for element containers
+        ├── java.util.List<E>               ← Ordered, allows duplicates
         │   ├── java.util.ArrayList<E>
         │   ├── java.util.LinkedList<E>
         │   ├── java.util.Vector<E>
         │   └── java.util.Stack<E>
         │
-        ├── java.util.Set<E>
+        ├── java.util.Set<E>                ← Unordered, no duplicates (by contract)
         │   ├── java.util.HashSet<E>
         │   ├── java.util.LinkedHashSet<E>
         │   └── java.util.TreeSet<E>
         │
-        └── java.util.Queue<E>
+        └── java.util.Queue<E>              ← FIFO (or priority-based) processing
             ├── java.util.PriorityQueue<E>
             ├── java.util.ArrayDeque<E>
-            └── java.util.LinkedList<E>
-            └── java.util.concurrent.BlockingQueue<E>
+            └── java.util.LinkedList<E>     ← Also implements List & Deque
+            └── java.util.concurrent.BlockingQueue<E>   (subinterface)
                 ├── java.util.concurrent.ArrayBlockingQueue<E>
                 ├── java.util.concurrent.LinkedBlockingQueue<E>
                 └── java.util.concurrent.SynchronousQueue<E>
 
     java.lang.Object
-        └── java.util.Map<K,V>
+        └── java.util.Map<K,V>              ← Key-value pairs (NOT a Collection!)
             ├── java.util.HashMap<K,V>
             ├── java.util.LinkedHashMap<K,V>
             ├── java.util.TreeMap<K,V>
@@ -97,16 +97,16 @@ import java.util.*;
 
 public class CollectionDemo {
     public static void main(String[] args) {
-
+        // Polymorphic assignment: any Collection implementation works
         Collection<String> coll = new ArrayList<>();
 
         coll.add("Apple");
         coll.add("Banana");
-        coll.add("Apple");
+        coll.add("Apple");  // Duplicates allowed in List, but not in Set!
 
-        System.out.println("Size: " + coll.size());
-        System.out.println("Contains Banana? " + coll.contains("Banana"));
-
+        System.out.println("Size: " + coll.size());     // → 3
+        System.out.println("Contains Banana? " + coll.contains("Banana"));      // → true
+        // Iterate using Iterator (fail-fast behavior)
         Iterator<String> it = coll.iterator();
 
         while (it.hasNext()) {
@@ -155,7 +155,6 @@ class Countdown implements Iterable<Integer> {
     public Iterator<Integer> iterator() {
 
         return new Iterator<>() {
-
             private int current = start;
 
             @Override
@@ -165,25 +164,21 @@ class Countdown implements Iterable<Integer> {
 
             @Override
             public Integer next() {
-
                 if (!hasNext()) {
                     throw new NoSuchElementException();
                 }
-
                 return current--;
             }
         };
     }
 }
 
+// Usage:
 public class IterableExample {
-
     public static void main(String[] args) {
-
         Countdown countdown = new Countdown(5);
-
         for (int i : countdown) {
-            System.out.println(i);
+            System.out.println(i);  // → 5, 4, 3, 2, 1
         }
     }
 }
