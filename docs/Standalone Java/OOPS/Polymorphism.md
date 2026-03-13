@@ -130,12 +130,11 @@ class Rectangle extends Shape {
 
 public class PolymorphismTest {
     public static void main(String[] args) {
-        Shape s;
-        
-        s = new Circle();
+  
+        Shape s = new Circle();
         s.draw(); // Output: Drawing a circle
         
-        s = new Rectangle();
+        Shape s = new Rectangle();
         s.draw(); // Output: Drawing a rectangle
     }
 }

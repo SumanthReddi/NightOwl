@@ -155,6 +155,3 @@ Always refresh the page after toggling a setting to confirm the state is persist
 - Implementation varies (checkbox vs div)
 - State validation is critical
 - Backend persistence must be verified
-
-Selenium 4 compliant • Real-project focused • Interview ready
-

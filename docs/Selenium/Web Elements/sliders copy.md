@@ -12,8 +12,8 @@ Sliders allow users to select a **value from a range** by dragging a handle. The
 
 Sliders are **highly visual and interaction-heavy**, so automation must focus on **value change validation**, not pixel-perfect movement.
 
-### Slider UI Example (Visual Reference)
-![Slider UI example](https://upload.wikimedia.org/wikipedia/commons/5/5f/Slider_control_example.png)
+<!-- ### Slider UI Example (Visual Reference)
+![Slider UI example](https://www.freepik.com/free-photos-vectors/slider-ui) -->
 
 ---
 
@@ -151,6 +151,3 @@ In filters, always validate that slider change **affects results**, not just the
 - JS-based interaction is most stable
 - Value validation is critical
 - Drag-and-drop should be last resort
-
-Selenium 4 compliant • Real-project safe • Interview ready
-

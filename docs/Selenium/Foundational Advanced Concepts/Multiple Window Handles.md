@@ -24,7 +24,7 @@ driver.switchTo().newWindow(WindowType.WINDOW);
 driver.get("https://example.com");
 ```
 
-**Key Advantage**: Same WebDriver session, no new driver instances, automatic context switch.[^3][^1]
+**Key Advantage**: Same WebDriver session, no new driver instances, automatic context switch.
 
 ***
 

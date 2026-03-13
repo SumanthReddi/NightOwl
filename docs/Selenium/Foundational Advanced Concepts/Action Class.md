@@ -348,6 +348,5 @@ For hover, drag, modifier keys, and complex gestures.
 
 ---
 
-Selenium 4 compliant • Covers mouse + keyboard interactions • Interview ready
 
 

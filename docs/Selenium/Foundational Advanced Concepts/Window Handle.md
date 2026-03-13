@@ -52,7 +52,13 @@ Essential Java syntax pattern:
 - Get parent: `String parent = driver.getWindowHandle();`
 - Get all: `Set<String> handles = driver.getWindowHandles();`
 - Loop:
-    - `for (String handle : handles) { if (!handle.equals(parent)) driver.switchTo().window(handle); }`
+    ```java
+    for (String handle : handles) 
+    { 
+        if (!handle.equals(parent)) 
+        driver.switchTo().window(handle); 
+    }
+    ```
 
 ***
 

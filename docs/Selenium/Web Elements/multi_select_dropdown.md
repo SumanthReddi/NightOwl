@@ -148,5 +148,3 @@ Multi-select dropdowns are often replaced by custom components — always inspec
 - Selenium `Select` class is required
 - Supports select & deselect operations
 - Must validate selected values explicitly
-
-Selenium 4 compliant • Enterprise-safe • Interv

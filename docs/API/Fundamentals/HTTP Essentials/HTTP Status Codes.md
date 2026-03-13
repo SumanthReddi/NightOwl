@@ -326,7 +326,7 @@ Response:
 | **1xx Informational** | 100 | Continue | The server received request headers and the client should proceed to send the body. |
 | | 101 | Switching Protocols | The server is switching protocols (e.g., upgrading to WebSocket). |
 | | 102 | Processing | The server has received and is processing the request but no response is available yet. |
-| | 103 | Early Hints | Used to provide early hints while the server prepares the response. |
+| | 103 | Check Point/Early Hints | Used to provide early hints while the server prepares the response. |
 | **2xx Success** | 200 | OK | The request was successful and the response contains requested data. |
 | | 201 | Created | The request succeeded and a new resource was created. |
 | | 202 | Accepted | The request was accepted for processing but not completed yet. |
@@ -339,6 +339,7 @@ Response:
 | | 302 | Found | Resource temporarily located at another URL. |
 | | 303 | See Other | Response available under a different URL using GET. |
 | | 304 | Not Modified | Resource not modified since last request. Cached version can be used. |
+| | 305 | Use Proxy | The requested resource must be accessed through the proxy specified in the Location header field.  |
 | | 307 | Temporary Redirect | Same request should be repeated at another temporary URL. |
 | | 308 | Permanent Redirect | Same request should be repeated at another permanent URL. |
 | **4xx Client Error** | 400 | Bad Request | Server cannot process request due to client error. |

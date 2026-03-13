@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '4c3'),
+    component: ComponentCreator('/docs', 'b58'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '470'),
+        component: ComponentCreator('/docs', '139'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '9cd'),
+            component: ComponentCreator('/docs', '224'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -797,14 +797,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/selenium',
-                component: ComponentCreator('/docs/category/selenium', '321'),
+                path: '/docs/category/selenium-grid',
+                component: ComponentCreator('/docs/category/selenium-grid', 'ca5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/selenium-grid',
-                component: ComponentCreator('/docs/category/selenium-grid', 'ca5'),
+                path: '/docs/category/selenium-java',
+                component: ComponentCreator('/docs/category/selenium-java', 'f20'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2569,12 +2569,6 @@ export default [
               {
                 path: '/docs/Selenium/Locators/Relative Locators',
                 component: ComponentCreator('/docs/Selenium/Locators/Relative Locators', 'f0a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Selenium/Locators/Selenium 4 Relative Locators',
-                component: ComponentCreator('/docs/Selenium/Locators/Selenium 4 Relative Locators', 'd5c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

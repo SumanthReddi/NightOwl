@@ -79,15 +79,15 @@ PageFactory.initElements(driver, this);
 
 ## 🔥 Key Differences
 
-  Feature                 By Locator     @FindBy WebElement
-  ----------------------- -------------- ------------------------
-  Locator Type            Locator only   WebElement field
-  Needs findElement()     Yes            No
-  Requires PageFactory    No             Yes
-  Re-locates element      Every call     On use (proxy)
-  Dynamic UI handling     Strong         Can cause stale issues
-  Code readability        Medium         High
-  Modern recommendation   Preferred      Less favored
+| Feature | By Locator | @FindBy WebElement |
+|--------|-------------|--------------------|
+| Locator Type | Locator only | WebElement field |
+| Needs findElement() | Yes | No |
+| Requires PageFactory | No | Yes |
+| Re-locates element | Every call | On use (proxy) |
+| Dynamic UI handling | Strong | Can cause stale issues |
+| Code readability | Medium | High |
+| Modern recommendation | Preferred | Less favored |
 
 ------------------------------------------------------------------------
 

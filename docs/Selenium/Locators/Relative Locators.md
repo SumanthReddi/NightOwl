@@ -30,9 +30,7 @@ import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
 WebElement reference = driver.findElement(By.id("password"));
 
-WebElement username = driver.findElement(
-        with(By.tagName("input")).above(reference)
-);
+WebElement username = driver.findElement(with(By.tagName("input")).above(reference));
 ```
 
 Key points:

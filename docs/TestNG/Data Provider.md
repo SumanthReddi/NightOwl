@@ -43,7 +43,7 @@ public void loginTest(String username, String password) {
 
 ### Execution Flow
 
-```
+```java
 loginTest("user1", "pass1")
 loginTest("user2", "pass2")
 ```

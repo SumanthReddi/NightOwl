@@ -256,9 +256,3 @@ Ensures cleanup runs even if test fails.
 - Essential for stable automation
 - Frequently tested in interviews
 - Must-know for TestNG mastery
-
----
-
-## Where This Fits
-
-This section **completes the TestNG documentation** by covering what most tutorials skip but real projects use daily.

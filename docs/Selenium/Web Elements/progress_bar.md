@@ -12,9 +12,9 @@ Progress bars visually indicate **task completion status over time**. They are c
 - Installation or setup flows
 
 Automation focus is **state, percentage, and completion**, not animation smoothness.
-
+<!-- 
 ### Progress Bar UI Example (Visual Reference)
-![Progress bar example](https://upload.wikimedia.org/wikipedia/commons/5/59/Progress_bar_example.png)
+![Progress bar example](https://upload.wikimedia.org/wikipedia/commons/5/59/Progress_bar_example.png) -->
 
 ---
 
@@ -156,6 +156,3 @@ Long-running progress bars are common sources of flaky tests — always use gene
 - Automation focuses on end state
 - Explicit waits are mandatory
 - Handle determinate & indeterminate types
-
-Selenium 4 compliant • Real-project focused • Interview ready
-

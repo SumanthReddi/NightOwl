@@ -32,7 +32,7 @@ results - Close connection
 
 ## JDBC Architecture
 
-```{=html}
+```
 Java Application
         |
         v
@@ -50,17 +50,20 @@ Database (Oracle / MySQL / PostgreSQL)
 ## Required Dependencies (Maven)
 
 For MySQL:
-```
-`<dependency>`{=html} `<groupId>`{=html}mysql`</groupId>`{=html}
-`<artifactId>`{=html}mysql-connector-java`</artifactId>`{=html}
-`<version>`{=html}8.0.33`</version>`{=html} `</dependency>`{=html}
+``` html
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
 ```
 For Oracle:
-```
-`<dependency>`{=html}
-`<groupId>`{=html}com.oracle.database.jdbc`</groupId>`{=html}
-`<artifactId>`{=html}ojdbc8`</artifactId>`{=html}
-`<version>`{=html}21.9.0.0`</version>`{=html} `</dependency>`{=html}
+``` html
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>21.9.0.0</version>
+</dependency>
 ```
 ------------------------------------------------------------------------
 

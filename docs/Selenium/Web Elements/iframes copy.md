@@ -164,5 +164,3 @@ Payment flows almost always use iframes — poor iframe handling is a common cau
 - Context switch is mandatory
 - Explicit waits improve stability
 - Always exit iframe after use
-
-Selenium 4 compliant • Production safe • Interview ready

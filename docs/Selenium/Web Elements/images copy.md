@@ -12,9 +12,9 @@ Images are **non-interactive by default**, but they often act as:
 - CAPTCHA or verification visuals
 
 In automation, images are validated for **presence, visibility, source, and click behavior** — not visual correctness.
-
+<!-- 
 ### Image UI Example (Visual Reference)
-![Clickable image example](https://upload.wikimedia.org/wikipedia/commons/3/3a/Clickable_image_example.png)
+![Clickable image example](https://upload.wikimedia.org/wikipedia/commons/3/3a/Clickable_image_example.png) -->
 
 ---
 
@@ -157,6 +157,3 @@ Image validation is often part of **smoke and accessibility tests**, especially 
 - JS helps detect broken images
 - Click behavior must be verified explicitly
 - Accessibility matters
-
-Selenium 4 compliant • Production focused • Interview ready
-

@@ -127,6 +127,7 @@ Here:
 ## Getters and Setters (Reality Check)
 
 Getters/setters are:
+
 ✔ useful for validation  
 ✔ useful for immutability  
 ❌ harmful when used blindly  

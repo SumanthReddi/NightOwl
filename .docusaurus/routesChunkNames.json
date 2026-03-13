@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-4c3": {
+  "/docs-b58": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-470": {
+  "/docs-139": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-9cd": {
+  "/docs-224": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -710,13 +710,13 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-security-authba-4-520"
   },
-  "/docs/category/selenium-321": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-selenium-4-b-6-879"
-  },
   "/docs/category/selenium-grid-ca5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-selenium-gridcd-7-e74"
+  },
+  "/docs/category/selenium-java-f20": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-selenium-java-9-f-3-3b2"
   },
   "/docs/category/set-implementations-037": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1893,10 +1893,6 @@
   "/docs/Selenium/Locators/Relative Locators-f0a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-locators-relative-locators-8-fe-3b3"
-  },
-  "/docs/Selenium/Locators/Selenium 4 Relative Locators-d5c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-selenium-locators-selenium-4-relative-locators-60-b-dfc"
   },
   "/docs/Selenium/Locators/XPath Basics-ab8": {
     "__comp": "__comp---theme-doc-item-178-a40",

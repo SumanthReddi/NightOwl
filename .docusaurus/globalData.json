@@ -1636,11 +1636,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selenium/Locators/Selenium 4 Relative Locators",
-              "path": "/docs/Selenium/Locators/Selenium 4 Relative Locators",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Selenium/Locators/XPath Basics",
               "path": "/docs/Selenium/Locators/XPath Basics",
               "sidebar": "tutorialSidebar"
@@ -2561,8 +2556,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/selenium",
-              "path": "/docs/category/selenium",
+              "id": "/category/selenium-java",
+              "path": "/docs/category/selenium-java",
               "sidebar": "tutorialSidebar"
             },
             {

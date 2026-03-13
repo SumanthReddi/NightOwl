@@ -162,5 +162,3 @@ Auto-suggest dropdowns are a major source of flaky tests — stabilize them with
 - `Select` class is not applicable
 - Explicit waits are mandatory
 - Validation must check input value
-
-Selenium 4 compliant • Real-world safe • Interview ready

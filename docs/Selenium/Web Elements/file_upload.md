@@ -154,5 +154,3 @@ Always validate backend processing after upload — UI success alone is not enou
 - `sendKeys()` is the only stable approach
 - Grid requires file detector
 - Validation is mandatory
-
-Selenium 4 compliant • Enterprise safe • Interview ready
