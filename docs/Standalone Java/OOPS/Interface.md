@@ -2,22 +2,48 @@
 sidebar_position: 8
 ---
 
+# Interface in Java
+
+An **interface** in Java is a blueprint for a class that defines **what
+a class must do**, but **not how it does it**.
+
+Interfaces specify **method signatures** that implementing classes must
+provide. They help achieve **abstraction**, **loose coupling**, and
+**polymorphism** in Java applications.
+
+> **Interface = A contract that implementing classes must follow**
+
+------------------------------------------------------------------------
+
+## Simple Definition
+
+> **Interface:** A reference type in Java that defines a set of methods
+> which implementing classes must implement.
+
+------------------------------------------------------------------------
+
 ## What Is an Interface?
 
-An **interface** in Java is a blueprint for a class, specifying a set of **method signatures** that the implementing classes must provide.
+An interface defines **behavior without implementation**.
 
-- It enables **abstraction**, meaning it hides the implementation details and only shows the method signatures.
-- All methods in an interface are **public** and **abstract** by default; implementations supply the method bodies.
-- From Java 8 onwards, interfaces can also have **default** and **static** methods with a method body.
+Key points:
 
-***
+-   It specifies **method signatures only**.
+-   The implementing class provides the **actual implementation**.
+-   Interfaces help hide implementation details and expose only
+    functionality.
+-   From **Java 8 onwards**, interfaces can also contain `default` and
+    `static` methods with implementations.
+
+------------------------------------------------------------------------
 
 ## Syntax: Declaring an Interface
 
 To declare an interface, use the `interface` keyword.
 
-```java
+``` java
 public interface MyInterface {
+
     // Constant declaration
     int MY_CONSTANT = 10;
 
@@ -33,133 +59,176 @@ public interface MyInterface {
     default void defaultMethod() {
         System.out.println("Default method in interface.");
     }
+
 }
 ```
 
-- All fields are by default `public static final`.
-- Abstract methods must be implemented by the implementing class.
-- `default` and `static` methods can have bodies in the interface.
+Important rules:
 
-***
+-   Fields are **public static final** by default.
+-   Methods are **public abstract** by default.
+-   `default` and `static` methods can have implementations.
+
+------------------------------------------------------------------------
 
 ## Implementing an Interface
 
-Use the `implements` keyword in a class to implement an interface:
+A class implements an interface using the `implements` keyword.
 
-```java
+``` java
 class MyClass implements MyInterface {
-    // Implementation of abstract method
+
     @Override
     public void myMethod() {
         System.out.println("Implemented myMethod");
     }
+
+}
+```
+
+------------------------------------------------------------------------
+
+## Complete Example
+
+``` java
+class MyClass implements MyInterface {
+
+    @Override
+    public void myMethod() {
+        System.out.println("Implemented myMethod");
+    }
+
 }
 
 public class Main {
+
     public static void main(String[] args) {
+
         MyClass obj = new MyClass();
-        obj.myMethod();          // Calls implemented method
-        obj.defaultMethod();     // Calls default method from interface
-        System.out.println(MyInterface.MY_CONSTANT); // Access constant
-        MyInterface.staticMethod(); // Calls static method
+
+        obj.myMethod();              
+        obj.defaultMethod();         
+
+        System.out.println(MyInterface.MY_CONSTANT);
+
+        MyInterface.staticMethod();
 
         // Polymorphism example
         MyInterface intfObj = new MyClass();
         intfObj.myMethod();
+
     }
+
 }
 ```
 
-- Must override all abstract methods.
-- Can call default and static methods directly.
-
-***
+------------------------------------------------------------------------
 
 ## Key Properties of Interfaces
 
-- **No objects** can be created for an interface directly.
-- Interfaces enable **multiple inheritance** (Classes can implement more than one interface).
-- Methods are always **public abstract** and attributes **public static final** by default.
-- Interfaces cannot have constructors, instance fields, or method bodies for abstract methods.
+-   Interfaces **cannot be instantiated**.
+-   A class must **implement all abstract methods**.
+-   Interfaces support **multiple inheritance**.
+-   Fields are always **public static final**.
+-   Methods are **public abstract** by default.
 
-***
+------------------------------------------------------------------------
 
 ## Example: Multiple Interfaces
 
-A class can implement more than one interface:
+A class can implement **multiple interfaces**.
 
-```java
+``` java
 interface InterfaceA {
     void methodA();
 }
+
 interface InterfaceB {
     void methodB();
 }
 
 class Demo implements InterfaceA, InterfaceB {
-    public void methodA() { System.out.println("methodA"); }
-    public void methodB() { System.out.println("methodB"); }
+
+    public void methodA() {
+        System.out.println("methodA");
+    }
+
+    public void methodB() {
+        System.out.println("methodB");
+    }
+
 }
 ```
 
-- This provides flexibility and solves the **multiple inheritance** problem in Java.
+This solves Java's **multiple inheritance limitation for classes**.
 
-***
+------------------------------------------------------------------------
 
 ## Extending Interfaces
 
-Interfaces can **extend** other interfaces:
+Interfaces can also extend other interfaces.
 
-```java
+``` java
 interface BaseInterface {
     void baseMethod();
 }
+
 interface ExtendedInterface extends BaseInterface {
     void extendedMethod();
 }
+
 class MyClass implements ExtendedInterface {
-    public void baseMethod() { System.out.println("baseMethod"); }
-    public void extendedMethod() { System.out.println("extendedMethod"); }
+
+    public void baseMethod() {
+        System.out.println("baseMethod");
+    }
+
+    public void extendedMethod() {
+        System.out.println("extendedMethod");
+    }
+
 }
 ```
 
-- Must implement all methods from the extended interface and its base.
+A class implementing the child interface must implement **all inherited
+methods**.
 
-***
+------------------------------------------------------------------------
 
-## Why and When To Use Interfaces?
+## Why and When To Use Interfaces
 
-- To **achieve abstraction**: Hide implementation details and expose functionality.
-- To enable **polymorphism**: Classes with different implementations can be used interchangeably via an interface type.
-- To allow **loose coupling**: Classes depend on behavior, not on specific implementations.
-- To emulate **multiple inheritance**: Java classes can implement multiple interfaces to inherit multiple sets of behaviors.
+Interfaces are used to:
 
-***
+-   Achieve **abstraction**
+-   Enable **polymorphism**
+-   Promote **loose coupling**
+-   Support **multiple inheritance**
+-   Design **flexible APIs and frameworks**
 
-## Important Notes
+Many Java libraries rely heavily on interfaces such as:
 
-- Interfaces are widely used in frameworks, libraries, and large-scale Java applications.
-- Popular Java APIs (like Java Collections) use interfaces (`List`, `Set`, `Map`) for flexibility.
-- Use interfaces to design clean, maintainable, and scalable code.
+-   `List`
+-   `Set`
+-   `Map`
 
-***
+------------------------------------------------------------------------
 
-## Quick Comparison: Interface vs Abstract Class
+## Interface vs Abstract Class
 
-| Feature | Interface  | Abstract Class  |
-| :-- | :-- | :-- |
-| Instantiation | Not possible  | Not possible  |
-| Multiple Inheritance | Possible  | Not possible  |
-| Methods | Only abstract, static, default  | Concrete + abstract |
-| Fields | public static final only  | Any modifier |
-| Constructors | Not allowed  | Allowed |
+| Feature | Interface | Abstract Class |
+|--------|-----------|---------------|
+| Instantiation | Not possible | Not possible |
+| Multiple Inheritance | Supported | Not supported |
+| Methods | Abstract + default + static | Abstract + concrete |
+| Fields | public static final only | Any type |
+| Constructors | Not allowed | Allowed |
 
-
-***
+------------------------------------------------------------------------
 
 ## Summary
 
-- An **interface** defines a contract that implementing classes must follow.
-- Use interfaces to achieve abstraction, loose coupling, and multiple inheritance in Java.
-- Implement all abstract methods, use default/static methods if needed, and remember no constructor or instance fields allowed in interfaces.
-
+-   An **interface defines a contract** for classes.
+-   Implementing classes must provide the method implementations.
+-   Interfaces support **abstraction, polymorphism, and loose
+    coupling**.
+-   They allow Java to simulate **multiple inheritance of behavior**.

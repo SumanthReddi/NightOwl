@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b58'),
+    component: ComponentCreator('/docs', 'eeb'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '139'),
+        component: ComponentCreator('/docs', '14e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '224'),
+            component: ComponentCreator('/docs', '290'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -3305,8 +3305,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/OOPS/Inheritance',
-                component: ComponentCreator('/docs/Standalone Java/OOPS/Inheritance', '698'),
+                path: '/docs/Standalone Java/OOPS/Inheritance + Super',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Inheritance + Super', 'c27'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
