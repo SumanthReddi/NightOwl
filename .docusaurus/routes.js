@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6f0'),
+    component: ComponentCreator('/docs', '4c3'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e32'),
+        component: ComponentCreator('/docs', '470'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '2e0'),
+            component: ComponentCreator('/docs', '9cd'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -221,98 +221,152 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Architecture Basics',
-                component: ComponentCreator('/docs/API/API Architecture Basics', '0fa'),
+                path: '/docs/API/Advanced/async-event-driven/async-api-testing',
+                component: ComponentCreator('/docs/API/Advanced/async-event-driven/async-api-testing', '8b2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Authentication and Authorization',
-                component: ComponentCreator('/docs/API/API Authentication and Authorization', 'd30'),
+                path: '/docs/API/Advanced/Contract Schema/contract-testing',
+                component: ComponentCreator('/docs/API/Advanced/Contract Schema/contract-testing', '67c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Automation Using RestAssured',
-                component: ComponentCreator('/docs/API/API Automation Using RestAssured', 'fcc'),
+                path: '/docs/API/Advanced/Contract Schema/schema-evolution',
+                component: ComponentCreator('/docs/API/Advanced/Contract Schema/schema-evolution', '65c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Database Validation',
-                component: ComponentCreator('/docs/API/API Database Validation', 'f54'),
+                path: '/docs/API/Advanced/environment-data/test-data-management',
+                component: ComponentCreator('/docs/API/Advanced/environment-data/test-data-management', '53a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Interview Questions and Scenarios',
-                component: ComponentCreator('/docs/API/API Interview Questions and Scenarios', '3a0'),
+                path: '/docs/API/Advanced/environment-data/test-environment-strategy',
+                component: ComponentCreator('/docs/API/Advanced/environment-data/test-environment-strategy', '357'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Introduction',
-                component: ComponentCreator('/docs/API/API Introduction', 'b73'),
+                path: '/docs/API/Advanced/flakiness-maintainability/flakiness-framework',
+                component: ComponentCreator('/docs/API/Advanced/flakiness-maintainability/flakiness-framework', '50d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Request Components',
-                component: ComponentCreator('/docs/API/API Request Components', 'bc1'),
+                path: '/docs/API/Advanced/Observability Reliability/idempotency-api-testing',
+                component: ComponentCreator('/docs/API/Advanced/Observability Reliability/idempotency-api-testing', '9ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Testing in CI CD Pipelines',
-                component: ComponentCreator('/docs/API/API Testing in CI CD Pipelines', '841'),
+                path: '/docs/API/Advanced/Observability Reliability/observability-api-testing',
+                component: ComponentCreator('/docs/API/Advanced/Observability Reliability/observability-api-testing', 'dc1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/API Testing With Postman',
-                component: ComponentCreator('/docs/API/API Testing With Postman', 'b75'),
+                path: '/docs/API/Fundamentals/Basics/API Architecture Basics',
+                component: ComponentCreator('/docs/API/Fundamentals/Basics/API Architecture Basics', '7cc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/Common API Automation Mistakes and Anti Patterns',
-                component: ComponentCreator('/docs/API/Common API Automation Mistakes and Anti Patterns', 'ae2'),
+                path: '/docs/API/Fundamentals/Basics/API Introduction',
+                component: ComponentCreator('/docs/API/Fundamentals/Basics/API Introduction', '6bf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/HTTP Methods GET POST',
-                component: ComponentCreator('/docs/API/HTTP Methods GET POST', '521'),
+                path: '/docs/API/Fundamentals/Best Practices/API Interview Questions and Scenarios',
+                component: ComponentCreator('/docs/API/Fundamentals/Best Practices/API Interview Questions and Scenarios', '590'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/HTTP Methods HEAD OPTIONS',
-                component: ComponentCreator('/docs/API/HTTP Methods HEAD OPTIONS', '1f3'),
+                path: '/docs/API/Fundamentals/Best Practices/Common API Automation Mistakes and Anti Patterns',
+                component: ComponentCreator('/docs/API/Fundamentals/Best Practices/Common API Automation Mistakes and Anti Patterns', '6f1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/HTTP Methods PUT PATCH DELETE',
-                component: ComponentCreator('/docs/API/HTTP Methods PUT PATCH DELETE', '65c'),
+                path: '/docs/API/Fundamentals/HTTP Essentials/HTTP Methods GET POST',
+                component: ComponentCreator('/docs/API/Fundamentals/HTTP Essentials/HTTP Methods GET POST', 'a3d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/HTTP Status Codes',
-                component: ComponentCreator('/docs/API/HTTP Status Codes', 'f26'),
+                path: '/docs/API/Fundamentals/HTTP Essentials/HTTP Methods HEAD OPTIONS',
+                component: ComponentCreator('/docs/API/Fundamentals/HTTP Essentials/HTTP Methods HEAD OPTIONS', '00e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/JSON_Fundamentals_For_API_Testing',
-                component: ComponentCreator('/docs/API/JSON_Fundamentals_For_API_Testing', 'e1e'),
+                path: '/docs/API/Fundamentals/HTTP Essentials/HTTP Methods PUT PATCH DELETE',
+                component: ComponentCreator('/docs/API/Fundamentals/HTTP Essentials/HTTP Methods PUT PATCH DELETE', '5ff'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/API/REST API Fundamentals',
-                component: ComponentCreator('/docs/API/REST API Fundamentals', '467'),
+                path: '/docs/API/Fundamentals/HTTP Essentials/HTTP Status Codes',
+                component: ComponentCreator('/docs/API/Fundamentals/HTTP Essentials/HTTP Status Codes', 'cc7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/HTTP Essentials/REST API Fundamentals',
+                component: ComponentCreator('/docs/API/Fundamentals/HTTP Essentials/REST API Fundamentals', 'a73'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/Integration Validation/API Database Validation',
+                component: ComponentCreator('/docs/API/Fundamentals/Integration Validation/API Database Validation', 'ad7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/Integration Validation/API Testing in CI CD Pipelines',
+                component: ComponentCreator('/docs/API/Fundamentals/Integration Validation/API Testing in CI CD Pipelines', '56f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/Request Response/API Request Components',
+                component: ComponentCreator('/docs/API/Fundamentals/Request Response/API Request Components', 'a4d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/Request Response/JSON_Fundamentals_For_API_Testing',
+                component: ComponentCreator('/docs/API/Fundamentals/Request Response/JSON_Fundamentals_For_API_Testing', '7c2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/Security Auth/API Authentication and Authorization',
+                component: ComponentCreator('/docs/API/Fundamentals/Security Auth/API Authentication and Authorization', '928'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/Tools & Frameworks/API Automation Using RestAssured',
+                component: ComponentCreator('/docs/API/Fundamentals/Tools & Frameworks/API Automation Using RestAssured', '873'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/API/Fundamentals/Tools & Frameworks/API Testing With Postman',
+                component: ComponentCreator('/docs/API/Fundamentals/Tools & Frameworks/API Testing With Postman', '663'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/advanced',
+                component: ComponentCreator('/docs/category/advanced', 'eb1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -371,14 +425,38 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/async--event-driven',
+                component: ComponentCreator('/docs/category/async--event-driven', 'fe4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/basics',
+                component: ComponentCreator('/docs/category/basics', '31a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/best-practices',
                 component: ComponentCreator('/docs/category/best-practices', '1ba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/best-practices-1',
+                component: ComponentCreator('/docs/category/best-practices-1', 'a43'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/collections-framework',
                 component: ComponentCreator('/docs/category/collections-framework', 'ac7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/contract-schema',
+                component: ComponentCreator('/docs/category/contract-schema', 'a41'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -437,6 +515,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/environment-data',
+                component: ComponentCreator('/docs/category/environment-data', 'e4a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/exception-handling',
                 component: ComponentCreator('/docs/category/exception-handling', '960'),
                 exact: true,
@@ -451,6 +535,12 @@ export default [
               {
                 path: '/docs/category/file-handling',
                 component: ComponentCreator('/docs/category/file-handling', 'c53'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/flakiness--maintainability',
+                component: ComponentCreator('/docs/category/flakiness--maintainability', '3da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -479,8 +569,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/fundamentals',
+                component: ComponentCreator('/docs/category/fundamentals', '09e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/git',
                 component: ComponentCreator('/docs/category/git', 'f78'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/http-essentials',
+                component: ComponentCreator('/docs/category/http-essentials', 'e00'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -493,6 +595,12 @@ export default [
               {
                 path: '/docs/category/installation--setup',
                 component: ComponentCreator('/docs/category/installation--setup', '163'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/integration-validation',
+                component: ComponentCreator('/docs/category/integration-validation', '397'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -635,6 +743,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/observability--reliability',
+                component: ComponentCreator('/docs/category/observability--reliability', '148'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/oops',
                 component: ComponentCreator('/docs/category/oops', '86c'),
                 exact: true,
@@ -673,6 +787,12 @@ export default [
               {
                 path: '/docs/category/scm-integration',
                 component: ComponentCreator('/docs/category/scm-integration', 'eb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/security--auth',
+                component: ComponentCreator('/docs/category/security--auth', '540'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -721,6 +841,12 @@ export default [
               {
                 path: '/docs/category/testng',
                 component: ComponentCreator('/docs/category/testng', '97c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/tools--frameworks',
+                component: ComponentCreator('/docs/category/tools--frameworks', '308'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

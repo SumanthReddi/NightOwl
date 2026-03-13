@@ -91,83 +91,123 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Architecture Basics",
-              "path": "/docs/API/API Architecture Basics",
+              "id": "API/Advanced/async-event-driven/async-api-testing",
+              "path": "/docs/API/Advanced/async-event-driven/async-api-testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Authentication and Authorization",
-              "path": "/docs/API/API Authentication and Authorization",
+              "id": "API/Advanced/Contract Schema/contract-testing",
+              "path": "/docs/API/Advanced/Contract Schema/contract-testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Automation Using RestAssured",
-              "path": "/docs/API/API Automation Using RestAssured",
+              "id": "API/Advanced/Contract Schema/schema-evolution",
+              "path": "/docs/API/Advanced/Contract Schema/schema-evolution",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Database Validation",
-              "path": "/docs/API/API Database Validation",
+              "id": "API/Advanced/environment-data/test-data-management",
+              "path": "/docs/API/Advanced/environment-data/test-data-management",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Interview Questions and Scenarios",
-              "path": "/docs/API/API Interview Questions and Scenarios",
+              "id": "API/Advanced/environment-data/test-environment-strategy",
+              "path": "/docs/API/Advanced/environment-data/test-environment-strategy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Introduction",
-              "path": "/docs/API/API Introduction",
+              "id": "API/Advanced/flakiness-maintainability/flakiness-framework",
+              "path": "/docs/API/Advanced/flakiness-maintainability/flakiness-framework",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Request Components",
-              "path": "/docs/API/API Request Components",
+              "id": "API/Advanced/Observability Reliability/idempotency-api-testing",
+              "path": "/docs/API/Advanced/Observability Reliability/idempotency-api-testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Testing in CI CD Pipelines",
-              "path": "/docs/API/API Testing in CI CD Pipelines",
+              "id": "API/Advanced/Observability Reliability/observability-api-testing",
+              "path": "/docs/API/Advanced/Observability Reliability/observability-api-testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/API Testing With Postman",
-              "path": "/docs/API/API Testing With Postman",
+              "id": "API/Fundamentals/Basics/API Architecture Basics",
+              "path": "/docs/API/Fundamentals/Basics/API Architecture Basics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/Common API Automation Mistakes and Anti Patterns",
-              "path": "/docs/API/Common API Automation Mistakes and Anti Patterns",
+              "id": "API/Fundamentals/Basics/API Introduction",
+              "path": "/docs/API/Fundamentals/Basics/API Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/HTTP Methods GET POST",
-              "path": "/docs/API/HTTP Methods GET POST",
+              "id": "API/Fundamentals/Best Practices/API Interview Questions and Scenarios",
+              "path": "/docs/API/Fundamentals/Best Practices/API Interview Questions and Scenarios",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/HTTP Methods HEAD OPTIONS",
-              "path": "/docs/API/HTTP Methods HEAD OPTIONS",
+              "id": "API/Fundamentals/Best Practices/Common API Automation Mistakes and Anti Patterns",
+              "path": "/docs/API/Fundamentals/Best Practices/Common API Automation Mistakes and Anti Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/HTTP Methods PUT PATCH DELETE",
-              "path": "/docs/API/HTTP Methods PUT PATCH DELETE",
+              "id": "API/Fundamentals/HTTP Essentials/HTTP Methods GET POST",
+              "path": "/docs/API/Fundamentals/HTTP Essentials/HTTP Methods GET POST",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/HTTP Status Codes",
-              "path": "/docs/API/HTTP Status Codes",
+              "id": "API/Fundamentals/HTTP Essentials/HTTP Methods HEAD OPTIONS",
+              "path": "/docs/API/Fundamentals/HTTP Essentials/HTTP Methods HEAD OPTIONS",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/JSON_Fundamentals_For_API_Testing",
-              "path": "/docs/API/JSON_Fundamentals_For_API_Testing",
+              "id": "API/Fundamentals/HTTP Essentials/HTTP Methods PUT PATCH DELETE",
+              "path": "/docs/API/Fundamentals/HTTP Essentials/HTTP Methods PUT PATCH DELETE",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "API/REST API Fundamentals",
-              "path": "/docs/API/REST API Fundamentals",
+              "id": "API/Fundamentals/HTTP Essentials/HTTP Status Codes",
+              "path": "/docs/API/Fundamentals/HTTP Essentials/HTTP Status Codes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/HTTP Essentials/REST API Fundamentals",
+              "path": "/docs/API/Fundamentals/HTTP Essentials/REST API Fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/Integration Validation/API Database Validation",
+              "path": "/docs/API/Fundamentals/Integration Validation/API Database Validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/Integration Validation/API Testing in CI CD Pipelines",
+              "path": "/docs/API/Fundamentals/Integration Validation/API Testing in CI CD Pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/Request Response/API Request Components",
+              "path": "/docs/API/Fundamentals/Request Response/API Request Components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/Request Response/JSON_Fundamentals_For_API_Testing",
+              "path": "/docs/API/Fundamentals/Request Response/JSON_Fundamentals_For_API_Testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/Security Auth/API Authentication and Authorization",
+              "path": "/docs/API/Fundamentals/Security Auth/API Authentication and Authorization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/Tools & Frameworks/API Automation Using RestAssured",
+              "path": "/docs/API/Fundamentals/Tools & Frameworks/API Automation Using RestAssured",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "API/Fundamentals/Tools & Frameworks/API Testing With Postman",
+              "path": "/docs/API/Fundamentals/Tools & Frameworks/API Testing With Postman",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2593,6 +2633,71 @@
             {
               "id": "/category/api",
               "path": "/docs/category/api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/fundamentals",
+              "path": "/docs/category/fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/basics",
+              "path": "/docs/category/basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/http-essentials",
+              "path": "/docs/category/http-essentials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/security--auth",
+              "path": "/docs/category/security--auth",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tools--frameworks",
+              "path": "/docs/category/tools--frameworks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/integration-validation",
+              "path": "/docs/category/integration-validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/best-practices-1",
+              "path": "/docs/category/best-practices-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/advanced",
+              "path": "/docs/category/advanced",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/contract-schema",
+              "path": "/docs/category/contract-schema",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/observability--reliability",
+              "path": "/docs/category/observability--reliability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/async--event-driven",
+              "path": "/docs/category/async--event-driven",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/environment-data",
+              "path": "/docs/category/environment-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/flakiness--maintainability",
+              "path": "/docs/category/flakiness--maintainability",
               "sidebar": "tutorialSidebar"
             },
             {
