@@ -2,268 +2,158 @@
 sidebar_position: 3
 title: String Constant Pool
 ---
+<!-- # String Constant Pool (SCP) in Java -->
 
-## String Constant Pool -- Complete Architect-Level Deep Dive
+## What Is the String Constant Pool?
 
-This document explains:
+The **String Constant Pool (SCP)** is a special memory area inside the
+**Java Heap** where Java stores **string literals**.
 
--   What String Constant Pool really is
--   Where it lives in memory (JVM evolution)
--   How it works internally
--   How JVM checks & stores strings
--   Garbage collection behavior
--   intern() deep mechanics
--   Performance implications
--   Memory myths
--   Advanced interview traps
--   Automation relevance
+It helps Java **optimize memory usage** by reusing identical string
+objects.
+
+> **String Constant Pool = A memory area where Java stores unique string literals.**
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is String Constant Pool?
-
-String Constant Pool (SCP) is a special memory region inside the heap
-that stores unique string literals.
-
-Purpose:
-
-• Avoid duplicate string objects\
-• Reduce memory consumption\
-• Improve performance\
-• Enable reference equality optimization
-
-Only **string literals** are automatically stored in the pool.
-
-------------------------------------------------------------------------
-
-# 2️⃣ JVM Evolution -- Where is the Pool Located?
-
-Before Java 7: - Stored in PermGen (Permanent Generation)
-
-After Java 7: - Moved to Heap memory
-
-Why moved? PermGen had fixed size → frequent OutOfMemoryError.
-
-Now: String pool lives inside heap and is GC-managed.
-
-------------------------------------------------------------------------
-
-# 3️⃣ How Pool Works Internally
-
-When JVM encounters:
+## Example
 
 ``` java
-String s = "Java";
+String s1 = "Java";
+String s2 = "Java";
 ```
 
-Steps:
+Both `s1` and `s2` point to the **same object** in the String Constant
+Pool.
 
-1.  JVM checks if "Java" exists in pool
-2.  If not → create and store in pool
-3.  Reference returned to variable
+### Memory Representation
 
-If already exists: - No new object created - Reference reused
+    String Constant Pool
+
+    +---------+
+    | "Java"  |  ← s1, s2
+    +---------+
+
+Java does **not create a new object** for `s2` because `"Java"` already
+exists in the pool.
 
 ------------------------------------------------------------------------
 
-# 4️⃣ Literal Reuse Example
+## How the String Pool Works
 
-``` java
-String a = "Test";
-String b = "Test";
+When a string literal is created:
 
-System.out.println(a == b);  // true
-```
-
-Why?
-
-Both references point to same pool object.
+1.  JVM checks if the string already exists in the **String Constant
+    Pool**.
+2.  If it exists → JVM returns the **existing reference**.
+3.  If it does not exist → JVM **creates a new object in the pool**.
 
 ------------------------------------------------------------------------
 
-# 5️⃣ new Keyword Bypasses Pool
+## Example Demonstration
 
 ``` java
-String a = new String("Test");
-String b = new String("Test");
+public class Test {
 
-System.out.println(a == b);  // false
+    public static void main(String[] args) {
+
+        String s1 = "Java";
+        String s2 = "Java";
+
+        System.out.println(s1 == s2);
+
+    }
+
+}
 ```
+
+Output
+
+    true
 
 Explanation:
 
-Each call creates a NEW object in heap.
-
-Pool still has only one "Test" literal.
+-   `==` compares **memory references**
+-   Both variables refer to the **same object in the pool**
 
 ------------------------------------------------------------------------
 
-# 6️⃣ Visual Memory Model
+## String Created with `new` Keyword
+
+When using `new`, Java **creates a new object in heap memory**, even if
+the string already exists in the pool.
 
 Example:
 
 ``` java
-String s1 = "Hello";
-String s2 = new String("Hello");
+String s1 = "Java";
+String s2 = new String("Java");
+
+System.out.println(s1 == s2);
 ```
 
-Memory:
+Output
 
-Stack: s1 → pool object s2 → heap object
+    false
 
-Heap: Pool → "Hello" Heap object → "Hello"
+### Memory Representation
 
-Two separate objects.
+    String Constant Pool
+
+    +---------+
+    | "Java"  | ← s1
+    +---------+
+
+    Heap
+
+    +---------+
+    | "Java"  | ← s2
+    +---------+
+
+Here:
+
+-   `s1` points to the **String Pool**
+-   `s2` points to a **new object in heap memory**
 
 ------------------------------------------------------------------------
 
-# 7️⃣ intern() Deep Mechanics
-It is used to take a copy of a string present in Non Contant Pool & shift it to Constant Pool.
+## Benefits of String Constant Pool
+
+### Memory Optimization
+
+Duplicate strings are **not created**, saving memory.
+
+### Performance Improvement
+
+Reusing objects reduces **object creation overhead**.
+
+### Faster String Comparisons
+
+Since multiple references can point to the same object, comparisons can
+be faster.
+
+------------------------------------------------------------------------
+
+## Important Points
+
+-   Only **string literals** are stored in the String Pool.
+-   The pool stores **unique strings only**.
+-   Strings created using `new` are stored in **heap memory**.
+-   Use `intern()` to place a string into the pool.
 
 Example:
 
 ``` java
 String s1 = new String("Java");
 String s2 = s1.intern();
-
-System.out.println(s1 == s2);  // false
 ```
 
-Explanation:
-
-• s1 → heap object\
-• s2 → pool object
-
-intern():
-
--   If string exists in pool → return reference
--   If not → add to pool and return reference
-
 ------------------------------------------------------------------------
 
-# 8️⃣ Advanced intern() Scenario
+## Summary
 
-``` java
-String s1 = new String("abc");
-String s2 = "abc";
-System.out.println(s1.intern() == s2);  // true
-```
-
-Because:
-
-intern() returns pool reference.
-
-------------------------------------------------------------------------
-
-# 9️⃣ Pool & Garbage Collection
-
-Important concept:
-
-Pool is NOT permanent.
-
-If no references exist to a pooled string → it can be garbage collected.
-
-Example:
-
-``` java
-String s = new String("Temp").intern();
-s = null;
-```
-
-If no other references exist → eligible for GC.
-
-------------------------------------------------------------------------
-
-# 🔟 Common Memory Myth
-
-Myth: Strings in pool cannot be garbage collected.
-
-Reality: Since Java 7 → pool is in heap → GC applies.
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Performance Advantage
-
-Without pool:
-
-``` java
-String s1 = "abc";
-String s2 = "abc";
-```
-
-Two objects would be created.
-
-With pool: Only one object created.
-
-Massive memory savings in large systems.
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Edge Case -- Compile-Time Optimization
-
-``` java
-String s1 = "Ja" + "va";
-String s2 = "Java";
-
-System.out.println(s1 == s2);  // true
-```
-
-Compiler optimizes literals.
-
-------------------------------------------------------------------------
-
-But:
-
-``` java
-String part = "Ja";
-String s3 = part + "va";
-
-System.out.println(s3 == s2);  // false
-```
-
-Runtime concatenation → new object.
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Advanced Interview Questions
-
-Q: Can String pool cause memory leak? A: No, since Java 7 pool is
-GC-managed.
-
-Q: Why use intern()? A: To reduce duplicate strings in memory-heavy
-systems.
-
-Q: How does JVM check equality in pool? A: Uses hash-based lookup
-internally.
-
-Q: Does new String() always create 2 objects? A: Only if literal not
-already in pool.
-
-------------------------------------------------------------------------
-
-# 1️⃣4️⃣ Automation Relevance
-
-In automation frameworks:
-
-• Thousands of locator strings • Repeated API payload keys • Repeated
-configuration strings
-
-Pool ensures memory optimization.
-
-But:
-
-Avoid excessive new String() usage.
-
-------------------------------------------------------------------------
-
-# Final Mastery Checklist
-
-You should understand:
-
-✓ Pool location evolution\
-✓ How literals are stored\
-✓ Object counting logic\
-✓ intern() internal behavior\
-✓ GC behavior of pool\
-✓ Compile-time optimization\
-✓ Performance implications
+-   The **String Constant Pool** stores unique string literals.
+-   It prevents duplicate objects from being created.
+-   It improves **memory usage and performance**.
+-   Strings created using literals are stored in the **pool**, while
+    `new String()` creates objects in the **heap**.

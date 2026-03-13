@@ -2,333 +2,189 @@
 sidebar_position: 6
 title: StringBuilder
 ---
+<!-- ## StringBuilder -->
 
-## StringBuilder -- Complete Deep Dive
+### What Is StringBuilder?
 
-This document covers:
+`StringBuilder` is a class in Java used to create **mutable strings**.
 
--   Why StringBuilder exists
--   Problem with String concatenation
--   Internal implementation details
--   Capacity & growth mechanism
--   Performance behavior
--   Time complexity analysis
--   Thread safety discussion
--   JVM optimization behavior
--   Automation framework relevance
--   Interview traps
+Unlike `String`, which is **immutable**, `StringBuilder` allows
+modifying the same object without creating new objects.
+
+> **StringBuilder = Mutable sequence of characters used for efficient
+> string manipulation**
 
 ------------------------------------------------------------------------
 
-# 1️⃣ Why StringBuilder Exists
-
-Problem:
-
-String is immutable.
-
-Example:
+## Simple Example
 
 ``` java
-String s = "";
-for(int i = 0; i < 5; i++){
-    s = s + i;
-}
+StringBuilder sb = new StringBuilder("Hello");
+
+sb.append(" World");
+
+System.out.println(sb); // Hello World
 ```
 
-Each iteration:
-
-• New String object created\
-• Old object becomes garbage\
-• Multiple heap allocations\
-• Performance overhead
-
-This leads to:
-
-O(n²) time complexity for repeated concatenation.
-
 ------------------------------------------------------------------------
 
-# 2️⃣ What is StringBuilder?
+# Common StringBuilder Methods
 
-StringBuilder is a mutable sequence of characters.
+## 1. append()
 
-Declaration:
+Adds text to the end of the string.
 
 ``` java
-public final class StringBuilder
-    extends AbstractStringBuilder
-    implements java.io.Serializable, CharSequence
+StringBuilder sb = new StringBuilder("Java");
+
+sb.append(" Programming");
+
+System.out.println(sb); // Java Programming
 ```
 
-Key Properties:
-
-• Mutable\
-• Not thread-safe\
-• Faster than StringBuffer\
-• Uses expandable internal array
 
 ------------------------------------------------------------------------
 
-# 3️⃣ Internal Implementation
+## 2. insert()
 
-Internally:
+Inserts text at a specified index.
 
 ``` java
-char[] value;
-int count;
+StringBuilder sb = new StringBuilder("Java");
+
+sb.insert(4, " Language");
+
+System.out.println(sb); // Java Language
 ```
 
-value → character array\
-count → number of characters currently stored
-
-Unlike String:
-
-• Array is NOT final\
-• Can grow dynamically
-
 ------------------------------------------------------------------------
 
-# 4️⃣ Capacity & Growth Mechanism
+## 3. replace()
 
-Default constructor:
+Replaces characters between specified indexes.
 
 ``` java
-StringBuilder sb = new StringBuilder();
+StringBuilder sb = new StringBuilder("Java Programming");
+
+sb.replace(5, 16, "Language");
+
+System.out.println(sb); // Java Language
 ```
 
-Initial capacity: 16
-
-If capacity exceeded:
-
-New capacity formula:
-
-    newCapacity = (oldCapacity * 2) + 2
-
-Example:
-
-Initial: 16\
-After overflow → 34\
-Next → 70
 
 ------------------------------------------------------------------------
 
-Example:
+## 4. delete()
+
+Deletes characters from the string.
 
 ``` java
-StringBuilder sb = new StringBuilder(5);
-sb.append("HelloWorld");
+StringBuilder sb = new StringBuilder("Java Programming");
+
+sb.delete(4, 16);
+
+System.out.println(sb); // Java
 ```
 
-Capacity automatically increases.
 
 ------------------------------------------------------------------------
 
-# 5️⃣ Common Methods
+## 5. reverse()
 
-## append()
-
-``` java
-sb.append("Java");
-sb.append(100);
-```
-
-Time Complexity: Amortized O(1)
-
-------------------------------------------------------------------------
-
-## insert()
+Reverses the characters in the string.
 
 ``` java
-sb.insert(0, "Start ");
-```
+StringBuilder sb = new StringBuilder("Java");
 
-Time Complexity: O(n)
-
-------------------------------------------------------------------------
-
-## delete()
-
-``` java
-sb.delete(0, 5);
-```
-
-Time Complexity: O(n)
-
-------------------------------------------------------------------------
-
-## reverse()
-
-``` java
 sb.reverse();
+
+System.out.println(sb); // avaJ
 ```
 
-Time Complexity: O(n)
 
 ------------------------------------------------------------------------
 
-## toString()
+## 6. capacity()
 
-``` java
-String result = sb.toString();
-```
-
-Creates immutable String object.
-
-------------------------------------------------------------------------
-
-# 6️⃣ Performance Comparison
-
-Example:
-
-``` java
-// Using String
-String s = "";
-for(int i=0; i<1000; i++){
-    s += i;
-}
-```
-
-Creates 1000+ objects.
-
-------------------------------------------------------------------------
-
-Better:
+Returns the current capacity of the builder.
 
 ``` java
 StringBuilder sb = new StringBuilder();
-for(int i=0; i<1000; i++){
-    sb.append(i);
-}
-String result = sb.toString();
+
+System.out.println(sb.capacity()); //16
 ```
 
-Only one final String object created.
-
 ------------------------------------------------------------------------
 
-# 7️⃣ Time Complexity Analysis
+## 7. length()
 
-append() → O(1) amortized\
-insert() → O(n)\
-delete() → O(n)\
-reverse() → O(n)
-
-Repeated concatenation using String → O(n²)
-
-------------------------------------------------------------------------
-
-# 8️⃣ JVM Concatenation Optimization
-
-Compiler converts:
+Returns the number of characters in the string.
 
 ``` java
-String s = a + b;
+StringBuilder sb = new StringBuilder("Java");
+
+System.out.println(sb.length()); //4
 ```
 
-To:
+------------------------------------------------------------------------
+
+## 8. charAt()
+
+Returns character at a specified index.
 
 ``` java
-new StringBuilder()
-    .append(a)
-    .append(b)
-    .toString();
+StringBuilder sb = new StringBuilder("Java");
+
+System.out.println(sb.charAt(2)); // v
 ```
 
-Since Java 9:
-
-Uses invokedynamic for optimization.
-
-But in loops, manual StringBuilder is still better.
-
 ------------------------------------------------------------------------
 
-# 9️⃣ Thread Safety
+## 9. setCharAt()
 
-StringBuilder is NOT synchronized.
-
-Not safe for multi-threaded use without external synchronization.
-
-If thread safety required → use StringBuffer.
-
-------------------------------------------------------------------------
-
-# 🔟 Memory Behavior
-
-Stack: sb → reference
-
-Heap: char\[\] buffer count variable
-
-Buffer expands dynamically.
-
-Old buffer becomes eligible for GC.
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Automation Framework Relevance
-
-Used in:
-
-• Building dynamic XPath\
-• Creating JSON payloads\
-• Generating test logs\
-• Constructing large API request bodies
-
-Example:
+Changes character at a specified index.
 
 ``` java
-StringBuilder json = new StringBuilder();
-json.append("{");
-json.append(""name":"John"");
-json.append("}");
+StringBuilder sb = new StringBuilder("Java");
+
+sb.setCharAt(0, 'R');
+
+System.out.println(sb); // Rava
 ```
 
-Better performance than String concatenation.
-
 ------------------------------------------------------------------------
 
-# 1️⃣2️⃣ Interview Questions
+## 10. toString()
 
-Q: Why is StringBuilder faster than String?\
-A: Because it is mutable and avoids multiple object creation.
-
-Q: What is default capacity?\
-A: 16 characters.
-
-Q: How does capacity grow?\
-A: (oldCapacity \* 2) + 2
-
-Q: Is StringBuilder thread-safe?\
-A: No.
-
-Q: Does toString() return same internal array?\
-A: No, it creates new String object.
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Common Mistake
-
-Creating new StringBuilder inside loop:
+Converts `StringBuilder` to `String`.
 
 ``` java
-for(...) {
-    StringBuilder sb = new StringBuilder();
-}
+StringBuilder sb = new StringBuilder("Java");
+
+String str = sb.toString();
+
+System.out.println(str); // Java
 ```
 
-This defeats purpose.
-
-Better to reuse builder.
 
 ------------------------------------------------------------------------
 
-# Final Mastery Checklist
+## Summary
 
-You should now understand:
+-   `StringBuilder` is **mutable**
+-   It allows efficient string manipulation
+-   It avoids creating multiple objects
+-   Common methods include:
 
-✓ Why StringBuilder exists\
-✓ Internal buffer mechanism\
-✓ Growth formula\
-✓ Performance characteristics\
-✓ JVM concatenation optimization\
-✓ Thread-safety behavior\
-✓ Automation usage
+``` java
+    append()
+    insert()
+    replace()
+    delete()
+    reverse()
+    capacity()
+    length()
+    charAt()
+    setCharAt()
+    toString()
+```

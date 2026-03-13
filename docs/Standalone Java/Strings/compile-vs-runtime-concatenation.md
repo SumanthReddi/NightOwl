@@ -2,276 +2,145 @@
 sidebar_position: 10
 title: Compile-Time vs Runtime Concatenation
 ---
+<!-- # Compile-Time vs Runtime Concatenation in Java -->
 
-## Compile-Time vs Runtime Concatenation -- Deep JVM-Level Analysis
-
-This document explains:
-
--   What happens during compilation
--   Constant folding & constant pool behavior
--   Runtime concatenation mechanics
--   StringBuilder generation
--   invokedynamic (Java 9+)
--   Memory implications
--   Performance differences
--   Interview edge cases
--   Automation relevance
+In Java, string concatenation can happen at **compile-time** or **runtime** depending on how the strings are created.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ What is Compile-Time Concatenation?
+## Compile-Time Concatenation
 
-Compile-time concatenation happens when all parts are constants.
+Compile-time concatenation occurs when **string literals are combined by
+the compiler before the program runs**.
 
-Example:
+The Java compiler automatically merges the strings into a **single
+string in the String Constant Pool**.
 
-``` java
-String s = "Hel" + "lo";
-```
-
-Compiler performs constant folding.
-
-It converts the above into:
+### Example
 
 ``` java
-String s = "Hello";
+String s = "Hello" + " " + "World";
+
+System.out.println(s);
 ```
 
-Only ONE object created in String Pool.
+### Output
+
+    Hello World
+
+### Explanation
+
+The compiler converts the code into:
+
+``` java
+String s = "Hello World";
+```
+
+So only **one object** is created in the **String Constant Pool**.
+
+### Memory Representation
+
+    String Constant Pool
+
+    +--------------+
+    | "Hello World"|
+    +--------------+
+            ↑
+            s
 
 ------------------------------------------------------------------------
 
-# 2️⃣ Proof Using ==
+## Runtime Concatenation
+
+Runtime concatenation happens when **variables or objects are involved
+in concatenation**.
+
+In this case, the concatenation is performed **during program
+execution**.
+
+### Example
 
 ``` java
 String s1 = "Hello";
-String s2 = "Hel" + "lo";
+String s2 = "World";
 
-System.out.println(s1 == s2);  // true
+String s3 = s1 + " " + s2;
+
+System.out.println(s3);
 ```
 
-Why?
+### Output
 
-Because compiler optimized it into same pooled literal.
+    Hello World
 
-------------------------------------------------------------------------
+### Explanation
 
-# 3️⃣ What is Runtime Concatenation?
+Since variables are used, Java performs concatenation at runtime using
+**StringBuilder internally**.
 
-Occurs when at least one operand is a variable.
-
-Example:
+Equivalent behavior:
 
 ``` java
-String part = "Hel";
-String s = part + "lo";
+StringBuilder sb = new StringBuilder();
+sb.append(s1);
+sb.append(" ");
+sb.append(s2);
+
+String s3 = sb.toString();
 ```
-
-This cannot be resolved at compile time.
-
-So it becomes runtime concatenation.
 
 ------------------------------------------------------------------------
 
-# 4️⃣ What Actually Happens at Runtime
+## Key Differences
 
-Compiler converts:
+  Feature           Compile-Time Concatenation   Runtime Concatenation
+  ----------------- ---------------------------- -----------------------------
+  When it happens   During compilation           During execution
+  Operands          String literals only         Variables or objects
+  Memory            Stored in String Pool        Created in heap
+  Performance       Faster                       Slightly slower
+  Object creation   Usually one object           May create multiple objects
+
+------------------------------------------------------------------------
+
+## Example Showing Both
 
 ``` java
-String s = part + "lo";
+public class Test {
+
+    public static void main(String[] args) {
+
+        String s1 = "Java" + "Programming";   // Compile-time
+
+        String a = "Java";
+        String b = "Programming";
+
+        String s2 = a + b;                    // Runtime
+
+        System.out.println(s1);
+        System.out.println(s2);
+
+    }
+
+}
 ```
 
-Into:
+### Output
 
-``` java
-String s = new StringBuilder()
-                .append(part)
-                .append("lo")
-                .toString();
-```
-
-So:
-
-• New StringBuilder created\
-• Buffer allocated\
-• Characters copied\
-• New String object created
-
-Not stored in pool automatically.
+    JavaProgramming
+    JavaProgramming
 
 ------------------------------------------------------------------------
 
-# 5️⃣ Memory Difference
-
-Compile-time:
-
-Stack: s → pool object
-
-Heap (Pool): "Hello"
-
-------------------------------------------------------------------------
-
-Runtime:
-
-Stack: s → heap object
-
-Heap: Pool → maybe "Hello" Heap object → new "Hello"
-
-Two separate objects.
-
-------------------------------------------------------------------------
-
-# 6️⃣ Java 9+ Optimization (invokedynamic)
-
-Before Java 9:
-
-Compiler used explicit StringBuilder bytecode.
-
-After Java 9:
-
-Uses invokedynamic instruction for concatenation.
-
-JVM dynamically decides best strategy.
-
-Example:
-
-``` java
-String s = a + b + c;
-```
-
-May optimize differently depending on context.
-
-However:
-
-In loops → still inefficient without manual builder.
-
-------------------------------------------------------------------------
-
-# 7️⃣ Tricky Interview Cases
-
-Case 1:
-
-``` java
-final String part = "Hel";
-String s = part + "lo";
-
-System.out.println(s == "Hello");  // true
-```
-
-Because final variable with constant value → treated as compile-time
-constant.
-
-------------------------------------------------------------------------
-
-Case 2:
-
-``` java
-String part = "Hel";
-String s = part + "lo";
-
-System.out.println(s == "Hello");  // false
-```
-
-Because not final → runtime concatenation.
-
-------------------------------------------------------------------------
-
-Case 3:
-
-``` java
-String s1 = "A" + "B" + "C";
-String s2 = "ABC";
-
-System.out.println(s1 == s2);  // true
-```
-
-Fully optimized at compile-time.
-
-------------------------------------------------------------------------
-
-# 8️⃣ Performance Implications
-
-Compile-time concatenation:
-
-• Zero runtime overhead\
-• Single pooled object
-
-Runtime concatenation:
-
-• Object allocation\
-• Buffer allocation\
-• Character copy\
-• GC pressure
-
-Inside loops → can become O(n²).
-
-------------------------------------------------------------------------
-
-# 9️⃣ Automation Framework Relevance
-
-Dynamic XPath:
-
-``` java
-String xpath = "//input[@id='" + id + "']";
-```
-
-This is runtime concatenation.
-
-Safe because small operation.
-
-But in heavy report generation loops → use StringBuilder.
-
-------------------------------------------------------------------------
-
-# 🔟 Bytecode-Level Insight (Conceptual)
-
-Compile-time literal:
-
-Bytecode loads constant from pool.
-
-Runtime concatenation:
-
-Bytecode uses invokedynamic (Java 9+) or StringBuilder chain (pre Java
-9).
-
-Understanding this shows difference in runtime cost.
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Common Interview Questions
-
-Q: Why does "Hel" + "lo" use same object as "Hello"?\
-A: Compiler constant folding.
-
-Q: Why does variable concatenation create new object?\
-A: Cannot be resolved at compile-time.
-
-Q: What happens if variable is final?\
-A: If compile-time constant → treated as literal.
-
-Q: Is concatenated string automatically interned?\
-A: No, unless explicitly calling intern().
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Advanced Edge Case
-
-``` java
-String s = ("Hel" + "lo").intern();
-```
-
-Already compile-time optimized → intern() returns same reference.
-
-------------------------------------------------------------------------
-
-# Final Mastery Checklist
-
-You should now understand:
-
-✓ Constant folding\
-✓ Compile-time optimization\
-✓ Runtime StringBuilder generation\
-✓ invokedynamic optimization\
-✓ Memory differences\
-✓ Interview edge cases\
-✓ Automation usage context
+## Summary
+
+-   **Compile-time concatenation** happens when only string literals are
+    used.
+-   The compiler merges literals and stores the result in the **String
+    Constant Pool**.
+-   **Runtime concatenation** occurs when variables are involved.
+-   Java internally uses **StringBuilder** for runtime concatenation.
+
+Compile-time concatenation is generally **more memory-efficient**, while
+runtime concatenation provides **flexibility when working with
+variables**.

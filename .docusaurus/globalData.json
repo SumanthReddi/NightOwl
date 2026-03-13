@@ -2281,11 +2281,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Strings/string-hashcode-caching",
-              "path": "/docs/Standalone Java/Strings/string-hashcode-caching",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Standalone Java/Strings/string-immutability",
               "path": "/docs/Standalone Java/Strings/string-immutability",
               "sidebar": "tutorialSidebar"
@@ -2298,11 +2293,6 @@
             {
               "id": "Standalone Java/Strings/string-overview-creation",
               "path": "/docs/Standalone Java/Strings/string-overview-creation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Strings/string-performance-in-loops",
-              "path": "/docs/Standalone Java/Strings/string-performance-in-loops",
               "sidebar": "tutorialSidebar"
             },
             {

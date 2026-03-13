@@ -2,257 +2,98 @@
 sidebar_position: 8
 title: StringBuilder vs StringBuffer 
 ---
+## StringBuilder vs StringBuffer
 
-## StringBuilder vs StringBuffer -- Complete Architectural Comparison
+Both **StringBuilder** and **StringBuffer** are classes in Java used to
+create **mutable strings**.\
+They allow modification of string content without creating new objects
+like the `String` class.
 
-This document provides:
-
--   Historical background
--   Internal architecture comparison
--   Synchronization cost analysis
--   Performance reasoning (not myths)
--   Thread-safety deep explanation
--   JVM behavior insights
--   Real-world decision guide
--   Automation framework recommendations
--   Interview-level traps
+The key difference between them is **thread safety**.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ Historical Background
+## Simple Definition
 
-• StringBuffer introduced in Java 1.0\
-• StringBuilder introduced in Java 5
-
-Why StringBuilder?
-
-Because StringBuffer was synchronized by default → unnecessary overhead
-in single-threaded environments.
-
-StringBuilder provides same functionality without synchronization.
+-   **StringBuilder:** Mutable string class that is **not thread-safe**,
+    but faster.
+-   **StringBuffer:** Mutable string class that is **thread-safe
+    (synchronized)**.
 
 ------------------------------------------------------------------------
 
-# 2️⃣ Class Hierarchy
-
-Both extend:
+## Example: StringBuilder
 
 ``` java
-AbstractStringBuilder
+StringBuilder sb = new StringBuilder("Java");
+
+sb.append(" Programming");
+
+System.out.println(sb); // Java Programming
 ```
 
-Simplified:
-
-    AbstractStringBuilder
-            ↑
-       ┌───────────────┐
-       │               │
-    StringBuilder   StringBuffer
-
-Core logic is shared in AbstractStringBuilder.
-
-Difference = Synchronization.
 
 ------------------------------------------------------------------------
 
-# 3️⃣ Internal Structure Comparison
-
-Both internally maintain:
+## Example: StringBuffer
 
 ``` java
-char[] value;
-int count;
+StringBuffer sb = new StringBuffer("Java");
+
+sb.append(" Programming");
+ 
+System.out.println(sb); //  Java Programming
 ```
 
-Both use same capacity growth formula:
-
-    newCapacity = (oldCapacity * 2) + 2
-
-So internal memory logic is identical.
 
 ------------------------------------------------------------------------
 
-# 4️⃣ Key Difference: Synchronization
+## Key Differences
 
-StringBuffer methods are synchronized:
-
-``` java
-public synchronized StringBuffer append(String str)
-```
-
-StringBuilder methods are NOT synchronized.
-
-Effect:
-
-• StringBuffer acquires object-level lock\
-• StringBuilder does not
+| Feature | StringBuilder | StringBuffer |
+|--------|---------------|--------------|
+| Thread Safety | Not thread-safe | Thread-safe |
+| Synchronization | Not synchronized | Synchronized |
+| Performance | Faster | Slower |
+| Introduced | Java 5 | Java 1.0 |
+| Use Case | Single-threaded applications | Multi-threaded applications |
 
 ------------------------------------------------------------------------
 
-# 5️⃣ Performance Difference -- The Real Reason
+## Performance Difference
 
-Synchronization adds:
+Because `StringBuffer` methods are **synchronized**, only one thread can
+access them at a time.
 
-• Lock acquisition cost\
-• Context switching possibility\
-• Memory barrier overhead
+This makes it:
 
-Even if no contention, lock still applied.
+-   **Safe for multi-threaded environments**
+-   **Slightly slower than StringBuilder**
 
-Therefore:
-
-StringBuilder \> StringBuffer in performance (single-threaded).
-
-------------------------------------------------------------------------
-
-# 6️⃣ Time Complexity Comparison
-
-  Operation   StringBuilder    StringBuffer
-  ----------- ---------------- ------------------
-  append()    O(1) amortized   O(1) + lock cost
-  insert()    O(n)             O(n) + lock cost
-  delete()    O(n)             O(n) + lock cost
-
-Lock cost makes measurable difference in high-volume operations.
+`StringBuilder` does **not use synchronization**, so it performs faster
+in single-threaded scenarios.
 
 ------------------------------------------------------------------------
 
-# 7️⃣ Thread Safety Deep Explanation
+## When To Use
 
-Important:
+Use **StringBuilder** when:
 
-StringBuffer ensures individual method safety.
+-   Application is **single-threaded**
+-   Performance is important
+-   Frequent string modifications are required
 
-But compound operations are NOT atomic.
+Use **StringBuffer** when:
 
-Example:
-
-``` java
-if(sb.length() > 0){
-    sb.deleteCharAt(0);
-}
-```
-
-Between length() and deleteCharAt(), another thread may modify buffer.
-
-Thus:
-
-StringBuffer provides method-level safety, not full transactional
-safety.
+-   Application is **multi-threaded**
+-   Thread safety is required
+-   Multiple threads may modify the same string
 
 ------------------------------------------------------------------------
 
-# 8️⃣ When to Use Which?
+## Summary
 
-Use StringBuilder when:
-
-• Single-threaded code\
-• Local variable inside method\
-• High-performance required\
-• Loop-based concatenation
-
-Use StringBuffer when:
-
-• Multiple threads modify SAME object\
-• Legacy multi-threaded systems
-
-In modern applications:
-
-Prefer StringBuilder almost always.
-
-------------------------------------------------------------------------
-
-# 9️⃣ JVM Concatenation Behavior
-
-When you write:
-
-``` java
-String s = a + b;
-```
-
-Compiler uses StringBuilder internally (not StringBuffer).
-
-Since Java 9:
-
-Uses invokedynamic optimization.
-
-Therefore:
-
-Manual StringBuffer rarely needed.
-
-------------------------------------------------------------------------
-
-# 🔟 Real-World Automation Perspective
-
-Automation frameworks:
-
-• Most test methods run single-threaded\
-• Objects are not shared across threads\
-• Parallel execution uses separate test instances
-
-Therefore:
-
-Use StringBuilder in automation almost always.
-
-StringBuffer unnecessary overhead.
-
-------------------------------------------------------------------------
-
-# 1️⃣1️⃣ Performance Demonstration Example
-
-Inefficient:
-
-``` java
-StringBuffer sb = new StringBuffer();
-for(int i=0; i<100000; i++){
-    sb.append(i);
-}
-```
-
-Better:
-
-``` java
-StringBuilder sb = new StringBuilder();
-for(int i=0; i<100000; i++){
-    sb.append(i);
-}
-```
-
-In single-thread scenario → StringBuilder significantly faster.
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Interview Comparison Summary
-
-  Feature           String            StringBuilder   StringBuffer
-  ----------------- ----------------- --------------- ----------------
-  Mutable           No                Yes             Yes
-  Thread-safe       Yes (immutable)   No              Yes
-  Synchronization   No                No              Yes
-  Performance       Slow (concat)     Fast            Slower than SB
-  Introduced        Java 1.0          Java 5          Java 1.0
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Advanced Interview Questions
-
-Q: Why not always use StringBuffer?\
-A: Unnecessary synchronization overhead.
-
-Q: Why does compiler use StringBuilder internally?\
-A: Because most concatenation is single-threaded.
-
-Q: Can StringBuilder cause race condition?\
-A: Yes, if shared across threads.
-
-Q: Is StringBuffer 100% safe in multi-threading?\
-A: No, compound operations require external synchronization.
-
-------------------------------------------------------------------------
-
-# Final Decision Guide
-
-If unsure → use StringBuilder.
-
-Only use StringBuffer when: • Shared mutable object\
-• Multi-threaded mutation required
+-   Both classes create **mutable strings**
+-   `StringBuilder` is **faster but not thread-safe**
+-   `StringBuffer` is **thread-safe but slightly slower**
+-   Choose based on **thread safety requirements**

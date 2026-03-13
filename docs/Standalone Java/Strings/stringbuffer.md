@@ -2,280 +2,198 @@
 sidebar_position: 7
 title: StringBuffer
 ---
+<!-- ## StringBuffer in Java -->
 
-## StringBuffer -- Complete Deep Dive
+### What Is StringBuffer?
 
-This document covers:
+`StringBuffer` is a class in Java used to create **mutable strings that
+are thread-safe**.
 
--   Why StringBuffer exists
--   How it differs from StringBuilder
--   Internal implementation
--   Synchronization mechanism
--   Performance implications
--   Thread-safety guarantees
--   JVM behavior
--   Real-world use cases
--   Automation relevance
--   Interview edge cases
+Unlike `String`, which is **immutable**, `StringBuffer` allows
+modification of the same object without creating new objects.
 
-------------------------------------------------------------------------
+> **StringBuffer = Mutable and thread-safe sequence of characters**
 
-# 1️⃣ Why StringBuffer Was Introduced
-
-Before Java 5:
-
-There was no StringBuilder.
-
-Problem: String is immutable → repeated concatenation expensive.
-
-Solution introduced: StringBuffer (mutable + thread-safe).
+It is mainly used in **multi-threaded environments** where thread safety
+is required.
 
 ------------------------------------------------------------------------
 
-# 2️⃣ What is StringBuffer?
-
-Declaration:
+## Simple Example
 
 ``` java
-public final class StringBuffer
-    extends AbstractStringBuilder
-    implements java.io.Serializable, CharSequence
-```
+StringBuffer sb = new StringBuffer("Hello");
 
-Important:
+sb.append(" World");
 
-• Mutable\
-• Thread-safe\
-• Synchronized methods\
-• Slower than StringBuilder
-
-------------------------------------------------------------------------
-
-# 3️⃣ Internal Structure
-
-Like StringBuilder, internally:
-
-``` java
-char[] value;
-int count;
-```
-
-Same expandable buffer mechanism.
-
-Difference: Methods are synchronized.
-
-------------------------------------------------------------------------
-
-# 4️⃣ Synchronization Mechanism
-
-Example method:
-
-``` java
-public synchronized StringBuffer append(String str) {
-    super.append(str);
-    return this;
-}
-```
-
-The `synchronized` keyword ensures:
-
-• Only one thread executes method at a time\
-• Lock acquired on current object
-
-This ensures thread safety.
-
-------------------------------------------------------------------------
-
-# 5️⃣ Capacity & Growth
-
-Default capacity: 16
-
-Growth formula (same as StringBuilder):
-
-    newCapacity = (oldCapacity * 2) + 2
-
-Example:
-
-``` java
-StringBuffer sb = new StringBuffer();
-sb.append("Hello World");
-```
-
-Buffer expands if required.
-
-------------------------------------------------------------------------
-
-# 6️⃣ Common Methods
-
-## append()
-
-``` java
-StringBuffer sb = new StringBuffer();
-sb.append("Java");
-sb.append(100);
-```
-
-Thread-safe append.
-
-------------------------------------------------------------------------
-
-## insert()
-
-``` java
-sb.insert(0, "Start ");
+System.out.println(sb); // Hello World
 ```
 
 ------------------------------------------------------------------------
 
-## delete()
+# Common StringBuffer Methods
+
+## 1. append()
+
+Adds text to the end of the string.
 
 ``` java
-sb.delete(0, 5);
+StringBuffer sb = new StringBuffer("Java");
+
+sb.append(" Programming");
+
+System.out.println(sb); // Java Programming
 ```
+
 
 ------------------------------------------------------------------------
 
-## reverse()
+## 2. insert()
+
+Inserts text at a specified index.
 
 ``` java
+StringBuffer sb = new StringBuffer("Java");
+
+sb.insert(4, " Language");
+
+System.out.println(sb); //  Java Language
+```
+
+
+------------------------------------------------------------------------
+
+## 3. replace()
+
+Replaces characters between specified indexes.
+
+``` java
+StringBuffer sb = new StringBuffer("Java Programming");
+
+sb.replace(5, 16, "Language");
+
+System.out.println(sb); //  Java Language
+```
+
+
+------------------------------------------------------------------------
+
+## 4. delete()
+
+Deletes characters from the string.
+
+``` java
+StringBuffer sb = new StringBuffer("Java Programming");
+
+sb.delete(4, 16);
+
+System.out.println(sb); // Java
+```
+
+
+------------------------------------------------------------------------
+
+## 5. reverse()
+
+Reverses the characters in the string.
+
+``` java
+StringBuffer sb = new StringBuffer("Java");
+
 sb.reverse();
+
+System.out.println(sb); // avaJ
 ```
 
-------------------------------------------------------------------------
-
-## toString()
-
-``` java
-String result = sb.toString();
-```
-
-Creates immutable String object.
 
 ------------------------------------------------------------------------
 
-# 7️⃣ Performance Comparison
+## 6. capacity()
 
-StringBuffer vs StringBuilder:
-
-  Feature           StringBuffer   StringBuilder
-  ----------------- -------------- ---------------
-  Mutable           Yes            Yes
-  Thread-safe       Yes            No
-  Synchronization   Yes            No
-  Performance       Slower         Faster
-
-Reason:
-
-Every method call in StringBuffer acquires a lock.
-
-------------------------------------------------------------------------
-
-# 8️⃣ When to Use StringBuffer
-
-Use only when:
-
-• Multiple threads modify same object\
-• Thread safety required\
-• Legacy systems (older Java versions)
-
-In modern code:
-
-Prefer StringBuilder unless synchronization is required.
-
-------------------------------------------------------------------------
-
-# 9️⃣ Example -- Multi-threaded Scenario
+Returns the current capacity of the buffer.
 
 ``` java
 StringBuffer sb = new StringBuffer();
 
-Thread t1 = new Thread(() -> {
-    for(int i=0;i<1000;i++){
-        sb.append("A");
-    }
-});
-
-Thread t2 = new Thread(() -> {
-    for(int i=0;i<1000;i++){
-        sb.append("B");
-    }
-});
-
-t1.start();
-t2.start();
+System.out.println(sb.capacity()); // 16
 ```
 
-Safe because methods synchronized.
 
-If using StringBuilder → race condition possible.
-
-------------------------------------------------------------------------
-
-# 🔟 Memory Behavior
-
-Stack: sb → reference
-
-Heap: Expandable char\[\] buffer count variable
-
-Each append may trigger array resize.
+Default capacity is **16 characters**.
 
 ------------------------------------------------------------------------
 
-# 1️⃣1️⃣ Automation Relevance
+## 7. length()
 
-Rarely needed in automation.
-
-Most test frameworks are single-threaded per test case.
-
-If parallel tests share mutable data → better to avoid shared objects
-rather than rely on StringBuffer.
-
-Best practice: Use StringBuilder in most automation scenarios.
-
-------------------------------------------------------------------------
-
-# 1️⃣2️⃣ Interview Questions
-
-Q: Difference between StringBuilder and StringBuffer?\
-A: Synchronization & performance.
-
-Q: Is StringBuffer fully thread-safe?\
-A: Individual methods are synchronized. Composite operations may still
-need external synchronization.
-
-Q: Is StringBuffer faster than String?\
-A: Yes (for repeated modification).
-
-Q: Should we use StringBuffer in modern applications?\
-A: Rarely, unless strict multi-threaded mutation required.
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ Subtle Interview Trap
-
-Even though methods are synchronized:
-
-This is NOT atomic:
+Returns the number of characters in the string.
 
 ``` java
-if(sb.length() > 0) {
-    sb.deleteCharAt(0);
-}
+StringBuffer sb = new StringBuffer("Java");
+
+System.out.println(sb.length()); //4
 ```
 
-Another thread may modify between calls.
-
-Need external synchronization for compound actions.
 
 ------------------------------------------------------------------------
 
-# Final Mastery Checklist
+## 8. charAt()
 
-You should understand:
+Returns the character at a specified index.
 
-✓ Internal working of StringBuffer\
-✓ Synchronization mechanism\
-✓ Performance trade-offs\
-✓ Thread-safety limitations\
-✓ When to use vs avoid\
-✓ Automation implications
+``` java
+StringBuffer sb = new StringBuffer("Java");
+
+System.out.println(sb.charAt(2)); // v
+```
+
+------------------------------------------------------------------------
+
+## 9. setCharAt()
+
+Changes the character at a specified index.
+
+``` java
+StringBuffer sb = new StringBuffer("Java");
+
+sb.setCharAt(0, 'R');
+
+System.out.println(sb); // Rava
+```
+
+
+------------------------------------------------------------------------
+
+## 10. toString()
+
+Converts `StringBuffer` to `String`.
+
+``` java
+StringBuffer sb = new StringBuffer("Java");
+
+String str = sb.toString();
+
+System.out.println(str); // Java
+```
+
+
+------------------------------------------------------------------------
+
+## Summary
+
+-   `StringBuffer` is **mutable**
+-   It is **thread-safe (synchronized)**
+-   Used in **multi-threaded environments**
+-   Common methods include:
+
+```java
+    append()
+    insert()
+    replace()
+    delete()
+    reverse()
+    capacity()
+    length()
+    charAt()
+    setCharAt()
+    toString()
+```

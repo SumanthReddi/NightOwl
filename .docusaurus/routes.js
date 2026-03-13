@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'eeb'),
+    component: ComponentCreator('/docs', '693'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '14e'),
+        component: ComponentCreator('/docs', 'e95'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '290'),
+            component: ComponentCreator('/docs', '4ec'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -3347,12 +3347,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Strings/string-hashcode-caching',
-                component: ComponentCreator('/docs/Standalone Java/Strings/string-hashcode-caching', '8ce'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Standalone Java/Strings/string-immutability',
                 component: ComponentCreator('/docs/Standalone Java/Strings/string-immutability', 'df8'),
                 exact: true,
@@ -3367,12 +3361,6 @@ export default [
               {
                 path: '/docs/Standalone Java/Strings/string-overview-creation',
                 component: ComponentCreator('/docs/Standalone Java/Strings/string-overview-creation', '334'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Strings/string-performance-in-loops',
-                component: ComponentCreator('/docs/Standalone Java/Strings/string-performance-in-loops', '04e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

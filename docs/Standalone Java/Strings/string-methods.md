@@ -2,320 +2,292 @@
 sidebar_position: 5
 title: String Methods
 ---
+<!-- # String Methods in Java -->
 
-## String Methods -- Complete Deep Dive
+Java provides many built-in methods in the `String` class to manipulate
+and analyze text.
 
-This document covers:
-
--   Frequently used String methods
--   Internal behavior insights
--   Time complexity considerations
--   Edge cases
--   Regex-based methods
--   Performance implications
--   Automation framework relevance
--   Interview-focused traps
+Strings are **immutable**, meaning every operation returns a **new String object** instead of modifying the original.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ length()
+## Common String Methods
 
-Returns number of characters in string.
+| Method | Description |
+|------|-------------|
+| length() | Returns the length of the string |
+| charAt() | Returns character at a specific index |
+| substring() | Extracts a part of the string |
+| equals() | Compares string values |
+| equalsIgnoreCase() | Compares strings ignoring case |
+| toUpperCase() | Converts string to uppercase |
+| toLowerCase() | Converts string to lowercase |
+| trim() | Removes leading and trailing spaces |
+| contains() | Checks if substring exists |
+| replace() | Replaces characters or substrings |
+| startsWith() | Checks if string starts with given text |
+| endsWith() | Checks if string ends with given text |
+| indexOf() | Returns index of first occurrence |
+| lastIndexOf() | Returns index of last occurrence |
+| concat() | Concatenates two strings |
+| split() | Splits string into array |
+
+------------------------------------------------------------------------
+
+# Examples of String Methods
+
+## 1. length()
+
+Returns the number of characters in the string.
 
 ``` java
 String s = "Java";
-System.out.println(s.length());  // 4
+
+System.out.println(s.length());
 ```
 
-Time Complexity: O(1)\
-Reason: Length stored internally in array metadata.
+Output
+
+    4
 
 ------------------------------------------------------------------------
 
-# 2️⃣ charAt(int index)
+## 2. charAt()
 
-Returns character at specific index.
+Returns character at a specific index.
 
 ``` java
 String s = "Java";
-System.out.println(s.charAt(0));  // J
+
+System.out.println(s.charAt(2));
 ```
 
-Edge Case:
+Output
 
-``` java
-s.charAt(10);  // StringIndexOutOfBoundsException
-```
-
-Time Complexity: O(1)
+    v
 
 ------------------------------------------------------------------------
 
-# 3️⃣ substring(int beginIndex, int endIndex)
+## 3. substring()
 
-Extracts portion of string.
-
-``` java
-String s = "Automation";
-System.out.println(s.substring(0, 4));  // Auto
-```
-
-Rules:
-
--   beginIndex inclusive
--   endIndex exclusive
-
-Time Complexity: O(n) (new object created)
-
-------------------------------------------------------------------------
-
-# 4️⃣ indexOf()
-
-Returns first occurrence index.
+Extracts a portion of the string.
 
 ``` java
 String s = "Java Programming";
-System.out.println(s.indexOf("Pro"));  // 5
+
+System.out.println(s.substring(5));
 ```
 
-If not found → returns -1
+Output
 
-Time Complexity: O(n)
+    Programming
 
 ------------------------------------------------------------------------
 
-# 5️⃣ contains()
+## 4. equals()
 
-Checks if substring exists.
+Compares two string values.
 
 ``` java
-s.contains("Java");  // true
+String s1 = "Java";
+String s2 = "Java";
+
+System.out.println(s1.equals(s2));
 ```
 
-Internally calls indexOf()
+Output
 
-Time Complexity: O(n)
+    true
 
 ------------------------------------------------------------------------
 
-# 6️⃣ equalsIgnoreCase()
+## 5. toUpperCase()
+
+Converts string to uppercase.
 
 ``` java
-String a = "JAVA";
-String b = "java";
+String s = "java";
 
-System.out.println(a.equalsIgnoreCase(b));  // true
+System.out.println(s.toUpperCase());
 ```
 
-Useful for case-insensitive validations.
+Output
+
+    JAVA
 
 ------------------------------------------------------------------------
 
-# 7️⃣ toLowerCase() / toUpperCase()
+## 6. toLowerCase()
+
+Converts string to lowercase.
 
 ``` java
-String s = "Java";
-System.out.println(s.toUpperCase());  // JAVA
+String s = "JAVA";
+
+System.out.println(s.toLowerCase());
 ```
 
-Creates new String object (immutability).
+Output
+
+    java
 
 ------------------------------------------------------------------------
 
-# 8️⃣ trim()
+## 7. trim()
 
 Removes leading and trailing spaces.
 
 ``` java
 String s = "  Java  ";
-System.out.println(s.trim());  // "Java"
+
+System.out.println(s.trim());
 ```
 
-Note: Does not remove internal spaces.
+Output
+
+    Java
 
 ------------------------------------------------------------------------
 
-# 9️⃣ replace()
+## 8. contains()
+
+Checks if substring exists.
+
+``` java
+String s = "Java Programming";
+
+System.out.println(s.contains("Java"));
+```
+
+Output
+
+    true
+
+------------------------------------------------------------------------
+
+## 9. replace()
+
+Replaces characters or substrings.
 
 ``` java
 String s = "Java";
-System.out.println(s.replace("J", "L"));  // Lava
+
+System.out.println(s.replace('a','o'));
 ```
 
-Creates new object.
+Output
+
+    Jovo
 
 ------------------------------------------------------------------------
 
-# 🔟 split() -- Regex Based
+## 10. concat()
+
+Joins two strings.
 
 ``` java
-String s = "Java,Python,JS";
-String[] arr = s.split(",");
+String s1 = "Java";
+String s2 = " Programming";
+
+System.out.println(s1.concat(s2));
 ```
 
-Important:
+Output
 
-split() uses REGEX internally.
-
-Example:
-
-``` java
-String s = "192.168.0.1";
-String[] parts = s.split("\\.");
-```
-
-Must escape dot because dot is regex special character.
-
-Time Complexity: O(n)
+    Java Programming
 
 ------------------------------------------------------------------------
 
-# 1️⃣1️⃣ startsWith() / endsWith()
+## 11. startsWith()
+
+Checks starting text.
 
 ``` java
-String s = "Automation";
-s.startsWith("Auto");  // true
-s.endsWith("tion");    // true
+String s = "Java Programming";
+
+System.out.println(s.startsWith("Java"));
 ```
 
-Time Complexity: O(n)
+Output
+
+    true
 
 ------------------------------------------------------------------------
 
-# 1️⃣2️⃣ compareTo()
-compareTo() will compare char by char means it will compare unicode values of both strings.
+## 12. endsWith()
 
-Lexicographical comparison.
-
-``` java
-String a = "Apple";
-String b = "Banana";
-
-System.out.println(a.compareTo(b));  // negative value
-```
-If both are same strings then "0" will be the output. 
-
-Used in sorting.
-
-``` Implements Comparable`<String>`{=html}. ```
-
-------------------------------------------------------------------------
-
-# 1️⃣3️⃣ valueOf()
-
-Converts primitive to String.
+Checks ending text.
 
 ``` java
-int x = 10;
-String s = String.valueOf(x);
+String s = "Java Programming";
+
+System.out.println(s.endsWith("Programming"));
 ```
 
-Safer than concatenation in some scenarios.
+Output
+
+    true
 
 ------------------------------------------------------------------------
 
-# 1️⃣4️⃣ format()
+## 13. indexOf()
+
+Returns index of first occurrence.
 
 ``` java
-String s = String.format("Name: %s Age: %d", "John", 25);
+String s = "Java Programming";
+
+System.out.println(s.indexOf("a"));
 ```
 
-Used for formatted output.
+Output
+
+    1
 
 ------------------------------------------------------------------------
 
-# 1️⃣5️⃣ join() (Java 8+)
+## 14. split()
+
+Splits string into array.
 
 ``` java
-String result = String.join("-", "2025", "06", "01");
-System.out.println(result);  // 2025-06-01
-```
+String s = "Java Python C++";
 
-------------------------------------------------------------------------
+String[] arr = s.split(" ");
 
-# 1️⃣6️⃣ matches() (Regex)
-
-``` java
-String email = "test@example.com";
-System.out.println(email.matches("^[A-Za-z0-9+_.-]+@(.+)$"));
-```
-
-Important: matches() checks FULL string, not partial.
-
-------------------------------------------------------------------------
-
-# 1️⃣7️⃣ toCharArray()
-
-``` java
-char[] arr = "Java".toCharArray();
-```
-
-Useful in algorithm problems.
-
-------------------------------------------------------------------------
-
-# 1️⃣8️⃣ getBytes()
-
-``` java
-byte[] bytes = "Java".getBytes();
-```
-
-Used in encoding/decoding tasks.
-
-------------------------------------------------------------------------
-
-# Performance Notes
-
-• Most methods create new String object\
-• Avoid repeated substring/concat in loops\
-• split() is regex-based → expensive for large data\
-• Prefer StringBuilder for heavy manipulation
-
-------------------------------------------------------------------------
-
-# Automation Framework Relevance
-
-Common uses:
-
-• Parsing API responses\
-• Extracting dynamic IDs\
-• Validating response messages\
-• Splitting CSV test data\
-• Case-insensitive assertions
-
-Example:
-
-``` java
-if("success".equalsIgnoreCase(responseMessage)){
-    System.out.println("Test Passed");
+for(String str : arr){
+    System.out.println(str);
 }
 ```
 
-------------------------------------------------------------------------
+Output
 
-# Interview Traps
+    Java
 
-Q: What is time complexity of contains()?\
-A: O(n)
-
-Q: Does trim() remove all whitespace?\
-A: Only leading and trailing.
-
-Q: Why split("\\.") instead of split(".")?\
-A: Dot is regex wildcard.
-
-Q: Does substring() modify original string?\
-A: No, creates new object.
+    Python
+    
+    C++
 
 ------------------------------------------------------------------------
 
-# Mastery Checklist
+## Summary
 
-You should now understand:
-
-✓ Core String methods\
-✓ Regex impact\
-✓ Time complexity basics\
-✓ Performance implications\
-✓ Edge cases\
-✓ Automation usage
+Important String methods:
+``` java
+    length()
+    charAt()
+    substring()
+    equals()
+    toUpperCase()
+    toLowerCase()
+    trim()
+    contains()
+    replace()
+    concat()
+    startsWith()
+    endsWith()
+    indexOf()
+    split()
+```
+These methods are widely used for **string manipulation and text
+processing in Java applications**.
