@@ -2076,8 +2076,63 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Exception Handling/congratulations",
-              "path": "/docs/Standalone Java/Exception Handling/congratulations",
+              "id": "Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original",
+              "path": "/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/automation-testing-use-cases-for-exception-handling",
+              "path": "/docs/Standalone Java/Exception Handling/automation-testing-use-cases-for-exception-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/best-practices-for-exception-handling",
+              "path": "/docs/Standalone Java/Exception Handling/best-practices-for-exception-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/custom-exceptions",
+              "path": "/docs/Standalone Java/Exception Handling/custom-exceptions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/exception_handling_introduction",
+              "path": "/docs/Standalone Java/Exception Handling/exception_handling_introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/finally-block",
+              "path": "/docs/Standalone Java/Exception Handling/finally-block",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/frequently-asked-questions-exception-handling",
+              "path": "/docs/Standalone Java/Exception Handling/frequently-asked-questions-exception-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/java-exception-hierarchy",
+              "path": "/docs/Standalone Java/Exception Handling/java-exception-hierarchy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/real-world-examples-of-exception-handling",
+              "path": "/docs/Standalone Java/Exception Handling/real-world-examples-of-exception-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/throw-and-throws",
+              "path": "/docs/Standalone Java/Exception Handling/throw-and-throws",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/try-catch-block",
+              "path": "/docs/Standalone Java/Exception Handling/try-catch-block",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Exception Handling/types-of-exceptions-in-java",
+              "path": "/docs/Standalone Java/Exception Handling/types-of-exceptions-in-java",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2096,8 +2151,48 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/File Handling/congratulations",
-              "path": "/docs/Standalone Java/File Handling/congratulations",
+              "id": "Standalone Java/File Handling/advanced-techniques",
+              "path": "/docs/Standalone Java/File Handling/advanced-techniques",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/exception-handling-in-file-handling",
+              "path": "/docs/Standalone Java/File Handling/exception-handling-in-file-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/file-handling-faqs",
+              "path": "/docs/Standalone Java/File Handling/file-handling-faqs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/file-operations",
+              "path": "/docs/Standalone Java/File Handling/file-operations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/introduction-to-file-handling",
+              "path": "/docs/Standalone Java/File Handling/introduction-to-file-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/java-io-basics",
+              "path": "/docs/Standalone Java/File Handling/java-io-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/reading-and-writing-files",
+              "path": "/docs/Standalone Java/File Handling/reading-and-writing-files",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/real-world-examples-of-file-handling",
+              "path": "/docs/Standalone Java/File Handling/real-world-examples-of-file-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/File Handling/working-with-different-file-formats",
+              "path": "/docs/Standalone Java/File Handling/working-with-different-file-formats",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2186,8 +2281,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Java 8 Features/congratulations",
-              "path": "/docs/Standalone Java/Java 8 Features/congratulations",
+              "id": "Standalone Java/Java 8 Features/default-and-static-methods-in-interfaces-styled",
+              "path": "/docs/Standalone Java/Java 8 Features/default-and-static-methods-in-interfaces-styled",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Java 8 Features/introduction-to-java-8-exact",
+              "path": "/docs/Standalone Java/Java 8 Features/introduction-to-java-8-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Java 8 Features/java-8-faqs",
+              "path": "/docs/Standalone Java/Java 8 Features/java-8-faqs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Java 8 Features/lambda-expressions",
+              "path": "/docs/Standalone Java/Java 8 Features/lambda-expressions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Java 8 Features/new-date-and-time-api",
+              "path": "/docs/Standalone Java/Java 8 Features/new-date-and-time-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Java 8 Features/optional-class",
+              "path": "/docs/Standalone Java/Java 8 Features/optional-class",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Java 8 Features/real-world-examples-java-8",
+              "path": "/docs/Standalone Java/Java 8 Features/real-world-examples-java-8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Java 8 Features/streams-api",
+              "path": "/docs/Standalone Java/Java 8 Features/streams-api",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2206,8 +2336,53 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/congratulations",
-              "path": "/docs/Standalone Java/Multithreading/congratulations",
+              "id": "Standalone Java/Multithreading/advanced-topics-exact",
+              "path": "/docs/Standalone Java/Multithreading/advanced-topics-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/concurrent-collections-exact",
+              "path": "/docs/Standalone Java/Multithreading/concurrent-collections-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/creating-threads-exact",
+              "path": "/docs/Standalone Java/Multithreading/creating-threads-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/inter-thread-communication-exact",
+              "path": "/docs/Standalone Java/Multithreading/inter-thread-communication-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/introduction-to-multithreading",
+              "path": "/docs/Standalone Java/Multithreading/introduction-to-multithreading",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/multithreading-faqs-exact",
+              "path": "/docs/Standalone Java/Multithreading/multithreading-faqs-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/real-world-examples-of-multithreading-exact",
+              "path": "/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/thread-lifecycle-exact",
+              "path": "/docs/Standalone Java/Multithreading/thread-lifecycle-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/thread-pools-exact",
+              "path": "/docs/Standalone Java/Multithreading/thread-pools-exact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Multithreading/thread-synchronization-exact",
+              "path": "/docs/Standalone Java/Multithreading/thread-synchronization-exact",
               "sidebar": "tutorialSidebar"
             },
             {

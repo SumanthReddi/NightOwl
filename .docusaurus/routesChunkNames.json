@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-693": {
+  "/docs-5b7": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-e95": {
+  "/docs-e32": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-4ec": {
+  "/docs-8c8": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -2246,9 +2246,53 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-enums-congratulationsbb-6-393"
   },
-  "/docs/Standalone Java/Exception Handling/congratulations-f95": {
+  "/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original-197": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-exception-handling-congratulationsc-50-c5a"
+    "content": "content---docs-standalone-java-exception-handling-advanced-topics-in-exception-handling-original-541-9e6"
+  },
+  "/docs/Standalone Java/Exception Handling/automation-testing-use-cases-for-exception-handling-8d4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-automation-testing-use-cases-for-exception-handlingb-0-a-d5d"
+  },
+  "/docs/Standalone Java/Exception Handling/best-practices-for-exception-handling-4fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-best-practices-for-exception-handling-7-bd-cf5"
+  },
+  "/docs/Standalone Java/Exception Handling/custom-exceptions-143": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-custom-exceptions-7-fb-5d3"
+  },
+  "/docs/Standalone Java/Exception Handling/exception_handling_introduction-ad6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-exception-handling-introductionad-6-2b3"
+  },
+  "/docs/Standalone Java/Exception Handling/finally-block-9c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-finally-block-50-e-689"
+  },
+  "/docs/Standalone Java/Exception Handling/frequently-asked-questions-exception-handling-d18": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-frequently-asked-questions-exception-handling-29-e-30c"
+  },
+  "/docs/Standalone Java/Exception Handling/java-exception-hierarchy-359": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-java-exception-hierarchy-3-f-7-c6f"
+  },
+  "/docs/Standalone Java/Exception Handling/real-world-examples-of-exception-handling-bc1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-real-world-examples-of-exception-handling-926-dfe"
+  },
+  "/docs/Standalone Java/Exception Handling/throw-and-throws-ad1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-throw-and-throwsdc-5-c6a"
+  },
+  "/docs/Standalone Java/Exception Handling/try-catch-block-bc8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-try-catch-blockdf-3-015"
+  },
+  "/docs/Standalone Java/Exception Handling/types-of-exceptions-in-java-2a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-exception-handling-types-of-exceptions-in-java-695-40d"
   },
   "/docs/Standalone Java/Fastrack/OOP1-c0c": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2262,9 +2306,41 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-fastrack-oop-3886-fa7"
   },
-  "/docs/Standalone Java/File Handling/congratulations-9cd": {
+  "/docs/Standalone Java/File Handling/advanced-techniques-f1b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-file-handling-congratulations-16-b-694"
+    "content": "content---docs-standalone-java-file-handling-advanced-techniques-363-f96"
+  },
+  "/docs/Standalone Java/File Handling/exception-handling-in-file-handling-1d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-exception-handling-in-file-handling-7-d-7-b8a"
+  },
+  "/docs/Standalone Java/File Handling/file-handling-faqs-af0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-file-handling-faqs-0-c-3-f6e"
+  },
+  "/docs/Standalone Java/File Handling/file-operations-54a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-file-operations-763-d04"
+  },
+  "/docs/Standalone Java/File Handling/introduction-to-file-handling-a2a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-introduction-to-file-handling-19-f-d72"
+  },
+  "/docs/Standalone Java/File Handling/java-io-basics-ba2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-java-io-basics-899-ebd"
+  },
+  "/docs/Standalone Java/File Handling/reading-and-writing-files-0dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-reading-and-writing-files-5-de-4a2"
+  },
+  "/docs/Standalone Java/File Handling/real-world-examples-of-file-handling-14d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-real-world-examples-of-file-handling-884-156"
+  },
+  "/docs/Standalone Java/File Handling/working-with-different-file-formats-4ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-file-handling-working-with-different-file-formatsad-4-3a9"
   },
   "/docs/Standalone Java/Foundations/Arrays-875": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2334,9 +2410,37 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-introduction-platform-independence-8-ea-29e"
   },
-  "/docs/Standalone Java/Java 8 Features/congratulations-418": {
+  "/docs/Standalone Java/Java 8 Features/default-and-static-methods-in-interfaces-styled-b93": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-java-8-features-congratulations-941-b10"
+    "content": "content---docs-standalone-java-java-8-features-default-and-static-methods-in-interfaces-styledaa-0-9c0"
+  },
+  "/docs/Standalone Java/Java 8 Features/introduction-to-java-8-exact-a4d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-java-8-features-introduction-to-java-8-exact-9-f-8-c36"
+  },
+  "/docs/Standalone Java/Java 8 Features/java-8-faqs-2d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-java-8-features-java-8-faqs-7-b-0-832"
+  },
+  "/docs/Standalone Java/Java 8 Features/lambda-expressions-843": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-java-8-features-lambda-expressions-919-e4d"
+  },
+  "/docs/Standalone Java/Java 8 Features/new-date-and-time-api-5fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-java-8-features-new-date-and-time-apif-0-d-412"
+  },
+  "/docs/Standalone Java/Java 8 Features/optional-class-c16": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-java-8-features-optional-class-003-d0a"
+  },
+  "/docs/Standalone Java/Java 8 Features/real-world-examples-java-8-2e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-java-8-features-real-world-examples-java-8-e-78-02a"
+  },
+  "/docs/Standalone Java/Java 8 Features/streams-api-0cb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-java-8-features-streams-api-4-d-0-91e"
   },
   "/docs/Standalone Java/JVM Internals/congratulations-4e2": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2350,9 +2454,45 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-miscellaneous-concepts-congratulations-6-a-2-93e"
   },
-  "/docs/Standalone Java/Multithreading/congratulations-41f": {
+  "/docs/Standalone Java/Multithreading/advanced-topics-exact-eee": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-congratulationsf-27-0ea"
+    "content": "content---docs-standalone-java-multithreading-advanced-topics-exact-402-cb8"
+  },
+  "/docs/Standalone Java/Multithreading/concurrent-collections-exact-d81": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-concurrent-collections-exact-243-459"
+  },
+  "/docs/Standalone Java/Multithreading/creating-threads-exact-851": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-creating-threads-exact-21-e-a6b"
+  },
+  "/docs/Standalone Java/Multithreading/inter-thread-communication-exact-62f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-inter-thread-communication-exactcba-70b"
+  },
+  "/docs/Standalone Java/Multithreading/introduction-to-multithreading-9c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-introduction-to-multithreadingfc-3-202"
+  },
+  "/docs/Standalone Java/Multithreading/multithreading-faqs-exact-cff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-multithreading-faqs-exact-7-cf-1e5"
+  },
+  "/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact-8d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-real-world-examples-of-multithreading-exact-1-e-0-780"
+  },
+  "/docs/Standalone Java/Multithreading/thread-lifecycle-exact-bac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-thread-lifecycle-exact-2-ef-6a1"
+  },
+  "/docs/Standalone Java/Multithreading/thread-pools-exact-271": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-thread-pools-exact-43-d-ac1"
+  },
+  "/docs/Standalone Java/Multithreading/thread-synchronization-exact-71a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-multithreading-thread-synchronization-exact-4-cf-083"
   },
   "/docs/Standalone Java/OOPS/Abstraction-281": {
     "__comp": "__comp---theme-doc-item-178-a40",

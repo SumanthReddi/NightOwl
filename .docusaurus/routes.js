@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '693'),
+    component: ComponentCreator('/docs', '5b7'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e95'),
+        component: ComponentCreator('/docs', 'e32'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '4ec'),
+            component: ComponentCreator('/docs', '8c8'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -3101,8 +3101,74 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Exception Handling/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Exception Handling/congratulations', 'f95'),
+                path: '/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original', '197'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/automation-testing-use-cases-for-exception-handling',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/automation-testing-use-cases-for-exception-handling', '8d4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/best-practices-for-exception-handling',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/best-practices-for-exception-handling', '4fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/custom-exceptions',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/custom-exceptions', '143'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/exception_handling_introduction',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/exception_handling_introduction', 'ad6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/finally-block',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/finally-block', '9c9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/frequently-asked-questions-exception-handling',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/frequently-asked-questions-exception-handling', 'd18'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/java-exception-hierarchy',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/java-exception-hierarchy', '359'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/real-world-examples-of-exception-handling',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/real-world-examples-of-exception-handling', 'bc1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/throw-and-throws',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/throw-and-throws', 'ad1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/try-catch-block',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/try-catch-block', 'bc8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Exception Handling/types-of-exceptions-in-java',
+                component: ComponentCreator('/docs/Standalone Java/Exception Handling/types-of-exceptions-in-java', '2a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3125,8 +3191,56 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/File Handling/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/File Handling/congratulations', '9cd'),
+                path: '/docs/Standalone Java/File Handling/advanced-techniques',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/advanced-techniques', 'f1b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/exception-handling-in-file-handling',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/exception-handling-in-file-handling', '1d7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/file-handling-faqs',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/file-handling-faqs', 'af0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/file-operations',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/file-operations', '54a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/introduction-to-file-handling',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/introduction-to-file-handling', 'a2a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/java-io-basics',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/java-io-basics', 'ba2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/reading-and-writing-files',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/reading-and-writing-files', '0dd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/real-world-examples-of-file-handling',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/real-world-examples-of-file-handling', '14d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/File Handling/working-with-different-file-formats',
+                component: ComponentCreator('/docs/Standalone Java/File Handling/working-with-different-file-formats', '4ea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3233,8 +3347,50 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Java 8 Features/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/congratulations', '418'),
+                path: '/docs/Standalone Java/Java 8 Features/default-and-static-methods-in-interfaces-styled',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/default-and-static-methods-in-interfaces-styled', 'b93'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Java 8 Features/introduction-to-java-8-exact',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/introduction-to-java-8-exact', 'a4d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Java 8 Features/java-8-faqs',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/java-8-faqs', '2d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Java 8 Features/lambda-expressions',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/lambda-expressions', '843'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Java 8 Features/new-date-and-time-api',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/new-date-and-time-api', '5fc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Java 8 Features/optional-class',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/optional-class', 'c16'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Java 8 Features/real-world-examples-java-8',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/real-world-examples-java-8', '2e4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Java 8 Features/streams-api',
+                component: ComponentCreator('/docs/Standalone Java/Java 8 Features/streams-api', '0cb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3257,8 +3413,62 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/congratulations', '41f'),
+                path: '/docs/Standalone Java/Multithreading/advanced-topics-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/advanced-topics-exact', 'eee'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/concurrent-collections-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/concurrent-collections-exact', 'd81'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/creating-threads-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/creating-threads-exact', '851'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/inter-thread-communication-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/inter-thread-communication-exact', '62f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/introduction-to-multithreading',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/introduction-to-multithreading', '9c7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/multithreading-faqs-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/multithreading-faqs-exact', 'cff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact', '8d6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/thread-lifecycle-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-lifecycle-exact', 'bac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/thread-pools-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-pools-exact', '271'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Multithreading/thread-synchronization-exact',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-synchronization-exact', '71a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
