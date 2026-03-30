@@ -1,7 +1,7 @@
 {
   "id": "Python/Data Structures",
-  "title": "Data Structures",
-  "description": "1. Lists",
+  "title": "Python Data Structures",
+  "description": "Python provides several built-in data structures that are essential for organizing and manipulating data efficiently. These include lists, tuples, sets, dictionaries, and more advanced constructs like list comprehensions. Below is a detailed exploration of each data structure with examples and explanations.",
   "source": "@site/docs/Python/Data Structures.md",
   "sourceDirName": "Python",
   "slug": "/Python/Data Structures",
@@ -13,15 +13,16 @@
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 4,
+    "title": "Python Data Structures"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Control Flow",
+    "title": "Python Control Flow and Range Function",
     "permalink": "/docs/Python/Control Flow"
   },
   "next": {
-    "title": "Functions and Scopes",
-    "permalink": "/docs/Python/Functions and Scopes"
+    "title": "Additional Python Data Structures and Concepts",
+    "permalink": "/docs/Python/Additional Python Data Structures"
   }
 }

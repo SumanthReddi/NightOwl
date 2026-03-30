@@ -1,7 +1,7 @@
 {
   "id": "Python/Web & API Basics",
-  "title": "Web & API Basics",
-  "description": "1. What is an API?",
+  "title": "Working with APIs and JSON in Python",
+  "description": "Working with APIs (Application Programming Interfaces) and JSON (JavaScript Object Notation) is a common task in modern Python development. APIs enable communication between software systems, while JSON provides a lightweight format for data exchange. This document explores how to interact with APIs, handle responses, and work with JSON data in Python.",
   "source": "@site/docs/Python/Web & API Basics.md",
   "sourceDirName": "Python",
   "slug": "/Python/Web & API Basics",
@@ -13,11 +13,12 @@
   "version": "current",
   "sidebarPosition": 11,
   "frontMatter": {
-    "sidebar_position": 11
+    "sidebar_position": 11,
+    "title": "Working with APIs and JSON in Python"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Modules and Packages",
+    "title": "Python Modules and Packages",
     "permalink": "/docs/Python/Modules and Packages"
   },
   "next": {

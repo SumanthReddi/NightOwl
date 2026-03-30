@@ -1,7 +1,7 @@
 {
   "id": "Python/Control Flow",
-  "title": "Control Flow",
-  "description": "1. if, elif, else Statements",
+  "title": "Python Control Flow and Range Function",
+  "description": "Python's control flow structures and the range() function are essential for managing how code executes based on conditions, loops, and sequences. This document provides a comprehensive overview of these concepts, complete with examples and outputs.",
   "source": "@site/docs/Python/Control Flow.md",
   "sourceDirName": "Python",
   "slug": "/Python/Control Flow",
@@ -13,15 +13,16 @@
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 3
+    "sidebar_position": 3,
+    "title": "Python Control Flow and Range Function"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Operators and Expressions",
+    "title": "Python Operators and Expressions",
     "permalink": "/docs/Python/Operators and Expressions"
   },
   "next": {
-    "title": "Data Structures",
+    "title": "Python Data Structures",
     "permalink": "/docs/Python/Data Structures"
   }
 }

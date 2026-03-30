@@ -1,7 +1,7 @@
 {
   "id": "Python/Pythonic Features and Best Practices",
   "title": "Pythonic Features and Best Practices",
-  "description": "1. List Comprehensions",
+  "description": "Writing Pythonic code means adhering to the idiomatic practices of Python, which emphasize readability, simplicity, and efficiency. This document explores key Pythonic features and best practices, complete with examples and explanations.",
   "source": "@site/docs/Python/Pythonic Features and Best Practices.md",
   "sourceDirName": "Python",
   "slug": "/Python/Pythonic Features and Best Practices",
@@ -13,11 +13,12 @@
   "version": "current",
   "sidebarPosition": 12,
   "frontMatter": {
-    "sidebar_position": 12
+    "sidebar_position": 12,
+    "title": "Pythonic Features and Best Practices"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Web & API Basics",
+    "title": "Working with APIs and JSON in Python",
     "permalink": "/docs/Python/Web & API Basics"
   },
   "next": {

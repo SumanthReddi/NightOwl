@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5b7'),
+    component: ComponentCreator('/docs', '19c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e32'),
+        component: ComponentCreator('/docs', 'a6c'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '8c8'),
+            component: ComponentCreator('/docs', '4f3'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -383,6 +383,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/advanced-topics-1',
+                component: ComponentCreator('/docs/category/advanced-topics-1', 'a8f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/agents--scaling',
                 component: ComponentCreator('/docs/category/agents--scaling', 'c63'),
                 exact: true,
@@ -391,12 +397,6 @@ export default [
               {
                 path: '/docs/category/agile',
                 component: ComponentCreator('/docs/category/agile', '1ba'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/annotations',
-                component: ComponentCreator('/docs/category/annotations', '4e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -431,6 +431,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/authentication-and-validation',
+                component: ComponentCreator('/docs/category/authentication-and-validation', 'e9e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/basics',
                 component: ComponentCreator('/docs/category/basics', '31a'),
                 exact: true,
@@ -439,12 +445,6 @@ export default [
               {
                 path: '/docs/category/best-practices',
                 component: ComponentCreator('/docs/category/best-practices', '1ba'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/best-practices-1',
-                component: ComponentCreator('/docs/category/best-practices-1', 'a43'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -491,26 +491,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/data-integration',
+                component: ComponentCreator('/docs/category/data-integration', 'f17'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/database',
                 component: ComponentCreator('/docs/category/database', 'dd4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/decide-later',
-                component: ComponentCreator('/docs/category/decide-later', 'b68'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/docusaurus-',
                 component: ComponentCreator('/docs/category/docusaurus-', '99a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/enums',
-                component: ComponentCreator('/docs/category/enums', 'b00'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -523,6 +517,18 @@ export default [
               {
                 path: '/docs/category/exception-handling',
                 component: ComponentCreator('/docs/category/exception-handling', '960'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/execution',
+                component: ComponentCreator('/docs/category/execution', '02f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/execution-and-advanced-concepts',
+                component: ComponentCreator('/docs/category/execution-and-advanced-concepts', '274'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -569,8 +575,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/framework-design-1',
+                component: ComponentCreator('/docs/category/framework-design-1', 'c7d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/fundamentals',
                 component: ComponentCreator('/docs/category/fundamentals', '09e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/fundamentals-1',
+                component: ComponentCreator('/docs/category/fundamentals-1', '7dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -583,12 +601,6 @@ export default [
               {
                 path: '/docs/category/http-essentials',
                 component: ComponentCreator('/docs/category/http-essentials', 'e00'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/inner-classes',
-                component: ComponentCreator('/docs/category/inner-classes', '833'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -613,12 +625,6 @@ export default [
               {
                 path: '/docs/category/interview-questions',
                 component: ComponentCreator('/docs/category/interview-questions', 'abe'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/interview-questions-1',
-                component: ComponentCreator('/docs/category/interview-questions-1', '17e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -677,12 +683,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/jvm-internals',
-                component: ComponentCreator('/docs/category/jvm-internals', '646'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/keywords',
                 component: ComponentCreator('/docs/category/keywords', '677'),
                 exact: true,
@@ -719,12 +719,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/miscellaneous-concepts',
-                component: ComponentCreator('/docs/category/miscellaneous-concepts', '1fd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/miscellaneous-topics',
                 component: ComponentCreator('/docs/category/miscellaneous-topics', '83b'),
                 exact: true,
@@ -745,6 +739,12 @@ export default [
               {
                 path: '/docs/category/observability--reliability',
                 component: ComponentCreator('/docs/category/observability--reliability', '148'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/observability-and-reporting',
+                component: ComponentCreator('/docs/category/observability-and-reporting', '5b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -775,6 +775,30 @@ export default [
               {
                 path: '/docs/category/realtime-practical-exercises',
                 component: ComponentCreator('/docs/category/realtime-practical-exercises', 'aa2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/reliability',
+                component: ComponentCreator('/docs/category/reliability', '7f9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/request-and-response-handling',
+                component: ComponentCreator('/docs/category/request-and-response-handling', '823'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/rest-assured',
+                component: ComponentCreator('/docs/category/rest-assured', '939'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/rest-assured-basics',
+                component: ComponentCreator('/docs/category/rest-assured-basics', '426'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2141,6 +2165,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Python/Additional Python Data Structures',
+                component: ComponentCreator('/docs/Python/Additional Python Data Structures', 'b86'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Python/Control Flow',
                 component: ComponentCreator('/docs/Python/Control Flow', '146'),
                 exact: true,
@@ -2209,6 +2239,240 @@ export default [
               {
                 path: '/docs/Python/Web & API Basics',
                 component: ComponentCreator('/docs/Python/Web & API Basics', '77f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/authentication-validation/authentication-types',
+                component: ComponentCreator('/docs/RestAssured/authentication-validation/authentication-types', '704'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/authentication-validation/dynamic-data-handling',
+                component: ComponentCreator('/docs/RestAssured/authentication-validation/dynamic-data-handling', '9ca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/authentication-validation/json-schema-validation',
+                component: ComponentCreator('/docs/RestAssured/authentication-validation/json-schema-validation', 'eb6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/authentication-validation/nested-array-assertions',
+                component: ComponentCreator('/docs/RestAssured/authentication-validation/nested-array-assertions', 'f60'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/data-integration/api-chaining',
+                component: ComponentCreator('/docs/RestAssured/data-integration/api-chaining', '031'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/data-integration/data-cleanup-fixed',
+                component: ComponentCreator('/docs/RestAssured/data-integration/data-cleanup-fixed', '2c8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/data-integration/data-driven-testing',
+                component: ComponentCreator('/docs/RestAssured/data-integration/data-driven-testing', 'e8e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/data-integration/database-validation-fixed',
+                component: ComponentCreator('/docs/RestAssured/data-integration/database-validation-fixed', '119'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/data-integration/mock-apis-fixed',
+                component: ComponentCreator('/docs/RestAssured/data-integration/mock-apis-fixed', '581'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/data-integration/testng-dataprovider-usage',
+                component: ComponentCreator('/docs/RestAssured/data-integration/testng-dataprovider-usage', '033'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/advanced-topics/contract-testing-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/advanced-topics/contract-testing-final', 'e5c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/advanced-topics/performance-testing-basics-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/advanced-topics/performance-testing-basics-final', 'a1f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/execution/ci-cd-integration-fixed',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/execution/ci-cd-integration-fixed', '536'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/execution/environment-handling-clean',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/execution/environment-handling-clean', 'cfd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/observability-reporting/logs-for-failed-tests-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/observability-reporting/logs-for-failed-tests-final', 'f97'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/observability-reporting/reporting-tools-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/observability-reporting/reporting-tools-final', 'b2f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/observability-reporting/tracking-key-metrics-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/observability-reporting/tracking-key-metrics-final', 'dc7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/reliability/error-handling-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/reliability/error-handling-final', '137'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/reliability/negative-testing-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/reliability/negative-testing-final', '77c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/execution-advanced/reliability/retry-mechanisms-final',
+                component: ComponentCreator('/docs/RestAssured/execution-advanced/reliability/retry-mechanisms-final', 'ca9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/framework-design/base-test-setup',
+                component: ComponentCreator('/docs/RestAssured/framework-design/base-test-setup', '81f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/framework-design/centralized-configuration',
+                component: ComponentCreator('/docs/RestAssured/framework-design/centralized-configuration', '665'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/framework-design/folder-structure-overview',
+                component: ComponentCreator('/docs/RestAssured/framework-design/folder-structure-overview', '59c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/framework-design/pojo-models',
+                component: ComponentCreator('/docs/RestAssured/framework-design/pojo-models', 'b84'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/framework-design/reusable-request-response-handling',
+                component: ComponentCreator('/docs/RestAssured/framework-design/reusable-request-response-handling', '2d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/Fundamentals/api-documentation-tools',
+                component: ComponentCreator('/docs/RestAssured/Fundamentals/api-documentation-tools', 'ad5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/Fundamentals/error-handling-edge-cases',
+                component: ComponentCreator('/docs/RestAssured/Fundamentals/error-handling-edge-cases', '9df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/Fundamentals/headers-and-json-basics',
+                component: ComponentCreator('/docs/RestAssured/Fundamentals/headers-and-json-basics', 'c97'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/Fundamentals/http-methods-status-codes',
+                component: ComponentCreator('/docs/RestAssured/Fundamentals/http-methods-status-codes', 'f5e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/next-steps/practical-experience-tips-final',
+                component: ComponentCreator('/docs/RestAssured/next-steps/practical-experience-tips-final', 'e74'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/next-steps/small-real-world-implementation-correct',
+                component: ComponentCreator('/docs/RestAssured/next-steps/small-real-world-implementation-correct', 'aa4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/request-response-handling/headers-and-request-body',
+                component: ComponentCreator('/docs/RestAssured/request-response-handling/headers-and-request-body', 'e7c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/request-response-handling/json-path-extraction',
+                component: ComponentCreator('/docs/RestAssured/request-response-handling/json-path-extraction', '298'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/request-response-handling/logging-and-debugging',
+                component: ComponentCreator('/docs/RestAssured/request-response-handling/logging-and-debugging', 'f46'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/request-response-handling/query-path-parameters',
+                component: ComponentCreator('/docs/RestAssured/request-response-handling/query-path-parameters', 'e09'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/request-response-handling/troubleshooting-common-issues',
+                component: ComponentCreator('/docs/RestAssured/request-response-handling/troubleshooting-common-issues', '493'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/restassured-basics/given-when-then-structure',
+                component: ComponentCreator('/docs/RestAssured/restassured-basics/given-when-then-structure', '6d2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/restassured-basics/project-setup-maven-gradle',
+                component: ComponentCreator('/docs/RestAssured/restassured-basics/project-setup-maven-gradle', 'c86'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/RestAssured/restassured-basics/writing-first-api-test',
+                component: ComponentCreator('/docs/RestAssured/restassured-basics/writing-first-api-test', '928'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2801,18 +3065,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Annotations/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Annotations/congratulations', '0a5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Best Practices/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Best Practices/congratulations', 'fbf'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Standalone Java/Collections Framework/Advanced Topics/custom-collections',
                 component: ComponentCreator('/docs/Standalone Java/Collections Framework/Advanced Topics/custom-collections', '7a8'),
                 exact: true,
@@ -3059,48 +3311,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Decide Later/control-flow',
-                component: ComponentCreator('/docs/Standalone Java/Decide Later/control-flow', 'c60'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Decide Later/data-types-and-memory',
-                component: ComponentCreator('/docs/Standalone Java/Decide Later/data-types-and-memory', 'f7e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Decide Later/methods-and-overloading',
-                component: ComponentCreator('/docs/Standalone Java/Decide Later/methods-and-overloading', '709'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Decide Later/operators',
-                component: ComponentCreator('/docs/Standalone Java/Decide Later/operators', '192'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Decide Later/pass-by-value',
-                component: ComponentCreator('/docs/Standalone Java/Decide Later/pass-by-value', '1fe'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Decide Later/variables-and-scope',
-                component: ComponentCreator('/docs/Standalone Java/Decide Later/variables-and-scope', '682'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Enums/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Enums/congratulations', '6ea'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original',
                 component: ComponentCreator('/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original', '197'),
                 exact: true,
@@ -3287,6 +3497,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Standalone Java/Foundations/pass-by-value',
+                component: ComponentCreator('/docs/Standalone Java/Foundations/pass-by-value', 'f6c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Standalone Java/Foundations/Strings',
                 component: ComponentCreator('/docs/Standalone Java/Foundations/Strings', '004'),
                 exact: true,
@@ -3301,18 +3517,6 @@ export default [
               {
                 path: '/docs/Standalone Java/Foundations/Variables',
                 component: ComponentCreator('/docs/Standalone Java/Foundations/Variables', '1e1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Inner Classes/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Inner Classes/congratulations', 'd8d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Interview Questions/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Interview Questions/congratulations', '85b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3395,20 +3599,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/JVM Internals/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/JVM Internals/congratulations', '4e2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Standalone Java/Keywords/Static',
                 component: ComponentCreator('/docs/Standalone Java/Keywords/Static', '8a8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Standalone Java/Miscellaneous Concepts/congratulations',
-                component: ComponentCreator('/docs/Standalone Java/Miscellaneous Concepts/congratulations', '3ad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

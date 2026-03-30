@@ -1276,6 +1276,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Python/Additional Python Data Structures",
+              "path": "/docs/Python/Additional Python Data Structures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Python/Control Flow",
               "path": "/docs/Python/Control Flow",
               "sidebar": "tutorialSidebar"
@@ -1333,6 +1338,201 @@
             {
               "id": "Python/Web & API Basics",
               "path": "/docs/Python/Web & API Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/authentication-validation/authentication-types",
+              "path": "/docs/RestAssured/authentication-validation/authentication-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/authentication-validation/dynamic-data-handling",
+              "path": "/docs/RestAssured/authentication-validation/dynamic-data-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/authentication-validation/json-schema-validation",
+              "path": "/docs/RestAssured/authentication-validation/json-schema-validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/authentication-validation/nested-array-assertions",
+              "path": "/docs/RestAssured/authentication-validation/nested-array-assertions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/data-integration/api-chaining",
+              "path": "/docs/RestAssured/data-integration/api-chaining",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/data-integration/data-cleanup-fixed",
+              "path": "/docs/RestAssured/data-integration/data-cleanup-fixed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/data-integration/data-driven-testing",
+              "path": "/docs/RestAssured/data-integration/data-driven-testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/data-integration/database-validation-fixed",
+              "path": "/docs/RestAssured/data-integration/database-validation-fixed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/data-integration/mock-apis-fixed",
+              "path": "/docs/RestAssured/data-integration/mock-apis-fixed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/data-integration/testng-dataprovider-usage",
+              "path": "/docs/RestAssured/data-integration/testng-dataprovider-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/advanced-topics/contract-testing-final",
+              "path": "/docs/RestAssured/execution-advanced/advanced-topics/contract-testing-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/advanced-topics/performance-testing-basics-final",
+              "path": "/docs/RestAssured/execution-advanced/advanced-topics/performance-testing-basics-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/execution/ci-cd-integration-fixed",
+              "path": "/docs/RestAssured/execution-advanced/execution/ci-cd-integration-fixed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/execution/environment-handling-clean",
+              "path": "/docs/RestAssured/execution-advanced/execution/environment-handling-clean",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/observability-reporting/logs-for-failed-tests-final",
+              "path": "/docs/RestAssured/execution-advanced/observability-reporting/logs-for-failed-tests-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/observability-reporting/reporting-tools-final",
+              "path": "/docs/RestAssured/execution-advanced/observability-reporting/reporting-tools-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/observability-reporting/tracking-key-metrics-final",
+              "path": "/docs/RestAssured/execution-advanced/observability-reporting/tracking-key-metrics-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/reliability/error-handling-final",
+              "path": "/docs/RestAssured/execution-advanced/reliability/error-handling-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/reliability/negative-testing-final",
+              "path": "/docs/RestAssured/execution-advanced/reliability/negative-testing-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/execution-advanced/reliability/retry-mechanisms-final",
+              "path": "/docs/RestAssured/execution-advanced/reliability/retry-mechanisms-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/framework-design/base-test-setup",
+              "path": "/docs/RestAssured/framework-design/base-test-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/framework-design/centralized-configuration",
+              "path": "/docs/RestAssured/framework-design/centralized-configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/framework-design/folder-structure-overview",
+              "path": "/docs/RestAssured/framework-design/folder-structure-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/framework-design/pojo-models",
+              "path": "/docs/RestAssured/framework-design/pojo-models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/framework-design/reusable-request-response-handling",
+              "path": "/docs/RestAssured/framework-design/reusable-request-response-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/Fundamentals/api-documentation-tools",
+              "path": "/docs/RestAssured/Fundamentals/api-documentation-tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/Fundamentals/error-handling-edge-cases",
+              "path": "/docs/RestAssured/Fundamentals/error-handling-edge-cases",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/Fundamentals/headers-and-json-basics",
+              "path": "/docs/RestAssured/Fundamentals/headers-and-json-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/Fundamentals/http-methods-status-codes",
+              "path": "/docs/RestAssured/Fundamentals/http-methods-status-codes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/next-steps/practical-experience-tips-final",
+              "path": "/docs/RestAssured/next-steps/practical-experience-tips-final",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/next-steps/small-real-world-implementation-correct",
+              "path": "/docs/RestAssured/next-steps/small-real-world-implementation-correct",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/request-response-handling/headers-and-request-body",
+              "path": "/docs/RestAssured/request-response-handling/headers-and-request-body",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/request-response-handling/json-path-extraction",
+              "path": "/docs/RestAssured/request-response-handling/json-path-extraction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/request-response-handling/logging-and-debugging",
+              "path": "/docs/RestAssured/request-response-handling/logging-and-debugging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/request-response-handling/query-path-parameters",
+              "path": "/docs/RestAssured/request-response-handling/query-path-parameters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/request-response-handling/troubleshooting-common-issues",
+              "path": "/docs/RestAssured/request-response-handling/troubleshooting-common-issues",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/restassured-basics/given-when-then-structure",
+              "path": "/docs/RestAssured/restassured-basics/given-when-then-structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/restassured-basics/project-setup-maven-gradle",
+              "path": "/docs/RestAssured/restassured-basics/project-setup-maven-gradle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "RestAssured/restassured-basics/writing-first-api-test",
+              "path": "/docs/RestAssured/restassured-basics/writing-first-api-test",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1826,16 +2026,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Annotations/congratulations",
-              "path": "/docs/Standalone Java/Annotations/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Best Practices/congratulations",
-              "path": "/docs/Standalone Java/Best Practices/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Standalone Java/Collections Framework/Advanced Topics/custom-collections",
               "path": "/docs/Standalone Java/Collections Framework/Advanced Topics/custom-collections",
               "sidebar": "tutorialSidebar"
@@ -2041,41 +2231,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Decide Later/control-flow",
-              "path": "/docs/Standalone Java/Decide Later/control-flow",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Decide Later/data-types-and-memory",
-              "path": "/docs/Standalone Java/Decide Later/data-types-and-memory",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Decide Later/methods-and-overloading",
-              "path": "/docs/Standalone Java/Decide Later/methods-and-overloading",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Decide Later/operators",
-              "path": "/docs/Standalone Java/Decide Later/operators",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Decide Later/pass-by-value",
-              "path": "/docs/Standalone Java/Decide Later/pass-by-value",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Decide Later/variables-and-scope",
-              "path": "/docs/Standalone Java/Decide Later/variables-and-scope",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Enums/congratulations",
-              "path": "/docs/Standalone Java/Enums/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original",
               "path": "/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original",
               "sidebar": "tutorialSidebar"
@@ -2231,6 +2386,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Standalone Java/Foundations/pass-by-value",
+              "path": "/docs/Standalone Java/Foundations/pass-by-value",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Standalone Java/Foundations/Strings",
               "path": "/docs/Standalone Java/Foundations/Strings",
               "sidebar": "tutorialSidebar"
@@ -2243,16 +2403,6 @@
             {
               "id": "Standalone Java/Foundations/Variables",
               "path": "/docs/Standalone Java/Foundations/Variables",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Inner Classes/congratulations",
-              "path": "/docs/Standalone Java/Inner Classes/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Interview Questions/congratulations",
-              "path": "/docs/Standalone Java/Interview Questions/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2321,18 +2471,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/JVM Internals/congratulations",
-              "path": "/docs/Standalone Java/JVM Internals/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Standalone Java/Keywords/Static",
               "path": "/docs/Standalone Java/Keywords/Static",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Standalone Java/Miscellaneous Concepts/congratulations",
-              "path": "/docs/Standalone Java/Miscellaneous Concepts/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2581,11 +2721,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/decide-later",
-              "path": "/docs/category/decide-later",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/foundations",
               "path": "/docs/category/foundations",
               "sidebar": "tutorialSidebar"
@@ -2671,43 +2806,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/annotations",
-              "path": "/docs/category/annotations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/miscellaneous-concepts",
-              "path": "/docs/category/miscellaneous-concepts",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/java8-features",
               "path": "/docs/category/java8-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/jvm-internals",
-              "path": "/docs/category/jvm-internals",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/inner-classes",
-              "path": "/docs/category/inner-classes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/enums",
-              "path": "/docs/category/enums",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/best-practices",
-              "path": "/docs/category/best-practices",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/interview-questions",
-              "path": "/docs/category/interview-questions",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2771,8 +2871,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/interview-questions-1",
-              "path": "/docs/category/interview-questions-1",
+              "id": "/category/interview-questions",
+              "path": "/docs/category/interview-questions",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2826,8 +2926,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/best-practices-1",
-              "path": "/docs/category/best-practices-1",
+              "id": "/category/best-practices",
+              "path": "/docs/category/best-practices",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2876,6 +2976,66 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/rest-assured",
+              "path": "/docs/category/rest-assured",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/fundamentals-1",
+              "path": "/docs/category/fundamentals-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/rest-assured-basics",
+              "path": "/docs/category/rest-assured-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/request-and-response-handling",
+              "path": "/docs/category/request-and-response-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/authentication-and-validation",
+              "path": "/docs/category/authentication-and-validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/framework-design-1",
+              "path": "/docs/category/framework-design-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/data-integration",
+              "path": "/docs/category/data-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/execution-and-advanced-concepts",
+              "path": "/docs/category/execution-and-advanced-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/execution",
+              "path": "/docs/category/execution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reliability",
+              "path": "/docs/category/reliability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/observability-and-reporting",
+              "path": "/docs/category/observability-and-reporting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/advanced-topics-1",
+              "path": "/docs/category/advanced-topics-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/python",
               "path": "/docs/category/python",
               "sidebar": "tutorialSidebar"
@@ -2888,6 +3048,11 @@
             {
               "id": "/category/agile",
               "path": "/docs/category/agile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docusaurus-",
+              "path": "/docs/category/docusaurus-",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2968,11 +3133,6 @@
             {
               "id": "/category/interview--real-world-scenarios",
               "path": "/docs/category/interview--real-world-scenarios",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docusaurus-",
-              "path": "/docs/category/docusaurus-",
               "sidebar": "tutorialSidebar"
             }
           ],

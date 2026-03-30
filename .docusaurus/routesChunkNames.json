@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-5b7": {
+  "/docs-19c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-e32": {
+  "/docs-a6c": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-8c8": {
+  "/docs-4f3": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -434,6 +434,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-advanced-topics-8-be-f54"
   },
+  "/docs/category/advanced-topics-1-a8f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-advanced-topics-199-a-7cc"
+  },
   "/docs/category/agents--scaling-c63": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-agents-scalinga-49-7fa"
@@ -441,10 +445,6 @@
   "/docs/category/agile-1ba": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-agile-798-e9b"
-  },
-  "/docs/category/annotations-4e8": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-annotationsf-36-1f9"
   },
   "/docs/category/apache-poi-312": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -466,6 +466,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-async-event-driven-5-af-007"
   },
+  "/docs/category/authentication-and-validation-e9e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-authentication-and-validationd-7-b-ee1"
+  },
   "/docs/category/basics-31a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-basicse-8-d-995"
@@ -473,10 +477,6 @@
   "/docs/category/best-practices-1ba": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-best-practices-636-4cf"
-  },
-  "/docs/category/best-practices-1-a43": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-best-practices-1-acc-430"
   },
   "/docs/category/collections-framework-ac7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -506,21 +506,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-cucumbera-81-96a"
   },
+  "/docs/category/data-integration-f17": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-data-integration-3-d-5-0e2"
+  },
   "/docs/category/database-dd4": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-database-7-d-4-d6b"
   },
-  "/docs/category/decide-later-b68": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-decide-later-602-a66"
-  },
   "/docs/category/docusaurus--99a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-docusaurus-02-d-a68"
-  },
-  "/docs/category/enums-b00": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-enums-618-0af"
   },
   "/docs/category/environment-data-e4a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -529,6 +525,14 @@
   "/docs/category/exception-handling-960": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-exception-handling-7-a-1-5db"
+  },
+  "/docs/category/execution-02f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-executionc-63-d6c"
+  },
+  "/docs/category/execution-and-advanced-concepts-274": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-execution-and-advanced-concepts-2-e-3-e1a"
   },
   "/docs/category/extent-report-a5b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -558,9 +562,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-framework-designf-59-8c9"
   },
+  "/docs/category/framework-design-1-c7d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-framework-design-1-f-01-5cd"
+  },
   "/docs/category/fundamentals-09e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-fundamentals-4-cf-660"
+  },
+  "/docs/category/fundamentals-1-7dc": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-fundamentals-1-e-1-f-a3c"
   },
   "/docs/category/git-f78": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -569,10 +581,6 @@
   "/docs/category/http-essentials-e00": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-http-essentials-6-dc-e9f"
-  },
-  "/docs/category/inner-classes-833": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-inner-classesb-5-f-f8e"
   },
   "/docs/category/installation--setup-163": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -589,10 +597,6 @@
   "/docs/category/interview-questions-abe": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-interview-questions-0-b-0-562"
-  },
-  "/docs/category/interview-questions-1-17e": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-interview-questions-1-f-12-85e"
   },
   "/docs/category/introduction-f51": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -630,10 +634,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-jobs-pipelines-5-c-0-669"
   },
-  "/docs/category/jvm-internals-646": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-jvm-internals-73-e-132"
-  },
   "/docs/category/keywords-677": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-keywords-9-eb-55d"
@@ -658,10 +658,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-maven-462-a55"
   },
-  "/docs/category/miscellaneous-concepts-1fd": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-miscellaneous-concepts-9-ce-0d1"
-  },
   "/docs/category/miscellaneous-topics-83b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-miscellaneous-topics-838-aa9"
@@ -677,6 +673,10 @@
   "/docs/category/observability--reliability-148": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-observability-reliability-3-b-2-fde"
+  },
+  "/docs/category/observability-and-reporting-5b4": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-observability-and-reportingc-18-04c"
   },
   "/docs/category/oops-86c": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -697,6 +697,22 @@
   "/docs/category/realtime-practical-exercises-aa2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-realtime-practical-exercisesd-65-e73"
+  },
+  "/docs/category/reliability-7f9": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-reliability-504-a4e"
+  },
+  "/docs/category/request-and-response-handling-823": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-request-and-response-handling-067-a47"
+  },
+  "/docs/category/rest-assured-939": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-rest-assured-52-a-276"
+  },
+  "/docs/category/rest-assured-basics-426": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-rest-assured-basicsd-81-9a3"
   },
   "/docs/category/robot-framework-4d4": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1606,6 +1622,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-maven-why-maven-397-72d"
   },
+  "/docs/Python/Additional Python Data Structures-b86": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-additional-python-data-structuresef-1-6f2"
+  },
   "/docs/Python/Control Flow-146": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-python-control-flow-1-c-2-025"
@@ -1653,6 +1673,162 @@
   "/docs/Python/Web & API Basics-77f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-python-web-api-basicscfa-744"
+  },
+  "/docs/RestAssured/authentication-validation/authentication-types-704": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-authentication-validation-authentication-types-542-a4b"
+  },
+  "/docs/RestAssured/authentication-validation/dynamic-data-handling-9ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-authentication-validation-dynamic-data-handling-0-f-2-bf7"
+  },
+  "/docs/RestAssured/authentication-validation/json-schema-validation-eb6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-authentication-validation-json-schema-validation-114-af7"
+  },
+  "/docs/RestAssured/authentication-validation/nested-array-assertions-f60": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-authentication-validation-nested-array-assertions-77-c-3ff"
+  },
+  "/docs/RestAssured/data-integration/api-chaining-031": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-data-integration-api-chaining-0-ee-cc3"
+  },
+  "/docs/RestAssured/data-integration/data-cleanup-fixed-2c8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-data-integration-data-cleanup-fixed-458-b3d"
+  },
+  "/docs/RestAssured/data-integration/data-driven-testing-e8e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-data-integration-data-driven-testing-09-a-39e"
+  },
+  "/docs/RestAssured/data-integration/database-validation-fixed-119": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-data-integration-database-validation-fixedc-8-b-845"
+  },
+  "/docs/RestAssured/data-integration/mock-apis-fixed-581": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-data-integration-mock-apis-fixed-99-d-647"
+  },
+  "/docs/RestAssured/data-integration/testng-dataprovider-usage-033": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-data-integration-testng-dataprovider-usage-4-c-4-c40"
+  },
+  "/docs/RestAssured/execution-advanced/advanced-topics/contract-testing-final-e5c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-advanced-topics-contract-testing-finalc-54-957"
+  },
+  "/docs/RestAssured/execution-advanced/advanced-topics/performance-testing-basics-final-a1f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-advanced-topics-performance-testing-basics-final-3-bd-580"
+  },
+  "/docs/RestAssured/execution-advanced/execution/ci-cd-integration-fixed-536": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-execution-ci-cd-integration-fixed-2-ec-282"
+  },
+  "/docs/RestAssured/execution-advanced/execution/environment-handling-clean-cfd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-execution-environment-handling-clean-5-d-2-655"
+  },
+  "/docs/RestAssured/execution-advanced/observability-reporting/logs-for-failed-tests-final-f97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-observability-reporting-logs-for-failed-tests-final-934-ff1"
+  },
+  "/docs/RestAssured/execution-advanced/observability-reporting/reporting-tools-final-b2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-observability-reporting-reporting-tools-final-489-792"
+  },
+  "/docs/RestAssured/execution-advanced/observability-reporting/tracking-key-metrics-final-dc7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-observability-reporting-tracking-key-metrics-final-226-a14"
+  },
+  "/docs/RestAssured/execution-advanced/reliability/error-handling-final-137": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-reliability-error-handling-final-48-e-755"
+  },
+  "/docs/RestAssured/execution-advanced/reliability/negative-testing-final-77c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-reliability-negative-testing-final-13-e-e75"
+  },
+  "/docs/RestAssured/execution-advanced/reliability/retry-mechanisms-final-ca9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-execution-advanced-reliability-retry-mechanisms-finalfef-40d"
+  },
+  "/docs/RestAssured/framework-design/base-test-setup-81f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-framework-design-base-test-setup-4-bf-f89"
+  },
+  "/docs/RestAssured/framework-design/centralized-configuration-665": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-framework-design-centralized-configurationd-29-eab"
+  },
+  "/docs/RestAssured/framework-design/folder-structure-overview-59c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-framework-design-folder-structure-overview-4-a-4-d50"
+  },
+  "/docs/RestAssured/framework-design/pojo-models-b84": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-framework-design-pojo-modelsb-87-8a3"
+  },
+  "/docs/RestAssured/framework-design/reusable-request-response-handling-2d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-framework-design-reusable-request-response-handlingaac-948"
+  },
+  "/docs/RestAssured/Fundamentals/api-documentation-tools-ad5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-fundamentals-api-documentation-tools-958-830"
+  },
+  "/docs/RestAssured/Fundamentals/error-handling-edge-cases-9df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-fundamentals-error-handling-edge-cases-2-f-5-f66"
+  },
+  "/docs/RestAssured/Fundamentals/headers-and-json-basics-c97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-fundamentals-headers-and-json-basics-20-f-26f"
+  },
+  "/docs/RestAssured/Fundamentals/http-methods-status-codes-f5e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-fundamentals-http-methods-status-codes-103-850"
+  },
+  "/docs/RestAssured/next-steps/practical-experience-tips-final-e74": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-next-steps-practical-experience-tips-final-5-f-1-317"
+  },
+  "/docs/RestAssured/next-steps/small-real-world-implementation-correct-aa4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-next-steps-small-real-world-implementation-correctafd-454"
+  },
+  "/docs/RestAssured/request-response-handling/headers-and-request-body-e7c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-request-response-handling-headers-and-request-body-516-466"
+  },
+  "/docs/RestAssured/request-response-handling/json-path-extraction-298": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-request-response-handling-json-path-extraction-0-e-7-2d6"
+  },
+  "/docs/RestAssured/request-response-handling/logging-and-debugging-f46": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-request-response-handling-logging-and-debugging-127-e1c"
+  },
+  "/docs/RestAssured/request-response-handling/query-path-parameters-e09": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-request-response-handling-query-path-parameters-605-020"
+  },
+  "/docs/RestAssured/request-response-handling/troubleshooting-common-issues-493": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-request-response-handling-troubleshooting-common-issuesa-50-541"
+  },
+  "/docs/RestAssured/restassured-basics/given-when-then-structure-6d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-restassured-basics-given-when-then-structure-02-f-16f"
+  },
+  "/docs/RestAssured/restassured-basics/project-setup-maven-gradle-c86": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-restassured-basics-project-setup-maven-gradle-739-e70"
+  },
+  "/docs/RestAssured/restassured-basics/writing-first-api-test-928": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rest-assured-restassured-basics-writing-first-api-testb-96-076"
   },
   "/docs/Robot Framework/API Automation with RequestsLibrary-a9d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2046,14 +2222,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-web-elements-web-element-methods-570-631"
   },
-  "/docs/Standalone Java/Annotations/congratulations-0a5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-annotations-congratulationsf-80-79b"
-  },
-  "/docs/Standalone Java/Best Practices/congratulations-fbf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-best-practices-congratulations-5-e-4-5e4"
-  },
   "/docs/Standalone Java/Collections Framework/Advanced Topics/custom-collections-7a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-collections-framework-advanced-topics-custom-collectionsc-13-372"
@@ -2218,34 +2386,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-collections-framework-utilities-immutable-collections-java-9-f-58-584"
   },
-  "/docs/Standalone Java/Decide Later/control-flow-c60": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-decide-later-control-flow-789-383"
-  },
-  "/docs/Standalone Java/Decide Later/data-types-and-memory-f7e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-decide-later-data-types-and-memoryca-0-18c"
-  },
-  "/docs/Standalone Java/Decide Later/methods-and-overloading-709": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-decide-later-methods-and-overloadingcf-0-29f"
-  },
-  "/docs/Standalone Java/Decide Later/operators-192": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-decide-later-operatorsb-36-d7b"
-  },
-  "/docs/Standalone Java/Decide Later/pass-by-value-1fe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-decide-later-pass-by-valuecf-8-fa8"
-  },
-  "/docs/Standalone Java/Decide Later/variables-and-scope-682": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-decide-later-variables-and-scope-622-1f7"
-  },
-  "/docs/Standalone Java/Enums/congratulations-6ea": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-enums-congratulationsbb-6-393"
-  },
   "/docs/Standalone Java/Exception Handling/advanced-topics-in-exception-handling-original-197": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-exception-handling-advanced-topics-in-exception-handling-original-541-9e6"
@@ -2370,6 +2510,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-foundations-packages-07-c-522"
   },
+  "/docs/Standalone Java/Foundations/pass-by-value-f6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-foundations-pass-by-value-2-cb-451"
+  },
   "/docs/Standalone Java/Foundations/Strings-004": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-foundations-stringsd-23-614"
@@ -2381,14 +2525,6 @@
   "/docs/Standalone Java/Foundations/Variables-1e1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-foundations-variablese-46-6f3"
-  },
-  "/docs/Standalone Java/Inner Classes/congratulations-d8d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-inner-classes-congratulations-905-850"
-  },
-  "/docs/Standalone Java/Interview Questions/congratulations-85b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-interview-questions-congratulationsd-5-d-0b7"
   },
   "/docs/Standalone Java/Introduction/-8f9": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2442,17 +2578,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-java-8-features-streams-api-4-d-0-91e"
   },
-  "/docs/Standalone Java/JVM Internals/congratulations-4e2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-jvm-internals-congratulations-310-181"
-  },
   "/docs/Standalone Java/Keywords/Static-8a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-keywords-staticfe-2-892"
-  },
-  "/docs/Standalone Java/Miscellaneous Concepts/congratulations-3ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-miscellaneous-concepts-congratulations-6-a-2-93e"
   },
   "/docs/Standalone Java/Multithreading/advanced-topics-exact-eee": {
     "__comp": "__comp---theme-doc-item-178-a40",

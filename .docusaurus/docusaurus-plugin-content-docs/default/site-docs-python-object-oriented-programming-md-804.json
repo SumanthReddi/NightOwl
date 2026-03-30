@@ -1,7 +1,7 @@
 {
   "id": "Python/Object-Oriented Programming",
-  "title": "Object-Oriented Programming",
-  "description": "1. Introduction to OOP",
+  "title": "Object-Oriented Programming (OOP) in Python",
+  "description": "Object-Oriented Programming (OOP) is a programming paradigm centered around objects, which encapsulate both data (attributes) and behavior (methods). Python fully supports OOP, making it a powerful tool for building modular, reusable, and maintainable code.",
   "source": "@site/docs/Python/Object-Oriented Programming.md",
   "sourceDirName": "Python",
   "slug": "/Python/Object-Oriented Programming",
@@ -13,15 +13,16 @@
   "version": "current",
   "sidebarPosition": 8,
   "frontMatter": {
-    "sidebar_position": 8
+    "sidebar_position": 8,
+    "title": "Object-Oriented Programming (OOP) in Python"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Error Handling",
+    "title": "Python Error Handling",
     "permalink": "/docs/Python/Error Handling"
   },
   "next": {
-    "title": "Intermediate Python Concepts",
+    "title": "Intermediate-Level Python Concepts",
     "permalink": "/docs/Python/Intermediate Python Concepts"
   }
 }

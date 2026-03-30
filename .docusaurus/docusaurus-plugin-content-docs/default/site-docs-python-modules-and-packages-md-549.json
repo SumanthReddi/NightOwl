@@ -1,7 +1,7 @@
 {
   "id": "Python/Modules and Packages",
-  "title": "Modules and Packages",
-  "description": "1. What is a Module?",
+  "title": "Python Modules and Packages",
+  "description": "Modules and packages are essential for organizing and reusing code in",
   "source": "@site/docs/Python/Modules and Packages.md",
   "sourceDirName": "Python",
   "slug": "/Python/Modules and Packages",
@@ -13,15 +13,16 @@
   "version": "current",
   "sidebarPosition": 10,
   "frontMatter": {
-    "sidebar_position": 10
+    "sidebar_position": 10,
+    "title": "Python Modules and Packages"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Intermediate Python Concepts",
+    "title": "Intermediate-Level Python Concepts",
     "permalink": "/docs/Python/Intermediate Python Concepts"
   },
   "next": {
-    "title": "Web & API Basics",
+    "title": "Working with APIs and JSON in Python",
     "permalink": "/docs/Python/Web & API Basics"
   }
 }

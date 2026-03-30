@@ -1,7 +1,7 @@
 {
   "id": "Python/Intermediate Python Concepts",
-  "title": "Intermediate Python Concepts",
-  "description": "1. Lambda Functions",
+  "title": "Intermediate-Level Python Concepts",
+  "description": "Intermediate-level Python concepts build on the foundational knowledge of the language, introducing tools and techniques for more advanced programming tasks. These include lambda functions, functional programming utilities like map() and filter(), decorators, variable argument handling, assertions, JSON manipulation, virtual environments, and package management.",
   "source": "@site/docs/Python/Intermediate Python Concepts.md",
   "sourceDirName": "Python",
   "slug": "/Python/Intermediate Python Concepts",
@@ -13,15 +13,16 @@
   "version": "current",
   "sidebarPosition": 9,
   "frontMatter": {
-    "sidebar_position": 9
+    "sidebar_position": 9,
+    "title": "Intermediate-Level Python Concepts"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Object-Oriented Programming",
+    "title": "Object-Oriented Programming (OOP) in Python",
     "permalink": "/docs/Python/Object-Oriented Programming"
   },
   "next": {
-    "title": "Modules and Packages",
+    "title": "Python Modules and Packages",
     "permalink": "/docs/Python/Modules and Packages"
   }
 }
