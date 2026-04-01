@@ -211,7 +211,87 @@ high-performance systems.
 Use immutable collections when queues are read-only.
 
 ------------------------------------------------------------------------
+## 7. Difference Between Queue Implementations in Java
 
+| Feature | PriorityQueue | ArrayDeque | LinkedList |
+|--------|---------------|------------|------------|
+| **Type** | Queue | Deque | Deque |
+| **Ordering** | Priority order (natural or comparator) | Insertion order | Insertion order |
+| **Duplicates Allowed** | Yes | Yes | Yes |
+| **Null Elements Allowed** | No | No | Yes (not recommended) |
+| **Thread-Safe** | No | No | No |
+| **Underlying Data Structure** | Binary Heap | Resizable Array | Doubly Linked List |
+| **Add Operation Complexity** | O(log n) | O(1) | O(1) |
+| **Remove Operation Complexity** | O(log n) | O(1) | O(1) |
+| **Peek Operation Complexity** | O(1) | O(1) | O(1) |
+| **Random Access** | Not supported | Not supported | O(n) |
+| **Memory Overhead** | Moderate | Low | High |
+| **Iterator Type** | Fail-fast | Fail-fast | Fail-fast |
+| **Common Use Cases** | Priority scheduling, algorithms | Stack/Queue implementation | Frequent insertions/deletions |
+
+### Explanation of Key Differences
+
+#### 1. Ordering
+- **PriorityQueue** maintains elements in **priority order** (natural ordering or custom comparator).  
+  The element with the **highest priority** (lowest value by default) is always at the head of the queue.
+- **ArrayDeque** maintains elements in **insertion order**, meaning elements are stored and retrieved in the same sequence they were added.
+- **LinkedList** also maintains elements in **insertion order**, but it can be used as both a **queue and a deque**.
+
+#### 2. Duplicates and Null Elements
+- All three implementations (**PriorityQueue**, **ArrayDeque**, **LinkedList**) allow **duplicate elements**.
+- **PriorityQueue** does **not allow null elements** because it relies on comparisons to maintain priority order.
+- **ArrayDeque** also does **not allow null elements**, as it uses arrays internally and `null` would cause ambiguity.
+- **LinkedList** allows **null elements**, but using null values in a queue is **not recommended** because it may create confusion when identifying empty elements.
+
+#### 3. Thread-Safety
+- None of the queue implementations (**PriorityQueue**, **ArrayDeque**, **LinkedList**) are **thread-safe** by default.
+- If thread-safety is required, consider using concurrent alternatives such as:
+  - `PriorityBlockingQueue`
+  - `ConcurrentLinkedDeque`
+
+#### 4. Underlying Data Structure
+- **PriorityQueue** uses a **binary heap**, which ensures efficient priority ordering.
+- **ArrayDeque** uses a **resizable array** and provides very efficient operations at both ends.
+- **LinkedList** uses a **doubly-linked list**, where each node stores references to the previous and next elements.
+
+#### 5. Performance
+- **PriorityQueue**
+  - Add: `O(log n)`
+  - Remove: `O(log n)`
+  - Peek: `O(1)`
+
+- **ArrayDeque**
+  - Add/Remove at ends: `O(1)`
+  - Access first/last: `O(1)`
+
+- **LinkedList**
+  - Add/Remove at ends: `O(1)`
+  - Get: `O(n)` because traversal is required.
+
+#### 6. Memory Overhead
+- **PriorityQueue** has **moderate memory overhead** due to its heap structure.
+- **ArrayDeque** has **low memory overhead** because it only stores elements in an array.
+- **LinkedList** has **high memory overhead** since each node stores additional references to previous and next nodes.
+
+#### 7. Use Cases
+- **PriorityQueue**
+  - Priority-based task processing
+  - Scheduling algorithms
+  - Graph algorithms (e.g., Dijkstra)
+
+- **ArrayDeque**
+  - Efficient stack or queue implementation
+  - Double-ended queue operations
+
+- **LinkedList**
+  - Frequent insertions and deletions
+  - Queue or deque implementations where memory is not a constraint
+
+#### 8. Iterator Behavior
+- **PriorityQueue** and **ArrayDeque** provide **fail-fast iterators**, which throw `ConcurrentModificationException` if the collection is modified during iteration.
+- **LinkedList** also provides **fail-fast iterators**, iterating elements in **insertion order**.
+
+---
 ## Summary
 
 Best practices when using queues:

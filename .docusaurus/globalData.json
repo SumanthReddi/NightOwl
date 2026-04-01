@@ -2731,13 +2731,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/oops",
-              "path": "/docs/category/oops",
+              "id": "/category/strings",
+              "path": "/docs/category/strings",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/strings",
-              "path": "/docs/category/strings",
+              "id": "/category/oops",
+              "path": "/docs/category/oops",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2766,13 +2766,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/map-implementations",
-              "path": "/docs/category/map-implementations",
+              "id": "/category/queue-implementations",
+              "path": "/docs/category/queue-implementations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/queue-implementations",
-              "path": "/docs/category/queue-implementations",
+              "id": "/category/map-implementations",
+              "path": "/docs/category/map-implementations",
               "sidebar": "tutorialSidebar"
             },
             {

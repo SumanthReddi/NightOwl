@@ -21,7 +21,7 @@ public static void main(String[] args) {
 - `static`: Allows JVM to call `main` without creating an object of the class.
 - `void`: Means the main method does not return anything.
 - `main`: This is the name of the method that the JVM looks for.
-- `String[] args`: An array of `String` objects. It lets your program accept command-line arguments passed as strings when you run the program.Used for command-line arguments.
+- `String[] args`: An array of `String` objects. It is Used for command-line arguments. It lets your program accept command-line arguments passed as strings when you run the program.
 
 ## How the main method works
 

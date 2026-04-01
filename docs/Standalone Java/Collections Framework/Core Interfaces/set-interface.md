@@ -74,7 +74,7 @@ public class HashSetExample {
         fruits.add("Cherry");
         fruits.add("Apple");        // Duplicate element (ignored)
 
-        System.out.println("Fruits: " + fruits);        // → [Apple, Banana, Cherry]
+        System.out.println("Fruits: " + fruits);        // → [Apple, Cherry, Banana]
 
          // Check if an element exists
         System.out.println("Contains Banana? " + fruits.contains("Banana"));    // → true
@@ -85,7 +85,7 @@ public class HashSetExample {
 
         // Iterate through the set
         for (String fruit : fruits) {
-            System.out.println(fruit);
+            System.out.println(fruit); // Apple Banana
         }
     }
 }

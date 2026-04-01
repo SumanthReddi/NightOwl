@@ -78,18 +78,29 @@ public class PriorityQueueExample {
 
     public static void main(String[] args) {
 
+        // Create a PriorityQueue
         Queue<Integer> numbers = new PriorityQueue<>();
 
+        // Add elements
         numbers.offer(5);
         numbers.offer(3);
         numbers.offer(8);
 
+        // PriorityQueue does NOT maintain insertion order.
+        // It arranges elements based on natural ordering (min-heap for integers).
         System.out.println("Queue: " + numbers);
 
-        System.out.println("Poll: " + numbers.poll());
-        System.out.println("Poll: " + numbers.poll());
+        // Possible Output (internal heap order):
+        // Queue: [3, 5, 8]
 
-        System.out.println("Remaining: " + numbers);
+        // Poll removes the smallest element first
+        System.out.println("Poll: " + numbers.poll());    // Poll: 3
+      
+        System.out.println("Poll: " + numbers.poll());  // Poll: 5
+
+        // Remaining element
+        System.out.println("Remaining: " + numbers);      // Remaining: [8]
+      
     }
 }
 ```
@@ -106,18 +117,25 @@ public class ArrayDequeExample {
 
     public static void main(String[] args) {
 
+        // Create an ArrayDeque used as a Queue
         Queue<String> tasks = new ArrayDeque<>();
 
+        // Add elements (FIFO order)
         tasks.offer("Task 1");
         tasks.offer("Task 2");
         tasks.offer("Task 3");
 
-        System.out.println("Tasks: " + tasks);
+        // ArrayDeque maintains insertion order when used as a Queue
+        System.out.println("Tasks: " + tasks);  // Tasks: [Task 1, Task 2, Task 3]
 
-        System.out.println("Poll: " + tasks.poll());
-        System.out.println("Poll: " + tasks.poll());
+        // Poll removes the first inserted element (FIFO)
+        System.out.println("Poll: " + tasks.poll());     // Poll: Task 1
 
-        System.out.println("Remaining: " + tasks);
+        System.out.println("Poll: " + tasks.poll());    // Poll: Task 2
+
+        // Remaining element
+        System.out.println("Remaining: " + tasks);   // Remaining: [Task 3]
+       
     }
 }
 ```
@@ -134,20 +152,28 @@ public class LinkedListExample {
 
     public static void main(String[] args) {
 
+        // Create a LinkedList used as a Queue
         Queue<String> messages = new LinkedList<>();
 
+        // Add elements (FIFO order)
         messages.offer("Message 1");
         messages.offer("Message 2");
         messages.offer("Message 3");
 
-        System.out.println("Messages: " + messages);
+        // LinkedList maintains insertion order
+        System.out.println("Messages: " + messages);     // Messages: [Message 1, Message 2, Message 3]
 
-        System.out.println("Peek: " + messages.peek());
+        // Peek returns the first element without removing it
+        System.out.println("Peek: " + messages.peek());  // Peek: Message 1       
 
-        System.out.println("Poll: " + messages.poll());
-        System.out.println("Poll: " + messages.poll());
+        // Poll removes the first element (FIFO)
+        System.out.println("Poll: " + messages.poll());   // Poll: Message 1
 
-        System.out.println("Remaining: " + messages);
+        System.out.println("Poll: " + messages.poll());   // Poll: Message 2
+
+        // Remaining element in the queue
+        System.out.println("Remaining: " + messages);      // Remaining: [Message 3]
+     
     }
 }
 ```

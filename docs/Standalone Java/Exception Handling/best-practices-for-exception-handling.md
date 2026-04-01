@@ -240,5 +240,3 @@ public class TryWithResourcesExample {
 - Avoid overusing checked exceptions and prefer unchecked exceptions for recoverable errors.
 - Document exceptions in method signatures and Javadoc comments.
 - Use `try-with-resources` for managing resources like files and streams.
-
----

@@ -197,6 +197,121 @@ Immutable sets prevent modification.
 
 ------------------------------------------------------------------------
 
+## 7. Difference Between Set Implementations in Java
+
+| Feature | HashSet | LinkedHashSet | TreeSet |
+|--------|---------|---------------|--------|
+| Type | Set | Set | Set |
+| Ordering | No guaranteed order | Maintains insertion order | Sorted order (natural or comparator) |
+| Duplicates Allowed | No | No | No |
+| Null Elements Allowed | Yes (one null allowed) | Yes (one null allowed) | No |
+| Thread-Safe | No | No | No |
+| Underlying Data Structure | Hash table | Hash table + linked list | Red-black tree |
+| Add Operation | O(1) | O(1) | O(log n) |
+| Remove Operation | O(1) | O(1) | O(log n) |
+| Contains Operation | O(1) | O(1) | O(log n) |
+| Memory Overhead | Low | Moderate | High |
+| Use Cases | Fast lookups when order is not important | When insertion order must be preserved | When elements must be stored in sorted order |
+| Iterator Type | Fail-fast | Fail-fast | Fail-fast |
+
+## Explanation of Key Differences
+
+### 1. Ordering
+All three implementations (**ArrayList**, **LinkedList**, **Vector**) maintain the **insertion order**, meaning elements are stored and retrieved in the same sequence they were added.
+
+### 2. Duplicates and Null Elements
+Since all three are implementations of the **List** interface, they allow:
+
+- Duplicate elements
+- Null values
+
+### 3. Thread-Safety
+
+- **ArrayList** and **LinkedList** are **not thread-safe**.  
+  They are designed for single-threaded environments and offer better performance.
+
+- **Vector** is **thread-safe** because its methods are synchronized.  
+  However, this synchronization makes it slower compared to **ArrayList** and **LinkedList**.
+
+### 4. Underlying Data Structure
+
+- **ArrayList**
+  - Uses a **dynamic array** to store elements
+  - Efficient for **random access**
+  - Slower for **frequent insertions and deletions**
+
+- **LinkedList**
+  - Uses a **doubly-linked list**
+  - Efficient for **adding/removing elements at both ends**
+  - Slower for **random access**
+
+- **Vector**
+  - Uses a **dynamic array**, similar to `ArrayList`
+  - Has **additional synchronization overhead**
+
+### 5. Performance
+
+#### ArrayList
+- **Add:** `O(1)` amortized (occasionally `O(n)` when resizing)
+- **Get:** `O(1)` due to index-based access
+- **Remove:** `O(n)` because elements may need to be shifted
+
+#### LinkedList
+- **Add/Remove at Ends:** `O(1)`
+- **Get:** `O(n)` because traversal is required
+- **Remove from Middle:** `O(n)`
+
+#### Vector
+- Similar to **ArrayList** in time complexity  
+- Slower due to synchronization
+
+### 6. Memory Overhead
+
+- **ArrayList**  
+  Minimal memory overhead since it stores elements in an array.
+
+- **LinkedList**  
+  Higher memory overhead because each node stores:
+  - previous pointer
+  - next pointer
+
+- **Vector**  
+  Moderate memory overhead due to synchronization.
+
+### 7. Use Cases
+
+#### ArrayList
+Ideal when:
+
+- Random access is frequent
+- Thread-safety is not required
+- Dataset size is large but mostly static
+
+#### LinkedList
+Suitable for:
+
+- Implementing **queues**
+- Implementing **stacks**
+- Implementing **deques**
+- Frequent insertions and deletions
+
+#### Vector
+Primarily used in:
+
+- **Legacy systems**
+- Situations where **built-in synchronization** is required
+
+### 8. Iterator Behavior
+
+- **ArrayList** and **LinkedList**
+  - Provide **fail-fast iterators**
+  - Throw `ConcurrentModificationException` if modified during iteration
+
+- **Vector**
+  - Provides **fail-safe iterators** via `Enumeration`
+  - Does **not throw exceptions** if modified during iteration
+
+---
 ## Summary
 
 1.  Choose the right `Set` implementation.

@@ -124,15 +124,11 @@ public class TestEncapsulation{
 
         emp.setSalary(50000);
 
-        System.out.println("Employee Salary: " + emp.getSalary());
+        System.out.println("Employee Salary: " + emp.getSalary());  // Employee Salary: 50000
     }
 
 }
 ```
-
-Output
-
-    Employee Salary: 50000
 
 ------------------------------------------------------------------------
 

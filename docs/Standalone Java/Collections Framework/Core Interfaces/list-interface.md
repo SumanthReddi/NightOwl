@@ -73,6 +73,7 @@ import java.util.List;
 public class ListExample {
 
     public static void main(String[] args) {
+
         // Create an ArrayList
         List<String> fruits = new ArrayList<>();
 
@@ -82,24 +83,30 @@ public class ListExample {
         fruits.add("Cherry");
 
         // Access elements by index
-        System.out.println("First fruit: " + fruits.get(0));
+        System.out.println("First fruit: " + fruits.get(0));          // First fruit: Apple
 
         // Iterate through the list
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
 
+        // Output:
+        // Apple
+        // Banana
+        // Cherry
+
         // Remove an element
         fruits.remove("Banana");
-        System.out.println("After removal: " + fruits);
+        System.out.println("After removal: " + fruits); // After removal: [Apple, Cherry]
 
         // Replace an element
         fruits.set(1, "Mango");
-        System.out.println("After replacement: " + fruits);
+        System.out.println("After replacement: " + fruits); // After replacement: [Apple, Mango]
 
         // Get the index of an element
         int index = fruits.indexOf("Mango");
-        System.out.println("Index of Mango: " + index);
+        System.out.println("Index of Mango: " + index); // Index of Mango: 1
+        
     }
 }
 ```
@@ -124,14 +131,19 @@ public class SubListExample {
         numbers.add(40);
         numbers.add(50);
 
-        // Extract a sublist
+        // Extract a sublist (start index inclusive, end index exclusive)
         List<Integer> subList = numbers.subList(1, 4);      // [20, 30, 40]
-        System.out.println("Sublist: " + subList);
 
-        // Modify the sublist (affects the original list)
+        System.out.println("Sublist: " + subList);     // Sublist: [20, 30, 40]
+
+        // Modify the sublist (this will affect the original list)
         subList.set(0, 25);
-        System.out.println("Modified sublist: " + subList);
-        System.out.println("Original list after modification: " + numbers);
+
+        System.out.println("Modified sublist: " + subList); // Modified sublist: [25, 30, 40]
+        
+        System.out.println("Original list after modification: " + numbers); // Original list after modification: [10, 25, 30, 40, 50]
+
+        
     }
 }
 ```

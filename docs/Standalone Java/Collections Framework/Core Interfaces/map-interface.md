@@ -75,25 +75,39 @@ public class HashMapExample {
 
     public static void main(String[] args) {
 
+        // Create a HashMap
         Map<String, Integer> fruitCounts = new HashMap<>();
 
+        // Insert key-value pairs
         fruitCounts.put("Apple", 3);
         fruitCounts.put("Banana", 5);
         fruitCounts.put("Cherry", 7);
 
+        // HashMap does NOT guarantee order of elements
         System.out.println(fruitCounts);
 
-        System.out.println("Apple count: " + fruitCounts.get("Apple"));
+        // Possible Output (order may vary):
+        // {Apple=3, Banana=5, Cherry=7}
 
+        // Get value by key
+        System.out.println("Apple count: " + fruitCounts.get("Apple")); // Apple count: 3
+
+        // Check if key exists
         if (fruitCounts.containsKey("Banana")) {
-            System.out.println("Banana exists");
+            System.out.println("Banana exists");    // Banana exists
         }
 
+        // Remove a key
         fruitCounts.remove("Cherry");
 
-        for (Map.Entry<String,Integer> entry : fruitCounts.entrySet()) {
+        // Iterate through the map
+        for (Map.Entry<String, Integer> entry : fruitCounts.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
+
+        // Output (order not guaranteed):
+        // Apple : 3
+        // Banana : 5
     }
 }
 ```
@@ -110,13 +124,19 @@ public class LinkedHashMapExample {
 
     public static void main(String[] args) {
 
-        Map<String,Integer> scores = new LinkedHashMap<>();
+        // Create a LinkedHashMap
+        Map<String, Integer> scores = new LinkedHashMap<>();
 
-        scores.put("Alice",95);
-        scores.put("Bob",87);
-        scores.put("Charlie",92);
+        // Insert key-value pairs
+        scores.put("Alice", 95);
+        scores.put("Bob", 87);
+        scores.put("Charlie", 92);
 
+        // LinkedHashMap maintains insertion order
         System.out.println(scores);
+
+        // Output:
+        // {Alice=95, Bob=87, Charlie=92}
     }
 }
 ```
@@ -133,13 +153,19 @@ public class TreeMapExample {
 
     public static void main(String[] args) {
 
-        Map<String,Integer> ages = new TreeMap<>();
+        // Create a TreeMap
+        Map<String, Integer> ages = new TreeMap<>();
 
-        ages.put("Charlie",25);
-        ages.put("Alice",30);
-        ages.put("Bob",22);
+        // Insert key-value pairs
+        ages.put("Charlie", 25);
+        ages.put("Alice", 30);
+        ages.put("Bob", 22);
 
+        // TreeMap automatically sorts keys in natural (alphabetical) order
         System.out.println(ages);
+
+        // Output:
+        // {Alice=30, Bob=22, Charlie=25}
     }
 }
 ```

@@ -77,21 +77,32 @@ public class ArrayDequeExample {
 
     public static void main(String[] args) {
 
+        // Create a Deque using ArrayDeque
         Deque<String> tasks = new ArrayDeque<>();
 
+        // Add elements at both ends
         tasks.addFirst("Task 1");
         tasks.addLast("Task 2");
         tasks.addFirst("Task 0");
 
-        System.out.println(tasks);
+        // Current deque
+        System.out.println(tasks);  // [Task 0, Task 1, Task 2]
 
-        System.out.println("First: " + tasks.peekFirst());
-        System.out.println("Last: " + tasks.peekLast());
+        // Peek first element (does not remove)
+        System.out.println("First: " + tasks.peekFirst());  // First: Task 0
 
-        System.out.println("Removed First: " + tasks.pollFirst());
-        System.out.println("Removed Last: " + tasks.pollLast());
+        // Peek last element (does not remove)
+        System.out.println("Last: " + tasks.peekLast());      // Last: Task 2
 
-        System.out.println("Remaining: " + tasks);
+        // Remove first element
+        System.out.println("Removed First: " + tasks.pollFirst());  // Removed First: Task 0
+
+        // Remove last element
+        System.out.println("Removed Last: " + tasks.pollLast());      // Removed Last: Task 2
+
+        // Remaining element
+        System.out.println("Remaining: " + tasks);    // Remaining: [Task 1]
+      
     }
 }
 ```
@@ -108,18 +119,25 @@ public class StackExample {
 
     public static void main(String[] args) {
 
+        // Create a stack using ArrayDeque
         Deque<Integer> stack = new ArrayDeque<>();
 
+        // Push elements onto the stack
         stack.push(10);
         stack.push(20);
         stack.push(30);
 
-        System.out.println("Stack: " + stack);
+        // Stack follows LIFO (Last In First Out)
+        System.out.println("Stack: " + stack);    // Stack: [30, 20, 10]
 
-        System.out.println("Pop: " + stack.pop());
-        System.out.println("Pop: " + stack.pop());
+        // Pop removes the top element
+        System.out.println("Pop: " + stack.pop());    // Pop: 30
 
-        System.out.println("Remaining: " + stack);
+        System.out.println("Pop: " + stack.pop());  // Pop: 20
+
+        // Remaining element
+        System.out.println("Remaining: " + stack);   // Remaining: [10]
+       
     }
 }
 ```
@@ -136,18 +154,26 @@ public class QueueExample {
 
     public static void main(String[] args) {
 
+        // Create a queue using ArrayDeque
         Deque<String> queue = new ArrayDeque<>();
 
+        // Add elements (FIFO order)
         queue.offer("Alice");
         queue.offer("Bob");
         queue.offer("Charlie");
 
-        System.out.println(queue);
+        // Print the queue
+        System.out.println(queue);    // [Alice, Bob, Charlie]
 
-        System.out.println("Poll: " + queue.poll());
-        System.out.println("Poll: " + queue.poll());
+        // Remove the first element
+        System.out.println("Poll: " + queue.poll());     // Poll: Alice
 
-        System.out.println("Remaining: " + queue);
+        // Remove the next element
+        System.out.println("Poll: " + queue.poll());      // Poll: Bob
+
+        // Print remaining element
+        System.out.println("Remaining: " + queue);    // Remaining: [Charlie]
+      
     }
 }
 ```

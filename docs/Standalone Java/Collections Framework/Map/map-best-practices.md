@@ -237,6 +237,179 @@ applications.
 
 ------------------------------------------------------------------------
 
+### 7. Difference Between Map Implementations in Java
+
+| Feature | HashMap | LinkedHashMap | TreeMap | Hashtable |
+|--------|---------|---------------|--------|-----------|
+| Type | Map | Map | Map | Map |
+| Ordering | No guaranteed order | Insertion order | Sorted order (natural or comparator) | No guaranteed order |
+| Duplicate Keys | Not allowed | Not allowed | Not allowed | Not allowed |
+| Duplicate Values | Allowed | Allowed | Allowed | Allowed |
+| Null Keys | One null key allowed | One null key allowed | Not allowed | Not allowed |
+| Null Values | Multiple null values allowed | Multiple null values allowed | Allowed | Not allowed |
+| Thread-Safe | No | No | No | Yes (synchronized) |
+| Data Structure | Hash table | Hash table + linked list | Red-black tree | Hash table |
+| Put Operation | O(1) | O(1) | O(log n) | O(1) |
+| Get Operation | O(1) | O(1) | O(log n) | O(1) |
+| Remove Operation | O(1) | O(1) | O(log n) | O(1) |
+| Memory Overhead | Low | Moderate | High | Moderate |
+| Iterator Type | Fail-fast | Fail-fast | Fail-fast | Fail-safe (Enumeration) |
+| Best Use Case | Fast key-value lookup | Maintain insertion order | Sorted keys and range queries | Legacy thread-safe map |
+
+### Explanation of Key Differences
+
+#### 1. Ordering
+
+- **HashMap**  
+  Does **not guarantee any specific order** of keys or values.  
+  The order depends on the hash codes of the keys.
+
+- **LinkedHashMap**  
+  Maintains the **insertion order**, meaning entries are stored and retrieved in the same sequence they were added.
+
+- **TreeMap**  
+  Maintains keys in a **sorted order** (natural ordering or using a custom comparator).
+
+- **Hashtable**  
+  Similar to `HashMap`, it **does not guarantee any specific order** of keys or values.
+
+---
+
+#### 2. Duplicate Keys and Null Values
+
+- All implementations **do not allow duplicate keys** but allow **duplicate values**.
+
+- **HashMap**
+  - Allows **one null key**
+  - Allows **multiple null values**
+
+- **LinkedHashMap**
+  - Allows **one null key**
+  - Allows **multiple null values**
+
+- **TreeMap**
+  - **Does not allow null keys**
+  - Allows **null values**
+
+- **Hashtable**
+  - **Does not allow null keys or null values**
+
+---
+
+#### 3. Thread Safety
+
+- **HashMap**, **LinkedHashMap**, and **TreeMap** are **not thread-safe**.
+
+  If thread safety is required, you can use:
+
+  - `Collections.synchronizedMap()`
+  - `ConcurrentHashMap`
+
+- **Hashtable** is **thread-safe** because its methods are **synchronized**.
+
+  However, this synchronization makes it **slower compared to HashMap**.
+
+---
+
+#### 4. Underlying Data Structure
+
+- **HashMap**  
+  Uses a **hash table** to store key-value pairs.
+
+- **LinkedHashMap**  
+  Uses a **hash table + linked list** to maintain insertion order.
+
+- **TreeMap**  
+  Uses a **red-black tree** (balanced binary search tree).
+
+- **Hashtable**  
+  Uses a **hash table**, similar to `HashMap`, but with synchronization.
+
+---
+
+#### 5. Performance
+
+**HashMap**
+
+- `put()` → `O(1)`
+- `get()` → `O(1)`
+- `remove()` → `O(1)`
+
+**LinkedHashMap**
+
+- Similar to `HashMap`
+- Slightly slower due to linked list maintenance
+
+**TreeMap**
+
+- `put()` → `O(log n)`
+- `get()` → `O(log n)`
+- `remove()` → `O(log n)`
+
+**Hashtable**
+
+- Similar to `HashMap`
+- Slower due to synchronization
+
+---
+
+#### 6. Memory Overhead
+
+- **HashMap** → Low memory usage
+- **LinkedHashMap** → Moderate (extra linked list pointers)
+- **TreeMap** → High (tree node pointers)
+- **Hashtable** → Moderate (synchronization overhead)
+
+---
+
+#### 7. Use Cases
+
+**HashMap**
+
+Best when:
+
+- Fast key-value lookup is needed
+- Ordering is not important
+
+**LinkedHashMap**
+
+Best when:
+
+- Insertion order must be preserved
+- Predictable iteration order is required
+
+**TreeMap**
+
+Best when:
+
+- Keys must remain **sorted**
+- **Range queries** or ordered traversal is required
+
+**Hashtable**
+
+Used mainly in:
+
+- **Legacy applications**
+- Situations requiring **built-in synchronization**
+
+---
+
+#### 8. Iterator Behavior
+
+- **HashMap** and **LinkedHashMap**
+  - Provide **fail-fast iterators**
+  - Throw `ConcurrentModificationException` if the collection is modified during iteration
+
+- **TreeMap**
+  - Also provides **fail-fast iterators**
+  - Iterates entries in **sorted order**
+
+- **Hashtable**
+  - Provides **fail-safe iterators** via `Enumeration`
+  - Does **not throw exceptions** even if the collection is modified during iteration
+
+---
+
 ## Summary
 
 Best practices when using maps:

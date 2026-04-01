@@ -184,6 +184,140 @@ Immutable lists prevent accidental modification.
 
 ------------------------------------------------------------------------
 
+## 7.Difference Between List Implementations in Java
+
+| Feature | ArrayList | LinkedList | Vector |
+|--------|-----------|------------|--------|
+| Type | List | List | List |
+| Ordering | Insertion order | Insertion order | Insertion order |
+| Duplicates Allowed? | Yes | Yes | Yes |
+| Null Elements Allowed? | Yes | Yes | Yes |
+| Thread-Safe? | No | No | Yes (synchronized) |
+| Underlying Data Structure | Dynamic array | Doubly-linked list | Dynamic array |
+| Initial Capacity | Default: 10 | N/A | Default: 10 |
+| Growth Strategy | Increases by 50% when full | Dynamically grows | Doubles in size |
+| Performance | Add O(1), Get O(1), Remove O(n) | Add/Remove ends O(1), Get O(n) | Similar to ArrayList but slower |
+| Memory Overhead | Low | High | Moderate |
+| Use Cases | Random access, large datasets | Frequent insert/delete | Legacy thread-safe list |
+| Iterator Type | Fail-fast | Fail-fast | Fail-safe (Enumeration) |
+| Synchronization | Not synchronized | Not synchronized | Synchronized |
+
+## Explanation of Key Differences
+
+### 1. Ordering
+All three implementations (**ArrayList**, **LinkedList**, **Vector**) maintain the **insertion order**, meaning elements are stored and retrieved in the same sequence they were added.
+
+---
+
+### 2. Duplicates and Null Elements
+Since all three are implementations of the **List interface**, they allow:
+
+- **Duplicate elements**
+- **Null values**
+
+---
+
+### 3. Thread-Safety
+
+- **ArrayList** and **LinkedList** are **not thread-safe**.  
+  They are designed for **single-threaded environments** and offer better performance.
+
+- **Vector** is **thread-safe** because its methods are synchronized.  
+  However, this synchronization makes it **slower compared to ArrayList and LinkedList**.
+
+---
+
+### 4. Underlying Data Structure
+
+- **ArrayList**
+  - Uses a **dynamic array**
+  - Efficient for **random access**
+  - Slower for **frequent insertions and deletions**
+
+- **LinkedList**
+  - Uses a **doubly-linked list**
+  - Efficient for **adding/removing elements at both ends**
+  - Slower for **random access**
+
+- **Vector**
+  - Uses a **dynamic array** similar to `ArrayList`
+  - Has **additional synchronization overhead**
+
+---
+
+### 5. Performance
+
+#### ArrayList
+- **Add:** `O(1)` amortized (occasionally `O(n)` during resizing)
+- **Get:** `O(1)` due to index-based access
+- **Remove:** `O(n)` because elements must be shifted
+
+#### LinkedList
+- **Add/Remove at Ends:** `O(1)`  
+- **Get:** `O(n)` because traversal is required  
+- **Remove from Middle:** `O(n)`
+
+#### Vector
+- Similar to **ArrayList** in time complexity  
+- **Slower due to synchronization**
+
+---
+
+### 6. Memory Overhead
+
+- **ArrayList**
+  - Minimal memory overhead
+  - Stores elements in an array
+
+- **LinkedList**
+  - Higher memory usage
+  - Each node stores:
+    - value
+    - previous pointer
+    - next pointer
+
+- **Vector**
+  - Moderate memory overhead due to synchronization
+
+---
+
+### 7. Use Cases
+
+#### ArrayList
+Ideal when:
+
+- Random access is frequent
+- Thread-safety is not required
+- Large datasets are stored with fewer insertions/deletions
+
+#### LinkedList
+Suitable for:
+
+- Implementing **queues**
+- Implementing **stacks**
+- Implementing **deques**
+- Frequent insertions and deletions
+
+#### Vector
+Primarily used for:
+
+- **Legacy systems**
+- Situations where **built-in synchronization is required**
+
+---
+
+### 8. Iterator Behavior
+
+- **ArrayList** and **LinkedList**
+  - Provide **fail-fast iterators**
+  - Throw `ConcurrentModificationException` if the collection is modified during iteration
+
+- **Vector**
+  - Provides **fail-safe iterators** via `Enumeration`
+  - Does **not throw exceptions** if modified during iteration
+
+---
+
 ## Summary
 
 1.  Choose the correct implementation.

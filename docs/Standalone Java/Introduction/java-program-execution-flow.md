@@ -3,10 +3,7 @@ sidebar_position: 3
 title: Java Program Execution Flow 
 ---
 
-## Java Program Execution Flow (What Happens When You Run Java Code)
-
-
-## Why This File Exists
+## What Happens When You Run Java Code
 Most people write Java code but **don’t really know what happens when they run it**.
 
 This file explains:
