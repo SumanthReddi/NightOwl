@@ -16,6 +16,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Agile/Agile Process",
+              "path": "/docs/Agile/Agile Process",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Agile/Agile Team Roles",
+              "path": "/docs/Agile/Agile Team Roles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Apache POI/Apache POI Fundamentals",
               "path": "/docs/Apache POI/Apache POI Fundamentals",
               "sidebar": "tutorialSidebar"

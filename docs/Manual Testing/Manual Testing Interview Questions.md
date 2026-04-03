@@ -166,7 +166,3 @@ Not just definitions.
 - Manual testing concepts are interconnected
 - Real project understanding matters
 - Strong fundamentals build strong automation engineers
-
----
-
-## End of Manual Testing Module ✅

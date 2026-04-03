@@ -249,22 +249,30 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-19c": {
+  "/docs-e2b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-a6c": {
+  "/docs-c6d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-4f3": {
+  "/docs-6b5": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-agile-501-f99"
+  },
+  "/docs/Agile/Agile Process-bd6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-agile-agile-processa-0-f-94c"
+  },
+  "/docs/Agile/Agile Team Roles-bd0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-agile-agile-team-rolesbc-6-5a9"
   },
   "/docs/Apache POI/Apache POI Fundamentals-343": {
     "__comp": "__comp---theme-doc-item-178-a40",

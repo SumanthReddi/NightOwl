@@ -114,19 +114,31 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '19c'),
+    component: ComponentCreator('/docs', 'e2b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'a6c'),
+        component: ComponentCreator('/docs', 'c6d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '4f3'),
+            component: ComponentCreator('/docs', '6b5'),
             routes: [
               {
                 path: '/docs/Agile/',
                 component: ComponentCreator('/docs/Agile/', 'fc0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Agile/Agile Process',
+                component: ComponentCreator('/docs/Agile/Agile Process', 'bd6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Agile/Agile Team Roles',
+                component: ComponentCreator('/docs/Agile/Agile Team Roles', 'bd0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
