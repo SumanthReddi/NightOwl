@@ -162,5 +162,3 @@ If a test needs a long wait, it usually means the **wrong condition** is being w
 - Identify the exact UI condition
 - Use explicit waits correctly
 - Never use Thread.sleep
-
-Selenium 4 compliant • CI-safe • Interview

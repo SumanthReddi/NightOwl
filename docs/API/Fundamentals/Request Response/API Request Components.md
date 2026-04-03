@@ -92,7 +92,7 @@ response.then().body("id", equalTo(101));
 
 #### **What are Query Params?**
 
-Query parameters **filter or modify the response**.
+Query parameters **sort or filter or modify the response** and those are always identified with **?**
 
 Example:
 ```http
@@ -155,7 +155,8 @@ response.then().body("size()", equalTo(10));
 
 #### **What are Headers?**
 
-Headers carry **metadata** about the request.
+Headers represent the meta-data associated with the API request and response. We are sending Additional details to API to process our request.
+  - Headers carry **metadata** about the API request.
 
 Example:
 ```http

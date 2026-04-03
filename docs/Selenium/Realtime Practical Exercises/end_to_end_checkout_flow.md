@@ -203,5 +203,4 @@ Run end-to-end checkout tests **last in the pipeline** to reduce cascading failu
 - Page Objects are mandatory
 - Few but stable E2E tests add high value
 
-Selenium 4 compliant • Real-project focused • Interview ready
 

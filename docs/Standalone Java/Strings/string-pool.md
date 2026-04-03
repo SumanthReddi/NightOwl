@@ -4,7 +4,7 @@ title: String Constant Pool
 ---
 <!-- # String Constant Pool (SCP) in Java -->
 
-## What Is the String Constant Pool?
+## What is the String Constant Pool?
 
 The **String Constant Pool (SCP)** is a special memory area inside the
 **Java Heap** where Java stores **string literals**.
@@ -27,13 +27,13 @@ Both `s1` and `s2` point to the **same object** in the String Constant
 Pool.
 
 ### Memory Representation
-
+```
     String Constant Pool
 
     +---------+
     | "Java"  |  ← s1, s2
     +---------+
-
+```
 Java does **not create a new object** for `s2` because `"Java"` already
 exists in the pool.
 
@@ -54,22 +54,14 @@ When a string literal is created:
 
 ``` java
 public class Test {
-
     public static void main(String[] args) {
-
         String s1 = "Java";
         String s2 = "Java";
 
-        System.out.println(s1 == s2);
-
-    }
-
+        System.out.println(s1 == s2); // True
+    } 
 }
 ```
-
-Output
-
-    true
 
 Explanation:
 
@@ -89,15 +81,11 @@ Example:
 String s1 = "Java";
 String s2 = new String("Java");
 
-System.out.println(s1 == s2);
+System.out.println(s1 == s2); // False
 ```
 
-Output
-
-    false
-
 ### Memory Representation
-
+```
     String Constant Pool
 
     +---------+
@@ -109,7 +97,7 @@ Output
     +---------+
     | "Java"  | ← s2
     +---------+
-
+```
 Here:
 
 -   `s1` points to the **String Pool**

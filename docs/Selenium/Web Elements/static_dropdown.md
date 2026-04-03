@@ -159,6 +159,3 @@ Always confirm dropdown behavior in browser dev tools before choosing automation
 - Selenium `Select` class is mandatory
 - Visible text selection is safest
 - Validation is as important as selection
-
-Selenium 4 compliant • Production safe • Interview ready
-

@@ -147,9 +147,3 @@ element.isSelected();
 - Separate locate and interact logic
 - Validate element state before action
 - Clean usage improves stability
-
----
-
-## What’s Next?
-
-👉 **Text Boxes**

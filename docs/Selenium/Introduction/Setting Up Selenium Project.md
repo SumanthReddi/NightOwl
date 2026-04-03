@@ -137,9 +137,3 @@ Run a sample test to verify setup:
 - WebDriverManager simplifies setup
 - Clean structure prevents future refactoring
 - Setup quality impacts long-term stability
-
----
-
-## What’s Next?
-
-👉 **Launching Browsers**

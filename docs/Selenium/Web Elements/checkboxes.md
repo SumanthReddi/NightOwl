@@ -161,6 +161,3 @@ Always test checkbox behavior with form submission and backend validation — es
 - `isSelected()` is critical
 - Custom checkboxes are common in modern UIs
 - Always test select and unselect scenarios
-
- 
-

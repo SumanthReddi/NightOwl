@@ -31,7 +31,7 @@ And supports multiple programming languages:
 
 ---
 
-## What Selenium Is Used For
+## What Selenium is Used For
 
 Selenium is primarily used for:
 - Functional UI automation
@@ -47,7 +47,7 @@ It is commonly integrated with:
 
 ---
 
-## What Selenium Is NOT
+## What Selenium is NOT
 
 It is equally important to understand Selenium’s limitations.
 
@@ -100,9 +100,3 @@ In real projects, Selenium is used with:
 - Best suited for UI functional testing
 - Not meant for performance or security testing
 - Industry-standard automation tool
-
----
-
-## What’s Next?
-
-👉 **Selenium Architecture**

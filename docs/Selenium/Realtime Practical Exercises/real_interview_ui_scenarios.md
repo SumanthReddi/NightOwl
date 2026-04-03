@@ -156,5 +156,3 @@ shadow.findElement(By.cssSelector("input"));
 - Correct diagnosis matters more than code
 - Explicit waits solve most problems
 - Confidence comes from real-project experience
-
-Selenium 4 compliant • Interview-focused • Real-world ready

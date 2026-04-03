@@ -142,9 +142,3 @@ ul li:nth-child(2)
 - XPath is more powerful
 - Choose based on use case
 - Simpler locators are more stable
-
----
-
-## What’s Next?
-
-👉 **XPath vs CSS Selectors**

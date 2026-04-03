@@ -119,9 +119,3 @@ Use browser DevTools:
 - Stability > simplicity
 - Good locators reduce maintenance
 - DOM knowledge is mandatory
-
----
-
-## What’s Next?
-
-👉 **ID, Name, and Class Locators**

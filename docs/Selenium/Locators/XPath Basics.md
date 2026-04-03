@@ -120,9 +120,3 @@ Use browser DevTools to:
 - Avoid absolute XPath
 - Relative XPath is preferred
 - DOM understanding is essential
-
----
-
-## What’s Next?
-
-👉 **Advanced XPath**

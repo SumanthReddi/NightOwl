@@ -275,5 +275,3 @@ You learned:
 -   Integrate Selenium with DB validation
 -   Framework-level utility structure
 
-This is enough to build enterprise-level Selenium + DB automation
-validation.

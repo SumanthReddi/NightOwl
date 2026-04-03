@@ -136,9 +136,3 @@ Validation approach:
 - Always validate where a link goes
 - Handle new tabs carefully
 - Use stable locator strategies
-
----
-
-## What’s Next?
-
-👉 **Radio Button**

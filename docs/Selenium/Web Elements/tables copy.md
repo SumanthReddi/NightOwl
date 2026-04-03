@@ -186,5 +186,3 @@ Tables often represent **backend data** — always cross-check values against AP
 - XPath row-scoping is critical
 - Handle pagination & sorting carefully
 - Focus on data correctness
-
-Selenium 4 compliant • Enterprise ready • Interview safe

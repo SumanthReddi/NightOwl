@@ -129,9 +129,3 @@ Common use cases:
 - `get()` and `navigate().to()` are core methods
 - Back, forward, and refresh simulate real users
 - Proper usage prevents flaky tests
-
----
-
-## What’s Next?
-
-👉 **Locators – Overview**

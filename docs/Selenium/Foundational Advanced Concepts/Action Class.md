@@ -346,7 +346,6 @@ For hover, drag, modifier keys, and complex gestures.
 | Add delay between actions          | `actions.clickAndHold(src).pause(Duration.ofSeconds(1)).release().perform();`                                      |
 | Mouse + keyboard combo             | `actions.moveToElement(el).click().keyDown(Keys.SHIFT).sendKeys("abc").keyUp(Keys.SHIFT).perform();`               |
 
----
 
 
 

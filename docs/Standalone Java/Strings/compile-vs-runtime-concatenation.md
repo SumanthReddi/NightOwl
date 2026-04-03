@@ -6,7 +6,6 @@ title: Compile-Time vs Runtime Concatenation
 
 In Java, string concatenation can happen at **compile-time** or **runtime** depending on how the strings are created.
 
-------------------------------------------------------------------------
 
 ## Compile-Time Concatenation
 
@@ -21,12 +20,9 @@ string in the String Constant Pool**.
 ``` java
 String s = "Hello" + " " + "World";
 
-System.out.println(s);
+System.out.println(s);  // Hello World
 ```
 
-### Output
-
-    Hello World
 
 ### Explanation
 
@@ -39,7 +35,7 @@ String s = "Hello World";
 So only **one object** is created in the **String Constant Pool**.
 
 ### Memory Representation
-
+```
     String Constant Pool
 
     +--------------+
@@ -47,7 +43,7 @@ So only **one object** is created in the **String Constant Pool**.
     +--------------+
             ↑
             s
-
+```
 ------------------------------------------------------------------------
 
 ## Runtime Concatenation
@@ -66,19 +62,14 @@ String s2 = "World";
 
 String s3 = s1 + " " + s2;
 
-System.out.println(s3);
+System.out.println(s3); // Hello World
 ```
-
-### Output
-
-    Hello World
 
 ### Explanation
 
-Since variables are used, Java performs concatenation at runtime using
-**StringBuilder internally**.
+Since variables are used, Java performs concatenation at runtime using **StringBuilder internally**.
 
-Equivalent behavior:
+#### Equivalent behavior:
 
 ``` java
 StringBuilder sb = new StringBuilder();
@@ -93,13 +84,13 @@ String s3 = sb.toString();
 
 ## Key Differences
 
-  Feature           Compile-Time Concatenation   Runtime Concatenation
-  ----------------- ---------------------------- -----------------------------
-  When it happens   During compilation           During execution
-  Operands          String literals only         Variables or objects
-  Memory            Stored in String Pool        Created in heap
-  Performance       Faster                       Slightly slower
-  Object creation   Usually one object           May create multiple objects
+| Feature | Compile-Time Concatenation | Runtime Concatenation |
+|--------|-----------------------------|-----------------------|
+| When it happens | During compilation | During execution |
+| Operands | String literals only | Variables or objects |
+| Memory | Stored in String Pool | Created in heap |
+| Performance | Faster | Slightly slower |
+| Object creation | Usually one object | May create multiple objects |
 
 ------------------------------------------------------------------------
 
@@ -117,18 +108,11 @@ public class Test {
 
         String s2 = a + b;                    // Runtime
 
-        System.out.println(s1);
-        System.out.println(s2);
-
+        System.out.println(s1); // JavaProgramming
+        System.out.println(s2); // JavaProgramming
     }
-
 }
 ```
-
-### Output
-
-    JavaProgramming
-    JavaProgramming
 
 ------------------------------------------------------------------------
 

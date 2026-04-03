@@ -144,9 +144,3 @@ wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
 - Always validate state before click
 - Synchronization is crucial
 - JS click is a fallback, not default
-
----
-
-## What’s Next?
-
-👉 **Links**

@@ -123,9 +123,3 @@ Understanding architecture helps with:
 - WebDriver is the core interface
 - Browser drivers are mandatory
 - Selenium 4 uses W3C standard
-
----
-
-## What’s Next?
-
-👉 **Selenium Components**

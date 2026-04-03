@@ -151,6 +151,3 @@ Tooltips are often missed in automation but frequently tested in accessibility a
 - Hover-based tooltips need Actions
 - Explicit waits improve stability
 - Content validation is essential
-
- 
-

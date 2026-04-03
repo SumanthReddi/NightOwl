@@ -104,9 +104,3 @@ Selenium Grid allows tests to run on:
 - WebDriver is the core component
 - IDE is for awareness only
 - Grid is for scale and CI/CD
-
----
-
-## What’s Next?
-
-👉 **Java Basics Required for Selenium**

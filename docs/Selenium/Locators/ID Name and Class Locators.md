@@ -95,9 +95,3 @@ Use **only when the class is unique**.
 - Name is a good fallback
 - ClassName should be used carefully
 - Locator choice impacts stability
-
----
-
-## What’s Next?
-
-👉 **LinkText and PartialLinkText**

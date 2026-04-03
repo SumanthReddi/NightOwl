@@ -21,52 +21,44 @@ work differently when comparing **Strings**.
 The `==` operator checks whether two references **point to the same
 object in memory**.
 
-### Example
+#### Example
 
 ``` java
 String s1 = "Java";
 String s2 = "Java";
 
-System.out.println(s1 == s2);
+System.out.println(s1 == s2); // true
 ```
 
-Output
-
-    true
-
-### Explanation
+#### Explanation
 
 Both `s1` and `s2` refer to the **same object in the String Constant
 Pool**.
 
-Memory representation
-
+#### Memory representation
+```
     String Pool
 
     +---------+
     | "Java"  |  ← s1, s2
     +---------+
-
+```
 ------------------------------------------------------------------------
 
 ## Using equals() Method
 
 The `equals()` method compares the **actual content of the strings**.
 
-### Example
+#### Example
 
 ``` java
 String s1 = new String("Java");
 String s2 = new String("Java");
 
-System.out.println(s1.equals(s2));
+System.out.println(s1.equals(s2)); // true
 ```
 
-Output
-
-    true
-
-### Explanation
+#### Explanation
 
 Even though `s1` and `s2` are **different objects**, their **values are
 the same**, so `equals()` returns `true`.
@@ -79,16 +71,11 @@ the same**, so `equals()` returns `true`.
 String s1 = new String("Java");
 String s2 = new String("Java");
 
-System.out.println(s1 == s2);
-System.out.println(s1.equals(s2));
+System.out.println(s1 == s2); // false
+System.out.println(s1.equals(s2)); // true
 ```
 
-Output
-
-    false
-    true
-
-Explanation
+#### Explanation
 
 -   `==` → compares memory addresses
 -   `equals()` → compares actual text
@@ -97,12 +84,12 @@ Explanation
 
 ## Comparison Table
 
-  Feature                   == Operator            equals() Method
-  ------------------------- ---------------------- ------------------
-  Comparison type           Reference comparison   Value comparison
-  Checks                    Memory address         String content
-  Works for objects         Yes                    Yes
-  Recommended for strings   No                     Yes
+| Feature | == Operator | equals() Method |
+|--------|-------------|----------------|
+| Comparison type | Reference comparison | Value comparison |
+| Checks | Memory address | String content |
+| Works for objects | Yes | Yes |
+| Recommended for strings | No | Yes |
 
 ------------------------------------------------------------------------
 

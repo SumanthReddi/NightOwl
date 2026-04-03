@@ -83,9 +83,3 @@ driver.findElement(By.partialLinkText("Forgot"));
 - Text-based locators are readable
 - Fragile if UI text changes
 - Use sparingly in real projects
-
----
-
-## What’s Next?
-
-👉 **XPath – Basics**

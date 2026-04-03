@@ -58,7 +58,7 @@ s1 = s1.concat(" Programming");
 ```
 
 Memory concept:
-
+```
     String Constant Pool
 
     +--------+
@@ -69,7 +69,7 @@ Memory concept:
     +---------------------+
     | "Java Programming"  |
     +---------------------+
-
+```
 The original `"Java"` string **is not modified**.\
 A **new object** `"Java Programming"` is created.
 
@@ -154,11 +154,4 @@ public class Test {
 -   `String` objects in Java are **immutable**.
 -   Any modification creates a **new object**.
 -   Original strings remain unchanged.
--   Benefits include:
-
-```
-    Security
-    Memory optimization (String Pool)
-    Thread safety
-    Performance improvements
-```
+-   Benefits include: Security , Memory optimization (String Pool) , Thread safety & Performance improvements.

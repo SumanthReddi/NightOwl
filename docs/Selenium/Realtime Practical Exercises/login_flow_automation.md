@@ -170,6 +170,3 @@ If login fails, fail fast — do not let downstream tests run.
 - Requires strong waits and locators
 - POM design is mandatory
 - Both success and failure paths must be tested
-
- 
-

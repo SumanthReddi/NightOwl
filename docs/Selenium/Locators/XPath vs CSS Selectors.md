@@ -104,9 +104,3 @@ By.xpath("//label[text()='Email']/following-sibling::input");
 - Choose based on use case
 - Stability and readability matter most
 - Consistency > personal preference
-
----
-
-## What’s Next?
-
-👉 **WebElement Methods**

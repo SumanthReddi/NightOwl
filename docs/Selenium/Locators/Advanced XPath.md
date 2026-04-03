@@ -124,9 +124,3 @@ Axes are powerful for complex DOMs.
 - Advanced XPath handles dynamic elements
 - Axes improve locator stability
 - Simpler XPath is better XPath
-
----
-
-## What’s Next?
-
-👉 **CSS Selectors**

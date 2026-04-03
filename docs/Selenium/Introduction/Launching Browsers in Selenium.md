@@ -103,9 +103,3 @@ Browser options allow:
 - Browser drivers are interchangeable
 - Headless mode is CI-friendly
 - Clean browser setup improves stability
-
----
-
-## What’s Next?
-
-👉 **Navigation Commands**

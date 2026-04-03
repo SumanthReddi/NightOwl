@@ -89,9 +89,3 @@ Password fields behave like normal text boxes.
 
 - Always clear before typing
 - Use getAttribute("value") for validation
-
----
-
-## What’s Next?
-
-👉 **Button**

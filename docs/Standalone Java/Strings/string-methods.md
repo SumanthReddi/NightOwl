@@ -43,13 +43,8 @@ Returns the number of characters in the string.
 ``` java
 String s = "Java";
 
-System.out.println(s.length());
+System.out.println(s.length()); // 4
 ```
-
-Output
-
-    4
-
 ------------------------------------------------------------------------
 
 ## 2. charAt()
@@ -59,12 +54,8 @@ Returns character at a specific index.
 ``` java
 String s = "Java";
 
-System.out.println(s.charAt(2));
+System.out.println(s.charAt(2)); // v
 ```
-
-Output
-
-    v
 
 ------------------------------------------------------------------------
 
@@ -75,12 +66,8 @@ Extracts a portion of the string.
 ``` java
 String s = "Java Programming";
 
-System.out.println(s.substring(5));
+System.out.println(s.substring(5)); // Programming
 ```
-
-Output
-
-    Programming
 
 ------------------------------------------------------------------------
 
@@ -92,12 +79,8 @@ Compares two string values.
 String s1 = "Java";
 String s2 = "Java";
 
-System.out.println(s1.equals(s2));
+System.out.println(s1.equals(s2)); // true
 ```
-
-Output
-
-    true
 
 ------------------------------------------------------------------------
 
@@ -108,12 +91,8 @@ Converts string to uppercase.
 ``` java
 String s = "java";
 
-System.out.println(s.toUpperCase());
+System.out.println(s.toUpperCase()); // JAVA
 ```
-
-Output
-
-    JAVA
 
 ------------------------------------------------------------------------
 
@@ -124,12 +103,8 @@ Converts string to lowercase.
 ``` java
 String s = "JAVA";
 
-System.out.println(s.toLowerCase());
+System.out.println(s.toLowerCase()); // java
 ```
-
-Output
-
-    java
 
 ------------------------------------------------------------------------
 
@@ -140,12 +115,8 @@ Removes leading and trailing spaces.
 ``` java
 String s = "  Java  ";
 
-System.out.println(s.trim());
+System.out.println(s.trim()); // Java
 ```
-
-Output
-
-    Java
 
 ------------------------------------------------------------------------
 
@@ -156,12 +127,8 @@ Checks if substring exists.
 ``` java
 String s = "Java Programming";
 
-System.out.println(s.contains("Java"));
+System.out.println(s.contains("Java")); // true
 ```
-
-Output
-
-    true
 
 ------------------------------------------------------------------------
 
@@ -172,12 +139,8 @@ Replaces characters or substrings.
 ``` java
 String s = "Java";
 
-System.out.println(s.replace('a','o'));
+System.out.println(s.replace('a','o')); // Jovo
 ```
-
-Output
-
-    Jovo
 
 ------------------------------------------------------------------------
 
@@ -189,12 +152,8 @@ Joins two strings.
 String s1 = "Java";
 String s2 = " Programming";
 
-System.out.println(s1.concat(s2));
+System.out.println(s1.concat(s2)); // Java Programming
 ```
-
-Output
-
-    Java Programming
 
 ------------------------------------------------------------------------
 
@@ -205,12 +164,8 @@ Checks starting text.
 ``` java
 String s = "Java Programming";
 
-System.out.println(s.startsWith("Java"));
+System.out.println(s.startsWith("Java")); // true
 ```
-
-Output
-
-    true
 
 ------------------------------------------------------------------------
 
@@ -221,12 +176,8 @@ Checks ending text.
 ``` java
 String s = "Java Programming";
 
-System.out.println(s.endsWith("Programming"));
+System.out.println(s.endsWith("Programming")); // true
 ```
-
-Output
-
-    true
 
 ------------------------------------------------------------------------
 
@@ -237,12 +188,8 @@ Returns index of first occurrence.
 ``` java
 String s = "Java Programming";
 
-System.out.println(s.indexOf("a"));
+System.out.println(s.indexOf("a")); // 1
 ```
-
-Output
-
-    1
 
 ------------------------------------------------------------------------
 
@@ -256,17 +203,9 @@ String s = "Java Python C++";
 String[] arr = s.split(" ");
 
 for(String str : arr){
-    System.out.println(str);
+    System.out.println(str); // Java  Python  C++
 }
 ```
-
-Output
-
-    Java
-
-    Python
-    
-    C++
 
 ------------------------------------------------------------------------
 
