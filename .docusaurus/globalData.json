@@ -226,138 +226,123 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Background Keyword",
-              "path": "/docs/Cucumber/Background Keyword",
+              "id": "Cucumber/Core Mechanics/Data Tables and Examples",
+              "path": "/docs/Cucumber/Core Mechanics/Data Tables and Examples",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Common Cucumber Framework Anti Patterns",
-              "path": "/docs/Cucumber/Common Cucumber Framework Anti Patterns",
+              "id": "Cucumber/Core Mechanics/Hooks Before After and Best Practices",
+              "path": "/docs/Cucumber/Core Mechanics/Hooks Before After and Best Practices",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Cucumber Architecture Overview",
-              "path": "/docs/Cucumber/Cucumber Architecture Overview",
+              "id": "Cucumber/Core Mechanics/Parameterization and Data Mapping in Step Definitions",
+              "path": "/docs/Cucumber/Core Mechanics/Parameterization and Data Mapping in Step Definitions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Cucumber Expressions vs Regular Expressions",
-              "path": "/docs/Cucumber/Cucumber Expressions vs Regular Expressions",
+              "id": "Cucumber/Core Mechanics/Shared State and Scenario Context",
+              "path": "/docs/Cucumber/Core Mechanics/Shared State and Scenario Context",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Cucumber in CI CD Pipelines",
-              "path": "/docs/Cucumber/Cucumber in CI CD Pipelines",
+              "id": "Cucumber/Core Mechanics/Step Definition Basics",
+              "path": "/docs/Cucumber/Core Mechanics/Step Definition Basics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Cucumber with API Automation Rest Assured Patterns",
-              "path": "/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns",
+              "id": "Cucumber/Core Mechanics/Tags and Tag Expressions",
+              "path": "/docs/Cucumber/Core Mechanics/Tags and Tag Expressions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Cucumber with Selenium UI Automation Patterns",
-              "path": "/docs/Cucumber/Cucumber with Selenium UI Automation Patterns",
+              "id": "Cucumber/Execution & Integration/Cucumber with API Automation Rest Assured Patterns",
+              "path": "/docs/Cucumber/Execution & Integration/Cucumber with API Automation Rest Assured Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Cucumber with TestNG Integration",
-              "path": "/docs/Cucumber/Cucumber with TestNG Integration",
+              "id": "Cucumber/Execution & Integration/Cucumber with Selenium UI Automation Patterns",
+              "path": "/docs/Cucumber/Execution & Integration/Cucumber with Selenium UI Automation Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Data Tables and Examples",
-              "path": "/docs/Cucumber/Data Tables and Examples",
+              "id": "Cucumber/Execution & Integration/Cucumber with TestNG Integration",
+              "path": "/docs/Cucumber/Execution & Integration/Cucumber with TestNG Integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Dry Run and Undefined Steps",
-              "path": "/docs/Cucumber/Dry Run and Undefined Steps",
+              "id": "Cucumber/Execution & Integration/cucumber-across-languages",
+              "path": "/docs/Cucumber/Execution & Integration/cucumber-across-languages",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Error Handling Retries and Flaky Test Control",
-              "path": "/docs/Cucumber/Error Handling Retries and Flaky Test Control",
+              "id": "Cucumber/Execution & Integration/debugging-cucumber-tests",
+              "path": "/docs/Cucumber/Execution & Integration/debugging-cucumber-tests",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Feature File Design from User Stories",
-              "path": "/docs/Cucumber/Feature File Design from User Stories",
+              "id": "Cucumber/Execution & Integration/Parallel Execution in Cucumber",
+              "path": "/docs/Cucumber/Execution & Integration/Parallel Execution in Cucumber",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Gherkin Language Basics",
-              "path": "/docs/Cucumber/Gherkin Language Basics",
+              "id": "Cucumber/Execution & Integration/Runner Class and Cucumber Options",
+              "path": "/docs/Cucumber/Execution & Integration/Runner Class and Cucumber Options",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Glue Code and Package Structure",
-              "path": "/docs/Cucumber/Glue Code and Package Structure",
+              "id": "Cucumber/Foundations/from-user-stories-to-feature-files",
+              "path": "/docs/Cucumber/Foundations/from-user-stories-to-feature-files",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Hooks Before After and Best Practices",
-              "path": "/docs/Cucumber/Hooks Before After and Best Practices",
+              "id": "Cucumber/Foundations/Gherkin Language Basics",
+              "path": "/docs/Cucumber/Foundations/Gherkin Language Basics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Interview Questions and Scenarios",
-              "path": "/docs/Cucumber/Interview Questions and Scenarios",
+              "id": "Cucumber/Foundations/Introduction",
+              "path": "/docs/Cucumber/Foundations/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Introduction",
-              "path": "/docs/Cucumber/Introduction",
+              "id": "Cucumber/Foundations/What is BDD",
+              "path": "/docs/Cucumber/Foundations/What is BDD",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Parallel Execution in Cucumber",
-              "path": "/docs/Cucumber/Parallel Execution in Cucumber",
+              "id": "Cucumber/Foundations/Writing Good Gherkin Scenarios",
+              "path": "/docs/Cucumber/Foundations/Writing Good Gherkin Scenarios",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Parameterization and Data Mapping in Step Definitions",
-              "path": "/docs/Cucumber/Parameterization and Data Mapping in Step Definitions",
+              "id": "Cucumber/Operational Excellence/Common Cucumber Framework Anti Patterns",
+              "path": "/docs/Cucumber/Operational Excellence/Common Cucumber Framework Anti Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Reporting and Plugins",
-              "path": "/docs/Cucumber/Reporting and Plugins",
+              "id": "Cucumber/Operational Excellence/Cucumber Architecture Overview",
+              "path": "/docs/Cucumber/Operational Excellence/Cucumber Architecture Overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Runner Class and Cucumber Options",
-              "path": "/docs/Cucumber/Runner Class and Cucumber Options",
+              "id": "Cucumber/Operational Excellence/Cucumber in CI CD Pipelines",
+              "path": "/docs/Cucumber/Operational Excellence/Cucumber in CI CD Pipelines",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Scenario vs Scenario Outline",
-              "path": "/docs/Cucumber/Scenario vs Scenario Outline",
+              "id": "Cucumber/Operational Excellence/Error Handling Retries and Flaky Test Control",
+              "path": "/docs/Cucumber/Operational Excellence/Error Handling Retries and Flaky Test Control",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Shared State and Scenario Context",
-              "path": "/docs/Cucumber/Shared State and Scenario Context",
+              "id": "Cucumber/Operational Excellence/handling-secrets-sensitive-data",
+              "path": "/docs/Cucumber/Operational Excellence/handling-secrets-sensitive-data",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Cucumber/Step Definition Basics",
-              "path": "/docs/Cucumber/Step Definition Basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Cucumber/Tags and Tag Expressions",
-              "path": "/docs/Cucumber/Tags and Tag Expressions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Cucumber/What is BDD",
-              "path": "/docs/Cucumber/What is BDD",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Cucumber/Writing Good Gherkin Scenarios",
-              "path": "/docs/Cucumber/Writing Good Gherkin Scenarios",
+              "id": "Cucumber/Operational Excellence/Reporting and Plugins",
+              "path": "/docs/Cucumber/Operational Excellence/Reporting and Plugins",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2983,6 +2968,26 @@
             {
               "id": "/category/cucumber",
               "path": "/docs/category/cucumber",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/foundations-1",
+              "path": "/docs/category/foundations-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/core-mechanics",
+              "path": "/docs/category/core-mechanics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/execution--integration",
+              "path": "/docs/category/execution--integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/operational-excellence",
+              "path": "/docs/category/operational-excellence",
               "sidebar": "tutorialSidebar"
             },
             {

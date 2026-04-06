@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-e2b": {
+  "/docs-dc9": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-c6d": {
+  "/docs-e1d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-6b5": {
+  "/docs-dcb": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -506,6 +506,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-core-interfacese-6-d-64a"
   },
+  "/docs/category/core-mechanics-151": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-core-mechanics-603-b29"
+  },
   "/docs/category/credentials--secrets-management-cc2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-credentials-secrets-management-640-f47"
@@ -538,6 +542,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-executionc-63-d6c"
   },
+  "/docs/category/execution--integration-f84": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-execution-integration-1-c-0-474"
+  },
   "/docs/category/execution-and-advanced-concepts-274": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-execution-and-advanced-concepts-2-e-3-e1a"
@@ -565,6 +573,10 @@
   "/docs/category/foundations-e2e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-foundationsd-46-18c"
+  },
+  "/docs/category/foundations-1-700": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-foundations-1-a-22-1ba"
   },
   "/docs/category/framework-design-170": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -690,6 +702,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-oops-4-f-9-864"
   },
+  "/docs/category/operational-excellence-05b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-operational-excellencea-38-55a"
+  },
   "/docs/category/pipeline-internals-d72": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-pipeline-internalsba-3-376"
@@ -782,113 +798,101 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-congratulations-3-ad-b1a"
   },
-  "/docs/Cucumber/Background Keyword-3e3": {
+  "/docs/Cucumber/Core Mechanics/Data Tables and Examples-93e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-background-keyword-20-d-841"
+    "content": "content---docs-cucumber-core-mechanics-data-tables-and-examples-07-d-5a3"
   },
-  "/docs/Cucumber/Common Cucumber Framework Anti Patterns-370": {
+  "/docs/Cucumber/Core Mechanics/Hooks Before After and Best Practices-149": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-common-cucumber-framework-anti-patterns-9-cd-e14"
+    "content": "content---docs-cucumber-core-mechanics-hooks-before-after-and-best-practicesb-14-9ca"
   },
-  "/docs/Cucumber/Cucumber Architecture Overview-225": {
+  "/docs/Cucumber/Core Mechanics/Parameterization and Data Mapping in Step Definitions-1f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-architecture-overview-12-b-1aa"
+    "content": "content---docs-cucumber-core-mechanics-parameterization-and-data-mapping-in-step-definitions-3-a-7-092"
   },
-  "/docs/Cucumber/Cucumber Expressions vs Regular Expressions-a9a": {
+  "/docs/Cucumber/Core Mechanics/Shared State and Scenario Context-6f1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-expressions-vs-regular-expressionsfe-6-54a"
+    "content": "content---docs-cucumber-core-mechanics-shared-state-and-scenario-context-6-b-6-d64"
   },
-  "/docs/Cucumber/Cucumber in CI CD Pipelines-d8c": {
+  "/docs/Cucumber/Core Mechanics/Step Definition Basics-6e0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-in-ci-cd-pipelines-0-b-9-5ad"
+    "content": "content---docs-cucumber-core-mechanics-step-definition-basics-94-e-a8d"
   },
-  "/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns-bb3": {
+  "/docs/Cucumber/Core Mechanics/Tags and Tag Expressions-b1b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-with-api-automation-rest-assured-patterns-608-d1b"
+    "content": "content---docs-cucumber-core-mechanics-tags-and-tag-expressions-355-9c3"
   },
-  "/docs/Cucumber/Cucumber with Selenium UI Automation Patterns-a57": {
+  "/docs/Cucumber/Execution & Integration/Cucumber with API Automation Rest Assured Patterns-559": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-with-selenium-ui-automation-patternsd-4-d-4f8"
+    "content": "content---docs-cucumber-execution-integration-cucumber-with-api-automation-rest-assured-patterns-340-137"
   },
-  "/docs/Cucumber/Cucumber with TestNG Integration-0de": {
+  "/docs/Cucumber/Execution & Integration/Cucumber with Selenium UI Automation Patterns-41f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-cucumber-with-test-ng-integration-55-b-98c"
+    "content": "content---docs-cucumber-execution-integration-cucumber-with-selenium-ui-automation-patterns-804-cfe"
   },
-  "/docs/Cucumber/Data Tables and Examples-0e2": {
+  "/docs/Cucumber/Execution & Integration/Cucumber with TestNG Integration-219": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-data-tables-and-examplesd-00-d39"
+    "content": "content---docs-cucumber-execution-integration-cucumber-with-test-ng-integrationac-6-aed"
   },
-  "/docs/Cucumber/Dry Run and Undefined Steps-c3b": {
+  "/docs/Cucumber/Execution & Integration/cucumber-across-languages-6a9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-dry-run-and-undefined-steps-82-f-ca8"
+    "content": "content---docs-cucumber-execution-integration-cucumber-across-languages-063-21c"
   },
-  "/docs/Cucumber/Error Handling Retries and Flaky Test Control-241": {
+  "/docs/Cucumber/Execution & Integration/debugging-cucumber-tests-38c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-error-handling-retries-and-flaky-test-control-041-f97"
+    "content": "content---docs-cucumber-execution-integration-debugging-cucumber-testsd-6-f-6cf"
   },
-  "/docs/Cucumber/Feature File Design from User Stories-767": {
+  "/docs/Cucumber/Execution & Integration/Parallel Execution in Cucumber-95d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-feature-file-design-from-user-stories-38-f-ae4"
+    "content": "content---docs-cucumber-execution-integration-parallel-execution-in-cucumber-0-e-2-e0e"
   },
-  "/docs/Cucumber/Gherkin Language Basics-9ff": {
+  "/docs/Cucumber/Execution & Integration/Runner Class and Cucumber Options-afc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-gherkin-language-basics-04-a-32c"
+    "content": "content---docs-cucumber-execution-integration-runner-class-and-cucumber-options-6-af-4c9"
   },
-  "/docs/Cucumber/Glue Code and Package Structure-0e9": {
+  "/docs/Cucumber/Foundations/from-user-stories-to-feature-files-82f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-glue-code-and-package-structure-7-e-6-e2d"
+    "content": "content---docs-cucumber-foundations-from-user-stories-to-feature-files-059-dc7"
   },
-  "/docs/Cucumber/Hooks Before After and Best Practices-560": {
+  "/docs/Cucumber/Foundations/Gherkin Language Basics-4bd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-hooks-before-after-and-best-practices-783-30c"
+    "content": "content---docs-cucumber-foundations-gherkin-language-basicsa-62-745"
   },
-  "/docs/Cucumber/Interview Questions and Scenarios-c48": {
+  "/docs/Cucumber/Foundations/Introduction-832": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-interview-questions-and-scenariosf-2-d-424"
+    "content": "content---docs-cucumber-foundations-introductiona-23-61a"
   },
-  "/docs/Cucumber/Introduction-7a5": {
+  "/docs/Cucumber/Foundations/What is BDD-2b4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-introduction-66-a-cf0"
+    "content": "content---docs-cucumber-foundations-what-is-bdd-5-c-7-f19"
   },
-  "/docs/Cucumber/Parallel Execution in Cucumber-1cd": {
+  "/docs/Cucumber/Foundations/Writing Good Gherkin Scenarios-165": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-parallel-execution-in-cucumber-245-7b3"
+    "content": "content---docs-cucumber-foundations-writing-good-gherkin-scenarios-4-e-1-0b6"
   },
-  "/docs/Cucumber/Parameterization and Data Mapping in Step Definitions-4b6": {
+  "/docs/Cucumber/Operational Excellence/Common Cucumber Framework Anti Patterns-e5e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-parameterization-and-data-mapping-in-step-definitions-807-f8b"
+    "content": "content---docs-cucumber-operational-excellence-common-cucumber-framework-anti-patterns-0-a-6-6de"
   },
-  "/docs/Cucumber/Reporting and Plugins-787": {
+  "/docs/Cucumber/Operational Excellence/Cucumber Architecture Overview-719": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-reporting-and-pluginsc-47-16d"
+    "content": "content---docs-cucumber-operational-excellence-cucumber-architecture-overview-79-e-bda"
   },
-  "/docs/Cucumber/Runner Class and Cucumber Options-72a": {
+  "/docs/Cucumber/Operational Excellence/Cucumber in CI CD Pipelines-acb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-runner-class-and-cucumber-options-17-a-1f6"
+    "content": "content---docs-cucumber-operational-excellence-cucumber-in-ci-cd-pipelines-711-07d"
   },
-  "/docs/Cucumber/Scenario vs Scenario Outline-18e": {
+  "/docs/Cucumber/Operational Excellence/Error Handling Retries and Flaky Test Control-1e8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-scenario-vs-scenario-outline-367-27c"
+    "content": "content---docs-cucumber-operational-excellence-error-handling-retries-and-flaky-test-control-7-e-9-c1f"
   },
-  "/docs/Cucumber/Shared State and Scenario Context-7f1": {
+  "/docs/Cucumber/Operational Excellence/handling-secrets-sensitive-data-98e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-shared-state-and-scenario-contextee-0-4f3"
+    "content": "content---docs-cucumber-operational-excellence-handling-secrets-sensitive-data-56-e-6d1"
   },
-  "/docs/Cucumber/Step Definition Basics-67c": {
+  "/docs/Cucumber/Operational Excellence/Reporting and Plugins-ff0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-step-definition-basicsb-5-a-1a9"
-  },
-  "/docs/Cucumber/Tags and Tag Expressions-e20": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-tags-and-tag-expressions-627-380"
-  },
-  "/docs/Cucumber/What is BDD-72b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-what-is-bdd-053-479"
-  },
-  "/docs/Cucumber/Writing Good Gherkin Scenarios-24c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cucumber-writing-good-gherkin-scenarios-6-e-0-ca6"
+    "content": "content---docs-cucumber-operational-excellence-reporting-and-pluginsd-80-d33"
   },
   "/docs/Database/Aggregations-bbd": {
     "__comp": "__comp---theme-doc-item-178-a40",

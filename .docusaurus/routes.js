@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e2b'),
+    component: ComponentCreator('/docs', 'dc9'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c6d'),
+        component: ComponentCreator('/docs', 'e1d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '6b5'),
+            component: ComponentCreator('/docs', 'dcb'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -491,6 +491,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/core-mechanics',
+                component: ComponentCreator('/docs/category/core-mechanics', '151'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/credentials--secrets-management',
                 component: ComponentCreator('/docs/category/credentials--secrets-management', 'cc2'),
                 exact: true,
@@ -539,6 +545,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/execution--integration',
+                component: ComponentCreator('/docs/category/execution--integration', 'f84'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/execution-and-advanced-concepts',
                 component: ComponentCreator('/docs/category/execution-and-advanced-concepts', '274'),
                 exact: true,
@@ -577,6 +589,12 @@ export default [
               {
                 path: '/docs/category/foundations',
                 component: ComponentCreator('/docs/category/foundations', 'e2e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/foundations-1',
+                component: ComponentCreator('/docs/category/foundations-1', '700'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -767,6 +785,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/operational-excellence',
+                component: ComponentCreator('/docs/category/operational-excellence', '05b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/pipeline-internals',
                 component: ComponentCreator('/docs/category/pipeline-internals', 'd72'),
                 exact: true,
@@ -905,164 +929,146 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Background Keyword',
-                component: ComponentCreator('/docs/Cucumber/Background Keyword', '3e3'),
+                path: '/docs/Cucumber/Core Mechanics/Data Tables and Examples',
+                component: ComponentCreator('/docs/Cucumber/Core Mechanics/Data Tables and Examples', '93e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Common Cucumber Framework Anti Patterns',
-                component: ComponentCreator('/docs/Cucumber/Common Cucumber Framework Anti Patterns', '370'),
+                path: '/docs/Cucumber/Core Mechanics/Hooks Before After and Best Practices',
+                component: ComponentCreator('/docs/Cucumber/Core Mechanics/Hooks Before After and Best Practices', '149'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Cucumber Architecture Overview',
-                component: ComponentCreator('/docs/Cucumber/Cucumber Architecture Overview', '225'),
+                path: '/docs/Cucumber/Core Mechanics/Parameterization and Data Mapping in Step Definitions',
+                component: ComponentCreator('/docs/Cucumber/Core Mechanics/Parameterization and Data Mapping in Step Definitions', '1f0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Cucumber Expressions vs Regular Expressions',
-                component: ComponentCreator('/docs/Cucumber/Cucumber Expressions vs Regular Expressions', 'a9a'),
+                path: '/docs/Cucumber/Core Mechanics/Shared State and Scenario Context',
+                component: ComponentCreator('/docs/Cucumber/Core Mechanics/Shared State and Scenario Context', '6f1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Cucumber in CI CD Pipelines',
-                component: ComponentCreator('/docs/Cucumber/Cucumber in CI CD Pipelines', 'd8c'),
+                path: '/docs/Cucumber/Core Mechanics/Step Definition Basics',
+                component: ComponentCreator('/docs/Cucumber/Core Mechanics/Step Definition Basics', '6e0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns',
-                component: ComponentCreator('/docs/Cucumber/Cucumber with API Automation Rest Assured Patterns', 'bb3'),
+                path: '/docs/Cucumber/Core Mechanics/Tags and Tag Expressions',
+                component: ComponentCreator('/docs/Cucumber/Core Mechanics/Tags and Tag Expressions', 'b1b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Cucumber with Selenium UI Automation Patterns',
-                component: ComponentCreator('/docs/Cucumber/Cucumber with Selenium UI Automation Patterns', 'a57'),
+                path: '/docs/Cucumber/Execution & Integration/Cucumber with API Automation Rest Assured Patterns',
+                component: ComponentCreator('/docs/Cucumber/Execution & Integration/Cucumber with API Automation Rest Assured Patterns', '559'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Cucumber with TestNG Integration',
-                component: ComponentCreator('/docs/Cucumber/Cucumber with TestNG Integration', '0de'),
+                path: '/docs/Cucumber/Execution & Integration/Cucumber with Selenium UI Automation Patterns',
+                component: ComponentCreator('/docs/Cucumber/Execution & Integration/Cucumber with Selenium UI Automation Patterns', '41f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Data Tables and Examples',
-                component: ComponentCreator('/docs/Cucumber/Data Tables and Examples', '0e2'),
+                path: '/docs/Cucumber/Execution & Integration/Cucumber with TestNG Integration',
+                component: ComponentCreator('/docs/Cucumber/Execution & Integration/Cucumber with TestNG Integration', '219'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Dry Run and Undefined Steps',
-                component: ComponentCreator('/docs/Cucumber/Dry Run and Undefined Steps', 'c3b'),
+                path: '/docs/Cucumber/Execution & Integration/cucumber-across-languages',
+                component: ComponentCreator('/docs/Cucumber/Execution & Integration/cucumber-across-languages', '6a9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Error Handling Retries and Flaky Test Control',
-                component: ComponentCreator('/docs/Cucumber/Error Handling Retries and Flaky Test Control', '241'),
+                path: '/docs/Cucumber/Execution & Integration/debugging-cucumber-tests',
+                component: ComponentCreator('/docs/Cucumber/Execution & Integration/debugging-cucumber-tests', '38c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Feature File Design from User Stories',
-                component: ComponentCreator('/docs/Cucumber/Feature File Design from User Stories', '767'),
+                path: '/docs/Cucumber/Execution & Integration/Parallel Execution in Cucumber',
+                component: ComponentCreator('/docs/Cucumber/Execution & Integration/Parallel Execution in Cucumber', '95d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Gherkin Language Basics',
-                component: ComponentCreator('/docs/Cucumber/Gherkin Language Basics', '9ff'),
+                path: '/docs/Cucumber/Execution & Integration/Runner Class and Cucumber Options',
+                component: ComponentCreator('/docs/Cucumber/Execution & Integration/Runner Class and Cucumber Options', 'afc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Glue Code and Package Structure',
-                component: ComponentCreator('/docs/Cucumber/Glue Code and Package Structure', '0e9'),
+                path: '/docs/Cucumber/Foundations/from-user-stories-to-feature-files',
+                component: ComponentCreator('/docs/Cucumber/Foundations/from-user-stories-to-feature-files', '82f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Hooks Before After and Best Practices',
-                component: ComponentCreator('/docs/Cucumber/Hooks Before After and Best Practices', '560'),
+                path: '/docs/Cucumber/Foundations/Gherkin Language Basics',
+                component: ComponentCreator('/docs/Cucumber/Foundations/Gherkin Language Basics', '4bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Interview Questions and Scenarios',
-                component: ComponentCreator('/docs/Cucumber/Interview Questions and Scenarios', 'c48'),
+                path: '/docs/Cucumber/Foundations/Introduction',
+                component: ComponentCreator('/docs/Cucumber/Foundations/Introduction', '832'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Introduction',
-                component: ComponentCreator('/docs/Cucumber/Introduction', '7a5'),
+                path: '/docs/Cucumber/Foundations/What is BDD',
+                component: ComponentCreator('/docs/Cucumber/Foundations/What is BDD', '2b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Parallel Execution in Cucumber',
-                component: ComponentCreator('/docs/Cucumber/Parallel Execution in Cucumber', '1cd'),
+                path: '/docs/Cucumber/Foundations/Writing Good Gherkin Scenarios',
+                component: ComponentCreator('/docs/Cucumber/Foundations/Writing Good Gherkin Scenarios', '165'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Parameterization and Data Mapping in Step Definitions',
-                component: ComponentCreator('/docs/Cucumber/Parameterization and Data Mapping in Step Definitions', '4b6'),
+                path: '/docs/Cucumber/Operational Excellence/Common Cucumber Framework Anti Patterns',
+                component: ComponentCreator('/docs/Cucumber/Operational Excellence/Common Cucumber Framework Anti Patterns', 'e5e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Reporting and Plugins',
-                component: ComponentCreator('/docs/Cucumber/Reporting and Plugins', '787'),
+                path: '/docs/Cucumber/Operational Excellence/Cucumber Architecture Overview',
+                component: ComponentCreator('/docs/Cucumber/Operational Excellence/Cucumber Architecture Overview', '719'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Runner Class and Cucumber Options',
-                component: ComponentCreator('/docs/Cucumber/Runner Class and Cucumber Options', '72a'),
+                path: '/docs/Cucumber/Operational Excellence/Cucumber in CI CD Pipelines',
+                component: ComponentCreator('/docs/Cucumber/Operational Excellence/Cucumber in CI CD Pipelines', 'acb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Scenario vs Scenario Outline',
-                component: ComponentCreator('/docs/Cucumber/Scenario vs Scenario Outline', '18e'),
+                path: '/docs/Cucumber/Operational Excellence/Error Handling Retries and Flaky Test Control',
+                component: ComponentCreator('/docs/Cucumber/Operational Excellence/Error Handling Retries and Flaky Test Control', '1e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Shared State and Scenario Context',
-                component: ComponentCreator('/docs/Cucumber/Shared State and Scenario Context', '7f1'),
+                path: '/docs/Cucumber/Operational Excellence/handling-secrets-sensitive-data',
+                component: ComponentCreator('/docs/Cucumber/Operational Excellence/handling-secrets-sensitive-data', '98e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Cucumber/Step Definition Basics',
-                component: ComponentCreator('/docs/Cucumber/Step Definition Basics', '67c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Cucumber/Tags and Tag Expressions',
-                component: ComponentCreator('/docs/Cucumber/Tags and Tag Expressions', 'e20'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Cucumber/What is BDD',
-                component: ComponentCreator('/docs/Cucumber/What is BDD', '72b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Cucumber/Writing Good Gherkin Scenarios',
-                component: ComponentCreator('/docs/Cucumber/Writing Good Gherkin Scenarios', '24c'),
+                path: '/docs/Cucumber/Operational Excellence/Reporting and Plugins',
+                component: ComponentCreator('/docs/Cucumber/Operational Excellence/Reporting and Plugins', 'ff0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

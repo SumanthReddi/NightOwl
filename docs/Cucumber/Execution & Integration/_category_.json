@@ -1,0 +1,8 @@
+  {
+    "label": "Execution & Integration",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Cucumber BDD concepts with Gherkin scenarios and automation best practices."
+    }
+  }
