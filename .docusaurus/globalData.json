@@ -1106,108 +1106,88 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Agile Testing Basics",
-              "path": "/docs/Manual Testing/Agile Testing Basics",
+              "id": "Manual Testing/Advanced/Advanced Testing Techniques",
+              "path": "/docs/Manual Testing/Advanced/Advanced Testing Techniques",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Defect Life Cycle",
-              "path": "/docs/Manual Testing/Defect Life Cycle",
+              "id": "Manual Testing/Advanced/Best Practices",
+              "path": "/docs/Manual Testing/Advanced/Best Practices",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Functional Testing Types",
-              "path": "/docs/Manual Testing/Functional Testing Types",
+              "id": "Manual Testing/Advanced/Manual Testing Interview Questions",
+              "path": "/docs/Manual Testing/Advanced/Manual Testing Interview Questions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Introduction to Software Testing",
-              "path": "/docs/Manual Testing/Introduction to Software Testing",
+              "id": "Manual Testing/Advanced/Tools for Manual Testing",
+              "path": "/docs/Manual Testing/Advanced/Tools for Manual Testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Levels of Testing",
-              "path": "/docs/Manual Testing/Levels of Testing",
+              "id": "Manual Testing/Advanced/Transition to Automation Testing",
+              "path": "/docs/Manual Testing/Advanced/Transition to Automation Testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Manual Testing in Real Projects",
-              "path": "/docs/Manual Testing/Manual Testing in Real Projects",
+              "id": "Manual Testing/Essentials/defect-management",
+              "path": "/docs/Manual Testing/Essentials/defect-management",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Manual Testing Interview Questions",
-              "path": "/docs/Manual Testing/Manual Testing Interview Questions",
+              "id": "Manual Testing/Essentials/Introduction to Software Testing",
+              "path": "/docs/Manual Testing/Essentials/Introduction to Software Testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Manual Testing vs Automation Testing",
-              "path": "/docs/Manual Testing/Manual Testing vs Automation Testing",
+              "id": "Manual Testing/Essentials/Manual Testing Types",
+              "path": "/docs/Manual Testing/Essentials/Manual Testing Types",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Non Functional Testing",
-              "path": "/docs/Manual Testing/Non Functional Testing",
+              "id": "Manual Testing/Essentials/SDLC Software Development Life Cycle",
+              "path": "/docs/Manual Testing/Essentials/SDLC Software Development Life Cycle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Requirement Analysis for Testers",
-              "path": "/docs/Manual Testing/Requirement Analysis for Testers",
+              "id": "Manual Testing/Essentials/Severity vs Priority",
+              "path": "/docs/Manual Testing/Essentials/Severity vs Priority",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Risk Based Testing",
-              "path": "/docs/Manual Testing/Risk Based Testing",
+              "id": "Manual Testing/Essentials/STLC Software Testing Life Cycle",
+              "path": "/docs/Manual Testing/Essentials/STLC Software Testing Life Cycle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/SDLC Software Development Life Cycle",
-              "path": "/docs/Manual Testing/SDLC Software Development Life Cycle",
+              "id": "Manual Testing/Essentials/test-case-design",
+              "path": "/docs/Manual Testing/Essentials/test-case-design",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Severity vs Priority",
-              "path": "/docs/Manual Testing/Severity vs Priority",
+              "id": "Manual Testing/Intermediate/Cross Browser Testing",
+              "path": "/docs/Manual Testing/Intermediate/Cross Browser Testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/STLC Software Testing Life Cycle",
-              "path": "/docs/Manual Testing/STLC Software Testing Life Cycle",
+              "id": "Manual Testing/Intermediate/Exploratory Testing",
+              "path": "/docs/Manual Testing/Intermediate/Exploratory Testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Test Case Design Techniques",
-              "path": "/docs/Manual Testing/Test Case Design Techniques",
+              "id": "Manual Testing/Intermediate/regression-testing",
+              "path": "/docs/Manual Testing/Intermediate/regression-testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Test Data and Test Environment",
-              "path": "/docs/Manual Testing/Test Data and Test Environment",
+              "id": "Manual Testing/Intermediate/testing-techniques",
+              "path": "/docs/Manual Testing/Intermediate/testing-techniques",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Test Execution and Reporting",
-              "path": "/docs/Manual Testing/Test Execution and Reporting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Manual Testing/Test Scenarios",
-              "path": "/docs/Manual Testing/Test Scenarios",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Manual Testing/Test Strategy vs Test Plan",
-              "path": "/docs/Manual Testing/Test Strategy vs Test Plan",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Manual Testing/Types of Testing",
-              "path": "/docs/Manual Testing/Types of Testing",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Manual Testing/UAT and Production Testing",
-              "path": "/docs/Manual Testing/UAT and Production Testing",
+              "id": "Manual Testing/Intermediate/usability-and-user-experience-testing",
+              "path": "/docs/Manual Testing/Intermediate/usability-and-user-experience-testing",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2701,6 +2681,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/essentials",
+              "path": "/docs/category/essentials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/intermediate",
+              "path": "/docs/category/intermediate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/advanced",
+              "path": "/docs/category/advanced",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/database",
               "path": "/docs/category/database",
               "sidebar": "tutorialSidebar"
@@ -2926,8 +2921,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/advanced",
-              "path": "/docs/category/advanced",
+              "id": "/category/advanced-1",
+              "path": "/docs/category/advanced-1",
               "sidebar": "tutorialSidebar"
             },
             {

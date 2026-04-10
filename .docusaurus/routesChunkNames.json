@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-dc9": {
+  "/docs-3da": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-e1d": {
+  "/docs-874": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-dcb": {
+  "/docs-82a": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -434,6 +434,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-advanced-638-f56"
   },
+  "/docs/category/advanced-1-b98": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-advanced-1-fd-9-eca"
+  },
   "/docs/category/advanced-concepts-be2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-advanced-concepts-9-ab-2f8"
@@ -534,6 +538,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-environment-data-230-682"
   },
+  "/docs/category/essentials-bbd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-essentialsa-3-d-ea6"
+  },
   "/docs/category/exception-handling-960": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-exception-handling-7-a-1-5db"
@@ -609,6 +617,10 @@
   "/docs/category/integration-validation-397": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-integration-validation-5-d-5-259"
+  },
+  "/docs/category/intermediate-d33": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-intermediate-72-b-1b6"
   },
   "/docs/category/interview--real-world-scenarios-e4a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1502,89 +1514,73 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-jenkins-shared-libraries-vars-reusable-stepsb-66-bcc"
   },
-  "/docs/Manual Testing/Agile Testing Basics-d45": {
+  "/docs/Manual Testing/Advanced/Advanced Testing Techniques-243": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-agile-testing-basics-156-3dd"
+    "content": "content---docs-manual-testing-advanced-advanced-testing-techniques-16-f-01e"
   },
-  "/docs/Manual Testing/Defect Life Cycle-74c": {
+  "/docs/Manual Testing/Advanced/Best Practices-288": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-defect-life-cycle-77-f-22a"
+    "content": "content---docs-manual-testing-advanced-best-practices-008-920"
   },
-  "/docs/Manual Testing/Functional Testing Types-e24": {
+  "/docs/Manual Testing/Advanced/Manual Testing Interview Questions-02c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-functional-testing-typesd-49-01e"
+    "content": "content---docs-manual-testing-advanced-manual-testing-interview-questions-162-d8e"
   },
-  "/docs/Manual Testing/Introduction to Software Testing-6e3": {
+  "/docs/Manual Testing/Advanced/Tools for Manual Testing-ed4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-introduction-to-software-testing-6-bf-456"
+    "content": "content---docs-manual-testing-advanced-tools-for-manual-testing-207-501"
   },
-  "/docs/Manual Testing/Levels of Testing-c23": {
+  "/docs/Manual Testing/Advanced/Transition to Automation Testing-1e1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-levels-of-testing-2-fb-f77"
+    "content": "content---docs-manual-testing-advanced-transition-to-automation-testing-348-9c7"
   },
-  "/docs/Manual Testing/Manual Testing in Real Projects-1e8": {
+  "/docs/Manual Testing/Essentials/defect-management-e40": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-manual-testing-in-real-projects-13-c-caa"
+    "content": "content---docs-manual-testing-essentials-defect-managementfeb-604"
   },
-  "/docs/Manual Testing/Manual Testing Interview Questions-347": {
+  "/docs/Manual Testing/Essentials/Introduction to Software Testing-937": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-manual-testing-interview-questions-389-480"
+    "content": "content---docs-manual-testing-essentials-introduction-to-software-testing-004-4cf"
   },
-  "/docs/Manual Testing/Manual Testing vs Automation Testing-968": {
+  "/docs/Manual Testing/Essentials/Manual Testing Types-731": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-manual-testing-vs-automation-testing-90-a-072"
+    "content": "content---docs-manual-testing-essentials-manual-testing-types-4-ae-dd6"
   },
-  "/docs/Manual Testing/Non Functional Testing-946": {
+  "/docs/Manual Testing/Essentials/SDLC Software Development Life Cycle-efe": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-non-functional-testing-028-6b2"
+    "content": "content---docs-manual-testing-essentials-sdlc-software-development-life-cycle-14-c-29a"
   },
-  "/docs/Manual Testing/Requirement Analysis for Testers-d8c": {
+  "/docs/Manual Testing/Essentials/Severity vs Priority-837": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-requirement-analysis-for-testers-545-49c"
+    "content": "content---docs-manual-testing-essentials-severity-vs-prioritya-67-02e"
   },
-  "/docs/Manual Testing/Risk Based Testing-c2a": {
+  "/docs/Manual Testing/Essentials/STLC Software Testing Life Cycle-00f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-risk-based-testingfbf-5c5"
+    "content": "content---docs-manual-testing-essentials-stlc-software-testing-life-cycle-9-fd-ca3"
   },
-  "/docs/Manual Testing/SDLC Software Development Life Cycle-de7": {
+  "/docs/Manual Testing/Essentials/test-case-design-965": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-sdlc-software-development-life-cycle-2-a-8-cb0"
+    "content": "content---docs-manual-testing-essentials-test-case-design-0-f-2-cb1"
   },
-  "/docs/Manual Testing/Severity vs Priority-5c7": {
+  "/docs/Manual Testing/Intermediate/Cross Browser Testing-8f2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-severity-vs-prioritybbd-859"
+    "content": "content---docs-manual-testing-intermediate-cross-browser-testing-019-83d"
   },
-  "/docs/Manual Testing/STLC Software Testing Life Cycle-e79": {
+  "/docs/Manual Testing/Intermediate/Exploratory Testing-42e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-stlc-software-testing-life-cycled-04-a2c"
+    "content": "content---docs-manual-testing-intermediate-exploratory-testing-5-af-601"
   },
-  "/docs/Manual Testing/Test Case Design Techniques-c36": {
+  "/docs/Manual Testing/Intermediate/regression-testing-f3a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-test-case-design-techniquesa-5-c-547"
+    "content": "content---docs-manual-testing-intermediate-regression-testingaac-083"
   },
-  "/docs/Manual Testing/Test Data and Test Environment-99a": {
+  "/docs/Manual Testing/Intermediate/testing-techniques-a23": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-test-data-and-test-environment-11-f-dca"
+    "content": "content---docs-manual-testing-intermediate-testing-techniquesbe-4-814"
   },
-  "/docs/Manual Testing/Test Execution and Reporting-a3f": {
+  "/docs/Manual Testing/Intermediate/usability-and-user-experience-testing-cd0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-test-execution-and-reportingeea-683"
-  },
-  "/docs/Manual Testing/Test Scenarios-1d6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-test-scenarios-693-4fa"
-  },
-  "/docs/Manual Testing/Test Strategy vs Test Plan-b07": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-test-strategy-vs-test-plan-04-f-043"
-  },
-  "/docs/Manual Testing/Types of Testing-359": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-types-of-testingc-4-b-e3b"
-  },
-  "/docs/Manual Testing/UAT and Production Testing-f69": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-uat-and-production-testing-6-f-2-85f"
+    "content": "content---docs-manual-testing-intermediate-usability-and-user-experience-testing-826-1ca"
   },
   "/docs/Maven/Cheat Sheet-cd8": {
     "__comp": "__comp---theme-doc-item-178-a40",

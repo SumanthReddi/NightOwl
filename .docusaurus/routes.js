@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dc9'),
+    component: ComponentCreator('/docs', '3da'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e1d'),
+        component: ComponentCreator('/docs', '874'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'dcb'),
+            component: ComponentCreator('/docs', '82a'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -383,6 +383,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/advanced-1',
+                component: ComponentCreator('/docs/category/advanced-1', 'b98'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/advanced-concepts',
                 component: ComponentCreator('/docs/category/advanced-concepts', 'be2'),
                 exact: true,
@@ -533,6 +539,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/essentials',
+                component: ComponentCreator('/docs/category/essentials', 'bbd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/exception-handling',
                 component: ComponentCreator('/docs/category/exception-handling', '960'),
                 exact: true,
@@ -643,6 +655,12 @@ export default [
               {
                 path: '/docs/category/integration-validation',
                 component: ComponentCreator('/docs/category/integration-validation', '397'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/intermediate',
+                component: ComponentCreator('/docs/category/intermediate', 'd33'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1985,128 +2003,104 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Agile Testing Basics',
-                component: ComponentCreator('/docs/Manual Testing/Agile Testing Basics', 'd45'),
+                path: '/docs/Manual Testing/Advanced/Advanced Testing Techniques',
+                component: ComponentCreator('/docs/Manual Testing/Advanced/Advanced Testing Techniques', '243'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Defect Life Cycle',
-                component: ComponentCreator('/docs/Manual Testing/Defect Life Cycle', '74c'),
+                path: '/docs/Manual Testing/Advanced/Best Practices',
+                component: ComponentCreator('/docs/Manual Testing/Advanced/Best Practices', '288'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Functional Testing Types',
-                component: ComponentCreator('/docs/Manual Testing/Functional Testing Types', 'e24'),
+                path: '/docs/Manual Testing/Advanced/Manual Testing Interview Questions',
+                component: ComponentCreator('/docs/Manual Testing/Advanced/Manual Testing Interview Questions', '02c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Introduction to Software Testing',
-                component: ComponentCreator('/docs/Manual Testing/Introduction to Software Testing', '6e3'),
+                path: '/docs/Manual Testing/Advanced/Tools for Manual Testing',
+                component: ComponentCreator('/docs/Manual Testing/Advanced/Tools for Manual Testing', 'ed4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Levels of Testing',
-                component: ComponentCreator('/docs/Manual Testing/Levels of Testing', 'c23'),
+                path: '/docs/Manual Testing/Advanced/Transition to Automation Testing',
+                component: ComponentCreator('/docs/Manual Testing/Advanced/Transition to Automation Testing', '1e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Manual Testing in Real Projects',
-                component: ComponentCreator('/docs/Manual Testing/Manual Testing in Real Projects', '1e8'),
+                path: '/docs/Manual Testing/Essentials/defect-management',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/defect-management', 'e40'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Manual Testing Interview Questions',
-                component: ComponentCreator('/docs/Manual Testing/Manual Testing Interview Questions', '347'),
+                path: '/docs/Manual Testing/Essentials/Introduction to Software Testing',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/Introduction to Software Testing', '937'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Manual Testing vs Automation Testing',
-                component: ComponentCreator('/docs/Manual Testing/Manual Testing vs Automation Testing', '968'),
+                path: '/docs/Manual Testing/Essentials/Manual Testing Types',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/Manual Testing Types', '731'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Non Functional Testing',
-                component: ComponentCreator('/docs/Manual Testing/Non Functional Testing', '946'),
+                path: '/docs/Manual Testing/Essentials/SDLC Software Development Life Cycle',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/SDLC Software Development Life Cycle', 'efe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Requirement Analysis for Testers',
-                component: ComponentCreator('/docs/Manual Testing/Requirement Analysis for Testers', 'd8c'),
+                path: '/docs/Manual Testing/Essentials/Severity vs Priority',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/Severity vs Priority', '837'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Risk Based Testing',
-                component: ComponentCreator('/docs/Manual Testing/Risk Based Testing', 'c2a'),
+                path: '/docs/Manual Testing/Essentials/STLC Software Testing Life Cycle',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/STLC Software Testing Life Cycle', '00f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/SDLC Software Development Life Cycle',
-                component: ComponentCreator('/docs/Manual Testing/SDLC Software Development Life Cycle', 'de7'),
+                path: '/docs/Manual Testing/Essentials/test-case-design',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/test-case-design', '965'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Severity vs Priority',
-                component: ComponentCreator('/docs/Manual Testing/Severity vs Priority', '5c7'),
+                path: '/docs/Manual Testing/Intermediate/Cross Browser Testing',
+                component: ComponentCreator('/docs/Manual Testing/Intermediate/Cross Browser Testing', '8f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/STLC Software Testing Life Cycle',
-                component: ComponentCreator('/docs/Manual Testing/STLC Software Testing Life Cycle', 'e79'),
+                path: '/docs/Manual Testing/Intermediate/Exploratory Testing',
+                component: ComponentCreator('/docs/Manual Testing/Intermediate/Exploratory Testing', '42e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Test Case Design Techniques',
-                component: ComponentCreator('/docs/Manual Testing/Test Case Design Techniques', 'c36'),
+                path: '/docs/Manual Testing/Intermediate/regression-testing',
+                component: ComponentCreator('/docs/Manual Testing/Intermediate/regression-testing', 'f3a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Test Data and Test Environment',
-                component: ComponentCreator('/docs/Manual Testing/Test Data and Test Environment', '99a'),
+                path: '/docs/Manual Testing/Intermediate/testing-techniques',
+                component: ComponentCreator('/docs/Manual Testing/Intermediate/testing-techniques', 'a23'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Test Execution and Reporting',
-                component: ComponentCreator('/docs/Manual Testing/Test Execution and Reporting', 'a3f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Manual Testing/Test Scenarios',
-                component: ComponentCreator('/docs/Manual Testing/Test Scenarios', '1d6'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Manual Testing/Test Strategy vs Test Plan',
-                component: ComponentCreator('/docs/Manual Testing/Test Strategy vs Test Plan', 'b07'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Manual Testing/Types of Testing',
-                component: ComponentCreator('/docs/Manual Testing/Types of Testing', '359'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Manual Testing/UAT and Production Testing',
-                component: ComponentCreator('/docs/Manual Testing/UAT and Production Testing', 'f69'),
+                path: '/docs/Manual Testing/Intermediate/usability-and-user-experience-testing',
+                component: ComponentCreator('/docs/Manual Testing/Intermediate/usability-and-user-experience-testing', 'cd0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

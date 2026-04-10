@@ -1,0 +1,9 @@
+  {
+    "label": "Essentials",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Fundamental manual testing concepts including test cases, scenarios, and defect lifecycle."
+    }
+  }
+
