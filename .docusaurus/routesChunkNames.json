@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-3da": {
+  "/docs-255": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-874": {
+  "/docs-98f": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-82a": {
+  "/docs-daa": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -514,6 +514,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-core-mechanics-603-b29"
   },
+  "/docs/category/core-sql-2b8": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-core-sql-026-33e"
+  },
   "/docs/category/credentials--secrets-management-cc2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-credentials-secrets-management-640-f47"
@@ -601,6 +605,10 @@
   "/docs/category/fundamentals-1-7dc": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-fundamentals-1-e-1-f-a3c"
+  },
+  "/docs/category/fundamentals-2-7b3": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-fundamentals-2124-371"
   },
   "/docs/category/git-f78": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -790,6 +798,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-synchronizationdaf-6fb"
   },
+  "/docs/category/system-29b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-system-3-e-5-f7c"
+  },
   "/docs/category/testng-97c": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-testngb-09-4b2"
@@ -797,6 +809,10 @@
   "/docs/category/tools--frameworks-308": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-tools-frameworks-3-b-5-80d"
+  },
+  "/docs/category/troubleshooting-92f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-troubleshooting-398-4ec"
   },
   "/docs/category/utilities-4fb": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -906,101 +922,69 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-cucumber-operational-excellence-reporting-and-pluginsd-80-d33"
   },
-  "/docs/Database/Aggregations-bbd": {
+  "/docs/Database/Core SQL/Aggregations & Dates-6ec": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-aggregations-814-e6d"
+    "content": "content---docs-database-core-sql-aggregations-dates-4-b-9-b63"
   },
-  "/docs/Database/Database Constraints-611": {
+  "/docs/Database/Core SQL/Joins-82e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-database-constraints-344-ed9"
+    "content": "content---docs-database-core-sql-joins-477-1e3"
   },
-  "/docs/Database/Database Normalization-89a": {
+  "/docs/Database/Core SQL/SELECT & NULL-c7d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-database-normalization-1-c-5-61f"
+    "content": "content---docs-database-core-sql-select-nul-le-95-923"
   },
-  "/docs/Database/Database Schemas-5c7": {
+  "/docs/Database/Core SQL/SQL Basics-783": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-database-schemas-0-ac-bf2"
+    "content": "content---docs-database-core-sql-sql-basicsb-5-e-d02"
   },
-  "/docs/Database/Database Stored Procedures-45a": {
+  "/docs/Database/Core SQL/SQL DML-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-database-stored-procedures-947-d39"
+    "content": "content---docs-database-core-sql-sql-dm-ldde-ba5"
   },
-  "/docs/Database/Database Views-eb5": {
+  "/docs/Database/Core SQL/SQL Subqueries-eed": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-database-viewsf-35-d55"
+    "content": "content---docs-database-core-sql-sql-subqueriese-22-e8c"
   },
-  "/docs/Database/Database vs DBMS-32a": {
+  "/docs/Database/Fundamentals/Database Normalization-8da": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-database-vs-dbms-1-a-5-436"
+    "content": "content---docs-database-fundamentals-database-normalization-6-e-5-191"
   },
-  "/docs/Database/Date and Timestamp-690": {
+  "/docs/Database/Fundamentals/Introduction-c43": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-date-and-timestampd-2-c-d95"
+    "content": "content---docs-database-fundamentals-introductiona-4-d-1bf"
   },
-  "/docs/Database/Db Common Errors and Debugging-097": {
+  "/docs/Database/Fundamentals/Keys & Constraints.md-667": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-db-common-errors-and-debugging-6-ee-8a7"
+    "content": "content---docs-database-fundamentals-keys-constraints-md-3-ce-3fe"
   },
-  "/docs/Database/Interview Readiness-3b0": {
+  "/docs/Database/Fundamentals/Tables & Schema-4b0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-interview-readiness-934-d5b"
+    "content": "content---docs-database-fundamentals-tables-schema-294-96b"
   },
-  "/docs/Database/Introduction-1c4": {
+  "/docs/Database/System/Locks and Concurrency-22d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-introduction-598-3bd"
+    "content": "content---docs-database-system-locks-and-concurrencyc-58-8d6"
   },
-  "/docs/Database/Joins-523": {
+  "/docs/Database/System/SQL Indexes and Performance-f1c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-joins-42-f-d10"
+    "content": "content---docs-database-system-sql-indexes-and-performanceeec-73e"
   },
-  "/docs/Database/Locks and Concurrency-0bb": {
+  "/docs/Database/System/SQL Transactions-6f8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-locks-and-concurrency-90-f-117"
+    "content": "content---docs-database-system-sql-transactionsb-9-f-1f1"
   },
-  "/docs/Database/NULL Handling-fa1": {
+  "/docs/Database/System/Views & Procedures.md-ba7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-null-handling-0-dd-ecf"
+    "content": "content---docs-database-system-views-procedures-md-583-ac7"
   },
-  "/docs/Database/Primary and Foreign Key-7a4": {
+  "/docs/Database/Troubleshooting/Db Common Errors and Debugging-d80": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-primary-and-foreign-keyba-6-ef4"
+    "content": "content---docs-database-troubleshooting-db-common-errors-and-debugging-971-d93"
   },
-  "/docs/Database/SELECT Basics-1d9": {
+  "/docs/Database/Troubleshooting/Interview Readiness-e84": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-select-basics-3-f-7-72b"
-  },
-  "/docs/Database/SQL Command Types-aa6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-sql-command-typesd-3-a-1a8"
-  },
-  "/docs/Database/SQL DML-d0f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-sql-dml-42-f-aa1"
-  },
-  "/docs/Database/SQL Indexes and Performance-a88": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-sql-indexes-and-performance-88-b-83c"
-  },
-  "/docs/Database/SQL Introduction-a84": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-sql-introductiona-62-806"
-  },
-  "/docs/Database/SQL Subqueries-c0e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-sql-subqueries-1-ea-24e"
-  },
-  "/docs/Database/SQL Transactions-d68": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-sql-transactionsc-86-aec"
-  },
-  "/docs/Database/Tables Rows Columns-608": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-tables-rows-columnsd-71-51b"
-  },
-  "/docs/Database/Types of Databases-7c8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-types-of-databases-527-542"
+    "content": "content---docs-database-troubleshooting-interview-readiness-0-da-2fa"
   },
   "/docs/Docusaurus/congratulations-332": {
     "__comp": "__comp---theme-doc-item-178-a40",

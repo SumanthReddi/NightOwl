@@ -1,5 +1,6 @@
 ---
-sidebar_position: 10
+sidebar_position: 6
+title: Joins
 ---
 
 ## SQL Joins – INNER JOIN & LEFT JOIN (Automation Tester Guide)

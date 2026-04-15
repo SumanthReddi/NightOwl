@@ -1,5 +1,6 @@
 ---
-sidebar_position: 17
+sidebar_position: 11
+title: Locks and Concurrency
 ---
 
 ## Locks & Concurrency (Parallel Test Impact – Automation Tester Guide)

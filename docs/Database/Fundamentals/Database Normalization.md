@@ -1,5 +1,6 @@
 ---
-sidebar_position: 19
+sidebar_position: 13
+title: Database Normalization
 ---
 
 ## Database Normalization (1NF, 2NF, 3NF) – Automation Tester Perspective

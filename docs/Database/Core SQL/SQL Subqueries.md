@@ -1,5 +1,6 @@
 ---
-sidebar_position: 13
+sidebar_position: 8
+title: SQL Subqueries
 ---
 
 ## SQL Subqueries (IN, EXISTS) – Automation Tester Awareness

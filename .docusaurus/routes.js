@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '3da'),
+    component: ComponentCreator('/docs', '255'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '874'),
+        component: ComponentCreator('/docs', '98f'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '82a'),
+            component: ComponentCreator('/docs', 'daa'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -503,6 +503,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/core-sql',
+                component: ComponentCreator('/docs/category/core-sql', '2b8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/credentials--secrets-management',
                 component: ComponentCreator('/docs/category/credentials--secrets-management', 'cc2'),
                 exact: true,
@@ -631,6 +637,12 @@ export default [
               {
                 path: '/docs/category/fundamentals-1',
                 component: ComponentCreator('/docs/category/fundamentals-1', '7dc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/fundamentals-2',
+                component: ComponentCreator('/docs/category/fundamentals-2', '7b3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -917,6 +929,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/system',
+                component: ComponentCreator('/docs/category/system', '29b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/testng',
                 component: ComponentCreator('/docs/category/testng', '97c'),
                 exact: true,
@@ -925,6 +943,12 @@ export default [
               {
                 path: '/docs/category/tools--frameworks',
                 component: ComponentCreator('/docs/category/tools--frameworks', '308'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/troubleshooting',
+                component: ComponentCreator('/docs/category/troubleshooting', '92f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1091,146 +1115,98 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Aggregations',
-                component: ComponentCreator('/docs/Database/Aggregations', 'bbd'),
+                path: '/docs/Database/Core SQL/Aggregations & Dates',
+                component: ComponentCreator('/docs/Database/Core SQL/Aggregations & Dates', '6ec'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Database Constraints',
-                component: ComponentCreator('/docs/Database/Database Constraints', '611'),
+                path: '/docs/Database/Core SQL/Joins',
+                component: ComponentCreator('/docs/Database/Core SQL/Joins', '82e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Database Normalization',
-                component: ComponentCreator('/docs/Database/Database Normalization', '89a'),
+                path: '/docs/Database/Core SQL/SELECT & NULL',
+                component: ComponentCreator('/docs/Database/Core SQL/SELECT & NULL', 'c7d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Database Schemas',
-                component: ComponentCreator('/docs/Database/Database Schemas', '5c7'),
+                path: '/docs/Database/Core SQL/SQL Basics',
+                component: ComponentCreator('/docs/Database/Core SQL/SQL Basics', '783'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Database Stored Procedures',
-                component: ComponentCreator('/docs/Database/Database Stored Procedures', '45a'),
+                path: '/docs/Database/Core SQL/SQL DML',
+                component: ComponentCreator('/docs/Database/Core SQL/SQL DML', 'aed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Database Views',
-                component: ComponentCreator('/docs/Database/Database Views', 'eb5'),
+                path: '/docs/Database/Core SQL/SQL Subqueries',
+                component: ComponentCreator('/docs/Database/Core SQL/SQL Subqueries', 'eed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Database vs DBMS',
-                component: ComponentCreator('/docs/Database/Database vs DBMS', '32a'),
+                path: '/docs/Database/Fundamentals/Database Normalization',
+                component: ComponentCreator('/docs/Database/Fundamentals/Database Normalization', '8da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Date and Timestamp',
-                component: ComponentCreator('/docs/Database/Date and Timestamp', '690'),
+                path: '/docs/Database/Fundamentals/Introduction',
+                component: ComponentCreator('/docs/Database/Fundamentals/Introduction', 'c43'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Db Common Errors and Debugging',
-                component: ComponentCreator('/docs/Database/Db Common Errors and Debugging', '097'),
+                path: '/docs/Database/Fundamentals/Keys & Constraints.md',
+                component: ComponentCreator('/docs/Database/Fundamentals/Keys & Constraints.md', '667'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Interview Readiness',
-                component: ComponentCreator('/docs/Database/Interview Readiness', '3b0'),
+                path: '/docs/Database/Fundamentals/Tables & Schema',
+                component: ComponentCreator('/docs/Database/Fundamentals/Tables & Schema', '4b0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Introduction',
-                component: ComponentCreator('/docs/Database/Introduction', '1c4'),
+                path: '/docs/Database/System/Locks and Concurrency',
+                component: ComponentCreator('/docs/Database/System/Locks and Concurrency', '22d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Joins',
-                component: ComponentCreator('/docs/Database/Joins', '523'),
+                path: '/docs/Database/System/SQL Indexes and Performance',
+                component: ComponentCreator('/docs/Database/System/SQL Indexes and Performance', 'f1c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Locks and Concurrency',
-                component: ComponentCreator('/docs/Database/Locks and Concurrency', '0bb'),
+                path: '/docs/Database/System/SQL Transactions',
+                component: ComponentCreator('/docs/Database/System/SQL Transactions', '6f8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/NULL Handling',
-                component: ComponentCreator('/docs/Database/NULL Handling', 'fa1'),
+                path: '/docs/Database/System/Views & Procedures.md',
+                component: ComponentCreator('/docs/Database/System/Views & Procedures.md', 'ba7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Primary and Foreign Key',
-                component: ComponentCreator('/docs/Database/Primary and Foreign Key', '7a4'),
+                path: '/docs/Database/Troubleshooting/Db Common Errors and Debugging',
+                component: ComponentCreator('/docs/Database/Troubleshooting/Db Common Errors and Debugging', 'd80'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/SELECT Basics',
-                component: ComponentCreator('/docs/Database/SELECT Basics', '1d9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/SQL Command Types',
-                component: ComponentCreator('/docs/Database/SQL Command Types', 'aa6'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/SQL DML',
-                component: ComponentCreator('/docs/Database/SQL DML', 'd0f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/SQL Indexes and Performance',
-                component: ComponentCreator('/docs/Database/SQL Indexes and Performance', 'a88'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/SQL Introduction',
-                component: ComponentCreator('/docs/Database/SQL Introduction', 'a84'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/SQL Subqueries',
-                component: ComponentCreator('/docs/Database/SQL Subqueries', 'c0e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/SQL Transactions',
-                component: ComponentCreator('/docs/Database/SQL Transactions', 'd68'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/Tables Rows Columns',
-                component: ComponentCreator('/docs/Database/Tables Rows Columns', '608'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Database/Types of Databases',
-                component: ComponentCreator('/docs/Database/Types of Databases', '7c8'),
+                path: '/docs/Database/Troubleshooting/Interview Readiness',
+                component: ComponentCreator('/docs/Database/Troubleshooting/Interview Readiness', 'e84'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

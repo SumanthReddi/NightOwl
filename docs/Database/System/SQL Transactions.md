@@ -1,5 +1,6 @@
 ---
-sidebar_position: 15
+sidebar_position: 10
+title: SQL Transactions
 ---
 
 ## Transactions (COMMIT / ROLLBACK) – Automation Tester Perspective

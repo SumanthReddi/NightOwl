@@ -346,123 +346,83 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Aggregations",
-              "path": "/docs/Database/Aggregations",
+              "id": "Database/Core SQL/Aggregations & Dates",
+              "path": "/docs/Database/Core SQL/Aggregations & Dates",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Database Constraints",
-              "path": "/docs/Database/Database Constraints",
+              "id": "Database/Core SQL/Joins",
+              "path": "/docs/Database/Core SQL/Joins",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Database Normalization",
-              "path": "/docs/Database/Database Normalization",
+              "id": "Database/Core SQL/SELECT & NULL",
+              "path": "/docs/Database/Core SQL/SELECT & NULL",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Database Schemas",
-              "path": "/docs/Database/Database Schemas",
+              "id": "Database/Core SQL/SQL Basics",
+              "path": "/docs/Database/Core SQL/SQL Basics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Database Stored Procedures",
-              "path": "/docs/Database/Database Stored Procedures",
+              "id": "Database/Core SQL/SQL DML",
+              "path": "/docs/Database/Core SQL/SQL DML",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Database Views",
-              "path": "/docs/Database/Database Views",
+              "id": "Database/Core SQL/SQL Subqueries",
+              "path": "/docs/Database/Core SQL/SQL Subqueries",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Database vs DBMS",
-              "path": "/docs/Database/Database vs DBMS",
+              "id": "Database/Fundamentals/Database Normalization",
+              "path": "/docs/Database/Fundamentals/Database Normalization",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Date and Timestamp",
-              "path": "/docs/Database/Date and Timestamp",
+              "id": "Database/Fundamentals/Introduction",
+              "path": "/docs/Database/Fundamentals/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Db Common Errors and Debugging",
-              "path": "/docs/Database/Db Common Errors and Debugging",
+              "id": "Database/Fundamentals/Keys & Constraints.md",
+              "path": "/docs/Database/Fundamentals/Keys & Constraints.md",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Interview Readiness",
-              "path": "/docs/Database/Interview Readiness",
+              "id": "Database/Fundamentals/Tables & Schema",
+              "path": "/docs/Database/Fundamentals/Tables & Schema",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Introduction",
-              "path": "/docs/Database/Introduction",
+              "id": "Database/System/Locks and Concurrency",
+              "path": "/docs/Database/System/Locks and Concurrency",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Joins",
-              "path": "/docs/Database/Joins",
+              "id": "Database/System/SQL Indexes and Performance",
+              "path": "/docs/Database/System/SQL Indexes and Performance",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Locks and Concurrency",
-              "path": "/docs/Database/Locks and Concurrency",
+              "id": "Database/System/SQL Transactions",
+              "path": "/docs/Database/System/SQL Transactions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/NULL Handling",
-              "path": "/docs/Database/NULL Handling",
+              "id": "Database/System/Views & Procedures.md",
+              "path": "/docs/Database/System/Views & Procedures.md",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Primary and Foreign Key",
-              "path": "/docs/Database/Primary and Foreign Key",
+              "id": "Database/Troubleshooting/Db Common Errors and Debugging",
+              "path": "/docs/Database/Troubleshooting/Db Common Errors and Debugging",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/SELECT Basics",
-              "path": "/docs/Database/SELECT Basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/SQL Command Types",
-              "path": "/docs/Database/SQL Command Types",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/SQL DML",
-              "path": "/docs/Database/SQL DML",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/SQL Indexes and Performance",
-              "path": "/docs/Database/SQL Indexes and Performance",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/SQL Introduction",
-              "path": "/docs/Database/SQL Introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/SQL Subqueries",
-              "path": "/docs/Database/SQL Subqueries",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/SQL Transactions",
-              "path": "/docs/Database/SQL Transactions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/Tables Rows Columns",
-              "path": "/docs/Database/Tables Rows Columns",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Database/Types of Databases",
-              "path": "/docs/Database/Types of Databases",
+              "id": "Database/Troubleshooting/Interview Readiness",
+              "path": "/docs/Database/Troubleshooting/Interview Readiness",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2701,6 +2661,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/fundamentals",
+              "path": "/docs/category/fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/core-sql",
+              "path": "/docs/category/core-sql",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/system",
+              "path": "/docs/category/system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/troubleshooting",
+              "path": "/docs/category/troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/standalone-java",
               "path": "/docs/category/standalone-java",
               "sidebar": "tutorialSidebar"
@@ -2886,8 +2866,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/fundamentals",
-              "path": "/docs/category/fundamentals",
+              "id": "/category/fundamentals-1",
+              "path": "/docs/category/fundamentals-1",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2991,8 +2971,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/fundamentals-1",
-              "path": "/docs/category/fundamentals-1",
+              "id": "/category/fundamentals-2",
+              "path": "/docs/category/fundamentals-2",
               "sidebar": "tutorialSidebar"
             },
             {

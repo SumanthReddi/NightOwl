@@ -1,5 +1,6 @@
 ---
-sidebar_position: 24
+sidebar_position: 16
+title: Interview Questions
 ---
 
 ## Database Interview‑Ready Explanations (Automation Tester Focus)

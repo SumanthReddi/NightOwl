@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
+title: Severity vs Priority
 ---
 
-# Severity vs Priority
+## Severity vs Priority
 
 Severity and Priority are often confused, yet they represent **two different dimensions** of a defect.
 Understanding the difference is **critical for real projects and interviews**.

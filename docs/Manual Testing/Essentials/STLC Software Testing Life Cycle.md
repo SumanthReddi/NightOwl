@@ -3,7 +3,7 @@ sidebar_position: 3
 title: STLC
 ---
 
-## 🔁 Software Testing Life Cycle (STLC)
+## Software Testing Life Cycle (STLC)
 
 The **Software Testing Life Cycle (STLC)** is a structured process that defines the steps involved in testing software.  
 It ensures that testing is **systematic, organized, and aligned with project goals**.

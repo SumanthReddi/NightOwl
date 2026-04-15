@@ -1,5 +1,6 @@
 ---
-sidebar_position: 16
+sidebar_position: 12
+title: SQL Indexes and Performance
 ---
 
 ## Indexes & Query Performance (Automation Tester Perspective)
