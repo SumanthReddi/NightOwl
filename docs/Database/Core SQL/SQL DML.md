@@ -1,151 +1,181 @@
 ---
-sidebar_position: 9
+sidebar_position: 5
 title: SQL DML
 ---
 
-## DML – INSERT / UPDATE / DELETE (Automation Tester Awareness & Safety)
+# SQL DML
 
-DML commands modify **actual data** in the database.
-For automation testers, this section is about **understanding risks and safe usage**, not frequent execution.
+> **DML (Data Manipulation Language)** is used to work with data inside tables.
 
-> **Golden Rule:** Automation tests should be **read-heavy, write-light**.
+It includes the commands used to **insert, update, delete, and read records**.
 
----
-
-## What is DML?
-
-**DML (Data Manipulation Language)** works with data inside tables.
-
-Core DML commands:
-- `SELECT` (read)
-- `INSERT` (add data)
-- `UPDATE` (modify data)
-- `DELETE` (remove data)
-
-Testers primarily use **SELECT**.  
-Other DML commands are used **sparingly** and **only in test environments**.
+For automation testers, DML is important mainly for **test data setup, cleanup, and controlled validation support**.
 
 ---
 
-## 1️⃣ INSERT – Adding Data (Limited Use)
+## 📌 Core DML Commands
+
+| Command | Purpose |
+|---|---|
+| `SELECT` | Read existing data |
+| `INSERT` | Add new rows |
+| `UPDATE` | Modify existing rows |
+| `DELETE` | Remove rows |
+
+> 💡 In most QA projects, `SELECT` is used the most.
+
+---
+
+## INSERT
+
+Used to create new rows in a table.
 
 ### Example
+
 ```sql
 INSERT INTO users (user_id, username, status)
 VALUES (201, 'test_user', 'ACTIVE');
 ```
 
-### When Testers Use INSERT
-- Test data setup
-- Preconditioning scenarios
-- Isolated test environments
+### Common Tester Usage
 
-### Risks ❌
-- Duplicate data
-- Dirty test data
-- Test interference in parallel runs
+- Create test users
+- Seed preconditions
+- Prepare scenario data
+
+### Caution
+
+- Duplicate records may occur
+- Shared environment may get polluted
 
 ---
 
-## 2️⃣ UPDATE – Modifying Data (High Risk)
+## UPDATE
+
+Used to modify existing records.
 
 ### Example
+
 ```sql
 UPDATE users
 SET status = 'BLOCKED'
 WHERE user_id = 201;
 ```
 
-### Tester Use Cases
-- Simulating backend states
-- Preparing negative scenarios
+### Common Tester Usage
 
-### Absolute Rules ⚠️
-- **ALWAYS use WHERE**
-- Target by **primary key**
-- Validate affected row count
+- Simulate blocked user
+- Change account state
+- Prepare negative scenarios
 
-❌ Never run:
+### Important Rule
+
+Always use a `WHERE` clause.
+
 ```sql
-UPDATE users SET status = 'BLOCKED';
+UPDATE users
+SET status = 'BLOCKED';
 ```
+
+The above query updates **all rows**.
 
 ---
 
-## 3️⃣ DELETE – Removing Data (VERY RISKY)
+## DELETE
+
+Used to remove records from a table.
 
 ### Example
+
 ```sql
-DELETE FROM users WHERE user_id = 201;
+DELETE FROM users
+WHERE user_id = 201;
 ```
 
-### Tester Guidance
-- Avoid DELETE whenever possible
-- Prefer soft-delete flags
-- Use cleanup scripts cautiously
+### Common Tester Usage
 
-❌ Never run DELETE in PROD  
-⚠️ Rarely allowed even in UAT
+- Remove temporary test data
+- Cleanup records after execution
+
+### Important Rule
+
+Use carefully and target exact rows.
+
+```sql
+DELETE FROM users;
+```
+
+The above query deletes **all rows**.
 
 ---
 
-## Transactions & Rollback (Conceptual)
+## Transactions & Rollback
 
-DML changes can be:
-- Committed
-- Rolled back
+Some databases allow undoing changes before commit.
 
 ```sql
 ROLLBACK;
 ```
 
-Automation implication:
+### Why It Matters
+
 - Uncommitted data may not be visible
-- Failed tests can leave dirty data
+- Failed tests may leave partial data
+- Auto-commit behavior differs by system
 
 ---
 
-## Best Practices for Automation Testers ✅
+## Recommended Tester Approach
 
-- Prefer read-only DB users
-- Isolate test data
-- Use INSERT/UPDATE only in setup
-- Clean up after tests
-- Never mix DML with validation logic
-- Log affected row counts
+Use business flows first, database changes second.
+
+```text
+UI / API Action
+      ↓
+Validate using SELECT
+      ↓
+Use DML only when setup is required
+```
 
 ---
 
-## Common Automation Mistakes ❌
+## Safer Alternatives
 
-- Running UPDATE/DELETE without WHERE
+Instead of direct DB writes, prefer:
+
+- API-based data creation
+- Test data utilities
+- Reset scripts
+- Soft-delete flags
+
+---
+
+## Common Mistakes
+
+- Running UPDATE without WHERE
+- Running DELETE without WHERE
+- Reusing same test data
+- Assuming auto-commit
 - Using DML in shared environments
-- Not cleaning up test data
-- Assuming auto-commit behavior
 
 ---
 
-## Safer Alternatives to DML
+## Best Practices
 
-- API-based setup
-- Dedicated test data services
-- Backend flags instead of deletes
-- Reset environments periodically
-
----
-
-## Real Project Strategy
-
-**Recommended approach:**
-- UI/API → Perform action
-- DB → Validate using SELECT
-- Avoid DB writes unless unavoidable
+- Prefer read-only DB access
+- Keep DML limited to setup
+- Use unique data values
+- Clean data after tests
+- Log affected row counts
+- Never run DML in production
 
 ---
 
-## Key Takeaways 🎯
+## Key Takeaways
 
-- DML modifies real data
-- SELECT is safe; others require caution
-- Use DML only in controlled environments
-- Safety > speed in automation
+- DML changes actual data
+- INSERT adds rows
+- UPDATE modifies rows
+- DELETE removes rows
+- Use carefully in test environments
+- Validation should mostly rely on SELECT

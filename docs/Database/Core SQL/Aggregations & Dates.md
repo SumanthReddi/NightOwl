@@ -1,42 +1,44 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 title: Aggregations & Dates
 ---
+
 # Aggregations & Date Handling
 
-> **Summarizing Data and Handling Time in SQL**
+> Learn how to **summarize data** and safely **validate date/time values** in SQL.
 
----
+For automation testers, these topics are commonly used for record counts, totals, duplicates, recent transactions, and time-based validations.
 
 ## 🎯 Why This Matters
 
-* Aggregations → validate **counts, totals, duplicates**
-* Dates → biggest source of **flaky tests**
+These concepts help you:
 
-> 💡 These are used heavily in **real-world backend validations**
+- Verify record counts
+- Validate totals and balances
+- Detect duplicate records
+- Check latest transactions
+- Avoid flaky date/time validations
 
 ---
 
-# 📊 SQL Aggregations
-
----
+# SQL Aggregations
 
 ## 📌 What are Aggregate Functions?
 
 Aggregate functions:
 
-* Work on **multiple rows**
-* Return **single result**
-
----
+- Work on multiple rows
+- Return one summarized result
 
 ## 🧠 Common Functions
 
-* `COUNT` ⭐⭐⭐
-* `SUM`
-* `MAX`
-* `MIN`
-* `AVG`
+| Function | Purpose |
+|---|---|
+| `COUNT()` | Count rows |
+| `SUM()` | Add values |
+| `MAX()` | Highest/latest value |
+| `MIN()` | Lowest/oldest value |
+| `AVG()` | Average value |
 
 ---
 
@@ -44,15 +46,11 @@ Aggregate functions:
 
 Used to count rows.
 
----
-
 ### Count All Rows
 
 ```sql
 SELECT COUNT(*) FROM users;
 ```
-
----
 
 ### Count Non-NULL Values
 
@@ -60,47 +58,50 @@ SELECT COUNT(*) FROM users;
 SELECT COUNT(email) FROM users;
 ```
 
-> ⚠️ `COUNT(column)` ignores NULL
-> ✅ `COUNT(*)` counts all rows
+> 💡 `COUNT(column)` ignores NULL values  
+> 💡 `COUNT(*)` counts all rows
 
----
+### Tester Use Cases
 
-### 🧪 Automation Use Cases
-
-* Verify record creation
-* Ensure only one record exists
-* Detect duplicates
+- Verify record creation
+- Ensure one row exists
+- Detect duplicates
 
 ```sql
-SELECT COUNT(*) 
-FROM orders 
+SELECT COUNT(*)
+FROM orders
 WHERE order_id = 5001;
 ```
 
-### Expected:
+Expected:
 
-* `1` → Pass
-* `0` or `>1` → Fail
+- `1` → Correct
+- `0` → Missing record
+- `>1` → Duplicate issue
 
 ---
 
-## 2️⃣ SUM (Total Validation)
+## 2️⃣ SUM
+
+Used to total numeric values.
 
 ```sql
-SELECT SUM(amount) 
-FROM payments 
+SELECT SUM(amount)
+FROM payments
 WHERE order_id = 5001;
 ```
 
-### Use Cases
+### Tester Use Cases
 
-* Validate payment totals
-* Verify invoices
-* Check refunds
+- Validate payment totals
+- Verify invoices
+- Check refunds
 
 ---
 
 ## 3️⃣ MAX / MIN
+
+Used to find highest or lowest values.
 
 ### Latest Record
 
@@ -114,106 +115,103 @@ SELECT MAX(created_date) FROM orders;
 SELECT MIN(created_date) FROM orders;
 ```
 
-### Use Cases
+### Tester Use Cases
 
-* Latest transaction
-* First record validation
+- Latest transaction
+- First record validation
 
 ---
 
-## 4️⃣ GROUP BY ⭐
+## 4️⃣ GROUP BY
 
-Groups rows by column.
+Groups rows based on a column.
 
 ```sql
-SELECT status, COUNT(*) 
-FROM users 
+SELECT status, COUNT(*)
+FROM users
 GROUP BY status;
 ```
 
----
+### Tester Use Cases
 
-### 🧪 Use Cases
-
-* Count users by status
-* Validate distribution
-* Detect anomalies
+- Count users by status
+- Validate distributions
+- Detect anomalies
 
 ---
 
-## 🔍 HAVING (With GROUP BY)
+## 🔍 HAVING
 
-Filters aggregated results.
+Used to filter grouped results.
 
 ```sql
-SELECT user_id, COUNT(*) 
-FROM orders 
+SELECT user_id, COUNT(*)
+FROM orders
 GROUP BY user_id
 HAVING COUNT(*) > 1;
 ```
 
-### Use Case
+### Tester Use Case
 
-* Detect duplicate records
-
----
-
-## ❌ Common Mistakes
-
-* Missing GROUP BY
-* Using WHERE instead of HAVING
-* Misusing COUNT(column)
-* Expecting single row
+Find duplicate orders.
 
 ---
+
+## ⚠️ Common Mistakes
+
+- Missing GROUP BY
+- Using WHERE instead of HAVING
+- Misunderstanding COUNT(column)
+- Expecting one row from grouped queries
 
 ## ✅ Best Practices
 
-* Use COUNT for validation
-* Prefer COUNT(*)
-* Use GROUP BY only when needed
-* Validate exact numbers
-* Log queries on failure
+- Use COUNT for validations
+- Prefer COUNT(*) unless NULL matters
+- Use GROUP BY only when needed
+- Validate exact expected numbers
+- Log queries on failure
 
 ---
 
-# 📅 Date & Timestamp Handling
+# Date & Timestamp Handling
 
----
+## 📌 Why Dates Are Tricky
 
-## ⚠️ Why Dates Are Tricky
+Dates often cause flaky tests because:
 
-* Timezones differ
-* UI format ≠ DB format
-* Delays in DB commit
-* Exact match often fails
+- Timezones differ
+- UI format ≠ DB format
+- Delays happen before DB commit
+- Exact timestamp matching fails
 
 ---
 
 ## 📌 Date vs Timestamp
 
-| Type      | Meaning     |
-| --------- | ----------- |
-| DATE      | Date only   |
+| Type | Meaning |
+|---|---|
+| DATE | Date only |
 | TIMESTAMP | Date + time |
 
-### Example
+Examples:
 
-* DATE → `2026-01-05`
-* TIMESTAMP → `2026-01-05 14:32:10`
+- DATE → `2026-01-05`
+- TIMESTAMP → `2026-01-05 14:32:10`
 
 ---
 
-## 🧠 Tester Rule
+## 🎯 Tester Rule
 
-> ❗ Never compare dates as strings
+> Never compare dates as plain strings.
 
 ---
 
 ## ✅ Basic Date Comparison
 
 ```sql
-SELECT * FROM orders
+SELECT *
+FROM orders
 WHERE created_date = DATE '2026-01-05';
 ```
 
@@ -222,28 +220,27 @@ WHERE created_date = DATE '2026-01-05';
 ## 📊 Date Range (Most Used)
 
 ```sql
-SELECT * FROM orders
-WHERE created_date BETWEEN 
-      DATE '2026-01-01' AND DATE '2026-01-31';
+SELECT *
+FROM orders
+WHERE created_date BETWEEN
+DATE '2026-01-01' AND DATE '2026-01-31';
 ```
 
-### Use Cases
+### Tester Use Cases
 
-* Daily validation
-* Monthly reports
-* Batch jobs
+- Daily validations
+- Monthly reports
+- Batch jobs
 
 ---
 
 ## ⏱️ Timestamp Comparison
 
-❌ Avoid exact match
+### ❌ Avoid Exact Match
 
 ```sql
 WHERE created_ts = TIMESTAMP '2026-01-05 14:32:10'
 ```
-
----
 
 ### ✅ Use Time Window
 
@@ -253,81 +250,73 @@ WHERE created_ts >= CURRENT_TIMESTAMP - INTERVAL '5' MINUTE
 
 ---
 
-## 🕒 Current Date & Time
+## 🕒 Current Date Functions
 
 ```sql
 CURRENT_DATE
 CURRENT_TIMESTAMP
 ```
 
-### Use Cases
+### Tester Use Cases
 
-* Validate “created today”
-* Recent activity
+- Validate created today
+- Check recent activity
 
 ---
 
-## 🧠 Useful Functions (Awareness)
+## 🧠 Useful Functions
 
-* `TRUNC(date)` → remove time
-* `EXTRACT(YEAR FROM date)`
-* `NOW()` / `SYSDATE`
+- `TRUNC(date)` → remove time
+- `EXTRACT(YEAR FROM date)`
+- `NOW()` / `SYSDATE`
 
 ```sql
-SELECT * FROM orders
+SELECT *
+FROM orders
 WHERE TRUNC(created_date) = CURRENT_DATE;
 ```
 
 ---
 
-## 🌍 Timezone Issues (Important)
+## 🌍 Timezone Issues
 
-* DB may use server timezone
-* App may use UTC
-* UI may use local time
+Different layers may use different timezones:
 
----
-
-### ✅ Best Practice
-
-* Use **time ranges**, not exact time
-* Validate relative time
-
----
-
-## ❌ Common Mistakes
-
-* Comparing date as string
-* Expecting exact timestamp
-* Ignoring timezone
-* Hardcoding date
-* Not waiting for DB commit
-
----
+- Database server timezone
+- Application timezone
+- UI local timezone
 
 ## ✅ Best Practices
 
-* Use date ranges
-* Allow tolerance
-* Use DB date functions
-* Log DB time during failures
-* Align timezone strategy
+- Use time ranges, not exact time
+- Validate relative time
+- Confirm timezone strategy with team
+
+---
+
+## ⚠️ Common Mistakes
+
+- Comparing dates as strings
+- Expecting exact timestamps
+- Ignoring timezone differences
+- Hardcoding today’s date
+- Not waiting for DB commit
 
 ---
 
 ## 🧪 Real Automation Scenarios
 
-* Order created in last 5 minutes
-* Payment processed today
-* Status updated after action
-* Batch job executed overnight
+- Order created in last 5 minutes
+- Payment processed today
+- Status updated after action
+- Overnight batch completed
 
 ---
 
-## 🎯 Key Takeaways
+## 🔑 Key Takeaways
 
-* Aggregations summarize data
-* COUNT is most important
-* GROUP BY helps detect issues
-* Dates require careful handling
-* Time-based bugs cause flaky tests
+- Aggregations summarize data quickly
+- COUNT is most useful for testers
+- GROUP BY helps detect issues
+- Dates need careful handling
+- Time bugs often create flaky tests

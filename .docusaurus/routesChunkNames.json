@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-255": {
+  "/docs-59c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-98f": {
+  "/docs-78a": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-daa": {
+  "/docs-f7e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -954,9 +954,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-database-fundamentals-introductiona-4-d-1bf"
   },
-  "/docs/Database/Fundamentals/Keys & Constraints.md-667": {
+  "/docs/Database/Fundamentals/Keys & Constraints-388": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-database-fundamentals-keys-constraints-md-3-ce-3fe"
+    "content": "content---docs-database-fundamentals-keys-constraintsb-33-2bc"
   },
   "/docs/Database/Fundamentals/Tables & Schema-4b0": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2046,6 +2046,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-locators-css-selectorsa-9-b-559"
   },
+  "/docs/Selenium/Locators/Finding Elements-473": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-finding-elements-482-ee7"
+  },
   "/docs/Selenium/Locators/ID Name and Class Locators-897": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-locators-id-name-and-class-locatorsaad-edd"
@@ -2057,6 +2061,10 @@
   "/docs/Selenium/Locators/Locators Overview-3fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-locators-locators-overviewee-8-310"
+  },
+  "/docs/Selenium/Locators/locators_interview_questions-6e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-locators-locators-interview-questionsa-45-53a"
   },
   "/docs/Selenium/Locators/Relative Locators-f0a": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2658,10 +2666,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-solid-principlesa-70-7fa"
   },
-  "/docs/Standalone Java/Strings/common-string-programs-178": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-strings-common-string-programs-0-b-6-c08"
-  },
   "/docs/Standalone Java/Strings/compile-vs-runtime-concatenation-ca7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-strings-compile-vs-runtime-concatenation-5-b-3-7db"
@@ -2685,6 +2689,14 @@
   "/docs/Standalone Java/Strings/string-pool-6ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-strings-string-pool-4-ec-bcc"
+  },
+  "/docs/Standalone Java/Strings/string-programs-part1-ee5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-strings-string-programs-part-15-fd-267"
+  },
+  "/docs/Standalone Java/Strings/string-programs-part2-33d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-strings-string-programs-part-259-f-56b"
   },
   "/docs/Standalone Java/Strings/stringbuffer-f9d": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -5,286 +5,232 @@ title: Tables & Schema
 
 # Tables & Schema
 
-> **How Data is Stored in a Database (Tester Perspective)**
+> Understand how data is stored and how database objects are organized.
+
+For automation testers, most backend validations depend on checking **tables, rows, columns, and schemas**.
+
+## 🎯 Why This Matters
+
+Knowing tables and schemas helps you:
+
+- Validate backend data correctly
+- Write accurate SQL queries
+- Avoid querying wrong tables
+- Debug failures faster
+- Understand how real systems store data
 
 ---
 
-## 📦 What is a Table?
+# Tables
 
-A **table** is a structured container that stores related data in a grid format.
+## 📌 What is a Table?
 
-> 💡 **Memory trick:**
-> **Table = Excel sheet (but powerful + scalable)**
+A **table** stores related data in rows and columns.
 
----
+> 💡 Think of a table like an Excel sheet built for real applications.
 
-### 🧠 Examples
+## 🔍 Common Examples
 
-* `users` → stores user data
-* `orders` → stores order details
-* `payments` → stores transactions
+| Table Name | Purpose |
+|---|---|
+| `users` | Stores user information |
+| `orders` | Stores order details |
+| `payments` | Stores payment records |
 
----
-
-## 📊 Table Structure (Visual)
+## 🔍 Table Structure
 
 ```text
 USERS
 ------------------------------------------------
-| user_id | username | email   | status  | created |
+| user_id | username | email   | status  |
 ------------------------------------------------
-| 101     | john     | j@x.com | ACTIVE  | 01-Jan  |
-| 102     | mary     | m@x.com | BLOCKED | 03-Jan  |
+| 101     | john     | j@x.com | ACTIVE  |
+| 102     | mary     | m@x.com | BLOCKED |
 ------------------------------------------------
 ```
 
----
+## 📌 What is a Column?
 
-## 🧱 What is a Column?
+A **column** represents one attribute of the data.
 
-A **column** represents one attribute of data.
+Examples:
 
-### Examples:
+- `user_id` → unique identifier
+- `username` → login name
+- `email` → contact value
+- `status` → ACTIVE / BLOCKED
 
-* `user_id` → unique identifier
-* `username` → login name
-* `status` → ACTIVE / BLOCKED
-* `created` → date
+Common data types:
 
-### Rules:
+- Number
+- Text
+- Date
+- Boolean
 
-* Each column has a **data type**
-
-  * Number
-  * Text
-  * Date
-* All values in a column follow same type
-
----
-
-## 📄 What is a Row?
+## 📌 What is a Row?
 
 A **row** represents one complete record.
 
-### Example:
+Example:
 
 ```text
-user_id = 101
-username = john
-email = j@x.com
-status = ACTIVE
+101 | john | j@x.com | ACTIVE
 ```
 
-> 💡 **Tester view:**
-> One row = one user / one order / one transaction
+> 💡 One row often means one user, one order, or one transaction.
+
+## 🎯 Why Tables Matter in Testing
+
+Backend validations usually involve:
+
+- Finding the correct row
+- Checking expected column values
+- Confirming records were created or updated
+
+Examples:
+
+- Verify user status = ACTIVE
+- Confirm order record exists
+- Validate payment amount
 
 ---
 
-## 🧪 Why Tables Matter for Automation
+# Keys Overview
 
-When validating backend data, you:
+## 📌 Primary Key (PK)
 
-* Find a specific **row**
-* Validate specific **columns**
+A **Primary Key** uniquely identifies each row.
 
-### Examples:
-
-* Check user status = `ACTIVE`
-* Verify order is created
-* Validate payment amount
-
----
-
-## 🔑 Primary Key (Basic)
-
-A **primary key (PK)** uniquely identifies each row.
-
-### Example:
+Example:
 
 ```text
 user_id
 ```
 
-### Rules:
+Rules:
 
-* Must be **unique**
-* Cannot be **NULL**
+- Must be unique
+- Cannot be NULL
 
-### Tester Importance:
+### Tester Benefit
 
-* Fetch exact record
-* Avoid duplicate data confusion
+Used to fetch exact records safely.
 
----
+## 📌 Foreign Key (FK)
 
-## 🔗 Foreign Key (Concept)
+A **Foreign Key** links one table to another.
 
-A **foreign key (FK)** links one table to another.
-
-### Example:
+Example:
 
 ```text
 orders.user_id → users.user_id
 ```
 
-### Why it matters:
+### Tester Benefit
 
-* Creates relationships
-* Enables cross-table validation
+Useful for validating relationships across tables.
 
----
-
-## 🧪 Real Automation Scenario
-
-### UI Action:
-
-User places an order
-
-### DB Impact:
-
-* New row in `orders`
-* Linked to `users` via `user_id`
-
-### Validation:
-
-* Order exists
-* Correct user_id
-* Correct status
+> 💡 Full PK/FK concepts are covered in the next chapter: **Keys & Constraints**
 
 ---
 
-# 🗂️ Database Schema
-
----
+# Schema
 
 ## 📌 What is a Schema?
 
-A **schema** is a logical grouping of database objects.
+A **schema** is a logical grouping of database objects like:
 
-> 💡 **Memory trick:**
-> **Schema = Folder inside database**
+- Tables
+- Views
+- Procedures
 
----
+> 💡 Think of schema as a folder inside a database.
 
-## 🧠 Example
+## 🔍 Example
 
 ```sql
 auth.users
 finance.users
 ```
 
-Same table name, different schemas.
+Both are named `users`, but belong to different schemas.
 
----
+## 🎯 Why Schemas Are Used
 
-## 🎯 Why Schemas Exist
+- Organize large databases
+- Separate business domains
+- Avoid name conflicts
+- Control permissions
 
-* Organize large databases
-* Separate domains (auth, finance, reporting)
-* Avoid name conflicts
-* Control access
+## 📌 Fully Qualified Table Name
 
----
-
-## 🔍 Fully Qualified Table Name (IMPORTANT)
+Use:
 
 ```sql
 schema_name.table_name
 ```
 
-### Example:
+Example:
 
 ```sql
-SELECT * FROM auth.users WHERE user_id = 101;
+SELECT *
+FROM auth.users
+WHERE user_id = 101;
 ```
 
-### Why testers must care:
+### Why It Matters
 
-* Avoid wrong table
-* Avoid false failures
-* Ensure correct data
+- Prevents wrong table access
+- Avoids false failures
+- Ensures correct environment data
 
----
-
-## ⚠️ Default Schema Problem
+## ⚠️ Default Schema Risk
 
 ```sql
 SELECT * FROM users;
 ```
 
-This uses **default schema**, which can cause:
+This may use a default schema.
 
-* Wrong data
-* Missing records
-* Flaky tests
+Possible issues:
 
-> 🚨 **Rule:** Always use `schema.table`
+- Wrong data returned
+- Missing records
+- Flaky validations
 
----
+> 💡 Best practice: always use `schema.table`
 
-## 🔐 Schema & Permissions (Awareness)
+## 🔍 Schema Across Environments
 
-* Access is controlled at schema level
-* Some schemas may be restricted
+| Environment | Example |
+|---|---|
+| DEV | `dev_auth.users` |
+| QA | `qa_auth.users` |
+| PROD | `prod_auth.users` |
 
-### Tester Impact:
+## ⚠️ Common Mistakes
 
-* Query may fail due to permission
-* Same query may work in one schema, fail in another
+- Ignoring schema prefix
+- Hardcoding schema names
+- Querying wrong environment
+- Assuming table names are globally unique
 
----
+## ✅ Best Practices
 
-## 🌍 Schemas Across Environments
-
-| Environment | Example         |
-| ----------- | --------------- |
-| DEV         | dev_auth.users  |
-| QA          | qa_auth.users   |
-| PROD        | prod_auth.users |
-
----
-
-## ✅ Best Practices for Testers
-
-* Always use **schema.table**
-* Never assume default schema
-* Parameterize schema names
-* Verify schema access early
-* Log schema in failures
+- Use fully qualified table names
+- Never assume default schema
+- Parameterize schema by environment
+- Verify schema access early
+- Log schema name in failures
 
 ---
 
-## ❌ Common Mistakes
+## 🔑 Key Takeaways
 
-* Ignoring schema prefix
-* Hardcoding schema names
-* Querying wrong environment schema
-* Assuming table is globally unique
-
----
-
-## 🧠 Interview Quick Answers
-
-**What is a table?**
-→ Structured data storage (rows & columns)
-
-**What is a primary key?**
-→ Unique identifier for each row
-
-**What is a schema?**
-→ Logical grouping of database objects
-
-**Why use schema.table?**
-→ To avoid querying wrong data
-
----
-
-## 🎯 Key Takeaways
-
-* Table = data container
-* Column = attribute
-* Row = record
-* PK = unique identifier
-* FK = relationship
-* Schema = grouping layer
-* Always use fully qualified table names
+- Table stores related data
+- Column = attribute
+- Row = record
+- PK uniquely identifies rows
+- FK creates relationships
+- Schema organizes database objects
+- Prefer `schema.table`

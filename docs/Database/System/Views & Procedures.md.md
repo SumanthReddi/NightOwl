@@ -1,5 +1,5 @@
 ---
-sidebar_position: 14
+sidebar_position: 4
 title: Views & Procedures
 ---
 # Views & Stored Procedures
@@ -22,11 +22,11 @@ In real projects:
 
 ---
 
-# 👁️ Database Views
+## 👁️ Database Views
 
 ---
 
-## 📌 What is a View?
+### 📌 What is a View?
 
 A **view** is a stored SELECT query that behaves like a table.
 
@@ -113,11 +113,11 @@ If validation fails:
 
 ---
 
-# ⚙️ Stored Procedures & Functions
+## ⚙️ Stored Procedures & Functions
 
 ---
 
-## 📌 What is a Stored Procedure?
+### 📌 What is a Stored Procedure?
 
 A **stored procedure** is a set of SQL statements executed inside the database.
 
@@ -134,7 +134,7 @@ CALL create_order(user_id, amount);
 
 ---
 
-## 📌 What is a Function?
+### 📌 What is a Function?
 
 A **function**:
 
@@ -147,7 +147,7 @@ SELECT calculate_tax(amount) FROM orders;
 
 ---
 
-## 🎯 Why Teams Use Procedures
+### 🎯 Why Teams Use Procedures
 
 * Centralize business logic
 * Improve performance
@@ -156,7 +156,7 @@ SELECT calculate_tax(amount) FROM orders;
 
 ---
 
-## 🔄 Where It Fits
+### 🔄 Where It Fits
 
 ```text
 Automation Test
@@ -172,7 +172,7 @@ Database Tables
 
 ---
 
-## 🧪 Tester Perspective (Critical)
+### 🧪 Tester Perspective (Critical)
 
 * ❌ Do NOT write procedures
 * ❌ Do NOT test procedure logic directly
@@ -196,7 +196,7 @@ Validation:
 
 **Usually NO**
 
-### Why:
+#### Why:
 
 * Breaks real flow
 * Bypasses UI/API

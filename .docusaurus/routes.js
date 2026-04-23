@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '255'),
+    component: ComponentCreator('/docs', '59c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '98f'),
+        component: ComponentCreator('/docs', '78a'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'daa'),
+            component: ComponentCreator('/docs', 'f7e'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -1163,8 +1163,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Database/Fundamentals/Keys & Constraints.md',
-                component: ComponentCreator('/docs/Database/Fundamentals/Keys & Constraints.md', '667'),
+                path: '/docs/Database/Fundamentals/Keys & Constraints',
+                component: ComponentCreator('/docs/Database/Fundamentals/Keys & Constraints', '388'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2801,6 +2801,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Selenium/Locators/Finding Elements',
+                component: ComponentCreator('/docs/Selenium/Locators/Finding Elements', '473'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Selenium/Locators/ID Name and Class Locators',
                 component: ComponentCreator('/docs/Selenium/Locators/ID Name and Class Locators', '897'),
                 exact: true,
@@ -2815,6 +2821,12 @@ export default [
               {
                 path: '/docs/Selenium/Locators/Locators Overview',
                 component: ComponentCreator('/docs/Selenium/Locators/Locators Overview', '3fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Locators/locators_interview_questions',
+                component: ComponentCreator('/docs/Selenium/Locators/locators_interview_questions', '6e4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3719,12 +3731,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Strings/common-string-programs',
-                component: ComponentCreator('/docs/Standalone Java/Strings/common-string-programs', '178'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Standalone Java/Strings/compile-vs-runtime-concatenation',
                 component: ComponentCreator('/docs/Standalone Java/Strings/compile-vs-runtime-concatenation', 'ca7'),
                 exact: true,
@@ -3757,6 +3763,18 @@ export default [
               {
                 path: '/docs/Standalone Java/Strings/string-pool',
                 component: ComponentCreator('/docs/Standalone Java/Strings/string-pool', '6ac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/string-programs-part1',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-programs-part1', 'ee5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Standalone Java/Strings/string-programs-part2',
+                component: ComponentCreator('/docs/Standalone Java/Strings/string-programs-part2', '33d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -1,190 +1,334 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 title: Joins
 ---
 
-## SQL Joins – INNER JOIN & LEFT JOIN (Automation Tester Guide)
+# Joins
 
-Real applications **never store all data in one table**.
-As an automation tester, you must use **JOINs** to validate data that spans **multiple related tables**.
-
-This guide focuses only on **joins that testers actually use**.
+> **Combining Data from Multiple Tables**
 
 ---
 
-## Why Joins Are Needed
+## SQL Joins
 
-Example scenario:
-- User data is in `USERS`
-- Order data is in `ORDERS`
+Real applications do **not store everything in one table**.
+Different data is split across related tables such as users, orders, payments, and accounts.
+
+A **JOIN** helps combine that related data into one result.
+
+> 💡 **Simple memory trick:**
+> **JOIN = Connect tables using a common column**
+
+---
+
+## 📌 Why Joins Are Needed
+
+Example:
+
+* `users` table stores customer data
+* `orders` table stores order data
 
 To validate:
-> “Order belongs to the correct user”
 
-You must **join tables**.
+> “Which user placed which order?”
+
+You must join both tables.
 
 ---
 
-## Tables Used in Examples
+## 📊 Sample Tables
 
-```
+```text id="m1x2k8"
 USERS
 -------------------------
-user_id (PK) | username
+user_id | username
 -------------------------
-101          | john
-102          | mary
+101     | john
+102     | mary
+103     | david
 ```
 
-```
+```text id="u2f9qd"
 ORDERS
-------------------------------
-order_id (PK) | user_id (FK)
-------------------------------
-5001          | 101
-5002          | 101
-5003          | 102
+-------------------------
+order_id | user_id
+-------------------------
+5001     | 101
+5002     | 101
+5003     | 102
+7001     | 999
 ```
 
 ---
 
-## What is a JOIN?
+## 📌 What is a JOIN?
 
-A **JOIN** combines rows from two or more tables based on a **related column** (usually PK–FK).
+A **JOIN** combines rows from two or more tables using a related column.
+
+Usually:
+
+* Primary Key from one table
+* Foreign Key from another table
+
+Example:
+
+```text id="5cn4xm"
+users.user_id = orders.user_id
+```
 
 ---
 
-## 1️⃣ INNER JOIN (MOST USED) ⭐
+## 1️⃣ INNER JOIN ⭐
 
-`INNER JOIN` returns **only matching records** from both tables.
+Returns **only matching rows** from both tables.
+
+> If data exists in one table but not the other, it is excluded.
+
+---
 
 ### Syntax
-```sql
+
+```sql id="j6ep6j"
 SELECT columns
 FROM table1
 INNER JOIN table2
-ON table1.column = table2.column;
+ON table1.id = table2.id;
 ```
 
+---
+
 ### Example
-```sql
+
+```sql id="j3y6wh"
 SELECT u.username, o.order_id
 FROM users u
 INNER JOIN orders o
 ON u.user_id = o.user_id;
 ```
 
+---
+
 ### Result
-- Only users who have orders
-- Only orders linked to valid users
 
----
-
-## When Automation Testers Use INNER JOIN
-
-- Validate successful transactions
-- Verify relationships exist
-- Confirm backend consistency
-
-Example checks:
-- Order is linked to correct user
-- Payment is linked to order
-- Account is linked to profile
-
----
-
-## 2️⃣ LEFT JOIN ⭐ (VERY IMPORTANT)
-
-`LEFT JOIN` returns:
-- All records from **left table**
-- Matching records from right table
-- NULL if no match exists
-
-### Syntax
-```sql
-SELECT columns
-FROM table1
-LEFT JOIN table2
-ON table1.column = table2.column;
+```text id="a7oe1t"
+john   5001
+john   5002
+mary   5003
 ```
 
+---
+
+### Tester Use Cases
+
+* Validate successful order creation
+* Confirm payment linked to order
+* Ensure profile linked to user
+
+---
+
+## 2️⃣ LEFT JOIN ⭐
+
+Returns:
+
+* All rows from **left table**
+* Matching rows from right table
+* `NULL` if no match exists
+
+> Useful when checking missing or optional data.
+
+---
+
 ### Example
-```sql
+
+```sql id="0nvx6k"
 SELECT u.username, o.order_id
 FROM users u
 LEFT JOIN orders o
 ON u.user_id = o.user_id;
 ```
 
+---
+
 ### Result
-- All users
-- Orders if they exist
-- NULL for users with no orders
 
----
-
-## When Automation Testers Use LEFT JOIN
-
-- Validate missing data
-- Negative scenarios
-- Ensure records are NOT created
-
-Example:
-- User exists but no order created
-- Payment not generated for failed transaction
-
----
-
-## INNER JOIN vs LEFT JOIN (Critical Comparison)
-
-| Scenario | INNER JOIN | LEFT JOIN |
-|---|---|---|
-| Need only matching records | ✅ | ❌ |
-| Need missing data detection | ❌ | ✅ |
-| Positive flow validation | ✅ | ❌ |
-| Negative flow validation | ❌ | ✅ |
-
----
-
-## Common Automation Mistakes ❌
-
-- Using INNER JOIN when data may not exist
-- Expecting results but join filters them out
-- Forgetting ON condition
-- Joining on wrong columns
-
----
-
-## Best Practices for Testers ✅
-
-- Start with LEFT JOIN for debugging
-- Use INNER JOIN for positive flows
-- Always join on PK–FK
-- Validate NULLs in LEFT JOIN results
-- Keep joins minimal (2–3 tables)
-
----
-
-## JOIN Order Matters
-
-```sql
-FROM users u
-LEFT JOIN orders o
-LEFT JOIN payments p
+```text id="i08zpo"
+john   5001
+john   5002
+mary   5003
+david  NULL
 ```
 
-- Join order affects results
-- Missing data propagates as NULL
+---
 
-Tester tip:
-- Validate step by step
+### Meaning
+
+* `david` exists in users table
+* No matching order found
 
 ---
 
-## Key Takeaways 🎯
+### Tester Use Cases
 
-- Joins are mandatory for real DB validation
-- INNER JOIN = matching data only
-- LEFT JOIN = detect missing data
-- Choose join based on test scenario
-- Most automation bugs hide in joins
+* User created but order missing
+* Payment not generated
+* Optional record not present
+
+---
+
+## 3️⃣ RIGHT JOIN
+
+Returns:
+
+* All rows from **right table**
+* Matching rows from left table
+* `NULL` if no match on left side
+
+> Opposite of LEFT JOIN.
+
+---
+
+### Example
+
+```sql id="tw6d64"
+SELECT u.username, o.order_id
+FROM users u
+RIGHT JOIN orders o
+ON u.user_id = o.user_id;
+```
+
+---
+
+### Result Concept
+
+```text id="fwz9wn"
+john   5001
+john   5002
+mary   5003
+NULL   7001
+```
+
+---
+
+### Meaning
+
+* Order `7001` exists
+* No matching user record found
+
+---
+
+### Tester Use Cases
+
+* Detect orphan orders
+* Validate records must have parent data
+* Reconciliation checks
+
+---
+
+### Tester Note
+
+RIGHT JOIN is less common.
+Most teams rewrite it as LEFT JOIN by swapping table order.
+
+---
+
+## 4️⃣ FULL JOIN
+
+Returns:
+
+* All rows from left table
+* All rows from right table
+* Matching rows combined
+* Non-matching rows filled with `NULL`
+
+> Combination of LEFT JOIN + RIGHT JOIN.
+
+---
+
+### Example
+
+```sql id="4m7q2r"
+SELECT u.username, o.order_id
+FROM users u
+FULL JOIN orders o
+ON u.user_id = o.user_id;
+```
+
+---
+
+### Result Concept
+
+```text id="4h2r5w"
+john   5001
+john   5002
+mary   5003
+david  NULL
+NULL   7001
+```
+
+---
+
+### Meaning
+
+* `david` has no order
+* Order `7001` has no user
+
+---
+
+### Tester Use Cases
+
+* Data reconciliation
+* Compare two systems
+* Find unmatched records on both sides
+
+---
+
+## ⚖️ Join Comparison
+
+| Join Type  | Returns                   |
+| ---------- | ------------------------- |
+| INNER JOIN | Matching rows only        |
+| LEFT JOIN  | All left + matching right |
+| RIGHT JOIN | All right + matching left |
+| FULL JOIN  | All rows from both        |
+
+---
+
+## 🧠 Which Join Should Testers Use?
+
+| Scenario                 | Best Join  |
+| ------------------------ | ---------- |
+| Positive flow validation | INNER JOIN |
+| Missing data check       | LEFT JOIN  |
+| Right-side priority data | RIGHT JOIN |
+| Full mismatch analysis   | FULL JOIN  |
+
+---
+
+## ❌ Common Mistakes
+
+* Using INNER JOIN when data may be missing
+* Forgetting `ON` condition
+* Joining wrong columns
+* Ignoring NULL rows
+* Assuming one join row = one user
+
+---
+
+## ✅ Best Practices
+
+* Use INNER JOIN for positive validations
+* Use LEFT JOIN for negative scenarios
+* Prefer LEFT JOIN over RIGHT JOIN for readability
+* Join using PK ↔ FK columns
+* Keep joins simple and clear
+
+---
+
+## 🎯 Key Takeaways
+
+* JOIN combines related tables
+* INNER JOIN = matching rows only
+* LEFT JOIN = includes missing left-side relationships
+* RIGHT JOIN = includes missing right-side relationships
+* FULL JOIN = shows everything
+* Joins are essential for backend validation

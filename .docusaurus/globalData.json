@@ -386,8 +386,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Database/Fundamentals/Keys & Constraints.md",
-              "path": "/docs/Database/Fundamentals/Keys & Constraints.md",
+              "id": "Database/Fundamentals/Keys & Constraints",
+              "path": "/docs/Database/Fundamentals/Keys & Constraints",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -1751,6 +1751,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Selenium/Locators/Finding Elements",
+              "path": "/docs/Selenium/Locators/Finding Elements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium/Locators/ID Name and Class Locators",
               "path": "/docs/Selenium/Locators/ID Name and Class Locators",
               "sidebar": "tutorialSidebar"
@@ -1763,6 +1768,11 @@
             {
               "id": "Selenium/Locators/Locators Overview",
               "path": "/docs/Selenium/Locators/Locators Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selenium/Locators/locators_interview_questions",
+              "path": "/docs/Selenium/Locators/locators_interview_questions",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2516,11 +2526,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Strings/common-string-programs",
-              "path": "/docs/Standalone Java/Strings/common-string-programs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Standalone Java/Strings/compile-vs-runtime-concatenation",
               "path": "/docs/Standalone Java/Strings/compile-vs-runtime-concatenation",
               "sidebar": "tutorialSidebar"
@@ -2548,6 +2553,16 @@
             {
               "id": "Standalone Java/Strings/string-pool",
               "path": "/docs/Standalone Java/Strings/string-pool",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/string-programs-part1",
+              "path": "/docs/Standalone Java/Strings/string-programs-part1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Standalone Java/Strings/string-programs-part2",
+              "path": "/docs/Standalone Java/Strings/string-programs-part2",
               "sidebar": "tutorialSidebar"
             },
             {

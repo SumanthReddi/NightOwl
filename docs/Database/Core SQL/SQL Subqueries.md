@@ -1,14 +1,14 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 title: SQL Subqueries
 ---
 
-## SQL Subqueries (IN, EXISTS) – Automation Tester Awareness
+## SQL Subqueries (IN, EXISTS)
 
 Subqueries allow you to **use the result of one query inside another query**.
 Automation testers use subqueries for **advanced validations**, especially when joins are risky or unclear.
 
-This guide focuses on **safe, practical usage** — not complex SQL theory.
+This guide is for Automation Tester Awareness and focuses on **safe, practical usage** — not complex SQL theory.
 
 ---
 
