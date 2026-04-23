@@ -2,9 +2,7 @@
 sidebar_position: 2
 title: Third Party Libraries
 ---
-<!-- # 02-third-party-libraries -->
 
-<!-- ## Third-Party Libraries for Advanced Collection Handling in Java -->
 
 While the Java Collections Framework provides a robust set of tools,
 third-party libraries offer additional features, optimizations, and

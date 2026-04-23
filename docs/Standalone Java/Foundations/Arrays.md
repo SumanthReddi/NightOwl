@@ -2,7 +2,6 @@
 sidebar_position: 6
 ---
 
-<!-- # 📘 Java Arrays - Complete Notes -->
 
 ## 📌 What is an Array?
 An **array** is a **collection of elements of the same data type**, stored in contiguous memory locations.

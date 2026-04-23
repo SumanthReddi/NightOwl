@@ -2,7 +2,6 @@
 sidebar_position: 4
 title: equals() vs == in String 
 ---
-<!-- # equals() vs == in Java String -->
 
 ## Overview
 

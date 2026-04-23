@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Iterable Interface
 ---
-<!-- # 03-iterable-interface -->
+
 
 ## The `Iterable` Interface in Java
 

@@ -2,7 +2,6 @@
 sidebar_position: 2
 ---
 
-<!-- ## What is a Constructor? -->
 
 A constructor in Java is a special block of code that runs when an object of a class is created. Its main function is to initialize the object's state (values of variables and resources) when the object is first made.
 

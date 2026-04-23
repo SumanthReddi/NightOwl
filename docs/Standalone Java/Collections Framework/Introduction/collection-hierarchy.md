@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Collection Hierarchy
 ---
-<!-- # 01-collection-hierarchy -->
+
 
 ## Collection Framework Hierarchy in Java
 

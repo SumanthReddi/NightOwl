@@ -2,7 +2,6 @@
 sidebar_position: 4
 title: Fail-Fast vs Fail-Safe Iterators
 ---
-<!-- # 04-fail-fast-vs-fail-safe -->
 
 ## Fail-Fast vs Fail-Safe Iterators in Java
 

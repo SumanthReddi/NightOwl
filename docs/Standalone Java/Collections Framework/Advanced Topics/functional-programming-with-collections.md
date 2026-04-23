@@ -2,9 +2,7 @@
 sidebar_position: 3
 title: Functional Programming With Collections
 ---
-<!-- # 03-functional-programming-with-collections -->
 
-<!-- ## Functional Programming with Java Collections -->
 
 Functional programming became an important part of modern Java after the
 introduction of **Lambda Expressions** and the **Streams API** in **Java

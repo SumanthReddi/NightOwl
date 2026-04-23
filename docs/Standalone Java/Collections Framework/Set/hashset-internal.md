@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: HashSet 
 ---
-<!-- # 01-hashset -->
+
 
 ## The `HashSet` Class in Java
 

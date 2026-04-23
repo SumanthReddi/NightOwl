@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-<!-- ### What Is Inheritance? -->
+
 
 Inheritance in Java allows a "child" (subclass) to acquire fields and methods from a "parent" (superclass) i.e it allows one class to acquire properties and behaviors (fields and methods) from another class. supporting code reuse and extension.
 

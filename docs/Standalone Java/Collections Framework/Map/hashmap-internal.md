@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: HashMap
 ---
-<!-- # 01-hashmap -->
+
 
 ## The `HashMap` Class in Java
 

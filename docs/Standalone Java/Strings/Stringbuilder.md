@@ -2,7 +2,6 @@
 sidebar_position: 6
 title: StringBuilder
 ---
-<!-- ## StringBuilder -->
 
 ### What Is StringBuilder?
 

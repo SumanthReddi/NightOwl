@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Python Data Structures
+title: Data Structures
 ---
 
 Python provides several built-in data structures that are essential for organizing and manipulating data efficiently. These include lists, tuples, sets, dictionaries, and more advanced constructs like list comprehensions. Below is a detailed exploration of each data structure with examples and explanations.

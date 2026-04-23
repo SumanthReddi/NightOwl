@@ -2,7 +2,6 @@
 sidebar_position: 5
 title: List Best Practices
 ---
-<!-- # 05-list-best-practices -->
 
 ## Best Practices for Using `List` Implementations in Java
 

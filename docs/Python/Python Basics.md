@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Python Basics
+title: Basics
 ---
 
 Python is a versatile, high-level programming language that has become

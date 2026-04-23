@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-title: Working with APIs and JSON in Python
+title: Working with APIs and JSON
 ---
 
 Working with APIs (Application Programming Interfaces) and JSON (JavaScript Object Notation) is a common task in modern Python development. APIs enable communication between software systems, while JSON provides a lightweight format for data exchange. This document explores how to interact with APIs, handle responses, and work with JSON data in Python.

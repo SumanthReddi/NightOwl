@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-59c": {
+  "/docs-c8f": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-78a": {
+  "/docs-87f": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-f7e": {
+  "/docs-fae": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -466,6 +466,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-api-7-fe-27f"
   },
+  "/docs/category/api-testing-ab6": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-api-testing-26-d-6fb"
+  },
   "/docs/category/architecture-6d1": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-architecturea-29-4ab"
@@ -506,6 +510,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-core-apache-poi-object-model-2-dc-c30"
   },
+  "/docs/category/core-fundamentals-8af": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-core-fundamentalse-29-0d4"
+  },
   "/docs/category/core-interfaces-622": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-core-interfacese-6-d-64a"
@@ -533,6 +541,10 @@
   "/docs/category/database-dd4": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-database-7-d-4-d6b"
+  },
+  "/docs/category/database-testing-16f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-database-testingcbe-093"
   },
   "/docs/category/docusaurus--99a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -778,6 +790,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-selenium-java-9-f-3-3b2"
   },
+  "/docs/category/seleniumlibrary-implementation-1fd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-seleniumlibrary-implementation-7-b-3-5d7"
+  },
   "/docs/category/set-implementations-037": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-set-implementations-767-ef0"
@@ -802,6 +818,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-system-3-e-5-f7c"
   },
+  "/docs/category/test-design--implementation-ad8": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-test-design-implementation-9-a-4-49d"
+  },
   "/docs/category/testng-97c": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-testngb-09-4b2"
@@ -821,6 +841,10 @@
   "/docs/category/web-elements-4a8": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-web-elements-8-af-e42"
+  },
+  "/docs/category/web-ui-automation-30a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-web-ui-automation-859-5f6"
   },
   "/docs/congratulations-966": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1822,85 +1846,117 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rest-assured-restassured-basics-writing-first-api-testb-96-076"
   },
-  "/docs/Robot Framework/API Automation with RequestsLibrary-a9d": {
+  "/docs/Robot Framework/API Testing/api-test-chaining-strategies-e6a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-api-automation-with-requests-library-56-c-dcf"
+    "content": "content---docs-robot-framework-api-testing-api-test-chaining-strategies-600-cb5"
   },
-  "/docs/Robot Framework/Architecture-629": {
+  "/docs/Robot Framework/API Testing/api-testing-requestslibrary-fe0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-architectured-6-d-5d1"
+    "content": "content---docs-robot-framework-api-testing-api-testing-requestslibraryb-6-e-8e6"
   },
-  "/docs/Robot Framework/Assertions and Validation-880": {
+  "/docs/Robot Framework/API Testing/authentication-token-management-5b8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-assertions-and-validationd-32-5c7"
+    "content": "content---docs-robot-framework-api-testing-authentication-token-management-4-dc-b72"
   },
-  "/docs/Robot Framework/Built-in Libraries-f9a": {
+  "/docs/Robot Framework/API Testing/http-methods-implementation-79e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-built-in-librariesc-23-168"
+    "content": "content---docs-robot-framework-api-testing-http-methods-implementation-745-2bd"
   },
-  "/docs/Robot Framework/Control Flow and Error Handling-ff2": {
+  "/docs/Robot Framework/API Testing/response-validation-780": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-control-flow-and-error-handlinga-71-444"
+    "content": "content---docs-robot-framework-api-testing-response-validation-0-e-8-17f"
   },
-  "/docs/Robot Framework/Data Driven Testing-0dc": {
+  "/docs/Robot Framework/API Testing/schema-contract-validation-674": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-data-driven-testing-19-b-ea5"
+    "content": "content---docs-robot-framework-api-testing-schema-contract-validation-96-f-b46"
   },
-  "/docs/Robot Framework/Database Testing-08e": {
+  "/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries-083": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-database-testing-27-d-5cd"
+    "content": "content---docs-robot-framework-core-fundamentals-built-in-keywords-libraries-3-d-5-9c4"
   },
-  "/docs/Robot Framework/Debugging and Best Practices-fe1": {
+  "/docs/Robot Framework/Core Fundamentals/environment-setup-configuration-dbb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-debugging-and-best-practices-5-b-4-21f"
+    "content": "content---docs-robot-framework-core-fundamentals-environment-setup-configuration-44-d-4b9"
   },
-  "/docs/Robot Framework/Execution Reports and CI CD-7a5": {
+  "/docs/Robot Framework/Core Fundamentals/framework-overview-use-cases-1c7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-execution-reports-and-ci-cd-62-a-57a"
+    "content": "content---docs-robot-framework-core-fundamentals-framework-overview-use-casesc-7-c-f21"
   },
-  "/docs/Robot Framework/Installation and Setup-ebb": {
+  "/docs/Robot Framework/Core Fundamentals/test-case-structure-syntax-fbb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-installation-and-setup-569-363"
+    "content": "content---docs-robot-framework-core-fundamentals-test-case-structure-syntax-6-e-1-637"
   },
-  "/docs/Robot Framework/Introduction-593": {
+  "/docs/Robot Framework/Core Fundamentals/variables-management-9f3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-introductiona-59-b57"
+    "content": "content---docs-robot-framework-core-fundamentals-variables-management-089-c9f"
   },
-  "/docs/Robot Framework/Keywords Concept-efc": {
+  "/docs/Robot Framework/Database Testing/data-verification-techniques-670": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-keywords-concepta-8-a-f76"
+    "content": "content---docs-robot-framework-database-testing-data-verification-techniquesd-9-c-8c0"
   },
-  "/docs/Robot Framework/Parallel Execution with Pabot-73a": {
+  "/docs/Robot Framework/Database Testing/database-connectivity-oracle-mysql-postgresql-be4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-parallel-execution-with-pabot-99-c-264"
+    "content": "content---docs-robot-framework-database-testing-database-connectivity-oracle-mysql-postgresqlf-2-f-d61"
   },
-  "/docs/Robot Framework/Resource Files and Custom Libraries-ba7": {
+  "/docs/Robot Framework/Database Testing/database-testing-f60": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-resource-files-and-custom-libraries-4-d-8-e83"
+    "content": "content---docs-robot-framework-database-testing-database-testing-410-47d"
   },
-  "/docs/Robot Framework/Robot Framework Interview Questions-f1d": {
+  "/docs/Robot Framework/Database Testing/query-execution-validation-bb6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-robot-framework-interview-questions-19-e-63b"
+    "content": "content---docs-robot-framework-database-testing-query-execution-validation-8-ed-ceb"
   },
-  "/docs/Robot Framework/SeleniumLibrary UI Automation-6e3": {
+  "/docs/Robot Framework/Database Testing/transaction-management-341": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-selenium-library-ui-automationb-0-a-d67"
+    "content": "content---docs-robot-framework-database-testing-transaction-management-382-911"
   },
-  "/docs/Robot Framework/Settings Section-21a": {
+  "/docs/Robot Framework/Test Design & Implementation/control-flow-error-handling-5de": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-settings-section-59-d-e87"
+    "content": "content---docs-robot-framework-test-design-implementation-control-flow-error-handling-1-a-2-e2e"
   },
-  "/docs/Robot Framework/Tags Setup and Teardown-91c": {
+  "/docs/Robot Framework/Test Design & Implementation/data-driven-testing-approaches-866": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-tags-setup-and-teardowne-0-e-378"
+    "content": "content---docs-robot-framework-test-design-implementation-data-driven-testing-approachese-23-c74"
   },
-  "/docs/Robot Framework/Test Suite and Test Case Structure-b7c": {
+  "/docs/Robot Framework/Test Design & Implementation/resource-files-modular-design-ce4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-test-suite-and-test-case-structurec-94-c98"
+    "content": "content---docs-robot-framework-test-design-implementation-resource-files-modular-design-498-594"
   },
-  "/docs/Robot Framework/Variables in Robot Framework-5dc": {
+  "/docs/Robot Framework/Test Design & Implementation/setup-teardown-strategies-ef2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-robot-framework-variables-in-robot-frameworke-66-b70"
+    "content": "content---docs-robot-framework-test-design-implementation-setup-teardown-strategiescb-4-016"
+  },
+  "/docs/Robot Framework/Test Design & Implementation/test-organization-tags-5c0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-test-design-implementation-test-organization-tags-90-f-35d"
+  },
+  "/docs/Robot Framework/Test Design & Implementation/test-validation-techniques-c9d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-test-design-implementation-test-validation-techniquese-80-450"
+  },
+  "/docs/Robot Framework/Web UI Automation/browserlibrary-alternative-99b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-web-ui-automation-browserlibrary-alternative-43-d-6ab"
+  },
+  "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/file-operations-upload-download-b8d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-web-ui-automation-selenium-library-implementation-file-operations-upload-download-3-f-0-b9b"
+  },
+  "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/headless-browser-execution-26d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-web-ui-automation-selenium-library-implementation-headless-browser-execution-7-fa-904"
+  },
+  "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/page-object-model-pattern-f7f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-web-ui-automation-selenium-library-implementation-page-object-model-patternfa-7-013"
+  },
+  "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/seleniumlibrary-implementation-0ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-web-ui-automation-selenium-library-implementation-seleniumlibrary-implementation-766-125"
+  },
+  "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/synchronization-waits-complete-a87": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-web-ui-automation-selenium-library-implementation-synchronization-waits-completec-3-e-d74"
   },
   "/docs/Selenium/Advanced Concepts/authentication_popups-c3d": {
     "__comp": "__comp---theme-doc-item-178-a40",

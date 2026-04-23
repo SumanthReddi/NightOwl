@@ -2,7 +2,6 @@
 sidebar_position: 6
 title: Frequently Asked Questions 
 ---
-<!-- # 02-faq -->
 
 ## Frequently Asked Questions (FAQ) About Java Collections
 

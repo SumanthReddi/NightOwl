@@ -4,8 +4,6 @@ sidebar_position: 9
 # Concurrency
 ## Concurrency for Automation Testing (Parallel Execution Without Chaos)
 
-<!-- ## Priority
-AUTOMATION_CORE -->
 
 ---
 

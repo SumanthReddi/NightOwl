@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: Map Best Practices
 ---
-<!-- # 05-map-best-practices -->
+
 
 ## Best Practices for Using `Map` Implementations in Java
 

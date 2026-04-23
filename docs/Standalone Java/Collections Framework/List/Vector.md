@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Vector
 ---
-<!-- # 03-vector -->
+
 
 ## The `Vector` Class in Java
 

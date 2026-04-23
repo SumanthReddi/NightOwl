@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-title: Python Error Handling
+title: Error Handling
 ---
 
 Error handling is a critical aspect of writing robust and reliable Python programs. By anticipating and managing potential issues, you can prevent crashes, provide meaningful feedback, and ensure your program behaves predictably even in unexpected situations.

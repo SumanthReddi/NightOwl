@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '59c'),
+    component: ComponentCreator('/docs', 'c8f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '78a'),
+        component: ComponentCreator('/docs', '87f'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f7e'),
+            component: ComponentCreator('/docs', 'fae'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -431,6 +431,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/api-testing',
+                component: ComponentCreator('/docs/category/api-testing', 'ab6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/architecture',
                 component: ComponentCreator('/docs/category/architecture', '6d1'),
                 exact: true,
@@ -491,6 +497,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/core-fundamentals',
+                component: ComponentCreator('/docs/category/core-fundamentals', '8af'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/core-interfaces',
                 component: ComponentCreator('/docs/category/core-interfaces', '622'),
                 exact: true,
@@ -529,6 +541,12 @@ export default [
               {
                 path: '/docs/category/database',
                 component: ComponentCreator('/docs/category/database', 'dd4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/database-testing',
+                component: ComponentCreator('/docs/category/database-testing', '16f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -899,6 +917,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/seleniumlibrary-implementation',
+                component: ComponentCreator('/docs/category/seleniumlibrary-implementation', '1fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/set-implementations',
                 component: ComponentCreator('/docs/category/set-implementations', '037'),
                 exact: true,
@@ -935,6 +959,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/test-design--implementation',
+                component: ComponentCreator('/docs/category/test-design--implementation', 'ad8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/testng',
                 component: ComponentCreator('/docs/category/testng', '97c'),
                 exact: true,
@@ -961,6 +991,12 @@ export default [
               {
                 path: '/docs/category/web-elements',
                 component: ComponentCreator('/docs/category/web-elements', '4a8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/web-ui-automation',
+                component: ComponentCreator('/docs/category/web-ui-automation', '30a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2465,122 +2501,170 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/API Automation with RequestsLibrary',
-                component: ComponentCreator('/docs/Robot Framework/API Automation with RequestsLibrary', 'a9d'),
+                path: '/docs/Robot Framework/API Testing/api-test-chaining-strategies',
+                component: ComponentCreator('/docs/Robot Framework/API Testing/api-test-chaining-strategies', 'e6a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Architecture',
-                component: ComponentCreator('/docs/Robot Framework/Architecture', '629'),
+                path: '/docs/Robot Framework/API Testing/api-testing-requestslibrary',
+                component: ComponentCreator('/docs/Robot Framework/API Testing/api-testing-requestslibrary', 'fe0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Assertions and Validation',
-                component: ComponentCreator('/docs/Robot Framework/Assertions and Validation', '880'),
+                path: '/docs/Robot Framework/API Testing/authentication-token-management',
+                component: ComponentCreator('/docs/Robot Framework/API Testing/authentication-token-management', '5b8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Built-in Libraries',
-                component: ComponentCreator('/docs/Robot Framework/Built-in Libraries', 'f9a'),
+                path: '/docs/Robot Framework/API Testing/http-methods-implementation',
+                component: ComponentCreator('/docs/Robot Framework/API Testing/http-methods-implementation', '79e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Control Flow and Error Handling',
-                component: ComponentCreator('/docs/Robot Framework/Control Flow and Error Handling', 'ff2'),
+                path: '/docs/Robot Framework/API Testing/response-validation',
+                component: ComponentCreator('/docs/Robot Framework/API Testing/response-validation', '780'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Data Driven Testing',
-                component: ComponentCreator('/docs/Robot Framework/Data Driven Testing', '0dc'),
+                path: '/docs/Robot Framework/API Testing/schema-contract-validation',
+                component: ComponentCreator('/docs/Robot Framework/API Testing/schema-contract-validation', '674'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Database Testing',
-                component: ComponentCreator('/docs/Robot Framework/Database Testing', '08e'),
+                path: '/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries',
+                component: ComponentCreator('/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries', '083'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Debugging and Best Practices',
-                component: ComponentCreator('/docs/Robot Framework/Debugging and Best Practices', 'fe1'),
+                path: '/docs/Robot Framework/Core Fundamentals/environment-setup-configuration',
+                component: ComponentCreator('/docs/Robot Framework/Core Fundamentals/environment-setup-configuration', 'dbb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Execution Reports and CI CD',
-                component: ComponentCreator('/docs/Robot Framework/Execution Reports and CI CD', '7a5'),
+                path: '/docs/Robot Framework/Core Fundamentals/framework-overview-use-cases',
+                component: ComponentCreator('/docs/Robot Framework/Core Fundamentals/framework-overview-use-cases', '1c7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Installation and Setup',
-                component: ComponentCreator('/docs/Robot Framework/Installation and Setup', 'ebb'),
+                path: '/docs/Robot Framework/Core Fundamentals/test-case-structure-syntax',
+                component: ComponentCreator('/docs/Robot Framework/Core Fundamentals/test-case-structure-syntax', 'fbb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Introduction',
-                component: ComponentCreator('/docs/Robot Framework/Introduction', '593'),
+                path: '/docs/Robot Framework/Core Fundamentals/variables-management',
+                component: ComponentCreator('/docs/Robot Framework/Core Fundamentals/variables-management', '9f3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Keywords Concept',
-                component: ComponentCreator('/docs/Robot Framework/Keywords Concept', 'efc'),
+                path: '/docs/Robot Framework/Database Testing/data-verification-techniques',
+                component: ComponentCreator('/docs/Robot Framework/Database Testing/data-verification-techniques', '670'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Parallel Execution with Pabot',
-                component: ComponentCreator('/docs/Robot Framework/Parallel Execution with Pabot', '73a'),
+                path: '/docs/Robot Framework/Database Testing/database-connectivity-oracle-mysql-postgresql',
+                component: ComponentCreator('/docs/Robot Framework/Database Testing/database-connectivity-oracle-mysql-postgresql', 'be4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Resource Files and Custom Libraries',
-                component: ComponentCreator('/docs/Robot Framework/Resource Files and Custom Libraries', 'ba7'),
+                path: '/docs/Robot Framework/Database Testing/database-testing',
+                component: ComponentCreator('/docs/Robot Framework/Database Testing/database-testing', 'f60'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Robot Framework Interview Questions',
-                component: ComponentCreator('/docs/Robot Framework/Robot Framework Interview Questions', 'f1d'),
+                path: '/docs/Robot Framework/Database Testing/query-execution-validation',
+                component: ComponentCreator('/docs/Robot Framework/Database Testing/query-execution-validation', 'bb6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/SeleniumLibrary UI Automation',
-                component: ComponentCreator('/docs/Robot Framework/SeleniumLibrary UI Automation', '6e3'),
+                path: '/docs/Robot Framework/Database Testing/transaction-management',
+                component: ComponentCreator('/docs/Robot Framework/Database Testing/transaction-management', '341'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Settings Section',
-                component: ComponentCreator('/docs/Robot Framework/Settings Section', '21a'),
+                path: '/docs/Robot Framework/Test Design & Implementation/control-flow-error-handling',
+                component: ComponentCreator('/docs/Robot Framework/Test Design & Implementation/control-flow-error-handling', '5de'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Tags Setup and Teardown',
-                component: ComponentCreator('/docs/Robot Framework/Tags Setup and Teardown', '91c'),
+                path: '/docs/Robot Framework/Test Design & Implementation/data-driven-testing-approaches',
+                component: ComponentCreator('/docs/Robot Framework/Test Design & Implementation/data-driven-testing-approaches', '866'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Test Suite and Test Case Structure',
-                component: ComponentCreator('/docs/Robot Framework/Test Suite and Test Case Structure', 'b7c'),
+                path: '/docs/Robot Framework/Test Design & Implementation/resource-files-modular-design',
+                component: ComponentCreator('/docs/Robot Framework/Test Design & Implementation/resource-files-modular-design', 'ce4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Robot Framework/Variables in Robot Framework',
-                component: ComponentCreator('/docs/Robot Framework/Variables in Robot Framework', '5dc'),
+                path: '/docs/Robot Framework/Test Design & Implementation/setup-teardown-strategies',
+                component: ComponentCreator('/docs/Robot Framework/Test Design & Implementation/setup-teardown-strategies', 'ef2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Test Design & Implementation/test-organization-tags',
+                component: ComponentCreator('/docs/Robot Framework/Test Design & Implementation/test-organization-tags', '5c0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Test Design & Implementation/test-validation-techniques',
+                component: ComponentCreator('/docs/Robot Framework/Test Design & Implementation/test-validation-techniques', 'c9d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Web UI Automation/browserlibrary-alternative',
+                component: ComponentCreator('/docs/Robot Framework/Web UI Automation/browserlibrary-alternative', '99b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/file-operations-upload-download',
+                component: ComponentCreator('/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/file-operations-upload-download', 'b8d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/headless-browser-execution',
+                component: ComponentCreator('/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/headless-browser-execution', '26d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/page-object-model-pattern',
+                component: ComponentCreator('/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/page-object-model-pattern', 'f7f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/seleniumlibrary-implementation',
+                component: ComponentCreator('/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/seleniumlibrary-implementation', '0ed'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/synchronization-waits-complete',
+                component: ComponentCreator('/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/synchronization-waits-complete', 'a87'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

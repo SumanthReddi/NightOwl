@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Custom Collections
 ---
-<!-- # 01-custom-collections -->
+
 
 ## Implementing Custom Collections in Java
 

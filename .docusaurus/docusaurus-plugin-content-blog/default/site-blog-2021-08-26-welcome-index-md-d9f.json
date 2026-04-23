@@ -26,7 +26,7 @@
     }
   ],
   "readingTime": 0.56,
-  "hasTruncateMarker": true,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "Sébastien Lorber",

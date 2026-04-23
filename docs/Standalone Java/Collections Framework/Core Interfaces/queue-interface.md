@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Queue Interface
 ---
-<!-- # 04-queue-interface -->
+
 
 ## The `Queue` Interface in Java
 

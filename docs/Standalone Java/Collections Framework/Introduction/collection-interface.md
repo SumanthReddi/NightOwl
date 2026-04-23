@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Collection Interface
 ---
-<!-- # 02-collection-interface -->
+
 
 ## The `Collection` Interface in Java
 

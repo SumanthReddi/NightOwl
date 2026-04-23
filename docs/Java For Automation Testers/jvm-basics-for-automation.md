@@ -4,8 +4,6 @@ sidebar_position: 15
 # JVM Basics
 ## JVM Basics for Automation Testing (Stability, Memory & CI Reliability)
 
-<!-- ## Priority
-ADVANCED_AWARENESS -->
 
 ---
 

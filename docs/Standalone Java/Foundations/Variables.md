@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-<!-- ##  Complete Guide to Java Variables: Theory and Practice -->
+
 
 
 ## Table of Contents

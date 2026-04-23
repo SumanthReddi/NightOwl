@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: LinkedHashSet
 ---
-<!-- # 02-linkedhashset -->
+
 
 ## The `LinkedHashSet` Class in Java
 

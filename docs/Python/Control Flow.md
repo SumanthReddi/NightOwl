@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Python Control Flow and Range Function
+title: Control Flow and Range Function
 ---
 
 Python's control flow structures and the `range()` function are essential for managing how code executes based on conditions, loops, and sequences. This document provides a comprehensive overview of these concepts, complete with examples and outputs.

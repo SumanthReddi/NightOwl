@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Immutable Collections
 ---
-<!-- # 02-immutable-collections -->
+
 
 ## Immutable Collections in Java
 

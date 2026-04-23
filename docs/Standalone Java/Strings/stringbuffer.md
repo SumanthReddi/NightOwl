@@ -2,7 +2,6 @@
 sidebar_position: 7
 title: StringBuffer
 ---
-<!-- ## StringBuffer in Java -->
 
 ### What Is StringBuffer?
 

@@ -2,7 +2,6 @@
 sidebar_position: 3
 title: String Constant Pool
 ---
-<!-- # String Constant Pool (SCP) in Java -->
 
 ## What is the String Constant Pool?
 

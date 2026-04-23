@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Hashtable
 ---
-<!-- # 02-hashtable -->
+
 
 ## The `Hashtable` Class in Java
 

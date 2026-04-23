@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Concurrent Collections
 ---
-<!-- # 01-concurrent-collections -->
+
 
 ## Concurrent Collections in Java
 

@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Object-Oriented Programming (OOP) in Python",
+    "title": "Object-Oriented Programming",
     "permalink": "/docs/Python/Object-Oriented Programming"
   },
   "next": {
-    "title": "Python Modules and Packages",
+    "title": "Modules and Packages",
     "permalink": "/docs/Python/Modules and Packages"
   }
 }

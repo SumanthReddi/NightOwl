@@ -12,9 +12,6 @@ Sliders allow users to select a **value from a range** by dragging a handle. The
 
 Sliders are **highly visual and interaction-heavy**, so automation must focus on **value change validation**, not pixel-perfect movement.
 
-<!-- ### Slider UI Example (Visual Reference)
-![Slider UI example](https://www.freepik.com/free-photos-vectors/slider-ui) -->
-
 ---
 
 ## Typical HTML Implementations

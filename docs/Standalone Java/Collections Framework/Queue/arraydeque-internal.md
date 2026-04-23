@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: ArrayDeque 
 ---
-<!-- # 02-arraydeque -->
+
 
 ## The `ArrayDeque` Class in Java
 

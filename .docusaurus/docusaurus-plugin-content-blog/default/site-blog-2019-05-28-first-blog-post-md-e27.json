@@ -19,8 +19,8 @@
       "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 0.13,
-  "hasTruncateMarker": true,
+  "readingTime": 0.12,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "Sébastien Lorber",

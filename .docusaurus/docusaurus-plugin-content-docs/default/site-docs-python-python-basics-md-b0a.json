@@ -1,6 +1,6 @@
 {
   "id": "Python/Python Basics",
-  "title": "Python Basics",
+  "title": "Basics",
   "description": "Python is a versatile, high-level programming language that has become",
   "source": "@site/docs/Python/Python Basics.md",
   "sourceDirName": "Python",
@@ -14,7 +14,7 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "Python Basics"
+    "title": "Basics"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -22,7 +22,7 @@
     "permalink": "/docs/category/python"
   },
   "next": {
-    "title": "Python Operators and Expressions",
+    "title": "Operators and Expressions",
     "permalink": "/docs/Python/Operators and Expressions"
   }
 }

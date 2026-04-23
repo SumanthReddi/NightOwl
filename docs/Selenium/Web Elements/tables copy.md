@@ -12,9 +12,6 @@ Tables display **structured data in rows and columns**. In real applications, ta
 - Reports and audits
 
 Automation focuses on **data correctness, row actions, pagination, and sorting**, not layout styling.
-<!-- 
-### Table UI Example (Visual Reference)
-![HTML table example](https://upload.wikimedia.org/wikipedia/commons/3/3b/HTML_table_example.png) -->
 
 ---
 

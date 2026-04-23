@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: String Immutability 
 ---
-<!-- # String Immutability in Java -->
+
 
 ## What is String Immutability?
 

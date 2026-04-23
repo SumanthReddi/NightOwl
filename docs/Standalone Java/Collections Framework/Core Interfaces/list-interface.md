@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: List Interface
 ---
-<!-- # 01-list-interface -->
+
 
 ## The `List` Interface in Java
 

@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Memory Management
 ---
-<!-- # 04-memory-management -->
+
 
 ## Memory Management and Garbage Collection Considerations for Java Collections
 

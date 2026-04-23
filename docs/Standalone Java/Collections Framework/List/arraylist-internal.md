@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: ArrayList
 ---
-<!-- # 01-arraylist -->
+
 
 ## The `ArrayList` Class in Java
 

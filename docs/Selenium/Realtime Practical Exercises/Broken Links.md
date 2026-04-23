@@ -2,7 +2,6 @@
 sidebar_position: 2
 ---
 
-<!-- ## Broken Link Validation in Selenium (Java) -->
 
 ## What is Broken Link Validation?
 A broken link is a hyperlink or image URL that returns:

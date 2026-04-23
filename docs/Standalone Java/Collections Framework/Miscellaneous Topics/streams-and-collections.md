@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Streams and Collections
 ---
-<!-- # 03-streams-and-collections -->
+
 
 ## Using Streams with Collections in Java
 

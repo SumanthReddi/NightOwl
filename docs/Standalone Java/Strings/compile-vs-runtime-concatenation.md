@@ -2,7 +2,7 @@
 sidebar_position: 10
 title: Compile-Time vs Runtime Concatenation
 ---
-<!-- # Compile-Time vs Runtime Concatenation in Java -->
+
 
 In Java, string concatenation can happen at **compile-time** or **runtime** depending on how the strings are created.
 

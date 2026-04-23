@@ -1,6 +1,6 @@
 {
   "id": "Python/Operators and Expressions",
-  "title": "Python Operators and Expressions",
+  "title": "Operators and Expressions",
   "description": "Python provides a rich set of operators to perform various operations on",
   "source": "@site/docs/Python/Operators and Expressions.md",
   "sourceDirName": "Python",
@@ -14,15 +14,15 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "Python Operators and Expressions"
+    "title": "Operators and Expressions"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Python Basics",
+    "title": "Basics",
     "permalink": "/docs/Python/Python Basics"
   },
   "next": {
-    "title": "Python Control Flow and Range Function",
+    "title": "Control Flow and Range Function",
     "permalink": "/docs/Python/Control Flow"
   }
 }

@@ -2,7 +2,6 @@
 sidebar_position: 3
 title: LinkedHashMap 
 ---
-<!-- # 03-linkedhashmap -->
 
 ## The `LinkedHashMap` Class in Java
 

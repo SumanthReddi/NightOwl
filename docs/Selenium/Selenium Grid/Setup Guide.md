@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-<!-- # Selenium Grid – Setup Guide -->
+
 
 ## Grid 4 Standalone Mode
 

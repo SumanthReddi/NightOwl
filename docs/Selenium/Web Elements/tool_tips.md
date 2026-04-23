@@ -15,10 +15,6 @@ Common real-world usages:
 
 Tooltips can be **native HTML** or **custom JavaScript components**.
 
-<!-- ### Tooltip UI Example (Visual Reference)
-![Tooltip hover example](https://upload.wikimedia.org/wikipedia/commons/6/6a/Tooltip_example.png)
-
---- -->
 
 ## Types of Tooltips You’ll Encounter
 

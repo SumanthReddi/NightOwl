@@ -13,9 +13,6 @@ Common real-world usages:
 - Feature flags
 - Privacy settings
 
-<!-- ### Toggle UI Example (Visual Reference)
-![Toggle switch example](https://upload.wikimedia.org/wikipedia/commons/3/3f/Toggle_switch_ui_example.png) -->
-
 ---
 
 ## Typical HTML Implementations

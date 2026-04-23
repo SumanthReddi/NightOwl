@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: String Overview & Creation
 ---
-<!-- # String Overview & Creation in Java -->
+
 
 ## What is a String?
 
@@ -124,11 +124,11 @@ String s1 = "Java";
 String s2 = "Java";
 ```
 
-<!-- Memory representation:
+Memory representation:
 
     String Pool
     -------------
-    "Java"  ← s1, s2 -->
+    "Java"  ← s1, s2 
 
 Only **one object exists**, both variables reference it.
 

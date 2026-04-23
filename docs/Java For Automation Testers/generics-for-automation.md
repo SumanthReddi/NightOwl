@@ -4,8 +4,6 @@ sidebar_position: 6
 # Generics
 ## Generics for Automation Testing (Making Framework Utilities Safe)
 
-<!-- ## Priority
-AUTOMATION_CORE -->
 
 ---
 

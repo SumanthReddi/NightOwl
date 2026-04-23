@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Deque Interface 
 ---
-<!-- # 04-deque-in-queues -->
+
 
 ## The Role of `Deque` in Queue Implementations
 

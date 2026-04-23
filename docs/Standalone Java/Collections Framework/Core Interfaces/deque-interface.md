@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: Deque Interface
 ---
-<!-- # 05-deque-interface -->
+
 
 ## The `Deque` Interface in Java
 

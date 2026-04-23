@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Stack Class
 ---
-<!-- # 04-stack -->
+
 
 ## The `Stack` Class in Java
 

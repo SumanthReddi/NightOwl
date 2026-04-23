@@ -5,8 +5,6 @@ sidebar_position: 5
 # Collections
 # Collections for Automation Testing (Handling Multiple Elements & Data)
 
-<!-- ## Priority
-AUTOMATION_CORE -->
 
 ---
 

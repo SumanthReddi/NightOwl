@@ -1,6 +1,6 @@
 {
   "id": "Python/Functions and Scopes",
-  "title": "Python Functions and Scope",
+  "title": "Functions and Scope",
   "description": "Functions are fundamental building blocks in Python, enabling code reuse, modularity, and better organization. Understanding how to define, call, and manage functions is essential for writing efficient and maintainable programs. This document explores the core concepts of Python functions, including parameters, scope, lambda functions, recursion, and advanced argument handling.",
   "source": "@site/docs/Python/Functions and Scopes.md",
   "sourceDirName": "Python",
@@ -14,7 +14,7 @@
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5,
-    "title": "Python Functions and Scope"
+    "title": "Functions and Scope"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -22,7 +22,7 @@
     "permalink": "/docs/Python/Additional Python Data Structures"
   },
   "next": {
-    "title": "Python File Handling and Automation",
+    "title": "File Handling and Automation",
     "permalink": "/docs/Python/File Handling"
   }
 }

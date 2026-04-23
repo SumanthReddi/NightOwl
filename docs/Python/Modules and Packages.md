@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-title: Python Modules and Packages
+title: Modules and Packages
 ---
 
 Modules and packages are essential for organizing and reusing code in

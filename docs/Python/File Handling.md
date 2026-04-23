@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: Python File Handling and Automation
+title: File Handling and Automation
 ---
 
 File handling is a critical aspect of programming, enabling interaction with files and directories for tasks like reading, writing, and managing data. Python provides robust tools for file operations, including built-in functions and modules like `os`, `shutil`, `pathlib`, `glob`, and `subprocess`. This document explores file handling and automation in Python, complete with examples and explanations.

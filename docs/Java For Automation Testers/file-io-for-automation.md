@@ -5,8 +5,6 @@ sidebar_position: 10
 # File Handling & I/O 
 ## File Handling & I/O for Automation Testing (Configuration & Test Data)
 
-<!-- ## Priority
-AUTOMATION_CORE -->
 
 ---
 

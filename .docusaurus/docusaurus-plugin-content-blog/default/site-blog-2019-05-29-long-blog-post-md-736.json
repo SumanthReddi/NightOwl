@@ -19,8 +19,8 @@
       "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 2.04,
-  "hasTruncateMarker": true,
+  "readingTime": 1.97,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "Yangshun Tay",

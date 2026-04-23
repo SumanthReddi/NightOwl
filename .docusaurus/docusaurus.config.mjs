@@ -10,29 +10,47 @@ export default {
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
-      "useCssCascadeLayers": true
+      "useCssCascadeLayers": true,
+      "siteStorageNamespacing": true,
+      "fasterByDefault": true,
+      "mdx1CompatDisabledByDefault": true
     },
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
+    "faster": {
+      "swcJsLoader": true,
+      "swcJsMinimizer": true,
+      "swcHtmlMinimizer": true,
+      "lightningCssMinimizer": true,
+      "mdxCrossCompilerCache": true,
+      "rspackBundler": true,
+      "rspackPersistentCache": true,
+      "ssgWorkerThreads": true,
+      "gitEagerVcs": true
     },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
+    "experimental_vcs": {},
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://sumanthu.vercel.app",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "sumanthreddy",
+  "projectName": "NightOwl",
   "onBrokenLinks": "warn",
+  "markdown": {
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    },
+    "format": "mdx",
+    "mermaid": false,
+    "emoji": true,
+    "mdx1Compat": {
+      "comments": false,
+      "admonitions": false,
+      "headingIds": false
+    },
+    "anchors": {
+      "maintainCase": false
+    }
+  },
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -72,7 +90,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Home",
+      "title": "NightOwl",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -82,7 +100,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         }
       ],
       "hideOnScroll": false
@@ -130,7 +148,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2026 Sumanth Reddy , Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2026 Sumanth Reddy. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -360,6 +378,10 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "storage": {
+    "type": "localStorage",
+    "namespace": true
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -373,22 +395,5 @@ export default {
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    },
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    }
-  }
+  "noIndex": false
 };

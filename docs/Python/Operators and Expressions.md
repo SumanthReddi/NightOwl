@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Python Operators and Expressions
+title: Operators and Expressions
 ---
 
 Python provides a rich set of operators to perform various operations on

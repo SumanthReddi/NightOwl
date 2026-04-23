@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: LinkedList
 ---
-<!-- # 02-linkedlist -->
+
 
 ## The `LinkedList` Class in Java
 

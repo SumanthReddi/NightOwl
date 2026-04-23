@@ -2,7 +2,6 @@
 sidebar_position: 1
 ---
 
-<!-- ## Introduction to Apache Maven -->
 
 **Apache Maven** is a **build automation and dependency management tool** primarily used for Java-based projects.
 

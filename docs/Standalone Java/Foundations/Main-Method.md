@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-<!-- ## Java main() Method Explained -->
+
 
 The `main` method is the entry point of any standalone Java application. When you run a Java program, the Java Virtual Machine (JVM) looks for the `main` method and starts executing your program from there.
 

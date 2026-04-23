@@ -1,6 +1,6 @@
 {
   "id": "Python/Error Handling",
-  "title": "Python Error Handling",
+  "title": "Error Handling",
   "description": "Error handling is a critical aspect of writing robust and reliable Python programs. By anticipating and managing potential issues, you can prevent crashes, provide meaningful feedback, and ensure your program behaves predictably even in unexpected situations.",
   "source": "@site/docs/Python/Error Handling.md",
   "sourceDirName": "Python",
@@ -14,15 +14,15 @@
   "sidebarPosition": 7,
   "frontMatter": {
     "sidebar_position": 7,
-    "title": "Python Error Handling"
+    "title": "Error Handling"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Python File Handling and Automation",
+    "title": "File Handling and Automation",
     "permalink": "/docs/Python/File Handling"
   },
   "next": {
-    "title": "Object-Oriented Programming (OOP) in Python",
+    "title": "Object-Oriented Programming",
     "permalink": "/docs/Python/Object-Oriented Programming"
   }
 }

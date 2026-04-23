@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: String Methods
 ---
-<!-- # String Methods in Java -->
+
 
 Java provides many built-in methods in the `String` class to manipulate
 and analyze text.
