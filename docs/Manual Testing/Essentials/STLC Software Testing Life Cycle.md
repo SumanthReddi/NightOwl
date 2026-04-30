@@ -159,7 +159,7 @@ Expected Result: User is redirected to dashboard
 - **Better collaboration between teams**
 - **Improved product quality**
 
-:::warning Important
+:::warning[Important]
 Skipping STLC phases can lead to **missed defects, poor coverage, and unstable releases**.
 :::
 

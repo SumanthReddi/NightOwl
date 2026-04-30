@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-c8f": {
+  "/docs-11b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-87f": {
+  "/docs-4a8": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-fae": {
+  "/docs-367": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -494,6 +494,14 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-best-practices-636-4cf"
   },
+  "/docs/category/career--interview-preparation-a76": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-career-interview-preparation-936-1d2"
+  },
+  "/docs/category/cicd-integration-4af": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-cicd-integration-66-f-48d"
+  },
   "/docs/category/collections-framework-ac7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-collections-frameworkb-3-f-927"
@@ -545,10 +553,6 @@
   "/docs/category/database-testing-16f": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-database-testingcbe-093"
-  },
-  "/docs/category/docusaurus--99a": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-docusaurus-02-d-a68"
   },
   "/docs/category/environment-data-e4a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -742,6 +746,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-pipeline-internalsba-3-376"
   },
+  "/docs/category/production-framework-patterns-e20": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-production-framework-patternsf-09-823"
+  },
   "/docs/category/python-493": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-python-48-f-c2d"
@@ -757,6 +765,10 @@
   "/docs/category/reliability-7f9": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-reliability-504-a4e"
+  },
+  "/docs/category/reliability--maintenance-95a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-reliability-maintenance-462-fb9"
   },
   "/docs/category/request-and-response-handling-823": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1009,34 +1021,6 @@
   "/docs/Database/Troubleshooting/Interview Readiness-e84": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-database-troubleshooting-interview-readiness-0-da-2fa"
-  },
-  "/docs/Docusaurus/congratulations-332": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-congratulations-9-c-7-777"
-  },
-  "/docs/Docusaurus/create-a-blog-post-76a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-create-a-blog-posta-93-f07"
-  },
-  "/docs/Docusaurus/create-a-document-ad7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-create-a-documentbb-1-4b1"
-  },
-  "/docs/Docusaurus/create-a-page-9d3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-create-a-pagec-9-e-3a5"
-  },
-  "/docs/Docusaurus/create-oops-068": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-create-oopse-73-951"
-  },
-  "/docs/Docusaurus/deploy-your-site-014": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-deploy-your-site-48-f-3c5"
-  },
-  "/docs/Docusaurus/markdown-features-ef3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-markdown-features-1-bf-5fc"
   },
   "/docs/Extent Report/advanced_configuration_and_customization-ea3": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1870,6 +1854,30 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-robot-framework-api-testing-schema-contract-validation-96-f-b46"
   },
+  "/docs/Robot Framework/Career & Interview Preparation/robot-framework-interview-guide-c9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-career-interview-preparation-robot-framework-interview-guide-052-de9"
+  },
+  "/docs/Robot Framework/Career & Interview Preparation/scenario-based-problem-solving-clean-d36": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-career-interview-preparation-scenario-based-problem-solving-clean-3-c-6-d50"
+  },
+  "/docs/Robot Framework/CICD Integration/gitlab-ci-pipeline-advanced-a46": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-cicd-integration-gitlab-ci-pipeline-advanced-501-b18"
+  },
+  "/docs/Robot Framework/CICD Integration/jenkins-integration-advanced-9ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-cicd-integration-jenkins-integration-advanced-731-8ec"
+  },
+  "/docs/Robot Framework/CICD Integration/parallel-execution-setup-a66": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-cicd-integration-parallel-execution-setupa-6-c-9e3"
+  },
+  "/docs/Robot Framework/CICD Integration/test-reporting-artifacts-94c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-cicd-integration-test-reporting-artifactsd-85-ce1"
+  },
   "/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries-083": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-robot-framework-core-fundamentals-built-in-keywords-libraries-3-d-5-9c4"
@@ -1909,6 +1917,38 @@
   "/docs/Robot Framework/Database Testing/transaction-management-341": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-robot-framework-database-testing-transaction-management-382-911"
+  },
+  "/docs/Robot Framework/Production Framework Patterns/environment-configuration-management-f1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-production-framework-patterns-environment-configuration-management-78-f-3c3"
+  },
+  "/docs/Robot Framework/Production Framework Patterns/project-structure-best-practices-f2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-production-framework-patterns-project-structure-best-practices-247-8f3"
+  },
+  "/docs/Robot Framework/Production Framework Patterns/real-world-implementation-examples-667": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-production-framework-patterns-real-world-implementation-examplesa-62-4b1"
+  },
+  "/docs/Robot Framework/Production Framework Patterns/reusable-component-design-55c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-production-framework-patterns-reusable-component-designf-74-ff5"
+  },
+  "/docs/Robot Framework/Reliability & Maintenance/framework-evolution-strategies-e9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-reliability-maintenance-framework-evolution-strategies-6-dd-7a2"
+  },
+  "/docs/Robot Framework/Reliability & Maintenance/performance-optimization-b88": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-reliability-maintenance-performance-optimization-356-456"
+  },
+  "/docs/Robot Framework/Reliability & Maintenance/test-stability-engineering-clean-7c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-reliability-maintenance-test-stability-engineering-cleandb-9-5d9"
+  },
+  "/docs/Robot Framework/Reliability & Maintenance/troubleshooting-common-issues-910": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-reliability-maintenance-troubleshooting-common-issues-603-6d4"
   },
   "/docs/Robot Framework/Test Design & Implementation/control-flow-error-handling-5de": {
     "__comp": "__comp---theme-doc-item-178-a40",

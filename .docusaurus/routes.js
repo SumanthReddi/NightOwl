@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c8f'),
+    component: ComponentCreator('/docs', '11b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '87f'),
+        component: ComponentCreator('/docs', '4a8'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'fae'),
+            component: ComponentCreator('/docs', '367'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -473,6 +473,18 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/career--interview-preparation',
+                component: ComponentCreator('/docs/category/career--interview-preparation', 'a76'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/cicd-integration',
+                component: ComponentCreator('/docs/category/cicd-integration', '4af'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/collections-framework',
                 component: ComponentCreator('/docs/category/collections-framework', 'ac7'),
                 exact: true,
@@ -547,12 +559,6 @@ export default [
               {
                 path: '/docs/category/database-testing',
                 component: ComponentCreator('/docs/category/database-testing', '16f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/docusaurus-',
-                component: ComponentCreator('/docs/category/docusaurus-', '99a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -845,6 +851,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/production-framework-patterns',
+                component: ComponentCreator('/docs/category/production-framework-patterns', 'e20'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/python',
                 component: ComponentCreator('/docs/category/python', '493'),
                 exact: true,
@@ -865,6 +877,12 @@ export default [
               {
                 path: '/docs/category/reliability',
                 component: ComponentCreator('/docs/category/reliability', '7f9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/reliability--maintenance',
+                component: ComponentCreator('/docs/category/reliability--maintenance', '95a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1243,48 +1261,6 @@ export default [
               {
                 path: '/docs/Database/Troubleshooting/Interview Readiness',
                 component: ComponentCreator('/docs/Database/Troubleshooting/Interview Readiness', 'e84'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Docusaurus/congratulations',
-                component: ComponentCreator('/docs/Docusaurus/congratulations', '332'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Docusaurus/create-a-blog-post',
-                component: ComponentCreator('/docs/Docusaurus/create-a-blog-post', '76a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Docusaurus/create-a-document',
-                component: ComponentCreator('/docs/Docusaurus/create-a-document', 'ad7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Docusaurus/create-a-page',
-                component: ComponentCreator('/docs/Docusaurus/create-a-page', '9d3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Docusaurus/create-oops',
-                component: ComponentCreator('/docs/Docusaurus/create-oops', '068'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Docusaurus/deploy-your-site',
-                component: ComponentCreator('/docs/Docusaurus/deploy-your-site', '014'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Docusaurus/markdown-features',
-                component: ComponentCreator('/docs/Docusaurus/markdown-features', 'ef3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2537,6 +2513,42 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Robot Framework/Career & Interview Preparation/robot-framework-interview-guide',
+                component: ComponentCreator('/docs/Robot Framework/Career & Interview Preparation/robot-framework-interview-guide', 'c9c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Career & Interview Preparation/scenario-based-problem-solving-clean',
+                component: ComponentCreator('/docs/Robot Framework/Career & Interview Preparation/scenario-based-problem-solving-clean', 'd36'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/CICD Integration/gitlab-ci-pipeline-advanced',
+                component: ComponentCreator('/docs/Robot Framework/CICD Integration/gitlab-ci-pipeline-advanced', 'a46'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/CICD Integration/jenkins-integration-advanced',
+                component: ComponentCreator('/docs/Robot Framework/CICD Integration/jenkins-integration-advanced', '9ce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/CICD Integration/parallel-execution-setup',
+                component: ComponentCreator('/docs/Robot Framework/CICD Integration/parallel-execution-setup', 'a66'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/CICD Integration/test-reporting-artifacts',
+                component: ComponentCreator('/docs/Robot Framework/CICD Integration/test-reporting-artifacts', '94c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries',
                 component: ComponentCreator('/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries', '083'),
                 exact: true,
@@ -2593,6 +2605,54 @@ export default [
               {
                 path: '/docs/Robot Framework/Database Testing/transaction-management',
                 component: ComponentCreator('/docs/Robot Framework/Database Testing/transaction-management', '341'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Production Framework Patterns/environment-configuration-management',
+                component: ComponentCreator('/docs/Robot Framework/Production Framework Patterns/environment-configuration-management', 'f1a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Production Framework Patterns/project-structure-best-practices',
+                component: ComponentCreator('/docs/Robot Framework/Production Framework Patterns/project-structure-best-practices', 'f2f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Production Framework Patterns/real-world-implementation-examples',
+                component: ComponentCreator('/docs/Robot Framework/Production Framework Patterns/real-world-implementation-examples', '667'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Production Framework Patterns/reusable-component-design',
+                component: ComponentCreator('/docs/Robot Framework/Production Framework Patterns/reusable-component-design', '55c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Reliability & Maintenance/framework-evolution-strategies',
+                component: ComponentCreator('/docs/Robot Framework/Reliability & Maintenance/framework-evolution-strategies', 'e9c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Reliability & Maintenance/performance-optimization',
+                component: ComponentCreator('/docs/Robot Framework/Reliability & Maintenance/performance-optimization', 'b88'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Reliability & Maintenance/test-stability-engineering-clean',
+                component: ComponentCreator('/docs/Robot Framework/Reliability & Maintenance/test-stability-engineering-clean', '7c6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Reliability & Maintenance/troubleshooting-common-issues',
+                component: ComponentCreator('/docs/Robot Framework/Reliability & Maintenance/troubleshooting-common-issues', '910'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

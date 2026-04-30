@@ -426,41 +426,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus/congratulations",
-              "path": "/docs/Docusaurus/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus/create-a-blog-post",
-              "path": "/docs/Docusaurus/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus/create-a-document",
-              "path": "/docs/Docusaurus/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus/create-a-page",
-              "path": "/docs/Docusaurus/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus/create-oops",
-              "path": "/docs/Docusaurus/create-oops",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus/deploy-your-site",
-              "path": "/docs/Docusaurus/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus/markdown-features",
-              "path": "/docs/Docusaurus/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Extent Report/advanced_configuration_and_customization",
               "path": "/docs/Extent Report/advanced_configuration_and_customization",
               "sidebar": "tutorialSidebar"
@@ -1501,6 +1466,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Robot Framework/Career & Interview Preparation/robot-framework-interview-guide",
+              "path": "/docs/Robot Framework/Career & Interview Preparation/robot-framework-interview-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Career & Interview Preparation/scenario-based-problem-solving-clean",
+              "path": "/docs/Robot Framework/Career & Interview Preparation/scenario-based-problem-solving-clean",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/CICD Integration/gitlab-ci-pipeline-advanced",
+              "path": "/docs/Robot Framework/CICD Integration/gitlab-ci-pipeline-advanced",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/CICD Integration/jenkins-integration-advanced",
+              "path": "/docs/Robot Framework/CICD Integration/jenkins-integration-advanced",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/CICD Integration/parallel-execution-setup",
+              "path": "/docs/Robot Framework/CICD Integration/parallel-execution-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/CICD Integration/test-reporting-artifacts",
+              "path": "/docs/Robot Framework/CICD Integration/test-reporting-artifacts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Robot Framework/Core Fundamentals/built-in-keywords-libraries",
               "path": "/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries",
               "sidebar": "tutorialSidebar"
@@ -1548,6 +1543,46 @@
             {
               "id": "Robot Framework/Database Testing/transaction-management",
               "path": "/docs/Robot Framework/Database Testing/transaction-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Production Framework Patterns/environment-configuration-management",
+              "path": "/docs/Robot Framework/Production Framework Patterns/environment-configuration-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Production Framework Patterns/project-structure-best-practices",
+              "path": "/docs/Robot Framework/Production Framework Patterns/project-structure-best-practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Production Framework Patterns/real-world-implementation-examples",
+              "path": "/docs/Robot Framework/Production Framework Patterns/real-world-implementation-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Production Framework Patterns/reusable-component-design",
+              "path": "/docs/Robot Framework/Production Framework Patterns/reusable-component-design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Reliability & Maintenance/framework-evolution-strategies",
+              "path": "/docs/Robot Framework/Reliability & Maintenance/framework-evolution-strategies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Reliability & Maintenance/performance-optimization",
+              "path": "/docs/Robot Framework/Reliability & Maintenance/performance-optimization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Reliability & Maintenance/test-stability-engineering-clean",
+              "path": "/docs/Robot Framework/Reliability & Maintenance/test-stability-engineering-clean",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Reliability & Maintenance/troubleshooting-common-issues",
+              "path": "/docs/Robot Framework/Reliability & Maintenance/troubleshooting-common-issues",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -3121,13 +3156,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/agile",
-              "path": "/docs/category/agile",
+              "id": "/category/cicd-integration",
+              "path": "/docs/category/cicd-integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/docusaurus-",
-              "path": "/docs/category/docusaurus-",
+              "id": "/category/production-framework-patterns",
+              "path": "/docs/category/production-framework-patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reliability--maintenance",
+              "path": "/docs/category/reliability--maintenance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/career--interview-preparation",
+              "path": "/docs/category/career--interview-preparation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/agile",
+              "path": "/docs/category/agile",
               "sidebar": "tutorialSidebar"
             },
             {

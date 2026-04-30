@@ -236,7 +236,7 @@ Now the test validates the **business process**, not just clicks.
 
 ## ❌ Common Mistakes
 
-:::warning Common Pitfalls
+:::warning[Common Pitfalls]
 
 1. Treating Robot as only Selenium wrapper  
 2. Overusing `Sleep`  

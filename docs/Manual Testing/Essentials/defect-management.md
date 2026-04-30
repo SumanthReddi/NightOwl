@@ -97,7 +97,7 @@ The defect lifecycle describes the stages a defect goes through from **identific
 - The defect is rejected if it is not considered a valid issue.
 - Status: **Rejected**
 
-:::warning Important
+:::warning[Important]
 Sometimes defects are rejected if they are **expected behavior or caused by incorrect testing**.
 :::
 

@@ -204,7 +204,7 @@ After **every new build or deployment**.
 - Login functionality works
 - Major features load correctly
 
-:::warning Important
+:::warning[Important]
 If smoke testing fails, the build is usually **rejected and sent back to development**.
 :::
 

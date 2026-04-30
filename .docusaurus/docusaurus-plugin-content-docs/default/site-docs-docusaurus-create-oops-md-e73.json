@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/Docusaurus/congratulations"
+    "title": "Deploy your site",
+    "permalink": "/docs/Docusaurus/deploy-your-site"
   },
   "next": {
     "title": "Jenkins",
