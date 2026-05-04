@@ -23,11 +23,11 @@ This document includes:
 
 ------------------------------------------------------------------------
 
-# 🔹 1. Reverse String
+## 🔹 1. Reverse String
 
-👉 Core Logic\
-- Strings are immutable\
-- Traverse from end to start\
+👉 Core Logic
+- Strings are immutable
+- Traverse from end to start
 - Build new string
 
 ### Approach 1 (Efficient)
@@ -68,10 +68,10 @@ System.out.println(rev); // Output: avaJ
 
 ------------------------------------------------------------------------
 
-# 🔹 2. Reverse Each Word
+## 🔹 2. Reverse Each Word
 
-👉 Core Logic\
-- Split sentence into words\
+👉 Core Logic
+- Split sentence into words
 - Reverse each word individually
 
 ### Approach 1
@@ -117,9 +117,9 @@ System.out.println(result.toString().trim()); // Output: olleH dlroW
 
 ------------------------------------------------------------------------
 
-# 🔹 3. Reverse Word Order
+## 🔹 3. Reverse Word Order
 
-👉 Core Logic\
+👉 Core Logic
 - Reverse order of words
 
 ### Approach 1
@@ -155,9 +155,9 @@ System.out.println(String.join(" ", list)); // Output: fun is Java
 
 ------------------------------------------------------------------------
 
-# 🔹 4. Reverse Third Word
+## 🔹 4. Reverse Third Word
 
-👉 Core Logic\
+👉 Core Logic
 - Modify only 3rd word
 
 ### Approach 1
@@ -202,9 +202,9 @@ System.out.println(String.join(" ", words)); // Output: I love avaJ coding
 
 ------------------------------------------------------------------------
 
-# 🔹 5. Palindrome
+## 🔹 5. Palindrome
 
-👉 Core Logic\
+👉 Core Logic
 - Same forward and backward
 
 ### Approach 1
@@ -244,9 +244,9 @@ System.out.println(isPalindrome); // Output: true
 
 ------------------------------------------------------------------------
 
-# 🔹 6. Anagram
+## 🔹 6. Anagram
 
-👉 Core Logic\
+👉 Core Logic
 - Same character frequency
 
 ### Approach 1
@@ -359,9 +359,9 @@ class Main {
 
 ------------------------------------------------------------------------
 
-# 🔹 7. Count Vowels & Consonants
+## 🔹 7. Count Vowels & Consonants
 
-👉 Core Logic\
+👉 Core Logic
 - Check each character
 
 ### Approach 1
@@ -409,9 +409,9 @@ System.out.println("V:" + v + " C:" + (s.length() - v)); // Output: V:5 C:5
 
 ------------------------------------------------------------------------
 
-# 🔹 8. Count Words
+## 🔹 8. Count Words
 
-👉 Core Logic\
+👉 Core Logic
 - Words separated by spaces
 
 ### Approach 1
@@ -445,9 +445,9 @@ System.out.println(count); // Output: 3
 
 ------------------------------------------------------------------------
 
-# 🔹 9. Remove Whitespaces
+## 🔹 9. Remove Whitespaces
 
-👉 Core Logic\
+👉 Core Logic
 - Skip spaces
 
 ### Approach 1
@@ -481,9 +481,9 @@ System.out.println(s.replace(" ", "")); // Output: Java
 
 ------------------------------------------------------------------------
 
-# 🔹 10. Remove Duplicate Characters
+## 🔹 10. Remove Duplicate Characters
 
-👉 Core Logic\
+👉 Core Logic
 - Keep first occurrence
 
 ### Approach 1
@@ -534,9 +534,9 @@ for (int i = 0; i < s.length(); i++) {
 
 ------------------------------------------------------------------------
 
-# 🔹 11. First Non-Repeating Character
+## 🔹 11. First Non-Repeating Character
 
-👉 Core Logic\
+👉 Core Logic
 - First character with single occurrence
 
 ### Approach 1
@@ -581,9 +581,9 @@ for (char c : s.toCharArray()) {
 
 ------------------------------------------------------------------------
 
-# 🔹 12. First Repeating Character
+## 🔹 12. First Repeating Character
 
-👉 Core Logic\
+👉 Core Logic
 - First character that repeats
 
 ### Approach 1
@@ -624,9 +624,9 @@ for (int i = 0; i < s.length(); i++) {
 
 ------------------------------------------------------------------------
 
-# 🔹 13. Remove Digits
+## 🔹 13. Remove Digits
 
-👉 Core Logic\
+👉 Core Logic
 - Keep non-digit characters
 
 ### Approach 1

@@ -10,7 +10,7 @@ Different types of manual testing are used to verify different aspects of a syst
 
 Understanding these testing types helps testers **choose the right testing approach for different scenarios**.
 
-:::info Why Testing Types Matter
+:::info[Why Testing Types Matter]
 Each testing type focuses on a different quality aspect such as functionality, integration, usability, or stability.
 :::
 
@@ -164,7 +164,7 @@ It relies on:
 
 Exploring an application to discover **unexpected behavior or usability issues**.
 
-:::tip Exploratory Testing Advantage
+:::tip[Exploratory Testing Advantage]
 Exploratory testing often discovers **edge cases that scripted tests might miss**.
 :::
 
@@ -210,16 +210,38 @@ If smoke testing fails, the build is usually **rejected and sent back to develop
 
 ---
 
+## 1️⃣1️⃣ Sanity Testing
+
+**What is it?**
+
+A **focused test** to verify that specific functionality or bug fixes work correctly after recent changes.
+
+**When to use**
+
+After **bug fixes, minor changes, or enhancements**.
+
+**Example checks**
+
+- Verify the specific issue is fixed  
+- Check related functionality is working  
+- Ensure no side effects in impacted areas  
+
+:::warning[Important]
+If sanity testing fails, the build is **rejected for further testing until issues are resolved**.
+:::
+
+---
+
 ## 📌 Key Takeaways
 
-- **Black Box Testing** → Tests functionality without internal knowledge
-- **White Box Testing** → Tests internal logic and code structure
-- **Gray Box Testing** → Combines both approaches
-- **Unit Testing** → Tests individual components
-- **Integration Testing** → Tests interactions between modules
-- **System Testing** → Tests the complete system
-- **User Acceptance Testing (UAT)** → Validates business requirements
-- **Exploratory Testing** → Unscripted discovery testing
-- **Regression Testing** → Ensures new changes do not break existing features
-- **Smoke Testing** → Quick build verification test
-
+- **Black Box Testing** → Tests functionality without internal knowledge  
+- **White Box Testing** → Tests internal logic and code structure  
+- **Gray Box Testing** → Combines both approaches  
+- **Unit Testing** → Tests individual components  
+- **Integration Testing** → Tests interactions between modules  
+- **System Testing** → Tests the complete system  
+- **User Acceptance Testing (UAT)** → Validates business requirements  
+- **Exploratory Testing** → Unscripted discovery testing  
+- **Regression Testing** → Ensures new changes do not break existing features  
+- **Smoke Testing** → Quick build verification test  
+- **Sanity Testing** → Focused check on specific changes or bug fixes  

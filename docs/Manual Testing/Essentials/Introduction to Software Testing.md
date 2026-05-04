@@ -52,7 +52,8 @@ Testing is critical because:
 - **Quality** → Everyone’s responsibility
 - **Testing** → Measures quality by identifying gaps
 
-:::info Important
+:::info
+Important
 Testing **does not create quality** — it helps **identify lack of quality**.
 :::
 
@@ -75,7 +76,8 @@ Synonyms:
 
 ## Can We Test Everything?
 
-:::danger No
+:::danger 
+No
 Testing **cannot be exhaustive**.
 :::
 
@@ -126,7 +128,8 @@ A good tester:
 - Thinks like a **developer**
 - Thinks like a **business stakeholder**
 
-:::tip Tester Mindset
+:::tip
+Tester Mindset
 Break the application **before users do**.
 :::
 

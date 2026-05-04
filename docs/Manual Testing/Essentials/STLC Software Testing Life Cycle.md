@@ -47,7 +47,7 @@ Each phase of STLC has specific **objectives and deliverables** that guide the t
 - **Test objectives**
 - Requirement clarifications
 
-:::tip Tester Involvement
+:::tip[Tester Involvement]
 Testers should participate in requirement discussions to identify **missing or ambiguous requirements early**.
 :::
 
@@ -167,15 +167,19 @@ Skipping STLC phases can lead to **missed defects, poor coverage, and unstable r
 
 ## 📌 Key Takeaways
 
-- STLC defines a **step‑by‑step testing workflow**
-- The six phases are:
+**STLC (Software Testing Life Cycle)** helps ensure structured and high-quality testing.
 
-1. Requirement Analysis  
-2. Test Planning  
-3. Test Case Development  
-4. Test Environment Setup  
-5. Test Execution  
-6. Test Closure  
+### 🔹 Core Points
 
-- STLC ensures **systematic testing and better software quality**
-- STLC is a **part of SDLC**, focused specifically on testing
+- Defines a **step-by-step testing workflow**
+- Ensures **systematic testing and better software quality**
+- Acts as a **subset of SDLC**, focused only on testing
+
+### 🔹 STLC Phases
+
+1. **Requirement Analysis**
+2. **Test Planning**
+3. **Test Case Development**
+4. **Test Environment Setup**
+5. **Test Execution**
+6. **Test Closure**

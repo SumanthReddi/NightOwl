@@ -9,7 +9,8 @@ title: Defect Management
 
 Effective defect management ensures that bugs are **identified, tracked, and resolved systematically**, reducing the risk of failures in production.
 
-:::info Why Defect Management Matters
+:::info
+Why Defect Management Matters
 A structured defect management process helps teams fix issues faster and maintain **software quality and stability**.
 :::
 

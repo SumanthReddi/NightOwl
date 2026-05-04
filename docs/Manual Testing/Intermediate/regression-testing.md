@@ -9,7 +9,7 @@ title: Regression Testing
 
 It is a critical activity for maintaining **software stability and quality**, especially in projects with frequent updates.
 
-:::info Why Regression Testing Matters
+:::info[Why Regression Testing Matters]
 Regression testing ensures that **new code changes do not negatively impact existing features**, helping maintain system reliability.
 :::
 
@@ -34,7 +34,7 @@ Regression testing verifies that **previously working functionality continues to
 - **Maintain Quality** – Ensures the application remains stable.
 - **Support Agile / DevOps** – Frequent releases require continuous validation.
 
-:::tip Continuous Delivery Insight
+:::tip[Continuous Delivery Insight]
 In modern Agile and DevOps environments, regression testing is performed **frequently to ensure rapid yet stable releases**.
 :::
 

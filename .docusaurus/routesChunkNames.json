@@ -249,17 +249,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-11b": {
+  "/docs-32e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-4a8": {
+  "/docs-0aa": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-367": {
+  "/docs-9df": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -1550,9 +1550,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-manual-testing-essentials-stlc-software-testing-life-cycle-9-fd-ca3"
   },
-  "/docs/Manual Testing/Essentials/test-case-design-965": {
+  "/docs/Manual Testing/Essentials/test_case_design-2cc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-manual-testing-essentials-test-case-design-0-f-2-cb1"
+    "content": "content---docs-manual-testing-essentials-test-case-designd-39-940"
   },
   "/docs/Manual Testing/Intermediate/Cross Browser Testing-8f2": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -2718,13 +2718,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-multithreading-thread-synchronization-exact-4-cf-083"
   },
+  "/docs/Standalone Java/OOPS/abstract_vs_interface-378": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-standalone-java-oops-abstract-vs-interfacedef-01a"
+  },
   "/docs/Standalone Java/OOPS/Abstraction-281": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-oops-abstractiond-37-528"
-  },
-  "/docs/Standalone Java/OOPS/abstraction-and-interfaces-9ce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-oops-abstraction-and-interfaces-6-cf-a37"
   },
   "/docs/Standalone Java/OOPS/classes-and-objects-40a": {
     "__comp": "__comp---theme-doc-item-178-a40",

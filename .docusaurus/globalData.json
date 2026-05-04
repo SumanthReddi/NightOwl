@@ -1086,8 +1086,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Manual Testing/Essentials/test-case-design",
-              "path": "/docs/Manual Testing/Essentials/test-case-design",
+              "id": "Manual Testing/Essentials/test_case_design",
+              "path": "/docs/Manual Testing/Essentials/test_case_design",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2546,13 +2546,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/OOPS/Abstraction",
-              "path": "/docs/Standalone Java/OOPS/Abstraction",
+              "id": "Standalone Java/OOPS/abstract_vs_interface",
+              "path": "/docs/Standalone Java/OOPS/abstract_vs_interface",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/OOPS/abstraction-and-interfaces",
-              "path": "/docs/Standalone Java/OOPS/abstraction-and-interfaces",
+              "id": "Standalone Java/OOPS/Abstraction",
+              "path": "/docs/Standalone Java/OOPS/Abstraction",
               "sidebar": "tutorialSidebar"
             },
             {

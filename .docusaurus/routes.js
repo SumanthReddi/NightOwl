@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '11b'),
+    component: ComponentCreator('/docs', '32e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '4a8'),
+        component: ComponentCreator('/docs', '0aa'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '367'),
+            component: ComponentCreator('/docs', '9df'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -2057,8 +2057,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Manual Testing/Essentials/test-case-design',
-                component: ComponentCreator('/docs/Manual Testing/Essentials/test-case-design', '965'),
+                path: '/docs/Manual Testing/Essentials/test_case_design',
+                component: ComponentCreator('/docs/Manual Testing/Essentials/test_case_design', '2cc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -3809,14 +3809,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/OOPS/Abstraction',
-                component: ComponentCreator('/docs/Standalone Java/OOPS/Abstraction', '281'),
+                path: '/docs/Standalone Java/OOPS/abstract_vs_interface',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/abstract_vs_interface', '378'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/OOPS/abstraction-and-interfaces',
-                component: ComponentCreator('/docs/Standalone Java/OOPS/abstraction-and-interfaces', '9ce'),
+                path: '/docs/Standalone Java/OOPS/Abstraction',
+                component: ComponentCreator('/docs/Standalone Java/OOPS/Abstraction', '281'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

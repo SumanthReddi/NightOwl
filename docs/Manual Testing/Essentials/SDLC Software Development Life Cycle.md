@@ -9,7 +9,8 @@ The **Software Development Life Cycle (SDLC)** is a structured process used to d
 
 It defines how software is **planned, built, tested, and maintained** throughout its lifecycle.
 
-:::info Why SDLC Matters
+:::info
+Why SDLC Matters
 Understanding SDLC is important for testers because it shows **where testing fits** and how it contributes to delivering a **reliable and successful product**.
 :::
 
@@ -50,7 +51,8 @@ Testing contributes to almost **every phase of the lifecycle**.
 - Review requirements for **clarity and testability**
 - Identify **missing requirements or ambiguities**
 
-:::tip Tester Involvement
+:::tip
+Tester Involvement
 Early involvement of testers helps prevent defects **before development even begins**.
 :::
 

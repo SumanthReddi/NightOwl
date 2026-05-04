@@ -49,7 +49,7 @@ For a field accepting ages **18–60**:
 
 ### 2️⃣ Boundary Value Analysis (BVA)
 
-:::tip Important Testing Insight
+:::tip[Important Testing Insight]
 Many software defects occur at **boundary values**, making Boundary Value Analysis one of the most effective testing techniques.
 :::
 
@@ -141,7 +141,7 @@ Think about common developer mistakes or unusual user actions.
 
 ### 6️⃣ Exploratory Testing
 
-:::tip Exploratory Testing Advantage
+:::tip[Exploratory Testing Advantage]
 Exploratory testing often discovers **unexpected behavior, usability problems, and edge cases** that scripted tests might miss.
 :::
 
