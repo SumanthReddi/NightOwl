@@ -1436,213 +1436,223 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/API Testing/api-test-chaining-strategies",
-              "path": "/docs/Robot Framework/API Testing/api-test-chaining-strategies",
+              "id": "Robot Framework/API Testing/Authentication",
+              "path": "/docs/Robot Framework/API Testing/Authentication",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/API Testing/api-testing-requestslibrary",
-              "path": "/docs/Robot Framework/API Testing/api-testing-requestslibrary",
+              "id": "Robot Framework/API Testing/Chained_APIs",
+              "path": "/docs/Robot Framework/API Testing/Chained_APIs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/API Testing/authentication-token-management",
-              "path": "/docs/Robot Framework/API Testing/authentication-token-management",
+              "id": "Robot Framework/API Testing/JSON_Handling",
+              "path": "/docs/Robot Framework/API Testing/JSON_Handling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/API Testing/http-methods-implementation",
-              "path": "/docs/Robot Framework/API Testing/http-methods-implementation",
+              "id": "Robot Framework/API Testing/Real_Project_Patterns",
+              "path": "/docs/Robot Framework/API Testing/Real_Project_Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/API Testing/response-validation",
-              "path": "/docs/Robot Framework/API Testing/response-validation",
+              "id": "Robot Framework/API Testing/RequestsLibrary",
+              "path": "/docs/Robot Framework/API Testing/RequestsLibrary",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/API Testing/schema-contract-validation",
-              "path": "/docs/Robot Framework/API Testing/schema-contract-validation",
+              "id": "Robot Framework/API Testing/Response_Validation",
+              "path": "/docs/Robot Framework/API Testing/Response_Validation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Career & Interview Preparation/robot-framework-interview-guide",
-              "path": "/docs/Robot Framework/Career & Interview Preparation/robot-framework-interview-guide",
+              "id": "Robot Framework/Career & Interview Preparation/Career_Interview_Preparation",
+              "path": "/docs/Robot Framework/Career & Interview Preparation/Career_Interview_Preparation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Career & Interview Preparation/scenario-based-problem-solving-clean",
-              "path": "/docs/Robot Framework/Career & Interview Preparation/scenario-based-problem-solving-clean",
+              "id": "Robot Framework/Career & Interview Preparation/Robot_Interview_Questions",
+              "path": "/docs/Robot Framework/Career & Interview Preparation/Robot_Interview_Questions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/CICD Integration/gitlab-ci-pipeline-advanced",
-              "path": "/docs/Robot Framework/CICD Integration/gitlab-ci-pipeline-advanced",
+              "id": "Robot Framework/Career & Interview Preparation/Scenario_Based_Questions",
+              "path": "/docs/Robot Framework/Career & Interview Preparation/Scenario_Based_Questions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/CICD Integration/jenkins-integration-advanced",
-              "path": "/docs/Robot Framework/CICD Integration/jenkins-integration-advanced",
+              "id": "Robot Framework/Career & Interview Preparation/System_Design_for_QA",
+              "path": "/docs/Robot Framework/Career & Interview Preparation/System_Design_for_QA",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/CICD Integration/parallel-execution-setup",
-              "path": "/docs/Robot Framework/CICD Integration/parallel-execution-setup",
+              "id": "Robot Framework/CICD Integration/Execution_Strategies",
+              "path": "/docs/Robot Framework/CICD Integration/Execution_Strategies",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/CICD Integration/test-reporting-artifacts",
-              "path": "/docs/Robot Framework/CICD Integration/test-reporting-artifacts",
+              "id": "Robot Framework/CICD Integration/GitLab_CI",
+              "path": "/docs/Robot Framework/CICD Integration/GitLab_CI",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Core Fundamentals/built-in-keywords-libraries",
-              "path": "/docs/Robot Framework/Core Fundamentals/built-in-keywords-libraries",
+              "id": "Robot Framework/CICD Integration/Pabot_Parallel_Execution",
+              "path": "/docs/Robot Framework/CICD Integration/Pabot_Parallel_Execution",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Core Fundamentals/environment-setup-configuration",
-              "path": "/docs/Robot Framework/Core Fundamentals/environment-setup-configuration",
+              "id": "Robot Framework/CICD Integration/Sauce_Labs",
+              "path": "/docs/Robot Framework/CICD Integration/Sauce_Labs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Core Fundamentals/framework-overview-use-cases",
-              "path": "/docs/Robot Framework/Core Fundamentals/framework-overview-use-cases",
+              "id": "Robot Framework/Core Fundamentals/BuiltIn_Utilities",
+              "path": "/docs/Robot Framework/Core Fundamentals/BuiltIn_Utilities",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Core Fundamentals/test-case-structure-syntax",
-              "path": "/docs/Robot Framework/Core Fundamentals/test-case-structure-syntax",
+              "id": "Robot Framework/Core Fundamentals/Control_Flow",
+              "path": "/docs/Robot Framework/Core Fundamentals/Control_Flow",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Core Fundamentals/variables-management",
-              "path": "/docs/Robot Framework/Core Fundamentals/variables-management",
+              "id": "Robot Framework/Core Fundamentals/Overview_Final",
+              "path": "/docs/Robot Framework/Core Fundamentals/Overview_Final",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Database Testing/data-verification-techniques",
-              "path": "/docs/Robot Framework/Database Testing/data-verification-techniques",
+              "id": "Robot Framework/Core Fundamentals/Syntax_Keywords",
+              "path": "/docs/Robot Framework/Core Fundamentals/Syntax_Keywords",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Database Testing/database-connectivity-oracle-mysql-postgresql",
-              "path": "/docs/Robot Framework/Database Testing/database-connectivity-oracle-mysql-postgresql",
+              "id": "Robot Framework/Core Fundamentals/Variables_Resources_Libraries_Fixed",
+              "path": "/docs/Robot Framework/Core Fundamentals/Variables_Resources_Libraries_Fixed",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Database Testing/database-testing",
-              "path": "/docs/Robot Framework/Database Testing/database-testing",
+              "id": "Robot Framework/Database Testing/Data_Verification_Patterns",
+              "path": "/docs/Robot Framework/Database Testing/Data_Verification_Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Database Testing/query-execution-validation",
-              "path": "/docs/Robot Framework/Database Testing/query-execution-validation",
+              "id": "Robot Framework/Database Testing/DatabaseLibrary",
+              "path": "/docs/Robot Framework/Database Testing/DatabaseLibrary",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Database Testing/transaction-management",
-              "path": "/docs/Robot Framework/Database Testing/transaction-management",
+              "id": "Robot Framework/Database Testing/Oracle_Integration",
+              "path": "/docs/Robot Framework/Database Testing/Oracle_Integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Production Framework Patterns/environment-configuration-management",
-              "path": "/docs/Robot Framework/Production Framework Patterns/environment-configuration-management",
+              "id": "Robot Framework/Database Testing/SQL_Validation",
+              "path": "/docs/Robot Framework/Database Testing/SQL_Validation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Production Framework Patterns/project-structure-best-practices",
-              "path": "/docs/Robot Framework/Production Framework Patterns/project-structure-best-practices",
+              "id": "Robot Framework/Framework Patterns/Configuration_Management",
+              "path": "/docs/Robot Framework/Framework Patterns/Configuration_Management",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Production Framework Patterns/real-world-implementation-examples",
-              "path": "/docs/Robot Framework/Production Framework Patterns/real-world-implementation-examples",
+              "id": "Robot Framework/Framework Patterns/Custom_Python_Libraries",
+              "path": "/docs/Robot Framework/Framework Patterns/Custom_Python_Libraries",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Production Framework Patterns/reusable-component-design",
-              "path": "/docs/Robot Framework/Production Framework Patterns/reusable-component-design",
+              "id": "Robot Framework/Framework Patterns/Enterprise_Structure",
+              "path": "/docs/Robot Framework/Framework Patterns/Enterprise_Structure",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Reliability & Maintenance/framework-evolution-strategies",
-              "path": "/docs/Robot Framework/Reliability & Maintenance/framework-evolution-strategies",
+              "id": "Robot Framework/Framework Patterns/Logging_Reporting",
+              "path": "/docs/Robot Framework/Framework Patterns/Logging_Reporting",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Reliability & Maintenance/performance-optimization",
-              "path": "/docs/Robot Framework/Reliability & Maintenance/performance-optimization",
+              "id": "Robot Framework/Framework Patterns/Secrets_Environment_Handling",
+              "path": "/docs/Robot Framework/Framework Patterns/Secrets_Environment_Handling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Reliability & Maintenance/test-stability-engineering-clean",
-              "path": "/docs/Robot Framework/Reliability & Maintenance/test-stability-engineering-clean",
+              "id": "Robot Framework/Reliability & Troubleshooting/Debugging_Troubleshooting",
+              "path": "/docs/Robot Framework/Reliability & Troubleshooting/Debugging_Troubleshooting",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Reliability & Maintenance/troubleshooting-common-issues",
-              "path": "/docs/Robot Framework/Reliability & Maintenance/troubleshooting-common-issues",
+              "id": "Robot Framework/Reliability & Troubleshooting/Flaky_Test_Handling",
+              "path": "/docs/Robot Framework/Reliability & Troubleshooting/Flaky_Test_Handling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Test Design & Implementation/control-flow-error-handling",
-              "path": "/docs/Robot Framework/Test Design & Implementation/control-flow-error-handling",
+              "id": "Robot Framework/Reliability & Troubleshooting/Maintenance_Strategy",
+              "path": "/docs/Robot Framework/Reliability & Troubleshooting/Maintenance_Strategy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Test Design & Implementation/data-driven-testing-approaches",
-              "path": "/docs/Robot Framework/Test Design & Implementation/data-driven-testing-approaches",
+              "id": "Robot Framework/Reliability & Troubleshooting/Retry_Patterns",
+              "path": "/docs/Robot Framework/Reliability & Troubleshooting/Retry_Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Test Design & Implementation/resource-files-modular-design",
-              "path": "/docs/Robot Framework/Test Design & Implementation/resource-files-modular-design",
+              "id": "Robot Framework/Reliability & Troubleshooting/Root_Cause_Analysis",
+              "path": "/docs/Robot Framework/Reliability & Troubleshooting/Root_Cause_Analysis",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Test Design & Implementation/setup-teardown-strategies",
-              "path": "/docs/Robot Framework/Test Design & Implementation/setup-teardown-strategies",
+              "id": "Robot Framework/Test Design & Implementation/Best_Practices",
+              "path": "/docs/Robot Framework/Test Design & Implementation/Best_Practices",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Test Design & Implementation/test-organization-tags",
-              "path": "/docs/Robot Framework/Test Design & Implementation/test-organization-tags",
+              "id": "Robot Framework/Test Design & Implementation/Data_Driven_Testing",
+              "path": "/docs/Robot Framework/Test Design & Implementation/Data_Driven_Testing",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Test Design & Implementation/test-validation-techniques",
-              "path": "/docs/Robot Framework/Test Design & Implementation/test-validation-techniques",
+              "id": "Robot Framework/Test Design & Implementation/Framework_Design",
+              "path": "/docs/Robot Framework/Test Design & Implementation/Framework_Design",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Web UI Automation/browserlibrary-alternative",
-              "path": "/docs/Robot Framework/Web UI Automation/browserlibrary-alternative",
+              "id": "Robot Framework/Test Design & Implementation/Keyword_Driven_Framework",
+              "path": "/docs/Robot Framework/Test Design & Implementation/Keyword_Driven_Framework",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Web UI Automation/SeleniumLibrary Implementation/file-operations-upload-download",
-              "path": "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/file-operations-upload-download",
+              "id": "Robot Framework/Test Design & Implementation/Reusable_Components",
+              "path": "/docs/Robot Framework/Test Design & Implementation/Reusable_Components",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Web UI Automation/SeleniumLibrary Implementation/headless-browser-execution",
-              "path": "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/headless-browser-execution",
+              "id": "Robot Framework/Web UI Automation/Advanced_UI_Patterns",
+              "path": "/docs/Robot Framework/Web UI Automation/Advanced_UI_Patterns",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Web UI Automation/SeleniumLibrary Implementation/page-object-model-pattern",
-              "path": "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/page-object-model-pattern",
+              "id": "Robot Framework/Web UI Automation/Browser_Library",
+              "path": "/docs/Robot Framework/Web UI Automation/Browser_Library",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Web UI Automation/SeleniumLibrary Implementation/seleniumlibrary-implementation",
-              "path": "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/seleniumlibrary-implementation",
+              "id": "Robot Framework/Web UI Automation/Locators_XPath",
+              "path": "/docs/Robot Framework/Web UI Automation/Locators_XPath",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Robot Framework/Web UI Automation/SeleniumLibrary Implementation/synchronization-waits-complete",
-              "path": "/docs/Robot Framework/Web UI Automation/SeleniumLibrary Implementation/synchronization-waits-complete",
+              "id": "Robot Framework/Web UI Automation/SeleniumLibrary",
+              "path": "/docs/Robot Framework/Web UI Automation/SeleniumLibrary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Web UI Automation/Waits",
+              "path": "/docs/Robot Framework/Web UI Automation/Waits",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Web UI Automation/Windows_Frames_Alerts",
+              "path": "/docs/Robot Framework/Web UI Automation/Windows_Frames_Alerts",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -3141,11 +3151,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/seleniumlibrary-implementation",
-              "path": "/docs/category/seleniumlibrary-implementation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/api-testing",
               "path": "/docs/category/api-testing",
               "sidebar": "tutorialSidebar"
@@ -3161,18 +3166,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/production-framework-patterns",
-              "path": "/docs/category/production-framework-patterns",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/reliability--maintenance",
-              "path": "/docs/category/reliability--maintenance",
+              "id": "/category/framework-patterns",
+              "path": "/docs/category/framework-patterns",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/career--interview-preparation",
               "path": "/docs/category/career--interview-preparation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reliability--troubleshooting",
+              "path": "/docs/category/reliability--troubleshooting",
               "sidebar": "tutorialSidebar"
             },
             {

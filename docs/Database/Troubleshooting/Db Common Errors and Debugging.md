@@ -1,14 +1,13 @@
 ---
 sidebar_position: 1
-title: Db Common Errors and Debugging
+title: Common Errors and Debugging
 ---
 
 ## Common Database Errors & Automation Debugging Patterns
 
-Even well-written automation tests fail due to **database-related issues**.
-Senior automation testers don’t panic — they **recognize patterns** and debug efficiently.
+Automation tests can fail due to database-related issues, even when test logic is correct.
 
-This section consolidates **real-world DB errors** and how automation testers should respond.
+This section outlines common database error scenarios and practical debugging approaches for automation testers.
 
 ---
 

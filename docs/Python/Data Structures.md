@@ -76,7 +76,7 @@ print(a, b)  # Output: 10 20
 
 ### 3. Sets
 
-A **set** is an unordered collection of unique elements. It automatically removes duplicates and supports mathematical operations like union and intersection.
+A **set** is mutable and an unordered collection of unique elements. It automatically removes duplicates and supports mathematical operations like union and intersection.
 
 #### Basic Operations
 
