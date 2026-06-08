@@ -114,11 +114,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '293'),
+    component: ComponentCreator('/docs', '515'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '62f'),
+        component: ComponentCreator('/docs', 'cea'),
         routes: [
           {
             path: '/docs/tags',
@@ -462,7 +462,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '15e'),
+            component: ComponentCreator('/docs', 'f64'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -3227,6 +3227,12 @@ export default [
               {
                 path: '/docs/Selenium/Interview Questions/framework_ci_cd_questions',
                 component: ComponentCreator('/docs/Selenium/Interview Questions/framework_ci_cd_questions', 'a2b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Selenium/Interview Questions/oops concepts in automation',
+                component: ComponentCreator('/docs/Selenium/Interview Questions/oops concepts in automation', '7a7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

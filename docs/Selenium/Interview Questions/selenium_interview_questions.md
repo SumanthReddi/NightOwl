@@ -13,102 +13,164 @@ Focus is on **UI automation**, not API, DB, TestNG, or framework tools.
 
 ## Core Selenium Concepts
 
-### Q1. What is Selenium?
-**Answer:** Selenium is a browser automation tool used to automate web applications by interacting with UI elements through WebDriver.
 
----
+<details>
+<summary>What is Selenium?</summary>
 
-### Q2. What is WebDriver?
-**Answer:** WebDriver is an API that controls browsers programmatically and communicates using the W3C WebDriver protocol.
+Selenium is a browser automation tool used to automate web applications by interacting with UI elements through WebDriver.
 
----
+</details>
 
-### Q3. Difference between Selenium 3 and Selenium 4?
-**Answer:** Selenium 4 is W3C-compliant, has native Shadow DOM support, relative locators, new window API, and improved Grid.
+<details>
+<summary>What is WebDriver?</summary>
+
+WebDriver is an API that controls browsers programmatically and communicates using the W3C WebDriver protocol.
+
+</details>
+
+<details>
+<summary>Difference between Selenium 3 and Selenium 4?</summary>
+
+Selenium 4 is W3C-compliant, has native Shadow DOM support, relative locators, new window API, and improved Grid.
+
+</details>
 
 ---
 
 ## Locators & Elements
 
-### Q4. Which locator is most reliable?
-**Answer:** `id`, followed by `name`, stable CSS selectors. XPath is last option.
 
----
+<details>
+<summary>Which locator is most reliable?</summary>
 
-### Q5. Why should index-based XPath be avoided?
-**Answer:** It breaks easily when UI layout changes.
+`id`, followed by `name`, and stable CSS selectors. XPath should be the last option.
+
+</details>
+
+<details>
+<summary>Why should index-based XPath be avoided?</summary>
+
+It breaks easily when the UI layout changes.
+
+</details>
 
 ---
 
 ## Synchronization
 
-### Q6. Difference between implicit and explicit wait?
-**Answer:** Implicit wait applies globally; explicit wait waits for a specific condition. Explicit wait is preferred.
 
----
+<details>
+<summary>Difference between implicit and explicit wait?</summary>
 
-### Q7. Why is Thread.sleep bad?
-**Answer:** It causes unnecessary delays and flaky tests because it does not wait for conditions.
+Implicit wait applies globally.
+
+Explicit wait waits for a specific condition.
+
+Explicit wait is preferred.
+
+</details>
+
+<details>
+<summary>Why is Thread.sleep bad?</summary>
+
+It causes unnecessary delays and flaky tests because it does not wait for conditions.
+
+</details>
 
 ---
 
 ## Dynamic UI Handling
 
-### Q8. What causes StaleElementReferenceException?
-**Answer:** DOM re-rendering or page refresh invalidates the element reference.
 
----
+<details>
+<summary>What causes StaleElementReferenceException?</summary>
 
-### Q9. How do you handle dynamic elements?
-**Answer:** Use explicit waits and re-locate elements after DOM changes.
+DOM re-rendering or page refresh invalidates the element reference.
+
+</details>
+
+<details>
+<summary>How do you handle dynamic elements?</summary>
+
+Use explicit waits and re-locate elements after DOM changes.
+
+</details>
 
 ---
 
 ## Advanced UI Topics
 
-### Q10. Can Selenium handle Shadow DOM?
-**Answer:** Yes, Selenium 4 can handle open Shadow DOM using `getShadowRoot()`.
 
----
+<details>
+<summary>Can Selenium handle Shadow DOM?</summary>
 
-### Q11. Can Selenium handle authentication popups?
-**Answer:** Not directly. Use credential-in-URL for basic auth.
+Yes, Selenium 4 can handle open Shadow DOM using `getShadowRoot()`.
+
+</details>
+
+<details>
+<summary>Can Selenium handle authentication popups?</summary>
+
+Not directly. Use credential-in-URL for basic authentication.
+
+</details>
 
 ---
 
 ## Selenium Grid
 
-### Q12. What is Selenium Grid?
-**Answer:** A tool for parallel and distributed test execution across browsers and machines.
 
----
+<details>
+<summary>What is Selenium Grid?</summary>
 
-### Q13. Does Grid fix flaky tests?
-**Answer:** No. It exposes flaky tests; it does not fix them.
+A tool for parallel and distributed test execution across browsers and machines.
+
+</details>
+
+<details>
+<summary>Does Grid fix flaky tests?</summary>
+
+No. It exposes flaky tests; it does not fix them.
+
+</details>
 
 ---
 
 ## CI/CD & Stability
 
-### Q14. Why tests pass locally but fail in CI?
-**Answer:** Slower environment, headless mode, timing issues, or parallel execution.
 
----
+<details>
+<summary>Why do tests pass locally but fail in CI?</summary>
 
-### Q15. How do you reduce flaky tests?
-**Answer:** Use proper waits, stable locators, and clean framework design.
+Slower environment, headless mode, timing issues, or parallel execution.
+
+</details>
+
+<details>
+<summary>How do you reduce flaky tests?</summary>
+
+Use proper waits, stable locators, and clean framework design.
+
+</details>
 
 ---
 
 ## Scenario-Based Questions
 
-### Q16. Button is visible but not clickable. What do you do?
-**Answer:** Wait for overlays/loaders to disappear and use `elementToBeClickable`.
 
----
+<details>
+<summary>Button is visible but not clickable. What do you do?</summary>
 
-### Q17. Element exists but Selenium cannot find it.
-**Answer:** Check timing, iframe context, or Shadow DOM.
+Wait for overlays/loaders to disappear and use `elementToBeClickable`.
+
+</details>
+
+<details>
+<summary>Element exists but Selenium cannot find it. What do you do?</summary>
+
+Check timing, iframe context, or Shadow DOM.
+
+</details>
 
 ---
 

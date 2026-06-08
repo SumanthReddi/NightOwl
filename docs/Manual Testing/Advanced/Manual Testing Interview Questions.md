@@ -7,159 +7,213 @@ sidebar_position: 5
 This section consolidates **frequently asked manual testing interview questions** with **clear, practical answers**.
 The focus is on **real project thinking**, not textbook definitions.
 
----
-
-## 1️⃣ What is Software Testing?
+<details>
+<summary>What is Software Testing?</summary>
 
 Software testing is the process of verifying and validating that a software application meets requirements and works as expected, with the goal of reducing risk and ensuring quality.
 
----
+</details>
 
-## 2️⃣ Why is Testing Required?
+<details>
+<summary>Why is Testing Required?</summary>
 
-Testing is required to:
-- Identify defects early
-- Reduce business risk
-- Improve product quality
-- Prevent production failures
+Testing helps identify defects early, reduce business risk, improve product quality, and prevent production failures.
 
----
+</details>
 
-## 3️⃣ What is the Difference Between Verification and Validation?
+<details>
+<summary>What is the Difference Between Verification and Validation?</summary>
 
-- **Verification** checks whether the product is built correctly.
-- **Validation** checks whether the correct product is built.
+Verification checks whether the product is built correctly.
 
----
+Validation checks whether the correct product is built.
 
-## 4️⃣ What is SDLC and STLC?
+</details>
 
-- **SDLC** explains how software is developed.
-- **STLC** explains how testing activities are planned and executed.
+<details>
+<summary>What is SDLC and STLC?</summary>
 
----
+SDLC explains how software is developed.
 
-## 5️⃣ What are the Levels of Testing?
+STLC explains how testing activities are planned and executed.
 
-- Unit Testing
-- Integration Testing
-- System Testing
-- Acceptance Testing (UAT)
+</details>
 
----
+<details>
+<summary>What are the Levels of Testing?</summary>
 
-## 6️⃣ Smoke Testing vs Sanity Testing?
+The main levels of testing are Unit Testing, Integration Testing, System Testing, and Acceptance Testing (UAT).
 
-- **Smoke Testing** checks build stability.
-- **Sanity Testing** verifies specific changes or bug fixes.
+</details>
 
----
+<details>
+<summary>What is Unit Testing?</summary>
 
-## 7️⃣ What is Regression Testing?
+Unit testing validates individual components or functions of an application in isolation.
 
-Regression testing ensures existing functionality works after changes. It is the **best candidate for automation**.
+</details>
 
----
+<details>
+<summary>What is Integration Testing?</summary>
 
-## 8️⃣ What is a Test Scenario?
+Integration testing verifies that multiple modules or systems work together correctly.
 
-A test scenario is a high-level description of what needs to be tested, derived from requirements.
+</details>
 
----
+<details>
+<summary>What is System Testing?</summary>
 
-## 9️⃣ Test Scenario vs Test Case?
+System testing validates the complete application against specified requirements.
 
-- Scenario → WHAT to test
-- Test Case → HOW to test
+</details>
 
----
+<details>
+<summary>What is Acceptance Testing (UAT)?</summary>
 
-## 🔟 What is a Defect?
+Acceptance testing is performed by business users or clients to confirm that the application meets business requirements.
 
-A defect is a deviation between expected and actual behavior.
+</details>
 
----
+<details>
+<summary>What is the Difference Between Smoke Testing and Sanity Testing?</summary>
 
-## 1️⃣1️⃣ Severity vs Priority?
+Smoke testing checks the overall stability of a build.
 
-- **Severity**: Impact on system
-- **Priority**: Urgency to fix
+Sanity testing verifies specific changes, enhancements, or bug fixes.
 
-They are independent.
+</details>
 
----
+<details>
+<summary>What is Regression Testing?</summary>
 
-## 1️⃣2️⃣ What is a Test Plan?
+Regression testing ensures that existing functionality continues to work after code changes, enhancements, or bug fixes.
 
-A test plan defines scope, approach, schedule, and resources for testing a specific project.
+</details>
 
----
+<details>
+<summary>Why is Regression Testing a Good Candidate for Automation?</summary>
 
-## 1️⃣3️⃣ What is Risk-Based Testing?
+Regression tests are repetitive, stable, and executed frequently, making them ideal for automation.
 
-Risk-based testing prioritizes testing based on business and technical risk.
+</details>
 
----
+<details>
+<summary>What is a Test Scenario?</summary>
 
-## 1️⃣4️⃣ What is Agile Testing?
+A test scenario is a high-level description of a feature or functionality that needs to be tested.
 
-Agile testing is continuous testing performed throughout development in Agile projects.
+</details>
 
----
+<details>
+<summary>What is the Difference Between a Test Scenario and a Test Case?</summary>
 
-## 1️⃣5️⃣ What is UAT?
+A test scenario describes what to test.
 
-UAT is testing performed by business users to validate acceptance.
+A test case describes how to test it, including steps and expected results.
 
----
+</details>
 
-## 1️⃣6️⃣ Can Testers Test in Production?
+<details>
+<summary>What is a Defect?</summary>
 
-Only limited smoke testing is allowed after deployment. Full testing is not permitted.
+A defect is a deviation between the expected and actual behavior of a software application.
 
----
+</details>
 
-## 1️⃣7️⃣ Manual Testing vs Automation Testing?
+<details>
+<summary>What is the Difference Between Severity and Priority?</summary>
 
-Manual testing explores and validates behavior; automation supports regression and repetition.
+Severity indicates the impact of a defect on the system.
 
----
+Priority indicates how urgently the defect should be fixed.
 
-## 1️⃣8️⃣ What Makes a Good Tester?
+</details>
 
-- Strong requirement understanding
-- Attention to detail
-- Risk-based thinking
-- Clear communication
+<details>
+<summary>Can Severity and Priority Be Different?</summary>
 
----
+Yes. A defect can have high severity but low priority, or low severity but high priority, depending on business needs.
 
-## 1️⃣9️⃣ How Do You Handle Tight Deadlines?
+</details>
 
-By prioritizing high-risk areas, running smoke tests first, and communicating coverage risks.
+<details>
+<summary>What is a Test Plan?</summary>
 
----
+A test plan is a document that defines the testing scope, objectives, strategy, schedule, resources, and responsibilities.
 
-## 2️⃣0️⃣ What Are Common Tester Mistakes?
+</details>
 
-- Skipping requirement analysis
-- Poor defect reporting
-- Automating unstable features
-- Ignoring risk
+<details>
+<summary>What is Risk-Based Testing?</summary>
 
----
+Risk-based testing prioritizes testing activities based on business impact and technical risk.
 
-## Final Interview Tip 🎯
+</details>
 
-Interviewers look for:
-- Clear thinking
-- Practical examples
-- Risk awareness
-- Communication skills
+<details>
+<summary>What is Agile Testing?</summary>
 
-Not just definitions.
+Agile testing is continuous testing performed throughout the software development lifecycle within Agile projects.
 
----
+</details>
+
+<details>
+<summary>What is UAT?</summary>
+
+UAT (User Acceptance Testing) is testing performed by end users or business stakeholders to validate application acceptance.
+
+</details>
+
+<details>
+<summary>Can Testers Perform Testing in Production?</summary>
+
+Only limited validation, such as smoke testing or deployment verification, is typically allowed in production environments.
+
+</details>
+
+<details>
+<summary>What is the Difference Between Manual Testing and Automation Testing?</summary>
+
+Manual testing relies on human execution and exploratory analysis.
+
+Automation testing uses scripts and tools to execute tests automatically.
+
+</details>
+
+<details>
+<summary>What Makes a Good Tester?</summary>
+
+A good tester has strong requirement understanding, attention to detail, risk awareness, analytical thinking, and effective communication skills.
+
+</details>
+
+<details>
+<summary>How Do You Handle Tight Testing Deadlines?</summary>
+
+Prioritize high-risk areas, execute critical tests first, focus on smoke testing, and communicate testing risks clearly.
+
+</details>
+
+<details>
+<summary>What Are Common Mistakes Made by Testers?</summary>
+
+Common mistakes include skipping requirement analysis, poor defect reporting, automating unstable features, and ignoring risk-based testing.
+
+</details>
+
+<details>
+<summary>What Do Interviewers Look for in a Tester?</summary>
+
+Interviewers typically evaluate practical thinking, problem-solving ability, risk awareness, communication skills, and real project experience.
+
+</details>
+
+<details>
+<summary>Why Are Strong Testing Fundamentals Important?</summary>
+
+Strong fundamentals help testers identify defects effectively, understand application behavior, and build a solid foundation for automation testing.
+
+</details>
 
 ## Key Takeaways
 

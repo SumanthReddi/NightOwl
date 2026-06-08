@@ -249,13 +249,13 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-293": {
+  "/docs-515": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-62f": {
+  "/docs-cea": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
@@ -531,7 +531,7 @@
     "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__props": "__props---docs-tags-xpatha-9-c-1f3"
   },
-  "/docs-15e": {
+  "/docs-f64": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -2377,6 +2377,10 @@
   "/docs/Selenium/Interview Questions/framework_ci_cd_questions-a2b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-selenium-interview-questions-framework-ci-cd-questionsdb-1-fa1"
+  },
+  "/docs/Selenium/Interview Questions/oops concepts in automation-7a7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-selenium-interview-questions-oops-concepts-in-automation-6-b-0-999"
   },
   "/docs/Selenium/Interview Questions/real_project_scenarios-acf": {
     "__comp": "__comp---theme-doc-item-178-a40",

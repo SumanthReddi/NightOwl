@@ -1786,6 +1786,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Selenium/Interview Questions/oops concepts in automation",
+              "path": "/docs/Selenium/Interview Questions/oops concepts in automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Selenium/Interview Questions/real_project_scenarios",
               "path": "/docs/Selenium/Interview Questions/real_project_scenarios",
               "sidebar": "tutorialSidebar"

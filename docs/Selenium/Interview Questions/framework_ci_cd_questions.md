@@ -38,6 +38,10 @@ No. Page Objects should expose **behavior**, not elements.
 **Answer:**
 By centralizing common UI actions inside page classes and utility layers.
 
+### Q5. Explain your framework ?
+**Answer:**
+![alt img](../../Images/Framework%20Explanation.jpg)
+
 ---
 
 ## CI/CD Related Questions

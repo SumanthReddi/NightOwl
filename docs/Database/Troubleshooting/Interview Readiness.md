@@ -10,166 +10,211 @@ All questions are **real interview questions** asked for SDET / Automation roles
 
 Answers are **short, correct, and practical** — no theory overload.
 
----
 
-## Core Concept Questions
+<details>
+<summary>Why do applications use many tables instead of one large table?</summary>
 
-### Q1️⃣ Why do applications use so many tables instead of one big table?
-**Answer:**  
-To avoid duplicate data, maintain consistency, and support scalability.  
-This is achieved through **normalization**.
+Applications use multiple tables to avoid duplicate data, maintain consistency, and improve scalability through normalization.
 
----
+</details>
 
-### Q2️⃣ Why are JOINs required?
-**Answer:**  
-Because normalized databases split related data across tables.  
-JOINs combine data logically without duplication.
+<details>
+<summary>Why are JOINs required in databases?</summary>
 
----
+JOINs combine related data stored across multiple normalized tables without creating duplication.
 
-### Q3️⃣ What is a Primary Key?
-**Answer:**  
-A unique identifier for each row in a table.  
-Automation testers use it for **accurate DB validation**.
+</details>
 
----
+<details>
+<summary>What is a Primary Key?</summary>
 
-### Q4️⃣ What is a Foreign Key?
-**Answer:**  
-A column that links one table to another.  
-It enforces relationships between data.
+A primary key is a unique identifier for each row in a table and is commonly used for accurate database validation.
 
----
+</details>
 
-## SQL & Validation Questions
+<details>
+<summary>Why are Primary Keys important for automation testers?</summary>
 
-### Q5️⃣ Why is SELECT the most used SQL command for testers?
-**Answer:**  
-Because testers validate data, not modify it.  
-SELECT is safe and non‑destructive.
+Primary keys help testers retrieve and validate the exact record created or modified during testing.
 
----
+</details>
 
-### Q6️⃣ Difference between INNER JOIN and LEFT JOIN?
-**Answer:**  
-- INNER JOIN → only matching records  
-- LEFT JOIN → includes missing data (NULLs)  
+<details>
+<summary>What is a Foreign Key?</summary>
 
-LEFT JOIN is preferred for **negative validations**.
+A foreign key is a column that references a primary key in another table and establishes relationships between tables.
 
----
+</details>
 
-### Q7️⃣ How do you handle NULL in SQL?
-**Answer:**  
-Using `IS NULL` or `IS NOT NULL`.  
-Never use `= NULL`.
+<details>
+<summary>Why is SELECT the most commonly used SQL command for testers?</summary>
 
----
+Testers mainly validate data rather than modify it, making SELECT a safe and non-destructive operation.
 
-### Q8️⃣ Why should testers avoid SELECT *?
-**Answer:**  
-It fetches unnecessary data, slows queries, and makes assertions unclear.
+</details>
 
----
+<details>
+<summary>What is the difference between INNER JOIN and LEFT JOIN?</summary>
 
-## Transactions & Timing
+INNER JOIN returns only matching records from both tables.
 
-### Q9️⃣ Why does DB validation fail even when UI/API succeeds?
-**Answer:**  
-Because the transaction may not be committed yet or processing is asynchronous.
+LEFT JOIN returns all records from the left table, including unmatched records as NULL values.
 
----
+</details>
 
-### Q🔟 What is COMMIT and ROLLBACK?
-**Answer:**  
-- COMMIT → makes data permanent  
-- ROLLBACK → undoes uncommitted changes  
+<details>
+<summary>When is LEFT JOIN preferred over INNER JOIN?</summary>
 
-Uncommitted data may not be visible.
+LEFT JOIN is preferred for negative testing and identifying missing or unmatched data.
 
----
+</details>
 
-## Performance & Stability
+<details>
+<summary>How do you check for NULL values in SQL?</summary>
 
-### Q1️⃣1️⃣ Why do DB queries timeout in CI?
-**Answer:**  
-Common reasons:
-- Full table scans
-- Missing WHERE clause
-- Lock contention
-- Parallel test interference
+Use IS NULL or IS NOT NULL. Never use = NULL because it does not work correctly in SQL.
 
----
+</details>
 
-### Q1️⃣2️⃣ What causes flaky DB‑related tests?
-**Answer:**  
-- Transaction delays  
-- Locks in parallel execution  
-- Shared test data  
-- Hardcoded waits  
+<details>
+<summary>Why should testers avoid using SELECT *?</summary>
 
----
+SELECT * retrieves unnecessary columns, reduces query performance, and makes validations less clear.
 
-## Awareness Questions
+</details>
 
-### Q1️⃣3️⃣ What is a View?
-**Answer:**  
-A stored SELECT query that behaves like a table.  
-Testers query views but don’t modify them.
+<details>
+<summary>Why can database validation fail even when the UI or API succeeds?</summary>
 
----
+The transaction may not be committed yet, or the application may process data asynchronously.
 
-### Q1️⃣4️⃣ What are Stored Procedures?
-**Answer:**  
-SQL logic stored inside the database.  
-Testers validate their effects indirectly via DB queries.
+</details>
 
----
+<details>
+<summary>What is COMMIT?</summary>
 
-### Q1️⃣5️⃣ What are Constraints?
-**Answer:**  
-Rules like UNIQUE, NOT NULL, CHECK that enforce data integrity.
+COMMIT permanently saves database changes and makes them visible to other transactions.
 
----
+</details>
 
-### Q1️⃣6️⃣ What is a Database Schema?
-**Answer:**  
-A logical namespace that groups database objects.  
-Used to avoid name conflicts and manage permissions.
+<details>
+<summary>What is ROLLBACK?</summary>
 
----
+ROLLBACK reverses uncommitted database changes and restores the previous state.
 
-## Scenario‑Based Questions
+</details>
 
-### Q1️⃣7️⃣ How do you validate DB data in automation?
-**Answer:**  
-1. Trigger action via UI/API  
-2. Wait for transaction completion  
-3. Query DB using SELECT  
-4. Validate exact expected result  
+<details>
+<summary>Why might database queries timeout in CI environments?</summary>
 
----
+Common causes include full table scans, missing WHERE clauses, lock contention, and parallel test execution.
 
-### Q1️⃣8️⃣ How do you debug a DB‑related test failure?
-**Answer:**  
-- Verify query correctness  
-- Check timing & commit  
-- Validate data uniqueness  
-- Look for locks or permission issues  
+</details>
 
----
+<details>
+<summary>What causes flaky database-related tests?</summary>
 
-## Golden Rules (Interview Gold)
+Flaky tests are often caused by transaction delays, database locks, shared test data, and hardcoded waits.
 
-- Use SELECT, not DML  
-- Validate using primary keys  
-- LEFT JOIN for negative cases  
-- Avoid hard sleeps  
-- Isolate test data  
-- DB awareness = senior skill  
+</details>
 
----
+<details>
+<summary>What is a Database View?</summary>
+
+A view is a stored SELECT query that behaves like a virtual table.
+
+</details>
+
+<details>
+<summary>Can testers modify data through a View?</summary>
+
+Typically, testers use views for querying and validation rather than modifying data.
+
+</details>
+
+<details>
+<summary>What are Stored Procedures?</summary>
+
+Stored procedures are reusable SQL programs stored inside the database that execute predefined business logic.
+
+</details>
+
+<details>
+<summary>How do testers validate Stored Procedures?</summary>
+
+Testers validate the data changes or outputs produced by the stored procedure using database queries.
+
+</details>
+
+<details>
+<summary>What are Database Constraints?</summary>
+
+Constraints are rules such as PRIMARY KEY, UNIQUE, NOT NULL, and CHECK that enforce data integrity.
+
+</details>
+
+<details>
+<summary>Why are Constraints important?</summary>
+
+Constraints prevent invalid data from being inserted and help maintain data consistency.
+
+</details>
+
+<details>
+<summary>What is a Database Schema?</summary>
+
+A schema is a logical namespace used to organize database objects such as tables, views, and procedures.
+
+</details>
+
+<details>
+<summary>Why are Schemas used?</summary>
+
+Schemas help avoid naming conflicts and simplify permission management.
+
+</details>
+
+<details>
+<summary>How do you validate database data in automation testing?</summary>
+
+Trigger the action through the UI or API, wait for processing to complete, execute a SELECT query, and validate the expected result.
+
+</details>
+
+<details>
+<summary>How do you debug a database-related test failure?</summary>
+
+Verify query accuracy, check transaction timing and commits, validate test data uniqueness, and investigate locks or permission issues.
+
+</details>
+
+<details>
+<summary>Why should automation testers use Primary Keys during validation?</summary>
+
+Primary keys ensure validations target the correct record and avoid ambiguity when multiple records exist.
+
+</details>
+
+<details>
+<summary>Why should testers avoid hardcoded sleeps during database validation?</summary>
+
+Hardcoded waits can make tests slow and unreliable because transaction completion times may vary.
+
+</details>
+
+<details>
+<summary>Why is test data isolation important in database testing?</summary>
+
+Isolated test data prevents conflicts between parallel executions and improves test reliability.
+
+</details>
+
+<details>
+<summary>What do interviewers look for in database testing questions?</summary>
+
+Interviewers evaluate debugging skills, reasoning ability, database awareness, and practical validation approaches rather than memorized SQL syntax.
+
+</details>
 
 ## Key Takeaways 🎯
 

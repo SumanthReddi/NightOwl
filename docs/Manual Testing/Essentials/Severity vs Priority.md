@@ -101,6 +101,8 @@ A: Yes, if business impact is high.
 **Q: Who decides severity and priority?**  
 A: Severity by QA; priority by business.
 
+![alt img](../../Images/Sererity%20vs%20Priority.jpg)
+
 ---
 
 ## Key Takeaways
