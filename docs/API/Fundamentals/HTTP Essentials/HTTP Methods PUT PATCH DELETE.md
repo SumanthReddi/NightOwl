@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: PUT, PATCH & DELETE
 ---
 
 ## HTTP Methods – Deep Dive (PUT, PATCH & DELETE)  

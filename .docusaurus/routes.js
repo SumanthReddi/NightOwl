@@ -114,11 +114,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '515'),
+    component: ComponentCreator('/docs', '1fe'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'cea'),
+        component: ComponentCreator('/docs', '301'),
         routes: [
           {
             path: '/docs/tags',
@@ -462,7 +462,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f64'),
+            component: ComponentCreator('/docs', '4dd'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -4101,26 +4101,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/advanced-topics-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/advanced-topics-exact', 'eee'),
+                path: '/docs/Standalone Java/Multithreading/advanced-topics',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/advanced-topics', '1ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/concurrent-collections-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/concurrent-collections-exact', 'd81'),
+                path: '/docs/Standalone Java/Multithreading/concurrent-collections',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/concurrent-collections', '099'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/creating-threads-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/creating-threads-exact', '851'),
+                path: '/docs/Standalone Java/Multithreading/creating-threads',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/creating-threads', '786'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/inter-thread-communication-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/inter-thread-communication-exact', '62f'),
+                path: '/docs/Standalone Java/Multithreading/inter-thread-communication',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/inter-thread-communication', 'ca3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -4131,32 +4131,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/multithreading-faqs-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/multithreading-faqs-exact', 'cff'),
+                path: '/docs/Standalone Java/Multithreading/multithreading-faqs',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/multithreading-faqs', 'ae6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact', '8d6'),
+                path: '/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading', '931'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/thread-lifecycle-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-lifecycle-exact', 'bac'),
+                path: '/docs/Standalone Java/Multithreading/thread-lifecycle',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-lifecycle', 'cec'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/thread-pools-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-pools-exact', '271'),
+                path: '/docs/Standalone Java/Multithreading/thread-pools',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-pools', '997'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Standalone Java/Multithreading/thread-synchronization-exact',
-                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-synchronization-exact', '71a'),
+                path: '/docs/Standalone Java/Multithreading/thread-synchronization',
+                component: ComponentCreator('/docs/Standalone Java/Multithreading/thread-synchronization', 'e9b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

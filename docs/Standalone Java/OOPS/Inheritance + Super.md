@@ -44,6 +44,13 @@ public class TestInheritance {
     }
 }
 ```
+**Output**:
+```
+Parent display
+Child show
+10
+20
+```
 
 The `extends` keyword is used so `Child` inherits from `Parent`.
 
@@ -75,6 +82,11 @@ public class SingleInheritanceDemo {
         d.bark(); // Output: Dog barks
     }
 }
+```
+**Output**:
+```
+Animal eats
+Dog barks
 ```
 
 #### 2. Multilevel Inheritance
@@ -108,6 +120,12 @@ public class MultilevelInheritanceDemo {
         d.bark(); // Output: Dog barks
     }
 }
+```
+**Output**:
+```
+Animal eats
+Mammal walks
+Dog barks
 ```
 
 #### 3. Hierarchical Inheritance
@@ -145,6 +163,13 @@ public class HierarchicalInheritanceDemo {
     }
 }
 ```
+**Output**:
+```
+Animal eats
+Dog barks
+Animal eats
+Cat meows
+```
 
 #### 4. Multiple Inheritance (via Interfaces)
 
@@ -176,6 +201,11 @@ public class MultipleInheritanceDemo {
         d.swim(); // Output: Dog swims
     }
 }
+```
+**Output**:
+```
+Dog runs
+Dog swims
 ```
 
 #### 5. Hybrid Inheritance
@@ -211,7 +241,12 @@ public class HybridInheritanceDemo {
     }
 }
 ```
-
+**Output**:
+```
+A
+B
+C
+```
 ***
 
 ### Accessing Parent Class Members (super Keyword)
@@ -246,6 +281,16 @@ public class SuperKeywordDemo {
         d.eat();
     }
 }
+```
+
+**Output**:
+```
+Animal created
+Dog created
+white
+black
+Animal eats
+Dog eats
 ```
 
 ***
@@ -289,6 +334,11 @@ public class Main {
         System.out.println(box.weight); // Output: 5.0
     }
 }
+```
+**Output**:
+```
+2.0
+5.0
 ```
 
 ***

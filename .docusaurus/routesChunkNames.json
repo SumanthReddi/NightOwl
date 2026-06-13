@@ -249,13 +249,13 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-515": {
+  "/docs-1fe": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-cea": {
+  "/docs-301": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
@@ -531,7 +531,7 @@
     "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__props": "__props---docs-tags-xpatha-9-c-1f3"
   },
-  "/docs-f64": {
+  "/docs-4dd": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -2958,45 +2958,45 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-keywords-staticfe-2-892"
   },
-  "/docs/Standalone Java/Multithreading/advanced-topics-exact-eee": {
+  "/docs/Standalone Java/Multithreading/advanced-topics-1ae": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-advanced-topics-exact-402-cb8"
+    "content": "content---docs-standalone-java-multithreading-advanced-topics-7-b-6-662"
   },
-  "/docs/Standalone Java/Multithreading/concurrent-collections-exact-d81": {
+  "/docs/Standalone Java/Multithreading/concurrent-collections-099": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-concurrent-collections-exact-243-459"
+    "content": "content---docs-standalone-java-multithreading-concurrent-collections-60-f-e64"
   },
-  "/docs/Standalone Java/Multithreading/creating-threads-exact-851": {
+  "/docs/Standalone Java/Multithreading/creating-threads-786": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-creating-threads-exact-21-e-a6b"
+    "content": "content---docs-standalone-java-multithreading-creating-threads-5-e-0-4ba"
   },
-  "/docs/Standalone Java/Multithreading/inter-thread-communication-exact-62f": {
+  "/docs/Standalone Java/Multithreading/inter-thread-communication-ca3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-inter-thread-communication-exactcba-70b"
+    "content": "content---docs-standalone-java-multithreading-inter-thread-communication-3-a-0-92a"
   },
   "/docs/Standalone Java/Multithreading/introduction-to-multithreading-9c7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-multithreading-introduction-to-multithreadingfc-3-202"
   },
-  "/docs/Standalone Java/Multithreading/multithreading-faqs-exact-cff": {
+  "/docs/Standalone Java/Multithreading/multithreading-faqs-ae6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-multithreading-faqs-exact-7-cf-1e5"
+    "content": "content---docs-standalone-java-multithreading-multithreading-faqs-03-b-feb"
   },
-  "/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact-8d6": {
+  "/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-931": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-real-world-examples-of-multithreading-exact-1-e-0-780"
+    "content": "content---docs-standalone-java-multithreading-real-world-examples-of-multithreadinga-1-f-6a9"
   },
-  "/docs/Standalone Java/Multithreading/thread-lifecycle-exact-bac": {
+  "/docs/Standalone Java/Multithreading/thread-lifecycle-cec": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-thread-lifecycle-exact-2-ef-6a1"
+    "content": "content---docs-standalone-java-multithreading-thread-lifecycle-433-1ff"
   },
-  "/docs/Standalone Java/Multithreading/thread-pools-exact-271": {
+  "/docs/Standalone Java/Multithreading/thread-pools-997": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-thread-pools-exact-43-d-ac1"
+    "content": "content---docs-standalone-java-multithreading-thread-pools-46-c-c70"
   },
-  "/docs/Standalone Java/Multithreading/thread-synchronization-exact-71a": {
+  "/docs/Standalone Java/Multithreading/thread-synchronization-e9b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-standalone-java-multithreading-thread-synchronization-exact-4-cf-083"
+    "content": "content---docs-standalone-java-multithreading-thread-synchronizationc-3-a-402"
   },
   "/docs/Standalone Java/OOPS/abstract_vs_interface-378": {
     "__comp": "__comp---theme-doc-item-178-a40",

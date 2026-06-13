@@ -77,6 +77,7 @@ public class ArithmeticExceptionExample {
 
 ```text
 Exception in thread "main" java.lang.ArithmeticException: / by zero
+at ArithmeticExceptionExample.main(ArithmeticExceptionExample.java:3)
 ```
 
 In this example:
@@ -104,6 +105,7 @@ public class ArrayIndexOutOfBoundsExample {
 
 ```text
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3
+	at ArrayIndexOutOfBoundsExample.main(ArrayIndexOutOfBoundsExample.java:4)
 ```
 
 In this example:

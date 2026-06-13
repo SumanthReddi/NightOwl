@@ -2511,23 +2511,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/advanced-topics-exact",
-              "path": "/docs/Standalone Java/Multithreading/advanced-topics-exact",
+              "id": "Standalone Java/Multithreading/advanced-topics",
+              "path": "/docs/Standalone Java/Multithreading/advanced-topics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/concurrent-collections-exact",
-              "path": "/docs/Standalone Java/Multithreading/concurrent-collections-exact",
+              "id": "Standalone Java/Multithreading/concurrent-collections",
+              "path": "/docs/Standalone Java/Multithreading/concurrent-collections",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/creating-threads-exact",
-              "path": "/docs/Standalone Java/Multithreading/creating-threads-exact",
+              "id": "Standalone Java/Multithreading/creating-threads",
+              "path": "/docs/Standalone Java/Multithreading/creating-threads",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/inter-thread-communication-exact",
-              "path": "/docs/Standalone Java/Multithreading/inter-thread-communication-exact",
+              "id": "Standalone Java/Multithreading/inter-thread-communication",
+              "path": "/docs/Standalone Java/Multithreading/inter-thread-communication",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2536,28 +2536,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/multithreading-faqs-exact",
-              "path": "/docs/Standalone Java/Multithreading/multithreading-faqs-exact",
+              "id": "Standalone Java/Multithreading/multithreading-faqs",
+              "path": "/docs/Standalone Java/Multithreading/multithreading-faqs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/real-world-examples-of-multithreading-exact",
-              "path": "/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading-exact",
+              "id": "Standalone Java/Multithreading/real-world-examples-of-multithreading",
+              "path": "/docs/Standalone Java/Multithreading/real-world-examples-of-multithreading",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/thread-lifecycle-exact",
-              "path": "/docs/Standalone Java/Multithreading/thread-lifecycle-exact",
+              "id": "Standalone Java/Multithreading/thread-lifecycle",
+              "path": "/docs/Standalone Java/Multithreading/thread-lifecycle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/thread-pools-exact",
-              "path": "/docs/Standalone Java/Multithreading/thread-pools-exact",
+              "id": "Standalone Java/Multithreading/thread-pools",
+              "path": "/docs/Standalone Java/Multithreading/thread-pools",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Standalone Java/Multithreading/thread-synchronization-exact",
-              "path": "/docs/Standalone Java/Multithreading/thread-synchronization-exact",
+              "id": "Standalone Java/Multithreading/thread-synchronization",
+              "path": "/docs/Standalone Java/Multithreading/thread-synchronization",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -36,7 +36,11 @@ public class Human {
     }
 }
 ```
+*Output:*
 
+```
+Kunal's message
+```
 
 ***
 

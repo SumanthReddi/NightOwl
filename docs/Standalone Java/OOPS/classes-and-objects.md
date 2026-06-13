@@ -4,7 +4,6 @@ sidebar_position: 1
 
 # Classes and Objects
 
-## Why This File Exists
 Object-Oriented Programming starts with **classes and objects**.
 
 Many developers use them daily but don’t clearly understand:

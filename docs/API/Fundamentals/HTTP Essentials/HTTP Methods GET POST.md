@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: GET & POST
 ---
 
 ## HTTP Methods – Deep Dive (GET & POST)  

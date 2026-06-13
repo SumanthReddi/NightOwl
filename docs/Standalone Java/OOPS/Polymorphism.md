@@ -81,8 +81,8 @@ This is a simple conceptual example of **polymorphism**.
 
 Java supports two main types:
 
-1.  **Compile-time polymorphism** (method overloading)\
-2.  **Runtime polymorphism** (method overriding)
+1.  **Compile-time polymorphism** (Method Overloading)
+2.  **Runtime polymorphism** (Method Overriding)
 
 These are different mechanisms.
 
