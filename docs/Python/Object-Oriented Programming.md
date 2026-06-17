@@ -81,17 +81,32 @@ car.display_info()  # Output: Toyota Corolla
 **Inheritance** allows a class (subclass) to inherit attributes and methods from another class (superclass).
 
 ```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+
+
 class Employee(Person):
     def __init__(self, name, age, job):
         super().__init__(name, age)
         self.job = job
 
     def show_job(self):
-        print(f"I work as a {self.job}.")
+        print(f"Hello, my name is {self.name} and I am {self.age} years old and I work as a {self.job}.")
 
+
+# Creating Employee object
 emp1 = Employee("Bob", 30, "Engineer")
-emp1.greet()       # Output: Hello, my name is Bob and I am 30 years old.
-emp1.show_job()    # Output: I work as a Engineer.
+
+# Calling inherited method
+emp1.greet()  # Output: Hello, my name is Bob and I am 30 years old.
+
+# Calling Employee method
+emp1.show_job() # Output: Hello, my name is Bob and I am 30 years old and I work as a Engineer.
 ```
 
 - **Explanation**:

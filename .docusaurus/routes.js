@@ -114,11 +114,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '1fe'),
+    component: ComponentCreator('/docs', 'c50'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '301'),
+        component: ComponentCreator('/docs', '114'),
         routes: [
           {
             path: '/docs/tags',
@@ -462,7 +462,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '4dd'),
+            component: ComponentCreator('/docs', '0bf'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -2853,6 +2853,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Robot Framework/Career & Interview Preparation/Framework Explanation',
+                component: ComponentCreator('/docs/Robot Framework/Career & Interview Preparation/Framework Explanation', '963'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Robot Framework/Career & Interview Preparation/Robot_Interview_Questions',
                 component: ComponentCreator('/docs/Robot Framework/Career & Interview Preparation/Robot_Interview_Questions', '574'),
                 exact: true,
@@ -2891,6 +2897,12 @@ export default [
               {
                 path: '/docs/Robot Framework/CICD Integration/Sauce_Labs',
                 component: ComponentCreator('/docs/Robot Framework/CICD Integration/Sauce_Labs', '0fc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Robot Framework/Core Fundamentals/Architecture',
+                component: ComponentCreator('/docs/Robot Framework/Core Fundamentals/Architecture', '37b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

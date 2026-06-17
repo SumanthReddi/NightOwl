@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Variables Resource Files & Libraries
 description: Understanding reusable data and framework components in Robot Framework
 tags:

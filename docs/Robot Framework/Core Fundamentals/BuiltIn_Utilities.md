@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: BuiltIn Utilities
 description: Frequently used Robot Framework built-in libraries and utility keywords
 tags:

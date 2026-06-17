@@ -19,6 +19,7 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
     faster: true,
   },
+//  themes: ['@docusaurus/theme-mermaid'],
 
   // Set the production url of your site here
   url: 'https://sumanthu.vercel.app',
@@ -34,6 +35,7 @@ const config = {
   // onBrokenLinks: 'throw',
   onBrokenLinks: 'warn',
   markdown: {
+    // mermaid: true,
   hooks: {
     onBrokenMarkdownLinks: 'warn',
   },

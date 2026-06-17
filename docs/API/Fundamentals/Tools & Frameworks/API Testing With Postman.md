@@ -88,12 +88,20 @@ pm.request.headers.add({ key: "Authorization", value: `Bearer ${token}` });
 - Run collections as test suites.
 
 ##### **Flow Diagram**
-```mermaid
-graph TD
-    A[Create Collection] --> B[Add Requests]
-    B --> C[Write Tests]
-    C --> D[Run Collection]
-    D --> E[View Results]
+```text
+Create Collection
+       |
+       v
+Add Requests
+       |
+       v
+Write Tests
+       |
+       v
+Run Collection
+       |
+       v
+View Results
 ```
 
 ---

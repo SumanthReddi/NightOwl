@@ -76,7 +76,7 @@ Robot Framework
 
 ## 🏗 High Level Architecture
 
-Robot Framework follows a layered architecture where tests call keywords, keywords use libraries, and libraries interact with systems.
+Robot Framework follows a layered architecture where tests call keywords, keywords use libraries, and libraries interact with systems. Deatiled explanation will be in upcoming lecture.
 
 ```text
 Test Cases

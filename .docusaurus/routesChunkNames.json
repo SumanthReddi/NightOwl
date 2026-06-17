@@ -249,13 +249,13 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-1fe": {
+  "/docs-c50": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-301": {
+  "/docs-114": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
@@ -531,7 +531,7 @@
     "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__props": "__props---docs-tags-xpatha-9-c-1f3"
   },
-  "/docs-4dd": {
+  "/docs-0bf": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -2126,6 +2126,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-robot-framework-career-interview-preparation-career-interview-preparation-586-612"
   },
+  "/docs/Robot Framework/Career & Interview Preparation/Framework Explanation-963": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-career-interview-preparation-framework-explanation-64-c-13d"
+  },
   "/docs/Robot Framework/Career & Interview Preparation/Robot_Interview_Questions-574": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-robot-framework-career-interview-preparation-robot-interview-questions-6-fa-696"
@@ -2153,6 +2157,10 @@
   "/docs/Robot Framework/CICD Integration/Sauce_Labs-0fc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-robot-framework-cicd-integration-sauce-labs-627-ef0"
+  },
+  "/docs/Robot Framework/Core Fundamentals/Architecture-37b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-robot-framework-core-fundamentals-architecturec-60-059"
   },
   "/docs/Robot Framework/Core Fundamentals/BuiltIn_Utilities-a28": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -1471,6 +1471,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Robot Framework/Career & Interview Preparation/Framework Explanation",
+              "path": "/docs/Robot Framework/Career & Interview Preparation/Framework Explanation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Robot Framework/Career & Interview Preparation/Robot_Interview_Questions",
               "path": "/docs/Robot Framework/Career & Interview Preparation/Robot_Interview_Questions",
               "sidebar": "tutorialSidebar"
@@ -1503,6 +1508,11 @@
             {
               "id": "Robot Framework/CICD Integration/Sauce_Labs",
               "path": "/docs/Robot Framework/CICD Integration/Sauce_Labs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Robot Framework/Core Fundamentals/Architecture",
+              "path": "/docs/Robot Framework/Core Fundamentals/Architecture",
               "sidebar": "tutorialSidebar"
             },
             {

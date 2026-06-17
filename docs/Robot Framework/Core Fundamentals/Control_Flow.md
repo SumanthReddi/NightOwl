@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Control Flow
 description: Loops, conditions and execution control in Robot Framework
 tags:
