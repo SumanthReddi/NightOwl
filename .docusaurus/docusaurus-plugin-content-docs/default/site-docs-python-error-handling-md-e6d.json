@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "File Handling and Automation",
-    "permalink": "/docs/Python/File Handling"
+    "permalink": "/docs/Python/File Handling and Exception Handling/File Handling"
   },
   "next": {
-    "title": "Object-Oriented Programming",
-    "permalink": "/docs/Python/Object-Oriented Programming"
+    "title": "Intermediate-Level Python Concepts",
+    "permalink": "/docs/Python/Intermediate Python Concepts"
   }
 }

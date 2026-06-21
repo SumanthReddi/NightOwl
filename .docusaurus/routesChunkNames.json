@@ -249,13 +249,13 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-c50": {
+  "/docs-c95": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-114": {
+  "/docs-9fb": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
@@ -531,7 +531,7 @@
     "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__props": "__props---docs-tags-xpatha-9-c-1f3"
   },
-  "/docs-0bf": {
+  "/docs-a3e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Agile/-fc0": {
@@ -710,6 +710,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-advanced-1-fd-9-eca"
   },
+  "/docs/category/advanced-2-6ff": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-advanced-2003-917"
+  },
   "/docs/category/advanced-concepts-be2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-advanced-concepts-9-ab-2f8"
@@ -738,6 +742,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-api-7-fe-27f"
   },
+  "/docs/category/api-and-automation-151": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-api-and-automatione-19-13a"
+  },
   "/docs/category/api-testing-ab6": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-api-testing-26-d-6fb"
@@ -749,6 +757,10 @@
   "/docs/category/artifacts--workspace-365": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-artifacts-workspaceaf-1-124"
+  },
+  "/docs/category/assertions-02f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-assertionsfdd-ba1"
   },
   "/docs/category/async--event-driven-fe4": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -762,6 +774,14 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-basicse-8-d-995"
   },
+  "/docs/category/basics-1-94a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-basics-1848-1e4"
+  },
+  "/docs/category/basics-2-890": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-basics-2-fb-9-5c3"
+  },
   "/docs/category/best-practices-1ba": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-best-practices-636-4cf"
@@ -770,6 +790,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-career-interview-preparation-936-1d2"
   },
+  "/docs/category/ci-cd-integration-421": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-ci-cd-integrationa-91-85d"
+  },
   "/docs/category/cicd-integration-4af": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-cicd-integration-66-f-48d"
@@ -777,6 +801,10 @@
   "/docs/category/collections-framework-ac7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-collections-frameworkb-3-f-927"
+  },
+  "/docs/category/configuration-52b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-configurationb-5-f-3cb"
   },
   "/docs/category/contract-schema-a41": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -789,6 +817,10 @@
   "/docs/category/core-apache-poi-object-model-441": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-core-apache-poi-object-model-2-dc-c30"
+  },
+  "/docs/category/core-concepts-409": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-core-concepts-9-d-1-fe4"
   },
   "/docs/category/core-fundamentals-8af": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -814,9 +846,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-cucumbera-81-96a"
   },
+  "/docs/category/data-driven-355": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-data-driven-507-74d"
+  },
   "/docs/category/data-integration-f17": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-data-integration-3-d-5-0e2"
+  },
+  "/docs/category/data-structures-6fd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-data-structures-733-5c0"
   },
   "/docs/category/database-dd4": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -850,6 +890,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-execution-and-advanced-concepts-2-e-3-e1a"
   },
+  "/docs/category/execution-control-1da": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-execution-control-88-d-1e3"
+  },
   "/docs/category/extent-report-a5b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-extent-report-4-d-2-f5d"
@@ -857,6 +901,10 @@
   "/docs/category/file-handling-c53": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-file-handling-776-1b9"
+  },
+  "/docs/category/file-handling-and-exception-handling-cad": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-file-handling-and-exception-handling-71-e-3f7"
   },
   "/docs/category/flakiness--maintainability-3da": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -921,6 +969,10 @@
   "/docs/category/intermediate-d33": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-intermediate-72-b-1b6"
+  },
+  "/docs/category/intermediate-python-b9d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-intermediate-python-1-dc-7c2"
   },
   "/docs/category/interview--real-world-scenarios-e4a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -994,9 +1046,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-miscellaneous-topics-838-aa9"
   },
+  "/docs/category/modules-and-packages-d9f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-modules-and-packages-9-f-5-529"
+  },
   "/docs/category/multithreading-d0c": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-multithreadinge-39-c23"
+  },
+  "/docs/category/object-oriented-programming-102": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-object-oriented-programminge-82-059"
   },
   "/docs/category/observability-567": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1026,9 +1086,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-python-48-f-c2d"
   },
+  "/docs/category/python-fundamentals-385": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-python-fundamentalsbf-2-aa7"
+  },
   "/docs/category/queue-implementations-87e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-queue-implementations-347-6b1"
+  },
+  "/docs/category/quick-reference-651": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-quick-referencee-67-453"
   },
   "/docs/category/realtime-practical-exercises-aa2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1098,6 +1166,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-system-3-e-5-f7c"
   },
+  "/docs/category/test-automation-integration-78d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-test-automation-integration-578-c2d"
+  },
   "/docs/category/test-design--implementation-ad8": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-test-design-implementation-9-a-4-49d"
@@ -1113,6 +1185,10 @@
   "/docs/category/troubleshooting-92f": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-troubleshooting-398-4ec"
+  },
+  "/docs/category/troubleshooting-1-ef2": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-troubleshooting-11-cd-cba"
   },
   "/docs/category/utilities-4fb": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -1842,105 +1918,105 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-manual-testing-intermediate-usability-and-user-experience-testing-826-1ca"
   },
-  "/docs/Maven/Cheat Sheet-cd8": {
+  "/docs/Maven/Basics/Introduction to Maven-245": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-cheat-sheet-06-c-b11"
+    "content": "content---docs-maven-basics-introduction-to-maven-83-c-af4"
   },
-  "/docs/Maven/Common Errors & Fixes-b36": {
+  "/docs/Maven/Basics/Maven Project Structure-45d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-common-errors-fixes-906-9a4"
+    "content": "content---docs-maven-basics-maven-project-structure-55-e-1de"
   },
-  "/docs/Maven/Dependencies Management-dc0": {
+  "/docs/Maven/Basics/Why Maven-707": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-dependencies-managementb-84-d57"
+    "content": "content---docs-maven-basics-why-mavenba-4-bcd"
   },
-  "/docs/Maven/Introduction to Maven-eac": {
+  "/docs/Maven/CI-CD Integration/Maven + CICD-9f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-introduction-to-maven-7-a-3-265"
+    "content": "content---docs-maven-ci-cd-integration-maven-cic-dff-1-1c5"
   },
-  "/docs/Maven/Maven + CICD-19f": {
+  "/docs/Maven/Core Concepts/Dependencies Management-3e4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-maven-cic-dc-5-d-45a"
+    "content": "content---docs-maven-core-concepts-dependencies-management-6-a-4-31f"
   },
-  "/docs/Maven/Maven Lifecycle & Phases-5d5": {
+  "/docs/Maven/Core Concepts/Maven Lifecycle & Phases-b88": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-maven-lifecycle-phasesc-3-d-e68"
+    "content": "content---docs-maven-core-concepts-maven-lifecycle-phases-06-f-987"
   },
-  "/docs/Maven/Maven Project Structure-30c": {
+  "/docs/Maven/Core Concepts/Plugins-b68": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-maven-project-structure-60-c-c1c"
+    "content": "content---docs-maven-core-concepts-plugins-29-c-6a9"
   },
-  "/docs/Maven/Plugins-bbc": {
+  "/docs/Maven/Core Concepts/pom.xml-bc7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-pluginsbc-3-f1f"
+    "content": "content---docs-maven-core-concepts-pom-xmlaed-4a3"
   },
-  "/docs/Maven/pom.xml-fd1": {
+  "/docs/Maven/Quick Reference/Cheat Sheet-cd6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-pom-xml-9-a-8-883"
+    "content": "content---docs-maven-quick-reference-cheat-sheet-91-b-68e"
   },
-  "/docs/Maven/profiles-e8b": {
+  "/docs/Maven/Test Automation Integration/profiles-deb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-profiles-310-148"
+    "content": "content---docs-maven-test-automation-integration-profiles-201-b5f"
   },
-  "/docs/Maven/Running TestNG with Maven-a63": {
+  "/docs/Maven/Test Automation Integration/Running TestNG with Maven-659": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-running-test-ng-with-maven-718-e03"
+    "content": "content---docs-maven-test-automation-integration-running-test-ng-with-maven-587-6d0"
   },
-  "/docs/Maven/Why Maven-a7b": {
+  "/docs/Maven/Troubleshooting/Common Errors & Fixes-b11": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-maven-why-maven-397-72d"
+    "content": "content---docs-maven-troubleshooting-common-errors-fixes-34-d-e82"
   },
-  "/docs/Python/Additional Python Data Structures-b86": {
+  "/docs/Python/API and Automation/Web & API Basics-cbb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-additional-python-data-structuresef-1-6f2"
+    "content": "content---docs-python-api-and-automation-web-api-basicsf-10-d17"
   },
-  "/docs/Python/Control Flow-146": {
+  "/docs/Python/Data Structures/-d60": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-control-flow-1-c-2-025"
+    "content": "content---docs-python-data-structures-8-dd-622"
   },
-  "/docs/Python/Data Structures-63e": {
+  "/docs/Python/Data Structures/Additional Python Data Structures-a02": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-data-structurese-4-b-06b"
+    "content": "content---docs-python-data-structures-additional-python-data-structuresf-8-e-b3b"
   },
-  "/docs/Python/Error Handling-4da": {
+  "/docs/Python/File Handling and Exception Handling/Error Handling-7dc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-error-handlinge-6-d-08f"
+    "content": "content---docs-python-file-handling-and-exception-handling-error-handlingd-83-3ea"
   },
-  "/docs/Python/File Handling-4f0": {
+  "/docs/Python/File Handling and Exception Handling/File Handling-209": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-file-handling-887-42e"
+    "content": "content---docs-python-file-handling-and-exception-handling-file-handling-3-b-1-dcb"
   },
-  "/docs/Python/Functions and Scopes-608": {
+  "/docs/Python/Intermediate Python/Intermediate Python Concepts-1cd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-functions-and-scopes-08-d-620"
+    "content": "content---docs-python-intermediate-python-intermediate-python-conceptsca-8-698"
   },
-  "/docs/Python/Intermediate Python Concepts-9d4": {
+  "/docs/Python/Intermediate Python/Pythonic Features and Best Practices-aa2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-intermediate-python-conceptse-19-3bd"
+    "content": "content---docs-python-intermediate-python-pythonic-features-and-best-practices-56-c-bdf"
   },
-  "/docs/Python/Modules and Packages-d80": {
+  "/docs/Python/Modules and Packages/-5d0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-modules-and-packages-549-1ef"
+    "content": "content---docs-python-modules-and-packages-2-cb-c3c"
   },
-  "/docs/Python/Object-Oriented Programming-982": {
+  "/docs/Python/Object-Oriented Programming/-d1f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-object-oriented-programming-804-3ee"
+    "content": "content---docs-python-object-oriented-programming-b-32-515"
   },
-  "/docs/Python/Operators and Expressions-30d": {
+  "/docs/Python/Python Fundamentals/Control Flow-cfa": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-operators-and-expressions-888-1e7"
+    "content": "content---docs-python-python-fundamentals-control-flow-890-c80"
   },
-  "/docs/Python/Python Basics-482": {
+  "/docs/Python/Python Fundamentals/Functions and Scopes-684": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-python-basicsb-0-a-741"
+    "content": "content---docs-python-python-fundamentals-functions-and-scopes-0-ee-ab5"
   },
-  "/docs/Python/Pythonic Features and Best Practices-52a": {
+  "/docs/Python/Python Fundamentals/Operators and Expressions-4c3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-pythonic-features-and-best-practices-876-223"
+    "content": "content---docs-python-python-fundamentals-operators-and-expressions-93-b-f89"
   },
-  "/docs/Python/Web & API Basics-77f": {
+  "/docs/Python/Python Fundamentals/Python Basics-158": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-python-web-api-basicscfa-744"
+    "content": "content---docs-python-python-fundamentals-python-basics-30-f-1ee"
   },
   "/docs/RestAssured/authentication-validation/authentication-types-704": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -3094,61 +3170,61 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-standalone-java-strings-stringbuilder-vs-stringbuffer-81-d-5fd"
   },
-  "/docs/TestNG/Annotations & Execution Flow-d86": {
+  "/docs/TestNG/Advanced/Listeners and RetryAnalyzer-69f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-annotations-execution-flowc-01-0d7"
+    "content": "content---docs-test-ng-advanced-listeners-and-retry-analyzera-9-c-3a5"
   },
-  "/docs/TestNG/Data Provider-94a": {
+  "/docs/TestNG/Advanced/TestNG Factory-53d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-data-providera-11-ffa"
+    "content": "content---docs-test-ng-advanced-test-ng-factory-6-b-9-4dd"
   },
-  "/docs/TestNG/Dependencies-5e0": {
+  "/docs/TestNG/Assertions/TestNG Assertions-3db": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-dependenciesbae-f7b"
+    "content": "content---docs-test-ng-assertions-test-ng-assertions-4-a-4-ff4"
   },
-  "/docs/TestNG/Groups-9e9": {
+  "/docs/TestNG/Basics/Annotations & Execution Flow-a36": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-groups-166-133"
+    "content": "content---docs-test-ng-basics-annotations-execution-flowcf-5-135"
   },
-  "/docs/TestNG/Helper Attributes-bb3": {
+  "/docs/TestNG/Basics/Introduction-e69": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-helper-attributescc-7-03d"
+    "content": "content---docs-test-ng-basics-introduction-4-c-3-406"
   },
-  "/docs/TestNG/Introduction-c13": {
+  "/docs/TestNG/Basics/Why TestNG-396": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-introduction-827-18a"
+    "content": "content---docs-test-ng-basics-why-test-n-ga-27-948"
   },
-  "/docs/TestNG/Listeners and RetryAnalyzer-1ba": {
+  "/docs/TestNG/Configuration/Helper Attributes-7ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-listeners-and-retry-analyzeraa-4-3a7"
+    "content": "content---docs-test-ng-configuration-helper-attributesd-3-d-9ad"
   },
-  "/docs/TestNG/Parallel Exection-876": {
+  "/docs/TestNG/Configuration/TestNG XML-394": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-parallel-exection-524-44b"
+    "content": "content---docs-test-ng-configuration-test-ng-xm-lbec-aee"
   },
-  "/docs/TestNG/Priority-23f": {
+  "/docs/TestNG/Data-Driven/Data Provider-8e1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-priorityb-4-e-297"
+    "content": "content---docs-test-ng-data-driven-data-providere-57-419"
   },
-  "/docs/TestNG/TestNG Assertions-8df": {
+  "/docs/TestNG/Data-Driven/TestNG Parameters-ec3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-test-ng-assertions-4-d-2-9bc"
+    "content": "content---docs-test-ng-data-driven-test-ng-parameters-811-3df"
   },
-  "/docs/TestNG/TestNG Factory-f81": {
+  "/docs/TestNG/Execution-Control/Dependencies-6e3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-test-ng-factory-5-e-7-8ea"
+    "content": "content---docs-test-ng-execution-control-dependencies-1-c-1-294"
   },
-  "/docs/TestNG/TestNG Parameters-df9": {
+  "/docs/TestNG/Execution-Control/Groups-f8f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-test-ng-parameters-1-cb-b32"
+    "content": "content---docs-test-ng-execution-control-groupsaab-8ef"
   },
-  "/docs/TestNG/TestNG XML-f10": {
+  "/docs/TestNG/Execution-Control/Parallel Exection-a59": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-test-ng-xml-6-f-2-273"
+    "content": "content---docs-test-ng-execution-control-parallel-exection-56-f-888"
   },
-  "/docs/TestNG/Why TestNG-1d1": {
+  "/docs/TestNG/Execution-Control/Priority-4d4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-ng-why-test-ng-052-abd"
+    "content": "content---docs-test-ng-execution-control-priority-552-8aa"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

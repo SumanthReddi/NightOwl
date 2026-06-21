@@ -19,7 +19,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Basics",
-    "permalink": "/docs/Python/Python Basics"
+    "permalink": "/docs/Python/Python Fundamentals/Python Basics"
   },
   "next": {
     "title": "Control Flow and Range Function",

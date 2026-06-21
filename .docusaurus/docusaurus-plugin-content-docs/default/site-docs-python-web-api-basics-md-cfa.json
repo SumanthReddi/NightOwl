@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Modules and Packages",
-    "permalink": "/docs/Python/Modules and Packages"
+    "title": "Pythonic Features and Best Practices",
+    "permalink": "/docs/Python/Intermediate Python/Pythonic Features and Best Practices"
   },
   "next": {
-    "title": "Pythonic Features and Best Practices",
-    "permalink": "/docs/Python/Pythonic Features and Best Practices"
+    "title": "Robot Framework",
+    "permalink": "/docs/category/robot-framework"
   }
 }

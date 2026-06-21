@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Object-Oriented Programming",
-    "permalink": "/docs/Python/Object-Oriented Programming"
+    "title": "Error Handling",
+    "permalink": "/docs/Python/File Handling and Exception Handling/Error Handling"
   },
   "next": {
-    "title": "Modules and Packages",
-    "permalink": "/docs/Python/Modules and Packages"
+    "title": "Working with APIs and JSON",
+    "permalink": "/docs/Python/Web & API Basics"
   }
 }

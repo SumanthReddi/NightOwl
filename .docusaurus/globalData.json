@@ -1116,128 +1116,128 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Cheat Sheet",
-              "path": "/docs/Maven/Cheat Sheet",
+              "id": "Maven/Basics/Introduction to Maven",
+              "path": "/docs/Maven/Basics/Introduction to Maven",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Common Errors & Fixes",
-              "path": "/docs/Maven/Common Errors & Fixes",
+              "id": "Maven/Basics/Maven Project Structure",
+              "path": "/docs/Maven/Basics/Maven Project Structure",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Dependencies Management",
-              "path": "/docs/Maven/Dependencies Management",
+              "id": "Maven/Basics/Why Maven",
+              "path": "/docs/Maven/Basics/Why Maven",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Introduction to Maven",
-              "path": "/docs/Maven/Introduction to Maven",
+              "id": "Maven/CI-CD Integration/Maven + CICD",
+              "path": "/docs/Maven/CI-CD Integration/Maven + CICD",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Maven + CICD",
-              "path": "/docs/Maven/Maven + CICD",
+              "id": "Maven/Core Concepts/Dependencies Management",
+              "path": "/docs/Maven/Core Concepts/Dependencies Management",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Maven Lifecycle & Phases",
-              "path": "/docs/Maven/Maven Lifecycle & Phases",
+              "id": "Maven/Core Concepts/Maven Lifecycle & Phases",
+              "path": "/docs/Maven/Core Concepts/Maven Lifecycle & Phases",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Maven Project Structure",
-              "path": "/docs/Maven/Maven Project Structure",
+              "id": "Maven/Core Concepts/Plugins",
+              "path": "/docs/Maven/Core Concepts/Plugins",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Plugins",
-              "path": "/docs/Maven/Plugins",
+              "id": "Maven/Core Concepts/pom.xml",
+              "path": "/docs/Maven/Core Concepts/pom.xml",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/pom.xml",
-              "path": "/docs/Maven/pom.xml",
+              "id": "Maven/Quick Reference/Cheat Sheet",
+              "path": "/docs/Maven/Quick Reference/Cheat Sheet",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/profiles",
-              "path": "/docs/Maven/profiles",
+              "id": "Maven/Test Automation Integration/profiles",
+              "path": "/docs/Maven/Test Automation Integration/profiles",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Running TestNG with Maven",
-              "path": "/docs/Maven/Running TestNG with Maven",
+              "id": "Maven/Test Automation Integration/Running TestNG with Maven",
+              "path": "/docs/Maven/Test Automation Integration/Running TestNG with Maven",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Maven/Why Maven",
-              "path": "/docs/Maven/Why Maven",
+              "id": "Maven/Troubleshooting/Common Errors & Fixes",
+              "path": "/docs/Maven/Troubleshooting/Common Errors & Fixes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Additional Python Data Structures",
-              "path": "/docs/Python/Additional Python Data Structures",
+              "id": "Python/API and Automation/Web & API Basics",
+              "path": "/docs/Python/API and Automation/Web & API Basics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Control Flow",
-              "path": "/docs/Python/Control Flow",
+              "id": "Python/Data Structures/Additional Python Data Structures",
+              "path": "/docs/Python/Data Structures/Additional Python Data Structures",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Data Structures",
-              "path": "/docs/Python/Data Structures",
+              "id": "Python/Data Structures/Data Structures",
+              "path": "/docs/Python/Data Structures/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Error Handling",
-              "path": "/docs/Python/Error Handling",
+              "id": "Python/File Handling and Exception Handling/Error Handling",
+              "path": "/docs/Python/File Handling and Exception Handling/Error Handling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/File Handling",
-              "path": "/docs/Python/File Handling",
+              "id": "Python/File Handling and Exception Handling/File Handling",
+              "path": "/docs/Python/File Handling and Exception Handling/File Handling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Functions and Scopes",
-              "path": "/docs/Python/Functions and Scopes",
+              "id": "Python/Intermediate Python/Intermediate Python Concepts",
+              "path": "/docs/Python/Intermediate Python/Intermediate Python Concepts",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Intermediate Python Concepts",
-              "path": "/docs/Python/Intermediate Python Concepts",
+              "id": "Python/Intermediate Python/Pythonic Features and Best Practices",
+              "path": "/docs/Python/Intermediate Python/Pythonic Features and Best Practices",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Modules and Packages",
-              "path": "/docs/Python/Modules and Packages",
+              "id": "Python/Modules and Packages/Modules and Packages",
+              "path": "/docs/Python/Modules and Packages/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Object-Oriented Programming",
-              "path": "/docs/Python/Object-Oriented Programming",
+              "id": "Python/Object-Oriented Programming/Object-Oriented Programming",
+              "path": "/docs/Python/Object-Oriented Programming/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Operators and Expressions",
-              "path": "/docs/Python/Operators and Expressions",
+              "id": "Python/Python Fundamentals/Control Flow",
+              "path": "/docs/Python/Python Fundamentals/Control Flow",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Python Basics",
-              "path": "/docs/Python/Python Basics",
+              "id": "Python/Python Fundamentals/Functions and Scopes",
+              "path": "/docs/Python/Python Fundamentals/Functions and Scopes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Pythonic Features and Best Practices",
-              "path": "/docs/Python/Pythonic Features and Best Practices",
+              "id": "Python/Python Fundamentals/Operators and Expressions",
+              "path": "/docs/Python/Python Fundamentals/Operators and Expressions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Python/Web & API Basics",
-              "path": "/docs/Python/Web & API Basics",
+              "id": "Python/Python Fundamentals/Python Basics",
+              "path": "/docs/Python/Python Fundamentals/Python Basics",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2681,73 +2681,73 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Annotations & Execution Flow",
-              "path": "/docs/TestNG/Annotations & Execution Flow",
+              "id": "TestNG/Advanced/Listeners and RetryAnalyzer",
+              "path": "/docs/TestNG/Advanced/Listeners and RetryAnalyzer",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Data Provider",
-              "path": "/docs/TestNG/Data Provider",
+              "id": "TestNG/Advanced/TestNG Factory",
+              "path": "/docs/TestNG/Advanced/TestNG Factory",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Dependencies",
-              "path": "/docs/TestNG/Dependencies",
+              "id": "TestNG/Assertions/TestNG Assertions",
+              "path": "/docs/TestNG/Assertions/TestNG Assertions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Groups",
-              "path": "/docs/TestNG/Groups",
+              "id": "TestNG/Basics/Annotations & Execution Flow",
+              "path": "/docs/TestNG/Basics/Annotations & Execution Flow",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Helper Attributes",
-              "path": "/docs/TestNG/Helper Attributes",
+              "id": "TestNG/Basics/Introduction",
+              "path": "/docs/TestNG/Basics/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Introduction",
-              "path": "/docs/TestNG/Introduction",
+              "id": "TestNG/Basics/Why TestNG",
+              "path": "/docs/TestNG/Basics/Why TestNG",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Listeners and RetryAnalyzer",
-              "path": "/docs/TestNG/Listeners and RetryAnalyzer",
+              "id": "TestNG/Configuration/Helper Attributes",
+              "path": "/docs/TestNG/Configuration/Helper Attributes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Parallel Exection",
-              "path": "/docs/TestNG/Parallel Exection",
+              "id": "TestNG/Configuration/TestNG XML",
+              "path": "/docs/TestNG/Configuration/TestNG XML",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Priority",
-              "path": "/docs/TestNG/Priority",
+              "id": "TestNG/Data-Driven/Data Provider",
+              "path": "/docs/TestNG/Data-Driven/Data Provider",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/TestNG Assertions",
-              "path": "/docs/TestNG/TestNG Assertions",
+              "id": "TestNG/Data-Driven/TestNG Parameters",
+              "path": "/docs/TestNG/Data-Driven/TestNG Parameters",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/TestNG Factory",
-              "path": "/docs/TestNG/TestNG Factory",
+              "id": "TestNG/Execution-Control/Dependencies",
+              "path": "/docs/TestNG/Execution-Control/Dependencies",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/TestNG Parameters",
-              "path": "/docs/TestNG/TestNG Parameters",
+              "id": "TestNG/Execution-Control/Groups",
+              "path": "/docs/TestNG/Execution-Control/Groups",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/TestNG XML",
-              "path": "/docs/TestNG/TestNG XML",
+              "id": "TestNG/Execution-Control/Parallel Exection",
+              "path": "/docs/TestNG/Execution-Control/Parallel Exection",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "TestNG/Why TestNG",
-              "path": "/docs/TestNG/Why TestNG",
+              "id": "TestNG/Execution-Control/Priority",
+              "path": "/docs/TestNG/Execution-Control/Priority",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -2906,6 +2906,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/basics",
+              "path": "/docs/category/basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/core-concepts",
+              "path": "/docs/category/core-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/test-automation-integration",
+              "path": "/docs/category/test-automation-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/ci-cd-integration",
+              "path": "/docs/category/ci-cd-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/troubleshooting-1",
+              "path": "/docs/category/troubleshooting-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/quick-reference",
+              "path": "/docs/category/quick-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/selenium-java",
               "path": "/docs/category/selenium-java",
               "sidebar": "tutorialSidebar"
@@ -2966,6 +2996,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/basics-1",
+              "path": "/docs/category/basics-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/assertions",
+              "path": "/docs/category/assertions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/data-driven",
+              "path": "/docs/category/data-driven",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/execution-control",
+              "path": "/docs/category/execution-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/configuration",
+              "path": "/docs/category/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/advanced-1",
+              "path": "/docs/category/advanced-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/apache-poi",
               "path": "/docs/category/apache-poi",
               "sidebar": "tutorialSidebar"
@@ -2986,8 +3046,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/basics",
-              "path": "/docs/category/basics",
+              "id": "/category/basics-2",
+              "path": "/docs/category/basics-2",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -3016,8 +3076,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/advanced-1",
-              "path": "/docs/category/advanced-1",
+              "id": "/category/advanced-2",
+              "path": "/docs/category/advanced-2",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -3143,6 +3203,41 @@
             {
               "id": "/category/python",
               "path": "/docs/category/python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/python-fundamentals",
+              "path": "/docs/category/python-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/data-structures",
+              "path": "/docs/category/data-structures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/object-oriented-programming",
+              "path": "/docs/category/object-oriented-programming",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/modules-and-packages",
+              "path": "/docs/category/modules-and-packages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/file-handling-and-exception-handling",
+              "path": "/docs/category/file-handling-and-exception-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/intermediate-python",
+              "path": "/docs/category/intermediate-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/api-and-automation",
+              "path": "/docs/category/api-and-automation",
               "sidebar": "tutorialSidebar"
             },
             {

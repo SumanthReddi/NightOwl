@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Control Flow and Range Function",
-    "permalink": "/docs/Python/Control Flow"
+    "title": "Functions and Scope",
+    "permalink": "/docs/Python/Python Fundamentals/Functions and Scopes"
   },
   "next": {
     "title": "Additional Python Data Structures and Concepts",

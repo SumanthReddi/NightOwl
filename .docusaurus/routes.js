@@ -114,11 +114,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c50'),
+    component: ComponentCreator('/docs', 'c95'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '114'),
+        component: ComponentCreator('/docs', '9fb'),
         routes: [
           {
             path: '/docs/tags',
@@ -462,7 +462,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '0bf'),
+            component: ComponentCreator('/docs', 'a3e'),
             routes: [
               {
                 path: '/docs/Agile/',
@@ -729,6 +729,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/advanced-2',
+                component: ComponentCreator('/docs/category/advanced-2', '6ff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/advanced-concepts',
                 component: ComponentCreator('/docs/category/advanced-concepts', 'be2'),
                 exact: true,
@@ -771,6 +777,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/api-and-automation',
+                component: ComponentCreator('/docs/category/api-and-automation', '151'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/api-testing',
                 component: ComponentCreator('/docs/category/api-testing', 'ab6'),
                 exact: true,
@@ -785,6 +797,12 @@ export default [
               {
                 path: '/docs/category/artifacts--workspace',
                 component: ComponentCreator('/docs/category/artifacts--workspace', '365'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/assertions',
+                component: ComponentCreator('/docs/category/assertions', '02f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -807,6 +825,18 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/basics-1',
+                component: ComponentCreator('/docs/category/basics-1', '94a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/basics-2',
+                component: ComponentCreator('/docs/category/basics-2', '890'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/best-practices',
                 component: ComponentCreator('/docs/category/best-practices', '1ba'),
                 exact: true,
@@ -819,6 +849,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/ci-cd-integration',
+                component: ComponentCreator('/docs/category/ci-cd-integration', '421'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/cicd-integration',
                 component: ComponentCreator('/docs/category/cicd-integration', '4af'),
                 exact: true,
@@ -827,6 +863,12 @@ export default [
               {
                 path: '/docs/category/collections-framework',
                 component: ComponentCreator('/docs/category/collections-framework', 'ac7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/configuration',
+                component: ComponentCreator('/docs/category/configuration', '52b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -845,6 +887,12 @@ export default [
               {
                 path: '/docs/category/core-apache-poi-object-model',
                 component: ComponentCreator('/docs/category/core-apache-poi-object-model', '441'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/core-concepts',
+                component: ComponentCreator('/docs/category/core-concepts', '409'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -885,8 +933,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/data-driven',
+                component: ComponentCreator('/docs/category/data-driven', '355'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/data-integration',
                 component: ComponentCreator('/docs/category/data-integration', 'f17'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/data-structures',
+                component: ComponentCreator('/docs/category/data-structures', '6fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -939,6 +999,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/execution-control',
+                component: ComponentCreator('/docs/category/execution-control', '1da'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/extent-report',
                 component: ComponentCreator('/docs/category/extent-report', 'a5b'),
                 exact: true,
@@ -947,6 +1013,12 @@ export default [
               {
                 path: '/docs/category/file-handling',
                 component: ComponentCreator('/docs/category/file-handling', 'c53'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/file-handling-and-exception-handling',
+                component: ComponentCreator('/docs/category/file-handling-and-exception-handling', 'cad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1043,6 +1115,12 @@ export default [
               {
                 path: '/docs/category/intermediate',
                 component: ComponentCreator('/docs/category/intermediate', 'd33'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/intermediate-python',
+                component: ComponentCreator('/docs/category/intermediate-python', 'b9d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1155,8 +1233,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/modules-and-packages',
+                component: ComponentCreator('/docs/category/modules-and-packages', 'd9f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/multithreading',
                 component: ComponentCreator('/docs/category/multithreading', 'd0c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/object-oriented-programming',
+                component: ComponentCreator('/docs/category/object-oriented-programming', '102'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1203,8 +1293,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/python-fundamentals',
+                component: ComponentCreator('/docs/category/python-fundamentals', '385'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/queue-implementations',
                 component: ComponentCreator('/docs/category/queue-implementations', '87e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/quick-reference',
+                component: ComponentCreator('/docs/category/quick-reference', '651'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -1311,6 +1413,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/test-automation-integration',
+                component: ComponentCreator('/docs/category/test-automation-integration', '78d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/test-design--implementation',
                 component: ComponentCreator('/docs/category/test-design--implementation', 'ad8'),
                 exact: true,
@@ -1331,6 +1439,12 @@ export default [
               {
                 path: '/docs/category/troubleshooting',
                 component: ComponentCreator('/docs/category/troubleshooting', '92f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/troubleshooting-1',
+                component: ComponentCreator('/docs/category/troubleshooting-1', 'ef2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -2427,152 +2541,152 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Cheat Sheet',
-                component: ComponentCreator('/docs/Maven/Cheat Sheet', 'cd8'),
+                path: '/docs/Maven/Basics/Introduction to Maven',
+                component: ComponentCreator('/docs/Maven/Basics/Introduction to Maven', '245'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Common Errors & Fixes',
-                component: ComponentCreator('/docs/Maven/Common Errors & Fixes', 'b36'),
+                path: '/docs/Maven/Basics/Maven Project Structure',
+                component: ComponentCreator('/docs/Maven/Basics/Maven Project Structure', '45d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Dependencies Management',
-                component: ComponentCreator('/docs/Maven/Dependencies Management', 'dc0'),
+                path: '/docs/Maven/Basics/Why Maven',
+                component: ComponentCreator('/docs/Maven/Basics/Why Maven', '707'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Introduction to Maven',
-                component: ComponentCreator('/docs/Maven/Introduction to Maven', 'eac'),
+                path: '/docs/Maven/CI-CD Integration/Maven + CICD',
+                component: ComponentCreator('/docs/Maven/CI-CD Integration/Maven + CICD', '9f0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Maven + CICD',
-                component: ComponentCreator('/docs/Maven/Maven + CICD', '19f'),
+                path: '/docs/Maven/Core Concepts/Dependencies Management',
+                component: ComponentCreator('/docs/Maven/Core Concepts/Dependencies Management', '3e4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Maven Lifecycle & Phases',
-                component: ComponentCreator('/docs/Maven/Maven Lifecycle & Phases', '5d5'),
+                path: '/docs/Maven/Core Concepts/Maven Lifecycle & Phases',
+                component: ComponentCreator('/docs/Maven/Core Concepts/Maven Lifecycle & Phases', 'b88'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Maven Project Structure',
-                component: ComponentCreator('/docs/Maven/Maven Project Structure', '30c'),
+                path: '/docs/Maven/Core Concepts/Plugins',
+                component: ComponentCreator('/docs/Maven/Core Concepts/Plugins', 'b68'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Plugins',
-                component: ComponentCreator('/docs/Maven/Plugins', 'bbc'),
+                path: '/docs/Maven/Core Concepts/pom.xml',
+                component: ComponentCreator('/docs/Maven/Core Concepts/pom.xml', 'bc7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/pom.xml',
-                component: ComponentCreator('/docs/Maven/pom.xml', 'fd1'),
+                path: '/docs/Maven/Quick Reference/Cheat Sheet',
+                component: ComponentCreator('/docs/Maven/Quick Reference/Cheat Sheet', 'cd6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/profiles',
-                component: ComponentCreator('/docs/Maven/profiles', 'e8b'),
+                path: '/docs/Maven/Test Automation Integration/profiles',
+                component: ComponentCreator('/docs/Maven/Test Automation Integration/profiles', 'deb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Running TestNG with Maven',
-                component: ComponentCreator('/docs/Maven/Running TestNG with Maven', 'a63'),
+                path: '/docs/Maven/Test Automation Integration/Running TestNG with Maven',
+                component: ComponentCreator('/docs/Maven/Test Automation Integration/Running TestNG with Maven', '659'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Maven/Why Maven',
-                component: ComponentCreator('/docs/Maven/Why Maven', 'a7b'),
+                path: '/docs/Maven/Troubleshooting/Common Errors & Fixes',
+                component: ComponentCreator('/docs/Maven/Troubleshooting/Common Errors & Fixes', 'b11'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Additional Python Data Structures',
-                component: ComponentCreator('/docs/Python/Additional Python Data Structures', 'b86'),
+                path: '/docs/Python/API and Automation/Web & API Basics',
+                component: ComponentCreator('/docs/Python/API and Automation/Web & API Basics', 'cbb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Control Flow',
-                component: ComponentCreator('/docs/Python/Control Flow', '146'),
+                path: '/docs/Python/Data Structures/',
+                component: ComponentCreator('/docs/Python/Data Structures/', 'd60'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Data Structures',
-                component: ComponentCreator('/docs/Python/Data Structures', '63e'),
+                path: '/docs/Python/Data Structures/Additional Python Data Structures',
+                component: ComponentCreator('/docs/Python/Data Structures/Additional Python Data Structures', 'a02'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Error Handling',
-                component: ComponentCreator('/docs/Python/Error Handling', '4da'),
+                path: '/docs/Python/File Handling and Exception Handling/Error Handling',
+                component: ComponentCreator('/docs/Python/File Handling and Exception Handling/Error Handling', '7dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/File Handling',
-                component: ComponentCreator('/docs/Python/File Handling', '4f0'),
+                path: '/docs/Python/File Handling and Exception Handling/File Handling',
+                component: ComponentCreator('/docs/Python/File Handling and Exception Handling/File Handling', '209'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Functions and Scopes',
-                component: ComponentCreator('/docs/Python/Functions and Scopes', '608'),
+                path: '/docs/Python/Intermediate Python/Intermediate Python Concepts',
+                component: ComponentCreator('/docs/Python/Intermediate Python/Intermediate Python Concepts', '1cd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Intermediate Python Concepts',
-                component: ComponentCreator('/docs/Python/Intermediate Python Concepts', '9d4'),
+                path: '/docs/Python/Intermediate Python/Pythonic Features and Best Practices',
+                component: ComponentCreator('/docs/Python/Intermediate Python/Pythonic Features and Best Practices', 'aa2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Modules and Packages',
-                component: ComponentCreator('/docs/Python/Modules and Packages', 'd80'),
+                path: '/docs/Python/Modules and Packages/',
+                component: ComponentCreator('/docs/Python/Modules and Packages/', '5d0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Object-Oriented Programming',
-                component: ComponentCreator('/docs/Python/Object-Oriented Programming', '982'),
+                path: '/docs/Python/Object-Oriented Programming/',
+                component: ComponentCreator('/docs/Python/Object-Oriented Programming/', 'd1f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Operators and Expressions',
-                component: ComponentCreator('/docs/Python/Operators and Expressions', '30d'),
+                path: '/docs/Python/Python Fundamentals/Control Flow',
+                component: ComponentCreator('/docs/Python/Python Fundamentals/Control Flow', 'cfa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Python Basics',
-                component: ComponentCreator('/docs/Python/Python Basics', '482'),
+                path: '/docs/Python/Python Fundamentals/Functions and Scopes',
+                component: ComponentCreator('/docs/Python/Python Fundamentals/Functions and Scopes', '684'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Pythonic Features and Best Practices',
-                component: ComponentCreator('/docs/Python/Pythonic Features and Best Practices', '52a'),
+                path: '/docs/Python/Python Fundamentals/Operators and Expressions',
+                component: ComponentCreator('/docs/Python/Python Fundamentals/Operators and Expressions', '4c3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Python/Web & API Basics',
-                component: ComponentCreator('/docs/Python/Web & API Basics', '77f'),
+                path: '/docs/Python/Python Fundamentals/Python Basics',
+                component: ComponentCreator('/docs/Python/Python Fundamentals/Python Basics', '158'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -4305,86 +4419,86 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Annotations & Execution Flow',
-                component: ComponentCreator('/docs/TestNG/Annotations & Execution Flow', 'd86'),
+                path: '/docs/TestNG/Advanced/Listeners and RetryAnalyzer',
+                component: ComponentCreator('/docs/TestNG/Advanced/Listeners and RetryAnalyzer', '69f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Data Provider',
-                component: ComponentCreator('/docs/TestNG/Data Provider', '94a'),
+                path: '/docs/TestNG/Advanced/TestNG Factory',
+                component: ComponentCreator('/docs/TestNG/Advanced/TestNG Factory', '53d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Dependencies',
-                component: ComponentCreator('/docs/TestNG/Dependencies', '5e0'),
+                path: '/docs/TestNG/Assertions/TestNG Assertions',
+                component: ComponentCreator('/docs/TestNG/Assertions/TestNG Assertions', '3db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Groups',
-                component: ComponentCreator('/docs/TestNG/Groups', '9e9'),
+                path: '/docs/TestNG/Basics/Annotations & Execution Flow',
+                component: ComponentCreator('/docs/TestNG/Basics/Annotations & Execution Flow', 'a36'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Helper Attributes',
-                component: ComponentCreator('/docs/TestNG/Helper Attributes', 'bb3'),
+                path: '/docs/TestNG/Basics/Introduction',
+                component: ComponentCreator('/docs/TestNG/Basics/Introduction', 'e69'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Introduction',
-                component: ComponentCreator('/docs/TestNG/Introduction', 'c13'),
+                path: '/docs/TestNG/Basics/Why TestNG',
+                component: ComponentCreator('/docs/TestNG/Basics/Why TestNG', '396'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Listeners and RetryAnalyzer',
-                component: ComponentCreator('/docs/TestNG/Listeners and RetryAnalyzer', '1ba'),
+                path: '/docs/TestNG/Configuration/Helper Attributes',
+                component: ComponentCreator('/docs/TestNG/Configuration/Helper Attributes', '7ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Parallel Exection',
-                component: ComponentCreator('/docs/TestNG/Parallel Exection', '876'),
+                path: '/docs/TestNG/Configuration/TestNG XML',
+                component: ComponentCreator('/docs/TestNG/Configuration/TestNG XML', '394'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Priority',
-                component: ComponentCreator('/docs/TestNG/Priority', '23f'),
+                path: '/docs/TestNG/Data-Driven/Data Provider',
+                component: ComponentCreator('/docs/TestNG/Data-Driven/Data Provider', '8e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/TestNG Assertions',
-                component: ComponentCreator('/docs/TestNG/TestNG Assertions', '8df'),
+                path: '/docs/TestNG/Data-Driven/TestNG Parameters',
+                component: ComponentCreator('/docs/TestNG/Data-Driven/TestNG Parameters', 'ec3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/TestNG Factory',
-                component: ComponentCreator('/docs/TestNG/TestNG Factory', 'f81'),
+                path: '/docs/TestNG/Execution-Control/Dependencies',
+                component: ComponentCreator('/docs/TestNG/Execution-Control/Dependencies', '6e3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/TestNG Parameters',
-                component: ComponentCreator('/docs/TestNG/TestNG Parameters', 'df9'),
+                path: '/docs/TestNG/Execution-Control/Groups',
+                component: ComponentCreator('/docs/TestNG/Execution-Control/Groups', 'f8f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/TestNG XML',
-                component: ComponentCreator('/docs/TestNG/TestNG XML', 'f10'),
+                path: '/docs/TestNG/Execution-Control/Parallel Exection',
+                component: ComponentCreator('/docs/TestNG/Execution-Control/Parallel Exection', 'a59'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/TestNG/Why TestNG',
-                component: ComponentCreator('/docs/TestNG/Why TestNG', '1d1'),
+                path: '/docs/TestNG/Execution-Control/Priority',
+                component: ComponentCreator('/docs/TestNG/Execution-Control/Priority', '4d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

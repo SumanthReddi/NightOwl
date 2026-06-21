@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Functions and Scope",
-    "permalink": "/docs/Python/Functions and Scopes"
+    "title": "Modules and Packages",
+    "permalink": "/docs/Python/Modules and Packages/"
   },
   "next": {
     "title": "Error Handling",

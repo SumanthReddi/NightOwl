@@ -1,0 +1,9 @@
+  {
+    "label": "Test Automation Integration",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Practical Maven usage for build, dependency, and test execution management."
+    }
+  }
+
