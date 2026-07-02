@@ -125,11 +125,11 @@ String s2 = "Java";
 ```
 
 Memory representation:
-
+```
     String Pool
     -------------
     "Java"  ← s1, s2 
-
+```
 Only **one object exists**, both variables reference it.
 
 ------------------------------------------------------------------------

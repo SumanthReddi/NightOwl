@@ -239,3 +239,4 @@ Applying OOPS principles makes an automation framework:
 A good automation framework is not about writing more code; it's about writing better, reusable, and maintainable code.
 
 ![alt img](../../Images/Oops%20in%20Automation.jpg)
+![alt img](../../Images/OOPS%20in%20Framework.jpeg)

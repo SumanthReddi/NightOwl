@@ -93,6 +93,9 @@ Guideline:
 - **Given** → Preconditions  
 - **When** → Action  
 - **Then** → Expected result  
+- **And** → addition to the previous step and represent positive statement.  
+- **But** → addition to the previous step and represent negitive statement.  
+
 
 ---
 

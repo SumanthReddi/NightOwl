@@ -13,107 +13,117 @@ Scope is **UI automation only** (Selenium 4+). No API/DB deep dive.
 
 ## Framework Design Questions
 
-### Q1. What makes a Selenium framework scalable?
-**Answer:**
+## 🎤 Interview Questions
+
+<details>
+<summary>What makes a Selenium framework scalable?</summary>
+
 - Clear separation of page and test responsibility
 - Stable locator strategy
 - Centralized waits
 - Reusable page actions
 
----
+</details>
 
-### Q2. Where should waits be implemented?
-**Answer:**
+<details>
+<summary>Where should waits be implemented?</summary>
+
 Inside page classes, not in test classes.
 
----
+</details>
 
-### Q3. Should Page Objects return WebElements?
-**Answer:**
+<details>
+<summary>Should Page Objects return WebElements?</summary>
+
 No. Page Objects should expose **behavior**, not elements.
 
----
+</details>
 
-### Q4. How do you reduce duplicate code in Selenium frameworks?
-**Answer:**
+<details>
+<summary>How do you reduce duplicate code in Selenium frameworks?</summary>
+
 By centralizing common UI actions inside page classes and utility layers.
 
-### Q5. Explain your framework ?
-**Answer:**
+</details>
+
+<details>
+<summary>Explain your framework.</summary>
+
 ![alt img](../../Images/Framework%20Explanation.jpg)
 
----
+</details>
 
-## CI/CD Related Questions
+<details>
+<summary>Why do Selenium tests fail more in CI than locally?</summary>
 
-### Q5. Why do Selenium tests fail more in CI than locally?
-**Answer:**
 Because CI environments are slower, headless, and often run tests in parallel.
 
----
+</details>
 
-### Q6. How do you make Selenium tests CI-friendly?
-**Answer:**
+<details>
+<summary>How do you make Selenium tests CI-friendly?</summary>
+
 - Use headless mode
 - Avoid Thread.sleep
 - Use explicit waits
 - Keep tests independent
 
----
+</details>
 
-### Q7. What browser configuration changes are needed for CI?
-**Answer:**
+<details>
+<summary>What browser configuration changes are needed for CI?</summary>
+
 - Headless execution
 - Fixed window size
 - Disable unnecessary browser UI
 
----
+</details>
 
-## Parallel Execution Questions
+<details>
+<summary>What issues appear during parallel execution?</summary>
 
-### Q8. What issues appear during parallel execution?
-**Answer:**
 - Shared test data conflicts
 - Session leakage
 - Race conditions
 
----
+</details>
 
-### Q9. How do you design tests for parallel execution?
-**Answer:**
+<details>
+<summary>How do you design tests for parallel execution?</summary>
+
 - Make tests stateless
 - Isolate test data
 - Avoid static/shared variables
 
----
+</details>
 
-## Stability & Maintenance
+<details>
+<summary>How do you handle flaky tests in CI?</summary>
 
-### Q10. How do you handle flaky tests in CI?
-**Answer:**
-Identify root cause, fix synchronization or locators — never rely on retries.
+Identify the root cause, fix synchronization or locator issues, and never rely on retries.
 
----
+</details>
 
-### Q11. Is retry logic a good solution?
-**Answer:**
+<details>
+<summary>Is retry logic a good solution?</summary>
+
 No. Retries hide real issues and reduce trust in automation.
 
----
+</details>
 
-## Reporting & Debugging
+<details>
+<summary>What artifacts help debug CI failures?</summary>
 
-### Q12. What artifacts help debug CI failures?
-**Answer:**
 Screenshots, logs, videos (if available), and timestamps.
 
----
+</details>
 
-### Q13. How do you know if a failure is test-related or app-related?
-**Answer:**
-By analyzing consistency, logs, screenshots, and manual reproduction.
+<details>
+<summary>How do you know if a failure is test-related or app-related?</summary>
 
----
+Analyze failure consistency, logs, screenshots, and verify the issue through manual reproduction.
+
+</details>
 
 ## Common Interview Red Flags ❌
 
